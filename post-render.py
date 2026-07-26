@@ -295,7 +295,7 @@ AI_AGENTS = [
 def write_robots(base: str) -> bool:
     """Replace Quarto's robots.txt with one that says yes on purpose."""
     lines = [
-        "# This site is meant to be read — by people, search engines and",
+        "# This site is meant to be read, by people, search engines and",
         "# assistants alike. Nothing here is behind a crawl restriction.",
         "",
         "# Content Signals (contentsignals.org). The permission the User-agent",

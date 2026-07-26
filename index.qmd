@@ -7,8 +7,8 @@ description: "Psychiatry resident and computational psychiatry researcher at Ond
 
 ::: {.lede}
 Psychiatry resident at Ondokuz Mayıs University, Samsun. I design measurement
-instruments together with engineering collaborators, build the software and
-models that run on them, and use both to ask how the brain decides what to
+instruments together with engineering collaborators. I write the software and
+the models that run on them. I use both to study how the brain decides what to
 believe.
 :::
 
@@ -42,11 +42,10 @@ In design &middot; [protocol]{.status .pending}
 :::
 ### Akathisia as active inference {.title}
 
-Akathisia treated as an attempt to make the world fit the model, rather than
-the model fit the world. Aripiprazole is the instrument here: if dopamine
-encodes the precision of prediction errors, a D2 partial agonist should act
-less like a dial and more like a clamp on that precision, rather than simply
-lowering it.
+Akathisia treated as an attempt to make the world fit the model instead of
+fitting the model to the world. Aripiprazole is the instrument here: if
+dopamine encodes the precision of prediction errors, a D2 partial agonist
+should clamp that precision rather than simply lower it.
 :::
 
 ::: {.entry}
