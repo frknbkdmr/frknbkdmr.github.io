@@ -68,6 +68,18 @@ ul.task-list li input[type="checkbox"] {
 <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
 
+<!-- RFC 8288 links, expressed as HTML elements. GitHub Pages serves static
+     files and cannot set a Link: response header, but the spec treats both
+     carriers as the same thing. Only relations with something real behind
+     them: rel=author names the authoritative record for the person, rel=me
+     asserts the profiles are the same identity — the HTML-level counterpart
+     of sameAs below, which parsers that never read JSON-LD still consume. -->
+<link rel="author" href="https://orcid.org/0000-0002-7236-5776">
+<link rel="me" href="https://orcid.org/0000-0002-7236-5776">
+<link rel="me" href="https://github.com/frknbkdmr">
+<link rel="me" href="https://osf.io/m7kez/">
+<link rel="me" href="https://www.researchgate.net/profile/Furkan-Bekdemir">
+
 <!-- Identity block. Every URL below must resolve to the same person; this is
      what lets search engines and knowledge graphs merge the profiles. -->
 <script type="application/ld+json">
