@@ -11,6 +11,7 @@ project:
     # the custom domain on the next deploy.
     - CNAME               # furkanbekdemir.com; apex A records live since 2026-07-26
     - yandex_97bb922f930d7b26.html   # Yandex Webmaster ownership check
+    - og-image.png
     - favicon.ico
     - favicon-32.png
     - apple-touch-icon.png
@@ -21,6 +22,9 @@ website:
   description: "Psychiatry resident and computational psychiatry researcher at Ondokuz Mayıs University. Belief updating, sensory attenuation, and instrumentation for psychiatric research."
   site-url: "https://furkanbekdemir.com"
   favicon: favicon.svg
+  # Shown when the site is pasted into LinkedIn, WhatsApp and the like.
+  # Regenerate with `python make-og-image.py`.
+  image: og-image.png
   open-graph: true
   twitter-card: true
   # Five static pages reachable from the navbar; the search bundle
