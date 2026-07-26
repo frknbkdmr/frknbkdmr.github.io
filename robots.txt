@@ -51,4 +51,9 @@ Allow: /
 User-agent: Bytespider
 Allow: /
 
+# The whole site as markdown, for agents that would rather not parse
+# the HTML. This host cannot negotiate on Accept, so it is a fixed path.
+# https://furkanbekdemir.com/llms.txt
+# https://furkanbekdemir.com/llms-full.txt
+
 Sitemap: https://furkanbekdemir.com/sitemap.xml

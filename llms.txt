@@ -1,0 +1,15 @@
+# Furkan Bekdemir
+
+> Psychiatry resident and computational psychiatry researcher at Ondokuz Mayıs University, Samsun. Belief updating, sensory attenuation, and instrumentation for psychiatric research.
+
+ORCID: https://orcid.org/0000-0002-7236-5776
+Code: https://github.com/frknbkdmr
+Full text of every page: https://furkanbekdemir.com/llms-full.txt
+
+## Pages
+
+- [Home](https://furkanbekdemir.com/): Psychiatry resident and computational psychiatry researcher at Ondokuz Mayıs University.
+- [Research](https://furkanbekdemir.com/research): Belief updating and sensory attenuation in schizophrenia, akathisia as active inference, and effort-based decision making in multiple sclerosis.
+- [Instruments and code](https://furkanbekdemir.com/tools): Behavioural paradigms, hardware, and analysis code built for psychiatric research: force-matching devices, beads tasks, and HGF modelling.
+- [CV](https://furkanbekdemir.com/cv): Curriculum vitae of Furkan Bekdemir, MD — psychiatry resident and computational psychiatry researcher at Ondokuz Mayıs University, Samsun.
+- [Notlar](https://furkanbekdemir.com/notlar): Hesaplamalı psikiyatri, kestirimsel işlemleme ve klinik akıl yürütme üzerine Türkçe notlar.

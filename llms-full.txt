@@ -1,0 +1,234 @@
+# Furkan Bekdemir
+
+> Psychiatry resident and computational psychiatry researcher at Ondokuz Mayıs University, Samsun. Belief updating, sensory attenuation, and instrumentation for psychiatric research.
+
+Source: https://furkanbekdemir.com  ·  ORCID: https://orcid.org/0000-0002-7236-5776
+
+---
+
+# Furkan Bekdemir
+
+URL: https://furkanbekdemir.com/
+
+Psychiatry resident at Ondokuz Mayıs University, Samsun. I design measurement
+instruments together with engineering collaborators, build the software and
+models that run on them, and use both to ask how the brain decides what to
+believe.
+
+fig. belief about a reversing contingency, with uncertainty. learning rate rises with surprise.
+
+## Current work
+Residency thesis · BAP04-B-2026-6538 · in preparation
+
+### Belief updating and sensory attenuation in schizophrenia
+Whether delusions track a failure of belief revision, a failure to attenuate
+self-generated sensation, or both. Beads task modelled with the Hierarchical
+Gaussian Filter, alongside a force-matching task run on a device built for
+the study. Supervised by Prof. Dr. Gökhan Sarısoy; registration pending.
+
+In design · protocol
+
+In collection
+
+### Effort and reward in multiple sclerosis
+Separating fatigue from depression in MS by modelling effort-based decisions,
+in collaboration with the Department of Neurology.
+
+## Elsewhere
+[ORCID](https://orcid.org/0000-0002-7236-5776) ·
+[GitHub](https://github.com/frknbkdmr) ·
+[OSF](https://osf.io/m7kez/) ·
+contact furkan [at] furkanbekdemir.com
+
+---
+
+# Research
+
+URL: https://furkanbekdemir.com/research
+
+Three open questions and one study already presented, all built on the same
+method. All of them are about how a brain weighs what it already believes
+against what it is currently being told.
+
+## Belief updating and sensory attenuation in schizophrenia
+Residency thesis · BAP04-B-2026-6538 · in preparation\
+Supervisor · Prof. Dr. Gökhan Sarısoy · Ondokuz Mayıs University
+
+Two accounts of delusion sit side by side in the literature and are rarely
+tested in the same people. One says beliefs are revised on too little
+evidence. The other says self-generated sensation is not attenuated, so
+ordinary actions carry the weight of external events.
+
+The study runs both: a beads task modelled with the Hierarchical Gaussian
+Filter, and a force-matching task on a device built for this protocol.
+Model and parameter recovery are run before data collection. The analysis plan
+is written; public registration is pending.
+
+## Akathisia as active inference
+In design · protocol
+
+Prediction error can be resolved two ways: revise the model, or act on the
+world until the sensory evidence matches it. One account treats delusion as a
+pathology of the first route, though that remains an active debate rather than
+a settled finding. Akathisia may be a pathology of the second — an inner
+restlessness that may be the felt quality of an error no action can close.
+
+## Effort and reward in multiple sclerosis
+In collection · with the Department of Neurology
+
+Fatigue and depression in MS overlap on every questionnaire that tries to tell
+them apart. Effort-based decision making offers a behavioural separation:
+whether the cost of action or the value of the outcome is what has changed.
+
+## Belief updating in generalized anxiety disorder
+Presented 2026 · 28th National Clinical Education Symposium
+· presented
+
+The same method, applied earlier and to a different disorder: belief updating
+in generalized anxiety disorder, modelled with the Hierarchical Gaussian
+Filter. Oral presentation, with Selçuk Özdin. This is a separate study from
+the schizophrenia thesis above, not a preliminary stage of it — it is where
+the modelling approach the thesis depends on was first worked out.
+
+---
+
+# Instruments and code
+
+URL: https://furkanbekdemir.com/tools
+
+Most of what I make is not a paper. Devices, tasks and analysis pipelines are
+research output too, and they are easier to check than a methods section.
+
+## Force-matching device
+Hardware · for the thesis protocol · calibrating
+
+A two-channel force transducer rig for the force-matching task, designed and
+machined in-house with my brother Anıl Bekdemir, a mechanical engineer. The
+acquisition software is mine. Built because commercial equivalents cost more
+than the grant and could not be modified.
+
+Mechanically complete; calibration is still in progress. The calibration data
+and build notes will be published with it.
+
+## Beads task
+PsychoPy · to publish
+
+Probabilistic reasoning task with trial-level logging, written for modelling
+rather than for summary scores.
+
+## HGF analysis pipeline
+Python / TAPAS · to publish
+
+Model fitting, parameter and model recovery, and Bayesian model selection,
+with the recovery simulations that ran before any participant was seen.
+
+## GÖRÜNGÜ
+Python · OpenCV · MIT · public
+
+Optical mark recognition and automatic scoring for paper psychiatric
+assessment forms, so that scale batteries stop being typed in by hand.
+Interactive template design, per-form threshold tuning, automatic alignment of
+photographed sheets, and CSV export.
+[Repository](https://github.com/frknbkdmr/gorungu).
+
+---
+
+each repository will carry a CITATION.cff, an ORCID, and a Zenodo DOI
+
+---
+
+# CV
+
+URL: https://furkanbekdemir.com/cv
+
+Furkan Bekdemir, MD. Psychiatry resident, Ondokuz Mayıs University Faculty of
+Medicine, Samsun, Türkiye.
+
+## Position
+**Resident physician and research assistant**, Department of Psychiatry,
+Ondokuz Mayıs University.
+
+## Research interests
+Computational psychiatry; predictive processing and active inference; belief
+updating and sensory attenuation; psychosis; instrumentation and measurement
+for psychiatric research.
+
+## Education
+2022 – present
+
+### Psychiatry residency
+Ondokuz Mayıs University.
+
+2015 – 2021
+
+### Doctor of Medicine
+Ondokuz Mayıs University Faculty of Medicine.
+
+## Funding
+2026 · BAP04-B-2026-6538
+
+### Belief updating and sensory attenuation in schizophrenia
+Ondokuz Mayıs University Scientific Research Projects Unit.
+Supervisor: Prof. Dr. Gökhan Sarısoy.
+
+## Presentations
+2026 · 28th National Clinical Education Symposium
+
+### Belief updating in generalized anxiety disorder modelled with the Hierarchical Gaussian Filter
+Oral presentation, with Selçuk Özdin.
+
+2025 · 27th National Clinical Education Symposium
+
+### Assessment of personality traits, impulsivity, and gambling-related cognitions in patients with gambling disorder
+Oral presentation, with Selçuk Özdin.
+
+## Certifications
+2024
+
+### Introduction to Statistics
+Stanford University, via Coursera. Non-degree online course.
+
+2023
+
+### Computational Neuroscience
+University of Washington, via Coursera. Non-degree online course.
+
+## Technical
+Python, C, x86 assembly, reverse engineering. PsychoPy, TAPAS/HGF,
+OpenCV. Hardware design and calibration for behavioural tasks.
+
+## Contact
+furkan [at] furkanbekdemir.com ·
+[ORCID](https://orcid.org/0000-0002-7236-5776)
+
+a PDF version will live here
+
+---
+
+# Notlar
+
+URL: https://furkanbekdemir.com/notlar
+
+Hesaplamalı psikiyatri üzerine, klinik okura yazılmış kapsamlı bir Türkçe
+kaynağa rastlamadım. Terimlerin karşılığı da oturmuş değil. Buradaki notlar o
+boşluğu doldurma denemesi.
+
+## Planlanan yazılar
+### Öngörü hatası, kesinlik ve psikiyatrik belirti
+Bayesçi beyin çerçevesinin klinik okur için girişi: öngörü hatası ne demek,
+kesinlik ağırlıklandırması neyi belirler, ve bunlar muayenehanede gördüğümüz
+belirtilere nasıl bağlanır.
+
+### Hiyerarşik Gauss filtresi nedir, ne işe yarar
+Modelin parametreleri klinik olarak ne anlatır, model karşılaştırması neden
+zorunludur, ve bir hesaplamalı bulguya ne zaman güvenilir.
+
+### Akatizi: aktif çıkarım çerçevesinden bir bakış
+D2 kısmi agonizmasının sağladığı matematiksel zemin ve akatizinin öznel /
+nesnel ayrışmasının kuramsal karşılığı.
+
+---
+
+terimler için önerilen karşılıklar burada toplanacak
+
+---
