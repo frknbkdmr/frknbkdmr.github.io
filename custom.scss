@@ -1,0 +1,124 @@
+/*-- scss:defaults --*/
+
+// Palette: laboratory instrument, not paper. Cool ground, ink with a blue cast,
+// one signal colour for measurement and one for prediction error.
+$ground:        #F7F8F7;
+$ink:           #14181C;
+$ink-soft:      #5A646E;
+$rule:          #D9DEDC;
+$signal:        #1D5C8A;   // measurement / posterior
+$error:         #B4622A;   // prediction error, used sparingly
+
+$body-bg:       $ground;
+$body-color:    $ink;
+$link-color:    $signal;
+$font-family-sans-serif: "IBM Plex Sans", system-ui, sans-serif;
+$font-family-monospace:  "IBM Plex Mono", ui-monospace, monospace;
+$headings-font-family:   "IBM Plex Serif", Georgia, serif;
+$font-size-root: 17px;
+$body-line-height: 1.62;
+
+/*-- scss:rules --*/
+
+body { -webkit-font-smoothing: antialiased; }
+
+.page-columns, main.content {
+  max-width: 43rem;
+}
+
+/* ---- Type ---------------------------------------------------------- */
+
+h1, h2, h3 { font-weight: 500; letter-spacing: -0.012em; }
+h1 { font-size: 2.35rem; line-height: 1.15; margin-bottom: .4rem; }
+h2 {
+  font-size: 1.28rem;
+  margin-top: 3.2rem;
+  padding-top: .5rem;
+  border-top: 1px solid $rule;
+}
+h3 { font-size: 1.04rem; margin-top: 2rem; }
+
+.lede { font-size: 1.14rem; color: $ink-soft; max-width: 36rem; }
+
+/* Axis-tick section labels: the site is an instrument panel, so structural
+   markers read as scale ticks rather than decorative numbering. */
+.k {
+  font-family: $font-family-monospace;
+  font-size: .70rem;
+  letter-spacing: .10em;
+  text-transform: uppercase;
+  color: $ink-soft;
+}
+.k::before { content: "\2502\00a0\00a0"; color: $rule; }
+
+/* ---- Hero trace ---------------------------------------------------- */
+
+.trace { margin: 2rem 0 2.6rem; }
+.trace svg { width: 100%; height: 190px; display: block; }
+.t-band  { fill: rgba(29,92,138,.13); stroke: none; }
+.t-line  { fill: none; stroke: $signal; stroke-width: 2.4; vector-effect: non-scaling-stroke; }
+.t-truth { fill: none; stroke: $error; stroke-width: 1.4; stroke-dasharray: 5 5; opacity: .8;
+           vector-effect: non-scaling-stroke; }
+.t-ticks line { stroke: $ink-soft; stroke-width: 1; opacity: .45; vector-effect: non-scaling-stroke; }
+.trace figcaption {
+  font-family: $font-family-monospace;
+  font-size: .72rem;
+  color: $ink-soft;
+  margin-top: .7rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .t-line { stroke-dasharray: 4000; stroke-dashoffset: 4000; animation: draw 2.4s ease-out forwards; }
+  .t-band, .t-truth, .t-ticks { opacity: 0; animation: fade .9s ease-out 1.5s forwards; }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+  @keyframes fade { to { opacity: 1; } }
+  .t-band  { animation-name: fade; }
+}
+
+/* ---- Entries ------------------------------------------------------- */
+
+.entry { margin: 1.9rem 0; }
+.entry .meta {
+  font-family: $font-family-monospace;
+  font-size: .74rem;
+  color: $ink-soft;
+  margin-bottom: .2rem;
+}
+.entry .title { font-weight: 500; }
+.entry p { margin: .35rem 0 0; color: $ink-soft; }
+
+.status {
+  font-family: $font-family-monospace;
+  font-size: .68rem;
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  border: 1px solid $rule;
+  border-radius: 2px;
+  padding: .08rem .38rem;
+  color: $ink-soft;
+}
+.status.live { color: $signal; border-color: rgba(29,92,138,.4); }
+
+/* ---- Chrome -------------------------------------------------------- */
+
+.navbar {
+  background: transparent !important;
+  border-bottom: 1px solid $rule;
+  font-family: $font-family-monospace;
+  font-size: .80rem;
+}
+.navbar .navbar-brand { font-family: $headings-font-family; font-size: 1rem; letter-spacing: .01em; }
+.nav-footer {
+  border-top: 1px solid $rule;
+  font-family: $font-family-monospace;
+  font-size: .74rem;
+  color: $ink-soft;
+}
+
+a { text-underline-offset: .18em; text-decoration-thickness: .06em; }
+a:focus-visible { outline: 2px solid $signal; outline-offset: 3px; }
+
+@media (max-width: 640px) {
+  h1 { font-size: 1.85rem; }
+  .trace svg { height: 130px; }
+}

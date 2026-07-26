@@ -1,0 +1,62 @@
+---
+title: "Instruments and code"
+---
+
+::: {.lede}
+Most of what I make is not a paper. Devices, tasks and analysis pipelines are
+research output too, and they are easier to check than a methods section.
+:::
+
+## Force-matching device {.k-head}
+
+::: {.entry}
+::: {.meta}
+Hardware &middot; built for the thesis protocol
+:::
+:::
+
+A two-channel force transducer rig for the force-matching task, designed and
+machined in-house with a mechanical engineer, with its own acquisition
+software and calibration routine. Built because commercial equivalents cost
+more than the grant and could not be modified.
+
+*Calibration data and build notes to follow.*
+
+## Beads task {.k-head}
+
+::: {.entry}
+::: {.meta}
+PsychoPy &middot; [to publish]{.status}
+:::
+:::
+
+Probabilistic reasoning task with trial-level logging, written for modelling
+rather than for summary scores.
+
+## HGF analysis pipeline {.k-head}
+
+::: {.entry}
+::: {.meta}
+Python / TAPAS &middot; [to publish]{.status}
+:::
+:::
+
+Model fitting, parameter and model recovery, and Bayesian model selection,
+with the recovery simulations that ran before any participant was seen.
+
+## GÖRÜNGÜ {.k-head}
+
+::: {.entry}
+::: {.meta}
+Python &middot; OpenCV &middot; in development
+:::
+:::
+
+Optical mark recognition for paper psychiatric assessment forms, so that scale
+batteries stop being typed in by hand.
+
+---
+
+::: {.k}
+each repository will carry a CITATION.cff, an ORCID, and a Zenodo DOI
+:::

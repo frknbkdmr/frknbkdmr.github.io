@@ -1,0 +1,48 @@
+---
+title: "CV"
+---
+
+::: {.lede}
+Furkan Bekdemir, MD. Psychiatry resident, Ondokuz Mayıs University Faculty of
+Medicine, Samsun, Türkiye.
+:::
+
+## Position {.k-head}
+
+**Resident physician and research assistant**, Department of Psychiatry,
+Ondokuz Mayıs University. Chief resident since February 2026.
+
+## Research interests {.k-head}
+
+Computational psychiatry; predictive processing and active inference; belief
+updating and sensory attenuation; psychosis; instrumentation and measurement
+for psychiatric research.
+
+## Funding {.k-head}
+
+::: {.entry}
+::: {.meta}
+2026 &middot; BAP04-B-2026-6538
+:::
+[Belief updating and sensory attenuation in schizophrenia]{.title}
+
+Ondokuz Mayıs University Scientific Research Projects Unit.
+:::
+
+## Presentations {.k-head}
+
+*To be listed.*
+
+## Technical {.k-head}
+
+Python, C, x86 assembly, reverse engineering. PsychoPy, TAPAS/HGF,
+OpenCV. Hardware design and calibration for behavioural tasks.
+
+## Contact {.k-head}
+
+furkan [at] furkanbekdemir.com &middot;
+[ORCID](https://orcid.org/0000-0000-0000-0000)
+
+::: {.k}
+a PDF version will live here
+:::

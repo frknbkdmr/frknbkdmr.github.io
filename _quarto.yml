@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - CNAME
+
+website:
+  title: "Furkan Bekdemir"
+  description: "Psychiatry resident and computational psychiatry researcher at Ondokuz Mayıs University. Belief updating, sensory attenuation, and instrumentation for psychiatric research."
+  site-url: "https://furkanbekdemir.com"
+  favicon: favicon.svg
+  navbar:
+    pinned: true
+    left:
+      - text: "Research"
+        href: research.qmd
+      - text: "Instruments &amp; code"
+        href: tools.qmd
+      - text: "Notlar"
+        href: notlar.qmd
+      - text: "CV"
+        href: cv.qmd
+  page-footer:
+    left: "Furkan Bekdemir, MD &middot; Department of Psychiatry, Ondokuz Mayıs University, Samsun"
+    right:
+      - text: "ORCID"
+        href: "https://orcid.org/0000-0002-7236-5776"
+      - text: "GitHub"
+        href: "https://github.com/frknbkdmr"
+      - text: "OSF"
+        href: "https://osf.io/m7kez/"
+
+format:
+  html:
+    theme: [cosmo, custom.scss]
+    toc: false
+    anchor-sections: false
+    include-in-header: head.html
+    link-external-newwindow: true

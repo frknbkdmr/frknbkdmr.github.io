@@ -1,0 +1,40 @@
+---
+title: "Notlar"
+lang: tr
+---
+
+::: {.lede}
+Hesaplamalı psikiyatri Türkçede henüz yazılmadı. Terimlerin karşılığı
+oturmamış, klinik okura yazılmış bir metin yok. Buradaki notlar o boşluğu
+doldurma denemesi.
+:::
+
+## Planlanan yazılar {.k-head}
+
+::: {.entry}
+[Öngörü hatası, kesinlik ve psikiyatrik belirti]{.title}
+
+Bayesçi beyin çerçevesinin klinik okur için girişi: öngörü hatası ne demek,
+kesinlik ağırlıklandırması neyi belirler, ve bunlar muayenehanede gördüğümüz
+belirtilere nasıl bağlanır.
+:::
+
+::: {.entry}
+[Hiyerarşik Gauss filtresi nedir, ne işe yarar]{.title}
+
+Modelin parametreleri klinik olarak ne anlatır, model karşılaştırması neden
+zorunludur, ve bir hesaplamalı bulguya ne zaman güvenilir.
+:::
+
+::: {.entry}
+[Akatizi: aktif çıkarım çerçevesinden bir bakış]{.title}
+
+D2 kısmi agonizmasının sağladığı matematiksel zemin ve akatizinin öznel /
+nesnel ayrışmasının kuramsal karşılığı.
+:::
+
+---
+
+::: {.k}
+terimler için önerilen karşılıklar burada toplanacak
+:::
