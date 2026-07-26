@@ -18,24 +18,35 @@ Bekdemir F, Özdin S, Satılmış B, Aydın Öztemel R, Bolat R, Ünsal Çelebi 
 
 Gambling disorder is usually treated as one behavioural category. This study
 looked at three things together in the same patients — personality traits,
-impulsivity, and the beliefs people hold about gambling itself — to ask
-whether the psychology behind the disorder differs by who is affected and by
-how early the problem started.
+impulsivity, and the beliefs people hold about gambling itself — and asked how
+each relates to how severe the disorder is.
 
-Participants were adults in treatment at the Ondokuz Mayıs University
-psychiatry outpatient clinic and at AMATEM in Samsun, diagnosed by DSM-5
-criteria. Severity was measured with the South Oaks Gambling Screen,
-cognitive distortions with the Gambling-Related Cognitions Scale, impulsivity
-with the Barratt Impulsiveness Scale short form, and personality with the
-Eysenck Personality Inventory, alongside PHQ-9 and GAD-7.
+Forty-three patients presenting to the Ondokuz Mayıs University psychiatry
+clinic and to the AMATEM clinic at Samsun Mental Health and Diseases Hospital
+between October 2024 and February 2025 took part; 40 were men, mean age
+32.7 ± 8.5 years, and they had started gambling at 26.7 ± 8.3 on average.
+Severity was measured with the South Oaks Gambling Screen, cognitive
+distortions with the Gambling-Related Cognitions Scale, impulsivity with the
+Barratt Impulsiveness Scale short form, and personality with the Eysenck
+Personality Inventory, alongside PHQ-9 and GAD-7. Approved by the Ondokuz
+Mayıs University Clinical Research Ethics Committee (2025/27).
 
-::: {.k}
-findings are in the published abstract; the record above is authoritative
-:::
+Severity correlated with one specific distortion — the belief that chance
+outcomes can be interpreted or controlled (r = 0.326, p = .040). Age of onset
+correlated negatively with gambling-related expectancies (r = −0.427,
+p = .006) and with the lack-of-planning facet of impulsivity (r = −0.341,
+p = .031): people who began gambling later expected less from it and scored as
+more planned than those who began young.
+
+The published conclusion is that age of onset may mark different clinical
+forms of the disorder, later-onset gambling looking like the more isolated
+kind, and that cognitions are worth treating as a target. These are
+correlations in a single clinical sample, so they describe a pattern rather
+than establish a mechanism.
 
 This work sits apart from the computational thread running through the rest of
-this page — it came out of clinical service rather than out of the modelling
-programme, and shares neither its method nor its question.
+the research pages — it came out of clinical service rather than out of the
+modelling programme, and shares neither its method nor its question.
 
 ```{=html}
 <script type="application/ld+json">

@@ -64,6 +64,7 @@ generalized anxiety disorder.
 :::
 ### [Personality, impulsivity and gambling-related cognitions in gambling disorder](gambling.qmd){.title}
 
-A clinical study from outpatient and addiction-service work. It sits apart
-from the computational thread above.
+Forty-three patients in treatment. Age of onset tracked what people expected
+from gambling and how they planned — a clinical study, apart from the
+computational thread above.
 :::
