@@ -49,90 +49,6 @@ contact furkan [at] furkanbekdemir.com
 
 ---
 
-# Research
-
-URL: https://furkanbekdemir.com/research
-
-Three open questions and one study already presented, all built on the same
-method. All of them are about how a brain weighs what it already believes
-against what it is currently being told.
-
-## Belief updating and sensory attenuation in schizophrenia
-Residency thesis · BAP04-B-2026-6538 · in preparation\
-Supervisor · Prof. Dr. Gökhan Sarısoy · Ondokuz Mayıs University
-
-Two accounts of delusion sit side by side in the literature and are rarely
-tested in the same people. One says beliefs are revised on too little
-evidence. The other says self-generated sensation is not attenuated, so
-ordinary actions carry the weight of external events.
-
-The study runs both: a beads task modelled with the Hierarchical Gaussian
-Filter, and a force-matching task on a device built for this protocol.
-Model and parameter recovery are run before data collection. The analysis plan
-is written; public registration is pending.
-
-## Akathisia as active inference
-In design · protocol
-
-Prediction error can be resolved two ways: revise the model, or act on the
-world until the sensory evidence matches it. One account treats delusion as a
-pathology of the first route, though that remains an active debate rather than
-a settled finding. Akathisia may be a pathology of the second — an inner
-restlessness that may be the felt quality of an error no action can close.
-
-Aripiprazole makes this testable. A D2 partial agonist does not simply lower
-dopaminergic signalling; it compresses it toward an intermediate set point,
-damping rather than removing its dependence on endogenous tone. If dopamine
-encodes the precision of prediction errors, partial agonism acts as what I
-will call a precision clamp — the term is mine, not the literature's — and the
-prediction is a loss of context-dependent adjustment rather than a shifted
-baseline.
-
-## Effort and reward in multiple sclerosis
-In collection · with the Department of Neurology
-
-Fatigue and depression in MS overlap on every questionnaire that tries to tell
-them apart. Effort-based decision making offers a behavioural separation:
-whether the cost of action or the value of the outcome is what has changed.
-
-## State anxiety and uncertainty processing in generalized anxiety disorder
-2026 · 28th National Clinical Education Symposium · Turkish Journal
-of Psychiatry · presented\
-Bekdemir F, Özdin S ·
-[doi:10.5080/61upk.ozt461](https://doi.org/10.5080/61upk.ozt461)
-
-Generalized anxiety disorder is often described as a problem with learning.
-This study asked a narrower question: is it what people learn that changes, or
-how readily they revise a belief once the world turns out to be unstable?
-
-Eighteen adults with GAD and 18 age- and education-matched controls completed
-a probabilistic reversal-learning task while belief updating was modelled with
-the Hierarchical Gaussian Filter. The parameter of interest, tonic volatility
-(ω₂), is how unstable a person expects their environment to be by default.
-Participants also completed the State–Trait Anxiety Inventory and the
-Intolerance of Uncertainty Scale. Approved by the Ondokuz Mayıs University
-Clinical Research Ethics Committee (2026/43).
-
-The GAD group showed higher ω₂ than controls (p < .001), with less win-stay
-and more lose-shift behaviour (both p < .001) and a smaller difference in
-overall accuracy (p = .019). Volatility sensitivity correlated with state
-anxiety (ρ = 0.42, p = .010), intolerance of uncertainty (ρ = 0.39, p = .020)
-and, most strongly, lose-shift behaviour (ρ = 0.55, p < .001). The correlation
-with trait anxiety did not reach significance (ρ = 0.32, p = .059); whether it
-differs from the state-anxiety correlation was not tested directly, so reading
-the two as different is provisional.
-
-The pattern is consistent with excessive updating under uncertainty rather
-than a general learning deficit. The design is cross-sectional, so it does not
-establish which way the relationship runs, and with 36 participants and no
-correction for multiple comparisons the findings are exploratory.
-
-This is a separate study from the schizophrenia thesis above, not a
-preliminary stage of it — it is where the modelling approach the thesis
-depends on was first worked out.
-
----
-
 # Instruments and code
 
 URL: https://furkanbekdemir.com/tools
@@ -276,5 +192,186 @@ nesnel ayrışmasının kuramsal karşılığı.
 ---
 
 terimler için önerilen karşılıklar burada toplanacak
+
+---
+
+# Research
+
+URL: https://furkanbekdemir.com/research/
+
+Three open questions and two abstracts already published. The open questions
+share a method: all of them are about how a brain weighs what it already
+believes against what it is currently being told.
+
+## Open
+Residency thesis · BAP04-B-2026-6538 · in preparation
+
+### [Belief updating and sensory attenuation in schizophrenia](schizophrenia.qmd)
+Whether delusions track a failure of belief revision, a failure to attenuate
+self-generated sensation, or both. A beads task and a force-matching task in
+the same people.
+
+In design · protocol
+
+### [Akathisia as active inference](akathisia.qmd)
+Prediction error can be resolved by revising the model or by acting on the
+world. Akathisia may be a pathology of the second route.
+
+In collection · with the Department of Neurology
+
+### [Effort and reward in multiple sclerosis](effort-ms.qmd)
+Fatigue and depression overlap on every questionnaire that tries to separate
+them. Effort-based decision making offers a behavioural separation.
+
+## Published abstracts
+2026 · Turkish Journal of Psychiatry · presented
+
+### [State anxiety and uncertainty processing in generalized anxiety disorder](anxiety-hgf.qmd)
+The same modelling approach the thesis depends on, worked out first in
+generalized anxiety disorder.
+
+2025 · Turkish Journal of Psychiatry · presented
+
+### [Personality, impulsivity and gambling-related cognitions in gambling disorder](gambling.qmd)
+A clinical study from outpatient and addiction-service work. It sits apart
+from the computational thread above.
+
+---
+
+# Akathisia as active inference
+
+URL: https://furkanbekdemir.com/research/akathisia
+
+In design · protocol
+
+Prediction error can be resolved two ways: revise the model, or act on the
+world until the sensory evidence matches it. One account treats delusion as a
+pathology of the first route, though that remains an active debate rather than
+a settled finding. Akathisia may be a pathology of the second — an inner
+restlessness that may be the felt quality of an error no action can close.
+
+Aripiprazole makes this testable. A D2 partial agonist does not simply lower
+dopaminergic signalling; it compresses it toward an intermediate set point,
+damping rather than removing its dependence on endogenous tone. If dopamine
+encodes the precision of prediction errors, partial agonism acts as what I
+will call a precision clamp — the term is mine, not the literature's — and the
+prediction is a loss of context-dependent adjustment rather than a shifted
+baseline.
+
+[← all research](index.qmd)
+
+---
+
+# State anxiety and uncertainty processing in generalized anxiety disorder
+
+URL: https://furkanbekdemir.com/research/anxiety-hgf
+
+2026 · 28th National Clinical Education Symposium · Turkish Journal
+of Psychiatry · presented\
+Bekdemir F, Özdin S ·
+[doi:10.5080/61upk.ozt461](https://doi.org/10.5080/61upk.ozt461)
+
+Generalized anxiety disorder is often described as a problem with learning.
+This study asked a narrower question: is it what people learn that changes, or
+how readily they revise a belief once the world turns out to be unstable?
+
+Eighteen adults with GAD and 18 age- and education-matched controls completed
+a probabilistic reversal-learning task while belief updating was modelled with
+the Hierarchical Gaussian Filter. The parameter of interest, tonic volatility
+(ω₂), is how unstable a person expects their environment to be by default.
+Participants also completed the State–Trait Anxiety Inventory and the
+Intolerance of Uncertainty Scale. Approved by the Ondokuz Mayıs University
+Clinical Research Ethics Committee (2026/43).
+
+The GAD group showed higher ω₂ than controls (p < .001), with less win-stay
+and more lose-shift behaviour (both p < .001) and a smaller difference in
+overall accuracy (p = .019). Volatility sensitivity correlated with state
+anxiety (ρ = 0.42, p = .010), intolerance of uncertainty (ρ = 0.39, p = .020)
+and, most strongly, lose-shift behaviour (ρ = 0.55, p < .001). The correlation
+with trait anxiety did not reach significance (ρ = 0.32, p = .059); whether it
+differs from the state-anxiety correlation was not tested directly, so reading
+the two as different is provisional.
+
+The pattern is consistent with excessive updating under uncertainty rather
+than a general learning deficit. The design is cross-sectional, so it does not
+establish which way the relationship runs, and with 36 participants and no
+correction for multiple comparisons the findings are exploratory.
+
+This is a separate study from the
+[schizophrenia thesis](schizophrenia.qmd), not a preliminary stage of it — it
+is where the modelling approach the thesis depends on was first worked out.
+
+[← all research](index.qmd)
+
+---
+
+# Effort and reward in multiple sclerosis
+
+URL: https://furkanbekdemir.com/research/effort-ms
+
+In collection · with the Department of Neurology
+
+Fatigue and depression in MS overlap on every questionnaire that tries to tell
+them apart. Effort-based decision making offers a behavioural separation:
+whether the cost of action or the value of the outcome is what has changed.
+
+[← all research](index.qmd)
+
+---
+
+# Personality, impulsivity and gambling-related cognitions in gambling disorder
+
+URL: https://furkanbekdemir.com/research/gambling
+
+2025 · 27th National Clinical Education Symposium · Turkish Journal
+of Psychiatry · presented\
+Bekdemir F, Özdin S, Satılmış B, Aydın Öztemel R, Bolat R, Ünsal Çelebi D
+· [doi:10.5080/kes27.abs62](https://doi.org/10.5080/kes27.abs62)
+
+Gambling disorder is usually treated as one behavioural category. This study
+looked at three things together in the same patients — personality traits,
+impulsivity, and the beliefs people hold about gambling itself — to ask
+whether the psychology behind the disorder differs by who is affected and by
+how early the problem started.
+
+Participants were adults in treatment at the Ondokuz Mayıs University
+psychiatry outpatient clinic and at AMATEM in Samsun, diagnosed by DSM-5
+criteria. Severity was measured with the South Oaks Gambling Screen,
+cognitive distortions with the Gambling-Related Cognitions Scale, impulsivity
+with the Barratt Impulsiveness Scale short form, and personality with the
+Eysenck Personality Inventory, alongside PHQ-9 and GAD-7.
+
+findings are in the published abstract; the record above is authoritative
+
+This work sits apart from the computational thread running through the rest of
+this page — it came out of clinical service rather than out of the modelling
+programme, and shares neither its method nor its question.
+
+[← all research](index.qmd)
+
+---
+
+# Belief updating and sensory attenuation in schizophrenia
+
+URL: https://furkanbekdemir.com/research/schizophrenia
+
+Residency thesis · BAP04-B-2026-6538 · in preparation\
+Supervisor · Prof. Dr. Gökhan Sarısoy · Ondokuz Mayıs University
+
+Two accounts of delusion sit side by side in the literature and are rarely
+tested in the same people. One says beliefs are revised on too little
+evidence. The other says self-generated sensation is not attenuated, so
+ordinary actions carry the weight of external events.
+
+The study runs both: a beads task modelled with the Hierarchical Gaussian
+Filter, and a force-matching task on a device built for this protocol. Model
+and parameter recovery are run before data collection. The analysis plan is
+written; public registration is pending.
+
+The [force-matching rig](../tools.qmd) was designed and machined in-house
+because commercial equivalents cost more than the grant and could not be
+modified.
+
+[← all research](index.qmd)
 
 ---
