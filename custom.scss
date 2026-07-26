@@ -223,6 +223,11 @@ a:focus-visible { outline: 2px solid $signal; outline-offset: 3px; }
 
 @media (max-width: 640px) {
   h1 { font-size: 1.85rem; }
+
+  /* On a phone the figure's lower margin and the next section's upper margin
+     stack into a gap deep enough to read as the end of the page. */
+  .trace { margin-bottom: 1.4rem; }
+  h2 { margin-top: 2.2rem; }
 }
 
 /* ---- Print --------------------------------------------------------- */

@@ -193,6 +193,45 @@ def normalise_sitemap(base: str) -> bool:
     return True
 
 
+# Assistants and answer engines that read the open web. Quarto writes a
+# robots.txt containing only a Sitemap line, which permits everything by
+# default — but silence is not the same as consent, and a default that changes
+# later would change the answer. Naming them says the permission was chosen.
+AI_AGENTS = [
+    "GPTBot", "OAI-SearchBot", "ChatGPT-User",          # OpenAI
+    "ClaudeBot", "Claude-User", "Claude-SearchBot",     # Anthropic
+    "Google-Extended",                                  # Google, AI products
+    "PerplexityBot", "Perplexity-User",
+    "CCBot",                                            # Common Crawl
+    "Applebot-Extended",
+    "cohere-ai", "Meta-ExternalAgent", "Amazonbot", "Bytespider",
+]
+
+
+def write_robots(base: str) -> bool:
+    """Replace Quarto's robots.txt with one that says yes on purpose."""
+    lines = [
+        "# This site is meant to be read — by people, search engines and",
+        "# assistants alike. Nothing here is behind a crawl restriction.",
+        "",
+        "User-agent: *",
+        "Allow: /",
+        "",
+        "# Named explicitly so the permission survives a change of default",
+        "# somewhere else.",
+    ]
+    for agent in AI_AGENTS:
+        lines += [f"User-agent: {agent}", "Allow: /", ""]
+    lines += [f"Sitemap: {base}/sitemap.xml", ""]
+
+    text = "\n".join(lines)
+    path = OUT / "robots.txt"
+    if path.exists() and path.read_text(encoding="utf-8") == text:
+        return False
+    path.write_text(text, encoding="utf-8")
+    return True
+
+
 def main() -> None:
     if not OUT.is_dir():
         sys.exit(f"output dir not found: {OUT}")
@@ -226,6 +265,8 @@ def main() -> None:
         print(f"json-ld: {scoped} page(s) narrowed to WebPage")
     if normalise_sitemap(base):
         print("sitemap: index.html -> /, duplicates dropped")
+    if write_robots(base):
+        print(f"robots.txt: written, {len(AI_AGENTS)} assistants named")
 
     index = OUT / "search.json"
     if index.exists() and not search_enabled():
