@@ -1,6 +1,11 @@
 # This site is meant to be read — by people, search engines and
 # assistants alike. Nothing here is behind a crawl restriction.
 
+# Content Signals (contentsignals.org). The permission the User-agent
+# rules below already grant, said once in the vocabulary that separates
+# the three uses. Yes to all three, which is what those rules mean.
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
 User-agent: *
 Allow: /
 
