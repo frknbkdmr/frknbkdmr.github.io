@@ -10,6 +10,7 @@ project:
     # Without CNAME in this list, publishing drops the file and GitHub forgets
     # the custom domain on the next deploy.
     - CNAME               # furkanbekdemir.com; apex A records live since 2026-07-26
+    - yandex_97bb922f930d7b26.html   # Yandex Webmaster ownership check
     - favicon.ico
     - favicon-32.png
     - apple-touch-icon.png
