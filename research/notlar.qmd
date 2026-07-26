@@ -9,9 +9,9 @@ twitter-card:
 ---
 
 ::: {.lede}
-Hesaplamalı psikiyatri Türkçede henüz yazılmadı. Terimlerin karşılığı
-oturmamış, klinik okura yazılmış bir metin yok. Buradaki notlar o boşluğu
-doldurma denemesi.
+Hesaplamalı psikiyatri üzerine, klinik okura yazılmış kapsamlı bir Türkçe
+kaynağa rastlamadım. Terimlerin karşılığı da oturmuş değil. Buradaki notlar o
+boşluğu doldurma denemesi.
 :::
 
 ## Planlanan yazılar {.k-head}
