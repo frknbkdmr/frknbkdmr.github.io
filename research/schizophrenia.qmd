@@ -1,0 +1,33 @@
+---
+title: "Belief updating and sensory attenuation in schizophrenia"
+description-meta: &desc "Residency thesis testing two accounts of delusion in the same participants: belief revision on too little evidence, and failure to attenuate self-generated sensation."
+open-graph:
+  description: *desc
+twitter-card:
+  description: *desc
+---
+
+::: {.entry}
+::: {.meta}
+Residency thesis &middot; BAP04-B-2026-6538 &middot; [in preparation]{.status .pending}\
+Supervisor &middot; Prof. Dr. Gökhan Sarısoy &middot; Ondokuz Mayıs University
+:::
+:::
+
+Two accounts of delusion sit side by side in the literature and are rarely
+tested in the same people. One says beliefs are revised on too little
+evidence. The other says self-generated sensation is not attenuated, so
+ordinary actions carry the weight of external events.
+
+The study runs both: a beads task modelled with the Hierarchical Gaussian
+Filter, and a force-matching task on a device built for this protocol. Model
+and parameter recovery are run before data collection. The analysis plan is
+written; public registration is pending.
+
+The [force-matching rig](../tools.qmd) was designed and machined in-house
+because commercial equivalents cost more than the grant and could not be
+modified.
+
+::: {.k}
+[← all research](index.qmd)
+:::

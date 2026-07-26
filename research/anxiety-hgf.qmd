@@ -1,0 +1,85 @@
+---
+title: "State anxiety and uncertainty processing in generalized anxiety disorder"
+description-meta: &desc "A Hierarchical Gaussian Filter study of belief updating in generalized anxiety disorder. Published abstract, Turkish Journal of Psychiatry, 2026."
+open-graph:
+  description: *desc
+twitter-card:
+  description: *desc
+---
+
+::: {.entry}
+::: {.meta}
+2026 &middot; 28th National Clinical Education Symposium &middot; Turkish Journal
+of Psychiatry &middot; [presented]{.status .done}\
+Bekdemir F, Özdin S &middot;
+[doi:10.5080/61upk.ozt461](https://doi.org/10.5080/61upk.ozt461)
+:::
+:::
+
+Generalized anxiety disorder is often described as a problem with learning.
+This study asked a narrower question: is it what people learn that changes, or
+how readily they revise a belief once the world turns out to be unstable?
+
+Eighteen adults with GAD and 18 age- and education-matched controls completed
+a probabilistic reversal-learning task while belief updating was modelled with
+the Hierarchical Gaussian Filter. The parameter of interest, tonic volatility
+(ω₂), is how unstable a person expects their environment to be by default.
+Participants also completed the State–Trait Anxiety Inventory and the
+Intolerance of Uncertainty Scale. Approved by the Ondokuz Mayıs University
+Clinical Research Ethics Committee (2026/43).
+
+The GAD group showed higher ω₂ than controls (p < .001), with less win-stay
+and more lose-shift behaviour (both p < .001) and a smaller difference in
+overall accuracy (p = .019). Volatility sensitivity correlated with state
+anxiety (ρ = 0.42, p = .010), intolerance of uncertainty (ρ = 0.39, p = .020)
+and, most strongly, lose-shift behaviour (ρ = 0.55, p < .001). The correlation
+with trait anxiety did not reach significance (ρ = 0.32, p = .059); whether it
+differs from the state-anxiety correlation was not tested directly, so reading
+the two as different is provisional.
+
+The pattern is consistent with excessive updating under uncertainty rather
+than a general learning deficit. The design is cross-sectional, so it does not
+establish which way the relationship runs, and with 36 participants and no
+correction for multiple comparisons the findings are exploratory.
+
+This is a separate study from the
+[schizophrenia thesis](schizophrenia.qmd), not a preliminary stage of it — it
+is where the modelling approach the thesis depends on was first worked out.
+
+```{=html}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://doi.org/10.5080/61upk.ozt461",
+  "name": "State Anxiety and Uncertainty Processing: A Hierarchical Gaussian Filter Study in Generalized Anxiety Disorder",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5080/61upk.ozt461"
+  },
+  "sameAs": "https://doi.org/10.5080/61upk.ozt461",
+  "datePublished": "2026",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "Turkish Journal of Psychiatry",
+    "issn": "1300-2163"
+  },
+  "author": [
+    { "@id": "https://furkanbekdemir.com/#person" },
+    { "@type": "Person", "name": "Selçuk Özdin" }
+  ],
+  "about": [
+    "Generalized anxiety disorder",
+    "Hierarchical Gaussian Filter",
+    "Belief updating",
+    "Intolerance of uncertainty"
+  ],
+  "url": "https://furkanbekdemir.com/research/anxiety-hgf"
+}
+</script>
+```
+
+::: {.k}
+[← all research](index.qmd)
+:::

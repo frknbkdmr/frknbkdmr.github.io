@@ -80,19 +80,20 @@ def write_llms_txt(base: str) -> bool:
     One fetch of llms-full.txt costs an agent a few kilobytes; reading the five
     rendered pages costs a quarter of a megabyte, nearly all of it markup.
     """
-    order = [("index.qmd", "Home", "/"),
-             ("research.qmd", "Research", "/research"),
-             ("tools.qmd", "Instruments and code", "/tools"),
-             ("cv.qmd", "CV", "/cv"),
-             ("notlar.qmd", "Notlar", "/notlar")]
+    # Discovered, not listed. A hardcoded roster silently omits any page added
+    # later, and the omission looks exactly like a page that has no content.
+    top = ["index.qmd", "tools.qmd", "cv.qmd", "notlar.qmd"]
+    sources = [ROOT / n for n in top if (ROOT / n).exists()]
+    sources += sorted((ROOT / "research").glob("*.qmd"),
+                      key=lambda p: (p.stem != "index", p.stem))
 
     pages = []
-    for fname, label, path in order:
-        p = ROOT / fname
-        if not p.exists():
-            continue
+    for p in sources:
+        rel = p.relative_to(ROOT).with_suffix("").as_posix()
+        path = "/" if rel == "index" else (
+            f"/{rel[: -len('/index')]}/" if rel.endswith("/index") else f"/{rel}")
         title, desc, body = qmd_to_markdown(p.read_text(encoding="utf-8"))
-        pages.append((label, title or label, desc, path, body))
+        pages.append((title or p.stem, title or p.stem, desc, path, body))
 
     lede = ("Psychiatry resident and computational psychiatry researcher at "
             "Ondokuz Mayıs University, Samsun. Belief updating, sensory "
@@ -236,7 +237,8 @@ def fix_a11y(path: Path) -> list[str]:
 def scope_jsonld(path: Path) -> bool:
     """head.html is global, so its ProfilePage schema lands on every page.
     Only the homepage is a profile; the rest are ordinary pages about it."""
-    if path.name == "index.html":
+    # By path, not by name: a section index is not the profile page.
+    if path == OUT / "index.html":
         return False
     text = path.read_text(encoding="utf-8")
     fixed = text.replace('"@type": "ProfilePage"', '"@type": "WebPage"', 1)

@@ -1,0 +1,69 @@
+---
+title: "Research"
+description-meta: &desc "Belief updating and sensory attenuation in schizophrenia, akathisia as active inference, effort-based decision making in multiple sclerosis, and uncertainty processing in generalized anxiety disorder."
+open-graph:
+  description: *desc
+twitter-card:
+  description: *desc
+---
+
+::: {.lede}
+Three open questions and two abstracts already published. The open questions
+share a method: all of them are about how a brain weighs what it already
+believes against what it is currently being told.
+:::
+
+## Open {.k-head}
+
+::: {.entry}
+::: {.meta}
+Residency thesis &middot; BAP04-B-2026-6538 &middot; [in preparation]{.status .pending}
+:::
+### [Belief updating and sensory attenuation in schizophrenia](schizophrenia.qmd){.title}
+
+Whether delusions track a failure of belief revision, a failure to attenuate
+self-generated sensation, or both. A beads task and a force-matching task in
+the same people.
+:::
+
+::: {.entry}
+::: {.meta}
+In design &middot; [protocol]{.status .pending}
+:::
+### [Akathisia as active inference](akathisia.qmd){.title}
+
+Prediction error can be resolved by revising the model or by acting on the
+world. Akathisia may be a pathology of the second route.
+:::
+
+::: {.entry}
+::: {.meta}
+In collection &middot; with the Department of Neurology
+:::
+### [Effort and reward in multiple sclerosis](effort-ms.qmd){.title}
+
+Fatigue and depression overlap on every questionnaire that tries to separate
+them. Effort-based decision making offers a behavioural separation.
+:::
+
+## Published abstracts {.k-head}
+
+::: {.entry}
+::: {.meta}
+2026 &middot; Turkish Journal of Psychiatry &middot; [presented]{.status .done}
+:::
+### [State anxiety and uncertainty processing in generalized anxiety disorder](anxiety-hgf.qmd){.title}
+
+The same modelling approach the thesis depends on, worked out first in
+generalized anxiety disorder.
+:::
+
+::: {.entry}
+::: {.meta}
+2025 &middot; Turkish Journal of Psychiatry &middot; [presented]{.status .done}
+:::
+### [Personality, impulsivity and gambling-related cognitions in gambling disorder](gambling.qmd){.title}
+
+A clinical study from outpatient and addiction-service work. It sits apart
+from the computational thread above.
+:::
