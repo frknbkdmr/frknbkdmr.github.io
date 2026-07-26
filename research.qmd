@@ -1,0 +1,51 @@
+---
+title: "Research"
+---
+
+::: {.lede}
+Three questions, one method. All of them are about how a brain weighs what it
+already believes against what it is currently being told.
+:::
+
+## Belief updating and sensory attenuation in schizophrenia {.k-head}
+
+::: {.entry}
+::: {.meta}
+Doctoral thesis &middot; BAP04-B-2026-6538 &middot; Ondokuz Mayıs University
+:::
+:::
+
+Two accounts of delusion sit side by side in the literature and are rarely
+tested in the same people. One says beliefs are revised on too little
+evidence. The other says self-generated sensation is not attenuated, so
+ordinary actions carry the weight of external events.
+
+The study runs both: a beads task modelled with the Hierarchical Gaussian
+Filter, and a force-matching task on a device built for this protocol.
+Model and parameter recovery are run before data collection, and the analysis
+plan is registered in advance.
+
+## Akathisia as active inference {.k-head}
+
+::: {.entry}
+::: {.meta}
+In design
+:::
+:::
+
+Prediction error can be resolved two ways: revise the model, or act on the
+world until the sensory evidence matches it. Delusion is a pathology of the
+first route. Akathisia may be a pathology of the second — an inner
+restlessness that is the felt quality of an error no action can close.
+
+## Effort and reward in multiple sclerosis {.k-head}
+
+::: {.entry}
+::: {.meta}
+In collection &middot; with the Department of Neurology
+:::
+:::
+
+Fatigue and depression in MS overlap on every questionnaire that tries to tell
+them apart. Effort-based decision making offers a behavioural separation:
+whether the cost of action or the value of the outcome is what has changed.
