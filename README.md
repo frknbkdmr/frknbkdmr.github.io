@@ -31,7 +31,15 @@ Then in the repo's **Settings → Pages**, set the custom domain to
 `furkanbekdemir.com`. The `CNAME` file in this repo is already set, but
 GitHub sometimes needs it confirmed in the UI as well.
 
-## DNS
+## DNS — and the CNAME switch
+
+`CNAME` is commented out of `resources` in `_quarto.yml`. Leave it that way
+until the domain resolves: if GitHub sees a CNAME file it adopts the custom
+domain, and `frknbkdmr.github.io` then redirects to a name with no DNS, so the
+site is reachable at no address at all. Once the records below are live,
+uncomment the line, run `quarto publish gh-pages`, and the site moves to
+furkanbekdemir.com by itself.
+
 
 At your registrar, point the apex domain at GitHub Pages using the A records
 listed in GitHub's current Pages documentation, and add a `www` CNAME to
