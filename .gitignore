@@ -18,6 +18,10 @@ _site/
 
 /.quarto/
 
+# TTFs make-og-image.py downloads to draw the card. Fetched on demand, and
+# large enough that there is no reason to carry them in the repo.
+.ttf-cache/
+
 # Quarto drops this next to the project when a Sass compile fails.
 _quarto_internal_scss_error.scss
 
