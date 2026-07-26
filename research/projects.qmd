@@ -8,15 +8,16 @@ twitter-card:
 ---
 
 ::: {.lede}
-Three questions, one method. All of them are about how a brain weighs what it
-already believes against what it is currently being told.
+Three open questions and one study already presented, all built on the same
+method. All of them are about how a brain weighs what it already believes
+against what it is currently being told.
 :::
 
 ## Belief updating and sensory attenuation in schizophrenia {.k-head}
 
 ::: {.entry}
 ::: {.meta}
-Residency thesis &middot; BAP04-B-2026-6538 &middot; [live]{.status .live}\
+Residency thesis &middot; BAP04-B-2026-6538 &middot; [in preparation]{.status .pending}\
 Supervisor &middot; Prof. Dr. Gökhan Sarısoy &middot; Ondokuz Mayıs University
 :::
 :::
@@ -40,15 +41,18 @@ In design &middot; [protocol]{.status .pending}
 :::
 
 Prediction error can be resolved two ways: revise the model, or act on the
-world until the sensory evidence matches it. Delusion is a pathology of the
-first route. Akathisia may be a pathology of the second — an inner
-restlessness that is the felt quality of an error no action can close.
+world until the sensory evidence matches it. One account treats delusion as a
+pathology of the first route, though that remains an active debate rather than
+a settled finding. Akathisia may be a pathology of the second — an inner
+restlessness that may be the felt quality of an error no action can close.
 
 Aripiprazole makes this testable. A D2 partial agonist does not simply lower
-dopaminergic signalling; it holds it near a fixed level regardless of
-endogenous tone. If dopamine encodes the precision of prediction errors,
-partial agonism is a precision clamp, and the prediction is a loss of
-context-dependent adjustment rather than a shifted baseline.
+dopaminergic signalling; it compresses it toward an intermediate set point,
+damping rather than removing its dependence on endogenous tone. If dopamine
+encodes the precision of prediction errors, partial agonism acts as what I
+will call a precision clamp — the term is mine, not the literature's — and the
+prediction is a loss of context-dependent adjustment rather than a shifted
+baseline.
 
 ## Effort and reward in multiple sclerosis {.k-head}
 
@@ -61,3 +65,18 @@ In collection &middot; with the Department of Neurology
 Fatigue and depression in MS overlap on every questionnaire that tries to tell
 them apart. Effort-based decision making offers a behavioural separation:
 whether the cost of action or the value of the outcome is what has changed.
+
+## Belief updating in generalized anxiety disorder {.k-head}
+
+::: {.entry}
+::: {.meta}
+Presented 2026 &middot; 28th National Clinical Education Symposium
+&middot; [presented]{.status .done}
+:::
+:::
+
+The same method, applied earlier and to a different disorder: belief updating
+in generalized anxiety disorder, modelled with the Hierarchical Gaussian
+Filter. Oral presentation, with Selçuk Özdin. This is a separate study from
+the schizophrenia thesis above, not a preliminary stage of it — it is where
+the modelling approach the thesis depends on was first worked out.

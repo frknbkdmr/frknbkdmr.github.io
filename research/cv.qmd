@@ -83,7 +83,7 @@ Oral presentation, with Selçuk Özdin.
 :::
 ### Introduction to Statistics {.title}
 
-Stanford University, online.
+Stanford University, via Coursera. Non-degree online course.
 :::
 
 ::: {.entry}
@@ -92,7 +92,7 @@ Stanford University, online.
 :::
 ### Computational Neuroscience {.title}
 
-University of Washington, online.
+University of Washington, via Coursera. Non-degree online course.
 :::
 
 ## Technical {.k-head}
