@@ -1,0 +1,22 @@
+---
+title: "Effort and reward in multiple sclerosis"
+description-meta: &desc "Separating fatigue from depression in multiple sclerosis by modelling effort-based decisions, with the Department of Neurology."
+open-graph:
+  description: *desc
+twitter-card:
+  description: *desc
+---
+
+::: {.entry}
+::: {.meta}
+In collection &middot; with the Department of Neurology
+:::
+:::
+
+Fatigue and depression in MS overlap on every questionnaire that tries to tell
+them apart. Effort-based decision making offers a behavioural separation:
+whether the cost of action or the value of the outcome is what has changed.
+
+::: {.k}
+[← all research](index.qmd)
+:::

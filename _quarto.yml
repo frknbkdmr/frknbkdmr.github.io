@@ -2,10 +2,12 @@ project:
   type: website
   output-dir: _site
   post-render: python post-render.py
-  # Pages are .qmd and live at the root. Naming only .qmd here stops any stray
-  # .md dropped in the repo from being published as a page.
+  # Pages are .qmd. Anything with a DOI gets its own page under research/ so
+  # the address can be cited and never has to move. Naming only .qmd here stops
+  # a stray .md dropped in the repo from being published.
   render:
     - "*.qmd"
+    - "research/*.qmd"
   resources:
     # Without CNAME in this list, publishing drops the file and GitHub forgets
     # the custom domain on the next deploy.
@@ -34,7 +36,7 @@ website:
     pinned: true
     left:
       - text: "Research"
-        href: research.qmd
+        href: research/index.qmd
       - text: "Instruments &amp; code"
         href: tools.qmd
       - text: "Notlar"

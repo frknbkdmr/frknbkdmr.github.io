@@ -1,0 +1,80 @@
+---
+title: "Personality, impulsivity and gambling-related cognitions in gambling disorder"
+description-meta: &desc "A clinical study of personality traits, impulsivity and gambling-related cognitions in patients with gambling disorder. Published abstract, Turkish Journal of Psychiatry, 2025."
+open-graph:
+  description: *desc
+twitter-card:
+  description: *desc
+---
+
+::: {.entry}
+::: {.meta}
+2025 &middot; 27th National Clinical Education Symposium &middot; Turkish Journal
+of Psychiatry &middot; [presented]{.status .done}\
+Bekdemir F, Özdin S, Satılmış B, Aydın Öztemel R, Bolat R, Ünsal Çelebi D
+&middot; [doi:10.5080/kes27.abs62](https://doi.org/10.5080/kes27.abs62)
+:::
+:::
+
+Gambling disorder is usually treated as one behavioural category. This study
+looked at three things together in the same patients — personality traits,
+impulsivity, and the beliefs people hold about gambling itself — to ask
+whether the psychology behind the disorder differs by who is affected and by
+how early the problem started.
+
+Participants were adults in treatment at the Ondokuz Mayıs University
+psychiatry outpatient clinic and at AMATEM in Samsun, diagnosed by DSM-5
+criteria. Severity was measured with the South Oaks Gambling Screen,
+cognitive distortions with the Gambling-Related Cognitions Scale, impulsivity
+with the Barratt Impulsiveness Scale short form, and personality with the
+Eysenck Personality Inventory, alongside PHQ-9 and GAD-7.
+
+::: {.k}
+findings are in the published abstract; the record above is authoritative
+:::
+
+This work sits apart from the computational thread running through the rest of
+this page — it came out of clinical service rather than out of the modelling
+programme, and shares neither its method nor its question.
+
+```{=html}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://doi.org/10.5080/kes27.abs62",
+  "name": "Assessment of Personality Traits, Impulsivity, and Gambling-Related Cognitions in Patients with Gambling Disorder",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5080/kes27.abs62"
+  },
+  "sameAs": "https://doi.org/10.5080/kes27.abs62",
+  "datePublished": "2025",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "Turkish Journal of Psychiatry",
+    "issn": "1300-2163"
+  },
+  "author": [
+    { "@id": "https://furkanbekdemir.com/#person" },
+    { "@type": "Person", "name": "Selçuk Özdin" },
+    { "@type": "Person", "name": "Buket Satılmış" },
+    { "@type": "Person", "name": "Rabıa Aydın Öztemel" },
+    { "@type": "Person", "name": "Recep Bolat" },
+    { "@type": "Person", "name": "Demet Ünsal Çelebi" }
+  ],
+  "about": [
+    "Gambling disorder",
+    "Impulsivity",
+    "Cognitive distortions",
+    "Personality"
+  ],
+  "url": "https://furkanbekdemir.com/research/gambling"
+}
+</script>
+```
+
+::: {.k}
+[← all research](index.qmd)
+:::
