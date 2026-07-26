@@ -9,7 +9,6 @@ _site/
 # without one it is ignored silently and never gets committed.
 *.html
 !head.html
-!index.html
 
 /.quarto/
 
