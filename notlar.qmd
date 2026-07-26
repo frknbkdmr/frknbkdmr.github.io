@@ -1,9 +1,11 @@
 ---
 title: "Notlar"
-description-meta: "Hesaplamalı psikiyatri, kestirimsel işlemleme ve klinik akıl yürütme üzerine Türkçe notlar."
+description-meta: &desc "Hesaplamalı psikiyatri, kestirimsel işlemleme ve klinik akıl yürütme üzerine Türkçe notlar."
 lang: tr
 open-graph:
-  description: "Hesaplamalı psikiyatri, kestirimsel işlemleme ve klinik akıl yürütme üzerine Türkçe notlar."
+  description: *desc
+twitter-card:
+  description: *desc
 ---
 
 ::: {.lede}
@@ -15,7 +17,7 @@ doldurma denemesi.
 ## Planlanan yazılar {.k-head}
 
 ::: {.entry}
-[Öngörü hatası, kesinlik ve psikiyatrik belirti]{.title}
+### Öngörü hatası, kesinlik ve psikiyatrik belirti {.title}
 
 Bayesçi beyin çerçevesinin klinik okur için girişi: öngörü hatası ne demek,
 kesinlik ağırlıklandırması neyi belirler, ve bunlar muayenehanede gördüğümüz
@@ -23,14 +25,14 @@ belirtilere nasıl bağlanır.
 :::
 
 ::: {.entry}
-[Hiyerarşik Gauss filtresi nedir, ne işe yarar]{.title}
+### Hiyerarşik Gauss filtresi nedir, ne işe yarar {.title}
 
 Modelin parametreleri klinik olarak ne anlatır, model karşılaştırması neden
 zorunludur, ve bir hesaplamalı bulguya ne zaman güvenilir.
 :::
 
 ::: {.entry}
-[Akatizi: aktif çıkarım çerçevesinden bir bakış]{.title}
+### Akatizi: aktif çıkarım çerçevesinden bir bakış {.title}
 
 D2 kısmi agonizmasının sağladığı matematiksel zemin ve akatizinin öznel /
 nesnel ayrışmasının kuramsal karşılığı.

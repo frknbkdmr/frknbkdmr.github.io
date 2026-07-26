@@ -7,11 +7,16 @@ local copies. Only the weights the stylesheet actually asks for are taken.
 import hashlib
 import os
 import re
+import sys
 import urllib.request
 
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts")
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
+
+# IBM Plex ships under the SIL Open Font License 1.1, which requires the
+# licence to travel with any redistributed copy — self-hosting is redistribution.
+LICENSE_URL = "https://raw.githubusercontent.com/IBM/plex/master/LICENSE.txt"
 
 CSS_URL = (
     "https://fonts.googleapis.com/css2"
@@ -83,6 +88,13 @@ def main():
     )
     with open(os.path.join(OUT, "fonts.css"), "w", encoding="utf-8") as f:
         f.write(header + "\n\n".join(out_css) + "\n")
+
+    lic = get(LICENSE_URL)
+    if "SIL OPEN FONT LICENSE" not in lic.upper():
+        sys.exit("LICENSE.txt did not look like the OFL; not writing it")
+    with open(os.path.join(OUT, "LICENSE.txt"), "w", encoding="utf-8") as f:
+        f.write(lic)
+    print("  LICENSE.txt: OFL 1.1")
 
     total = sum(sizes.values())
     for n, s in sorted(sizes.items()):

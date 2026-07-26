@@ -85,6 +85,64 @@ def defer_head_scripts(path: Path) -> int:
     return n
 
 
+SKIP_TEXT = {"tr": "Ana içeriğe geç", "en": "Skip to main content"}
+
+
+def fix_a11y(path: Path) -> list[str]:
+    """Repairs on Quarto's own navbar/footer markup that cannot be reached from
+    source: a bogus ARIA role, a missing bypass link, and unmarked English
+    chrome on the Turkish page."""
+    text = path.read_text(encoding="utf-8")
+    original, done = text, []
+
+    # Quarto puts role="menu" on the hamburger <button>. It is a button, and the
+    # explicit role overrides that in the accessibility tree (WCAG 4.1.2).
+    text, n = re.subn(r'(<button[^>]*class="navbar-toggler"[^>]*?)\s+role="menu"',
+                      r"\1", text)
+    if n:
+        done.append("navbar role")
+
+    # WCAG 2.4.1: let keyboard users jump the repeated navigation.
+    if "quarto-skip-link" not in text:
+        lang = re.search(r'<html[^>]*\blang="([a-z-]+)"', text)
+        label = SKIP_TEXT.get((lang.group(1) if lang else "en")[:2], SKIP_TEXT["en"])
+        m = re.search(r"<body[^>]*>", text)
+        if m:
+            link = (f'\n<a href="#quarto-document-content" class="quarto-skip-link">'
+                    f"{label}</a>")
+            text = text[: m.end()] + link + text[m.end():]
+            done.append("skip link")
+
+    # WCAG 3.1.2: the Turkish page keeps an English navbar and footer.
+    if re.search(r'<html[^>]*\blang="tr"', text):
+        # Insert the attribute after the tag name. Splicing it into the class
+        # attribute instead silently eats a class name.
+        text, a = re.subn(r'(<nav\b)(?![^>]*\blang=)([^>]*\bclass="[^"]*navbar)',
+                          r'\1 lang="en"\2', text, count=1)
+        text, b = re.subn(r'(<footer\b)(?![^>]*\blang=)([^>]*\bclass="[^"]*footer)',
+                          r'\1 lang="en"\2', text, count=1)
+        if a or b:
+            done.append("lang parts")
+
+    if text != original:
+        path.write_text(text, encoding="utf-8")
+    return done
+
+
+def scope_jsonld(path: Path) -> bool:
+    """head.html is global, so its ProfilePage schema lands on every page.
+    Only the homepage is a profile; the rest are ordinary pages about it."""
+    if path.name == "index.html":
+        return False
+    text = path.read_text(encoding="utf-8")
+    fixed = text.replace('"@type": "ProfilePage"', '"@type": "WebPage"', 1)
+    fixed = fixed.replace('"mainEntity": {', '"about": {', 1)
+    if fixed == text:
+        return False
+    path.write_text(fixed, encoding="utf-8")
+    return True
+
+
 def normalise_sitemap(base: str) -> bool:
     sm = OUT / "sitemap.xml"
     if not sm.exists():
@@ -115,8 +173,10 @@ def main() -> None:
         sys.exit(f"output dir not found: {OUT}")
 
     base = site_url()
-    pages = sorted(OUT.glob("*.html"))
-    changed, failed, deferred = [], [], 0
+    # rglob, not glob: a page in a subdirectory needs a canonical just as much,
+    # and would otherwise be skipped without a word.
+    pages = sorted(p for p in OUT.rglob("*.html") if "site_libs" not in p.parts)
+    changed, failed, deferred, fixes, scoped = [], [], 0, set(), 0
 
     for p in pages:
         result = inject_canonical(p, base)
@@ -125,11 +185,17 @@ def main() -> None:
         elif result:
             changed.append(p.name)
         deferred += defer_head_scripts(p)
+        fixes.update(fix_a11y(p))
+        scoped += scope_jsonld(p)
 
     print(f"canonical: {len(changed)}/{len(pages)} page(s) updated"
           + (f" ({', '.join(changed)})" if changed else ""))
     if deferred:
         print(f"defer: {deferred} script tag(s)")
+    if fixes:
+        print("a11y: " + ", ".join(sorted(fixes)))
+    if scoped:
+        print(f"json-ld: {scoped} page(s) narrowed to WebPage")
     if normalise_sitemap(base):
         print("sitemap: index.html -> /, duplicates dropped")
 

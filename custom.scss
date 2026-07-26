@@ -119,7 +119,22 @@ h3 { font-size: 1.04rem; margin-top: 2rem; }
   color: $ink-soft;
   margin-bottom: .2rem;
 }
-.entry .title { font-weight: 500; }
+/* Entry names are real subheadings, so they are marked up as h3 for anyone
+   navigating by heading. They keep the body voice rather than the serif
+   heading voice, because visually they belong to the entry, not to the
+   section above it.
+
+   Target the heading element, not `.title`: section-divs copies the heading's
+   class onto the wrapping section, and styling that pushes font-weight down
+   onto the entry's body text. */
+.entry h3.title, .entry span.title {
+  font-family: $font-family-sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  margin: 0;
+}
+.entry section.level3 { margin: 0; }
 .entry p { margin: .35rem 0 0; color: $ink-soft; }
 
 .status {
@@ -188,6 +203,23 @@ footer.footer .nav-footer {
 
 a { text-underline-offset: .18em; text-decoration-thickness: .06em; }
 a:focus-visible { outline: 2px solid $signal; outline-offset: 3px; }
+
+/* Bypass link: off-screen until it takes focus, then it lands where a first
+   Tab press expects it. Injected per page by post-render.py. */
+.quarto-skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 2000;
+  background: $ground;
+  color: $signal;
+  font-family: $font-family-monospace;
+  font-size: .8rem;
+  padding: .6rem 1rem;
+  border: 1px solid $signal;
+  border-radius: 2px;
+}
+.quarto-skip-link:focus { left: 1rem; top: 1rem; }
 
 @media (max-width: 640px) {
   h1 { font-size: 1.85rem; }

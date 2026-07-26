@@ -2,6 +2,10 @@ project:
   type: website
   output-dir: _site
   post-render: python post-render.py
+  # Pages are .qmd. Without this, any stray .md dropped in the repo (notes,
+  # an audit report) is silently published as a page and listed in the sitemap.
+  render:
+    - "*.qmd"
   resources:
     - CNAME
     - favicon.ico
