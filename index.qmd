@@ -7,8 +7,8 @@ description: "Psychiatry resident and computational psychiatry researcher at Ond
 
 ::: {.lede}
 Psychiatry resident at Ondokuz Mayıs University, Samsun. I design measurement
-instruments together with engineering collaborators, build the software and
-models that run on them, and use both to ask how the brain decides what to
+instruments together with engineering collaborators. I write the software and
+the models that run on them. I use both to study how the brain decides what to
 believe.
 :::
 

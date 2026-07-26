@@ -43,7 +43,7 @@ establish which way the relationship runs, and with 36 participants and no
 correction for multiple comparisons the findings are exploratory.
 
 This is a separate study from the
-[schizophrenia thesis](schizophrenia.qmd), not a preliminary stage of it — it
+[schizophrenia thesis](schizophrenia.qmd), not a preliminary stage of it. It
 is where the modelling approach the thesis depends on was first worked out.
 
 ```{=html}

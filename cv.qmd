@@ -1,6 +1,6 @@
 ---
 title: "CV"
-description-meta: &desc "Curriculum vitae of Furkan Bekdemir, MD — psychiatry resident and computational psychiatry researcher at Ondokuz Mayıs University, Samsun."
+description-meta: &desc "Curriculum vitae of Furkan Bekdemir, MD, psychiatry resident and computational psychiatry researcher at Ondokuz Mayıs University, Samsun."
 open-graph:
   description: *desc
 twitter-card:

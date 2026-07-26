@@ -6,9 +6,9 @@ In design &middot; [protocol]{.status .pending}
 
 Prediction error can be resolved two ways: revise the model, or act on the
 world until the sensory evidence matches it. One account treats delusion as a
-pathology of the first route, though that remains an active debate rather than
-a settled finding. Akathisia may be a pathology of the second — an inner
-restlessness that may be the felt quality of an error no action can close.
+pathology of the first route. That account is still debated and not settled.
+Akathisia may be a pathology of the second route. It would then be an inner
+restlessness that carries the felt quality of an error no action can close.
 
 ::: {.k}
 [← all research](index.qmd)
