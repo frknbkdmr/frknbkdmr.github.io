@@ -31,14 +31,17 @@ Then in the repo's **Settings → Pages**, set the custom domain to
 `furkanbekdemir.com`. The `CNAME` file in this repo is already set, but
 GitHub sometimes needs it confirmed in the UI as well.
 
-## DNS — and the CNAME switch
+## DNS
 
-`CNAME` is commented out of `resources` in `_quarto.yml`. Leave it that way
-until the domain resolves: if GitHub sees a CNAME file it adopts the custom
-domain, and `frknbkdmr.github.io` then redirects to a name with no DNS, so the
-site is reachable at no address at all. Once the records below are live,
-uncomment the line, run `quarto publish gh-pages`, and the site moves to
-furkanbekdemir.com by itself.
+Live. The apex carries GitHub's four A records and `www` is a CNAME to
+`frknbkdmr.github.io`, all unproxied at Cloudflare — the proxy has to stay off
+(grey cloud) or GitHub cannot issue the certificate.
+
+`CNAME` is back in `resources`, which is what makes GitHub adopt the custom
+domain on publish. If you ever move the domain, comment that line out first:
+with a CNAME file present but no DNS, every address including
+`frknbkdmr.github.io` redirects to a name that does not resolve, and the site
+is reachable nowhere.
 
 
 At your registrar, point the apex domain at GitHub Pages using the A records
