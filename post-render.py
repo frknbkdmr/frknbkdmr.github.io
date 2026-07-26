@@ -54,6 +54,13 @@ def canonical_for(html_path: Path, base: str) -> str:
     return f"{base}/{rel}"
 
 
+def is_quarto_page(text: str) -> bool:
+    """Only pages Quarto rendered are ours to rewrite. A file copied in as a
+    resource — a search-engine ownership check, a hand-written 404 — has to
+    reach the browser exactly as written, or the thing checking it fails."""
+    return bool(re.search(r'<meta name="generator" content="quarto-', text, re.I))
+
+
 def is_doorway(text: str) -> bool:
     """A page that asks not to be indexed has its own reason for the canonical
     it carries; rewriting it would undo that."""
@@ -197,7 +204,8 @@ def main() -> None:
     changed, failed, deferred, fixes, scoped = [], [], 0, set(), 0
 
     for p in pages:
-        if is_doorway(p.read_text(encoding="utf-8")):
+        text = p.read_text(encoding="utf-8")
+        if not is_quarto_page(text) or is_doorway(text):
             continue
         result = inject_canonical(p, base)
         if result is None:

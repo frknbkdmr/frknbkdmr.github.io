@@ -9,6 +9,12 @@ _site/
 # without one it is ignored silently and never gets committed.
 *.html
 !head.html
+# Search-engine ownership checks. Keep these exceptions: the rule above would
+# otherwise swallow them silently and the verification would never deploy.
+# Note there are no inline comments in .gitignore — a trailing # becomes part
+# of the pattern.
+!yandex_*.html
+!google*.html
 
 /.quarto/
 
