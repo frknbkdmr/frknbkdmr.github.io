@@ -1,6 +1,10 @@
 ---
 title: "Research"
-description-meta: "Belief updating and sensory attenuation in schizophrenia, akathisia as active inference, and effort-based decision making in multiple sclerosis."
+description-meta: &desc "Belief updating and sensory attenuation in schizophrenia, akathisia as active inference, and effort-based decision making in multiple sclerosis."
+open-graph:
+  description: *desc
+twitter-card:
+  description: *desc
 ---
 
 ::: {.lede}
@@ -12,7 +16,7 @@ already believes against what it is currently being told.
 
 ::: {.entry}
 ::: {.meta}
-Doctoral thesis &middot; BAP04-B-2026-6538 &middot; [live]{.status .live}\
+Residency thesis &middot; BAP04-B-2026-6538 &middot; [live]{.status .live}\
 Supervisor &middot; Prof. Dr. Gökhan Sarısoy &middot; Ondokuz Mayıs University
 :::
 :::

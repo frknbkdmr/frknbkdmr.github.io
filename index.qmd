@@ -25,9 +25,9 @@ ask how the brain decides what to believe.
 
 ::: {.entry}
 ::: {.meta}
-Doctoral thesis &middot; BAP04-B-2026-6538 &middot; [live]{.status .live}
+Residency thesis &middot; BAP04-B-2026-6538 &middot; [live]{.status .live}
 :::
-[Belief updating and sensory attenuation in schizophrenia]{.title}
+### Belief updating and sensory attenuation in schizophrenia {.title}
 
 Whether delusions track a failure of belief revision, a failure to attenuate
 self-generated sensation, or both. Beads task modelled with the Hierarchical
@@ -39,13 +39,13 @@ the study. Supervised by Prof. Dr. Gökhan Sarısoy; registration pending.
 ::: {.meta}
 In design &middot; [protocol]{.status .pending}
 :::
-[Akathisia as active inference]{.title}
+### Akathisia as active inference {.title}
 
 ::: {.entry}
 ::: {.meta}
 In collection
 :::
-[Effort and reward in multiple sclerosis]{.title}
+### Effort and reward in multiple sclerosis {.title}
 
 Separating fatigue from depression in MS by modelling effort-based decisions,
 in collaboration with the Department of Neurology.
