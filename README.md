@@ -34,21 +34,38 @@ GitHub sometimes needs it confirmed in the UI as well.
 ## DNS
 
 Live. The apex carries GitHub's four A records and `www` is a CNAME to
-`frknbkdmr.github.io`, all unproxied at Cloudflare — the proxy has to stay off
-(grey cloud) or GitHub cannot issue the certificate.
+`frknbkdmr.github.io`. Cloudflare is the nameserver and nothing more.
 
-`CNAME` is back in `resources`, which is what makes GitHub adopt the custom
-domain on publish. If you ever move the domain, comment that line out first:
-with a CNAME file present but no DNS, every address including
-`frknbkdmr.github.io` redirects to a name that does not resolve, and the site
-is reachable nowhere.
+If you set this up again elsewhere: point the apex at the A records in
+GitHub's current Pages documentation and add the `www` CNAME. Read those
+addresses from GitHub's docs the day you do it, not from memory or an old blog
+post. Enable **Enforce HTTPS** once the certificate is issued.
 
+`CNAME` is in `resources`, which is what makes GitHub adopt the custom domain
+on publish. If you ever move the domain, comment that line out first: with a
+CNAME file present but no DNS, every address including `frknbkdmr.github.io`
+redirects to a name that does not resolve, and the site is reachable nowhere.
 
-At your registrar, point the apex domain at GitHub Pages using the A records
-listed in GitHub's current Pages documentation, and add a `www` CNAME to
-`<username>.github.io`. Don't copy IP addresses from memory or from an old
-blog post — read them from GitHub's docs the day you set it up. Enable
-**Enforce HTTPS** once the certificate is issued (can take an hour or so).
+### The Cloudflare proxy stays off
+
+Every record is grey-clouded, and it was decided that way rather than left
+that way. Turning the proxy on buys custom response headers and Accept-based
+markdown negotiation — both of which this site already answers another way,
+with `rel=me` links and `llms.txt`. What it risks is worse than what it buys:
+
+- Cloudflare's **AI Scrapers and Crawlers** blocking, and Bot Fight Mode, sit
+  in front of `robots.txt` and reject assistants before the file is ever read.
+  That would silently undo the whole point of naming them in there.
+- GitHub renews the Let's Encrypt certificate against the origin. Behind a
+  proxy that renewal is undocumented for this combination, and a failure shows
+  up ninety days later as an expired certificate, not as an error today.
+
+If it is ever turned on, check `Security → Bots` **first** — a blocked crawler
+is immediate, an unrenewed certificate is not — and verify with:
+
+```bash
+curl -A "Mozilla/5.0 (compatible; GPTBot/1.1)" -o /dev/null -w "%{http_code}\n" https://furkanbekdemir.com/
+```
 
 ## Build internals
 
