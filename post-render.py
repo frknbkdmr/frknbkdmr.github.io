@@ -40,6 +40,88 @@ def search_enabled() -> bool:
     return not re.search(r"^\s*search:\s*false\b", text, re.M)
 
 
+def qmd_to_markdown(src: str) -> tuple[str, str, str]:
+    """Strip a .qmd back to plain markdown. Returns (title, description, body).
+
+    A static host cannot negotiate on Accept, so agents cannot ask for markdown
+    — but they can fetch it from a known path. The sources are already
+    markdown; what has to come off is Quarto's own syntax, and the raw HTML
+    blocks, which are markup an agent gains nothing from.
+    """
+    m = re.match(r"^---\n(.*?)\n---\n", src, re.S)
+    front, body = (m.group(1), src[m.end():]) if m else ("", src)
+
+    def field(name):
+        f = re.search(rf'^{name}:\s*&?\w*\s*["\']?(.+?)["\']?\s*$', front, re.M)
+        return f.group(1).strip() if f else ""
+
+    title = field("title") or field("pagetitle")
+    desc = field("description-meta") or field("description")
+
+    body = re.sub(r"```\{=html\}.*?```", "", body, flags=re.S)   # raw HTML blocks
+    body = re.sub(r"^:::+.*$", "", body, flags=re.M)             # div fences
+    body = re.sub(r"\[([^\]]+)\]\{[^}]*\}", r"\1", body)         # [text]{.class}
+    body = re.sub(r"^(#+ .*?)\s*\{[^}]*\}\s*$", r"\1", body, flags=re.M)
+    body = re.sub(r"&middot;", "·", body)
+    body = re.sub(r"&ndash;", "–", body)
+    body = re.sub(r"<[^>]+>", "", body)                          # stray tags
+    # Stripping the hero <svg> leaves the whitespace that sat between its tags.
+    body = re.sub(r"[ \t]+$", "", body, flags=re.M)
+    body = re.sub(r"\n{3,}", "\n\n", body).strip()
+    # The page title and the body's own h1 are the same string on the homepage.
+    if title:
+        body = re.sub(rf"^#\s+{re.escape(title)}\s*\n+", "", body)
+    return title, desc, body
+
+
+def write_llms_txt(base: str) -> bool:
+    """Publish llms.txt and llms-full.txt.
+
+    One fetch of llms-full.txt costs an agent a few kilobytes; reading the five
+    rendered pages costs a quarter of a megabyte, nearly all of it markup.
+    """
+    order = [("index.qmd", "Home", "/"),
+             ("research.qmd", "Research", "/research"),
+             ("tools.qmd", "Instruments and code", "/tools"),
+             ("cv.qmd", "CV", "/cv"),
+             ("notlar.qmd", "Notlar", "/notlar")]
+
+    pages = []
+    for fname, label, path in order:
+        p = ROOT / fname
+        if not p.exists():
+            continue
+        title, desc, body = qmd_to_markdown(p.read_text(encoding="utf-8"))
+        pages.append((label, title or label, desc, path, body))
+
+    lede = ("Psychiatry resident and computational psychiatry researcher at "
+            "Ondokuz Mayıs University, Samsun. Belief updating, sensory "
+            "attenuation, and instrumentation for psychiatric research.")
+
+    idx = [f"# Furkan Bekdemir", "", f"> {lede}", "",
+           f"ORCID: https://orcid.org/0000-0002-7236-5776",
+           f"Code: https://github.com/frknbkdmr",
+           f"Full text of every page: {base}/llms-full.txt", "", "## Pages", ""]
+    for label, _title, desc, path, _body in pages:
+        idx.append(f"- [{label}]({base}{path})" + (f": {desc}" if desc else ""))
+    idx.append("")
+
+    full = [f"# Furkan Bekdemir", "", f"> {lede}", "",
+            f"Source: {base}  ·  ORCID: https://orcid.org/0000-0002-7236-5776",
+            "", "---", ""]
+    for label, title, _desc, path, body in pages:
+        full += [f"# {title}", "", f"URL: {base}{path}", "", body, "", "---", ""]
+
+    changed = False
+    for name, lines in (("llms.txt", idx), ("llms-full.txt", full)):
+        text = "\n".join(lines).rstrip() + "\n"
+        path = OUT / name
+        if not path.exists() or path.read_text(encoding="utf-8") != text:
+            path.write_text(text, encoding="utf-8", newline="\n")
+            changed = True
+    return changed
+
+
 def canonical_for(html_path: Path, base: str) -> str:
     """Extensionless URLs, because they outlive the generator that made them.
     Once ORCID or a paper cites an address it can never move, and it must not
@@ -83,7 +165,7 @@ def inject_canonical(path: Path, base: str) -> bool | None:
             return None
         text = text[: m.start()] + tag + "\n" + text[m.start():]
 
-    path.write_text(text, encoding="utf-8")
+    path.write_text(text, encoding="utf-8", newline="\n")
     return True
 
 
@@ -147,7 +229,7 @@ def fix_a11y(path: Path) -> list[str]:
             done.append("lang parts")
 
     if text != original:
-        path.write_text(text, encoding="utf-8")
+        path.write_text(text, encoding="utf-8", newline="\n")
     return done
 
 
@@ -222,13 +304,21 @@ def write_robots(base: str) -> bool:
     ]
     for agent in AI_AGENTS:
         lines += [f"User-agent: {agent}", "Allow: /", ""]
-    lines += [f"Sitemap: {base}/sitemap.xml", ""]
+    lines += [
+        "# The whole site as markdown, for agents that would rather not parse",
+        "# the HTML. This host cannot negotiate on Accept, so it is a fixed path.",
+        f"# {base}/llms.txt",
+        f"# {base}/llms-full.txt",
+        "",
+        f"Sitemap: {base}/sitemap.xml",
+        "",
+    ]
 
     text = "\n".join(lines)
     path = OUT / "robots.txt"
     if path.exists() and path.read_text(encoding="utf-8") == text:
         return False
-    path.write_text(text, encoding="utf-8")
+    path.write_text(text, encoding="utf-8", newline="\n")
     return True
 
 
@@ -267,6 +357,8 @@ def main() -> None:
         print("sitemap: index.html -> /, duplicates dropped")
     if write_robots(base):
         print(f"robots.txt: written, {len(AI_AGENTS)} assistants named")
+    if write_llms_txt(base):
+        print("llms.txt + llms-full.txt: written")
 
     index = OUT / "search.json"
     if index.exists() and not search_enabled():
