@@ -11,8 +11,8 @@ Source: https://furkanbekdemir.com  ·  ORCID: https://orcid.org/0000-0002-7236-
 URL: https://furkanbekdemir.com/
 
 Psychiatry resident at Ondokuz Mayıs University, Samsun. I design measurement
-instruments together with engineering collaborators, build the software and
-models that run on them, and use both to ask how the brain decides what to
+instruments together with engineering collaborators. I write the software and
+the models that run on them. I use both to study how the brain decides what to
 believe.
 
 fig. belief about a reversing contingency, with uncertainty. learning rate rises with surprise.
@@ -29,11 +29,10 @@ the study. Supervised by Prof. Dr. Gökhan Sarısoy; registration pending.
 In design · protocol
 
 ### Akathisia as active inference
-Akathisia treated as an attempt to make the world fit the model, rather than
-the model fit the world. Aripiprazole is the instrument here: if dopamine
-encodes the precision of prediction errors, a D2 partial agonist should act
-less like a dial and more like a clamp on that precision, rather than simply
-lowering it.
+Akathisia treated as an attempt to make the world fit the model instead of
+fitting the model to the world. Aripiprazole is the instrument here: if
+dopamine encodes the precision of prediction errors, a D2 partial agonist
+should clamp that precision rather than simply lower it.
 
 In collection
 
@@ -234,7 +233,7 @@ generalized anxiety disorder.
 
 ### [Personality, impulsivity and gambling-related cognitions in gambling disorder](gambling.qmd)
 Forty-three patients in treatment. Age of onset tracked what people expected
-from gambling and how they planned — a clinical study, apart from the
+from gambling and how they planned. A clinical study, apart from the
 computational thread above.
 
 ---
@@ -247,17 +246,17 @@ In design · protocol
 
 Prediction error can be resolved two ways: revise the model, or act on the
 world until the sensory evidence matches it. One account treats delusion as a
-pathology of the first route, though that remains an active debate rather than
-a settled finding. Akathisia may be a pathology of the second — an inner
-restlessness that may be the felt quality of an error no action can close.
+pathology of the first route. That account is still debated and not settled.
+Akathisia may be a pathology of the second route. It would then be an inner
+restlessness that carries the felt quality of an error no action can close.
 
 Aripiprazole makes this testable. A D2 partial agonist does not simply lower
-dopaminergic signalling; it compresses it toward an intermediate set point,
-damping rather than removing its dependence on endogenous tone. If dopamine
-encodes the precision of prediction errors, partial agonism acts as what I
-will call a precision clamp — the term is mine, not the literature's — and the
-prediction is a loss of context-dependent adjustment rather than a shifted
-baseline.
+dopaminergic signalling. It compresses that signalling toward an intermediate
+set point, so its dependence on endogenous tone is damped but not removed. If
+dopamine encodes the precision of prediction errors, then partial agonism acts
+as a precision clamp. I use that term for this idea; the literature does not.
+The prediction that follows is a loss of context-dependent adjustment, not a
+shifted baseline.
 
 [← all research](index.qmd)
 
@@ -299,7 +298,7 @@ establish which way the relationship runs, and with 36 participants and no
 correction for multiple comparisons the findings are exploratory.
 
 This is a separate study from the
-[schizophrenia thesis](schizophrenia.qmd), not a preliminary stage of it — it
+[schizophrenia thesis](schizophrenia.qmd), not a preliminary stage of it. It
 is where the modelling approach the thesis depends on was first worked out.
 
 [← all research](index.qmd)
@@ -330,9 +329,9 @@ Bekdemir F, Özdin S, Satılmış B, Aydın Öztemel R, Bolat R, Ünsal Çelebi 
 · [doi:10.5080/kes27.abs62](https://doi.org/10.5080/kes27.abs62)
 
 Gambling disorder is usually treated as one behavioural category. This study
-looked at three things together in the same patients — personality traits,
-impulsivity, and the beliefs people hold about gambling itself — and asked how
-each relates to how severe the disorder is.
+looked at three things together in the same patients: personality traits,
+impulsivity, and the beliefs people hold about gambling itself. It asked how
+each of them relates to how severe the disorder is.
 
 Forty-three patients presenting to the Ondokuz Mayıs University psychiatry
 clinic and to the AMATEM clinic at Samsun Mental Health and Diseases Hospital
@@ -344,7 +343,7 @@ Barratt Impulsiveness Scale short form, and personality with the Eysenck
 Personality Inventory, alongside PHQ-9 and GAD-7. Approved by the Ondokuz
 Mayıs University Clinical Research Ethics Committee (2025/27).
 
-Severity correlated with one specific distortion — the belief that chance
+Severity correlated with one specific distortion, the belief that chance
 outcomes can be interpreted or controlled (r = 0.326, p = .040). Age of onset
 correlated negatively with gambling-related expectancies (r = −0.427,
 p = .006) and with the lack-of-planning facet of impulsivity (r = −0.341,
@@ -358,8 +357,8 @@ correlations in a single clinical sample, so they describe a pattern rather
 than establish a mechanism.
 
 This work sits apart from the computational thread running through the rest of
-the research pages — it came out of clinical service rather than out of the
-modelling programme, and shares neither its method nor its question.
+the research pages. It came out of clinical service, not the modelling
+programme. It shares neither its method nor its question.
 
 [← all research](index.qmd)
 
