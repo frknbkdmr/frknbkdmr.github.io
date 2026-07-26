@@ -8,11 +8,7 @@ project:
   render:
     - "research/*.qmd"
   resources:
-    # - CNAME
-    #   Re-enable the line above once furkanbekdemir.com resolves. Publishing
-    #   it earlier makes GitHub adopt the custom domain, and every address —
-    #   including frknbkdmr.github.io — then redirects to a name with no DNS,
-    #   so the site is reachable nowhere.
+    - CNAME               # furkanbekdemir.com; apex A records live since 2026-07-26
     - index.html          # root doorway; redirects to /research/
     - favicon.ico
     - favicon-32.png
