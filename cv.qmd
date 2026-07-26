@@ -95,6 +95,17 @@ Stanford University, via Coursera. Non-degree online course.
 ::: {.meta}
 2023
 :::
+### Laboratory Animal Use Certificate {.title}
+
+Ondokuz Mayıs University, Laboratory Animals Application and Research Centre
+(DEHAM), 13th programme. 40 hours of theory and 35 of practical work, with
+examination. Required by law to work with laboratory animals.
+:::
+
+::: {.entry}
+::: {.meta}
+2023
+:::
 ### Computational Neuroscience {.title}
 
 University of Washington, via Coursera. Non-degree online course.
