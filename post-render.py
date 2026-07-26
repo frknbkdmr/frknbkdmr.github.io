@@ -17,6 +17,7 @@ Idempotent: re-running over an already-processed _site changes nothing.
 Exits non-zero if a page could not be given a canonical, so a broken build
 fails loudly instead of publishing quietly incomplete pages.
 """
+import os
 import re
 import sys
 from pathlib import Path
@@ -41,8 +42,23 @@ def search_enabled() -> bool:
 
 
 def canonical_for(html_path: Path, base: str) -> str:
+    """Extensionless URLs, because they outlive the generator that made them.
+    Once ORCID or a paper cites furkanbekdemir.com/research, that address can
+    never move — and it must not depend on the pages still being .html."""
     rel = html_path.relative_to(OUT).as_posix()
-    return f"{base}/" if rel == "index.html" else f"{base}/{rel}"
+    if rel.endswith("/index.html"):
+        rel = rel[: -len("index.html")]          # research/index.html -> research/
+    elif rel == "index.html":
+        rel = ""
+    else:
+        rel = rel[: -len(".html")]               # research/cv.html -> research/cv
+    return f"{base}/{rel}"
+
+
+def is_doorway(text: str) -> bool:
+    """The root redirect page ships its own canonical and asks not to be
+    indexed; rewriting it would point crawlers back at the doorway."""
+    return bool(re.search(r'<meta[^>]+name="robots"[^>]+noindex', text, re.I))
 
 
 def inject_canonical(path: Path, base: str) -> bool | None:
@@ -129,6 +145,22 @@ def fix_a11y(path: Path) -> list[str]:
     return done
 
 
+def point_brand_at_home(path: Path) -> bool:
+    """Quarto aims the navbar brand at the site root, which here is the
+    redirect doorway — every page would link readers into a bounce. Aim it at
+    the section index instead."""
+    home = OUT / "research" / "index.html"
+    if not home.exists():
+        return False
+    rel = os.path.relpath(home, path.parent).replace(os.sep, "/")
+    text = path.read_text(encoding="utf-8")
+    fixed, n = re.subn(r'(<a\b[^>]*\bclass="[^"]*navbar-brand[^"]*"[^>]*\bhref=")[^"]*(")',
+                       rf"\1{rel}\2", text)
+    if n:
+        path.write_text(fixed, encoding="utf-8")
+    return bool(n)
+
+
 def scope_jsonld(path: Path) -> bool:
     """head.html is global, so its ProfilePage schema lands on every page.
     Only the homepage is a profile; the rest are ordinary pages about it."""
@@ -148,7 +180,10 @@ def normalise_sitemap(base: str) -> bool:
     if not sm.exists():
         return False
     text = sm.read_text(encoding="utf-8")
-    fixed = text.replace(f"{base}/index.html", f"{base}/")
+    # Match the extensionless form the canonical tags declare, or the sitemap
+    # would advertise a second address for every page.
+    fixed = re.sub(r"(<loc>[^<]*?)/index\.html(</loc>)", r"\1/\2", text)
+    fixed = re.sub(r"(<loc>[^<]*?)\.html(</loc>)", r"\1\2", fixed)
 
     # Rewriting index.html to "/" can collide with an entry Quarto already
     # emitted for the bare origin; keep the first of each <loc>.
@@ -179,6 +214,8 @@ def main() -> None:
     changed, failed, deferred, fixes, scoped = [], [], 0, set(), 0
 
     for p in pages:
+        if is_doorway(p.read_text(encoding="utf-8")):
+            continue
         result = inject_canonical(p, base)
         if result is None:
             failed.append(p.name)
@@ -187,6 +224,7 @@ def main() -> None:
         deferred += defer_head_scripts(p)
         fixes.update(fix_a11y(p))
         scoped += scope_jsonld(p)
+        point_brand_at_home(p)
 
     print(f"canonical: {len(changed)}/{len(pages)} page(s) updated"
           + (f" ({', '.join(changed)})" if changed else ""))

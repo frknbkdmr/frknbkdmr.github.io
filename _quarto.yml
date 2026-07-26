@@ -2,12 +2,14 @@ project:
   type: website
   output-dir: _site
   post-render: python post-render.py
-  # Pages are .qmd. Without this, any stray .md dropped in the repo (notes,
-  # an audit report) is silently published as a page and listed in the sitemap.
+  # The academic site lives under research/ so the root stays free for a
+  # non-academic section later. Naming only .qmd here also stops any stray .md
+  # dropped in the repo from being published as a page.
   render:
-    - "*.qmd"
+    - "research/*.qmd"
   resources:
     - CNAME
+    - index.html          # root doorway; redirects to /research/
     - favicon.ico
     - favicon-32.png
     - apple-touch-icon.png
@@ -27,13 +29,13 @@ website:
     pinned: true
     left:
       - text: "Research"
-        href: research.qmd
+        href: research/projects.qmd
       - text: "Instruments &amp; code"
-        href: tools.qmd
+        href: research/tools.qmd
       - text: "Notlar"
-        href: notlar.qmd
+        href: research/notlar.qmd
       - text: "CV"
-        href: cv.qmd
+        href: research/cv.qmd
   page-footer:
     left: "Furkan Bekdemir, MD &middot; Department of Psychiatry, Ondokuz Mayıs University, Samsun"
     right:
