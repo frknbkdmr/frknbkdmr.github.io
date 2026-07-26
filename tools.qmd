@@ -21,9 +21,9 @@ Hardware &middot; for the thesis protocol &middot; [calibrating]{.status .pendin
 :::
 
 A two-channel force transducer rig for the force-matching task, designed and
-machined in-house with my brother Anıl Bekdemir, a mechanical engineer, who
-worked on it unpaid. The acquisition software is mine. Built because
-commercial equivalents cost more than the grant and could not be modified.
+machined in-house with my brother Anıl Bekdemir, a mechanical engineer. The
+acquisition software is mine. Built because commercial equivalents cost more
+than the grant and could not be modified.
 
 Mechanically complete; calibration is still in progress. The calibration data
 and build notes will be published with it.
