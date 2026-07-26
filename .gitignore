@@ -14,3 +14,6 @@ _site/
 
 # Quarto drops this next to the project when a Sass compile fails.
 _quarto_internal_scss_error.scss
+
+# Internal working notes, not site source.
+SITE_AUDIT_REPORT.md
