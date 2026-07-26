@@ -1,10 +1,16 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Serif:wght@400;500&display=swap" rel="stylesheet">
+<!-- IBM Plex is served from this origin, not fonts.gstatic.com: a remote font
+     hands every visitor's IP to a third party on first paint, which is exactly
+     the transfer EU courts have ruled on. Regenerate with fetch_fonts.py. -->
+<link rel="preload" href="/fonts/IBMPlexSans-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/fonts/fonts.css">
+
+<!-- Raster icon fallbacks. Quarto emits the SVG icon itself; Safari before 17
+     and most link-preview crawlers ignore SVG favicons entirely. -->
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
 <!-- Identity block. Every URL below must resolve to the same person; this is
-     what lets search engines and knowledge graphs merge the profiles.
-     Fill the CHANGE-ME values as each profile goes live, then leave them alone. -->
+     what lets search engines and knowledge graphs merge the profiles. -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

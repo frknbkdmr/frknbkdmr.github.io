@@ -1,7 +1,13 @@
+# Build output and Quarto's working state.
 _site/
 .quarto/
+**/*.quarto_ipynb
+
+# Rendered pages are build output, but head.html is a source include that
+# Quarto injects, so it has to stay tracked. Add an exception here for any
+# other hand-written HTML (a 404 page, a search-console verification file) —
+# without one it is ignored silently and never gets committed.
 *.html
 !head.html
 
 /.quarto/
-**/*.quarto_ipynb

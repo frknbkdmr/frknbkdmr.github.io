@@ -1,5 +1,6 @@
 ---
 title: "CV"
+description-meta: "Curriculum vitae of Furkan Bekdemir, MD — psychiatry resident and computational psychiatry researcher at Ondokuz Mayıs University, Samsun."
 ---
 
 ::: {.lede}
@@ -18,6 +19,26 @@ Computational psychiatry; predictive processing and active inference; belief
 updating and sensory attenuation; psychosis; instrumentation and measurement
 for psychiatric research.
 
+## Education {.k-head}
+
+::: {.entry}
+::: {.meta}
+2022 &ndash; present
+:::
+[Psychiatry residency]{.title}
+
+Ondokuz Mayıs University.
+:::
+
+::: {.entry}
+::: {.meta}
+2015 &ndash; 2021
+:::
+[Doctor of Medicine]{.title}
+
+Ondokuz Mayıs University Faculty of Medicine.
+:::
+
 ## Funding {.k-head}
 
 ::: {.entry}
@@ -27,11 +48,50 @@ for psychiatric research.
 [Belief updating and sensory attenuation in schizophrenia]{.title}
 
 Ondokuz Mayıs University Scientific Research Projects Unit.
+Supervisor: Prof. Dr. Gökhan Sarısoy.
 :::
 
 ## Presentations {.k-head}
 
-*To be listed.*
+::: {.entry}
+::: {.meta}
+2026 &middot; 28th National Clinical Education Symposium
+:::
+[Belief updating in generalized anxiety disorder modelled with the
+Hierarchical Gaussian Filter]{.title}
+
+Oral presentation, with Selçuk Özdin.
+:::
+
+::: {.entry}
+::: {.meta}
+2025 &middot; 27th National Clinical Education Symposium
+:::
+[Assessment of personality traits, impulsivity, and gambling-related
+cognitions in patients with gambling disorder]{.title}
+
+Oral presentation, with Selçuk Özdin.
+:::
+
+## Certifications {.k-head}
+
+::: {.entry}
+::: {.meta}
+2024
+:::
+[Introduction to Statistics]{.title}
+
+Stanford University, online.
+:::
+
+::: {.entry}
+::: {.meta}
+2023
+:::
+[Computational Neuroscience]{.title}
+
+University of Washington, online.
+:::
 
 ## Technical {.k-head}
 
@@ -41,7 +101,7 @@ OpenCV. Hardware design and calibration for behavioural tasks.
 ## Contact {.k-head}
 
 furkan [at] furkanbekdemir.com &middot;
-[ORCID](https://orcid.org/0000-0000-0000-0000)
+[ORCID](https://orcid.org/0000-0002-7236-5776)
 
 ::: {.k}
 a PDF version will live here

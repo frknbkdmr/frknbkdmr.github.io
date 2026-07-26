@@ -1,5 +1,6 @@
 ---
 title: "Instruments and code"
+description-meta: "Behavioural paradigms, hardware, and analysis code built for psychiatric research: force-matching devices, beads tasks, and HGF modelling."
 ---
 
 ::: {.lede}
@@ -11,7 +12,7 @@ research output too, and they are easier to check than a methods section.
 
 ::: {.entry}
 ::: {.meta}
-Hardware &middot; built for the thesis protocol
+Hardware &middot; built for the thesis protocol &middot; [built]{.status .done}
 :::
 :::
 
@@ -48,7 +49,7 @@ with the recovery simulations that ran before any participant was seen.
 
 ::: {.entry}
 ::: {.meta}
-Python &middot; OpenCV &middot; in development
+Python &middot; OpenCV &middot; [in development]{.status .pending}
 :::
 :::
 

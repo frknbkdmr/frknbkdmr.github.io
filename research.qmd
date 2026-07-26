@@ -1,5 +1,6 @@
 ---
 title: "Research"
+description-meta: "Belief updating and sensory attenuation in schizophrenia, akathisia as active inference, and effort-based decision making in multiple sclerosis."
 ---
 
 ::: {.lede}
@@ -11,7 +12,8 @@ already believes against what it is currently being told.
 
 ::: {.entry}
 ::: {.meta}
-Doctoral thesis &middot; BAP04-B-2026-6538 &middot; Ondokuz Mayıs University
+Doctoral thesis &middot; BAP04-B-2026-6538 &middot; [live]{.status .live}\
+Supervisor &middot; Prof. Dr. Gökhan Sarısoy &middot; Ondokuz Mayıs University
 :::
 :::
 
@@ -22,14 +24,14 @@ ordinary actions carry the weight of external events.
 
 The study runs both: a beads task modelled with the Hierarchical Gaussian
 Filter, and a force-matching task on a device built for this protocol.
-Model and parameter recovery are run before data collection, and the analysis
-plan is registered in advance.
+Model and parameter recovery are run before data collection. The analysis plan
+is written; public registration is pending.
 
 ## Akathisia as active inference {.k-head}
 
 ::: {.entry}
 ::: {.meta}
-In design
+In design &middot; [protocol]{.status .pending}
 :::
 :::
 

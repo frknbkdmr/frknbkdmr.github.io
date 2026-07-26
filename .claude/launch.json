@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "quarto-preview",
+      "runtimeExecutable": "C:\\Program Files\\Quarto\\bin\\quarto.exe",
+      "runtimeArgs": ["preview", "--port", "4200", "--no-browser"],
+      "port": 4200
+    }
+  ]
+}
