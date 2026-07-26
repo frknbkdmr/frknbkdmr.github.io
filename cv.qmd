@@ -60,19 +60,24 @@ Supervisor: Prof. Dr. Gökhan Sarısoy.
 ::: {.entry}
 ::: {.meta}
 2026 &middot; 28th National Clinical Education Symposium
+&middot; Turkish Journal of Psychiatry
 :::
-### Belief updating in generalized anxiety disorder modelled with the Hierarchical Gaussian Filter {.title}
+### State anxiety and uncertainty processing: a Hierarchical Gaussian Filter study in generalized anxiety disorder {.title}
 
-Oral presentation, with Selçuk Özdin.
+Bekdemir F, Özdin S. Oral presentation.
+[doi:10.5080/61upk.ozt461](https://doi.org/10.5080/61upk.ozt461)
 :::
 
 ::: {.entry}
 ::: {.meta}
 2025 &middot; 27th National Clinical Education Symposium
+&middot; Turkish Journal of Psychiatry
 :::
 ### Assessment of personality traits, impulsivity, and gambling-related cognitions in patients with gambling disorder {.title}
 
-Oral presentation, with Selçuk Özdin.
+Bekdemir F, Özdin S, Satılmış B, Aydın Öztemel R, Bolat R, Ünsal Çelebi D.
+Oral presentation.
+[doi:10.5080/kes27.abs62](https://doi.org/10.5080/kes27.abs62)
 :::
 
 ## Certifications {.k-head}
