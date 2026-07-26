@@ -1,14 +1,24 @@
 project:
   type: website
   output-dir: _site
+  post-render: python post-render.py
   resources:
     - CNAME
+    - favicon.ico
+    - favicon-32.png
+    - apple-touch-icon.png
+    - fonts/
 
 website:
   title: "Furkan Bekdemir"
   description: "Psychiatry resident and computational psychiatry researcher at Ondokuz Mayıs University. Belief updating, sensory attenuation, and instrumentation for psychiatric research."
   site-url: "https://furkanbekdemir.com"
   favicon: favicon.svg
+  open-graph: true
+  twitter-card: true
+  # Five static pages reachable from the navbar; the search bundle
+  # (fuse + autocomplete) is weight without a job.
+  search: false
   navbar:
     pinned: true
     left:
@@ -33,6 +43,10 @@ website:
 format:
   html:
     theme: [cosmo, custom.scss]
+    grid:
+      body-width: 680px
+      sidebar-width: 0px
+      margin-width: 0px
     toc: false
     anchor-sections: false
     include-in-header: head.html
