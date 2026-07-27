@@ -10,10 +10,10 @@ Source: https://furkanbekdemir.com  ·  ORCID: https://orcid.org/0000-0002-7236-
 
 URL: https://furkanbekdemir.com/
 
-Psychiatry resident at Ondokuz Mayıs University, Samsun. I design measurement
-instruments together with engineering collaborators. I write the software and
-the models that run on them. I use both to study how the brain decides what to
-believe.
+Psychiatry resident at Ondokuz Mayıs University, Samsun. I study how the brain
+decides what to believe, and how it tells what it did itself from what merely
+happened to it. Where the instruments for that do not exist, or cannot be
+modified once bought, I build them.
 
 fig. belief about a reversing contingency, with uncertainty. learning rate rises with surprise.
 
@@ -160,7 +160,7 @@ examination. Required by law to work with laboratory animals.
 ### Computational Neuroscience
 University of Washington, via Coursera. Non-degree online course.
 
-## Technical
+## Methods and instrumentation
 Python, C. PsychoPy, TAPAS/HGF, OpenCV. Hardware design and calibration for
 behavioural tasks.
 
@@ -252,8 +252,9 @@ In design · protocol
 
 Akathisia is an inner restlessness that drives repetitive movement, and the
 movement usually fails to relieve it. That failure is the part worth
-explaining, and accounts pitched at the receptor do not explain it. I am
-building an active inference account instead, which asks whether the disorder
+explaining, and accounts pitched at the receptor do not on their own say why
+the movement so rarely settles the restlessness that drives it. I am building
+an active inference account alongside them, which asks whether the disorder
 sits in how bodily prediction errors are turned into action rather than in the
 motor system itself.
 
