@@ -30,9 +30,8 @@ In design · protocol
 
 ### Akathisia as active inference
 Akathisia treated as an attempt to make the world fit the model instead of
-fitting the model to the world. Aripiprazole is the instrument here: if
-dopamine encodes the precision of prediction errors, a D2 partial agonist
-should clamp that precision rather than simply lower it.
+fitting the model to the world. Aripiprazole is the instrument here; the
+specific prediction is held back until the protocol is preregistered.
 
 In collection
 
@@ -257,13 +256,10 @@ pathology of the first route. That account is still debated and not settled.
 Akathisia may be a pathology of the second route. It would then be an inner
 restlessness that carries the felt quality of an error no action can close.
 
-Aripiprazole makes this testable. A D2 partial agonist does not simply lower
-dopaminergic signalling. It compresses that signalling toward an intermediate
-set point, so its dependence on endogenous tone is damped but not removed. If
-dopamine encodes the precision of prediction errors, then partial agonism acts
-as a precision clamp. I use that term for this idea; the literature does not.
-The prediction that follows is a loss of context-dependent adjustment, not a
-shifted baseline.
+Aripiprazole is the pharmacological handle. A D2 partial agonist does not act
+on dopaminergic signalling the way an antagonist does, which is what makes the
+question askable at all. The specific prediction that follows is held back
+until the protocol is preregistered.
 
 [← all research](index.qmd)
 
