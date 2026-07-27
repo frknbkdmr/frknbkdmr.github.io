@@ -1,6 +1,6 @@
 ---
 title: "Akathisia as active inference"
-description-meta: &desc "Treating akathisia as a pathology of acting on the world rather than revising the model, with D2 partial agonism as a way to test it."
+description-meta: &desc "Treating akathisia as a pathology of acting on the world rather than revising the model. Protocol in design."
 open-graph:
   description: *desc
 twitter-card:
@@ -19,13 +19,10 @@ pathology of the first route. That account is still debated and not settled.
 Akathisia may be a pathology of the second route. It would then be an inner
 restlessness that carries the felt quality of an error no action can close.
 
-Aripiprazole makes this testable. A D2 partial agonist does not simply lower
-dopaminergic signalling. It compresses that signalling toward an intermediate
-set point, so its dependence on endogenous tone is damped but not removed. If
-dopamine encodes the precision of prediction errors, then partial agonism acts
-as a precision clamp. I use that term for this idea; the literature does not.
-The prediction that follows is a loss of context-dependent adjustment, not a
-shifted baseline.
+Aripiprazole is the pharmacological handle. A D2 partial agonist does not act
+on dopaminergic signalling the way an antagonist does, which is what makes the
+question askable at all. The specific prediction that follows is held back
+until the protocol is preregistered.
 
 ::: {.k}
 [← all research](index.qmd)
