@@ -42,6 +42,11 @@ In design &middot; [protocol]{.status .pending}
 :::
 ### Akathisia as active inference {.title}
 
+Restlessness that drives movement, and movement that does not relieve it. An
+active inference account of why. A concept note with the mechanism and the
+predictions is in preparation.
+:::
+
 ::: {.entry}
 ::: {.meta}
 In collection

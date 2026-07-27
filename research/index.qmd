@@ -32,8 +32,8 @@ In design &middot; [protocol]{.status .pending}
 :::
 ### [Akathisia as active inference](akathisia.qmd){.title}
 
-Prediction error can be resolved by revising the model or by acting on the
-world. Akathisia may be a pathology of the second route.
+Restlessness that drives movement, and movement that does not relieve it.
+An active inference account of why, with a concept note in preparation.
 :::
 
 ::: {.entry}
