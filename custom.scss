@@ -124,10 +124,14 @@ h3 { font-size: 1.04rem; margin-top: 2rem; }
    heading voice, because visually they belong to the entry, not to the
    section above it.
 
-   Target the heading element, not `.title`: section-divs copies the heading's
-   class onto the wrapping section, and styling that pushes font-weight down
-   onto the entry's body text. */
-.entry h3.title, .entry span.title {
+   Match the bare `h3`, not `h3.title`. Where the entry name is a link, Pandoc
+   attaches `{.title}` to the anchor rather than to the heading, so `h3.title`
+   silently matches nothing and the heading keeps Bootstrap's serif and its
+   34px top margin. Nor can this be `.entry .title`: section-divs copies the
+   heading's class onto the wrapping section, and styling that pushes
+   font-weight down onto the entry's body text. The element is the only stable
+   hook. */
+.entry h3, .entry span.title {
   font-family: $font-family-sans-serif;
   font-size: 1rem;
   font-weight: 500;
