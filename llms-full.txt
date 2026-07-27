@@ -156,8 +156,8 @@ examination. Required by law to work with laboratory animals.
 University of Washington, via Coursera. Non-degree online course.
 
 ## Technical
-Python, C, x86 assembly, reverse engineering. PsychoPy, TAPAS/HGF,
-OpenCV. Hardware design and calibration for behavioural tasks.
+Python, C. PsychoPy, TAPAS/HGF, OpenCV. Hardware design and calibration for
+behavioural tasks.
 
 ## Contact
 furkan [at] furkanbekdemir.com ·
