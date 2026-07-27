@@ -6,10 +6,10 @@ description: "Psychiatry resident and computational psychiatry researcher at Ond
 # Furkan Bekdemir
 
 ::: {.lede}
-Psychiatry resident at Ondokuz Mayıs University, Samsun. I design measurement
-instruments together with engineering collaborators. I write the software and
-the models that run on them. I use both to study how the brain decides what to
-believe.
+Psychiatry resident at Ondokuz Mayıs University, Samsun. I study how the brain
+decides what to believe, and how it tells what it did itself from what merely
+happened to it. Where the instruments for that do not exist, or cannot be
+modified once bought, I build them.
 :::
 
 <figure class="trace" role="img" aria-label="A simulated belief-updating trace: an agent tracking a reversing probability under uncertainty.">
