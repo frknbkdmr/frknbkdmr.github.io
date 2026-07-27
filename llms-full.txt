@@ -28,6 +28,11 @@ the study. Supervised by Prof. Dr. Gökhan Sarısoy; registration pending.
 
 In design · protocol
 
+### Akathisia as active inference
+Restlessness that drives movement, and movement that does not relieve it. An
+active inference account of why. A concept note with the mechanism and the
+predictions is in preparation.
+
 In collection
 
 ### Effort and reward in multiple sclerosis
@@ -214,8 +219,8 @@ the same people.
 In design · protocol
 
 ### [Akathisia as active inference](akathisia.qmd)
-Prediction error can be resolved by revising the model or by acting on the
-world. Akathisia may be a pathology of the second route.
+Restlessness that drives movement, and movement that does not relieve it.
+An active inference account of why, with a concept note in preparation.
 
 In collection · with the Department of Neurology
 
@@ -245,11 +250,12 @@ URL: https://furkanbekdemir.com/research/akathisia
 
 In design · protocol
 
-Prediction error can be resolved two ways: revise the model, or act on the
-world until the sensory evidence matches it. One account treats delusion as a
-pathology of the first route. That account is still debated and not settled.
-Akathisia may be a pathology of the second route. It would then be an inner
-restlessness that carries the felt quality of an error no action can close.
+Akathisia is an inner restlessness that drives repetitive movement, and the
+movement usually fails to relieve it. That failure is the part worth
+explaining, and accounts pitched at the receptor do not explain it. I am
+building an active inference account instead, which asks whether the disorder
+sits in how bodily prediction errors are turned into action rather than in the
+motor system itself.
 
 [← all research](index.qmd)
 
