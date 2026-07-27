@@ -38,7 +38,7 @@ the study. Supervised by Prof. Dr. Gökhan Sarısoy; registration pending.
 
 ::: {.entry}
 ::: {.meta}
-In design &middot; [concept note]{.status .pending}
+Theory &middot; [in design]{.status .pending}
 :::
 ### Akathisia as active inference {.title}
 
@@ -48,7 +48,7 @@ active inference account of why.
 
 ::: {.entry}
 ::: {.meta}
-In collection
+With the Department of Neurology &middot; [in collection]{.status .live}
 :::
 ### Effort and reward in multiple sclerosis {.title}
 

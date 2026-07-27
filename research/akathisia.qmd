@@ -9,7 +9,7 @@ twitter-card:
 
 ::: {.entry}
 ::: {.meta}
-In design &middot; [concept note]{.status .pending}
+Theory &middot; [in design]{.status .pending}
 :::
 :::
 

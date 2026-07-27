@@ -9,7 +9,7 @@ twitter-card:
 
 ::: {.entry}
 ::: {.meta}
-In collection &middot; with the Department of Neurology
+With the Department of Neurology &middot; [in collection]{.status .live}
 :::
 :::
 
