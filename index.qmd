@@ -7,9 +7,9 @@ description: "Psychiatry resident and computational psychiatry researcher at Ond
 
 ::: {.lede}
 Psychiatry resident at Ondokuz Mayıs University, Samsun. I study how the brain
-decides what to believe, and how it tells what it did itself from what merely
-happened to it. Where the instruments for that do not exist, or cannot be
-modified once bought, I build them.
+decides what to believe, and how it tells what it did itself from what happened
+to it. Where the instruments for that do not exist, or cannot be modified, I
+build them, the hardware with an engineer.
 :::
 
 <figure class="trace" role="img" aria-label="A simulated belief-updating trace: an agent tracking a reversing probability under uncertainty.">
@@ -38,13 +38,12 @@ the study. Supervised by Prof. Dr. Gökhan Sarısoy; registration pending.
 
 ::: {.entry}
 ::: {.meta}
-In design &middot; [protocol]{.status .pending}
+In design &middot; [concept note]{.status .pending}
 :::
 ### Akathisia as active inference {.title}
 
 Restlessness that drives movement, and movement that does not relieve it. An
-active inference account of why. A concept note with the mechanism and the
-predictions is in preparation.
+active inference account of why.
 :::
 
 ::: {.entry}

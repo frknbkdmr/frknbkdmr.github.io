@@ -28,12 +28,12 @@ the same people.
 
 ::: {.entry}
 ::: {.meta}
-In design &middot; [protocol]{.status .pending}
+In design &middot; [concept note]{.status .pending}
 :::
 ### [Akathisia as active inference](akathisia.qmd){.title}
 
-Restlessness that drives movement, and movement that does not relieve it.
-An active inference account of why, with a concept note in preparation.
+Why the movement akathisia drives so rarely settles it. An active inference
+account of the mismatch.
 :::
 
 ::: {.entry}
