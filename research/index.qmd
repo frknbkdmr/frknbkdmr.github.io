@@ -28,17 +28,17 @@ the same people.
 
 ::: {.entry}
 ::: {.meta}
-In design &middot; [concept note]{.status .pending}
+Theory &middot; [in design]{.status .pending}
 :::
 ### [Akathisia as active inference](akathisia.qmd){.title}
 
-Why the movement akathisia drives so rarely settles it. An active inference
-account of the mismatch.
+Akathisia drives movement that rarely settles it. Active inference offers an
+account of why.
 :::
 
 ::: {.entry}
 ::: {.meta}
-In collection &middot; with the Department of Neurology
+With the Department of Neurology &middot; [in collection]{.status .live}
 :::
 ### [Effort and reward in multiple sclerosis](effort-ms.qmd){.title}
 
