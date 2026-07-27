@@ -11,9 +11,9 @@ Source: https://furkanbekdemir.com  ·  ORCID: https://orcid.org/0000-0002-7236-
 URL: https://furkanbekdemir.com/
 
 Psychiatry resident at Ondokuz Mayıs University, Samsun. I study how the brain
-decides what to believe, and how it tells what it did itself from what merely
-happened to it. Where the instruments for that do not exist, or cannot be
-modified once bought, I build them.
+decides what to believe, and how it tells what it did itself from what happened
+to it. Where the instruments for that do not exist, or cannot be modified, I
+build them, the hardware with an engineer.
 
 fig. belief about a reversing contingency, with uncertainty. learning rate rises with surprise.
 
@@ -26,12 +26,11 @@ self-generated sensation, or both. Beads task modelled with the Hierarchical
 Gaussian Filter, alongside a force-matching task run on a device built for
 the study. Supervised by Prof. Dr. Gökhan Sarısoy; registration pending.
 
-In design · protocol
+In design · concept note
 
 ### Akathisia as active inference
 Restlessness that drives movement, and movement that does not relieve it. An
-active inference account of why. A concept note with the mechanism and the
-predictions is in preparation.
+active inference account of why.
 
 In collection
 
@@ -216,11 +215,11 @@ Whether delusions track a failure of belief revision, a failure to attenuate
 self-generated sensation, or both. A beads task and a force-matching task in
 the same people.
 
-In design · protocol
+In design · concept note
 
 ### [Akathisia as active inference](akathisia.qmd)
-Restlessness that drives movement, and movement that does not relieve it.
-An active inference account of why, with a concept note in preparation.
+Why the movement akathisia drives so rarely settles it. An active inference
+account of the mismatch.
 
 In collection · with the Department of Neurology
 
@@ -248,15 +247,14 @@ computational thread above.
 
 URL: https://furkanbekdemir.com/research/akathisia
 
-In design · protocol
+In design · concept note
 
 Akathisia is an inner restlessness that drives repetitive movement, and the
 movement usually fails to relieve it. That failure is the part worth
-explaining, and accounts pitched at the receptor do not on their own say why
-the movement so rarely settles the restlessness that drives it. I am building
-an active inference account alongside them, which asks whether the disorder
-sits in how bodily prediction errors are turned into action rather than in the
-motor system itself.
+explaining, and accounts pitched at the receptor do not on their own explain
+it. I am building an active inference account alongside them, which asks
+whether the disorder sits in how bodily prediction errors are turned into
+action rather than in the motor system itself.
 
 [← all research](index.qmd)
 
