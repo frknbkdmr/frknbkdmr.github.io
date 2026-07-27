@@ -113,6 +113,19 @@ h3 { font-size: 1.04rem; margin-top: 2rem; }
 /* ---- Entries ------------------------------------------------------- */
 
 .entry { margin: 1.9rem 0; }
+
+/* Where the section heading is already the entry name, the entry holds nothing
+   but its meta strip. The margins above then leave that strip exactly
+   equidistant between the heading it describes and the paragraph beneath it,
+   so it reads as belonging to neither. Bind it to the heading instead. Match
+   on the strip being the entry's only child rather than on what precedes it:
+   the first entry of a list also follows a .k-head, and that one must keep the
+   full section gap. Browsers without :has() fall back to the looser spacing,
+   which is worse but not broken. */
+.entry:has(> .meta:only-child) {
+  margin-top: -.7rem;
+  margin-bottom: .75rem;
+}
 .entry .meta {
   font-family: $font-family-monospace;
   font-size: .74rem;
