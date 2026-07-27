@@ -1,3 +1,12 @@
+---
+title: "Akathisia as active inference"
+description-meta: &desc "Treating akathisia as a pathology of acting on the world rather than revising the model. Protocol in design."
+open-graph:
+  description: *desc
+twitter-card:
+  description: *desc
+---
+
 ::: {.entry}
 ::: {.meta}
 In design &middot; [protocol]{.status .pending}
