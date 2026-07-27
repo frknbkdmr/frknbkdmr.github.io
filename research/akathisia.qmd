@@ -1,6 +1,6 @@
 ---
 title: "Akathisia as active inference"
-description-meta: &desc "Treating akathisia as a pathology of acting on the world rather than revising the model. Protocol in design."
+description-meta: &desc "An active inference account of akathisia, asking why the movement it drives so often fails to relieve it. Concept note in preparation."
 open-graph:
   description: *desc
 twitter-card:
@@ -13,16 +13,17 @@ In design &middot; [protocol]{.status .pending}
 :::
 :::
 
-Prediction error can be resolved two ways: revise the model, or act on the
-world until the sensory evidence matches it. One account treats delusion as a
-pathology of the first route. That account is still debated and not settled.
-Akathisia may be a pathology of the second route. It would then be an inner
-restlessness that carries the felt quality of an error no action can close.
+Akathisia is an inner restlessness that drives repetitive movement, and the
+movement usually fails to relieve it. That failure is the part worth
+explaining, and accounts pitched at the receptor do not explain it. I am
+building an active inference account instead, which asks whether the disorder
+sits in how bodily prediction errors are turned into action rather than in the
+motor system itself.
 
-Aripiprazole is the pharmacological handle. A D2 partial agonist does not act
-on dopaminergic signalling the way an antagonist does, which is what makes the
-question askable at all. The specific prediction that follows is held back
-until the protocol is preregistered.
+Aripiprazole is the pharmacological handle. The mechanism, and the predictions
+that would separate this account from conventional motor and receptor-level
+explanations, are being written up as a concept note. They go back on this page
+when it carries a DOI.
 
 ::: {.k}
 [← all research](index.qmd)

@@ -42,9 +42,9 @@ In design &middot; [protocol]{.status .pending}
 :::
 ### Akathisia as active inference {.title}
 
-Akathisia treated as an attempt to make the world fit the model instead of
-fitting the model to the world. Aripiprazole is the instrument here; the
-specific prediction is held back until the protocol is preregistered.
+Restlessness that drives movement, and movement that does not relieve it. An
+active inference account of why. A concept note with the mechanism and the
+predictions is in preparation.
 :::
 
 ::: {.entry}
