@@ -7,3 +7,14 @@ Code: https://github.com/frknbkdmr
 Full text of every page: https://furkanbekdemir.com/llms-full.txt
 
 ## Pages
+
+- [Furkan Bekdemir](https://furkanbekdemir.com/): Psychiatry resident and computational psychiatry researcher at Ondokuz Mayıs University.
+- [Instruments and code](https://furkanbekdemir.com/tools): Behavioural paradigms, hardware, and analysis code built for psychiatric research: force-matching devices, beads tasks, and HGF modelling.
+- [CV](https://furkanbekdemir.com/cv): Curriculum vitae of Furkan Bekdemir, MD, psychiatry resident and computational psychiatry researcher at Ondokuz Mayıs University, Samsun.
+- [Notlar](https://furkanbekdemir.com/notlar): Hesaplamalı psikiyatri, kestirimsel işlemleme ve klinik akıl yürütme üzerine Türkçe notlar.
+- [Research](https://furkanbekdemir.com/research/): Belief updating and sensory attenuation in schizophrenia, akathisia as active inference, effort-based decision making in multiple sclerosis, and uncertainty processing in generalized anxiety disorder.
+- [Akathisia as active inference](https://furkanbekdemir.com/research/akathisia): Treating akathisia as a pathology of acting on the world rather than revising the model. Protocol in design.
+- [State anxiety and uncertainty processing in generalized anxiety disorder](https://furkanbekdemir.com/research/anxiety-hgf): A Hierarchical Gaussian Filter study of belief updating in generalized anxiety disorder. Published abstract, Turkish Journal of Psychiatry, 2026.
+- [Effort and reward in multiple sclerosis](https://furkanbekdemir.com/research/effort-ms): Separating fatigue from depression in multiple sclerosis by modelling effort-based decisions, with the Department of Neurology.
+- [Personality, impulsivity and gambling-related cognitions in gambling disorder](https://furkanbekdemir.com/research/gambling): A clinical study of personality traits, impulsivity and gambling-related cognitions in patients with gambling disorder. Published abstract, Turkish Journal of Psychiatry, 2025.
+- [Belief updating and sensory attenuation in schizophrenia](https://furkanbekdemir.com/research/schizophrenia): Residency thesis testing two accounts of delusion in the same participants: belief revision on too little evidence, and failure to attenuate self-generated sensation.
