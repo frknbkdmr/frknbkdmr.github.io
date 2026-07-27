@@ -15,8 +15,9 @@ In design &middot; [protocol]{.status .pending}
 
 Akathisia is an inner restlessness that drives repetitive movement, and the
 movement usually fails to relieve it. That failure is the part worth
-explaining, and accounts pitched at the receptor do not explain it. I am
-building an active inference account instead, which asks whether the disorder
+explaining, and accounts pitched at the receptor do not on their own say why
+the movement so rarely settles the restlessness that drives it. I am building
+an active inference account alongside them, which asks whether the disorder
 sits in how bodily prediction errors are turned into action rather than in the
 motor system itself.
 

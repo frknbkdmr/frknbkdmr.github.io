@@ -111,7 +111,7 @@ examination. Required by law to work with laboratory animals.
 University of Washington, via Coursera. Non-degree online course.
 :::
 
-## Technical {.k-head}
+## Methods and instrumentation {.k-head}
 
 Python, C. PsychoPy, TAPAS/HGF, OpenCV. Hardware design and calibration for
 behavioural tasks.
