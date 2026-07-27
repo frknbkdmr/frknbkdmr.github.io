@@ -1,6 +1,6 @@
 ---
 title: "Akathisia as active inference"
-description-meta: &desc "An active inference account of akathisia, asking why the movement it drives so often fails to relieve it. Concept note in preparation."
+description-meta: &desc "An active inference account of akathisia, locating the disorder in how bodily prediction errors are turned into action rather than in the motor system. Concept note in preparation."
 open-graph:
   description: *desc
 twitter-card:
@@ -9,22 +9,20 @@ twitter-card:
 
 ::: {.entry}
 ::: {.meta}
-In design &middot; [protocol]{.status .pending}
+In design &middot; [concept note]{.status .pending}
 :::
 :::
 
 Akathisia is an inner restlessness that drives repetitive movement, and the
 movement usually fails to relieve it. That failure is the part worth
-explaining, and accounts pitched at the receptor do not on their own say why
-the movement so rarely settles the restlessness that drives it. I am building
-an active inference account alongside them, which asks whether the disorder
-sits in how bodily prediction errors are turned into action rather than in the
-motor system itself.
+explaining, and accounts pitched at the receptor do not on their own explain
+it. I am building an active inference account alongside them, which asks
+whether the disorder sits in how bodily prediction errors are turned into
+action rather than in the motor system itself.
 
-Aripiprazole is the pharmacological handle. The mechanism, and the predictions
-that would separate this account from conventional motor and receptor-level
-explanations, are being written up as a concept note. They go back on this page
-when it carries a DOI.
+Aripiprazole is the pharmacological handle, since a D2 partial agonist does not
+act on dopaminergic signalling the way an antagonist does. A concept note is in
+preparation.
 
 ::: {.k}
 [← all research](index.qmd)
