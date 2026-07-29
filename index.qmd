@@ -28,7 +28,7 @@ build them, the hardware with an engineer.
 ::: {.meta}
 Residency thesis &middot; BAP04-B-2026-6538 &middot; [in preparation]{.status .pending}
 :::
-### Belief updating and sensory attenuation in schizophrenia {.title}
+### [Belief updating and sensory attenuation in schizophrenia](research/schizophrenia.qmd){.title}
 
 Whether delusions track a failure of belief revision, a failure to attenuate
 self-generated sensation, or both. Beads task modelled with the Hierarchical
@@ -40,7 +40,7 @@ the study. Supervised by Prof. Dr. Gökhan Sarısoy; registration pending.
 ::: {.meta}
 Theory &middot; [in design]{.status .pending}
 :::
-### Akathisia as active inference {.title}
+### [Akathisia as active inference](research/akathisia.qmd){.title}
 
 Restlessness that drives movement, and movement that does not relieve it. An
 active inference account of why.
@@ -50,7 +50,7 @@ active inference account of why.
 ::: {.meta}
 With the Department of Neurology &middot; [in collection]{.status .live}
 :::
-### Effort and reward in multiple sclerosis {.title}
+### [Effort and reward in multiple sclerosis](research/effort-ms.qmd){.title}
 
 Separating fatigue from depression in MS by modelling effort-based decisions,
 in collaboration with the Department of Neurology.
