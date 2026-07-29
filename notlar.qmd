@@ -34,8 +34,8 @@ zorunludur, ve bir hesaplamalı bulguya ne zaman güvenilir.
 ::: {.entry}
 ### Akatizi: aktif çıkarım çerçevesinden bir bakış {.title}
 
-D2 kısmi agonizmasının sağladığı matematiksel zemin ve akatizinin öznel /
-nesnel ayrışmasının kuramsal karşılığı.
+Akatizinin öznel ve nesnel bileşenlerinin neden ayrışabildiği, ve hareketin
+çoğu zaman huzursuzluğu dindirmemesi.
 :::
 
 ---
