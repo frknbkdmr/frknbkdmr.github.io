@@ -20,7 +20,7 @@ fig. belief about a reversing contingency, with uncertainty. learning rate rises
 ## Current work
 Residency thesis · BAP04-B-2026-6538 · in preparation
 
-### Belief updating and sensory attenuation in schizophrenia
+### [Belief updating and sensory attenuation in schizophrenia](research/schizophrenia.qmd)
 Whether delusions track a failure of belief revision, a failure to attenuate
 self-generated sensation, or both. Beads task modelled with the Hierarchical
 Gaussian Filter, alongside a force-matching task run on a device built for
@@ -28,13 +28,13 @@ the study. Supervised by Prof. Dr. Gökhan Sarısoy; registration pending.
 
 Theory · in design
 
-### Akathisia as active inference
+### [Akathisia as active inference](research/akathisia.qmd)
 Restlessness that drives movement, and movement that does not relieve it. An
 active inference account of why.
 
 With the Department of Neurology · in collection
 
-### Effort and reward in multiple sclerosis
+### [Effort and reward in multiple sclerosis](research/effort-ms.qmd)
 Separating fatigue from depression in MS by modelling effort-based decisions,
 in collaboration with the Department of Neurology.
 
