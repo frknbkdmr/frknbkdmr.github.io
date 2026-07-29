@@ -39,8 +39,11 @@ website:
         href: research/index.qmd
       - text: "Instruments &amp; code"
         href: tools.qmd
-      - text: "Notlar"
-        href: notlar.qmd
+      # Notlar is off the navbar until one of its notes is written. The page
+      # still renders and its address still resolves, so nothing that links to
+      # it breaks; it just no longer spends one of four navbar slots promising
+      # three articles that do not exist yet. Restore this entry the day the
+      # first one lands.
       - text: "CV"
         href: cv.qmd
   page-footer:

@@ -24,6 +24,33 @@ Aripiprazole is the pharmacological handle, since a D2 partial agonist does not
 act on dopaminergic signalling the way an antagonist does. A concept note is in
 preparation.
 
+```{=html}
+<!-- Declared at the level the work has actually reached: a project in design,
+     with no funder, no protocol number and no findings to describe. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchProject",
+  "@id": "https://furkanbekdemir.com/research/akathisia#project",
+  "name": "Akathisia as active inference",
+  "description": "A theoretical account of akathisia asking whether the disorder sits in how bodily prediction errors are turned into action rather than in the motor system itself. In design; a concept note is in preparation.",
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Ondokuz Mayıs University",
+    "url": "https://www.omu.edu.tr/"
+  },
+  "member": { "@id": "https://furkanbekdemir.com/#person" },
+  "knowsAbout": [
+    "Akathisia",
+    "Active inference",
+    "Predictive processing",
+    "Antipsychotic adverse effects"
+  ],
+  "url": "https://furkanbekdemir.com/research/akathisia"
+}
+</script>
+```
+
 ::: {.k}
 [← all research](index.qmd)
 :::
