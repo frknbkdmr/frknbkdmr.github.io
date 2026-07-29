@@ -82,10 +82,18 @@ def write_llms_txt(base: str) -> bool:
     """
     # Discovered, not listed. A hardcoded roster silently omits any page added
     # later, and the omission looks exactly like a page that has no content.
-    top = ["index.qmd", "tools.qmd", "cv.qmd", "notlar.qmd"]
-    sources = [ROOT / n for n in top if (ROOT / n).exists()]
-    sources += sorted((ROOT / "research").glob("*.qmd"),
+    def under(name: str) -> list[Path]:
+        return sorted((ROOT / name).glob("*.qmd"),
                       key=lambda p: (p.stem != "index", p.stem))
+
+    # Navbar order, each section index immediately before the pages under it.
+    # tools.qmd is the tools index even though it sits at the root, so it is
+    # named here rather than swept up by the glob.
+    sources = [ROOT / "index.qmd"]
+    sources += under("research")
+    sources += [ROOT / "tools.qmd"] + under("tools")
+    sources += [ROOT / "cv.qmd", ROOT / "notlar.qmd"]
+    sources = [p for p in sources if p.exists()]
 
     pages = []
     for p in sources:

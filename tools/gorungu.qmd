@@ -1,0 +1,74 @@
+---
+title: "GÖRÜNGÜ"
+description-meta: &desc "Optical mark recognition and automatic scoring for paper psychiatric assessment forms, so that scale batteries stop being typed in by hand. Python, OpenCV, MIT."
+open-graph:
+  description: *desc
+twitter-card:
+  description: *desc
+---
+
+::: {.entry}
+::: {.meta}
+Python &middot; OpenCV &middot; MIT &middot; [public]{.status .done}
+:::
+:::
+
+Psychiatric research still runs on paper. A single participant may fill in a
+battery of scales by hand, and somebody then types every mark into a
+spreadsheet. It is slow, it is dull, and typing is where a quiet error enters
+the data with nothing downstream to catch it.
+
+GÖRÜNGÜ reads the sheets instead. You photograph them, it finds the marks, it
+scores them, and it writes a CSV. The parts that took the work are the ones a
+demo never shows: a template designer for laying out where the boxes are on a
+given form, per-form threshold tuning because a pencil tick and a biro cross do
+not leave the same amount of ink, and automatic alignment, since a photograph
+taken by hand is never square to the page and the boxes have to be found
+anyway.
+
+It is the one instrument here that is finished and public. The name is the
+Turkish word for phenomenon, in the sense of the thing as it appears.
+
+[Repository](https://github.com/frknbkdmr/gorungu)
+
+```{=html}
+<!-- Moved here with the page, so the record lives at the address that
+     describes the software rather than on the section index. author points at
+     the Person declared in head.html rather than repeating it. Every value is
+     taken from the repository, not asserted. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareSourceCode",
+  "@id": "https://furkanbekdemir.com/tools/gorungu#software",
+  "name": "GÖRÜNGÜ",
+  "alternateName": "GORUNGU",
+  "description": "Optical mark recognition and automatic scoring for paper psychiatric assessment forms. Interactive template design, per-form threshold tuning, automatic alignment of photographed sheets, and CSV export.",
+  "codeRepository": "https://github.com/frknbkdmr/gorungu",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "Python"
+  },
+  "runtimePlatform": "Python",
+  "license": "https://spdx.org/licenses/MIT.html",
+  "dateCreated": "2026-02-02",
+  "dateModified": "2026-03-29",
+  "applicationCategory": "Research software",
+  "keywords": [
+    "optical mark recognition",
+    "psychiatric assessment",
+    "rating scales",
+    "OpenCV",
+    "data entry"
+  ],
+  "author": { "@id": "https://furkanbekdemir.com/#person" },
+  "maintainer": { "@id": "https://furkanbekdemir.com/#person" },
+  "isAccessibleForFree": true,
+  "url": "https://furkanbekdemir.com/tools/gorungu"
+}
+</script>
+```
+
+::: {.k}
+[← all instruments](../tools.qmd)
+:::

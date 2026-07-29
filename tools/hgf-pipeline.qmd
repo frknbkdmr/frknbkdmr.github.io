@@ -1,0 +1,42 @@
+---
+title: "HGF analysis pipeline"
+description-meta: &desc "Model fitting, parameter and model recovery, and Bayesian model selection with TAPAS, with the recovery simulations run before any participant was seen."
+open-graph:
+  description: *desc
+twitter-card:
+  description: *desc
+---
+
+::: {.entry}
+::: {.meta}
+Python / TAPAS &middot; [to publish]{.status}
+:::
+:::
+
+The Hierarchical Gaussian Filter treats a participant as someone tracking a
+world that changes, and its parameters say how readily they revise a belief and
+how unstable they expect the world to be by default. Fitting it to behaviour is
+the easy part. Knowing whether the fit means anything is the rest of the work,
+and that is most of what this code does.
+
+Parameter recovery asks whether the design can identify the parameters at all:
+simulate agents with known values, fit them with the same pipeline, and see
+whether the estimates come back. Model recovery asks the harder version. If
+several models are in play, generate data from each and check that the
+selection procedure picks the right one. Where either check fails, the
+parameter is not a finding, it is an artefact of the design, and the honest
+response is to change the task before running anyone through it.
+
+The recovery simulations here ran before any participant was seen. That order
+matters: run them afterwards and the failure arrives too late to act on, when
+the only options left are to report a number you no longer trust or to bury it.
+
+The pipeline is built on [TAPAS](https://translationalneuromodeling.github.io/tapas/),
+the toolbox from the Translational Neuromodeling Unit in Zurich. It takes
+trial-level data of the kind the [beads task](beads-task.qmd) writes, and it is
+the same modelling approach behind the
+[anxiety study](../research/anxiety-hgf.qmd). It is not public yet.
+
+::: {.k}
+[← all instruments](../tools.qmd)
+:::

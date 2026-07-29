@@ -24,7 +24,7 @@ Filter, and a force-matching task on a device built for this protocol. Model
 and parameter recovery are run before data collection. The analysis plan is
 written; public registration is pending.
 
-The [force-matching rig](../tools.qmd) was designed and machined in-house
+The [force-matching rig](../tools/force-matching.qmd) was designed and machined in-house
 because commercial equivalents cost more than the grant and could not be
 modified.
 
