@@ -190,8 +190,8 @@ Modelin parametreleri klinik olarak ne anlatır, model karşılaştırması nede
 zorunludur, ve bir hesaplamalı bulguya ne zaman güvenilir.
 
 ### Akatizi: aktif çıkarım çerçevesinden bir bakış
-D2 kısmi agonizmasının sağladığı matematiksel zemin ve akatizinin öznel /
-nesnel ayrışmasının kuramsal karşılığı.
+Akatizinin öznel ve nesnel bileşenlerinin neden ayrışabildiği, ve hareketin
+çoğu zaman huzursuzluğu dindirmemesi.
 
 ---
 
