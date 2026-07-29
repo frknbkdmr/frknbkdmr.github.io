@@ -20,8 +20,8 @@ Hardware &middot; for the thesis protocol &middot; [calibrating]{.status .pendin
 :::
 ### [Force-matching device](tools/force-matching.qmd){.title}
 
-Two force channels sampled together, machined in-house because the commercial
-equivalents cost more than the grant and could not be modified afterwards.
+Two force channels sampled together, machined in-house because nobody sells
+one. Every lab running this paradigm has had to build its own.
 :::
 
 ::: {.entry}

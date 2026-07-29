@@ -8,8 +8,8 @@ description: "Psychiatry resident and computational psychiatry researcher at Ond
 ::: {.lede}
 Psychiatry resident at Ondokuz Mayıs University, Samsun. I study how the brain
 decides what to believe, and how it tells what it did itself from what happened
-to it. Where the instruments for that do not exist, or cannot be modified, I
-build them, the hardware with an engineer.
+to it. Where the instruments for that do not exist, I build them, the hardware
+with an engineer.
 :::
 
 <figure class="trace" role="img" aria-label="A simulated belief-updating trace: an agent tracking a reversing probability under uncertainty.">

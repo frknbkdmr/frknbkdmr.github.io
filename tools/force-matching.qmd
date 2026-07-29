@@ -1,6 +1,6 @@
 ---
 title: "Force-matching device"
-description-meta: &desc "A two-channel force transducer rig built in-house for the force-matching task, because commercial equivalents cost more than the grant and could not be modified."
+description-meta: &desc "A two-channel force transducer rig built in-house for the force-matching task, because no manufacturer sells one and the experiment cannot be run without it."
 open-graph:
   description: *desc
 twitter-card:
@@ -25,10 +25,10 @@ finger and the one the participant produces. The rig has both. It was designed
 and machined in-house with my brother Anıl Bekdemir, a mechanical engineer,
 and the acquisition software is mine.
 
-It was built rather than bought for two reasons that turned out to be the same
-reason. Commercial equivalents cost more than the whole grant, and the ones
-within reach could not be changed once delivered. A task that is still being
-designed needs an instrument that can still be changed.
+It was built because there is nothing to buy. No manufacturer sells a
+force-matching rig: the paradigm lives in a few labs, each of which made its
+own. So the choice was not between building and buying. It was between building
+and not running the experiment.
 
 Mechanically the rig is finished. Calibration is running now: the transducers
 have to be traced against known loads across the range the task actually uses,
