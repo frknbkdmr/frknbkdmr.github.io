@@ -1,0 +1,37 @@
+---
+title: "Beads task"
+description-meta: &desc "A PsychoPy implementation of the beads task that logs every draw, written so the data can be modelled rather than reduced to draws-to-decision."
+open-graph:
+  description: *desc
+twitter-card:
+  description: *desc
+---
+
+::: {.entry}
+::: {.meta}
+PsychoPy &middot; [to publish]{.status}
+:::
+:::
+
+In the beads task a participant watches beads drawn one at a time from a hidden
+jar and says, whenever they are ready, which of two jars it is. The usual
+number reported from it is draws to decision: how many beads someone needed
+before committing. People with delusions tend to need fewer, which is where the
+jumping-to-conclusions literature comes from.
+
+Draws to decision throws away most of what happened. It collapses a sequence of
+beliefs, each formed after a specific piece of evidence, into one integer. A
+model of belief updating needs the sequence, not the summary, so this
+implementation logs every draw: what was shown, when the response came, and
+what the participant reported believing at that point.
+
+That is the only real design decision in it. The task itself is old and the
+implementation is not clever. What it does is refuse to reduce the data at
+collection time, when the reduction cannot be undone.
+
+It feeds the [HGF pipeline](hgf-pipeline.qmd) and runs in the
+[schizophrenia thesis](../research/schizophrenia.qmd). It is not public yet.
+
+::: {.k}
+[← all instruments](../tools.qmd)
+:::

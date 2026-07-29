@@ -1,0 +1,41 @@
+---
+title: "Force-matching device"
+description-meta: &desc "A two-channel force transducer rig built in-house for the force-matching task, because commercial equivalents cost more than the grant and could not be modified."
+open-graph:
+  description: *desc
+twitter-card:
+  description: *desc
+---
+
+::: {.entry}
+::: {.meta}
+Hardware &middot; for the thesis protocol &middot; [calibrating]{.status .pending}
+:::
+:::
+
+The force-matching task asks someone to reproduce a force applied to their own
+finger, once by pressing directly and once by turning a dial that applies it
+for them. People reproduce it accurately through the dial and overshoot when
+they press themselves. The size of that overshoot is the measure, and it is
+what the [schizophrenia thesis](../research/schizophrenia.qmd) uses to ask
+whether self-generated sensation is attenuated the way it should be.
+
+Doing that needs two force channels sampled together: the one applied to the
+finger and the one the participant produces. The rig has both. It was designed
+and machined in-house with my brother Anıl Bekdemir, a mechanical engineer,
+and the acquisition software is mine.
+
+It was built rather than bought for two reasons that turned out to be the same
+reason. Commercial equivalents cost more than the whole grant, and the ones
+within reach could not be changed once delivered. A task that is still being
+designed needs an instrument that can still be changed.
+
+Mechanically the rig is finished. Calibration is running now: the transducers
+have to be traced against known loads across the range the task actually uses,
+and that curve has to hold from one session to the next. The calibration data
+and the build notes will be published together with it, since a device nobody
+can rebuild is not much better than no device.
+
+::: {.k}
+[← all instruments](../tools.qmd)
+:::

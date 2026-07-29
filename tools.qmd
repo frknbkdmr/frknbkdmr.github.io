@@ -12,95 +12,49 @@ Most of what I make is not a paper. Devices, tasks and analysis pipelines are
 research output too, and they are easier to check than a methods section.
 :::
 
-## Force-matching device {.k-head}
+## Built for the studies {.k-head}
 
 ::: {.entry}
 ::: {.meta}
 Hardware &middot; for the thesis protocol &middot; [calibrating]{.status .pending}
 :::
+### [Force-matching device](tools/force-matching.qmd){.title}
+
+Two force channels sampled together, machined in-house because the commercial
+equivalents cost more than the grant and could not be modified afterwards.
 :::
-
-A two-channel force transducer rig for the force-matching task, designed and
-machined in-house with my brother Anıl Bekdemir, a mechanical engineer. The
-acquisition software is mine. Built because commercial equivalents cost more
-than the grant and could not be modified.
-
-Mechanically complete; calibration is still in progress. The calibration data
-and build notes will be published with it.
-
-## Beads task {.k-head}
 
 ::: {.entry}
 ::: {.meta}
 PsychoPy &middot; [to publish]{.status}
 :::
+### [Beads task](tools/beads-task.qmd){.title}
+
+Probabilistic reasoning with every draw logged, so the data can be modelled
+instead of collapsed into draws to decision.
 :::
-
-Probabilistic reasoning task with trial-level logging, written for modelling
-rather than for summary scores.
-
-## HGF analysis pipeline {.k-head}
 
 ::: {.entry}
 ::: {.meta}
 Python / TAPAS &middot; [to publish]{.status}
 :::
+### [HGF analysis pipeline](tools/hgf-pipeline.qmd){.title}
+
+Fitting, parameter and model recovery, and Bayesian model selection. The
+recovery simulations ran before any participant was seen.
 :::
 
-Model fitting, parameter and model recovery, and Bayesian model selection,
-with the recovery simulations that ran before any participant was seen.
-
-## GÖRÜNGÜ {.k-head}
+## Public {.k-head}
 
 ::: {.entry}
 ::: {.meta}
 Python &middot; OpenCV &middot; MIT &middot; [public]{.status .done}
 :::
+### [GÖRÜNGÜ](tools/gorungu.qmd){.title}
+
+Optical mark recognition and automatic scoring for paper assessment forms, so
+that scale batteries stop being typed in by hand.
 :::
-
-Optical mark recognition and automatic scoring for paper psychiatric
-assessment forms, so that scale batteries stop being typed in by hand.
-Interactive template design, per-form threshold tuning, automatic alignment of
-photographed sheets, and CSV export.
-[Repository](https://github.com/frknbkdmr/gorungu).
-
-```{=html}
-<!-- The one instrument here that is finished and public, so it is the one that
-     can carry a machine-readable record. author points at the Person declared
-     in head.html rather than repeating it, so both blocks describe one entity.
-     Every value below is taken from the repository, not asserted. -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareSourceCode",
-  "@id": "https://furkanbekdemir.com/tools#gorungu",
-  "name": "GÖRÜNGÜ",
-  "alternateName": "GORUNGU",
-  "description": "Optical mark recognition and automatic scoring for paper psychiatric assessment forms. Interactive template design, per-form threshold tuning, automatic alignment of photographed sheets, and CSV export.",
-  "codeRepository": "https://github.com/frknbkdmr/gorungu",
-  "programmingLanguage": {
-    "@type": "ComputerLanguage",
-    "name": "Python"
-  },
-  "runtimePlatform": "Python",
-  "license": "https://spdx.org/licenses/MIT.html",
-  "dateCreated": "2026-02-02",
-  "dateModified": "2026-03-29",
-  "applicationCategory": "Research software",
-  "keywords": [
-    "optical mark recognition",
-    "psychiatric assessment",
-    "rating scales",
-    "OpenCV",
-    "data entry"
-  ],
-  "author": { "@id": "https://furkanbekdemir.com/#person" },
-  "maintainer": { "@id": "https://furkanbekdemir.com/#person" },
-  "isAccessibleForFree": true,
-  "url": "https://furkanbekdemir.com/tools"
-}
-</script>
-```
 
 ---
 

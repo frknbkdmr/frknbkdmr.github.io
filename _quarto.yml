@@ -8,6 +8,10 @@ project:
   render:
     - "*.qmd"
     - "research/*.qmd"
+    # tools.qmd stays at the root so /tools, which is already indexed and in
+    # the sitemap, never has to move. Its children sit under tools/ and the two
+    # coexist: /tools serves the index, /tools/gorungu serves the page.
+    - "tools/*.qmd"
   resources:
     # Without CNAME in this list, publishing drops the file and GitHub forgets
     # the custom domain on the next deploy.
