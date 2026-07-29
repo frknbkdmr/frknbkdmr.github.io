@@ -12,8 +12,8 @@ URL: https://furkanbekdemir.com/
 
 Psychiatry resident at Ondokuz Mayıs University, Samsun. I study how the brain
 decides what to believe, and how it tells what it did itself from what happened
-to it. Where the instruments for that do not exist, or cannot be modified, I
-build them, the hardware with an engineer.
+to it. Where the instruments for that do not exist, I build them, the hardware
+with an engineer.
 
 fig. belief about a reversing contingency, with uncertainty. learning rate rises with surprise.
 
@@ -225,9 +225,9 @@ Filter, and a force-matching task on a device built for this protocol. Model
 and parameter recovery are run before data collection. The analysis plan is
 written; public registration is pending.
 
-The [force-matching rig](../tools/force-matching.qmd) was designed and machined in-house
-because commercial equivalents cost more than the grant and could not be
-modified.
+The [force-matching rig](../tools/force-matching.qmd) was designed and machined
+in-house, because no manufacturer sells one. Running this paradigm means
+building the instrument first.
 
 [← all research](index.qmd)
 
@@ -244,8 +244,8 @@ research output too, and they are easier to check than a methods section.
 Hardware · for the thesis protocol · calibrating
 
 ### [Force-matching device](tools/force-matching.qmd)
-Two force channels sampled together, machined in-house because the commercial
-equivalents cost more than the grant and could not be modified afterwards.
+Two force channels sampled together, machined in-house because nobody sells
+one. Every lab running this paradigm has had to build its own.
 
 PsychoPy · to publish
 
@@ -319,10 +319,10 @@ finger and the one the participant produces. The rig has both. It was designed
 and machined in-house with my brother Anıl Bekdemir, a mechanical engineer,
 and the acquisition software is mine.
 
-It was built rather than bought for two reasons that turned out to be the same
-reason. Commercial equivalents cost more than the whole grant, and the ones
-within reach could not be changed once delivered. A task that is still being
-designed needs an instrument that can still be changed.
+It was built because there is nothing to buy. No manufacturer sells a
+force-matching rig: the paradigm lives in a few labs, each of which made its
+own. So the choice was not between building and buying. It was between building
+and not running the experiment.
 
 Mechanically the rig is finished. Calibration is running now: the transducers
 have to be traced against known loads across the range the task actually uses,
