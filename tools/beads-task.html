@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Residency thesis testing two accounts of delusion in the same participants: belief revision on too little evidence, and failure to attenuate self-generated sensation.">
+<meta name="description" content="A PsychoPy implementation of the beads task that logs every draw, written so the data can be modelled rather than reduced to draws-to-decision.">
 
-<title>Belief updating and sensory attenuation in schizophrenia – Furkan Bekdemir</title>
+<title>Beads task – Furkan Bekdemir</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -126,15 +126,15 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
-<meta property="og:title" content="Belief updating and sensory attenuation in schizophrenia – Furkan Bekdemir">
-<meta property="og:description" content="Residency thesis testing two accounts of delusion in the same participants: belief revision on too little evidence, and failure to attenuate self-generated sensation.">
-<meta property="og:image" content="https://furkanbekdemir.com/research/og-image.png">
+<meta property="og:title" content="Beads task – Furkan Bekdemir">
+<meta property="og:description" content="A PsychoPy implementation of the beads task that logs every draw, written so the data can be modelled rather than reduced to draws-to-decision.">
+<meta property="og:image" content="https://furkanbekdemir.com/tools/og-image.png">
 <meta property="og:site_name" content="Furkan Bekdemir">
-<meta name="twitter:title" content="Belief updating and sensory attenuation in schizophrenia – Furkan Bekdemir">
-<meta name="twitter:description" content="Residency thesis testing two accounts of delusion in the same participants: belief revision on too little evidence, and failure to attenuate self-generated sensation.">
-<meta name="twitter:image" content="https://furkanbekdemir.com/research/og-image.png">
+<meta name="twitter:title" content="Beads task – Furkan Bekdemir">
+<meta name="twitter:description" content="A PsychoPy implementation of the beads task that logs every draw, written so the data can be modelled rather than reduced to draws-to-decision.">
+<meta name="twitter:image" content="https://furkanbekdemir.com/tools/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://furkanbekdemir.com/research/schizophrenia">
+<link rel="canonical" href="https://furkanbekdemir.com/tools/beads-task">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -183,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Belief updating and sensory attenuation in schizophrenia</h1>
+<h1 class="title">Beads task</h1>
 </div>
 
 
@@ -202,53 +202,15 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="entry">
 <div class="meta">
-<p>Residency thesis · BAP04-B-2026-6538 · <span class="status pending">in preparation</span><br>
-Supervisor · Prof.&nbsp;Dr.&nbsp;Gökhan Sarısoy · Ondokuz Mayıs University</p>
+<p>PsychoPy · <span class="status">to publish</span></p>
 </div>
 </div>
-<p>Two accounts of delusion sit side by side in the literature and are rarely tested in the same people. One says beliefs are revised on too little evidence. The other says self-generated sensation is not attenuated, so ordinary actions carry the weight of external events.</p>
-<p>The study runs both: a beads task modelled with the Hierarchical Gaussian Filter, and a force-matching task on a device built for this protocol. Model and parameter recovery are run before data collection. The analysis plan is written; public registration is pending.</p>
-<p>The <a href="../tools/force-matching.html">force-matching rig</a> was designed and machined in-house because commercial equivalents cost more than the grant and could not be modified.</p>
-<!-- The project itself, not a paper: there is no paper yet. member points at
-     the Person declared in head.html so the two blocks describe one entity.
-     Only what the page above already states, and nothing about results. -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ResearchProject",
-  "@id": "https://furkanbekdemir.com/research/schizophrenia#project",
-  "name": "Belief updating and sensory attenuation in schizophrenia",
-  "description": "Residency thesis testing two accounts of delusion in the same participants: belief revision on too little evidence, and failure to attenuate self-generated sensation. A beads task modelled with the Hierarchical Gaussian Filter and a force-matching task on a purpose-built device.",
-  "identifier": {
-    "@type": "PropertyValue",
-    "propertyID": "Ondokuz Mayıs University BAP project number",
-    "value": "BAP04-B-2026-6538"
-  },
-  "funder": {
-    "@type": "Organization",
-    "name": "Ondokuz Mayıs University Scientific Research Projects Unit",
-    "url": "https://www.omu.edu.tr/"
-  },
-  "parentOrganization": {
-    "@type": "Organization",
-    "name": "Ondokuz Mayıs University",
-    "url": "https://www.omu.edu.tr/"
-  },
-  "member": { "@id": "https://furkanbekdemir.com/#person" },
-  "knowsAbout": [
-    "Schizophrenia",
-    "Delusions",
-    "Belief updating",
-    "Sensory attenuation",
-    "Hierarchical Gaussian Filter",
-    "Beads task",
-    "Force-matching task"
-  ],
-  "url": "https://furkanbekdemir.com/research/schizophrenia"
-}
-</script>
+<p>In the beads task a participant watches beads drawn one at a time from a hidden jar and says, whenever they are ready, which of two jars it is. The usual number reported from it is draws to decision: how many beads someone needed before committing. People with delusions tend to need fewer, which is where the jumping-to-conclusions literature comes from.</p>
+<p>Draws to decision throws away most of what happened. It collapses a sequence of beliefs, each formed after a specific piece of evidence, into one integer. A model of belief updating needs the sequence, not the summary, so this implementation logs every draw: what was shown, when the response came, and what the participant reported believing at that point.</p>
+<p>That is the only real design decision in it. The task itself is old and the implementation is not clever. What it does is refuse to reduce the data at collection time, when the reduction cannot be undone.</p>
+<p>It feeds the <a href="../tools/hgf-pipeline.html">HGF pipeline</a> and runs in the <a href="../research/schizophrenia.html">schizophrenia thesis</a>. It is not public yet.</p>
 <div class="k">
-<p><a href="../research/index.html">← all research</a></p>
+<p><a href="../tools.html">← all instruments</a></p>
 </div>
 
 

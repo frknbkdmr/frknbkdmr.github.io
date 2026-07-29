@@ -207,77 +207,47 @@ ul.task-list li input[type="checkbox"] {
 <div class="lede">
 <p>Most of what I make is not a paper. Devices, tasks and analysis pipelines are research output too, and they are easier to check than a methods section.</p>
 </div>
-<section id="force-matching-device" class="level2 k-head">
-<h2 class="k-head" data-anchor-id="force-matching-device">Force-matching device</h2>
+<section id="built-for-the-studies" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="built-for-the-studies">Built for the studies</h2>
 <div class="entry">
 <div class="meta">
 <p>Hardware · for the thesis protocol · <span class="status pending">calibrating</span></p>
 </div>
-</div>
-<p>A two-channel force transducer rig for the force-matching task, designed and machined in-house with my brother Anıl Bekdemir, a mechanical engineer. The acquisition software is mine. Built because commercial equivalents cost more than the grant and could not be modified.</p>
-<p>Mechanically complete; calibration is still in progress. The calibration data and build notes will be published with it.</p>
+<section id="force-matching-device" class="level3">
+<h3 data-anchor-id="force-matching-device"><a href="./tools/force-matching.html" class="title">Force-matching device</a></h3>
+<p>Two force channels sampled together, machined in-house because the commercial equivalents cost more than the grant and could not be modified afterwards.</p>
 </section>
-<section id="beads-task" class="level2 k-head">
-<h2 class="k-head" data-anchor-id="beads-task">Beads task</h2>
+</div>
 <div class="entry">
 <div class="meta">
 <p>PsychoPy · <span class="status">to publish</span></p>
 </div>
-</div>
-<p>Probabilistic reasoning task with trial-level logging, written for modelling rather than for summary scores.</p>
+<section id="beads-task" class="level3">
+<h3 data-anchor-id="beads-task"><a href="./tools/beads-task.html" class="title">Beads task</a></h3>
+<p>Probabilistic reasoning with every draw logged, so the data can be modelled instead of collapsed into draws to decision.</p>
 </section>
-<section id="hgf-analysis-pipeline" class="level2 k-head">
-<h2 class="k-head" data-anchor-id="hgf-analysis-pipeline">HGF analysis pipeline</h2>
+</div>
 <div class="entry">
 <div class="meta">
 <p>Python / TAPAS · <span class="status">to publish</span></p>
 </div>
-</div>
-<p>Model fitting, parameter and model recovery, and Bayesian model selection, with the recovery simulations that ran before any participant was seen.</p>
+<section id="hgf-analysis-pipeline" class="level3">
+<h3 data-anchor-id="hgf-analysis-pipeline"><a href="./tools/hgf-pipeline.html" class="title">HGF analysis pipeline</a></h3>
+<p>Fitting, parameter and model recovery, and Bayesian model selection. The recovery simulations ran before any participant was seen.</p>
 </section>
-<section id="görüngü" class="level2 k-head">
-<h2 class="k-head" data-anchor-id="görüngü">GÖRÜNGÜ</h2>
+</div>
+</section>
+<section id="public" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="public">Public</h2>
 <div class="entry">
 <div class="meta">
 <p>Python · OpenCV · MIT · <span class="status done">public</span></p>
 </div>
+<section id="görüngü" class="level3">
+<h3 data-anchor-id="görüngü"><a href="./tools/gorungu.html" class="title">GÖRÜNGÜ</a></h3>
+<p>Optical mark recognition and automatic scoring for paper assessment forms, so that scale batteries stop being typed in by hand.</p>
+</section>
 </div>
-<p>Optical mark recognition and automatic scoring for paper psychiatric assessment forms, so that scale batteries stop being typed in by hand. Interactive template design, per-form threshold tuning, automatic alignment of photographed sheets, and CSV export. <a href="https://github.com/frknbkdmr/gorungu">Repository</a>.</p>
-<!-- The one instrument here that is finished and public, so it is the one that
-     can carry a machine-readable record. author points at the Person declared
-     in head.html rather than repeating it, so both blocks describe one entity.
-     Every value below is taken from the repository, not asserted. -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareSourceCode",
-  "@id": "https://furkanbekdemir.com/tools#gorungu",
-  "name": "GÖRÜNGÜ",
-  "alternateName": "GORUNGU",
-  "description": "Optical mark recognition and automatic scoring for paper psychiatric assessment forms. Interactive template design, per-form threshold tuning, automatic alignment of photographed sheets, and CSV export.",
-  "codeRepository": "https://github.com/frknbkdmr/gorungu",
-  "programmingLanguage": {
-    "@type": "ComputerLanguage",
-    "name": "Python"
-  },
-  "runtimePlatform": "Python",
-  "license": "https://spdx.org/licenses/MIT.html",
-  "dateCreated": "2026-02-02",
-  "dateModified": "2026-03-29",
-  "applicationCategory": "Research software",
-  "keywords": [
-    "optical mark recognition",
-    "psychiatric assessment",
-    "rating scales",
-    "OpenCV",
-    "data entry"
-  ],
-  "author": { "@id": "https://furkanbekdemir.com/#person" },
-  "maintainer": { "@id": "https://furkanbekdemir.com/#person" },
-  "isAccessibleForFree": true,
-  "url": "https://furkanbekdemir.com/tools"
-}
-</script>
 <hr>
 <div class="k">
 <p>each repository will carry a CITATION.cff, an ORCID, and a Zenodo DOI</p>

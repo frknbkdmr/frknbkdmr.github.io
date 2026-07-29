@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Residency thesis testing two accounts of delusion in the same participants: belief revision on too little evidence, and failure to attenuate self-generated sensation.">
+<meta name="description" content="Model fitting, parameter and model recovery, and Bayesian model selection with TAPAS, with the recovery simulations run before any participant was seen.">
 
-<title>Belief updating and sensory attenuation in schizophrenia – Furkan Bekdemir</title>
+<title>HGF analysis pipeline – Furkan Bekdemir</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -126,15 +126,15 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
-<meta property="og:title" content="Belief updating and sensory attenuation in schizophrenia – Furkan Bekdemir">
-<meta property="og:description" content="Residency thesis testing two accounts of delusion in the same participants: belief revision on too little evidence, and failure to attenuate self-generated sensation.">
-<meta property="og:image" content="https://furkanbekdemir.com/research/og-image.png">
+<meta property="og:title" content="HGF analysis pipeline – Furkan Bekdemir">
+<meta property="og:description" content="Model fitting, parameter and model recovery, and Bayesian model selection with TAPAS, with the recovery simulations run before any participant was seen.">
+<meta property="og:image" content="https://furkanbekdemir.com/tools/og-image.png">
 <meta property="og:site_name" content="Furkan Bekdemir">
-<meta name="twitter:title" content="Belief updating and sensory attenuation in schizophrenia – Furkan Bekdemir">
-<meta name="twitter:description" content="Residency thesis testing two accounts of delusion in the same participants: belief revision on too little evidence, and failure to attenuate self-generated sensation.">
-<meta name="twitter:image" content="https://furkanbekdemir.com/research/og-image.png">
+<meta name="twitter:title" content="HGF analysis pipeline – Furkan Bekdemir">
+<meta name="twitter:description" content="Model fitting, parameter and model recovery, and Bayesian model selection with TAPAS, with the recovery simulations run before any participant was seen.">
+<meta name="twitter:image" content="https://furkanbekdemir.com/tools/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://furkanbekdemir.com/research/schizophrenia">
+<link rel="canonical" href="https://furkanbekdemir.com/tools/hgf-pipeline">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -183,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Belief updating and sensory attenuation in schizophrenia</h1>
+<h1 class="title">HGF analysis pipeline</h1>
 </div>
 
 
@@ -202,53 +202,15 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="entry">
 <div class="meta">
-<p>Residency thesis · BAP04-B-2026-6538 · <span class="status pending">in preparation</span><br>
-Supervisor · Prof.&nbsp;Dr.&nbsp;Gökhan Sarısoy · Ondokuz Mayıs University</p>
+<p>Python / TAPAS · <span class="status">to publish</span></p>
 </div>
 </div>
-<p>Two accounts of delusion sit side by side in the literature and are rarely tested in the same people. One says beliefs are revised on too little evidence. The other says self-generated sensation is not attenuated, so ordinary actions carry the weight of external events.</p>
-<p>The study runs both: a beads task modelled with the Hierarchical Gaussian Filter, and a force-matching task on a device built for this protocol. Model and parameter recovery are run before data collection. The analysis plan is written; public registration is pending.</p>
-<p>The <a href="../tools/force-matching.html">force-matching rig</a> was designed and machined in-house because commercial equivalents cost more than the grant and could not be modified.</p>
-<!-- The project itself, not a paper: there is no paper yet. member points at
-     the Person declared in head.html so the two blocks describe one entity.
-     Only what the page above already states, and nothing about results. -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ResearchProject",
-  "@id": "https://furkanbekdemir.com/research/schizophrenia#project",
-  "name": "Belief updating and sensory attenuation in schizophrenia",
-  "description": "Residency thesis testing two accounts of delusion in the same participants: belief revision on too little evidence, and failure to attenuate self-generated sensation. A beads task modelled with the Hierarchical Gaussian Filter and a force-matching task on a purpose-built device.",
-  "identifier": {
-    "@type": "PropertyValue",
-    "propertyID": "Ondokuz Mayıs University BAP project number",
-    "value": "BAP04-B-2026-6538"
-  },
-  "funder": {
-    "@type": "Organization",
-    "name": "Ondokuz Mayıs University Scientific Research Projects Unit",
-    "url": "https://www.omu.edu.tr/"
-  },
-  "parentOrganization": {
-    "@type": "Organization",
-    "name": "Ondokuz Mayıs University",
-    "url": "https://www.omu.edu.tr/"
-  },
-  "member": { "@id": "https://furkanbekdemir.com/#person" },
-  "knowsAbout": [
-    "Schizophrenia",
-    "Delusions",
-    "Belief updating",
-    "Sensory attenuation",
-    "Hierarchical Gaussian Filter",
-    "Beads task",
-    "Force-matching task"
-  ],
-  "url": "https://furkanbekdemir.com/research/schizophrenia"
-}
-</script>
+<p>The Hierarchical Gaussian Filter treats a participant as someone tracking a world that changes, and its parameters say how readily they revise a belief and how unstable they expect the world to be by default. Fitting it to behaviour is the easy part. Knowing whether the fit means anything is the rest of the work, and that is most of what this code does.</p>
+<p>Parameter recovery asks whether the design can identify the parameters at all: simulate agents with known values, fit them with the same pipeline, and see whether the estimates come back. Model recovery asks the harder version. If several models are in play, generate data from each and check that the selection procedure picks the right one. Where either check fails, the parameter is not a finding, it is an artefact of the design, and the honest response is to change the task before running anyone through it.</p>
+<p>The recovery simulations here ran before any participant was seen. That order matters: run them afterwards and the failure arrives too late to act on, when the only options left are to report a number you no longer trust or to bury it.</p>
+<p>The pipeline is built on <a href="https://translationalneuromodeling.github.io/tapas/">TAPAS</a>, the toolbox from the Translational Neuromodeling Unit in Zurich. It takes trial-level data of the kind the <a href="../tools/beads-task.html">beads task</a> writes, and it is the same modelling approach behind the <a href="../research/anxiety-hgf.html">anxiety study</a>. It is not public yet.</p>
 <div class="k">
-<p><a href="../research/index.html">← all research</a></p>
+<p><a href="../tools.html">← all instruments</a></p>
 </div>
 
 
