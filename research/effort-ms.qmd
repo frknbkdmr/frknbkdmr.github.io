@@ -17,6 +17,41 @@ Fatigue and depression in MS overlap on every questionnaire that tries to tell
 them apart. Effort-based decision making offers a behavioural separation:
 whether the cost of action or the value of the outcome is what has changed.
 
+```{=html}
+<!-- A collaboration, so the Neurology department is named as a member
+     alongside the person. Data collection is running; nothing is claimed
+     about what it will show. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchProject",
+  "@id": "https://furkanbekdemir.com/research/effort-ms#project",
+  "name": "Effort and reward in multiple sclerosis",
+  "description": "Separating fatigue from depression in multiple sclerosis by modelling effort-based decisions, asking whether the cost of action or the value of the outcome is what has changed. In collection, with the Department of Neurology.",
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Ondokuz Mayıs University",
+    "url": "https://www.omu.edu.tr/"
+  },
+  "member": [
+    { "@id": "https://furkanbekdemir.com/#person" },
+    {
+      "@type": "Organization",
+      "name": "Department of Neurology, Ondokuz Mayıs University"
+    }
+  ],
+  "knowsAbout": [
+    "Multiple sclerosis",
+    "Fatigue",
+    "Depression",
+    "Effort-based decision making",
+    "Reward processing"
+  ],
+  "url": "https://furkanbekdemir.com/research/effort-ms"
+}
+</script>
+```
+
 ::: {.k}
 [← all research](index.qmd)
 :::

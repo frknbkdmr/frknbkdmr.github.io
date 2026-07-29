@@ -28,6 +28,47 @@ The [force-matching rig](../tools.qmd) was designed and machined in-house
 because commercial equivalents cost more than the grant and could not be
 modified.
 
+```{=html}
+<!-- The project itself, not a paper: there is no paper yet. member points at
+     the Person declared in head.html so the two blocks describe one entity.
+     Only what the page above already states, and nothing about results. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchProject",
+  "@id": "https://furkanbekdemir.com/research/schizophrenia#project",
+  "name": "Belief updating and sensory attenuation in schizophrenia",
+  "description": "Residency thesis testing two accounts of delusion in the same participants: belief revision on too little evidence, and failure to attenuate self-generated sensation. A beads task modelled with the Hierarchical Gaussian Filter and a force-matching task on a purpose-built device.",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "Ondokuz Mayıs University BAP project number",
+    "value": "BAP04-B-2026-6538"
+  },
+  "funder": {
+    "@type": "Organization",
+    "name": "Ondokuz Mayıs University Scientific Research Projects Unit",
+    "url": "https://www.omu.edu.tr/"
+  },
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Ondokuz Mayıs University",
+    "url": "https://www.omu.edu.tr/"
+  },
+  "member": { "@id": "https://furkanbekdemir.com/#person" },
+  "knowsAbout": [
+    "Schizophrenia",
+    "Delusions",
+    "Belief updating",
+    "Sensory attenuation",
+    "Hierarchical Gaussian Filter",
+    "Beads task",
+    "Force-matching task"
+  ],
+  "url": "https://furkanbekdemir.com/research/schizophrenia"
+}
+</script>
+```
+
 ::: {.k}
 [← all research](index.qmd)
 :::
