@@ -24,8 +24,8 @@ $font-size-root: 17px;
 $body-line-height: 1.62;
 
 // Cosmo @imports Source Sans Pro from Google. The type stack above never uses
-// it, so it is a third-party font fetch bought for nothing — and it defeats
-// self-hosting, since it reopens the connection self-hosting closed.
+// it, so it is a third-party font fetch bought for nothing, and it defeats
+// self-hosting by reopening the connection self-hosting closed.
 $web-font-path: false;
 
 /*-- scss:rules --*/
@@ -101,8 +101,8 @@ h3 { font-size: 1.04rem; margin-top: 2rem; }
   /* The path carries pathLength="1", so the dash is expressed as a fraction of
      the whole line rather than a guessed unit count. A literal (it was 4000)
      has to beat the rendered length, which changes with the measure and is
-     further confused by non-scaling-stroke dashing in screen space — too small
-     and the tail of the trace silently never draws. */
+     further confused by non-scaling-stroke dashing in screen space. Guess too
+     small and the tail of the trace silently never draws. */
   .t-line { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 2.4s ease-out forwards; }
   .t-band, .t-truth, .t-ticks { opacity: 0; animation: fade .9s ease-out 1.5s forwards; }
   @keyframes draw { to { stroke-dashoffset: 0; } }
