@@ -43,8 +43,8 @@ def search_enabled() -> bool:
 def qmd_to_markdown(src: str) -> tuple[str, str, str]:
     """Strip a .qmd back to plain markdown. Returns (title, description, body).
 
-    A static host cannot negotiate on Accept, so agents cannot ask for markdown
-    — but they can fetch it from a known path. The sources are already
+    A static host cannot negotiate on Accept, so agents cannot ask for
+    markdown, but they can fetch it from a known path. The sources are already
     markdown; what has to come off is Quarto's own syntax, and the raw HTML
     blocks, which are markup an agent gains nothing from.
     """
@@ -139,8 +139,8 @@ def canonical_for(html_path: Path, base: str) -> str:
 
 def is_quarto_page(text: str) -> bool:
     """Only pages Quarto rendered are ours to rewrite. A file copied in as a
-    resource — a search-engine ownership check, a hand-written 404 — has to
-    reach the browser exactly as written, or the thing checking it fails."""
+    resource, such as a search-engine ownership check, has to reach the browser
+    exactly as written, or the thing checking it fails."""
     return bool(re.search(r'<meta name="generator" content="quarto-', text, re.I))
 
 
@@ -279,8 +279,8 @@ def normalise_sitemap(base: str) -> bool:
 
 # Assistants and answer engines that read the open web. Quarto writes a
 # robots.txt containing only a Sitemap line, which permits everything by
-# default — but silence is not the same as consent, and a default that changes
-# later would change the answer. Naming them says the permission was chosen.
+# default. Silence is not the same as consent, and a default that changes later
+# would change the answer. Naming them says the permission was chosen.
 AI_AGENTS = [
     "GPTBot", "OAI-SearchBot", "ChatGPT-User",          # OpenAI
     "ClaudeBot", "Claude-User", "Claude-SearchBot",     # Anthropic
