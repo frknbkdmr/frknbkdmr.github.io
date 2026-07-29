@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Residency thesis testing two accounts of delusion in the same participants: belief revision on too little evidence, and failure to attenuate self-generated sensation.">
+<meta name="description" content="Optical mark recognition and automatic scoring for paper psychiatric assessment forms, so that scale batteries stop being typed in by hand. Python, OpenCV, MIT.">
 
-<title>Belief updating and sensory attenuation in schizophrenia – Furkan Bekdemir</title>
+<title>GÖRÜNGÜ – Furkan Bekdemir</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -126,15 +126,15 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
-<meta property="og:title" content="Belief updating and sensory attenuation in schizophrenia – Furkan Bekdemir">
-<meta property="og:description" content="Residency thesis testing two accounts of delusion in the same participants: belief revision on too little evidence, and failure to attenuate self-generated sensation.">
-<meta property="og:image" content="https://furkanbekdemir.com/research/og-image.png">
+<meta property="og:title" content="GÖRÜNGÜ – Furkan Bekdemir">
+<meta property="og:description" content="Optical mark recognition and automatic scoring for paper psychiatric assessment forms, so that scale batteries stop being typed in by hand. Python, OpenCV, MIT.">
+<meta property="og:image" content="https://furkanbekdemir.com/tools/og-image.png">
 <meta property="og:site_name" content="Furkan Bekdemir">
-<meta name="twitter:title" content="Belief updating and sensory attenuation in schizophrenia – Furkan Bekdemir">
-<meta name="twitter:description" content="Residency thesis testing two accounts of delusion in the same participants: belief revision on too little evidence, and failure to attenuate self-generated sensation.">
-<meta name="twitter:image" content="https://furkanbekdemir.com/research/og-image.png">
+<meta name="twitter:title" content="GÖRÜNGÜ – Furkan Bekdemir">
+<meta name="twitter:description" content="Optical mark recognition and automatic scoring for paper psychiatric assessment forms, so that scale batteries stop being typed in by hand. Python, OpenCV, MIT.">
+<meta name="twitter:image" content="https://furkanbekdemir.com/tools/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://furkanbekdemir.com/research/schizophrenia">
+<link rel="canonical" href="https://furkanbekdemir.com/tools/gorungu">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -183,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Belief updating and sensory attenuation in schizophrenia</h1>
+<h1 class="title">GÖRÜNGÜ</h1>
 </div>
 
 
@@ -202,53 +202,50 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="entry">
 <div class="meta">
-<p>Residency thesis · BAP04-B-2026-6538 · <span class="status pending">in preparation</span><br>
-Supervisor · Prof.&nbsp;Dr.&nbsp;Gökhan Sarısoy · Ondokuz Mayıs University</p>
+<p>Python · OpenCV · MIT · <span class="status done">public</span></p>
 </div>
 </div>
-<p>Two accounts of delusion sit side by side in the literature and are rarely tested in the same people. One says beliefs are revised on too little evidence. The other says self-generated sensation is not attenuated, so ordinary actions carry the weight of external events.</p>
-<p>The study runs both: a beads task modelled with the Hierarchical Gaussian Filter, and a force-matching task on a device built for this protocol. Model and parameter recovery are run before data collection. The analysis plan is written; public registration is pending.</p>
-<p>The <a href="../tools/force-matching.html">force-matching rig</a> was designed and machined in-house because commercial equivalents cost more than the grant and could not be modified.</p>
-<!-- The project itself, not a paper: there is no paper yet. member points at
-     the Person declared in head.html so the two blocks describe one entity.
-     Only what the page above already states, and nothing about results. -->
+<p>Psychiatric research still runs on paper. A single participant may fill in a battery of scales by hand, and somebody then types every mark into a spreadsheet. It is slow, it is dull, and typing is where a quiet error enters the data with nothing downstream to catch it.</p>
+<p>GÖRÜNGÜ reads the sheets instead. You photograph them, it finds the marks, it scores them, and it writes a CSV. The parts that took the work are the ones a demo never shows: a template designer for laying out where the boxes are on a given form, per-form threshold tuning because a pencil tick and a biro cross do not leave the same amount of ink, and automatic alignment, since a photograph taken by hand is never square to the page and the boxes have to be found anyway.</p>
+<p>It is the one instrument here that is finished and public. The name is the Turkish word for phenomenon, in the sense of the thing as it appears.</p>
+<p><a href="https://github.com/frknbkdmr/gorungu">Repository</a></p>
+<!-- Moved here with the page, so the record lives at the address that
+     describes the software rather than on the section index. author points at
+     the Person declared in head.html rather than repeating it. Every value is
+     taken from the repository, not asserted. -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "ResearchProject",
-  "@id": "https://furkanbekdemir.com/research/schizophrenia#project",
-  "name": "Belief updating and sensory attenuation in schizophrenia",
-  "description": "Residency thesis testing two accounts of delusion in the same participants: belief revision on too little evidence, and failure to attenuate self-generated sensation. A beads task modelled with the Hierarchical Gaussian Filter and a force-matching task on a purpose-built device.",
-  "identifier": {
-    "@type": "PropertyValue",
-    "propertyID": "Ondokuz Mayıs University BAP project number",
-    "value": "BAP04-B-2026-6538"
+  "@type": "SoftwareSourceCode",
+  "@id": "https://furkanbekdemir.com/tools/gorungu#software",
+  "name": "GÖRÜNGÜ",
+  "alternateName": "GORUNGU",
+  "description": "Optical mark recognition and automatic scoring for paper psychiatric assessment forms. Interactive template design, per-form threshold tuning, automatic alignment of photographed sheets, and CSV export.",
+  "codeRepository": "https://github.com/frknbkdmr/gorungu",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "Python"
   },
-  "funder": {
-    "@type": "Organization",
-    "name": "Ondokuz Mayıs University Scientific Research Projects Unit",
-    "url": "https://www.omu.edu.tr/"
-  },
-  "parentOrganization": {
-    "@type": "Organization",
-    "name": "Ondokuz Mayıs University",
-    "url": "https://www.omu.edu.tr/"
-  },
-  "member": { "@id": "https://furkanbekdemir.com/#person" },
-  "knowsAbout": [
-    "Schizophrenia",
-    "Delusions",
-    "Belief updating",
-    "Sensory attenuation",
-    "Hierarchical Gaussian Filter",
-    "Beads task",
-    "Force-matching task"
+  "runtimePlatform": "Python",
+  "license": "https://spdx.org/licenses/MIT.html",
+  "dateCreated": "2026-02-02",
+  "dateModified": "2026-03-29",
+  "applicationCategory": "Research software",
+  "keywords": [
+    "optical mark recognition",
+    "psychiatric assessment",
+    "rating scales",
+    "OpenCV",
+    "data entry"
   ],
-  "url": "https://furkanbekdemir.com/research/schizophrenia"
+  "author": { "@id": "https://furkanbekdemir.com/#person" },
+  "maintainer": { "@id": "https://furkanbekdemir.com/#person" },
+  "isAccessibleForFree": true,
+  "url": "https://furkanbekdemir.com/tools/gorungu"
 }
 </script>
 <div class="k">
-<p><a href="../research/index.html">← all research</a></p>
+<p><a href="../tools.html">← all instruments</a></p>
 </div>
 
 

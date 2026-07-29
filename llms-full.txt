@@ -46,159 +46,6 @@ contact furkan [at] furkanbekdemir.com
 
 ---
 
-# Instruments and code
-
-URL: https://furkanbekdemir.com/tools
-
-Most of what I make is not a paper. Devices, tasks and analysis pipelines are
-research output too, and they are easier to check than a methods section.
-
-## Force-matching device
-Hardware · for the thesis protocol · calibrating
-
-A two-channel force transducer rig for the force-matching task, designed and
-machined in-house with my brother Anıl Bekdemir, a mechanical engineer. The
-acquisition software is mine. Built because commercial equivalents cost more
-than the grant and could not be modified.
-
-Mechanically complete; calibration is still in progress. The calibration data
-and build notes will be published with it.
-
-## Beads task
-PsychoPy · to publish
-
-Probabilistic reasoning task with trial-level logging, written for modelling
-rather than for summary scores.
-
-## HGF analysis pipeline
-Python / TAPAS · to publish
-
-Model fitting, parameter and model recovery, and Bayesian model selection,
-with the recovery simulations that ran before any participant was seen.
-
-## GÖRÜNGÜ
-Python · OpenCV · MIT · public
-
-Optical mark recognition and automatic scoring for paper psychiatric
-assessment forms, so that scale batteries stop being typed in by hand.
-Interactive template design, per-form threshold tuning, automatic alignment of
-photographed sheets, and CSV export.
-[Repository](https://github.com/frknbkdmr/gorungu).
-
----
-
-each repository will carry a CITATION.cff, an ORCID, and a Zenodo DOI
-
----
-
-# CV
-
-URL: https://furkanbekdemir.com/cv
-
-Furkan Bekdemir, MD. Psychiatry resident, Ondokuz Mayıs University Faculty of
-Medicine, Samsun, Türkiye.
-
-## Position
-**Resident physician and research assistant**, Department of Psychiatry,
-Ondokuz Mayıs University.
-
-## Research interests
-Computational psychiatry; predictive processing and active inference; belief
-updating and sensory attenuation; psychosis; instrumentation and measurement
-for psychiatric research.
-
-## Education
-2022 – present
-
-### Psychiatry residency
-Ondokuz Mayıs University.
-
-2015 – 2021
-
-### Doctor of Medicine
-Ondokuz Mayıs University Faculty of Medicine.
-
-## Funding
-2026 · BAP04-B-2026-6538
-
-### Belief updating and sensory attenuation in schizophrenia
-Ondokuz Mayıs University Scientific Research Projects Unit.
-Supervisor: Prof. Dr. Gökhan Sarısoy.
-
-## Presentations
-2026 · 28th National Clinical Education Symposium
-· Turkish Journal of Psychiatry
-
-### State anxiety and uncertainty processing: a Hierarchical Gaussian Filter study in generalized anxiety disorder
-Bekdemir F, Özdin S. Oral presentation.
-[doi:10.5080/61upk.ozt461](https://doi.org/10.5080/61upk.ozt461)
-
-2025 · 27th National Clinical Education Symposium
-· Turkish Journal of Psychiatry
-
-### Assessment of personality traits, impulsivity, and gambling-related cognitions in patients with gambling disorder
-Bekdemir F, Özdin S, Satılmış B, Aydın Öztemel R, Bolat R, Ünsal Çelebi D.
-Oral presentation.
-[doi:10.5080/kes27.abs62](https://doi.org/10.5080/kes27.abs62)
-
-## Certifications
-2024
-
-### Introduction to Statistics
-Stanford University, via Coursera. Non-degree online course.
-
-2023
-
-### Laboratory Animal Use Certificate
-Ondokuz Mayıs University, Laboratory Animals Application and Research Centre
-(DEHAM), 13th programme. 40 hours of theory and 35 of practical work, with
-examination. Required by law to work with laboratory animals.
-
-2023
-
-### Computational Neuroscience
-University of Washington, via Coursera. Non-degree online course.
-
-## Methods and instrumentation
-Python, C. PsychoPy, TAPAS/HGF, OpenCV. Hardware design and calibration for
-behavioural tasks.
-
-## Contact
-furkan [at] furkanbekdemir.com ·
-[ORCID](https://orcid.org/0000-0002-7236-5776)
-
-a PDF version will live here
-
----
-
-# Notlar
-
-URL: https://furkanbekdemir.com/notlar
-
-Hesaplamalı psikiyatri üzerine, klinik okura yazılmış kapsamlı bir Türkçe
-kaynağa rastlamadım. Terimlerin karşılığı da oturmuş değil. Buradaki notlar o
-boşluğu doldurma denemesi.
-
-## Planlanan yazılar
-### Öngörü hatası, kesinlik ve psikiyatrik belirti
-Bayesçi beyin çerçevesinin klinik okur için girişi: öngörü hatası ne demek,
-kesinlik ağırlıklandırması neyi belirler, ve bunlar muayenehanede gördüğümüz
-belirtilere nasıl bağlanır.
-
-### Hiyerarşik Gauss filtresi nedir, ne işe yarar
-Modelin parametreleri klinik olarak ne anlatır, model karşılaştırması neden
-zorunludur, ve bir hesaplamalı bulguya ne zaman güvenilir.
-
-### Akatizi: aktif çıkarım çerçevesinden bir bakış
-Akatizinin öznel ve nesnel bileşenlerinin neden ayrışabildiği, ve hareketin
-çoğu zaman huzursuzluğu dindirmemesi.
-
----
-
-terimler için önerilen karşılıklar burada toplanacak
-
----
-
 # Research
 
 URL: https://furkanbekdemir.com/research/
@@ -378,10 +225,281 @@ Filter, and a force-matching task on a device built for this protocol. Model
 and parameter recovery are run before data collection. The analysis plan is
 written; public registration is pending.
 
-The [force-matching rig](../tools.qmd) was designed and machined in-house
+The [force-matching rig](../tools/force-matching.qmd) was designed and machined in-house
 because commercial equivalents cost more than the grant and could not be
 modified.
 
 [← all research](index.qmd)
+
+---
+
+# Instruments and code
+
+URL: https://furkanbekdemir.com/tools
+
+Most of what I make is not a paper. Devices, tasks and analysis pipelines are
+research output too, and they are easier to check than a methods section.
+
+## Built for the studies
+Hardware · for the thesis protocol · calibrating
+
+### [Force-matching device](tools/force-matching.qmd)
+Two force channels sampled together, machined in-house because the commercial
+equivalents cost more than the grant and could not be modified afterwards.
+
+PsychoPy · to publish
+
+### [Beads task](tools/beads-task.qmd)
+Probabilistic reasoning with every draw logged, so the data can be modelled
+instead of collapsed into draws to decision.
+
+Python / TAPAS · to publish
+
+### [HGF analysis pipeline](tools/hgf-pipeline.qmd)
+Fitting, parameter and model recovery, and Bayesian model selection. The
+recovery simulations ran before any participant was seen.
+
+## Public
+Python · OpenCV · MIT · public
+
+### [GÖRÜNGÜ](tools/gorungu.qmd)
+Optical mark recognition and automatic scoring for paper assessment forms, so
+that scale batteries stop being typed in by hand.
+
+---
+
+each repository will carry a CITATION.cff, an ORCID, and a Zenodo DOI
+
+---
+
+# Beads task
+
+URL: https://furkanbekdemir.com/tools/beads-task
+
+PsychoPy · to publish
+
+In the beads task a participant watches beads drawn one at a time from a hidden
+jar and says, whenever they are ready, which of two jars it is. The usual
+number reported from it is draws to decision: how many beads someone needed
+before committing. People with delusions tend to need fewer, which is where the
+jumping-to-conclusions literature comes from.
+
+Draws to decision throws away most of what happened. It collapses a sequence of
+beliefs, each formed after a specific piece of evidence, into one integer. A
+model of belief updating needs the sequence, not the summary, so this
+implementation logs every draw: what was shown, when the response came, and
+what the participant reported believing at that point.
+
+That is the only real design decision in it. The task itself is old and the
+implementation is not clever. What it does is refuse to reduce the data at
+collection time, when the reduction cannot be undone.
+
+It feeds the [HGF pipeline](hgf-pipeline.qmd) and runs in the
+[schizophrenia thesis](../research/schizophrenia.qmd). It is not public yet.
+
+[← all instruments](../tools.qmd)
+
+---
+
+# Force-matching device
+
+URL: https://furkanbekdemir.com/tools/force-matching
+
+Hardware · for the thesis protocol · calibrating
+
+The force-matching task asks someone to reproduce a force applied to their own
+finger, once by pressing directly and once by turning a dial that applies it
+for them. People reproduce it accurately through the dial and overshoot when
+they press themselves. The size of that overshoot is the measure, and it is
+what the [schizophrenia thesis](../research/schizophrenia.qmd) uses to ask
+whether self-generated sensation is attenuated the way it should be.
+
+Doing that needs two force channels sampled together: the one applied to the
+finger and the one the participant produces. The rig has both. It was designed
+and machined in-house with my brother Anıl Bekdemir, a mechanical engineer,
+and the acquisition software is mine.
+
+It was built rather than bought for two reasons that turned out to be the same
+reason. Commercial equivalents cost more than the whole grant, and the ones
+within reach could not be changed once delivered. A task that is still being
+designed needs an instrument that can still be changed.
+
+Mechanically the rig is finished. Calibration is running now: the transducers
+have to be traced against known loads across the range the task actually uses,
+and that curve has to hold from one session to the next. The calibration data
+and the build notes will be published together with it, since a device nobody
+can rebuild is not much better than no device.
+
+[← all instruments](../tools.qmd)
+
+---
+
+# GÖRÜNGÜ
+
+URL: https://furkanbekdemir.com/tools/gorungu
+
+Python · OpenCV · MIT · public
+
+Psychiatric research still runs on paper. A single participant may fill in a
+battery of scales by hand, and somebody then types every mark into a
+spreadsheet. It is slow, it is dull, and typing is where a quiet error enters
+the data with nothing downstream to catch it.
+
+GÖRÜNGÜ reads the sheets instead. You photograph them, it finds the marks, it
+scores them, and it writes a CSV. The parts that took the work are the ones a
+demo never shows: a template designer for laying out where the boxes are on a
+given form, per-form threshold tuning because a pencil tick and a biro cross do
+not leave the same amount of ink, and automatic alignment, since a photograph
+taken by hand is never square to the page and the boxes have to be found
+anyway.
+
+It is the one instrument here that is finished and public. The name is the
+Turkish word for phenomenon, in the sense of the thing as it appears.
+
+[Repository](https://github.com/frknbkdmr/gorungu)
+
+[← all instruments](../tools.qmd)
+
+---
+
+# HGF analysis pipeline
+
+URL: https://furkanbekdemir.com/tools/hgf-pipeline
+
+Python / TAPAS · to publish
+
+The Hierarchical Gaussian Filter treats a participant as someone tracking a
+world that changes, and its parameters say how readily they revise a belief and
+how unstable they expect the world to be by default. Fitting it to behaviour is
+the easy part. Knowing whether the fit means anything is the rest of the work,
+and that is most of what this code does.
+
+Parameter recovery asks whether the design can identify the parameters at all:
+simulate agents with known values, fit them with the same pipeline, and see
+whether the estimates come back. Model recovery asks the harder version. If
+several models are in play, generate data from each and check that the
+selection procedure picks the right one. Where either check fails, the
+parameter is not a finding, it is an artefact of the design, and the honest
+response is to change the task before running anyone through it.
+
+The recovery simulations here ran before any participant was seen. That order
+matters: run them afterwards and the failure arrives too late to act on, when
+the only options left are to report a number you no longer trust or to bury it.
+
+The pipeline is built on [TAPAS](https://translationalneuromodeling.github.io/tapas/),
+the toolbox from the Translational Neuromodeling Unit in Zurich. It takes
+trial-level data of the kind the [beads task](beads-task.qmd) writes, and it is
+the same modelling approach behind the
+[anxiety study](../research/anxiety-hgf.qmd). It is not public yet.
+
+[← all instruments](../tools.qmd)
+
+---
+
+# CV
+
+URL: https://furkanbekdemir.com/cv
+
+Furkan Bekdemir, MD. Psychiatry resident, Ondokuz Mayıs University Faculty of
+Medicine, Samsun, Türkiye.
+
+## Position
+**Resident physician and research assistant**, Department of Psychiatry,
+Ondokuz Mayıs University.
+
+## Research interests
+Computational psychiatry; predictive processing and active inference; belief
+updating and sensory attenuation; psychosis; instrumentation and measurement
+for psychiatric research.
+
+## Education
+2022 – present
+
+### Psychiatry residency
+Ondokuz Mayıs University.
+
+2015 – 2021
+
+### Doctor of Medicine
+Ondokuz Mayıs University Faculty of Medicine.
+
+## Funding
+2026 · BAP04-B-2026-6538
+
+### Belief updating and sensory attenuation in schizophrenia
+Ondokuz Mayıs University Scientific Research Projects Unit.
+Supervisor: Prof. Dr. Gökhan Sarısoy.
+
+## Presentations
+2026 · 28th National Clinical Education Symposium
+· Turkish Journal of Psychiatry
+
+### State anxiety and uncertainty processing: a Hierarchical Gaussian Filter study in generalized anxiety disorder
+Bekdemir F, Özdin S. Oral presentation.
+[doi:10.5080/61upk.ozt461](https://doi.org/10.5080/61upk.ozt461)
+
+2025 · 27th National Clinical Education Symposium
+· Turkish Journal of Psychiatry
+
+### Assessment of personality traits, impulsivity, and gambling-related cognitions in patients with gambling disorder
+Bekdemir F, Özdin S, Satılmış B, Aydın Öztemel R, Bolat R, Ünsal Çelebi D.
+Oral presentation.
+[doi:10.5080/kes27.abs62](https://doi.org/10.5080/kes27.abs62)
+
+## Certifications
+2024
+
+### Introduction to Statistics
+Stanford University, via Coursera. Non-degree online course.
+
+2023
+
+### Laboratory Animal Use Certificate
+Ondokuz Mayıs University, Laboratory Animals Application and Research Centre
+(DEHAM), 13th programme. 40 hours of theory and 35 of practical work, with
+examination. Required by law to work with laboratory animals.
+
+2023
+
+### Computational Neuroscience
+University of Washington, via Coursera. Non-degree online course.
+
+## Methods and instrumentation
+Python, C. PsychoPy, TAPAS/HGF, OpenCV. Hardware design and calibration for
+behavioural tasks.
+
+## Contact
+furkan [at] furkanbekdemir.com ·
+[ORCID](https://orcid.org/0000-0002-7236-5776)
+
+a PDF version will live here
+
+---
+
+# Notlar
+
+URL: https://furkanbekdemir.com/notlar
+
+Hesaplamalı psikiyatri üzerine, klinik okura yazılmış kapsamlı bir Türkçe
+kaynağa rastlamadım. Terimlerin karşılığı da oturmuş değil. Buradaki notlar o
+boşluğu doldurma denemesi.
+
+## Planlanan yazılar
+### Öngörü hatası, kesinlik ve psikiyatrik belirti
+Bayesçi beyin çerçevesinin klinik okur için girişi: öngörü hatası ne demek,
+kesinlik ağırlıklandırması neyi belirler, ve bunlar muayenehanede gördüğümüz
+belirtilere nasıl bağlanır.
+
+### Hiyerarşik Gauss filtresi nedir, ne işe yarar
+Modelin parametreleri klinik olarak ne anlatır, model karşılaştırması neden
+zorunludur, ve bir hesaplamalı bulguya ne zaman güvenilir.
+
+### Akatizi: aktif çıkarım çerçevesinden bir bakış
+Akatizinin öznel ve nesnel bileşenlerinin neden ayrışabildiği, ve hareketin
+çoğu zaman huzursuzluğu dindirmemesi.
+
+---
+
+terimler için önerilen karşılıklar burada toplanacak
 
 ---
