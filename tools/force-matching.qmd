@@ -30,6 +30,16 @@ force-matching rig: the paradigm lives in a few labs, each of which made its
 own. So the choice was not between building and buying. It was between building
 and not running the experiment.
 
+The design is not original and is not meant to be. The instrument descends from
+Shergill and colleagues at UCL, through the Cambridge group who fixed the
+Direct and Slider terminology along with the target forces, to McNaughton at
+Macquarie, who published a device and a timing standard openly. This rig
+follows McNaughton for the timing and the analysis window, and the older UCL
+arrangement for how the indirect condition delivers its force. The motor is a
+Maxon RE50 driven by an EPOS4 controller. The build notes will carry the full
+citations, since knowing which variant a rig implements is the difference
+between a replication and an unrelated experiment with the same name.
+
 Mechanically the rig is finished. Calibration is running now: the transducers
 have to be traced against known loads across the range the task actually uses,
 and that curve has to hold from one session to the next. The calibration data
