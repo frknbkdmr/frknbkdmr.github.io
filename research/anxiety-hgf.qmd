@@ -24,7 +24,7 @@ Eighteen adults with GAD and 18 age- and education-matched controls completed
 a probabilistic reversal-learning task while belief updating was modelled with
 the Hierarchical Gaussian Filter. The parameter of interest, tonic volatility
 (ω₂), is how unstable a person expects their environment to be by default.
-Participants also completed the State–Trait Anxiety Inventory and the
+Participants also completed the State-Trait Anxiety Inventory and the
 Intolerance of Uncertainty Scale. Approved by the Ondokuz Mayıs University
 Clinical Research Ethics Committee (2026/43).
 

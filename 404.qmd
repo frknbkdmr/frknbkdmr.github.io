@@ -10,11 +10,9 @@ format:
 ---
 
 ::: {.lede}
-The address you asked for is not one this site serves.
-:::
-
 Each study and each instrument moved to a page of its own in July 2026. A link
-made before that, or a link typed from memory, will land here.
+made before that, or one typed from memory, lands here.
+:::
 
 ## Where things are {.k-head}
 
@@ -33,7 +31,8 @@ already out.</p>
 <div class="entry">
 <div class="meta">Devices, tasks and analysis code</div>
 <h3><a href="/tools">Instruments and code</a></h3>
-<p>What was built to run the studies, and what is public so far.</p>
+<p>The devices and code I built to run the studies, and how much of it is
+public so far.</p>
 </div>
 
 <div class="entry">

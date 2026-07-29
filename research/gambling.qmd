@@ -44,9 +44,8 @@ kind, and that cognitions are worth treating as a target. These are
 correlations in a single clinical sample, so they describe a pattern rather
 than establish a mechanism.
 
-This work sits apart from the computational thread running through the rest of
-the research pages. It came out of clinical service, not the modelling
-programme. It shares neither its method nor its question.
+This one came out of clinical service, not the modelling programme. It shares
+no method with the computational work on the other research pages.
 
 ```{=html}
 <script type="application/ld+json">
