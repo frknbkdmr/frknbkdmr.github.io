@@ -249,11 +249,12 @@ Most of what I make is not a paper. Devices, tasks and analysis pipelines are
 research output too, and they are easier to check than a methods section.
 
 ## Built for the studies
-Hardware · for the thesis protocol · calibrating
+Hardware · for the thesis protocol · calibrated
 
 ### [Force-matching device](tools/force-matching.qmd)
 Two force channels sampled together, machined in-house because nobody sells
-one. Every lab running this paradigm has had to build its own.
+one. Calibrated across the full range the task uses, with no target left to
+extrapolation.
 
 PsychoPy · to publish
 
@@ -265,7 +266,8 @@ Python / TAPAS · to publish
 
 ### [HGF analysis pipeline](tools/hgf-pipeline.qmd)
 Fitting, parameter and model recovery, and Bayesian model selection. The
-recovery simulations ran before any participant was seen.
+recovery simulations ran before confirmatory collection, and changed which
+outcomes the study reports.
 
 ## Public
 Python · OpenCV · MIT · public
@@ -313,14 +315,15 @@ It feeds the [HGF pipeline](hgf-pipeline.qmd) and runs in the
 
 URL: https://furkanbekdemir.com/tools/force-matching
 
-Hardware · for the thesis protocol · calibrating
+Hardware · for the thesis protocol · calibrated
 
 The force-matching task asks someone to reproduce a force applied to their own
-finger, once by pressing directly and once by turning a dial that applies it
-for them. People reproduce it accurately through the dial and overshoot when
-they press themselves. The size of that overshoot is the measure, and it is
-what the [schizophrenia thesis](../research/schizophrenia.qmd) uses to ask
-whether self-generated sensation is attenuated the way it should be.
+finger, once by pressing directly and once by moving a slider that sets the
+force the motor applies for them. People reproduce it accurately through the
+slider and overshoot when they press themselves. The size of that overshoot is
+the measure, and it is what the
+[schizophrenia thesis](../research/schizophrenia.qmd) uses to ask whether
+self-generated sensation is attenuated the way it should be.
 
 Doing that needs two force channels sampled together: the one applied to the
 finger and the one the participant produces. The rig has both. It was designed
@@ -342,11 +345,20 @@ Maxon RE50 driven by an EPOS4 controller. The build notes will carry the full
 citations, since knowing which variant a rig implements is the difference
 between a replication and an unrelated experiment with the same name.
 
-Mechanically the rig is finished. Calibration is running now: the transducers
-have to be traced against known loads across the range the task actually uses,
-and that curve has to hold from one session to the next. The calibration data
-and the build notes will be published together with it, since a device nobody
-can rebuild is not much better than no device.
+Calibration is done. The force channel was traced against dead weights from 0
+to 4.066 N, which covers every target the task uses, so no experimental reading
+has to be extrapolated. The linear fit gives R² = 0.9998, an RMSE of 0.021 N
+and a worst single error of 0.038 N.
+
+Rising and falling loads were measured separately instead of averaged, because
+averaging is what hides direction-dependent error. Hysteresis came to 0.0498 N
+against a 0.05 N limit, which passes by 0.24 mN and is by far the tightest
+margin in the set. Seven acceptance criteria were measured and seven passed.
+The eighth is drift, which cannot be computed from one session at all; this
+record is the reference the next one will be compared against.
+
+The calibration data and the build notes will be published together with the
+device, since a device nobody can rebuild is not much better than no device.
 
 [← all instruments](../tools.qmd)
 
@@ -400,9 +412,16 @@ selection procedure picks the right one. Where either check fails, the
 parameter is not a finding, it is an artefact of the design, and the honest
 response is to change the task before running anyone through it.
 
-The recovery simulations here ran before any participant was seen. That order
-matters: run them afterwards and the failure arrives too late to act on, when
-the only options left are to report a number you no longer trust or to bury it.
+The recovery simulations here ran before any confirmatory data were collected.
+That order matters: run them afterwards and the failure arrives too late to act
+on, when the only options left are to report a number you no longer trust or to
+bury it.
+
+They also changed what the study will report. Where the raw parameters could
+not be told apart, the outcomes were rewritten in the combinations that can be,
+and claims the design cannot carry were narrowed rather than rescued later.
+Recovery was not a formality run over a finished pipeline; it decided what
+there is to say.
 
 The pipeline is built on [TAPAS](https://translationalneuromodeling.github.io/tapas/),
 the toolbox from the Translational Neuromodeling Unit in Zurich. It takes
@@ -483,14 +502,12 @@ examination. Required by law to work with laboratory animals.
 University of Washington, via Coursera. Non-degree online course.
 
 ## Methods and instrumentation
-Python, C. PsychoPy, TAPAS/HGF, OpenCV. Hardware design and calibration for
-behavioural tasks.
+Python, MATLAB, C. PsychoPy, TAPAS/HGF, OpenCV. Hardware design and force-sensor
+calibration for behavioural tasks.
 
 ## Contact
 furkan [at] furkanbekdemir.com ·
 [ORCID](https://orcid.org/0000-0002-7236-5776)
-
-a PDF version will live here
 
 ---
 
