@@ -9,7 +9,8 @@ twitter-card:
 
 ::: {.entry}
 ::: {.meta}
-Residency thesis &middot; BAP04-B-2026-6538 &middot; KAEK 2025/601 &middot; [in preparation]{.status .pending}\
+Residency thesis &middot; BAP04-B-2026-6538 &middot; [in preparation]{.status .pending}\
+Initial ethics approval OMÜ KAEK 2025/601 &middot; protocol amendment pending\
 Replication of Adams et al. (2018) Dataset 2 &middot; n=120 (60 schizophrenia + 60 controls) &middot; Two sessions\
 Supervisor &middot; Prof. Dr. Gökhan Sarısoy &middot; Ondokuz Mayıs University
 :::
@@ -24,9 +25,15 @@ This is a replication of Adams et al. (2018) Dataset 2, running both paradigms
 in the same participants: a beads task modelled with the Hierarchical Gaussian
 Filter to test belief updating, and a force-matching task on a device built for
 this protocol to test sensory attenuation. Sixty people with schizophrenia and
-sixty healthy controls, frequency-matched on age, sex, and education. Model and
-parameter recovery were run before data collection. The analysis plan is
-written; public registration is pending.
+sixty healthy controls, frequency-matched on age, sex, and education.
+
+No confirmatory data have been collected, and that order is the point. The force
+channel is calibrated across the range the task uses, with no target left to
+extrapolation. Parameter and model recovery ran on simulated data first, and
+where the raw parameters could not be told apart the reported outcomes were
+rewritten in the combinations that can be. The analysis plan is written. What is
+still outstanding before anyone is enrolled is the protocol amendment and the
+public preregistration.
 
 The [force-matching rig](../tools/force-matching.qmd) was designed and machined
 in-house, because no manufacturer sells one. Running this paradigm means
