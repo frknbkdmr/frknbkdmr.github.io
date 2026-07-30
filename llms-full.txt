@@ -257,9 +257,9 @@ research output too, and they are easier to check than a methods section.
 Hardware · for the thesis protocol · calibrated
 
 ### [Force-matching device](tools/force-matching.qmd)
-Two force channels sampled together, machined in-house because nobody sells
-one. Calibrated across the full range the task uses, with no target left to
-extrapolation.
+A motor that presents a target force and a transducer that measures what the
+participant reproduces, machined in-house because nobody sells one. Calibrated
+across the full range the task uses, with no target left to extrapolation.
 
 PsychoPy · to publish
 
@@ -341,10 +341,17 @@ the measure, and it is what the
 [schizophrenia thesis](../research/schizophrenia.qmd) uses to ask whether
 self-generated sensation is attenuated the way it should be.
 
-Doing that needs two force channels sampled together: the one applied to the
-finger and the one the participant produces. The rig has both. It was designed
-and machined in-house with my brother Anıl Bekdemir, a mechanical engineer,
-and the acquisition software is mine.
+A trial runs in three phases on one finger. The motor presents the target force
+for three seconds, the force is removed for two, and then the participant
+reproduces it over four while the same transducer records. The measurement is
+the mean over the window from 2.5 to 3.0 seconds into that last phase, which is
+McNaughton's window taken unchanged.
+
+So the rig needs one force channel that can both deliver a commanded force and
+measure a produced one, and it needs to do that identically in both conditions,
+because the comparison between them is the entire experiment. It was designed
+and machined in-house with my brother Anıl Bekdemir, a mechanical engineer, and
+the acquisition software is mine.
 
 It was built because there is nothing to buy. No manufacturer sells a
 force-matching rig: the paradigm lives in a few labs, each of which made its
