@@ -226,8 +226,8 @@ in the same participants: a beads task modelled with the Hierarchical Gaussian
 Filter to test belief updating, and a force-matching task on a device built for
 this protocol to test sensory attenuation. Sixty people with schizophrenia and
 sixty healthy controls, frequency-matched on age, sex, and education. Model and
-parameter recovery were run before data collection. The analysis plan is written
-and ön-kayıtlı; data collection is pending.
+parameter recovery were run before data collection. The analysis plan is
+written; public registration is pending.
 
 The [force-matching rig](../tools/force-matching.qmd) was designed and machined
 in-house, because no manufacturer sells one. Running this paradigm means
