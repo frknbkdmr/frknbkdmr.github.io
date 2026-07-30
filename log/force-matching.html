@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A two-channel force transducer rig built in-house for the force-matching task, calibrated against dead weights across the full range the task uses.">
+<meta name="description" content="A development log for the force-matching device: choosing which published lineage to follow, rewriting the calibration tool, and what the calibration run showed.">
 
-<title>Force-matching device – Furkan Bekdemir</title>
+<title>Building the force-matching rig – Furkan Bekdemir</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -126,15 +126,15 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
-<meta property="og:title" content="Force-matching device – Furkan Bekdemir">
-<meta property="og:description" content="A two-channel force transducer rig built in-house for the force-matching task, calibrated against dead weights across the full range the task uses.">
-<meta property="og:image" content="https://furkanbekdemir.com/tools/og-image.png">
+<meta property="og:title" content="Building the force-matching rig – Furkan Bekdemir">
+<meta property="og:description" content="A development log for the force-matching device: choosing which published lineage to follow, rewriting the calibration tool, and what the calibration run showed.">
+<meta property="og:image" content="https://furkanbekdemir.com/log/og-image.png">
 <meta property="og:site_name" content="Furkan Bekdemir">
-<meta name="twitter:title" content="Force-matching device – Furkan Bekdemir">
-<meta name="twitter:description" content="A two-channel force transducer rig built in-house for the force-matching task, calibrated against dead weights across the full range the task uses.">
-<meta name="twitter:image" content="https://furkanbekdemir.com/tools/og-image.png">
+<meta name="twitter:title" content="Building the force-matching rig – Furkan Bekdemir">
+<meta name="twitter:description" content="A development log for the force-matching device: choosing which published lineage to follow, rewriting the calibration tool, and what the calibration run showed.">
+<meta name="twitter:image" content="https://furkanbekdemir.com/log/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://furkanbekdemir.com/tools/force-matching">
+<link rel="canonical" href="https://furkanbekdemir.com/log/force-matching">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -183,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Force-matching device</h1>
+<h1 class="title">Building the force-matching rig</h1>
 </div>
 
 
@@ -200,23 +200,43 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="entry">
-<div class="meta">
-<p>Hardware · for the thesis protocol · <span class="status done">calibrated</span></p>
+<div class="lede">
+<p>What the <a href="../tools/force-matching.html">device page</a> records is where the instrument ended up. This is the part that record leaves out: what had to be decided, and what I got wrong on the way.</p>
 </div>
-</div>
-<p>The force-matching task asks someone to reproduce a force applied to their own finger, once by pressing directly and once by moving a slider that sets the force the motor applies for them. People reproduce it accurately through the slider and overshoot when they press themselves. The size of that overshoot is the measure, and it is what the <a href="../research/schizophrenia.html">schizophrenia thesis</a> uses to ask whether self-generated sensation is attenuated the way it should be.</p>
-<p>Doing that needs two force channels sampled together: the one applied to the finger and the one the participant produces. The rig has both. It was designed and machined in-house with my brother Anıl Bekdemir, a mechanical engineer, and the acquisition software is mine.</p>
-<p>It was built because there is nothing to buy. No manufacturer sells a force-matching rig: the paradigm lives in a few labs, each of which made its own. So the choice was not between building and buying. It was between building and not running the experiment.</p>
-<p>The design is not original and is not meant to be. The instrument descends from Shergill and colleagues at UCL, through the Cambridge group who fixed the Direct and Slider terminology along with the target forces, to McNaughton at Macquarie, who published a device and a timing standard openly. This rig follows McNaughton for the timing and the analysis window, and the older UCL arrangement for how the indirect condition delivers its force. The motor is a Maxon RE50 driven by an EPOS4 controller. The build notes will carry the full citations, since knowing which variant a rig implements is the difference between a replication and an unrelated experiment with the same name.</p>
-<p>Calibration is done. The force channel was traced against dead weights from 0 to 4.066 N, which covers every target the task uses, so no experimental reading has to be extrapolated. The linear fit gives R² = 0.9998, an RMSE of 0.021 N and a worst single error of 0.038 N.</p>
-<p>Rising and falling loads were measured separately instead of averaged, because averaging is what hides direction-dependent error. Hysteresis came to 0.0498 N against a 0.05 N limit, which passes by 0.24 mN and is by far the tightest margin in the set. Seven acceptance criteria were measured and seven passed. The eighth is drift, which cannot be computed from one session at all; this record is the reference the next one will be compared against.</p>
-<p>The calibration data and the build notes will be published together with the device, since a device nobody can rebuild is not much better than no device. How the rig got here, including the lineage I had to choose between and the description of it I got wrong, is in the <a href="../log/force-matching.html">development log</a>.</p>
+<section id="july" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="july">19 July</h2>
+<p>Spent the day finding out that “force matching” names at least four unrelated paradigms. Only one of them measures sensory attenuation, and it is the one that needs a torque motor, a target force delivered to the finger, and two matching conditions. The others share nothing but the phrase.</p>
+<p>This is worth a day because the failure mode is quiet. You can build a rig correctly to the wrong specification, run it, and get clean data that answers a question you were not asking. So the lineage went into its own document, with the excluded namesakes listed explicitly, before any metal was cut.</p>
+</section>
+<section id="july-1" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="july-1">20 July</h2>
+<p>Rewrote the calibration tool. The version I had asked me to type in the readings, which meant the numbers that decided whether a calibration passed were transcribed by the person who wanted it to pass.</p>
+<p>The new one measures eight criteria: gain, offset, R², RMSE, maximum absolute error, hysteresis, tare shift and drift. It issues a calibration ID, evaluates each criterion against a threshold, and if any of them fail it declines to write the calibration file. That last part matters more than the arithmetic. A failed calibration that is merely reported can still be used by accident; one that was never written cannot.</p>
+</section>
+<section id="july-2" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="july-2">22 July</h2>
+<p>Had to choose a lineage for the indirect condition, and the two available choices are not equivalent.</p>
+<p>McNaughton maps the slider to motor <em>position</em>, linearised with a fourth-order polynomial. The older UCL work maps the indirect input to a <em>force</em> servo, so the motor is commanded to produce a force rather than to travel to a place. Both paths existed in my code because I had written both while working out which was which.</p>
+<p>I locked the force servo as the primary mode. It puts the two conditions on the same physical quantity: the participant produces a force directly, or asks for a force through the slider, and the comparison is force against force rather than force against a position that stands in for one. The position path stays in the code, unused. It will be reported as untested rather than as rejected, because I never ran it against anything.</p>
+</section>
+<section id="july-3" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="july-3">27 July</h2>
+<p>Found that my own lineage document was out of date, which is a specific embarrassment when the document exists to prevent exactly that.</p>
+<p>The box at the top still described the rig as belonging to the McNaughton line. That had been true when I wrote it and stopped being true five days earlier when I locked the force servo. The rig takes McNaughton’s timing, target forces and analysis window, and the UCL topology for how the indirect condition delivers force. It is a hybrid, and calling it a replication of either one is wrong in both directions.</p>
+<p>Corrected the box and added the date, so the correction is visible rather than silently folded in.</p>
+</section>
+<section id="july-4" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="july-4">28 July</h2>
+<p>Closed the calibration. Traced the force channel against dead weights over the whole range the task uses, 0 to 4.066 N, which puts every experimental target inside measured territory with nothing left to extrapolation. The fit gives R² = 0.9998 and an RMSE of 0.021 N, against a threshold of 0.05.</p>
+<p>The number I did not expect was hysteresis. I had measured rising and falling loads as separate sequences instead of pooling them, on the argument that direction-dependent error is real and pooling is how you hide it from yourself. It came to 0.0498 N against a 0.05 N ceiling. It passes by 0.24 mN. Had I pooled the sequences the way the older tool did, that would have vanished into the RMSE and I would have recorded a comfortably clean run.</p>
+<p>Seven criteria measured, seven passed. The eighth is drift, and I could not measure it at all: drift is a comparison between two calibrations and this is the first one. So the honest statement is not that the instrument passed eight checks. It is that it passed the seven that a single session can produce, and that this record is now the reference the next session gets compared against.</p>
+<p>Also settled the contact pad. Earlier runs had no silicone pad, then had one, then briefly did not again. Since the pad changes what the finger feels, none of that engineering data can go in the analysis pool, and the confirmatory collection runs on the fixed configuration with the pad. That decision costs nothing now and would have cost the study later.</p>
 <div class="k">
-<p><a href="../tools.html">← all instruments</a></p>
+<p><a href="../tools/force-matching.html">← the device</a> · <a href="../tools.html">all instruments</a></p>
 </div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
