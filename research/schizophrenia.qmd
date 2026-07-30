@@ -11,7 +11,7 @@ twitter-card:
 ::: {.meta}
 Residency thesis &middot; BAP04-B-2026-6538 &middot; [in preparation]{.status .pending}\
 Initial ethics approval OMÜ KAEK 2025/601 &middot; protocol amendment pending\
-Replication of Adams et al. (2018) Dataset 2 &middot; n=120 (60 schizophrenia + 60 controls) &middot; Two sessions\
+Two paradigms, one sample &middot; n=120 (60 schizophrenia + 60 controls) &middot; Two sessions\
 Supervisor &middot; Prof. Dr. Gökhan Sarısoy &middot; Ondokuz Mayıs University
 :::
 :::
@@ -21,11 +21,13 @@ tested in the same people. One says beliefs are revised on too little
 evidence. The other says self-generated sensation is not attenuated, so
 ordinary actions carry the weight of external events.
 
-This is a replication of Adams et al. (2018) Dataset 2, running both paradigms
-in the same participants: a beads task modelled with the Hierarchical Gaussian
-Filter to test belief updating, and a force-matching task on a device built for
-this protocol to test sensory attenuation. Sixty people with schizophrenia and
-sixty healthy controls, frequency-matched on age, sex, and education.
+The two are tested in one sample, by two paradigms that come from different
+places. The beads task replicates the design and the generative model of Adams
+et al. (2018) Dataset 2, fitted with the Hierarchical Gaussian Filter, and
+measures belief updating. The force-matching task measures sensory attenuation,
+and descends from an unrelated line of work with its own instrument, which is
+part of why the two are so rarely run together. Sixty people with schizophrenia
+and sixty healthy controls, frequency-matched on age, sex, and education.
 
 No confirmatory data have been collected, and that order is the point. The force
 channel is calibrated across the range the task uses, with no target left to
