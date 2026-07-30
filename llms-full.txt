@@ -471,6 +471,18 @@ What the [device page](../tools/force-matching.qmd) records is where the
 instrument ended up. This is the part that record leaves out: what had to be
 decided, and what I got wrong on the way.
 
+![The rig on the bench. From the left: the power supply in its enclosure, the
+drive behind it, the motor in its printed mount with the lever arm above, and
+the HW233 slider loose on the plate. The finger contact is at the end of the arm
+and does not show from this
+angle.](rig-bench.jpg){.photo fig-alt="A force-matching rig on a desk. A metal
+power supply unit sits inside a clear acrylic enclosure on a transparent base
+plate, wired in red and yellow to a small controller board behind it. A black
+cylindrical motor is held in a white 3D-printed mount, with a curved metal lever
+arm rising from it. A slider potentiometer with a yellow thumb tab lies loose on
+the plate. Mains cables run off the desk, and books and a block of grey packing
+foam sit behind the rig."}
+
 ## 19 July
 Spent the day finding out that "force matching" names at least four unrelated
 paradigms. Only one of them measures sensory attenuation, and it is the one that
