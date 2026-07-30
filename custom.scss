@@ -110,6 +110,32 @@ h3 { font-size: 1.04rem; margin-top: 2rem; }
   .t-band  { animation-name: fade; }
 }
 
+/* ---- Signal diagrams ----------------------------------------------- */
+
+/* Same reasoning as the hero trace: inline SVG, so there is no library and no
+   fetch, and the colours come from the palette above rather than being baked
+   into the markup. Deliberately narrow. A 680-wide diagram scales to about
+   324px on a phone, which takes 12px labels down to 5px; keeping the viewBox
+   near 420 means the worst case is a 0.77 reduction and the text survives. It
+   simply does not fill the measure on a desktop, which is the cheaper problem. */
+.diagram { margin: 2rem 0 2.4rem; }
+.diagram svg { width: 100%; max-width: 420px; height: auto; display: block; margin: 0 auto; }
+.d-box   { fill: none; stroke: $rule; stroke-width: 1.2; vector-effect: non-scaling-stroke; }
+.d-lab   { fill: $ink; font-family: $font-family-monospace; font-size: 13px; }
+.d-sub   { fill: $ink-soft; font-family: $font-family-monospace; font-size: 10.5px; }
+.d-edge  { fill: $ink-soft; font-family: $font-family-monospace; font-size: 10px; }
+.d-flow  { fill: none; stroke: $ink-soft; stroke-width: 1.2; vector-effect: non-scaling-stroke; }
+.d-force { fill: none; stroke: $signal; stroke-width: 1.8; vector-effect: non-scaling-stroke; }
+.d-head  { fill: $ink-soft; }
+.d-headf { fill: $signal; }
+.d-note  { fill: $error; font-family: $font-family-monospace; font-size: 10px; }
+.diagram figcaption {
+  font-family: $font-family-monospace;
+  font-size: .72rem;
+  color: $ink-soft;
+  margin-top: .8rem;
+}
+
 /* ---- Entries ------------------------------------------------------- */
 
 .entry { margin: 1.9rem 0; }

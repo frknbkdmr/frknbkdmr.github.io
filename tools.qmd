@@ -20,9 +20,9 @@ Hardware &middot; for the thesis protocol &middot; [calibrated]{.status .done}
 :::
 ### [Force-matching device](tools/force-matching.qmd){.title}
 
-Two force channels sampled together, machined in-house because nobody sells
-one. Calibrated across the full range the task uses, with no target left to
-extrapolation.
+A motor that presents a target force and a transducer that measures what the
+participant reproduces, machined in-house because nobody sells one. Calibrated
+across the full range the task uses, with no target left to extrapolation.
 :::
 
 ::: {.entry}
