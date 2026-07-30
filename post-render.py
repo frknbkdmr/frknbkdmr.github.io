@@ -349,13 +349,17 @@ def main() -> None:
 
     for p in pages:
         text = p.read_text(encoding="utf-8")
-        if not is_quarto_page(text) or is_doorway(text):
+        if not is_quarto_page(text):
             continue
-        result = inject_canonical(p, base)
-        if result is None:
-            failed.append(p.name)
-        elif result:
-            changed.append(p.name)
+        # Only the canonical is a doorway's own business. A noindex page still
+        # needs its schema narrowed, or the 404 declares itself the profile
+        # page, and it still needs its scripts deferred and its labels fixed.
+        if not is_doorway(text):
+            result = inject_canonical(p, base)
+            if result is None:
+                failed.append(p.name)
+            elif result:
+                changed.append(p.name)
         deferred += defer_head_scripts(p)
         fixes.update(fix_a11y(p))
         scoped += scope_jsonld(p)
