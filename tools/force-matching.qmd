@@ -21,15 +21,110 @@ the measure, and it is what the
 [schizophrenia thesis](../research/schizophrenia.qmd) uses to ask whether
 self-generated sensation is attenuated the way it should be.
 
-Doing that needs two force channels sampled together: the one applied to the
-finger and the one the participant produces. The rig has both. It was designed
-and machined in-house with my brother Anıl Bekdemir, a mechanical engineer,
-and the acquisition software is mine.
+A trial runs in three phases on one finger. The motor presents the target force
+for three seconds, the force is removed for two, and then the participant
+reproduces it over four while the same transducer records. The measurement is
+the mean over the window from 2.5 to 3.0 seconds into that last phase, which is
+McNaughton's window taken unchanged.
+
+So the rig needs one force channel that can both deliver a commanded force and
+measure a produced one, and it needs to do that identically in both conditions,
+because the comparison between them is the entire experiment. It was designed
+and machined in-house with my brother Anıl Bekdemir, a mechanical engineer, and
+the acquisition software is mine.
 
 It was built because there is nothing to buy. No manufacturer sells a
 force-matching rig: the paradigm lives in a few labs, each of which made its
 own. So the choice was not between building and buying. It was between building
 and not running the experiment.
+
+```{=html}
+<!-- Components and directions taken from the architecture document, not
+     inferred: HW233 and FS2030 are inputs to the drive, RE50 is its output,
+     and the loop closes from the transducer back to the drive. Drawn narrow
+     rather than wide so the labels survive a phone. -->
+<figure class="diagram">
+<svg viewBox="0 0 420 558" xmlns="http://www.w3.org/2000/svg" role="img"
+     aria-labelledby="rig-t rig-d">
+  <title id="rig-t">Signal path of the force-matching rig</title>
+  <desc id="rig-d">The trial software talks to a bridge process, which drives a
+  Maxon EPOS4 controller through Maxon's closed-source library. A HW233 slider
+  potentiometer and an FS2030 force transducer are inputs to the controller; a
+  Maxon RE50 motor is its output. The motor applies force to the finger through
+  a silicone pad, the transducer measures it, and that reading closes the loop
+  back to the controller.</desc>
+  <defs>
+    <marker id="ah" viewBox="0 0 8 8" refX="7" refY="4"
+            markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse">
+      <path class="d-head" d="M 0 1 L 7 4 L 0 7 z"/>
+    </marker>
+    <marker id="ahf" viewBox="0 0 8 8" refX="7" refY="4"
+            markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse">
+      <path class="d-headf" d="M 0 1 L 7 4 L 0 7 z"/>
+    </marker>
+  </defs>
+
+  <rect class="d-box" x="125" y="16"  width="170" height="34" rx="2"/>
+  <text class="d-lab" x="210" y="32"  text-anchor="middle">task.py</text>
+  <text class="d-sub" x="210" y="44"  text-anchor="middle">trial state machine</text>
+
+  <rect class="d-box" x="125" y="98"  width="170" height="34" rx="2"/>
+  <text class="d-lab" x="210" y="114" text-anchor="middle">server.py</text>
+  <text class="d-sub" x="210" y="126" text-anchor="middle">bridge</text>
+
+  <rect class="d-box" x="125" y="180" width="170" height="34" rx="2"/>
+  <text class="d-lab" x="210" y="196" text-anchor="middle">EposCmd64.dll</text>
+  <text class="d-sub" x="210" y="208" text-anchor="middle">Maxon, closed source</text>
+
+  <rect class="d-box" x="125" y="262" width="170" height="34" rx="2"/>
+  <text class="d-lab" x="210" y="278" text-anchor="middle">EPOS4</text>
+  <text class="d-sub" x="210" y="290" text-anchor="middle">drive</text>
+
+  <rect class="d-box" x="125" y="344" width="170" height="34" rx="2"/>
+  <text class="d-lab" x="210" y="360" text-anchor="middle">RE50 motor</text>
+  <text class="d-sub" x="210" y="372" text-anchor="middle">Maxon, 200 W</text>
+
+  <rect class="d-box" x="125" y="426" width="170" height="34" rx="2"/>
+  <text class="d-lab" x="210" y="442" text-anchor="middle">finger</text>
+  <text class="d-sub" x="210" y="454" text-anchor="middle">silicone pad</text>
+
+  <rect class="d-box" x="125" y="508" width="170" height="34" rx="2"/>
+  <text class="d-lab" x="210" y="524" text-anchor="middle">FS2030</text>
+  <text class="d-sub" x="210" y="536" text-anchor="middle">force transducer</text>
+
+  <rect class="d-box" x="8" y="262" width="98" height="34" rx="2"/>
+  <text class="d-lab" x="57" y="278"  text-anchor="middle">HW233</text>
+  <text class="d-sub" x="57" y="290"  text-anchor="middle">slider</text>
+
+  <path class="d-flow"  marker-end="url(#ah)"  d="M 210 50 L 210 96"/>
+  <text class="d-edge"  x="218" y="78">TCP localhost</text>
+  <path class="d-flow"  marker-end="url(#ah)"  d="M 210 132 L 210 178"/>
+  <path class="d-flow"  marker-end="url(#ah)"  d="M 210 214 L 210 260"/>
+  <path class="d-force" marker-end="url(#ahf)" d="M 210 296 L 210 342"/>
+  <text class="d-edge"  x="218" y="324">commanded force</text>
+  <path class="d-force" marker-end="url(#ahf)" d="M 210 378 L 210 424"/>
+  <text class="d-edge"  x="218" y="406">applied</text>
+  <path class="d-force" marker-end="url(#ahf)" d="M 210 460 L 210 506"/>
+  <text class="d-edge"  x="218" y="488">measured</text>
+
+  <path class="d-flow" marker-end="url(#ah)" d="M 106 279 L 123 279"/>
+
+  <path class="d-force" marker-end="url(#ahf)"
+        d="M 295 525 L 372 525 L 372 279 L 297 279"/>
+  <text class="d-edge" x="366" y="400" text-anchor="middle"
+        transform="rotate(-90 366 400)">closed loop</text>
+
+  <text class="d-note" x="8" y="322">4.0 N cutout,</text>
+  <text class="d-note" x="8" y="335">motor-driven</text>
+  <text class="d-note" x="8" y="348">phases only</text>
+</svg>
+<figcaption>
+Signal path. The slider and the transducer are both inputs to the drive; the
+motor is its output. The cutout does not run in the Direct condition, where the
+motor produces nothing.
+</figcaption>
+</figure>
+```
 
 The design is not original and is not meant to be. The instrument descends from
 Shergill and colleagues at UCL, through the Cambridge group who fixed the
