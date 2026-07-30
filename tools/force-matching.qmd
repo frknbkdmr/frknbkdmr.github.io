@@ -55,6 +55,9 @@ record is the reference the next one will be compared against.
 
 The calibration data and the build notes will be published together with the
 device, since a device nobody can rebuild is not much better than no device.
+How the rig got here, including the lineage I had to choose between and the
+description of it I got wrong, is in the
+[development log](../log/force-matching.qmd).
 
 ::: {.k}
 [← all instruments](../tools.qmd)

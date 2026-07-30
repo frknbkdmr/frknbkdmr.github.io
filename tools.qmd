@@ -58,6 +58,22 @@ Optical mark recognition and automatic scoring for paper assessment forms, so
 that scale batteries stop being typed in by hand.
 :::
 
+## Development logs {.k-head}
+
+The pages above are records: enough to rebuild an instrument or audit a
+measurement. A log is the other half, the decisions and the wrong turns that a
+record has no room for.
+
+::: {.entry}
+::: {.meta}
+July 2026 &middot; [ongoing]{.status .live}
+:::
+### [Building the force-matching rig](log/force-matching.qmd){.title}
+
+Choosing between two published lineages, rewriting a calibration tool that
+trusted me too much, and a hysteresis margin of 0.24 mN.
+:::
+
 ---
 
 ::: {.k}
