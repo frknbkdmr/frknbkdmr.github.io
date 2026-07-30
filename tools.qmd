@@ -16,12 +16,13 @@ research output too, and they are easier to check than a methods section.
 
 ::: {.entry}
 ::: {.meta}
-Hardware &middot; for the thesis protocol &middot; [calibrating]{.status .pending}
+Hardware &middot; for the thesis protocol &middot; [calibrated]{.status .done}
 :::
 ### [Force-matching device](tools/force-matching.qmd){.title}
 
 Two force channels sampled together, machined in-house because nobody sells
-one. Every lab running this paradigm has had to build its own.
+one. Calibrated across the full range the task uses, with no target left to
+extrapolation.
 :::
 
 ::: {.entry}
@@ -41,7 +42,8 @@ Python / TAPAS &middot; [to publish]{.status}
 ### [HGF analysis pipeline](tools/hgf-pipeline.qmd){.title}
 
 Fitting, parameter and model recovery, and Bayesian model selection. The
-recovery simulations ran before any participant was seen.
+recovery simulations ran before confirmatory collection, and changed which
+outcomes the study reports.
 :::
 
 ## Public {.k-head}

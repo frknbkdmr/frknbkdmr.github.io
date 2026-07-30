@@ -113,14 +113,10 @@ University of Washington, via Coursera. Non-degree online course.
 
 ## Methods and instrumentation {.k-head}
 
-Python, C. PsychoPy, TAPAS/HGF, OpenCV. Hardware design and calibration for
-behavioural tasks.
+Python, MATLAB, C. PsychoPy, TAPAS/HGF, OpenCV. Hardware design and force-sensor
+calibration for behavioural tasks.
 
 ## Contact {.k-head}
 
 furkan [at] furkanbekdemir.com &middot;
 [ORCID](https://orcid.org/0000-0002-7236-5776)
-
-::: {.k}
-a PDF version will live here
-:::

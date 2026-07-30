@@ -1,6 +1,6 @@
 ---
 title: "HGF analysis pipeline"
-description-meta: &desc "Model fitting, parameter and model recovery, and Bayesian model selection with TAPAS, with the recovery simulations run before any participant was seen."
+description-meta: &desc "Model fitting, parameter and model recovery, and Bayesian model selection with TAPAS. The recovery simulations ran before confirmatory collection and changed which outcomes the study reports."
 open-graph:
   description: *desc
 twitter-card:
@@ -27,9 +27,16 @@ selection procedure picks the right one. Where either check fails, the
 parameter is not a finding, it is an artefact of the design, and the honest
 response is to change the task before running anyone through it.
 
-The recovery simulations here ran before any participant was seen. That order
-matters: run them afterwards and the failure arrives too late to act on, when
-the only options left are to report a number you no longer trust or to bury it.
+The recovery simulations here ran before any confirmatory data were collected.
+That order matters: run them afterwards and the failure arrives too late to act
+on, when the only options left are to report a number you no longer trust or to
+bury it.
+
+They also changed what the study will report. Where the raw parameters could
+not be told apart, the outcomes were rewritten in the combinations that can be,
+and claims the design cannot carry were narrowed rather than rescued later.
+Recovery was not a formality run over a finished pipeline; it decided what
+there is to say.
 
 The pipeline is built on [TAPAS](https://translationalneuromodeling.github.io/tapas/),
 the toolbox from the Translational Neuromodeling Unit in Zurich. It takes

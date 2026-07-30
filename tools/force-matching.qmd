@@ -1,6 +1,6 @@
 ---
 title: "Force-matching device"
-description-meta: &desc "A two-channel force transducer rig built in-house for the force-matching task, because no manufacturer sells one and the experiment cannot be run without it."
+description-meta: &desc "A two-channel force transducer rig built in-house for the force-matching task, calibrated against dead weights across the full range the task uses."
 open-graph:
   description: *desc
 twitter-card:
@@ -9,16 +9,17 @@ twitter-card:
 
 ::: {.entry}
 ::: {.meta}
-Hardware &middot; for the thesis protocol &middot; [calibrating]{.status .pending}
+Hardware &middot; for the thesis protocol &middot; [calibrated]{.status .done}
 :::
 :::
 
 The force-matching task asks someone to reproduce a force applied to their own
-finger, once by pressing directly and once by turning a dial that applies it
-for them. People reproduce it accurately through the dial and overshoot when
-they press themselves. The size of that overshoot is the measure, and it is
-what the [schizophrenia thesis](../research/schizophrenia.qmd) uses to ask
-whether self-generated sensation is attenuated the way it should be.
+finger, once by pressing directly and once by moving a slider that sets the
+force the motor applies for them. People reproduce it accurately through the
+slider and overshoot when they press themselves. The size of that overshoot is
+the measure, and it is what the
+[schizophrenia thesis](../research/schizophrenia.qmd) uses to ask whether
+self-generated sensation is attenuated the way it should be.
 
 Doing that needs two force channels sampled together: the one applied to the
 finger and the one the participant produces. The rig has both. It was designed
@@ -40,11 +41,20 @@ Maxon RE50 driven by an EPOS4 controller. The build notes will carry the full
 citations, since knowing which variant a rig implements is the difference
 between a replication and an unrelated experiment with the same name.
 
-Mechanically the rig is finished. Calibration is running now: the transducers
-have to be traced against known loads across the range the task actually uses,
-and that curve has to hold from one session to the next. The calibration data
-and the build notes will be published together with it, since a device nobody
-can rebuild is not much better than no device.
+Calibration is done. The force channel was traced against dead weights from 0
+to 4.066 N, which covers every target the task uses, so no experimental reading
+has to be extrapolated. The linear fit gives R² = 0.9998, an RMSE of 0.021 N
+and a worst single error of 0.038 N.
+
+Rising and falling loads were measured separately instead of averaged, because
+averaging is what hides direction-dependent error. Hysteresis came to 0.0498 N
+against a 0.05 N limit, which passes by 0.24 mN and is by far the tightest
+margin in the set. Seven acceptance criteria were measured and seven passed.
+The eighth is drift, which cannot be computed from one session at all; this
+record is the reference the next one will be compared against.
+
+The calibration data and the build notes will be published together with the
+device, since a device nobody can rebuild is not much better than no device.
 
 ::: {.k}
 [← all instruments](../tools.qmd)
