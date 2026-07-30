@@ -224,6 +224,8 @@ ul.task-list li input[type="checkbox"] {
 <p>Found that my own lineage document was out of date, which is a specific embarrassment when the document exists to prevent exactly that.</p>
 <p>The box at the top still described the rig as belonging to the McNaughton line. That had been true when I wrote it and stopped being true five days earlier when I locked the force servo. The rig takes McNaughton’s timing, target forces and analysis window, and the UCL topology for how the indirect condition delivers force. It is a hybrid, and calling it a replication of either one is wrong in both directions.</p>
 <p>Corrected the box and added the date, so the correction is visible rather than silently folded in.</p>
+<p>The same day, a measurement problem in the slider itself. I had been modelling the relationship between the potentiometer’s output and its physical travel as a straight line. It is not one, and the straight line was leaving 13.2 per cent deviation.</p>
+<p>That sits in exactly the wrong place. It is the step that turns slider position into a force target, so it sits between what the participant asks for and what the motor delivers, in the condition whose whole purpose is to separate those two. Replaced it with piecewise-linear interpolation. The old linear coefficients are still written to the record but no longer compute anything, because a transformation that has been shown wrong once should not be able to come back quietly.</p>
 </section>
 <section id="july-4" class="level2 k-head">
 <h2 class="k-head" data-anchor-id="july-4">28 July</h2>

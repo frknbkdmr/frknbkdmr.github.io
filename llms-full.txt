@@ -525,6 +525,19 @@ both directions.
 Corrected the box and added the date, so the correction is visible rather than
 silently folded in.
 
+The same day, a measurement problem in the slider itself. I had been modelling
+the relationship between the potentiometer's output and its physical travel as a
+straight line. It is not one, and the straight line was leaving 13.2 per cent
+deviation.
+
+That sits in exactly the wrong place. It is the step that turns slider position
+into a force target, so it sits between what the participant asks for and what
+the motor delivers, in the condition whose whole purpose is to separate those
+two. Replaced it with piecewise-linear interpolation. The old linear
+coefficients are still written to the record but no longer compute anything,
+because a transformation that has been shown wrong once should not be able to
+come back quietly.
+
 ## 28 July
 Closed the calibration. Traced the force channel against dead weights over the
 whole range the task uses, 0 to 4.066 N, which puts every experimental target
