@@ -1,9 +1,9 @@
-"""Run the existing post-render fixes, then apply the site's crawler policy.
+"""Run the existing post-render fixes, then apply publication policies.
 
 Search engines and user-initiated AI retrieval remain welcome. Crawlers whose
 stated purpose includes model training or general model development are blocked.
-Keeping this as the final post-render step prevents Quarto or post-render.py from
-silently restoring the previous site-wide training permission.
+Pages carrying ``noindex`` remain directly reachable, but are removed from the
+sitemap and the two LLM-readable indexes until they are ready to be discovered.
 """
 
 from pathlib import Path
@@ -44,6 +44,76 @@ def site_url() -> str:
     return match.group(1).rstrip("/")
 
 
+def page_url(path: Path, base: str) -> str:
+    """Return the extensionless public URL used by canonical tags and sitemap."""
+    rel = path.relative_to(OUT).as_posix()
+    if rel == "index.html":
+        rel = ""
+    elif rel.endswith("/index.html"):
+        rel = rel[: -len("index.html")]
+    else:
+        rel = rel[: -len(".html")]
+    return f"{base}/{rel}"
+
+
+def has_noindex(html: str) -> bool:
+    """Recognise a robots noindex directive regardless of attribute order."""
+    for tag in re.findall(r"<meta\b[^>]*>", html, flags=re.I):
+        if re.search(r'\bname=["\']robots["\']', tag, flags=re.I) and re.search(
+            r'\bcontent=["\'][^"\']*\bnoindex\b', tag, flags=re.I
+        ):
+            return True
+    return False
+
+
+def remove_noindex_from_indexes(base: str) -> list[str]:
+    """Remove noindex pages from sitemap.xml, llms.txt and llms-full.txt."""
+    hidden = sorted(
+        page_url(path, base)
+        for path in OUT.rglob("*.html")
+        if "site_libs" not in path.parts
+        and has_noindex(path.read_text(encoding="utf-8"))
+    )
+    if not hidden:
+        return []
+
+    hidden_set = set(hidden)
+
+    sitemap = OUT / "sitemap.xml"
+    if sitemap.exists():
+        text = sitemap.read_text(encoding="utf-8")
+
+        def keep_url(match: re.Match[str]) -> str:
+            block = match.group(0)
+            loc = re.search(r"<loc>(.*?)</loc>", block, flags=re.S)
+            return "" if loc and loc.group(1).strip() in hidden_set else block
+
+        text = re.sub(r"[ \t]*<url>.*?</url>\s*", keep_url, text, flags=re.S)
+        sitemap.write_text(text, encoding="utf-8", newline="\n")
+
+    llms = OUT / "llms.txt"
+    if llms.exists():
+        lines = llms.read_text(encoding="utf-8").splitlines()
+        lines = [line for line in lines if not any(f"]({url})" in line for url in hidden)]
+        llms.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8", newline="\n")
+
+    full = OUT / "llms-full.txt"
+    if full.exists():
+        sections = full.read_text(encoding="utf-8").split("\n---\n")
+        sections = [
+            section
+            for section in sections
+            if not any(f"URL: {url}" in section for url in hidden)
+        ]
+        full.write_text(
+            "\n---\n".join(sections).rstrip() + "\n",
+            encoding="utf-8",
+            newline="\n",
+        )
+
+    return hidden
+
+
 def write_robots(base: str) -> None:
     lines = [
         "# Public pages may be indexed and used for user-initiated retrieval.",
@@ -80,7 +150,11 @@ def write_robots(base: str) -> None:
 
 def main() -> None:
     subprocess.run([sys.executable, str(ROOT / "post-render.py")], check=True)
-    write_robots(site_url())
+    base = site_url()
+    hidden = remove_noindex_from_indexes(base)
+    write_robots(base)
+    if hidden:
+        print("noindex: removed from sitemap and LLM indexes: " + ", ".join(hidden))
     print("robots.txt: search and AI retrieval allowed; training crawlers blocked")
 
 
