@@ -1,6 +1,6 @@
 ---
 title: "Force-matching device"
-description-meta: &desc "A two-channel force transducer rig built in-house for the force-matching task, calibrated against dead weights across the full range the task uses."
+description-meta: &desc "A single-channel force-matching rig built in-house for the force-matching task, calibrated against dead weights across the full range the task uses."
 open-graph:
   description: *desc
 twitter-card:
@@ -30,8 +30,11 @@ McNaughton's window taken unchanged.
 So the rig needs one force channel that can both deliver a commanded force and
 measure a produced one, and it needs to do that identically in both conditions,
 because the comparison between them is the entire experiment. It was designed
-and machined in-house with my brother Anıl Bekdemir, a mechanical engineer, and
-the acquisition software is mine.
+and machined in-house with my brother Anıl Bekdemir, a mechanical engineer. The
+experimental task, calibration, quality-control and analysis software were
+developed for this study. The hardware bridge descends from earlier
+Maxon/McNaughton control software and is not included in the planned public
+release.
 
 It was built because there is nothing to buy. No manufacturer sells a
 force-matching rig: the paradigm lives in a few labs, each of which made its
