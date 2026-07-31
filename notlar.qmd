@@ -6,6 +6,11 @@ open-graph:
   description: *desc
 twitter-card:
   description: *desc
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta name="robots" content="noindex, follow">
 ---
 
 ::: {.lede}
