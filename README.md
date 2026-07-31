@@ -10,9 +10,6 @@ Profile URLs (ORCID, GitHub, OSF) are filled in and consistent across
 what lets search engines resolve these profiles as one person, so a wrong URL
 there is worse than no URL — delete a line you can't fill rather than guessing.
 
-**The domain is the open item.** `furkanbekdemir.com` does not resolve yet, and
-every canonical URL, the sitemap and the JSON-LD point at it. See DNS below.
-
 ## Run it locally
 
 ```bash
@@ -69,13 +66,13 @@ curl -A "Mozilla/5.0 (compatible; GPTBot/1.1)" -o /dev/null -w "%{http_code}\n" 
 
 ## Build internals
 
-`_quarto.yml` runs `post-render.py` after every render, so **Python 3 must be on
-PATH** — `quarto render` fails without it. The script uses only the standard
-library. It adds the `<link rel="canonical">` tags Quarto does not emit, points
-the sitemap at the bare origin and drops the duplicate that creates, defers the
-parser-blocking scripts in `<head>`, and deletes `search.json` while search is
-off. It reads the site URL from `_quarto.yml` rather than keeping its own copy,
-and it is safe to run again on an already-processed `_site`.
+`_quarto.yml` runs `site-post-render.py` after every render, so **Python 3 must be
+on PATH** — `quarto render` fails without it. The wrapper runs the original
+`post-render.py` fixes, then writes the crawler policy that permits search and
+user-initiated AI retrieval while blocking model-training crawlers. The original
+script adds canonical tags, normalises the sitemap, defers parser-blocking
+scripts, publishes the LLM-readable indexes, and removes `search.json` while
+search is off. Both scripts use only the standard library.
 
 If you ever move the build to CI, note that many Linux runners ship `python3`
 but no `python`, which is the name `_quarto.yml` calls.
