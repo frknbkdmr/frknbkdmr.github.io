@@ -8,7 +8,7 @@
 
 <meta name="description" content="Model fitting, parameter and model recovery, and Bayesian model selection with TAPAS. The recovery simulations ran before confirmatory collection and changed which outcomes the study reports.">
 
-<title>HGF analysis pipeline – Furkan Bekdemir</title>
+<title>HGF analysis pipeline: parameter and model recovery with TAPAS – Furkan Bekdemir</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -126,15 +126,40 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
-<meta property="og:title" content="HGF analysis pipeline – Furkan Bekdemir">
+<meta property="og:title" content="HGF analysis pipeline: parameter and model recovery with TAPAS">
 <meta property="og:description" content="Model fitting, parameter and model recovery, and Bayesian model selection with TAPAS. The recovery simulations ran before confirmatory collection and changed which outcomes the study reports.">
 <meta property="og:image" content="https://furkanbekdemir.com/og-image.png">
 <meta property="og:site_name" content="Furkan Bekdemir">
-<meta name="twitter:title" content="HGF analysis pipeline – Furkan Bekdemir">
+<meta name="twitter:title" content="HGF analysis pipeline: parameter and model recovery with TAPAS">
 <meta name="twitter:description" content="Model fitting, parameter and model recovery, and Bayesian model selection with TAPAS. The recovery simulations ran before confirmatory collection and changed which outcomes the study reports.">
 <meta name="twitter:image" content="https://furkanbekdemir.com/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://furkanbekdemir.com/tools/hgf-pipeline">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Furkan Bekdemir",
+      "item": "https://furkanbekdemir.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Instruments and code",
+      "item": "https://furkanbekdemir.com/tools"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "HGF analysis pipeline: parameter and model recovery with TAPAS"
+    }
+  ]
+}
+</script>
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -214,6 +239,35 @@ ul.task-list li input[type="checkbox"] {
 <p>The recovery simulations here ran before any confirmatory data were collected. That order matters: run them afterwards and the failure arrives too late to act on, when the only options left are to report a number you no longer trust or to bury it.</p>
 <p>They also changed what the study will report. Where the raw parameters could not be told apart, the outcomes were rewritten in the combinations that can be, and claims the design cannot carry were narrowed rather than rescued later. Recovery was not a formality run over a finished pipeline; it decided what there is to say.</p>
 <p>The pipeline is built on <a href="https://translationalneuromodeling.github.io/tapas/">TAPAS</a>, the toolbox from the Translational Neuromodeling Unit in Zurich. It takes trial-level data of the kind the <a href="../tools/beads-task.html">beads task</a> writes, and it is the same modelling approach behind the <a href="../research/anxiety-hgf.html">anxiety study</a>. It is not public yet.</p>
+<!-- Same shape as the beads task: software with no public repository yet, so no
+     codeRepository. isBasedOn names TAPAS, which is the dependency a reader
+     would actually want to know about. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareSourceCode",
+  "@id": "https://furkanbekdemir.com/tools/hgf-pipeline#software",
+  "name": "HGF analysis pipeline",
+  "description": "Model fitting, parameter and model recovery, and Bayesian model selection with TAPAS. The recovery simulations ran before confirmatory collection and changed which outcomes the study reports.",
+  "programmingLanguage": { "@type": "ComputerLanguage", "name": "Python" },
+  "applicationCategory": "Research software",
+  "isBasedOn": {
+    "@type": "SoftwareApplication",
+    "name": "TAPAS",
+    "url": "https://translationalneuromodeling.github.io/tapas/"
+  },
+  "keywords": [
+    "Hierarchical Gaussian Filter",
+    "parameter recovery",
+    "model recovery",
+    "Bayesian model selection",
+    "computational psychiatry",
+    "computational neuroscience"
+  ],
+  "author": { "@id": "https://furkanbekdemir.com/#person" },
+  "url": "https://furkanbekdemir.com/tools/hgf-pipeline"
+}
+</script>
 <div class="k">
 <p><a href="../tools.html">← all instruments</a></p>
 </div>

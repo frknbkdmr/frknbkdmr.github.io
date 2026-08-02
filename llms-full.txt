@@ -6,9 +6,11 @@ Source: https://furkanbekdemir.com  ·  ORCID: https://orcid.org/0000-0002-7236-
 
 ---
 
-# Furkan Bekdemir
+# Computational psychiatry and research instrumentation
 
 URL: https://furkanbekdemir.com/
+
+# Furkan Bekdemir
 
 Psychiatry resident at Ondokuz Mayıs University, Samsun. I study how the brain
 decides what to believe, and how it tells what it did itself from what happened
@@ -577,6 +579,45 @@ then briefly did not again. Since the pad changes what the finger feels, none of
 that engineering data can go in the analysis pool, and the confirmatory
 collection runs on the fixed configuration with the pad. That decision costs
 nothing now and would have cost the study later.
+
+## 1 August
+An outside audit of the rig flagged the slider calibration as critical, and it
+was right to. The calibration file holds seven points entered by hand, and their
+spacing implies the potentiometer is about seven times more sensitive at its two
+ends than in the middle. Fitted as a straight line the slider gives a slope of
+3.80 N per unit travel; fitted piecewise it gives 6.03. Both fits are excellent
+by R², which is the trap: a curve through seven wrong points fits those seven
+points beautifully.
+
+The number that settles it is the span. The rig's full travel is nominally
+3.8 N, and the piecewise slope exceeds that. A mapping cannot deliver more force
+than the instrument has, so the seven points are most likely mismeasured rather
+than revealing a real nonlinearity.
+
+Then the part I did not expect. This does not bias the outcome measure, and the
+reason is the closed loop. The dependent variable is not the force the slider
+commands, it is the force the transducer records over the 2.5 to 3.0 second
+window. The participant feels the force on their finger and moves the slider
+until it matches. A monotonic error in the mapping therefore moves where their
+thumb ends up, not how hard the motor pushes. Expressed against the linear
+command the delivered-minus-commanded difference is 0.065 N; against the
+piecewise one it is 0.270 N, which is the wrong mapping showing itself in the
+residual rather than in the measurement.
+
+Three independent calculations agreed on the coefficients, one of them run by a
+separate tool that did not see mine. That is the part worth keeping: I did not
+find this, and I would not have gone looking.
+
+What survives is narrower and I want it written down rather than filed away.
+The offset cancels in a group comparison only if it is the same offset in both
+groups. Slowing, rigidity, medication and grip differ between patients and
+controls, and whether any of those interact with the slider mapping has not been
+measured. So the study continues, the finding is logged as a manageable risk
+rather than a closed one, and the test that would close it is specified in
+advance: a blind, randomised, within-subject A/B between the two mappings. If
+that turns up a mapping-by-group interaction the classification rises to
+critical and the versions get separated. If it is never run, the limitation goes
+in the thesis in these words.
 
 [← the device](../tools/force-matching.qmd) ·
 [all instruments](../tools.qmd)
