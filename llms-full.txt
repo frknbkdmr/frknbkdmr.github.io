@@ -662,6 +662,14 @@ Hesaplamalı psikiyatri üzerine, klinik okura yazılmış kapsamlı bir Türkç
 kaynağa rastlamadım. Terimlerin karşılığı da oturmuş değil. Buradaki notlar o
 boşluğu doldurma denemesi.
 
+## Yazılanlar
+70 terim · 52'si kaynaklı · yayında
+
+### [Terimler](notlar/terimler.qmd)
+Hesaplamalı psikiyatri terimlerinin Türkçe karşılıkları, ve her biri için o
+karşılığın gerçekten yerleşik olup olmadığı. On sekizinde yerleşik bir karşılık
+bulamadım, ve listenin asıl işi bunu yazmak.
+
 ## Planlanan yazılar
 ### Öngörü hatası, kesinlik ve psikiyatrik belirti
 Bayesçi beyin çerçevesinin klinik okur için girişi: öngörü hatası ne demek,
@@ -678,6 +686,453 @@ Akatizinin öznel ve nesnel bileşenlerinin neden ayrışabildiği, ve hareketin
 
 ---
 
-terimler için önerilen karşılıklar burada toplanacak
+# Terimler
+
+URL: https://furkanbekdemir.com/notlar/terimler
+
+Hesaplamalı psikiyatride kullandığım terimlerin Türkçe karşılıkları, ve her biri
+için karşılığın gerçekten yerleşik olup olmadığı. Yetmiş terimin elli ikisinde
+o terimin Türkçe kullanıldığı bir akademik kaynak bulabildim; on sekizinde
+bulamadım, ve bunu yazmak listenin asıl işi.
+
+Bu bir otorite listesi değil, bir tarama kaydı. Her satır ne önerdiğimi, neye
+dayandığımı ve dayanağın ne kadar sağlam olduğunu söylüyor. Karşılığı olmayan
+terimi zorlamak yerine boş bırakmak, listeyi kullanan birinin kendi kararını
+verebilmesi için gerekli.
+
+kaynaklı · terimin Türkçe kullanıldığı bir akademik
+kaynak var, ya da rakip bir özel anlamı olmayan şeffaf bir bileşik\
+karşılık yok · yerleşik bir Türkçe karşılık
+bulunamadı; ilk geçişte İngilizcesi verilmeli
+
+Bir uyarı: `variational Bayes`, `generative model`, `hidden state`, `logit`,
+`levels` ve `free energy` karşılıkları hakemli olmayan kaynaklara dayanıyor, bir
+topluluk sözlüğüne ve bir popüler bilim çevirisine. Bunlar kaynaklı sayıldı ama
+hakemli değil. `Laplace approximation` için bulunan kaynak Laplace
+*dönüşümüne* ait; Bayesçi Laplace *yaklaşımı* ayrı bir şey ve Türkçesi yok.
+
+Aramanın bir sınırı da şu: İngilizce arama motorları DergiPark ve TR Dizin gibi
+Türkçe akademik veri tabanlarını zayıf indeksliyor. Her terim için ayrıca
+hedefli tarama yaptım, ama bulunamadı demek yok demek değil.
+
+## Model çerçevesi ve öğrenme kuramı
+**Hierarchical Gaussian Filter** (HGF) · Hiyerarşik Gauss Filtresi · karşılık yok
+
+Aradım, Türkçe akademik kaynakta geçmiyor. Model adı olduğu için İngilizcesini ve kısaltmasını koruyorum; ilk geçişte "Hiyerarşik Gauss(sal) Filtre (HGF)" diye veriyorum.
+
+**Bayesian inference** · Bayesçi çıkarım · kaynaklı
+
+Yerleşik. DergiPark'ta ve makine öğrenmesi kaynaklarında "Bayesçi çıkarım" diye geçiyor, bazen "Bayesci" yazımıyla.
+
+Kaynak: [Bayesçi Yaklaşım ile Regresyon Modellerinde Parametre Tahmini](https://dergipark.org.tr/tr/download/article-file/1688621)
+
+**Bayesian belief updating** · Bayesçi inanç güncelleme · kaynaklı
+
+İki parçası da ayrı ayrı yerleşik, ve Türkçe Bayesçi beyin yazılarında yan yana kullanılıyor. Birleştirmekte sakınca görmüyorum.
+
+Kaynak: [Bayesçi Yaklaşım ile Regresyon Modellerinde Parametre Tahmini](https://dergipark.org.tr/tr/download/article-file/1688621)
+
+**Variational Bayes** · Değişimsel / varyasyonel Bayes · kaynaklı
+
+"Değişimsel" karşılığı bir topluluk sözlüğünde var, "varyasyonel" de kullanılıyor. İkisi arasında karar veremedim. Kaynak hakemli olmadığı için ilk geçişte İngilizcesini veriyorum.
+
+Kaynak: [deeplearningturkiye TR-YZ Terim Sözlüğü](https://github.com/deeplearningturkiye/turkce-yapay-zeka-terimleri/blob/master/turkce-ingilizce.md) (topluluk kaynağı, hakemli değil)
+
+**Perceptual model** · Algısal model · kaynaklı
+
+Şeffaf bileşik. Başka bir alanda çakışan özel bir anlamı yok, o yüzden çekinmeden kullanıyorum.
+
+Kaynak: [Öngörücü İşleme ve Öngörü Hatası — Yayılmış Zihin (DergiPark)](https://dergipark.org.tr/tr/download/article-file/4835682), algısal/üretici model bağlamı
+
+**Response / observation model** · Yanıt / gözlem modeli · kaynaklı
+
+Bu da şeffaf bileşik, sorun çıkarmıyor.
+
+Kaynak: [Öngörücü İşleme ve Öngörü Hatası — Yayılmış Zihin (DergiPark)](https://dergipark.org.tr/tr/download/article-file/4835682), algı-eylem/gözlem modeli bağlamı
+
+**Generative model** · Üretici model · kaynaklı
+
+Yerleşik. Makine öğrenmesi kaynaklarında "üretici" de "üretken" de geçiyor; ben "üretici" diyorum.
+
+Kaynak: [deeplearningturkiye TR-YZ Terim Sözlüğü](https://github.com/deeplearningturkiye/turkce-yapay-zeka-terimleri/blob/master/turkce-ingilizce.md) (topluluk kaynağı, hakemli değil)
+
+**Predictive coding** · Öngörücü (kestirimci) kodlama · kaynaklı
+
+Türkçede kullanılıyor ama tek bir hâkim karşılık yok. Beş varyant saydım: öngörücü, öngörülü, yordayıcı, kestirimci, tahmine dayalı. Birini seçmek zorundayım ve "öngörücü" diyorum, çünkü "öngörü hatası" ile aynı kökten gidiyor. İlk geçişte İngilizcesini de veriyorum.
+
+Kavram kaynağı (TR): [Öngörücü İşleme — Yayılmış Zihin (DergiPark)](https://dergipark.org.tr/tr/download/article-file/4835682); ayrıca [Öngörücü Kodlama ve Neokantçılık (Sabah Ülkesi)](https://www.sabahulkesi.com/2020/03/31/oengoeruecue-kodlama-ve-neokantcilik/)
+
+**Prediction error** (PE) · Öngörü hatası (kestirim hatası) · kaynaklı
+
+Yerleşik. Türkçe Bayesçi beyin yazılarında "öngörü hatası" diye geçiyor.
+
+Kaynak: [Öngörücü İşleme ve Öngörü Hatası — Yayılmış Zihin (DergiPark)](https://dergipark.org.tr/tr/download/article-file/4835682)
+
+**Precision (inverse variance)** · Kesinlik / precision (varyansın tersi) · kaynaklı
+
+Ben "hassasiyet" diyorum, ama "kesinlik" de yaygın. Seçim keyfî değil:
+"kesinlik" gündelik dilde doğruluk çağrıştırıyor, oysa kastedilen varyansın
+tersi. Yine de literatürde ikisi de var, o yüzden ilk geçişte İngilizcesini
+vermek gerekiyor.
+
+İkisi de Türkçe kaynaklarda geçiyor.
+
+Kaynak: [Öngörücü İşleme ve Öngörü Hatası — Yayılmış Zihin (DergiPark)](https://dergipark.org.tr/tr/download/article-file/4835682)
+
+**Precision-weighted prediction error** · Kesinlik-ağırlıklı öngörü hatası · kaynaklı
+
+İki parçası da yerleşik olduğu için bileşiği de kullanılabilir. Birleşik terimin kendisi Türkçede yok, o yüzden ilk geçişte İngilizcesini veriyorum.
+
+Kavram kaynağı (TR): [Öngörücü İşleme — Yayılmış Zihin (DergiPark)](https://dergipark.org.tr/tr/download/article-file/4835682) (öngörü hatası + kesinlik ağırlıklandırma; birleşik terim TR'de yok)
+
+**Learning rate** · Öğrenme oranı · kaynaklı
+
+Yerleşik. Makine öğrenmesi kaynaklarında "öğrenme oranı", bazen "öğrenme hızı".
+
+Kaynak: [YSA Eğitiminde Kullanılan Optimizasyon Yöntemleri (DergiPark)](https://dergipark.org.tr/en/download/article-file/1099311)
+
+**Belief updating** · İnanç güncelleme · kaynaklı
+
+Yerleşik. Psikoloji ve Bayesçi beyin yazılarında kullanılıyor.
+
+Kaynak: [Bayesçi Yaklaşım ile Regresyon Modellerinde Parametre Tahmini](https://dergipark.org.tr/tr/download/article-file/1688621)
+
+**Volatility** · Volatilite / oynaklık · kaynaklı
+
+Yerleşik, ama finans ve istatistikten geliyor. "Volatilite" de "oynaklık" da var.
+
+Kaynak: [Enflasyon ve Enflasyon Belirsizliği: Türkiye Örneği (Sosyoekonomi)](https://dergipark.org.tr/tr/pub/sosyoekonomi/article/226831)
+
+**Hidden (latent) state** · Gizli (örtük/saklı) durum · kaynaklı
+
+Yerleşik. Topluluk sözlüğü latent için "saklı" ve "gizli" veriyor. Kaynak hakemli değil, ilk geçişte İngilizcesini veriyorum.
+
+Kaynak: [deeplearningturkiye TR-YZ Terim Sözlüğü](https://github.com/deeplearningturkiye/turkce-yapay-zeka-terimleri/blob/master/turkce-ingilizce.md) (topluluk kaynağı, hakemli değil)
+
+**Prior / Posterior** · Önsel / Sonsal (prior/posterior) · kaynaklı
+
+Yerleşik. Bayesçi istatistik kaynaklarında "önsel" ve "sonsal" oturmuş durumda.
+
+Kaynak: [Bayesçi Yaklaşım ile Regresyon Modellerinde Parametre Tahmini](https://dergipark.org.tr/tr/download/article-file/1688621)
+
+**Logistic (sigmoid) function** · Lojistik (sigmoid) fonksiyon · kaynaklı
+
+Yerleşik. Makine öğrenmesi kaynaklarında hem "lojistik" hem "sigmoid" geçiyor.
+
+Kaynak: [Adaptif Sigmoid, Lojistik Sigmoid ve Tanjant Hiperbolik Aktivasyon Fonksiyonları (DergiPark)](https://dergipark.org.tr/en/download/article-file/2849675)
+
+**Logit transform** · Logit dönüşümü · kaynaklı
+
+Pratikte "logit" olduğu gibi kalıyor. Topluluk sözlüğünün "ters S" önerisini kullanan yok.
+
+Kaynak: [deeplearningturkiye TR-YZ Terim Sözlüğü](https://github.com/deeplearningturkiye/turkce-yapay-zeka-terimleri/blob/master/turkce-ingilizce.md) (topluluk kaynağı, hakemli değil)
+
+**Gaussian random walk** · Gauss rastgele yürüyüş · kaynaklı
+
+"Rastgele yürüyüş" zaman serisi ve finans kaynaklarında yerleşik. "Gauss" niteleyicisini eklemekte sakınca yok.
+
+Kaynak: [Enflasyon ve Enflasyon Belirsizliği: Türkiye Örneği (Sosyoekonomi)](https://dergipark.org.tr/tr/pub/sosyoekonomi/article/226831), zaman serisi/finans: rastgele yürüyüş, otoregresif süreç
+
+**Autoregressive process (AR(1))** (AR(1)) · Birinci derece otoregresif süreç · kaynaklı
+
+Yerleşik. Zaman serisi kaynaklarında "otoregresif süreç" ve AR(1) kısaltması kullanılıyor.
+
+Kaynak: [Enflasyon ve Enflasyon Belirsizliği: Türkiye Örneği (Sosyoekonomi)](https://dergipark.org.tr/tr/pub/sosyoekonomi/article/226831)
+
+**Uncertainty (irreducible/estimation/volatility)** · Belirsizlik · kaynaklı
+
+Yerleşik, hem ölçüm hem istatistik bağlamında yaygın.
+
+Kaynak: [Öngörücü İşleme ve Öngörü Hatası — Yayılmış Zihin (DergiPark)](https://dergipark.org.tr/tr/download/article-file/4835682)
+
+## Model parametreleri
+**Evolution rate** (ω (omega)) · Evrim oranı / gelişim hızı · karşılık yok
+
+HGF'e özgü bir parametre, Türkçesi yok. "Evrim oranı" diyorum ama bu benim önerim, yerleşik değil.
+
+**Belief instability** (κ₁ (kappa1)) · *(Adams'ın etiketi)* "inanç kararsızlığı" · karşılık yok
+
+Adams'ın etiketi, Türkçesi yok. Ben bunu klinik ya da nedensel bir etiket olarak kullanmıyorum; Adams'ın iddiasını aktarırken tırnak içinde ve ona atfen veriyorum.
+
+**Response stochasticity** (ζ / ν (zeta/nu)) · Yanıt stokastisitesi (yanıt gürültüsü) · karşılık yok
+
+Türev bir terim, Türkçesi yok. "Yanıt stokastisitesi" ya da "yanıt gürültüsü" diyorum.
+
+**Initial belief variance** (σ²₂(0)) · Başlangıç inanç varyansı · karşılık yok
+
+HGF'e özgü, Türkçesi yok. "Başlangıç inanç varyansı" benim önerim.
+
+**Disconfirmatory bias** (φ (phi)) · Çürütücü (yalanlayıcı) yanlılık · karşılık yok
+
+Adams'a özgü, Türkçesi yok. "Çürütücü yanlılık" diyorum; "yalanlayıcı" da olur.
+
+**Belief / posterior mean** (μ (mu)) · İnanç / sonsal ortalama · kaynaklı
+
+"Sonsal" yerleşik, "ortalama" zaten standart.
+
+Kaynak: [Bayesçi Yaklaşım ile Regresyon Modellerinde Parametre Tahmini](https://dergipark.org.tr/tr/download/article-file/1688621)
+
+**Levels (states x1, x2, x3)** · Düzeyler (durumlar) · kaynaklı
+
+Şeffaf. "Düzey" ya da "durum" diyorum.
+
+Kaynak: [deeplearningturkiye TR-YZ Terim Sözlüğü](https://github.com/deeplearningturkiye/turkce-yapay-zeka-terimleri/blob/master/turkce-ingilizce.md) (state="durum"; topluluk kaynağı)
+
+**Scaling factor (sigmoid)** · Ölçekleme faktörü · kaynaklı
+
+Şeffaf. "Ölçekleme faktörü" ya da "ölçekleme katsayısı".
+
+Kaynak: [Adaptif Sigmoid, Lojistik Sigmoid ve Tanjant Hiperbolik Aktivasyon Fonksiyonları (DergiPark)](https://dergipark.org.tr/en/download/article-file/2849675), ölçekleme/ölçek katsayısı bağlamı
+
+## Parametre kestirimi ve model uydurma
+**Maximum-a-posteriori estimation** (MAP) · Maksimum sonsal kestirim · kaynaklı
+
+Yerleşik. Topluluk sözlüğü "en büyük sonsal" diyor, ama kısaltmayı koruyorum; MAP herkesin tanıdığı bir şey.
+
+Kaynak: [Bayesçi Yaklaşım ile Regresyon Modellerinde Parametre Tahmini](https://dergipark.org.tr/tr/download/article-file/1688621)
+
+**Quasi-Newton optimization** · Quasi-Newton optimizasyonu · kaynaklı
+
+Yerleşik. Türkçe optimizasyon derslerinde adı korunarak geçiyor.
+
+Kaynak: [YSA Eğitiminde Kullanılan Optimizasyon Yöntemleri (DergiPark)](https://dergipark.org.tr/en/download/article-file/1099311)
+
+**Multi-start (random restarts)** · Çok-başlangıçlı optimizasyon · kaynaklı
+
+Şeffaf. "Çok başlangıçlı" ya da "rastgele yeniden başlatmalı".
+
+Kaynak: [YSA Eğitiminde Kullanılan Optimizasyon Yöntemleri (DergiPark)](https://dergipark.org.tr/en/download/article-file/1099311)
+
+**Log-model evidence** (LME) · Log-model kanıtı · kaynaklı
+
+"Model kanıtı" yerleşik, "log" zaten öyle kalıyor. Bileşiği sorun çıkarmıyor.
+
+Kaynak: [Model Seçim Kriterleri: AIC, BIC, ICOMP (İstatistik Araştırma Dergisi)](https://dergipark.org.tr/tr/pub/jsstr/article/1148498)
+
+**Free energy** · Serbest enerji · kaynaklı
+
+Türkçede kullanılıyor, ama bulduğum kaynak popüler bilim çevirisi ve hakemli değil. İlk geçişte İngilizcesini veriyorum.
+
+Kaynak: [Bayesçi Beynin Geleceğinin Tarihi — Friston (CogIST)](https://medium.com/cogist/bayes%C3%A7i-beynin-gelece%C4%9Finin-tarihi-karl-j-friston-16dd2dc1d5a5) (popüler-bilim çevirisi, hakemli değil; TR akademik kaynak seyrek)
+
+**Laplace approximation** · Laplace yaklaşımı · kaynaklı
+
+"Laplace" adı Türkçe derslerde yerleşik, ama bulduğum kaynak Laplace *dönüşümüne* ait. Bayesçi Laplace *yaklaşımı* ayrı bir şey ve Türkçe akademik kaynakta göremedim. İngilizce veriyorum.
+
+Kaynak: [Laplace Dönüşümleri (Ankara Ü. Açık Ders)](https://acikders.ankara.edu.tr/mod/resource/view.php?id=54171). "Laplace" adı yerleşik; Bayesçi "Laplace yaklaşımı" özel anlamı için TR akademik seyrek, İngilizce verilmeli
+
+**Parameter recovery** · Parametre geri kazanımı · kaynaklı
+
+"Parametre kestirimi" yerleşik. Simülasyon ve yeniden uydurma anlamında "geri kazanım" diyorum, ilk geçişte İngilizcesiyle.
+
+Kaynak: [Türev Tabanlı Parametre Kestirimi (ResearchGate)](https://www.researchgate.net/publication/349915965), "parametre kestirimi" yerleşik
+
+**Identifiability** · Tanımlanabilirlik / belirlenebilirlik · kaynaklı
+
+Yerleşik. Sistem tanımlamada "tanımlanabilirlik", istatistikte "belirlenebilirlik" de geçiyor.
+
+Kaynak: [Model Seçim Kriterleri: AIC, BIC, ICOMP (İstatistik Araştırma Dergisi)](https://dergipark.org.tr/tr/pub/jsstr/article/1148498), kestirilebilirlik/tanımlanabilirlik bağlamı; sistem tanımlama TR'de "tanımlanabilirlik"
+
+**Parameter trade-off** · Parametre ödünleşimi · kaynaklı
+
+Şeffaf. Yakın akrabası "yanlılık-varyans ikilemi" Türkçede yerleşik.
+
+Kaynak: [Derin Sinir Ağları ile En İyi Modelin Belirlenmesi (DergiPark)](https://dergipark.org.tr/tr/download/article-file/821607)
+
+**Prior distribution (mean/variance)** · Önsel dağılım · kaynaklı
+
+Yerleşik. Bayesçi istatistik kaynaklarında "önsel dağılım".
+
+Kaynak: [Bayesçi Yaklaşım ile Regresyon Modellerinde Parametre Tahmini](https://dergipark.org.tr/tr/download/article-file/1688621)
+
+**Belief reset** · İnanç sıfırlama · karşılık yok
+
+Bu çalışmaya özgü bir işlem, Türkçesi yok. "İnanç sıfırlama" diyorum.
+
+## Bayesçi model seçimi
+**Bayesian model selection** (BMS) · Bayesçi model seçimi · kaynaklı
+
+İki parçası da yerleşik. Ama alt terimlerinin Türkçesi yok, onları İngilizce vermek gerekiyor.
+
+Kaynak: [Model Seçim Kriterleri: AIC, BIC, ICOMP (İstatistik Araştırma Dergisi)](https://dergipark.org.tr/tr/pub/jsstr/article/1148498)
+
+**Random-effects BMS** · Rastgele etkiler BMS · karşılık yok
+
+Alt terim, Türkçesi yok. "Rastgele etkiler BMS" diyorum ve İngilizcesini de veriyorum.
+
+En yakın TR bağlam: [Model Seçim Kriterleri: AIC/BIC (jsstr)](https://dergipark.org.tr/tr/pub/jsstr/article/1148498) (genel model seçimi; "rastgele etkiler BMS" alt-terimi TR'de yok)
+
+**Protected exceedance probability** (PXP) · Korumalı aşım olasılığı · karşılık yok
+
+Türev terim, Türkçesi yok. "Korumalı aşım olasılığı" benim önerim; kısaltmayı koruyorum.
+
+En yakın TR bağlam: [Model Seçim Kriterleri: AIC/BIC (jsstr)](https://dergipark.org.tr/tr/pub/jsstr/article/1148498) (PXP alt-terimi TR'de yok)
+
+**Exceedance probability** · Aşım olasılığı · karşılık yok
+
+Hesaplamalı model bağlamında Türkçe karşılık bulamadım. "Aşım olasılığı" diyorum, ilk geçişte İngilizcesiyle.
+
+En yakın TR bağlam: [Model Seçim Kriterleri: AIC/BIC (jsstr)](https://dergipark.org.tr/tr/pub/jsstr/article/1148498) (exceedance probability TR'de yok)
+
+**Expected model frequency / model likelihood** · Beklenen model frekansı / olabilirliği · kaynaklı
+
+"Olabilirlik" yerleşik, "beklenen model frekansı" şeffaf.
+
+Kaynak: [Model Seçim Kriterleri: AIC, BIC, ICOMP (İstatistik Araştırma Dergisi)](https://dergipark.org.tr/tr/pub/jsstr/article/1148498)
+
+**Bayesian omnibus risk** (BOR) · Bayesçi omnibus risk · karşılık yok
+
+Türev terim, Türkçesi yok. Kısaltmayı koruyorum.
+
+En yakın TR bağlam: [Model Seçim Kriterleri: AIC/BIC (jsstr)](https://dergipark.org.tr/tr/pub/jsstr/article/1148498) (BOR alt-terimi TR'de yok)
+
+**Model evidence** · Model kanıtı · kaynaklı
+
+"Kanıt" ve "olabilirlik" ikisi de yerleşik. Bileşik sorun çıkarmıyor.
+
+Kaynak: [Model Seçim Kriterleri: AIC, BIC, ICOMP (İstatistik Araştırma Dergisi)](https://dergipark.org.tr/tr/pub/jsstr/article/1148498)
+
+**Overfitting** · **Aşırı öğrenme** (aşırı uyum) · kaynaklı
+
+Hâkim karşılık "aşırı öğrenme". "Aşırı uyum" da geçiyor ama daha az. Karşıtı "eksik öğrenme".
+
+Kaynak: [Derin Sinir Ağları ile En İyi Modelin Belirlenmesi (DergiPark)](https://dergipark.org.tr/tr/download/article-file/821607)
+
+**Model space (factorial)** · Model uzayı (faktöriyel) · kaynaklı
+
+Şeffaf.
+
+Kaynak: [Model Seçim Kriterleri: AIC, BIC, ICOMP (İstatistik Araştırma Dergisi)](https://dergipark.org.tr/tr/pub/jsstr/article/1148498)
+
+**Winning model** · Kazanan model · kaynaklı
+
+Şeffaf.
+
+Kaynak: [Model Seçim Kriterleri: AIC, BIC, ICOMP (İstatistik Araştırma Dergisi)](https://dergipark.org.tr/tr/pub/jsstr/article/1148498)
+
+## Görev ve davranışsal ölçümler
+**Beads task** · Boncuk görevi · karşılık yok
+
+Türkçe kaynakta doğrudan geçmiyor. Sonuca atlama bağlamında görev betimleniyor ama adı verilmiyor. İlk geçişte İngilizcesini veriyorum.
+
+Kavram kaynağı (TR): [Perseküsyon sanrılarını açıklamaya yönelik bilişsel modeller (Kriz Dergisi)](https://dergipark.org.tr/en/pub/kriz/issue/41029/495930) (JTC/akıl yürütme bağlamı; görev adı doğrudan geçmiyor)
+
+**Probability estimates (task version)** · Olasılık tahmini (versiyonu) · kaynaklı
+
+Şeffaf.
+
+Kaynak: [Bilişsel Yansıma ve Davranışsal Anomaliler (DergiPark)](https://dergipark.org.tr/en/download/article-file/1169220), olasılıksal akıl yürütme/karar verme
+
+**Draws to decision** · Karara kadar çekiş · karşılık yok
+
+Türkçesi yok. "Karara kadar çekilen boncuk sayısı" diye betimliyorum, çünkü kısa bir karşılık bulamadım.
+
+Kavram kaynağı (TR): [Perseküsyon sanrılarını açıklamaya yönelik bilişsel modeller (Kriz Dergisi)](https://dergipark.org.tr/en/pub/kriz/issue/41029/495930)
+
+**Jumping to conclusions** (JTC) · Sonuca atlama (erken karar) · kaynaklı
+
+Yerleşik. Türkçe psikiyatri kaynaklarında "sonuca atlama" ya da "sonuca atlama yanlılığı" geçiyor.
+
+Kaynak: [Şizofreni Tedavisinde Bilişsel Davranışçı Terapi (Nöropsikiyatri Arşivi 2021;58 Ek1)](https://noropsikiyatriarsivi.com/sayilar/2021/58_ek_1/tr/npa_58_Ek1_61-65_dz.pdf), sonuca atlama/üstbiliş
+
+**Disconfirmatory updating** · Çürütücü güncelleme · karşılık yok
+
+Adams ve Peters-Garety'den gelen bir davranışsal ölçüm, Türkçesi yok. "Çürütücü güncelleme" diyorum.
+
+Kavram kaynağı (TR): [Perseküsyon sanrılarını açıklamaya yönelik bilişsel modeller (Kriz Dergisi)](https://dergipark.org.tr/en/pub/kriz/issue/41029/495930) (kanıta karşı inanç güncelleme/akıl yürütme)
+
+**Initial certainty** · Başlangıç kesinliği · kaynaklı
+
+Şeffaf, ve sonuca atlama literatüründe Türkçe bağlamı var.
+
+Kaynak: [Şizofreni Tedavisinde Bilişsel Davranışçı Terapi (Nöropsikiyatri Arşivi 2021;58 Ek1)](https://noropsikiyatriarsivi.com/sayilar/2021/58_ek_1/tr/npa_58_Ek1_61-65_dz.pdf)
+
+**Final certainty** · Son kesinlik · kaynaklı
+
+Şeffaf.
+
+Kaynak: [Şizofreni Tedavisinde Bilişsel Davranışçı Terapi (Nöropsikiyatri Arşivi 2021;58 Ek1)](https://noropsikiyatriarsivi.com/sayilar/2021/58_ek_1/tr/npa_58_Ek1_61-65_dz.pdf)
+
+**Response stochasticity (behavioral)** · Yanıt değişkenliği · karşılık yok
+
+Türev terim, Türkçesi yok. "Yanıt değişkenliği" diyorum.
+
+## Nörobiyolojik / kuramsal terimler
+**Attractor dynamics / attractor state** · Çekici (attractor) dinamiği / durumu · kaynaklı
+
+Türkçe yapay sinir ağı kaynaklarında "attractor" olduğu gibi kullanılıyor. "Çekici" çevirisi de mümkün ama daha az yerleşik.
+
+Kaynak: [Yapay Zekâ: Alt Dalları ve Uygulama Alanları](https://dergipark.org.tr/en/download/article-file/4317790)
+
+**Attractor network** · Çekici (attractor) ağı · kaynaklı
+
+Aynı durum. Hopfield ağı literatüründe "attractor" korunuyor.
+
+Kaynak: [Yapay Zekâ: Alt Dalları ve Uygulama Alanları](https://dergipark.org.tr/en/download/article-file/4317790)
+
+**Energy landscape** · Enerji yüzeyi · kaynaklı
+
+Türkçe Hopfield kaynakları "enerji yüzeyi" diyor, "manzara" değil. Bunu şaşırarak öğrendim.
+
+Kaynak: [Yapay Zekâ: Alt Dalları ve Uygulama Alanları](https://dergipark.org.tr/en/download/article-file/4317790)
+
+**Basin of attraction** · Çekim havzası · kaynaklı
+
+Yerleşik. Türkçe kaynak açıkça "çekim havzası" diyor.
+
+Kaynak: [Yapay Zekâ: Alt Dalları ve Uygulama Alanları](https://dergipark.org.tr/en/download/article-file/4317790)
+
+**Hopfield network** · Hopfield ağı · kaynaklı
+
+Yerleşik.
+
+Kaynak: [Yapay Zekâ: Alt Dalları ve Uygulama Alanları](https://dergipark.org.tr/en/download/article-file/4317790)
+
+**NMDAR hypofunction** · NMDAR hipofonksiyonu · kaynaklı
+
+Yerleşik. Glutamat ve şizofreni yazılarında "NMDA reseptör hipofonksiyonu" geçiyor.
+
+Kaynak: Özdemir & Özdemir 2016, Glutamat Sistemi ve Şizofreni, [DOI:10.18863/pgy.253445](https://doi.org/10.18863/pgy.253445)
+
+**Excitation-inhibition (E/I) balance** · Uyarım-inhibisyon dengesi · kaynaklı
+
+Yerleşik. Hem "eksitasyon-inhibisyon" hem "uyarım-inhibisyon" kullanılıyor.
+
+Kaynak: Özdemir & Özdemir 2016, Glutamat Sistemi ve Şizofreni, [DOI:10.18863/pgy.253445](https://doi.org/10.18863/pgy.253445)
+
+**Aberrant salience** · Anormal/sapkın **önem atfetme** · kaynaklı
+
+Önce "sapkın belirginlik" önermiştim, salience'ı belirginlik diye
+düşünerek. Tarama bunu desteklemedi: Türkçe kaynakta yerleşik olan "önem
+atfetme". Kendi önerimi bırakmak gerekti, ve bu listede tuttuğum kayıt
+tam olarak bunun için.
+
+"Önem atfetme" hakemli bir Türkçe kaynakta kullanılmış.
+
+Kaynak: Yüksel Ç, Üçok A (2010), Şizofreni hastalarında önem atfetme işlevinde bozukluk, Klinik Psikiyatri Dergisi 13:5-8, [PDF](https://jag.journalagent.com/kpd/pdfs/KPD_13_50_5_8.pdf)
+
+**Sensory attenuation** · Duyusal azaltım · karşılık yok
+
+Yerleşik Türkçe karşılığı yok. Niş bir terim; Türkçe şizofreni kaynakları konuyu bu adla ele almıyor. "Duyusal azaltım" diyorum ve ilk geçişte İngilizcesini veriyorum.
+
+**Corollary discharge / efference copy** · Efferent kopya / corollary discharge · karşılık yok
+
+Yerleşik Türkçesi yok. Türkçe psikiyatride kavram tartışılıyor ama terim ya İngilizce kalıyor ya betimleniyor. İlk geçişte "efferent kopya" deyip İngilizcesini veriyorum.
+
+Kavram kaynağı (TR): [İşitsel Varsanılarda Bilişsel Davranışçı Terapi (DergiPark)](https://dergipark.org.tr/tr/download/article-file/115101); eylem sahipliği/öngörü için [Sense of Agency Ölçeği TR uyarlaması (SoAS-TR)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12832476/)
+
+**Force-matching task** (FMT) · Kuvvet eşleştirme görevi · karşılık yok
+
+Niş, doğrudan Türkçe kaynak yok. "Kuvvet eşleştirme görevi" diyorum, ilk geçişte İngilizcesiyle.
+
+**Self-monitoring / agency** · Öz-izleme / eylemlilik (ajans) · kaynaklı
+
+Agency için "eylemlilik" yerleşik, hakemli bir kaynakta kullanılmış. "Öz-izleme" bileşik.
+
+Kaynak: Atak 2011, Ruh Sağlığı Çalışmalarında Yeni Bir Psikososyal Değişken: Eylemlilik, [DOI:10.5455/cap.20110322](https://doi.org/10.5455/cap.20110322)
+
+---
+
+[← notlar](../notlar.qmd)
 
 ---

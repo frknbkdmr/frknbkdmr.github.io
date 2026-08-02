@@ -1,23 +1,35 @@
-# Public pages may be indexed and used for user-initiated retrieval.
-# Automated collection for model training or general model development
-# is not permitted.
+# This site is meant to be read, by people, search engines and
+# assistants alike. Nothing here is behind a crawl restriction.
 
-Content-Signal: search=yes, ai-input=yes, ai-train=no
+# Content Signals (contentsignals.org). The permission the User-agent
+# rules below already grant, said once in the vocabulary that separates
+# the three uses. Yes to all three, which is what those rules mean.
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 
 User-agent: *
 Allow: /
 
-# Search and user-initiated AI retrieval.
+# Named explicitly so the permission survives a change of default
+# somewhere else.
+User-agent: GPTBot
+Allow: /
+
 User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
-User-agent: Claude-SearchBot
+User-agent: ClaudeBot
 Allow: /
 
 User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Google-Extended
 Allow: /
 
 User-agent: PerplexityBot
@@ -26,32 +38,26 @@ Allow: /
 User-agent: Perplexity-User
 Allow: /
 
-# Model-training and general model-development crawlers.
-User-agent: GPTBot
-Disallow: /
-
-User-agent: ClaudeBot
-Disallow: /
-
-User-agent: Google-Extended
-Disallow: /
-
 User-agent: CCBot
-Disallow: /
+Allow: /
 
 User-agent: Applebot-Extended
-Disallow: /
+Allow: /
 
 User-agent: cohere-ai
-Disallow: /
+Allow: /
 
 User-agent: Meta-ExternalAgent
-Disallow: /
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
 
 User-agent: Bytespider
-Disallow: /
+Allow: /
 
-# Machine-readable versions of the public site.
+# The whole site as markdown, for agents that would rather not parse
+# the HTML. This host cannot negotiate on Accept, so it is a fixed path.
 # https://furkanbekdemir.com/llms.txt
 # https://furkanbekdemir.com/llms-full.txt
 
