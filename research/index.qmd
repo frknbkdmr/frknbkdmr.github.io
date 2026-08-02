@@ -1,5 +1,6 @@
 ---
 title: "Research"
+pagetitle: "Research: belief updating, sensory attenuation and computational psychiatry"
 description-meta: &desc "Belief updating and sensory attenuation in schizophrenia, akathisia as active inference, effort-based decision making in multiple sclerosis, and uncertainty processing in generalized anxiety disorder."
 open-graph:
   description: *desc

@@ -1,5 +1,6 @@
 ---
 title: "Instruments and code"
+pagetitle: "Instruments and code for computational psychiatry research"
 description-meta: &desc "Behavioural paradigms, hardware, and analysis code built for psychiatric research: force-matching devices, beads tasks, and HGF modelling."
 open-graph:
   description: *desc

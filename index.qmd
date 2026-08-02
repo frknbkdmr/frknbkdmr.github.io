@@ -1,6 +1,6 @@
 ---
-pagetitle: "Furkan Bekdemir"
-description: "Psychiatry resident and computational psychiatry researcher at Ondokuz Mayıs University."
+pagetitle: "Computational psychiatry and research instrumentation"
+description: "Psychiatry resident at Ondokuz Mayıs University working in computational psychiatry and computational neuroscience: belief updating, sensory attenuation, and the instruments built to measure them."
 ---
 
 # Furkan Bekdemir
