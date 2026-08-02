@@ -23,4 +23,4 @@ Full text of every page: https://furkanbekdemir.com/llms-full.txt
 - [Building the force-matching rig](https://furkanbekdemir.com/log/force-matching): A development log for the force-matching device: choosing which published lineage to follow, rewriting the calibration tool, and what the calibration run showed.
 - [CV](https://furkanbekdemir.com/cv): Curriculum vitae of Furkan Bekdemir, MD, psychiatry resident and computational psychiatry researcher at Ondokuz Mayıs University, Samsun.
 - [Notlar](https://furkanbekdemir.com/notlar): Hesaplamalı psikiyatri, kestirimsel işlemleme ve klinik akıl yürütme üzerine Türkçe notlar.
-- [Terimler](https://furkanbekdemir.com/notlar/terimler): Hesaplamalı psikiyatri terimlerinin Türkçe karşılıkları, her biri için kaynak durumu ile birlikte. Yetmiş terim, elli ikisi kaynaklı.
+- [Hesaplamalı psikiyatri terimleri](https://furkanbekdemir.com/notlar/terimler): Hesaplamalı psikiyatri ve hesaplamalı sinirbilimden yetmiş terimin Türkçe karşılığı, her biri için kaynak durumuyla: elli ikisinde terimin Türkçe kullanıldığı akademik bir kaynak var, on sekizinde yerleşik karşılık bulunamadı.
