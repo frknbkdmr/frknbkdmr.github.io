@@ -1,6 +1,6 @@
 ---
 title: "Belief updating and sensory attenuation in schizophrenia"
-pagetitle: "Belief updating and sensory attenuation in schizophrenia: a residency thesis"
+pagetitle: "Schizophrenia: belief updating and attenuation"
 description-meta: &desc "Residency thesis testing two accounts of delusion in the same participants: belief revision on too little evidence, and failure to attenuate self-generated sensation."
 open-graph:
   description: *desc

@@ -1,6 +1,6 @@
 ---
 title: "HGF analysis pipeline"
-pagetitle: "HGF analysis pipeline: parameter and model recovery with TAPAS"
+pagetitle: "HGF pipeline: parameter and model recovery"
 description-meta: &desc "Model fitting, parameter and model recovery, and Bayesian model selection with TAPAS. The recovery simulations ran before confirmatory collection and changed which outcomes the study reports."
 open-graph:
   description: *desc

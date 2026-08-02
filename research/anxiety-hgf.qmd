@@ -1,5 +1,6 @@
 ---
 title: "State anxiety and uncertainty processing in generalized anxiety disorder"
+pagetitle: "Uncertainty processing in generalized anxiety"
 description-meta: &desc "A Hierarchical Gaussian Filter study of belief updating in generalized anxiety disorder. Published abstract, Turkish Journal of Psychiatry, 2026."
 open-graph:
   description: *desc

@@ -1,6 +1,6 @@
 ---
 title: "Building the force-matching rig"
-pagetitle: "Building a force-matching rig: a development log"
+pagetitle: "Building a force-matching rig"
 description-meta: &desc "A development log for the force-matching device: choosing which published lineage to follow, rewriting the calibration tool, and what the calibration run showed."
 open-graph:
   description: *desc

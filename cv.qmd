@@ -1,6 +1,6 @@
 ---
 title: "CV"
-pagetitle: "Curriculum vitae: computational psychiatry and research instrumentation"
+pagetitle: "CV: computational psychiatry"
 description-meta: &desc "Curriculum vitae of Furkan Bekdemir, MD, psychiatry resident and computational psychiatry researcher at Ondokuz Mayıs University, Samsun."
 open-graph:
   description: *desc

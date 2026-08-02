@@ -1,6 +1,6 @@
 ---
 title: "GÖRÜNGÜ"
-pagetitle: "GÖRÜNGÜ: optical mark recognition for psychiatric rating scales"
+pagetitle: "GÖRÜNGÜ: optical mark recognition"
 description-meta: &desc "Optical mark recognition and automatic scoring for paper psychiatric assessment forms, so that scale batteries stop being typed in by hand. Python, OpenCV, MIT."
 open-graph:
   description: *desc
