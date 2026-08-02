@@ -22,7 +22,10 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).parent
-SITEMAP = "https://furkanbekdemir.com/sitemap.xml"
+# A hash of every rendered page, written by post-render. The sitemap will not do
+# as a signal: edit a page without adding an address and it comes out
+# byte-identical, so an unfinished deploy would read as a finished one.
+BUILD_ID = "https://furkanbekdemir.com/build-id.txt"
 TIMEOUT_S = 600
 POLL_S = 10
 
@@ -32,42 +35,42 @@ def run(cmd: list[str]) -> None:
     subprocess.run(cmd, cwd=ROOT, check=True)
 
 
-def live_sitemap() -> str | None:
+def live_build_id() -> str | None:
     # A cache-buster, because the CDN will happily serve the previous copy for
     # its full max-age and we would read that as "deploy finished".
-    url = f"{SITEMAP}?cb={int(time.time())}"
+    url = f"{BUILD_ID}?cb={int(time.time())}"
     try:
         with urllib.request.urlopen(url, timeout=15) as r:
-            return r.read().decode("utf-8")
+            return r.read().decode("utf-8").strip()
     except (urllib.error.URLError, TimeoutError):
         return None
 
 
 def wait_for_deploy(expected: str) -> bool:
-    print(f"dagitim bekleniyor (en fazla {TIMEOUT_S // 60} dakika)")
-    deadline = time.time() + TIMEOUT_S
-    while time.time() < deadline:
-        if live_sitemap() == expected:
-            waited = int(TIMEOUT_S - (deadline - time.time()))
-            print(f"  dagitim tamamlandi ({waited} saniye)")
+    print(f"dagitim bekleniyor, build id {expected} (en fazla {TIMEOUT_S // 60} dk)")
+    started = time.time()
+    while time.time() - started < TIMEOUT_S:
+        live = live_build_id()
+        if live == expected:
+            print(f"  dagitim tamamlandi ({int(time.time() - started)} saniye)")
             return True
         time.sleep(POLL_S)
-    print("  ZAMAN ASIMI: yayin gorunmedi, bildirim atlaniyor")
+    print(f"  ZAMAN ASIMI: canlida hala {live_build_id()}, bildirim atlaniyor")
     return False
 
 
 def main() -> int:
     run(["quarto", "render"])
 
-    built = (ROOT / "_site" / "sitemap.xml")
-    if not built.exists():
-        sys.exit("sitemap.xml uretilmedi")
-    expected = built.read_text(encoding="utf-8")
+    stamp_file = ROOT / "_site" / "build-id.txt"
+    if not stamp_file.exists():
+        sys.exit("build-id.txt uretilmedi; post-render calisti mi?")
+    expected = stamp_file.read_text(encoding="utf-8").strip()
 
     run(["quarto", "publish", "gh-pages", "--no-prompt", "--no-render"])
 
     if not wait_for_deploy(expected):
-        print("indexnow.py'yi sonra elle calistir")
+        print("indexnow.py'yi dagitim tamamlaninca elle calistir")
         return 1
     run([sys.executable, str(ROOT / "indexnow.py")])
     return 0
