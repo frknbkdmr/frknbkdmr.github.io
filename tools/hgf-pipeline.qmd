@@ -1,5 +1,6 @@
 ---
 title: "HGF analysis pipeline"
+pagetitle: "HGF analysis pipeline: parameter and model recovery with TAPAS"
 description-meta: &desc "Model fitting, parameter and model recovery, and Bayesian model selection with TAPAS. The recovery simulations ran before confirmatory collection and changed which outcomes the study reports."
 open-graph:
   description: *desc
@@ -43,6 +44,38 @@ the toolbox from the Translational Neuromodeling Unit in Zurich. It takes
 trial-level data of the kind the [beads task](beads-task.qmd) writes, and it is
 the same modelling approach behind the
 [anxiety study](../research/anxiety-hgf.qmd). It is not public yet.
+
+```{=html}
+<!-- Same shape as the beads task: software with no public repository yet, so no
+     codeRepository. isBasedOn names TAPAS, which is the dependency a reader
+     would actually want to know about. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareSourceCode",
+  "@id": "https://furkanbekdemir.com/tools/hgf-pipeline#software",
+  "name": "HGF analysis pipeline",
+  "description": "Model fitting, parameter and model recovery, and Bayesian model selection with TAPAS. The recovery simulations ran before confirmatory collection and changed which outcomes the study reports.",
+  "programmingLanguage": { "@type": "ComputerLanguage", "name": "Python" },
+  "applicationCategory": "Research software",
+  "isBasedOn": {
+    "@type": "SoftwareApplication",
+    "name": "TAPAS",
+    "url": "https://translationalneuromodeling.github.io/tapas/"
+  },
+  "keywords": [
+    "Hierarchical Gaussian Filter",
+    "parameter recovery",
+    "model recovery",
+    "Bayesian model selection",
+    "computational psychiatry",
+    "computational neuroscience"
+  ],
+  "author": { "@id": "https://furkanbekdemir.com/#person" },
+  "url": "https://furkanbekdemir.com/tools/hgf-pipeline"
+}
+</script>
+```
 
 ::: {.k}
 [← all instruments](../tools.qmd)

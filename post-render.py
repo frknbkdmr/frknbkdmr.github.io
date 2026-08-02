@@ -133,6 +133,62 @@ def write_llms_txt(base: str) -> bool:
     return changed
 
 
+# Where each subdirectory's index actually lives. tools/ and log/ both belong
+# under /tools, because the logs are listed there and have no index of their own;
+# a trail has to point at a page that exists, not at the directory it implies.
+SECTIONS = {
+    "research": ("/research/", "Research"),
+    "tools":    ("/tools",     "Instruments and code"),
+    "log":      ("/tools",     "Instruments and code"),
+    "notlar":   ("/notlar",    "Notlar"),
+}
+
+
+def write_breadcrumb(path: Path, base: str) -> bool:
+    """Give subdirectory pages a BreadcrumbList.
+
+    Unlike DefinedTermSet, this one Google does render, as the trail shown under
+    a result instead of the bare URL. The site is three levels deep in places and
+    was publishing none of that structure.
+
+    Only for pages inside a section: the homepage and the root-level pages are
+    their own top level and a one-item trail says nothing.
+    """
+    rel = path.relative_to(OUT).as_posix()
+    if "/" not in rel or rel.endswith("/index.html"):
+        return False
+    section = rel.split("/", 1)[0]
+    if section not in SECTIONS:
+        return False
+
+    text = path.read_text(encoding="utf-8")
+    if '"BreadcrumbList"' in text:
+        return False
+    title = re.search(r"<title>(.*?)</title>", text, re.S)
+    if not title:
+        return False
+    # The site appends " – Furkan Bekdemir"; the trail wants the page's own name.
+    leaf = title.group(1).rsplit("–", 1)[0].strip()
+    sec_url, sec_name = SECTIONS[section]
+
+    block = json.dumps({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Furkan Bekdemir",
+             "item": f"{base}/"},
+            {"@type": "ListItem", "position": 2, "name": sec_name,
+             "item": f"{base}{sec_url}"},
+            {"@type": "ListItem", "position": 3, "name": leaf},
+        ],
+    }, ensure_ascii=False, indent=2)
+
+    path.write_text(
+        text.replace("</head>", f'<script type="application/ld+json">\n{block}\n</script>\n</head>', 1),
+        encoding="utf-8")
+    return True
+
+
 def write_defined_terms(path: Path, base: str) -> int:
     """Describe a glossary page as schema.org DefinedTermSet.
 
@@ -369,7 +425,7 @@ def main() -> None:
     # rglob, not glob: a page in a subdirectory needs a canonical just as much,
     # and would otherwise be skipped without a word.
     pages = sorted(p for p in OUT.rglob("*.html") if "site_libs" not in p.parts)
-    changed, failed, deferred, fixes, scoped, defined = [], [], 0, set(), 0, 0
+    changed, failed, deferred, fixes, scoped, defined, crumbs = [], [], 0, set(), 0, 0, 0
 
     for p in pages:
         text = p.read_text(encoding="utf-8")
@@ -388,6 +444,7 @@ def main() -> None:
         fixes.update(fix_a11y(p))
         scoped += scope_jsonld(p)
         defined += write_defined_terms(p, base)
+        crumbs += write_breadcrumb(p, base)
 
     print(f"canonical: {len(changed)}/{len(pages)} page(s) updated"
           + (f" ({', '.join(changed)})" if changed else ""))
@@ -399,6 +456,8 @@ def main() -> None:
         print(f"json-ld: {scoped} page(s) narrowed to WebPage")
     if defined:
         print(f"json-ld: {defined} term(s) described as DefinedTermSet")
+    if crumbs:
+        print(f"json-ld: {crumbs} page(s) given a breadcrumb trail")
     if normalise_sitemap(base):
         print("sitemap: index.html -> /, duplicates dropped")
     if write_llms_txt(base):

@@ -1,5 +1,6 @@
 ---
 title: "Force-matching device"
+pagetitle: "Force-matching device: a two-condition rig for sensory attenuation"
 description-meta: &desc "A single-channel force-matching rig built in-house for the force-matching task, calibrated against dead weights across the full range the task uses."
 open-graph:
   description: *desc

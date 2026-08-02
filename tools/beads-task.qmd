@@ -1,5 +1,6 @@
 ---
 title: "Beads task"
+pagetitle: "Beads task: probabilistic reasoning with trial-level logging"
 description-meta: &desc "A PsychoPy implementation of the beads task that logs every draw, written so the data can be modelled rather than reduced to draws-to-decision."
 open-graph:
   description: *desc
@@ -31,6 +32,33 @@ collection time, when the reduction cannot be undone.
 
 It feeds the [HGF pipeline](hgf-pipeline.qmd) and runs in the
 [schizophrenia thesis](../research/schizophrenia.qmd). It is not public yet.
+
+```{=html}
+<!-- Software, not a paper. Declared without a codeRepository because there is
+     not a public one yet; naming a private URL would advertise a door that does
+     not open. author points at the Person in head.html. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareSourceCode",
+  "@id": "https://furkanbekdemir.com/tools/beads-task#software",
+  "name": "Beads task",
+  "description": "A PsychoPy implementation of the beads task that logs every draw, written so the data can be modelled rather than reduced to draws-to-decision.",
+  "programmingLanguage": { "@type": "ComputerLanguage", "name": "Python" },
+  "runtimePlatform": "PsychoPy",
+  "applicationCategory": "Research software",
+  "keywords": [
+    "beads task",
+    "jumping to conclusions",
+    "probabilistic reasoning",
+    "computational psychiatry",
+    "PsychoPy"
+  ],
+  "author": { "@id": "https://furkanbekdemir.com/#person" },
+  "url": "https://furkanbekdemir.com/tools/beads-task"
+}
+</script>
+```
 
 ::: {.k}
 [← all instruments](../tools.qmd)
