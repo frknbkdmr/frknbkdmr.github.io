@@ -16,6 +16,9 @@ project:
     # rebuild or audit the thing; a log is the reasoning and the wrong turns,
     # which would dilute a record if the two shared a page.
     - "log/*.qmd"
+    # Same arrangement as tools: notlar.qmd stays at the root so /notlar does not
+    # move, and its children sit under notlar/.
+    - "notlar/*.qmd"
   resources:
     # Without CNAME in this list, publishing drops the file and GitHub forgets
     # the custom domain on the next deploy.

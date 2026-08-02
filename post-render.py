@@ -74,7 +74,7 @@ def qmd_to_markdown(src: str) -> tuple[str, str, str]:
     return title, desc, body
 
 
-def write_llms_txt(base: str) -> bool:
+def write_llms_txt(base: str, hidden: set[str] = frozenset()) -> bool:
     """Publish llms.txt and llms-full.txt.
 
     One fetch of llms-full.txt costs an agent a few kilobytes; reading the five
@@ -93,7 +93,7 @@ def write_llms_txt(base: str) -> bool:
     sources += under("research")
     sources += [ROOT / "tools.qmd"] + under("tools")
     sources += under("log")
-    sources += [ROOT / "cv.qmd", ROOT / "notlar.qmd"]
+    sources += [ROOT / "cv.qmd", ROOT / "notlar.qmd"] + under("notlar")
     sources = [p for p in sources if p.exists()]
 
     pages = []
@@ -101,6 +101,10 @@ def write_llms_txt(base: str) -> bool:
         rel = p.relative_to(ROOT).with_suffix("").as_posix()
         path = "/" if rel == "index" else (
             f"/{rel[: -len('/index')]}/" if rel.endswith("/index") else f"/{rel}")
+        # An agent reading llms.txt is exactly the reader a noindex page is
+        # asking to be left out of, so the same flag governs both surfaces.
+        if f"{base}{path}" in hidden:
+            continue
         title, desc, body = qmd_to_markdown(p.read_text(encoding="utf-8"))
         pages.append((title or p.stem, title or p.stem, desc, path, body))
 
@@ -258,7 +262,7 @@ def scope_jsonld(path: Path) -> bool:
     return True
 
 
-def normalise_sitemap(base: str) -> bool:
+def normalise_sitemap(base: str, hidden: set[str] = frozenset()) -> bool:
     sm = OUT / "sitemap.xml"
     if not sm.exists():
         return False
@@ -273,7 +277,7 @@ def normalise_sitemap(base: str) -> bool:
     seen, kept = set(), []
     for block in re.findall(r"[ \t]*<url>.*?</url>\n?", fixed, re.S):
         loc = re.search(r"<loc>(.*?)</loc>", block, re.S)
-        if loc and loc.group(1) in seen:
+        if loc and (loc.group(1) in seen or loc.group(1) in hidden):
             continue
         if loc:
             seen.add(loc.group(1))
@@ -347,11 +351,17 @@ def main() -> None:
     # and would otherwise be skipped without a word.
     pages = sorted(p for p in OUT.rglob("*.html") if "site_libs" not in p.parts)
     changed, failed, deferred, fixes, scoped = [], [], 0, set(), 0
+    # A page that asks not to be indexed must not be advertised either, or the
+    # sitemap says "index this" while the page says the opposite. Collected here
+    # because this loop already reads every page.
+    hidden: set[str] = set()
 
     for p in pages:
         text = p.read_text(encoding="utf-8")
         if not is_quarto_page(text):
             continue
+        if is_doorway(text):
+            hidden.add(canonical_for(p, base))
         # Only the canonical is a doorway's own business. A noindex page still
         # needs its schema narrowed, or the 404 declares itself the profile
         # page, and it still needs its scripts deferred and its labels fixed.
@@ -373,11 +383,12 @@ def main() -> None:
         print("a11y: " + ", ".join(sorted(fixes)))
     if scoped:
         print(f"json-ld: {scoped} page(s) narrowed to WebPage")
-    if normalise_sitemap(base):
-        print("sitemap: index.html -> /, duplicates dropped")
+    if normalise_sitemap(base, hidden):
+        print("sitemap: index.html -> /, duplicates dropped"
+              + (f", {len(hidden)} noindex page(s) withheld" if hidden else ""))
     if write_robots(base):
         print(f"robots.txt: written, {len(AI_AGENTS)} assistants named")
-    if write_llms_txt(base):
+    if write_llms_txt(base, hidden):
         print("llms.txt + llms-full.txt: written")
 
     index = OUT / "search.json"
