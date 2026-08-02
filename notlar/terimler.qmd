@@ -1,6 +1,6 @@
 ---
 title: "Hesaplamalı psikiyatri terimleri"
-pagetitle: "Hesaplamalı psikiyatri ve sinirbilim terimlerinin Türkçe karşılıkları"
+pagetitle: "Hesaplamalı psikiyatri terimleri sözlüğü"
 lang: tr
 description-meta: &desc "Hesaplamalı psikiyatri ve hesaplamalı sinirbilimden yetmiş terimin Türkçe karşılığı, her biri için kaynak durumuyla: elli ikisinde terimin Türkçe kullanıldığı akademik bir kaynak var, on sekizinde yerleşik karşılık bulunamadı."
 open-graph:

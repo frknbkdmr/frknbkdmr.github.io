@@ -1,5 +1,6 @@
 ---
 title: "Personality, impulsivity and gambling-related cognitions in gambling disorder"
+pagetitle: "Cognitions and impulsivity in gambling disorder"
 description-meta: &desc "A clinical study of personality traits, impulsivity and gambling-related cognitions in patients with gambling disorder. Published abstract, Turkish Journal of Psychiatry, 2025."
 open-graph:
   description: *desc
