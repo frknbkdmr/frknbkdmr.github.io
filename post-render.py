@@ -17,6 +17,7 @@ Idempotent: re-running over an already-processed _site changes nothing.
 Exits non-zero if a page could not be given a canonical, so a broken build
 fails loudly instead of publishing quietly incomplete pages.
 """
+import hashlib
 import json
 import re
 import sys
@@ -256,6 +257,27 @@ def write_breadcrumb(path: Path, base: str) -> bool:
         text.replace("</head>", f'<script type="application/ld+json">\n{block}\n</script>\n</head>', 1),
         encoding="utf-8")
     return True
+
+
+def write_build_id() -> str:
+    """Publish a stamp that changes whenever any page's content changes.
+
+    publish.py waits for this to appear before telling IndexNow anything, and it
+    needs a signal that moves on every build. The sitemap does not: edit a page
+    without adding an address and it is byte-identical, so a deploy that had not
+    landed yet would read as finished.
+
+    Hashing the rendered HTML rather than the sources, because that is what the
+    deploy actually serves.
+    """
+    h = hashlib.sha256()
+    for p in sorted(OUT.rglob("*.html")):
+        if "site_libs" in p.parts:
+            continue
+        h.update(p.read_bytes())
+    stamp = h.hexdigest()[:16]
+    (OUT / "build-id.txt").write_text(stamp + "\n", encoding="utf-8", newline="\n")
+    return stamp
 
 
 def write_defined_terms(path: Path, base: str) -> int:
@@ -535,6 +557,8 @@ def main() -> None:
         print(f"redirects: {moved} retired address(es) still resolve")
     if normalise_sitemap(base):
         print("sitemap: index.html -> /, duplicates dropped")
+    stamp = write_build_id()
+    print(f"build id: {stamp}")
     if write_llms_txt(base):
         print("llms.txt + llms-full.txt: written")
 
