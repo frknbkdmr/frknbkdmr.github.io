@@ -27,7 +27,7 @@ action rather than in the motor system itself.
 {
   "@context": "https://schema.org",
   "@type": "ResearchProject",
-  "@id": "https://furkanbekdemir.com/research/akathisia#project",
+  "@id": "https://furkanbekdemir.com/research/akathisia-active-inference#project",
   "name": "Akathisia as active inference",
   "description": "A theoretical account of akathisia asking whether the disorder sits in how bodily prediction errors are turned into action rather than in the motor system itself. In design; a concept note is in preparation.",
   "parentOrganization": {
@@ -42,7 +42,7 @@ action rather than in the motor system itself.
     "Predictive processing",
     "Antipsychotic adverse effects"
   ],
-  "url": "https://furkanbekdemir.com/research/akathisia"
+  "url": "https://furkanbekdemir.com/research/akathisia-active-inference"
 }
 </script>
 ```

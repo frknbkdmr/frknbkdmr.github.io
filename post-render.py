@@ -162,6 +162,45 @@ UNUSED_ASSETS = (
 )
 
 
+# Addresses that were published and then renamed. They stay reachable forever:
+# an address that has been out in the world once cannot 404 later, and a static
+# host has no server-side redirect, so the redirect has to be a page.
+#
+# Renamed 2026-08-03. The originals were bare topic names, which would collide
+# with the second study on the same topic; every research address now names the
+# question rather than the illness.
+REDIRECTS = {
+    "research/schizophrenia.html": "/research/belief-updating-schizophrenia",
+    "research/akathisia.html":     "/research/akathisia-active-inference",
+    "research/gambling.html":      "/research/gambling-cognitions",
+}
+
+
+def write_redirects(base: str) -> int:
+    """Leave a forwarding page at each retired address."""
+    written = 0
+    for old, new in REDIRECTS.items():
+        path = OUT / old
+        if path.exists() and "http-equiv" not in path.read_text(encoding="utf-8"):
+            continue                      # a real page lives here; never clobber it
+        path.parent.mkdir(parents=True, exist_ok=True)
+        # noindex so post-render leaves its canonical alone and the wrapper keeps
+        # it out of the sitemap and both LLM indexes. The canonical still points
+        # at the new address, which is what tells a crawler the two are one page.
+        path.write_text(
+            "<!DOCTYPE html>\n"
+            '<html lang="en"><head><meta charset="utf-8">\n'
+            f'<link rel="canonical" href="{base}{new}">\n'
+            '<meta name="robots" content="noindex, follow">\n'
+            f'<meta http-equiv="refresh" content="0; url={new}">\n'
+            "<title>Moved</title></head>\n"
+            f'<body><p>This page is now at <a href="{new}">{base}{new}</a>.</p></body>\n'
+            "</html>\n",
+            encoding="utf-8", newline="\n")
+        written += 1
+    return written
+
+
 def strip_unused_assets(path: Path) -> int:
     """Drop the stylesheets and scripts nothing on this site uses."""
     text = original = path.read_text(encoding="utf-8")
@@ -491,6 +530,9 @@ def main() -> None:
         print(f"json-ld: {crumbs} page(s) given a breadcrumb trail")
     if stripped:
         print(f"assets: {stripped} unused reference(s) removed")
+    moved = write_redirects(base)
+    if moved:
+        print(f"redirects: {moved} retired address(es) still resolve")
     if normalise_sitemap(base):
         print("sitemap: index.html -> /, duplicates dropped")
     if write_llms_txt(base):

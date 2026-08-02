@@ -20,7 +20,7 @@ believes against what it is currently being told.
 ::: {.meta}
 Residency thesis &middot; BAP04-B-2026-6538 &middot; [in preparation]{.status .pending}
 :::
-### [Belief updating and sensory attenuation in schizophrenia](schizophrenia.qmd){.title}
+### [Belief updating and sensory attenuation in schizophrenia](belief-updating-schizophrenia.qmd){.title}
 
 Whether delusions track a failure of belief revision, a failure to attenuate
 self-generated sensation, or both. A beads task and a force-matching task in
@@ -31,7 +31,7 @@ the same people.
 ::: {.meta}
 Theory &middot; [in design]{.status .pending}
 :::
-### [Akathisia as active inference](akathisia.qmd){.title}
+### [Akathisia as active inference](akathisia-active-inference.qmd){.title}
 
 Akathisia drives movement that rarely settles it. Active inference offers an
 account of why.
@@ -63,7 +63,7 @@ generalized anxiety disorder.
 ::: {.meta}
 2025 &middot; Turkish Journal of Psychiatry &middot; [presented]{.status .done}
 :::
-### [Personality, impulsivity and gambling-related cognitions in gambling disorder](gambling.qmd){.title}
+### [Personality, impulsivity and gambling-related cognitions in gambling disorder](gambling-cognitions.qmd){.title}
 
 Forty-three patients in treatment. Age of onset tracked what people expected
 from gambling and how they planned. A clinical study, apart from the

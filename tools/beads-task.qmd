@@ -31,7 +31,7 @@ implementation is not clever. What it does is refuse to reduce the data at
 collection time, when the reduction cannot be undone.
 
 It feeds the [HGF pipeline](hgf-pipeline.qmd) and runs in the
-[schizophrenia thesis](../research/schizophrenia.qmd). It is not public yet.
+[schizophrenia thesis](../research/belief-updating-schizophrenia.qmd). It is not public yet.
 
 ```{=html}
 <!-- Software, not a paper. Declared without a codeRepository because there is

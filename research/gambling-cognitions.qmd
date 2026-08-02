@@ -80,7 +80,7 @@ no method with the computational work on the other research pages.
     "Cognitive distortions",
     "Personality"
   ],
-  "url": "https://furkanbekdemir.com/research/gambling"
+  "url": "https://furkanbekdemir.com/research/gambling-cognitions"
 }
 </script>
 ```
