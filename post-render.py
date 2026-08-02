@@ -286,56 +286,12 @@ def normalise_sitemap(base: str) -> bool:
     return True
 
 
-# Assistants and answer engines that read the open web. Quarto writes a
-# robots.txt containing only a Sitemap line, which permits everything by
-# default. Silence is not the same as consent, and a default that changes later
-# would change the answer. Naming them says the permission was chosen.
-AI_AGENTS = [
-    "GPTBot", "OAI-SearchBot", "ChatGPT-User",          # OpenAI
-    "ClaudeBot", "Claude-User", "Claude-SearchBot",     # Anthropic
-    "Google-Extended",                                  # Google, AI products
-    "PerplexityBot", "Perplexity-User",
-    "CCBot",                                            # Common Crawl
-    "Applebot-Extended",
-    "cohere-ai", "Meta-ExternalAgent", "Amazonbot", "Bytespider",
-]
-
-
-def write_robots(base: str) -> bool:
-    """Replace Quarto's robots.txt with one that says yes on purpose."""
-    lines = [
-        "# This site is meant to be read, by people, search engines and",
-        "# assistants alike. Nothing here is behind a crawl restriction.",
-        "",
-        "# Content Signals (contentsignals.org). The permission the User-agent",
-        "# rules below already grant, said once in the vocabulary that separates",
-        "# the three uses. Yes to all three, which is what those rules mean.",
-        "Content-Signal: search=yes, ai-input=yes, ai-train=yes",
-        "",
-        "User-agent: *",
-        "Allow: /",
-        "",
-        "# Named explicitly so the permission survives a change of default",
-        "# somewhere else.",
-    ]
-    for agent in AI_AGENTS:
-        lines += [f"User-agent: {agent}", "Allow: /", ""]
-    lines += [
-        "# The whole site as markdown, for agents that would rather not parse",
-        "# the HTML. This host cannot negotiate on Accept, so it is a fixed path.",
-        f"# {base}/llms.txt",
-        f"# {base}/llms-full.txt",
-        "",
-        f"Sitemap: {base}/sitemap.xml",
-        "",
-    ]
-
-    text = "\n".join(lines)
-    path = OUT / "robots.txt"
-    if path.exists() and path.read_text(encoding="utf-8") == text:
-        return False
-    path.write_text(text, encoding="utf-8", newline="\n")
-    return True
+# robots.txt is written by site-post-render.py, which runs this file and then
+# applies the crawler policy. There used to be a second writer here, granting
+# ai-train=yes and allowing every training crawler. It was overwritten moments
+# later by the opposite policy, so the published file was right, but only
+# because of the order the two ran in. One writer, and it is the one that
+# decides.
 
 
 def main() -> None:
@@ -375,8 +331,6 @@ def main() -> None:
         print(f"json-ld: {scoped} page(s) narrowed to WebPage")
     if normalise_sitemap(base):
         print("sitemap: index.html -> /, duplicates dropped")
-    if write_robots(base):
-        print(f"robots.txt: written, {len(AI_AGENTS)} assistants named")
     if write_llms_txt(base):
         print("llms.txt + llms-full.txt: written")
 

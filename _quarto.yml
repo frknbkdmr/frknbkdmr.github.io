@@ -50,11 +50,10 @@ website:
         href: research/index.qmd
       - text: "Instruments &amp; code"
         href: tools.qmd
-      # Notlar is off the navbar until one of its notes is written. The page
-      # still renders and its address still resolves, so nothing that links to
-      # it breaks; it just no longer spends one of four navbar slots promising
-      # three articles that do not exist yet. Restore this entry the day the
-      # first one lands.
+      # Back on the navbar. It came off while the page promised three articles
+      # and had none; the glossary is the first thing there that exists.
+      - text: "Notlar"
+        href: notlar.qmd
       - text: "CV"
         href: cv.qmd
   page-footer:
