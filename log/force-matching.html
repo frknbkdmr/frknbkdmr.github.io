@@ -137,6 +137,31 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:image:alt" content="A force-matching rig on a desk. A metal power supply unit sits inside a clear acrylic enclosure on a transparent base plate, wired in red and yellow to a small controller board behind it. A black cylindrical motor is held in a white 3D-printed mount, with a curved metal lever arm rising from it. A slider potentiometer with a yellow thumb tab lies loose on the plate. Mains cables run off the desk, and books and a block of grey packing foam sit behind the rig.">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://furkanbekdemir.com/log/force-matching">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Furkan Bekdemir",
+      "item": "https://furkanbekdemir.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Instruments and code",
+      "item": "https://furkanbekdemir.com/tools"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Building the force-matching rig"
+    }
+  ]
+}
+</script>
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -245,6 +270,39 @@ ul.task-list li input[type="checkbox"] {
 <p>The number I did not expect was hysteresis. I had measured rising and falling loads as separate sequences instead of pooling them, on the argument that direction-dependent error is real and pooling is how you hide it from yourself. It came to 0.0498 N against a 0.05 N ceiling. It passes by 0.24 mN. Had I pooled the sequences the way the older tool did, that would have vanished into the RMSE and I would have recorded a comfortably clean run.</p>
 <p>Seven criteria measured, seven passed. The eighth is drift, and I could not measure it at all: drift is a comparison between two calibrations and this is the first one. So the honest statement is not that the instrument passed eight checks. It is that it passed the seven that a single session can produce, and that this record is now the reference the next session gets compared against.</p>
 <p>Also settled the contact pad. Earlier runs had no silicone pad, then had one, then briefly did not again. Since the pad changes what the finger feels, none of that engineering data can go in the analysis pool, and the confirmatory collection runs on the fixed configuration with the pad. That decision costs nothing now and would have cost the study later.</p>
+</section>
+<section id="august" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="august">1 August</h2>
+<p>An outside audit of the rig flagged the slider calibration as critical, and it was right to. The calibration file holds seven points entered by hand, and their spacing implies the potentiometer is about seven times more sensitive at its two ends than in the middle. Fitted as a straight line the slider gives a slope of 3.80 N per unit travel; fitted piecewise it gives 6.03. Both fits are excellent by R², which is the trap: a curve through seven wrong points fits those seven points beautifully.</p>
+<p>The number that settles it is the span. The rig’s full travel is nominally 3.8 N, and the piecewise slope exceeds that. A mapping cannot deliver more force than the instrument has, so the seven points are most likely mismeasured rather than revealing a real nonlinearity.</p>
+<p>Then the part I did not expect. This does not bias the outcome measure, and the reason is the closed loop. The dependent variable is not the force the slider commands, it is the force the transducer records over the 2.5 to 3.0 second window. The participant feels the force on their finger and moves the slider until it matches. A monotonic error in the mapping therefore moves where their thumb ends up, not how hard the motor pushes. Expressed against the linear command the delivered-minus-commanded difference is 0.065 N; against the piecewise one it is 0.270 N, which is the wrong mapping showing itself in the residual rather than in the measurement.</p>
+<p>Three independent calculations agreed on the coefficients, one of them run by a separate tool that did not see mine. That is the part worth keeping: I did not find this, and I would not have gone looking.</p>
+<p>What survives is narrower and I want it written down rather than filed away. The offset cancels in a group comparison only if it is the same offset in both groups. Slowing, rigidity, medication and grip differ between patients and controls, and whether any of those interact with the slider mapping has not been measured. So the study continues, the finding is logged as a manageable risk rather than a closed one, and the test that would close it is specified in advance: a blind, randomised, within-subject A/B between the two mappings. If that turns up a mapping-by-group interaction the classification rises to critical and the versions get separated. If it is never run, the limitation goes in the thesis in these words.</p>
+<!-- A dated log, so Article rather than the generic WebPage. datePublished is
+     the first entry, dateModified the last; both are stated in the page itself,
+     which is the only reason they can be claimed here. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://furkanbekdemir.com/log/force-matching#article",
+  "headline": "Building the force-matching rig",
+  "description": "A development log for the force-matching device: choosing which published lineage to follow, rewriting the calibration tool, and what the calibration run showed.",
+  "datePublished": "2026-07-19",
+  "dateModified": "2026-08-01",
+  "inLanguage": "en",
+  "about": [
+    "Force-matching task",
+    "Sensory attenuation",
+    "Research instrumentation",
+    "Calibration",
+    "Computational psychiatry"
+  ],
+  "author": { "@id": "https://furkanbekdemir.com/#person" },
+  "publisher": { "@id": "https://furkanbekdemir.com/#person" },
+  "url": "https://furkanbekdemir.com/log/force-matching"
+}
+</script>
 <div class="k">
 <p><a href="../tools/force-matching.html">← the device</a> · <a href="../tools.html">all instruments</a></p>
 </div>
