@@ -1,7 +1,7 @@
 ---
 title: "Notlar"
 pagetitle: "Hesaplamalı psikiyatri üzerine Türkçe notlar"
-description-meta: &desc "Hesaplamalı psikiyatri, kestirimsel işlemleme ve klinik akıl yürütme üzerine Türkçe notlar."
+description-meta: &desc "Hesaplamalı psikiyatri, hesaplamalı sinirbilim ve kestirimsel işlemleme üzerine Türkçe notlar. Yetmiş terimlik bir Türkçe karşılık sözlüğü ve klinik okura yazılmış giriş yazıları."
 lang: tr
 open-graph:
   description: *desc

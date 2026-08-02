@@ -284,6 +284,13 @@ figure:has(img.photo) figcaption {
   font-size: .74rem;
   color: $ink-soft;
 }
+/* The four profile links sat 16px tall with no gap between them, which on a
+   phone is four adjacent targets and a good chance of hitting the wrong one.
+   Padding rather than a larger font: the tap area grows, the type does not. */
+.nav-footer .nav-link {
+  padding-top: .45rem;
+  padding-bottom: .45rem;
+}
 
 /* The rules above and below the page run full bleed, but their contents track
    the body measure, so header, text and footer read as one column.
