@@ -19,7 +19,7 @@ finger, once by pressing directly and once by moving a slider that sets the
 force the motor applies for them. People reproduce it accurately through the
 slider and overshoot when they press themselves. The size of that overshoot is
 the measure, and it is what the
-[schizophrenia thesis](../research/schizophrenia.qmd) uses to ask whether
+[schizophrenia thesis](../research/belief-updating-schizophrenia.qmd) uses to ask whether
 self-generated sensation is attenuated the way it should be.
 
 A trial runs in three phases on one finger. The motor presents the target force

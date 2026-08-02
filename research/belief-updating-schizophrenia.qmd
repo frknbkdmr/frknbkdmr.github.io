@@ -50,7 +50,7 @@ building the instrument first.
 {
   "@context": "https://schema.org",
   "@type": "ResearchProject",
-  "@id": "https://furkanbekdemir.com/research/schizophrenia#project",
+  "@id": "https://furkanbekdemir.com/research/belief-updating-schizophrenia#project",
   "name": "Belief updating and sensory attenuation in schizophrenia",
   "description": "Residency thesis testing two accounts of delusion in the same participants: belief revision on too little evidence, and failure to attenuate self-generated sensation. A beads task modelled with the Hierarchical Gaussian Filter and a force-matching task on a purpose-built device.",
   "identifier": {
@@ -78,7 +78,7 @@ building the instrument first.
     "Beads task",
     "Force-matching task"
   ],
-  "url": "https://furkanbekdemir.com/research/schizophrenia"
+  "url": "https://furkanbekdemir.com/research/belief-updating-schizophrenia"
 }
 </script>
 ```
