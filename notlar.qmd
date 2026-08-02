@@ -6,17 +6,25 @@ open-graph:
   description: *desc
 twitter-card:
   description: *desc
-format:
-  html:
-    include-in-header:
-      text: |
-        <meta name="robots" content="noindex, follow">
 ---
 
 ::: {.lede}
 Hesaplamalı psikiyatri üzerine, klinik okura yazılmış kapsamlı bir Türkçe
 kaynağa rastlamadım. Terimlerin karşılığı da oturmuş değil. Buradaki notlar o
 boşluğu doldurma denemesi.
+:::
+
+## Yazılanlar {.k-head}
+
+::: {.entry}
+::: {.meta}
+70 terim &middot; 52'si kaynaklı &middot; [yayında]{.status .done}
+:::
+### [Terimler](notlar/terimler.qmd){.title}
+
+Hesaplamalı psikiyatri terimlerinin Türkçe karşılıkları, ve her biri için o
+karşılığın gerçekten yerleşik olup olmadığı. On sekizinde yerleşik bir karşılık
+bulamadım, ve listenin asıl işi bunu yazmak.
 :::
 
 ## Planlanan yazılar {.k-head}
@@ -43,8 +51,3 @@ Akatizinin öznel ve nesnel bileşenlerinin neden ayrışabildiği, ve hareketin
 çoğu zaman huzursuzluğu dindirmemesi.
 :::
 
----
-
-::: {.k}
-terimler için önerilen karşılıklar burada toplanacak
-:::

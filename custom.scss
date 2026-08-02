@@ -110,6 +110,46 @@ h3 { font-size: 1.04rem; margin-top: 2rem; }
   .t-band  { animation-name: fade; }
 }
 
+/* ---- Glossary terms ------------------------------------------------ */
+
+/* Seventy entries, so the separator is a rule rather than the whitespace an
+   .entry uses: at this density blank space alone stops reading as a boundary.
+   Not a table. The source is one, but two of its columns run to several
+   sentences with links, which no 680px measure can hold and no phone can. */
+.term {
+  padding: 1.15rem 0;
+  border-bottom: 1px solid $rule;
+}
+.term:first-of-type { border-top: 1px solid $rule; }
+.term > p { margin: 0; }
+.term > p + p {
+  margin-top: .5rem;
+  font-size: .88rem;
+  color: $ink-soft;
+}
+.term .status { margin-left: .1rem; }
+
+/* My own reading of the term, as against what the search found. Ruled off on
+   the left because the two are different kinds of claim and a reader has to be
+   able to tell which one they are looking at. */
+.mine {
+  margin: .7rem 0 .1rem;
+  padding-left: .85rem;
+  border-left: 2px solid rgba($signal, .35);
+}
+.mine p { margin: 0; font-size: .92rem; }
+.mine p + p { margin-top: .4rem; }
+
+/* The citation always gets its own line. Run into the reasoning it reads as one
+   sentence, and the reader cannot see where the evidence starts. */
+.src {
+  margin-top: .5rem;
+  font-family: $font-family-monospace;
+  font-size: .72rem;
+  line-height: 1.5;
+}
+.src p { margin: 0; color: $ink-soft; }
+
 /* ---- Signal diagrams ----------------------------------------------- */
 
 /* Same reasoning as the hero trace: inline SVG, so there is no library and no
@@ -192,6 +232,8 @@ figure:has(img.photo) figcaption {
 .status {
   font-family: $font-family-monospace;
   font-size: .68rem;
+  /* An indicator broken across two lines stops reading as one. */
+  white-space: nowrap;
   text-transform: uppercase;
   letter-spacing: .07em;
   border: 1px solid $rule;
