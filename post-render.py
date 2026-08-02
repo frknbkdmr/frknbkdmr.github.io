@@ -144,6 +144,36 @@ SECTIONS = {
 }
 
 
+# Quarto ships these on every page whether the feature is used or not. Measured
+# on this site: zero icons, zero code blocks, zero tabsets, and no footnotes or
+# cross-references, which are the only things that ever call tippy. The three
+# stylesheets are render-blocking, so they delay first paint for nothing.
+#
+# clipboard.min.js stays. Quarto's inline script calls `new window.ClipboardJS`
+# unconditionally, so removing it throws before the code that opens external
+# links in a new window.
+UNUSED_ASSETS = (
+    "bootstrap-icons.css",              # 97 KB, no icon is used anywhere
+    "quarto-syntax-highlighting",       # no code blocks
+    "tippy.css",                        # no tooltips
+    "tippy.umd.min.js",
+    "popper.min.js",                    # only there for tippy
+    "tabsets/tabsets.js",               # no tabsets
+)
+
+
+def strip_unused_assets(path: Path) -> int:
+    """Drop the stylesheets and scripts nothing on this site uses."""
+    text = original = path.read_text(encoding="utf-8")
+    for name in UNUSED_ASSETS:
+        text = re.sub(rf'[ \t]*<link[^>]*{re.escape(name)}[^>]*>\n?', "", text)
+        text = re.sub(rf'[ \t]*<script[^>]*{re.escape(name)}[^>]*>\s*</script>\n?', "", text)
+    if text == original:
+        return 0
+    path.write_text(text, encoding="utf-8")
+    return sum(1 for n in UNUSED_ASSETS if n in original and n not in text)
+
+
 def write_breadcrumb(path: Path, base: str) -> bool:
     """Give subdirectory pages a BreadcrumbList.
 
@@ -425,7 +455,7 @@ def main() -> None:
     # rglob, not glob: a page in a subdirectory needs a canonical just as much,
     # and would otherwise be skipped without a word.
     pages = sorted(p for p in OUT.rglob("*.html") if "site_libs" not in p.parts)
-    changed, failed, deferred, fixes, scoped, defined, crumbs = [], [], 0, set(), 0, 0, 0
+    changed, failed, deferred, fixes, scoped, defined, crumbs, stripped = [], [], 0, set(), 0, 0, 0, 0
 
     for p in pages:
         text = p.read_text(encoding="utf-8")
@@ -445,6 +475,7 @@ def main() -> None:
         scoped += scope_jsonld(p)
         defined += write_defined_terms(p, base)
         crumbs += write_breadcrumb(p, base)
+        stripped += strip_unused_assets(p)
 
     print(f"canonical: {len(changed)}/{len(pages)} page(s) updated"
           + (f" ({', '.join(changed)})" if changed else ""))
@@ -458,6 +489,8 @@ def main() -> None:
         print(f"json-ld: {defined} term(s) described as DefinedTermSet")
     if crumbs:
         print(f"json-ld: {crumbs} page(s) given a breadcrumb trail")
+    if stripped:
+        print(f"assets: {stripped} unused reference(s) removed")
     if normalise_sitemap(base):
         print("sitemap: index.html -> /, duplicates dropped")
     if write_llms_txt(base):
