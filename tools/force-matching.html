@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A two-channel force transducer rig built in-house for the force-matching task, calibrated against dead weights across the full range the task uses.">
+<meta name="description" content="A single-channel force-matching rig built in-house for the force-matching task, calibrated against dead weights across the full range the task uses.">
 
 <title>Force-matching device – Furkan Bekdemir</title>
 <style>
@@ -127,12 +127,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="Force-matching device – Furkan Bekdemir">
-<meta property="og:description" content="A two-channel force transducer rig built in-house for the force-matching task, calibrated against dead weights across the full range the task uses.">
-<meta property="og:image" content="https://furkanbekdemir.com/tools/og-image.png">
+<meta property="og:description" content="A single-channel force-matching rig built in-house for the force-matching task, calibrated against dead weights across the full range the task uses.">
+<meta property="og:image" content="https://furkanbekdemir.com/og-image.png">
 <meta property="og:site_name" content="Furkan Bekdemir">
 <meta name="twitter:title" content="Force-matching device – Furkan Bekdemir">
-<meta name="twitter:description" content="A two-channel force transducer rig built in-house for the force-matching task, calibrated against dead weights across the full range the task uses.">
-<meta name="twitter:image" content="https://furkanbekdemir.com/tools/og-image.png">
+<meta name="twitter:description" content="A single-channel force-matching rig built in-house for the force-matching task, calibrated against dead weights across the full range the task uses.">
+<meta name="twitter:image" content="https://furkanbekdemir.com/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://furkanbekdemir.com/tools/force-matching">
 </head>
@@ -207,7 +207,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p>The force-matching task asks someone to reproduce a force applied to their own finger, once by pressing directly and once by moving a slider that sets the force the motor applies for them. People reproduce it accurately through the slider and overshoot when they press themselves. The size of that overshoot is the measure, and it is what the <a href="../research/schizophrenia.html">schizophrenia thesis</a> uses to ask whether self-generated sensation is attenuated the way it should be.</p>
 <p>A trial runs in three phases on one finger. The motor presents the target force for three seconds, the force is removed for two, and then the participant reproduces it over four while the same transducer records. The measurement is the mean over the window from 2.5 to 3.0 seconds into that last phase, which is McNaughton’s window taken unchanged.</p>
-<p>So the rig needs one force channel that can both deliver a commanded force and measure a produced one, and it needs to do that identically in both conditions, because the comparison between them is the entire experiment. It was designed and machined in-house with my brother Anıl Bekdemir, a mechanical engineer, and the acquisition software is mine.</p>
+<p>So the rig needs one force channel that can both deliver a commanded force and measure a produced one, and it needs to do that identically in both conditions, because the comparison between them is the entire experiment. It was designed and machined in-house with my brother Anıl Bekdemir, a mechanical engineer. The experimental task, calibration, quality-control and analysis software were developed for this study. The hardware bridge descends from earlier Maxon/McNaughton control software and is not included in the planned public release.</p>
 <p>It was built because there is nothing to buy. No manufacturer sells a force-matching rig: the paradigm lives in a few labs, each of which made its own. So the choice was not between building and buying. It was between building and not running the experiment.</p>
 <!-- Components and directions taken from the architecture document, not
      inferred: HW233 and FS2030 are inputs to the drive, RE50 is its output,
