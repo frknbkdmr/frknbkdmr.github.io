@@ -6,7 +6,7 @@ Source: https://furkanbekdemir.com  ·  ORCID: https://orcid.org/0000-0002-7236-
 
 ---
 
-# Computational psychiatry and research instrumentation
+# Computational psychiatry and instrumentation
 
 URL: https://furkanbekdemir.com/
 

@@ -8,7 +8,7 @@ Full text of every page: https://furkanbekdemir.com/llms-full.txt
 
 ## Pages
 
-- [Computational psychiatry and research instrumentation](https://furkanbekdemir.com/): Psychiatry resident at Ondokuz Mayıs University working in computational psychiatry and computational neuroscience: belief updating, sensory attenuation, and the instruments built to measure them.
+- [Computational psychiatry and instrumentation](https://furkanbekdemir.com/): Psychiatry resident at Ondokuz Mayıs University working in computational psychiatry and computational neuroscience: belief updating, sensory attenuation, and the instruments built to measure them.
 - [Research](https://furkanbekdemir.com/research/): Belief updating and sensory attenuation in schizophrenia, akathisia as active inference, effort-based decision making in multiple sclerosis, and uncertainty processing in generalized anxiety disorder.
 - [Akathisia as active inference](https://furkanbekdemir.com/research/akathisia-active-inference): An active inference account of akathisia, locating the disorder in how bodily prediction errors are turned into action rather than in the motor system. Concept note in preparation.
 - [State anxiety and uncertainty processing in generalized anxiety disorder](https://furkanbekdemir.com/research/anxiety-hgf): A Hierarchical Gaussian Filter study of belief updating in generalized anxiety disorder. Published abstract, Turkish Journal of Psychiatry, 2026.
