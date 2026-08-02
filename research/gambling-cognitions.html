@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A PsychoPy implementation of the beads task that logs every draw, written so the data can be modelled rather than reduced to draws-to-decision.">
+<meta name="description" content="A clinical study of personality traits, impulsivity and gambling-related cognitions in patients with gambling disorder. Published abstract, Turkish Journal of Psychiatry, 2025.">
 
-<title>Beads task: probabilistic reasoning with trial-level logging – Furkan Bekdemir</title>
+<title>Personality, impulsivity and gambling-related cognitions in gambling disorder – Furkan Bekdemir</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -120,15 +120,15 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
-<meta property="og:title" content="Beads task: probabilistic reasoning with trial-level logging">
-<meta property="og:description" content="A PsychoPy implementation of the beads task that logs every draw, written so the data can be modelled rather than reduced to draws-to-decision.">
+<meta property="og:title" content="Personality, impulsivity and gambling-related cognitions in gambling disorder – Furkan Bekdemir">
+<meta property="og:description" content="A clinical study of personality traits, impulsivity and gambling-related cognitions in patients with gambling disorder. Published abstract, Turkish Journal of Psychiatry, 2025.">
 <meta property="og:image" content="https://furkanbekdemir.com/og-image.png">
 <meta property="og:site_name" content="Furkan Bekdemir">
-<meta name="twitter:title" content="Beads task: probabilistic reasoning with trial-level logging">
-<meta name="twitter:description" content="A PsychoPy implementation of the beads task that logs every draw, written so the data can be modelled rather than reduced to draws-to-decision.">
+<meta name="twitter:title" content="Personality, impulsivity and gambling-related cognitions in gambling disorder – Furkan Bekdemir">
+<meta name="twitter:description" content="A clinical study of personality traits, impulsivity and gambling-related cognitions in patients with gambling disorder. Published abstract, Turkish Journal of Psychiatry, 2025.">
 <meta name="twitter:image" content="https://furkanbekdemir.com/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://furkanbekdemir.com/tools/beads-task">
+<link rel="canonical" href="https://furkanbekdemir.com/research/gambling-cognitions">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -143,13 +143,13 @@ ul.task-list li input[type="checkbox"] {
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "Instruments and code",
-      "item": "https://furkanbekdemir.com/tools"
+      "name": "Research",
+      "item": "https://furkanbekdemir.com/research/"
     },
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Beads task: probabilistic reasoning with trial-level logging"
+      "name": "Personality, impulsivity and gambling-related cognitions in gambling disorder"
     }
   ]
 }
@@ -206,7 +206,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Beads task</h1>
+<h1 class="title">Personality, impulsivity and gambling-related cognitions in gambling disorder</h1>
 </div>
 
 
@@ -225,39 +225,52 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="entry">
 <div class="meta">
-<p>PsychoPy · <span class="status">to publish</span></p>
+<p>2025 · 27th National Clinical Education Symposium · Turkish Journal of Psychiatry · <span class="status done">presented</span><br>
+Bekdemir F, Özdin S, Satılmış B, Aydın Öztemel R, Bolat R, Ünsal Çelebi D · <a href="https://doi.org/10.5080/kes27.abs62">doi:10.5080/kes27.abs62</a></p>
 </div>
 </div>
-<p>In the beads task a participant watches beads drawn one at a time from a hidden jar and says, whenever they are ready, which of two jars it is. The usual number reported from it is draws to decision: how many beads someone needed before committing. People with delusions tend to need fewer, which is where the jumping-to-conclusions literature comes from.</p>
-<p>Draws to decision throws away most of what happened. It collapses a sequence of beliefs, each formed after a specific piece of evidence, into one integer. A model of belief updating needs the sequence, not the summary, so this implementation logs every draw: what was shown, when the response came, and what the participant reported believing at that point.</p>
-<p>That is the only real design decision in it. The task itself is old and the implementation is not clever. What it does is refuse to reduce the data at collection time, when the reduction cannot be undone.</p>
-<p>It feeds the <a href="../tools/hgf-pipeline.html">HGF pipeline</a> and runs in the <a href="../research/belief-updating-schizophrenia.html">schizophrenia thesis</a>. It is not public yet.</p>
-<!-- Software, not a paper. Declared without a codeRepository because there is
-     not a public one yet; naming a private URL would advertise a door that does
-     not open. author points at the Person in head.html. -->
+<p>Gambling disorder is usually treated as one behavioural category. This study looked at three things together in the same patients: personality traits, impulsivity, and the beliefs people hold about gambling itself. It asked how each of them relates to how severe the disorder is.</p>
+<p>Forty-three patients presenting to the Ondokuz Mayıs University psychiatry clinic and to the AMATEM clinic at Samsun Mental Health and Diseases Hospital between October 2024 and February 2025 took part; 40 were men, mean age 32.7 ± 8.5 years, and they had started gambling at 26.7 ± 8.3 on average. Severity was measured with the South Oaks Gambling Screen, cognitive distortions with the Gambling-Related Cognitions Scale, impulsivity with the Barratt Impulsiveness Scale short form, and personality with the Eysenck Personality Inventory, alongside PHQ-9 and GAD-7. Approved by the Ondokuz Mayıs University Clinical Research Ethics Committee (2025/27).</p>
+<p>Severity correlated with one specific distortion, the belief that chance outcomes can be interpreted or controlled (r = 0.326, p = .040). Age of onset correlated negatively with gambling-related expectancies (r = −0.427, p = .006) and with the lack-of-planning facet of impulsivity (r = −0.341, p = .031): people who began gambling later expected less from it and scored as more planned than those who began young.</p>
+<p>The published conclusion is that age of onset may mark different clinical forms of the disorder, later-onset gambling looking like the more isolated kind, and that cognitions are worth treating as a target. These are correlations in a single clinical sample, so they describe a pattern rather than establish a mechanism.</p>
+<p>This one came out of clinical service, not the modelling programme. It shares no method with the computational work on the other research pages.</p>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "SoftwareSourceCode",
-  "@id": "https://furkanbekdemir.com/tools/beads-task#software",
-  "name": "Beads task",
-  "description": "A PsychoPy implementation of the beads task that logs every draw, written so the data can be modelled rather than reduced to draws-to-decision.",
-  "programmingLanguage": { "@type": "ComputerLanguage", "name": "Python" },
-  "runtimePlatform": "PsychoPy",
-  "applicationCategory": "Research software",
-  "keywords": [
-    "beads task",
-    "jumping to conclusions",
-    "probabilistic reasoning",
-    "computational psychiatry",
-    "PsychoPy"
+  "@type": "ScholarlyArticle",
+  "@id": "https://doi.org/10.5080/kes27.abs62",
+  "name": "Assessment of Personality Traits, Impulsivity, and Gambling-Related Cognitions in Patients with Gambling Disorder",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5080/kes27.abs62"
+  },
+  "sameAs": "https://doi.org/10.5080/kes27.abs62",
+  "datePublished": "2025",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "Turkish Journal of Psychiatry",
+    "issn": "1300-2163"
+  },
+  "author": [
+    { "@id": "https://furkanbekdemir.com/#person" },
+    { "@type": "Person", "name": "Selçuk Özdin" },
+    { "@type": "Person", "name": "Buket Satılmış" },
+    { "@type": "Person", "name": "Rabıa Aydın Öztemel" },
+    { "@type": "Person", "name": "Recep Bolat" },
+    { "@type": "Person", "name": "Demet Ünsal Çelebi" }
   ],
-  "author": { "@id": "https://furkanbekdemir.com/#person" },
-  "url": "https://furkanbekdemir.com/tools/beads-task"
+  "about": [
+    "Gambling disorder",
+    "Impulsivity",
+    "Cognitive distortions",
+    "Personality"
+  ],
+  "url": "https://furkanbekdemir.com/research/gambling-cognitions"
 }
 </script>
 <div class="k">
-<p><a href="../tools.html">← all instruments</a></p>
+<p><a href="../research/index.html">← all research</a></p>
 </div>
 
 

@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A PsychoPy implementation of the beads task that logs every draw, written so the data can be modelled rather than reduced to draws-to-decision.">
+<meta name="description" content="An active inference account of akathisia, locating the disorder in how bodily prediction errors are turned into action rather than in the motor system. Concept note in preparation.">
 
-<title>Beads task: probabilistic reasoning with trial-level logging – Furkan Bekdemir</title>
+<title>Akathisia as active inference – Furkan Bekdemir</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -120,15 +120,15 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
-<meta property="og:title" content="Beads task: probabilistic reasoning with trial-level logging">
-<meta property="og:description" content="A PsychoPy implementation of the beads task that logs every draw, written so the data can be modelled rather than reduced to draws-to-decision.">
+<meta property="og:title" content="Akathisia as active inference – Furkan Bekdemir">
+<meta property="og:description" content="An active inference account of akathisia, locating the disorder in how bodily prediction errors are turned into action rather than in the motor system. Concept note in preparation.">
 <meta property="og:image" content="https://furkanbekdemir.com/og-image.png">
 <meta property="og:site_name" content="Furkan Bekdemir">
-<meta name="twitter:title" content="Beads task: probabilistic reasoning with trial-level logging">
-<meta name="twitter:description" content="A PsychoPy implementation of the beads task that logs every draw, written so the data can be modelled rather than reduced to draws-to-decision.">
+<meta name="twitter:title" content="Akathisia as active inference – Furkan Bekdemir">
+<meta name="twitter:description" content="An active inference account of akathisia, locating the disorder in how bodily prediction errors are turned into action rather than in the motor system. Concept note in preparation.">
 <meta name="twitter:image" content="https://furkanbekdemir.com/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://furkanbekdemir.com/tools/beads-task">
+<link rel="canonical" href="https://furkanbekdemir.com/research/akathisia-active-inference">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -143,13 +143,13 @@ ul.task-list li input[type="checkbox"] {
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "Instruments and code",
-      "item": "https://furkanbekdemir.com/tools"
+      "name": "Research",
+      "item": "https://furkanbekdemir.com/research/"
     },
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Beads task: probabilistic reasoning with trial-level logging"
+      "name": "Akathisia as active inference"
     }
   ]
 }
@@ -206,7 +206,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Beads task</h1>
+<h1 class="title">Akathisia as active inference</h1>
 </div>
 
 
@@ -225,39 +225,36 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="entry">
 <div class="meta">
-<p>PsychoPy · <span class="status">to publish</span></p>
+<p>Theory · <span class="status pending">in design</span></p>
 </div>
 </div>
-<p>In the beads task a participant watches beads drawn one at a time from a hidden jar and says, whenever they are ready, which of two jars it is. The usual number reported from it is draws to decision: how many beads someone needed before committing. People with delusions tend to need fewer, which is where the jumping-to-conclusions literature comes from.</p>
-<p>Draws to decision throws away most of what happened. It collapses a sequence of beliefs, each formed after a specific piece of evidence, into one integer. A model of belief updating needs the sequence, not the summary, so this implementation logs every draw: what was shown, when the response came, and what the participant reported believing at that point.</p>
-<p>That is the only real design decision in it. The task itself is old and the implementation is not clever. What it does is refuse to reduce the data at collection time, when the reduction cannot be undone.</p>
-<p>It feeds the <a href="../tools/hgf-pipeline.html">HGF pipeline</a> and runs in the <a href="../research/belief-updating-schizophrenia.html">schizophrenia thesis</a>. It is not public yet.</p>
-<!-- Software, not a paper. Declared without a codeRepository because there is
-     not a public one yet; naming a private URL would advertise a door that does
-     not open. author points at the Person in head.html. -->
+<p>Akathisia is an inner restlessness that drives repetitive movement, and the movement usually fails to relieve it. That failure is the part worth explaining, and accounts pitched at the receptor do not on their own explain it. I am building an active inference account alongside them, which asks whether the disorder sits in how bodily prediction errors are turned into action rather than in the motor system itself.</p>
+<!-- Declared at the level the work has actually reached: a project in design,
+     with no funder, no protocol number and no findings to describe. -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "SoftwareSourceCode",
-  "@id": "https://furkanbekdemir.com/tools/beads-task#software",
-  "name": "Beads task",
-  "description": "A PsychoPy implementation of the beads task that logs every draw, written so the data can be modelled rather than reduced to draws-to-decision.",
-  "programmingLanguage": { "@type": "ComputerLanguage", "name": "Python" },
-  "runtimePlatform": "PsychoPy",
-  "applicationCategory": "Research software",
-  "keywords": [
-    "beads task",
-    "jumping to conclusions",
-    "probabilistic reasoning",
-    "computational psychiatry",
-    "PsychoPy"
+  "@type": "ResearchProject",
+  "@id": "https://furkanbekdemir.com/research/akathisia-active-inference#project",
+  "name": "Akathisia as active inference",
+  "description": "A theoretical account of akathisia asking whether the disorder sits in how bodily prediction errors are turned into action rather than in the motor system itself. In design; a concept note is in preparation.",
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Ondokuz Mayıs University",
+    "url": "https://www.omu.edu.tr/"
+  },
+  "member": { "@id": "https://furkanbekdemir.com/#person" },
+  "knowsAbout": [
+    "Akathisia",
+    "Active inference",
+    "Predictive processing",
+    "Antipsychotic adverse effects"
   ],
-  "author": { "@id": "https://furkanbekdemir.com/#person" },
-  "url": "https://furkanbekdemir.com/tools/beads-task"
+  "url": "https://furkanbekdemir.com/research/akathisia-active-inference"
 }
 </script>
 <div class="k">
-<p><a href="../tools.html">← all instruments</a></p>
+<p><a href="../research/index.html">← all research</a></p>
 </div>
 
 

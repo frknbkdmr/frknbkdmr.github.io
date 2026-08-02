@@ -22,7 +22,7 @@ fig. belief about a reversing contingency, with uncertainty. learning rate rises
 ## Current work
 Residency thesis · BAP04-B-2026-6538 · in preparation
 
-### [Belief updating and sensory attenuation in schizophrenia](research/schizophrenia.qmd)
+### [Belief updating and sensory attenuation in schizophrenia](research/belief-updating-schizophrenia.qmd)
 Whether delusions track a failure of belief revision, a failure to attenuate
 self-generated sensation, or both. Beads task modelled with the Hierarchical
 Gaussian Filter, alongside a force-matching task run on a device built for
@@ -30,7 +30,7 @@ the study. Supervised by Prof. Dr. Gökhan Sarısoy; registration pending.
 
 Theory · in design
 
-### [Akathisia as active inference](research/akathisia.qmd)
+### [Akathisia as active inference](research/akathisia-active-inference.qmd)
 Restlessness that drives movement, and movement that does not relieve it. An
 active inference account of why.
 
@@ -59,14 +59,14 @@ believes against what it is currently being told.
 ## Open
 Residency thesis · BAP04-B-2026-6538 · in preparation
 
-### [Belief updating and sensory attenuation in schizophrenia](schizophrenia.qmd)
+### [Belief updating and sensory attenuation in schizophrenia](belief-updating-schizophrenia.qmd)
 Whether delusions track a failure of belief revision, a failure to attenuate
 self-generated sensation, or both. A beads task and a force-matching task in
 the same people.
 
 Theory · in design
 
-### [Akathisia as active inference](akathisia.qmd)
+### [Akathisia as active inference](akathisia-active-inference.qmd)
 Akathisia drives movement that rarely settles it. Active inference offers an
 account of why.
 
@@ -85,27 +85,10 @@ generalized anxiety disorder.
 
 2025 · Turkish Journal of Psychiatry · presented
 
-### [Personality, impulsivity and gambling-related cognitions in gambling disorder](gambling.qmd)
+### [Personality, impulsivity and gambling-related cognitions in gambling disorder](gambling-cognitions.qmd)
 Forty-three patients in treatment. Age of onset tracked what people expected
 from gambling and how they planned. A clinical study, apart from the
 computational thread above.
-
----
-
-# Akathisia as active inference
-
-URL: https://furkanbekdemir.com/research/akathisia
-
-Theory · in design
-
-Akathisia is an inner restlessness that drives repetitive movement, and the
-movement usually fails to relieve it. That failure is the part worth
-explaining, and accounts pitched at the receptor do not on their own explain
-it. I am building an active inference account alongside them, which asks
-whether the disorder sits in how bodily prediction errors are turned into
-action rather than in the motor system itself.
-
-[← all research](index.qmd)
 
 ---
 
@@ -145,66 +128,8 @@ establish which way the relationship runs, and with 36 participants and no
 correction for multiple comparisons the findings are exploratory.
 
 This is a separate study from the
-[schizophrenia thesis](schizophrenia.qmd), not a preliminary stage of it. It
+[schizophrenia thesis](belief-updating-schizophrenia.qmd), not a preliminary stage of it. It
 is where the modelling approach the thesis depends on was first worked out.
-
-[← all research](index.qmd)
-
----
-
-# Effort and reward in multiple sclerosis
-
-URL: https://furkanbekdemir.com/research/effort-ms
-
-With the Department of Neurology · in collection
-
-Fatigue and depression in MS overlap on every questionnaire that tries to tell
-them apart. Effort-based decision making offers a behavioural separation:
-whether the cost of action or the value of the outcome is what has changed.
-
-[← all research](index.qmd)
-
----
-
-# Personality, impulsivity and gambling-related cognitions in gambling disorder
-
-URL: https://furkanbekdemir.com/research/gambling
-
-2025 · 27th National Clinical Education Symposium · Turkish Journal
-of Psychiatry · presented\
-Bekdemir F, Özdin S, Satılmış B, Aydın Öztemel R, Bolat R, Ünsal Çelebi D
-· [doi:10.5080/kes27.abs62](https://doi.org/10.5080/kes27.abs62)
-
-Gambling disorder is usually treated as one behavioural category. This study
-looked at three things together in the same patients: personality traits,
-impulsivity, and the beliefs people hold about gambling itself. It asked how
-each of them relates to how severe the disorder is.
-
-Forty-three patients presenting to the Ondokuz Mayıs University psychiatry
-clinic and to the AMATEM clinic at Samsun Mental Health and Diseases Hospital
-between October 2024 and February 2025 took part; 40 were men, mean age
-32.7 ± 8.5 years, and they had started gambling at 26.7 ± 8.3 on average.
-Severity was measured with the South Oaks Gambling Screen, cognitive
-distortions with the Gambling-Related Cognitions Scale, impulsivity with the
-Barratt Impulsiveness Scale short form, and personality with the Eysenck
-Personality Inventory, alongside PHQ-9 and GAD-7. Approved by the Ondokuz
-Mayıs University Clinical Research Ethics Committee (2025/27).
-
-Severity correlated with one specific distortion, the belief that chance
-outcomes can be interpreted or controlled (r = 0.326, p = .040). Age of onset
-correlated negatively with gambling-related expectancies (r = −0.427,
-p = .006) and with the lack-of-planning facet of impulsivity (r = −0.341,
-p = .031): people who began gambling later expected less from it and scored as
-more planned than those who began young.
-
-The published conclusion is that age of onset may mark different clinical
-forms of the disorder, later-onset gambling looking like the more isolated
-kind, and that cognitions are worth treating as a target. These are
-correlations in a single clinical sample, so they describe a pattern rather
-than establish a mechanism.
-
-This one came out of clinical service, not the modelling programme. It shares
-no method with the computational work on the other research pages.
 
 [← all research](index.qmd)
 
@@ -212,7 +137,7 @@ no method with the computational work on the other research pages.
 
 # Belief updating and sensory attenuation in schizophrenia
 
-URL: https://furkanbekdemir.com/research/schizophrenia
+URL: https://furkanbekdemir.com/research/belief-updating-schizophrenia
 
 Residency thesis · BAP04-B-2026-6538 · in preparation\
 Initial ethics approval OMÜ KAEK 2025/601 · protocol amendment pending\
@@ -243,6 +168,20 @@ public preregistration.
 The [force-matching rig](../tools/force-matching.qmd) was designed and machined
 in-house, because no manufacturer sells one. Running this paradigm means
 building the instrument first.
+
+[← all research](index.qmd)
+
+---
+
+# Effort and reward in multiple sclerosis
+
+URL: https://furkanbekdemir.com/research/effort-ms
+
+With the Department of Neurology · in collection
+
+Fatigue and depression in MS overlap on every questionnaire that tries to tell
+them apart. Effort-based decision making offers a behavioural separation:
+whether the cost of action or the value of the outcome is what has changed.
 
 [← all research](index.qmd)
 
@@ -323,7 +262,7 @@ implementation is not clever. What it does is refuse to reduce the data at
 collection time, when the reduction cannot be undone.
 
 It feeds the [HGF pipeline](hgf-pipeline.qmd) and runs in the
-[schizophrenia thesis](../research/schizophrenia.qmd). It is not public yet.
+[schizophrenia thesis](../research/belief-updating-schizophrenia.qmd). It is not public yet.
 
 [← all instruments](../tools.qmd)
 
@@ -340,7 +279,7 @@ finger, once by pressing directly and once by moving a slider that sets the
 force the motor applies for them. People reproduce it accurately through the
 slider and overshoot when they press themselves. The size of that overshoot is
 the measure, and it is what the
-[schizophrenia thesis](../research/schizophrenia.qmd) uses to ask whether
+[schizophrenia thesis](../research/belief-updating-schizophrenia.qmd) uses to ask whether
 self-generated sensation is attenuated the way it should be.
 
 A trial runs in three phases on one finger. The motor presents the target force
