@@ -17,6 +17,7 @@ Idempotent: re-running over an already-processed _site changes nothing.
 Exits non-zero if a page could not be given a canonical, so a broken build
 fails loudly instead of publishing quietly incomplete pages.
 """
+import json
 import re
 import sys
 from pathlib import Path
@@ -130,6 +131,72 @@ def write_llms_txt(base: str) -> bool:
             path.write_text(text, encoding="utf-8", newline="\n")
             changed = True
     return changed
+
+
+def write_defined_terms(path: Path, base: str) -> int:
+    """Describe a glossary page as schema.org DefinedTermSet.
+
+    Built from the rendered HTML rather than written into the source, so the
+    terms have one home. A JSON-LD copy maintained by hand drifts the first time
+    a term is added and nothing reports the drift.
+
+    Google lists no rich result for DefinedTermSet, so this is not a ranking
+    play. It is there so a machine reading the page can tell that it holds
+    seventy defined terms rather than two thousand words of Turkish prose.
+
+    Deliberately narrow: DefinedTerm descends from Intangible, not CreativeWork,
+    so inLanguage, citation and additionalProperty are all invalid on it. The
+    language is declared once on the set, and the source stays out of the graph.
+    """
+    text = path.read_text(encoding="utf-8")
+    terms = []
+    for sec in re.findall(r'<section id="([^"]+)" class="[^"]*\bterm\b[^"]*">(.*?)</section>',
+                          text, re.S):
+        anchor, body = sec
+        name = re.search(r"<h3[^>]*>(.*?)</h3>", body, re.S)
+        if not name:
+            continue
+        strip = re.search(r"<p>(.*?)</p>", body, re.S)
+        plain = lambda s: re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", s)).strip()
+
+        term = {"@type": "DefinedTerm",
+                "inDefinedTermSet": f"{base}/notlar/terimler#sozluk",
+                "name": plain(name.group(1))}
+        if strip:
+            meta = strip.group(1)
+            status = re.search(r'<span class="status[^"]*">(.*?)</span>', meta, re.S)
+            head = plain(re.sub(r'<span class="status.*', "", meta, flags=re.S))
+            abbr = re.match(r"\(([^)]+)\)", head)
+            if abbr:
+                term["termCode"] = abbr.group(1)
+                head = head[abbr.end():]
+            turkish = [t for t in (p.strip(" ·") for p in head.split("·")) if t]
+            if turkish:
+                term["alternateName"] = turkish[0] if len(turkish) == 1 else turkish
+            if status:
+                term["description"] = f"Durum: {plain(status.group(1))}."
+        term["url"] = f"{base}/notlar/terimler#{anchor}"
+        terms.append(term)
+
+    if not terms:
+        return 0
+
+    block = json.dumps({
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "@id": f"{base}/notlar/terimler#sozluk",
+        "url": f"{base}/notlar/terimler",
+        "name": "Hesaplamalı psikiyatri ve sinirbilim terimlerinin Türkçe karşılıkları",
+        "inLanguage": "tr",
+        "hasDefinedTerm": terms,
+    }, ensure_ascii=False, indent=2)
+
+    tag = f'<script type="application/ld+json">\n{block}\n</script>\n'
+    if tag in text:
+        return 0
+    text = text.replace("</head>", tag + "</head>", 1)
+    path.write_text(text, encoding="utf-8")
+    return len(terms)
 
 
 def canonical_for(html_path: Path, base: str) -> str:
@@ -302,7 +369,7 @@ def main() -> None:
     # rglob, not glob: a page in a subdirectory needs a canonical just as much,
     # and would otherwise be skipped without a word.
     pages = sorted(p for p in OUT.rglob("*.html") if "site_libs" not in p.parts)
-    changed, failed, deferred, fixes, scoped = [], [], 0, set(), 0
+    changed, failed, deferred, fixes, scoped, defined = [], [], 0, set(), 0, 0
 
     for p in pages:
         text = p.read_text(encoding="utf-8")
@@ -320,6 +387,7 @@ def main() -> None:
         deferred += defer_head_scripts(p)
         fixes.update(fix_a11y(p))
         scoped += scope_jsonld(p)
+        defined += write_defined_terms(p, base)
 
     print(f"canonical: {len(changed)}/{len(pages)} page(s) updated"
           + (f" ({', '.join(changed)})" if changed else ""))
@@ -329,6 +397,8 @@ def main() -> None:
         print("a11y: " + ", ".join(sorted(fixes)))
     if scoped:
         print(f"json-ld: {scoped} page(s) narrowed to WebPage")
+    if defined:
+        print(f"json-ld: {defined} term(s) described as DefinedTermSet")
     if normalise_sitemap(base):
         print("sitemap: index.html -> /, duplicates dropped")
     if write_llms_txt(base):
