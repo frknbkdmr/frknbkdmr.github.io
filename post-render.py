@@ -93,7 +93,7 @@ def write_llms_txt(base: str) -> bool:
     sources += under("research")
     sources += [ROOT / "tools.qmd"] + under("tools")
     sources += under("log")
-    sources += [ROOT / "cv.qmd", ROOT / "notlar.qmd"]
+    sources += [ROOT / "cv.qmd", ROOT / "notlar.qmd"] + under("notlar")
     sources = [p for p in sources if p.exists()]
 
     pages = []
