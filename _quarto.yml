@@ -24,6 +24,10 @@ project:
     # the custom domain on the next deploy.
     - CNAME               # furkanbekdemir.com; apex A records live since 2026-07-26
     - yandex_97bb922f930d7b26.html   # Yandex Webmaster ownership check
+    # IndexNow key. Bing verifies ownership by fetching this file before it will
+    # accept a submission, so if it stops being published the notifications
+    # start failing silently.
+    - bfe9b1f5d8eb425ea297b7c2447647b4.txt
     - og-image.png
     - favicon.ico
     - favicon-32.png
