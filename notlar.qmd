@@ -39,6 +39,17 @@ zorunludur, ve bir hesaplamalı bulguya ne zaman güvenilir. Bir parametrenin
 kestirilebilmesi, onun yorumlanabileceği anlamına gelmiyor.
 :::
 
+::: {.entry}
+::: {.meta}
+Klinik okur için &middot; 15 kaynak &middot; [yayında]{.status .done}
+:::
+### [Duyusal azaltım ve kuvvet eşleştirme görevi](notlar/duyusal-azaltim.qmd){.title}
+
+Kendi ürettiğimiz dokunuşu neden zayıf hissederiz, bu nasıl sayıya çevrilir, ve
+şizofreniden fonksiyonel hareket bozukluğuna kadar nerelerde bozuk bulunmuştur.
+Görevin iki koşulu var ve ikincisi bir süs değil.
+:::
+
 ## Planlanan yazılar {.k-head}
 
 ::: {.entry}

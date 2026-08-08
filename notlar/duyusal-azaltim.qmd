@@ -1,0 +1,309 @@
+---
+title: "Duyusal azaltım ve kuvvet eşleştirme görevi"
+pagetitle: "Duyusal azaltım nedir, nasıl ölçülür"
+lang: tr
+# Çevirisi yazıldığında buraya karşılık gelen İngilizce sayfa gelir; ikisi de
+# birbirini gösterdiğinde hreflang etiketleri kendiliğinden çıkar.
+translation: notes/sensory-attenuation
+description-meta: &desc "Duyusal azaltımın klinik okur için açıklaması: kendi ürettiğimiz dokunuşu neden zayıf hissederiz, kuvvet eşleştirme görevi bunu nasıl sayıya çevirir, ve şizofreni, fonksiyonel hareket bozukluğu ve yorgunlukta ne bulunmuştur."
+open-graph:
+  description: *desc
+twitter-card:
+  description: *desc
+---
+
+::: {.lede}
+Kendinizi gıdıklayamazsınız. Herkesin bildiği bu gözlemin arkasında ölçülebilir
+bir mekanizma var, ve o mekanizmanın zayıfladığı yerlerde psikiyatrik belirtiler
+çıkıyor.
+:::
+
+Gıdıklanma bunun en tanıdık hali. Aynı mekanizmanın laboratuvarda ölçülen bir
+karşılığı var, ve o ölçüm psikiyatride birkaç ayrı yere bağlanıyor. Terimlerin
+İngilizce karşılıkları [terimler sözlüğünde](terimler.qmd); kesinlik ve öngörü
+hatası kavramlarının daha geniş bir anlatımı [HGF yazısında](hgf-nedir.qmd).
+
+## Gıdıklanmadan başlayan mesele {.k-head}
+
+Avucunuza kendi elinizle dokunmakla aynı dokunuşun birinden gelmesi arasında
+fiziksel bir fark yok. Aynı basınç, aynı deri, aynı reseptörler. Değişen yalnızca
+dokunuşun kaynağı. Algılanan şiddeti belirgin biçimde düşüren de o.
+
+Blakemore ve arkadaşları 1998'de buna baktı. Dışarıdan gelen dokunuşta
+somatosensoriyel korteks daha çok, kendi ürettiğinizde daha az çalışıyordu.
+Serebellumda ise örüntü tersineydi: dokunuş üreten bir hareket, üretmeyen bir
+harekete göre daha az serebellar etkinlikle gidiyordu. Buradan çıkan yorum,
+serebellumun hareketin duyusal sonucunu önceden hesapladığı ve o hesabın gelen
+sinyali kısmak için kullanıldığı.
+
+Kısılmanın adı duyusal azaltım (sensory attenuation). İşe yaraması şuradan:
+duyu sisteminize ulaşan sinyalin büyük kısmını zaten kendi hareketleriniz
+üretir. Hepsi aynı ağırlıkta işlenirse, dışarıdan gelen ve gerçekten haber
+değeri taşıyan sinyal bunun içinde kaybolur. Öngörülebilir olanı kısmak,
+öngörülemeyeni öne çıkarmanın yolu.
+
+## Görev bunu nasıl sayıya çeviriyor {.k-head}
+
+Bunun en akılda kalıcı gösterimi iki kişi üzerinde yapıldı. Shergill ve
+arkadaşları 2003'te katılımcılara sırayla birbirlerinin parmağına, az önce
+hissettikleri kuvvetin aynısını uygulattı. Kuvvet her turda büyüdü. Kimse
+abartmıyordu; herkes hissettiğini eşliyordu, ama kendi ürettiğini olduğundan
+zayıf hissettiği için her turda biraz fazlasını koyuyordu. Makalenin başlığı
+bunu göze karşılık iki göz diye özetliyor. Çocukken duyduğumuz "ama önce o
+vurdu, hem de daha sert" cümlesi demek ki bir yalan değilmiş. Kalibrasyon
+sorunuymuş.
+
+Aynı şey tek kişide standart bir göreve dönüştürüldü. Kuvvet eşleştirme
+görevinde (force-matching task) katılımcının parmağına bir hedef kuvvet
+uygulanır, sonra aynı kuvveti iki ayrı yoldan yeniden üretmesi istenir.
+Doğrudan koşulda diğer eliyle kendi parmağına basar. Sürgü koşulunda kuvveti
+motor üretir, katılımcı bir sürgüyle onun büyüklüğünü ayarlar.
+
+Doğrudan bastığında hedefi aşar, sürgüyle epeyce isabetli olur. McNaughton'ın
+cihaz makalesinde yayımlanan yirmi beş kişilik veride doğrudan koşulda ortalama
+0,50 N fazla, sürgü koşulunda 0,30 N eksik üretilmiş. İki koşul arasındaki fark
+ölçümün kendisi.
+
+## İkinci koşul bir süs değil {.k-head}
+
+Sürgü koşulunun neden gerektiği ilk bakışta belli olmuyor. Görevi yanlış okumak
+da çoğunlukla buradan başlıyor.
+
+Doğrudan koşulda yapılan hatanın kaynağı bir tane değil. Hedef kuvveti
+hatırlamanız gerekiyor, ürettiğiniz kuvveti derecelendirmeniz gerekiyor, motor
+çıktınızın kendi gürültüsü var. Bunların hiçbiri öngörüye özgü değil, hepsi tek
+başına da sapma üretir. Sürgü koşulunda aynı hafıza ve derecelendirme yükü
+duruyor, ama kuvvet sizin elinizden çıkmadığı için öngörüye dayalı kısma devrede
+değil. İkisinin farkını almak, ortak olan her şeyi düşürüp geriye öngörüye ait
+olan payı bırakıyor.
+
+Bu mantık yakın zamanda biçimsel olarak sınandı. Valè ve arkadaşları beş yüze
+yakın katılımcının verisiyle görevin hesaplamalı bir modelini kurdu, hafıza
+gürültüsü dahil ayrı ayrı gürültü kaynaklarını ayırdı, ve iki koşulun farkının
+gerçekten öngörüye ait bileşeni yalıttığını gösterdi. Aynı çalışmadan iki şey
+daha çıktı. Azaltılmış duyumlar deneme deneme daha değişken, çünkü öngörünün
+kendi gürültüsünü de taşıyorlar. Ve azaltım çıkarma değil bölme biçiminde
+işliyor: sinyalden sabit bir miktar düşülmüyor, sinyal bir katsayıyla küçülüyor.
+
+Azaltımın neye kilitlendiği de sınandı. Bays ve arkadaşları mekanizmanın
+hareketin kendisine değil, hareketten beklenen olaya bağlandığını gösterdi.
+Dokunuşun zamanlaması öne ya da arkaya kaydırıldıkça azaltım azalıyor. Parmağın
+üstünde duran ya da yanından geçen hareketler ise hiç azaltım üretmiyor. Sistem
+"hareket ediyorum, duyuyu kıs" demiyor. "Şu anda şurada şu dokunuş olacak"
+diyor. Kilteni ve Ehrsson bunun bir adım öncesini ekledi: dokunan elin sizin
+sayılması gerekiyor, çünkü kauçuk el yanılsamasıyla sahiplik oynatıldığında
+azaltım da onunla birlikte yer değiştiriyor.
+
+## Kesinlikle bağlantısı {.k-head}
+
+Aktif çıkarım çerçevesinde azaltımın karşılığı, hareket sırasında duyusal
+kanıtın kesinliğinin düşürülmesi. Bunun bir zorunluluk olduğu iddiası şuna
+dayanıyor: hareket etmek için hareket ettiğinize dair öngörünün, henüz hareket
+etmediğinizi söyleyen duyusal kanıta baskın gelmesi gerekir. Kanıtın ağırlığı
+düşürülmezse hareket başlamaz.
+
+Brown ve arkadaşları bu çerçeveden kuvvet eşleştirme bulgusunu yeniden üretti.
+Modelden azaltımı çıkardıklarında iki şey birlikte oldu: görevdeki fazla üretim
+kayboldu, ve eylemliliğe dair yanlış çıkarımlar belirdi. Aynı ayar hem hareketi
+mümkün kılıyor hem de neyin size ait olduğunu belirliyor. Bedeli iki yönde de
+var: yeterince düşürmezseniz hareket başlamıyor, fazla düşürürseniz kendinizle
+dünyayı ayırt edemiyorsunuz.
+
+## Klinikte nereye oturuyor {.k-head}
+
+En öğretici bulgu en eskilerden biri. Blakemore ve arkadaşları 2000'de şizofreni
+tanılı hastaları, iki uçlu bozukluk ve depresyon tanılılarını ve sağlıklı
+kontrolleri karşılaştırdı. Azaltımın kaybı tanıyla değil belirtiyle gidiyordu:
+işitsel varsanı ya da edilgenlik yaşantısı olanlarda azaltım yoktu, olmayanlarda
+tanıdan bağımsız olarak vardı.
+
+Sonrası bunu genişletti. Şizofrenide azaltımın anlamlı biçimde düşük olduğu
+gösterildi; görüntüleme çalışmasında ikincil somatosensoriyel alandaki azaltım
+kaybı, hastanın o anki varsanı şiddetiyle öngörülüyordu. Teufel ve arkadaşları
+ise sağlıklı kişilerde çalıştı: sanrısal düşünce eğilimi yüksek olanlar görevde
+daha isabetliydi, yani daha az azaltım gösteriyorlardı. Bu sonuncusu iki
+itirazı birden karşılıyor, çünkü ne ilaç ne de aktif hastalık dönemi
+açıklayabilir.
+
+Tabloyu şizofrenide bırakmak yanlış olur. Fonksiyonel hareket bozukluğunda
+azaltım yok; hastalar hareketi kendi kontrollerinde hissetmiyorlar ve görevde
+kontrollerin yaptığı fazla üretimi yapmıyorlar. Parkinson hastalığında yorgunluk
+tarifleyen grupta azaltım seçici olarak bozuk, tariflemeyen grupta değil. Üstelik
+bu bozukluk motor belirti şiddetiyle değil, öznel yorgunluk ve algılanan çabayla
+gidiyor. Kronik ağrıda ise büyüklük açısından grup farkı bulunamadı; ayrışan şey
+varyanstı.
+
+Azaltım bozukluğunun bu kadar farklı tabloda çıkması onu tanıya değil belirtiye
+bağlı bir ölçüm yapıyor. Hastanın hangi tanıyı taşıdığını söylemiyor. Hangi
+mekanizmanın bozulduğuna dair bir şey söylüyor, ve ikisi karıştırıldığında ölçüm
+verebileceğinden fazlasını vaat etmiş oluyor.
+
+## Ölçen aletin payı {.k-head}
+
+Ölçüm iki koşulun farkı olduğu için, iki koşulda da aynı olan alet hatası
+farkta düşer. Düşmeyen hata, yüklenme yönüne bağlı olan hata; çünkü iki koşul
+sensörü aynı biçimde yüklemiyor. Motorun bastırdığı bir rampa ile insanın
+bastırdığı bir rampa aynı şey değil.
+
+Kendi düzeneğimin kabul ölçütleri arasında en dar marjla geçen kalem histerezis
+oldu. Tesadüf değil: histerezis tam da farkta düşmeyen hata sınıfına giriyor.
+Düzeneğin kendisi ve kalibrasyon kayıtları
+[cihaz sayfasında](../tools/force-matching.qmd).
+
+## Bir bulguyu okurken {.k-head}
+
+Yayımlanmış bir azaltım bulgusunda ilk bakılacak yer tasarımın kaç koşulu
+olduğu. Tek koşullu bir tasarımdan çıkan sapmaya azaltım denemez, çünkü hafızayı
+ve derecelendirmeyi ayıklayan şey ikinci koşulun kendisi.
+
+Sonra tekrar sayısı ve zaman penceresi geliyor. McNaughton ve arkadaşları yüz
+otuz sekiz kişilik veride tekrar sayısının sekizden düşürülebildiğini, eşleşen
+kuvvetin çıkarılacağı en uygun pencerenin 2,5 ile 3,0 saniye arası olduğunu ve
+performansın deney boyunca kaymadığını gösterdi. Pencere seçimi rapor
+edilmemişse iki çalışmayı karşılaştıracak zemin yok demektir.
+
+Son olarak, analiz yalnız ortalamaya mı bakmış. Kronik ağrıda gruplar
+büyüklükte ayrışmadı ama varyansta ayrıştı, ve ortalamaya bakan bir analiz böyle
+bir farkı hiç görmez. Valè ve arkadaşlarının modeli değişkenliğin gürültü değil
+öngörüye ait sinyal olabileceğini söylediğine göre, bu artık ikincil bir ayrıntı
+da değil.
+
+## Kaynaklar {.k-head}
+
+Olgunun kendisi:
+
+::: {.src}
+Blakemore SJ, Wolpert DM, Frith CD. Central cancellation of self-produced tickle
+sensation. *Nature Neuroscience*.
+1998;1(7):635-640. doi:[10.1038/2870](https://doi.org/10.1038/2870)
+:::
+
+::: {.src}
+Shergill SS, Bays PM, Frith CD, Wolpert DM. Two eyes for an eye: the
+neuroscience of force escalation. *Science*.
+2003;301(5630):187. doi:[10.1126/science.1085327](https://doi.org/10.1126/science.1085327)
+:::
+
+::: {.src}
+Bays PM, Wolpert DM, Flanagan JR. Perception of the consequences of self-action
+is temporally tuned and event driven. *Current Biology*.
+2005;15(12):1125-1128. doi:[10.1016/j.cub.2005.05.023](https://doi.org/10.1016/j.cub.2005.05.023)
+:::
+
+::: {.src}
+Kilteni K, Ehrsson HH. Body ownership determines the attenuation of
+self-generated tactile sensations. *PNAS*.
+2017;114(31):8426-8431. doi:[10.1073/pnas.1703347114](https://doi.org/10.1073/pnas.1703347114)
+:::
+
+Kuramsal çerçeve:
+
+::: {.src}
+Brown H, Adams RA, Parees I, Edwards M, Friston K. Active inference, sensory
+attenuation and illusions. *Cognitive Processing*.
+2013;14(4):411-427. doi:[10.1007/s10339-013-0571-3](https://doi.org/10.1007/s10339-013-0571-3)
+:::
+
+Klinik bulgular:
+
+::: {.src}
+Blakemore SJ, Smith J, Steel R, Johnstone EC, Frith CD. The perception of
+self-produced sensory stimuli in patients with auditory hallucinations and
+passivity experiences. *Psychological Medicine*.
+2000;30(5):1131-1139. doi:[10.1017/S0033291799002676](https://doi.org/10.1017/S0033291799002676)
+:::
+
+::: {.src}
+Shergill SS, Samson G, Bays PM, Frith CD, Wolpert DM. Evidence for sensory
+prediction deficits in schizophrenia. *American Journal of Psychiatry*.
+2005;162(12):2384-2386. doi:[10.1176/appi.ajp.162.12.2384](https://doi.org/10.1176/appi.ajp.162.12.2384)
+:::
+
+::: {.src}
+Shergill SS, White TP, Joyce DW, Bays PM, Wolpert DM, Frith CD. Functional
+magnetic resonance imaging of impaired sensory prediction in schizophrenia.
+*JAMA Psychiatry*.
+2014;71(1):28-35. doi:[10.1001/jamapsychiatry.2013.2974](https://doi.org/10.1001/jamapsychiatry.2013.2974)
+:::
+
+::: {.src}
+Teufel C, Kingdon A, Ingram JN, Wolpert DM, Fletcher PC. Deficits in sensory
+prediction are related to delusional ideation in healthy individuals.
+*Neuropsychologia*.
+2010;48(14):4169-4172. doi:[10.1016/j.neuropsychologia.2010.10.024](https://doi.org/10.1016/j.neuropsychologia.2010.10.024)
+:::
+
+::: {.src}
+Pareés I, Brown H, Nuruki A, Adams RA, Davare M, Bhatia KP, Friston K, Edwards
+MJ. Loss of sensory attenuation in patients with functional (psychogenic)
+movement disorders. *Brain*.
+2014;137(11):2916-2921. doi:[10.1093/brain/awu237](https://doi.org/10.1093/brain/awu237)
+:::
+
+::: {.src}
+Marotta A, Pizzolla E, Di Vico IA, Tinazzi M, Emadi Andani M, Fiorio M. Reduced
+sensory attenuation as a marker of pathological fatigue: evidence from
+Parkinson's disease. *Cortex*.
+2026;200:1-13. doi:[10.1016/j.cortex.2026.04.001](https://doi.org/10.1016/j.cortex.2026.04.001)
+:::
+
+::: {.src}
+McNaughton D, Beath A, Hush J, Jones M. Perceptual sensory attenuation in
+chronic pain subjects and healthy controls. *Scientific Reports*.
+2022;12:8958. doi:[10.1038/s41598-022-13175-4](https://doi.org/10.1038/s41598-022-13175-4)
+:::
+
+Yöntem ve ölçüm:
+
+::: {.src}
+McNaughton D, Hope R, Gray E, Xavier F, Beath A, Jones M. Methodological
+considerations for the force-matching task. *Behavior Research Methods*.
+2023;55(6):2979-2988. doi:[10.3758/s13428-022-01954-w](https://doi.org/10.3758/s13428-022-01954-w)
+:::
+
+::: {.src}
+McNaughton D, Bacigalupo C, Georghiades A, Beath A, Hush J, Jones M. Design,
+development and functionality of a haptic force-matching device for measuring
+sensory attenuation. *Behavior Research Methods*.
+2021;53(6):2689-2699. doi:[10.3758/s13428-021-01605-6](https://doi.org/10.3758/s13428-021-01605-6)
+:::
+
+::: {.src}
+Valè N, Tomić I, Gironés Z, Wolpert DM, Kilteni K, Bays PM. Divisive attenuation
+based on noisy sensorimotor predictions accounts for excess variability in
+self-touch. *Journal of Neurophysiology*.
+2025;134(1):407-428. doi:[10.1152/jn.00055.2025](https://doi.org/10.1152/jn.00055.2025)
+:::
+
+```{=html}
+<!-- Açıklayıcı bir yazı, dolayısıyla genel WebPage yerine Article. Yayımlanana
+     kadar datePublished yok. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://furkanbekdemir.com/notlar/duyusal-azaltim#article",
+  "headline": "Duyusal azaltım ve kuvvet eşleştirme görevi",
+  "description": "Duyusal azaltımın klinik okur için açıklaması: kendi ürettiğimiz dokunuşu neden zayıf hissederiz, kuvvet eşleştirme görevi bunu nasıl sayıya çevirir, ve şizofreni, fonksiyonel hareket bozukluğu ve yorgunlukta ne bulunmuştur.",
+  "inLanguage": "tr",
+  "about": [
+    "Sensory attenuation",
+    "Force-matching task",
+    "Efference copy",
+    "Sense of agency",
+    "Active inference",
+    "Schizophrenia",
+    "Functional movement disorder"
+  ],
+  "author": { "@id": "https://furkanbekdemir.com/#person" },
+  "publisher": { "@id": "https://furkanbekdemir.com/#person" },
+  "url": "https://furkanbekdemir.com/notlar/duyusal-azaltim"
+}
+</script>
+```
+
+::: {.k}
+[← notlar](../notlar.qmd) &middot;
+[terimler sözlüğü](terimler.qmd) &middot;
+[HGF nedir](hgf-nedir.qmd)
+:::
