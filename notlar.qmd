@@ -28,6 +28,17 @@ karşılığın gerçekten yerleşik olup olmadığı. On sekizinde yerleşik bi
 bulamadım, ve listenin asıl işi bunu yazmak.
 :::
 
+::: {.entry}
+::: {.meta}
+Klinik okur için &middot; denklemsiz &middot; [yayında]{.status .done}
+:::
+### [Hiyerarşik Gauss filtresi nedir, ne işe yarar](notlar/hgf-nedir.qmd){.title}
+
+Modelin parametreleri klinik olarak ne anlatır, model karşılaştırması neden
+zorunludur, ve bir hesaplamalı bulguya ne zaman güvenilir. Bir parametrenin
+kestirilebilmesi, onun yorumlanabileceği anlamına gelmiyor.
+:::
+
 ## Planlanan yazılar {.k-head}
 
 ::: {.entry}
@@ -36,13 +47,6 @@ bulamadım, ve listenin asıl işi bunu yazmak.
 Bayesçi beyin çerçevesinin klinik okur için girişi: öngörü hatası ne demek,
 kesinlik ağırlıklandırması neyi belirler, ve bunlar muayenehanede gördüğümüz
 belirtilere nasıl bağlanır.
-:::
-
-::: {.entry}
-### Hiyerarşik Gauss filtresi nedir, ne işe yarar {.title}
-
-Modelin parametreleri klinik olarak ne anlatır, model karşılaştırması neden
-zorunludur, ve bir hesaplamalı bulguya ne zaman güvenilir.
 :::
 
 ::: {.entry}
