@@ -19,6 +19,13 @@ project:
     # Same arrangement as tools: notlar.qmd stays at the root so /notlar does not
     # move, and its children sit under notlar/.
     - "notlar/*.qmd"
+    # English versions of the notes, when they get written. Two addresses per
+    # note rather than one bilingual page, because a page can only declare one
+    # language and a crawler serving the wrong one to the wrong reader is worse
+    # than two clean pages. Each side names the other with `translation:` in its
+    # front matter and post-render.py turns that into hreflang. Slugs are in
+    # their own language: /notlar/duyusal-azaltim and /notes/sensory-attenuation.
+    - "notes/*.qmd"
   resources:
     # Without CNAME in this list, publishing drops the file and GitHub forgets
     # the custom domain on the next deploy.

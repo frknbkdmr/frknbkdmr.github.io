@@ -27,3 +27,6 @@ _quarto_internal_scss_error.scss
 
 # Internal working notes, not site source.
 SITE_AUDIT_REPORT.md
+
+# Python bytecode from post-render.py and publish.py.
+__pycache__/

@@ -96,6 +96,7 @@ def write_llms_txt(base: str) -> bool:
     sources += [ROOT / "tools.qmd"] + under("tools")
     sources += under("log")
     sources += [ROOT / "cv.qmd", ROOT / "notlar.qmd"] + under("notlar")
+    sources += [ROOT / "notes.qmd"] + under("notes")
     sources = [p for p in sources if p.exists()]
 
     pages = []
@@ -142,7 +143,81 @@ SECTIONS = {
     "tools":    ("/tools",     "Instruments and code"),
     "log":      ("/tools",     "Instruments and code"),
     "notlar":   ("/notlar",    "Notlar"),
+    "notes":    ("/notes",     "Notes"),
 }
+
+
+def translation_pairs() -> dict[str, str]:
+    """Notes that exist in both languages, keyed by address without extension.
+
+    Each side names the other in its front matter:
+
+        translation: notes/sensory-attenuation
+
+    Both sides have to name each other. A one-way declaration is a typo rather
+    than a translation, and publishing an hreflang the other page never confirms
+    is worse than publishing none, so a mismatch fails the build.
+
+    A declaration whose counterpart has not been written yet is not an error.
+    The Turkish notes already carry the address their translation will have, so
+    the pairing is settled before anyone sits down to translate.
+    """
+    declared = {}
+    for d in ("notlar", "notes"):
+        if not (ROOT / d).is_dir():
+            continue
+        for qmd in sorted((ROOT / d).glob("*.qmd")):
+            m = re.search(r'^translation:\s*["\']?([^"\'\s#]+)',
+                          qmd.read_text(encoding="utf-8"), re.M)
+            if m:
+                key = qmd.relative_to(ROOT).with_suffix("").as_posix()
+                declared[key] = m.group(1).strip("/")
+
+    pairs = {}
+    for src, dst in declared.items():
+        if dst not in declared:
+            continue                      # counterpart not written yet
+        if declared[dst] != src:
+            sys.exit(f"translation mismatch: {src} names {dst}, "
+                     f"but {dst} names {declared[dst]}")
+        pairs[src] = dst
+    return pairs
+
+
+def page_lang(rel: str) -> str:
+    """The lang: a note declares in its own front matter."""
+    src = ROOT / f"{rel}.qmd"
+    if src.exists():
+        m = re.search(r"^lang:\s*([A-Za-z-]+)", src.read_text(encoding="utf-8"), re.M)
+        if m:
+            return m.group(1)
+    return "en"
+
+
+def write_hreflang(path: Path, base: str, pairs: dict[str, str]) -> bool:
+    """Declare that two addresses are the same note in two languages.
+
+    Both members of a pair have to be listed on both pages, the page itself
+    included, or the annotation is discarded. x-default points at the English
+    side, since that is the language the rest of the site is written in and the
+    one a reader with no matching preference should land on.
+    """
+    rel = path.relative_to(OUT).with_suffix("").as_posix()
+    other = pairs.get(rel)
+    if not other:
+        return False
+    text = path.read_text(encoding="utf-8")
+    if 'rel="alternate"' in text:
+        return False
+
+    sides = sorted({rel, other}, key=page_lang)
+    tags = "".join(f'<link rel="alternate" hreflang="{page_lang(r)}" '
+                   f'href="{base}/{r}">\n' for r in sides)
+    default = next((r for r in sides if page_lang(r) == "en"), rel)
+    tags += f'<link rel="alternate" hreflang="x-default" href="{base}/{default}">\n'
+
+    path.write_text(text.replace("</head>", tags + "</head>", 1), encoding="utf-8")
+    return True
 
 
 # Quarto ships these on every page whether the feature is used or not. Measured
@@ -520,6 +595,7 @@ def main() -> None:
     # and would otherwise be skipped without a word.
     pages = sorted(p for p in OUT.rglob("*.html") if "site_libs" not in p.parts)
     changed, failed, deferred, fixes, scoped, defined, crumbs, stripped = [], [], 0, set(), 0, 0, 0, 0
+    pairs, alts = translation_pairs(), 0
 
     for p in pages:
         text = p.read_text(encoding="utf-8")
@@ -539,6 +615,7 @@ def main() -> None:
         scoped += scope_jsonld(p)
         defined += write_defined_terms(p, base)
         crumbs += write_breadcrumb(p, base)
+        alts += write_hreflang(p, base, pairs)
         stripped += strip_unused_assets(p)
 
     print(f"canonical: {len(changed)}/{len(pages)} page(s) updated"
@@ -553,6 +630,8 @@ def main() -> None:
         print(f"json-ld: {defined} term(s) described as DefinedTermSet")
     if crumbs:
         print(f"json-ld: {crumbs} page(s) given a breadcrumb trail")
+    if alts:
+        print(f"hreflang: {alts} page(s) paired with a translation")
     if stripped:
         print(f"assets: {stripped} unused reference(s) removed")
     moved = write_redirects(base)
