@@ -2,9 +2,8 @@
 # Automated collection for model training or general model development
 # is not permitted.
 
-Content-Signal: search=yes, ai-input=yes, ai-train=no
-
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 Allow: /
 
 # Search and user-initiated AI retrieval.

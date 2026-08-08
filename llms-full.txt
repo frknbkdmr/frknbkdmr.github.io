@@ -131,6 +131,11 @@ This is a separate study from the
 [schizophrenia thesis](belief-updating-schizophrenia.qmd), not a preliminary stage of it. It
 is where the modelling approach the thesis depends on was first worked out.
 
+## Cite this
+Bekdemir F, Özdin S. State anxiety and uncertainty processing in generalized
+anxiety disorder. *Turkish Journal of Psychiatry*. 2026.
+doi:[10.5080/61upk.ozt461](https://doi.org/10.5080/61upk.ozt461)
+
 [← all research](index.qmd)
 
 ---
