@@ -120,9 +120,13 @@ def write_robots(base: str) -> None:
         "# Automated collection for model training or general model development",
         "# is not permitted.",
         "",
-        "Content-Signal: search=yes, ai-input=yes, ai-train=no",
-        "",
         "User-agent: *",
+        # Inside the group, not above it. RFC 9309 tells a parser to ignore
+        # rules that precede the first user-agent line, and while Content-Signal
+        # is an unrecognised directive rather than a rule, a line sitting
+        # outside every group is the kind of thing a strict parser can trip on.
+        # It costs nothing to put it where it cannot be misread.
+        "Content-Signal: search=yes, ai-input=yes, ai-train=no",
         "Allow: /",
         "",
         "# Search and user-initiated AI retrieval.",

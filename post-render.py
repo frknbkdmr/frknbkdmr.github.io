@@ -461,7 +461,10 @@ def scope_jsonld(path: Path) -> bool:
     """head.html is global, so its ProfilePage schema lands on every page.
     Only the homepage is a profile; the rest are ordinary pages about it."""
     # By path, not by name: a section index is not the profile page.
-    if path == OUT / "index.html":
+    # ProfilePage belongs on the pages that are about the person: the homepage
+    # and the CV. Everywhere else the person is the author, not the subject, so
+    # the page is a WebPage and the Person moves from mainEntity to about.
+    if path in (OUT / "index.html", OUT / "cv.html"):
         return False
     text = path.read_text(encoding="utf-8")
     fixed = text.replace('"@type": "ProfilePage"', '"@type": "WebPage"', 1)

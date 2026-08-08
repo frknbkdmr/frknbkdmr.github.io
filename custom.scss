@@ -110,6 +110,22 @@ h3 { font-size: 1.04rem; margin-top: 2rem; }
   .t-band  { animation-name: fade; }
 }
 
+/* ---- Citation ------------------------------------------------------ */
+
+/* A reference someone can copy without retyping it from the meta strip. Set in
+   the mono face because that is the site's voice for a record rather than a
+   sentence, and boxed so it reads as something to take away. */
+.cite {
+  font-family: $font-family-monospace;
+  font-size: .78rem;
+  line-height: 1.65;
+  color: $ink-soft;
+  padding: .9rem 1rem;
+  border: 1px solid $rule;
+  border-radius: 2px;
+}
+.cite p { margin: 0; }
+
 /* ---- Glossary terms ------------------------------------------------ */
 
 /* Seventy entries, so the separator is a rule rather than the whitespace an
