@@ -635,19 +635,181 @@ Hesaplamalı psikiyatri terimlerinin Türkçe karşılıkları, ve her biri içi
 karşılığın gerçekten yerleşik olup olmadığı. On sekizinde yerleşik bir karşılık
 bulamadım, ve listenin asıl işi bunu yazmak.
 
+Klinik okur için · denklemsiz · yayında
+
+### [Hiyerarşik Gauss filtresi nedir, ne işe yarar](notlar/hgf-nedir.qmd)
+Modelin parametreleri klinik olarak ne anlatır, model karşılaştırması neden
+zorunludur, ve bir hesaplamalı bulguya ne zaman güvenilir. Bir parametrenin
+kestirilebilmesi, onun yorumlanabileceği anlamına gelmiyor.
+
 ## Planlanan yazılar
 ### Öngörü hatası, kesinlik ve psikiyatrik belirti
 Bayesçi beyin çerçevesinin klinik okur için girişi: öngörü hatası ne demek,
 kesinlik ağırlıklandırması neyi belirler, ve bunlar muayenehanede gördüğümüz
 belirtilere nasıl bağlanır.
 
-### Hiyerarşik Gauss filtresi nedir, ne işe yarar
-Modelin parametreleri klinik olarak ne anlatır, model karşılaştırması neden
-zorunludur, ve bir hesaplamalı bulguya ne zaman güvenilir.
-
 ### Akatizi: aktif çıkarım çerçevesinden bir bakış
 Akatizinin öznel ve nesnel bileşenlerinin neden ayrışabildiği, ve hareketin
 çoğu zaman huzursuzluğu dindirmemesi.
+
+---
+
+# Hiyerarşik Gauss filtresi nedir, ne işe yarar
+
+URL: https://furkanbekdemir.com/notlar/hgf-nedir
+
+Hesaplamalı psikiyatri yazılarında bir model adı görüyorsunuz, altında birkaç
+Yunan harfi, ve "hasta grubunda şu parametre yüksekti" diyen bir cümle. Bu yazı
+o cümlenin ne söylediğini, ve daha önemlisi ne söylemediğini anlatmaya çalışıyor.
+
+Denklem yok. Amaç modeli kurabilmeniz değil, birinin kurduğu modelden çıkan bir
+iddiayı okurken nereye bakacağınızı bilmeniz. Matematiği ve çalışan kodu arayan
+okur için [Perception, Beliefs, and the Hierarchical Gaussian
+Filter](https://metaduck.com/computational-psychiatry-afterburn-hierarchical-gaussian-filters/)
+modeli `pyhgf` ile adım adım kuruyor; burada bulamayacağınız taraf orada.
+
+Terimlerin İngilizce karşılıkları ve Türkçede yerleşik olup olmadıkları
+[terimler sözlüğünde](terimler.qmd).
+
+## Çözmeye çalıştığı problem
+Bir hastanın bir şeyi öğrenmesini izlediğinizi düşünün. Diyelim ki iki kutudan
+hangisinin daha sık ödül verdiğini öğreniyor. Elinizde deneme deneme yanıtlar
+var: bu denemede A dedi, şunda B, sonra yine A.
+
+Bu diziden ne çıkarabilirsiniz? En basit haliyle kaç kere doğru bildiğini
+sayarsınız. Ama bu sayı öğrenmenin nasıl olduğu hakkında hiçbir şey söylemez.
+İki hasta aynı sayıda doğru yapıp bambaşka yollardan gitmiş olabilir: biri her
+yeni kanıta hızla uymuş, diğeri kararını geç değiştirmiş ama değiştirdiğinde
+tamamen değiştirmiş.
+
+Hiyerarşik Gauss Filtresi o dizinin arkasında öğrenen bir kişi olduğunu varsayar
+ve o kişinin nasıl öğrendiğini birkaç sayıyla tarif etmeye çalışır. Modellediği
+şey davranışın kendisi değil, davranışı üreten süreç.
+
+## Hiyerarşi neyi ifade ediyor
+Modelin adındaki "hiyerarşik", birbirinin üstünde duran belirsizlik
+katmanlarını anlatıyor.
+
+En alttaki katman şu anki durum: kutu şu an ödül veriyor mu. Onun üstündeki
+katman o durumun eğilimi: bu kutu genel olarak ne sıklıkla ödül veriyor. En
+üstteki katman ise dünyanın ne kadar oynak olduğu, yani bu kuralların ne
+sıklıkla değiştiği.
+
+Üçüncü katman modelin asıl fikri ve klinikte en çok karşılığı olan yeri. Ne
+kadar hızlı öğrenmeniz gerektiği, dünyanın ne kadar değiştiğine bağlıdır.
+Kurallar sık değişiyorsa yeni kanıta hızla uymak akıllıcadır. Kurallar sabitse
+aynı hız sizi gürültünün peşinde koşturur.
+
+İnsan bu ayarı sürekli yapar, model de onu sayısallaştırır. Dünyayı olduğundan
+oynak sanan biri tek bir olayı fazla ciddiye alır. Tersini sanan biri gerçekten
+değişen bir şeyi geç fark eder.
+
+## Parametreler klinik olarak ne anlatır
+En sık raporlanan sayı öğrenme oranı, ve HGF'nin buradaki farkı şu: oran sabit
+değil. Klasik öğrenme modellerinde kişinin bir öğrenme hızı vardır ve o hız
+denemeden denemeye aynı kalır. HGF'de her denemede yeniden hesaplanır, üstelik
+kişinin o an ne kadar emin olduğuna ve dünyayı ne kadar oynak gördüğüne göre.
+Şaşırtıcı bir olaydan sonra öğrenme hızlanır, tanıdık bir örüntü içinde
+yavaşlar.
+
+Bunu belirleyen büyüklüğün adı kesinlik, ve gündelik dildeki kesinlikle ilgisi
+yok; bir inancın ne kadar dar olduğunu ölçüyor. Dar bir inanç yeni kanıta az yer
+açar, geniş bir inanç çok yer açar. Klinik açıdan ilginç olan da bu: bir
+belirtinin kaynağı kanıtın kendisinde değil, kanıta verilen ağırlıkta olabilir.
+
+Modelin motoru öngörü hatası, yani olan ile beklenen arasındaki fark. Ama ham
+fark kullanılmaz, kesinlikle ağırlıklandırılmış hali kullanılır. Aynı büyüklükte
+bir sürpriz, kişinin o anki eminliğine göre başka sonuç doğurur.
+
+Bir de yanıt gürültüsü var, ki modelin dışında kalan her şeyi toplar. Kişi
+inancına uygun davranmayabilir: dikkati dağılmıştır, tuşa yanlış basmıştır,
+kararsızdır. Bu parametrenin varlığı önemli, çünkü onsuz düzensiz davranış tuhaf
+bir öğrenme biçimi gibi görünürdü.
+
+Bu sayıların çekiciliği açık. Her biri bir mekanizmaya benziyor ve klinik bir
+hikâyeye kolayca bağlanıyor. Aşağıdaki iki bölüm büyük ölçüde o kolaylığa karşı.
+
+## Model karşılaştırması neden zorunlu
+Bir model veriye uyduruldu ve sayılar çıktı. Bu sayıların anlamı olması için
+önce şunu bilmek gerekiyor: veriyi bu model mi üretti, yoksa başka bir model de
+aynı veriyi üretebilir miydi?
+
+Uyum iyiliği bunu cevaplamaz. Yeterince esnek bir model her veriye iyi uyar, ve
+iyi uyum modelin doğruluğunu değil esnekliğini gösteriyor olabilir.
+
+Bu yüzden tek bir model kurup sayı raporlamak yeterli sayılmaz. Birkaç aday
+model kurulur, hepsi aynı veriye uydurulur, ve hangisinin veriyi daha iyi
+açıkladığı karşılaştırılır. Karşılaştırma karmaşıklığı da cezalandırır, yani
+daha çok parametre koyup daha iyi uydurmak bir üstünlük sayılmaz.
+
+Bir yazıda model karşılaştırması yapılmamışsa, raporlanan parametreler bir
+mekanizmayı göstermez. Yalnızca veriyi o modele göre özetlediğinizde çıkan
+sayılardır, ve aradaki fark küçük değil.
+
+## Bir bulguya ne zaman güvenilir
+Bir model veriye uyduğunda her parametre için bir sayı üretir. Bu sayının
+üretilmiş olması, verinin o parametre hakkında bilgi taşıdığı anlamına gelmez.
+Bazı modellerde iki parametre birlikte hareket eder: biri artıp diğeri azalınca
+model aynı davranışı üretir. Böyle bir durumda ikisinin bileşimi veriden
+okunabilir ama tek başına hiçbiri okunamaz. Kestirim yine de bir sayı verir,
+çünkü vermek zorundadır, ve o sayı veriden çok kurulum tercihlerini yansıtır.
+
+Bunun teknik adı tanımlanabilirlik, ve bir hesaplamalı bulguyu okurken
+sorulacak ilk sorulardan biri.
+
+Sınama yöntemi parametre geri kazanımı. Bilinen değerlerle sahte veri üretirsiniz,
+aynı hattı o sahte veriye uygularsınız, ve koyduğunuz değerlerin geri gelip
+gelmediğine bakarsınız. Gelmiyorsa parametre o tasarımla ölçülemiyor demektir,
+ve bunu gerçek veriye bakarak anlamanın yolu yok. Kendi hattımda bu analizi veri
+toplamadan önce yaptım, ve sırasının önemli olduğunu düşünüyorum: sonraya
+bırakırsanız, sonuç kötü çıktığında elinizde artık yayınlanacak bir sayı olur ve
+onu bırakmak zorlaşır.
+
+Son olarak parametre adları. Bir parametreye "inanç kararsızlığı" ya da "öğrenme
+esnekliği" denmesi, o parametrenin bunu ölçtüğünü göstermez. Ad, modeli kuran
+kişinin yorumudur. Aynı sayı başka bir yorumla bambaşka bir mekanizmaya
+bağlanabilir, ve iki yorum arasında karar vermek için modelden fazlası gerekir.
+
+## Özetle
+HGF'nin klinik değeri, öğrenme hızını sabit bir kişilik özelliği saymak yerine
+kişinin dünyayı ne kadar oynak gördüğüne bağlı bir ayar olarak ele almasında.
+
+Ama ürettiği her sayı bir mekanizma değil. Bir hesaplamalı bulguyu okurken üç
+şeye bakın: model karşılaştırması yapılmış mı, geri kazanım gösterilmiş mi, ve
+parametrenin adı bir bulgu olarak mı yoksa bir etiket olarak mı kullanılıyor.
+Üçü de yoksa okuduğunuz şey bir mekanizma iddiası değil, bir özet istatistiktir.
+
+## Kaynaklar
+Modelin kendisi:
+
+Mathys C, Daunizeau J, Friston KJ, Stephan KE. A Bayesian foundation for
+individual learning under uncertainty. *Frontiers in Human Neuroscience*.
+2011;5:39. doi:[10.3389/fnhum.2011.00039](https://doi.org/10.3389/fnhum.2011.00039)
+
+Mathys CD, Lomakina EI, Daunizeau J, Iglesias S, Brodersen KH, Friston KJ,
+Stephan KE. Uncertainty in perception and the Hierarchical Gaussian Filter.
+*Frontiers in Human Neuroscience*.
+2014;8:825. doi:[10.3389/fnhum.2014.00825](https://doi.org/10.3389/fnhum.2014.00825)
+
+Model karşılaştırması ve parametre geri kazanımı için:
+
+Wilson RC, Collins AGE. Ten simple rules for the computational modeling of
+behavioral data. *eLife*.
+2019;8:e49547. doi:[10.7554/eLife.49547](https://doi.org/10.7554/eLife.49547)
+
+Rigoux L, Stephan KE, Friston KJ, Daunizeau J. Bayesian model selection for
+group studies, revisited. *NeuroImage*.
+2014;84:971-985. doi:[10.1016/j.neuroimage.2013.08.065](https://doi.org/10.1016/j.neuroimage.2013.08.065)
+
+Modeli uygulayan yazılım:
+
+Frässle S, Aponte EA, Bollmann S, ve ark. TAPAS: an open-source software package
+for translational neuromodeling and computational psychiatry. *Frontiers in
+Psychiatry*.
+2021;12:680811. doi:[10.3389/fpsyt.2021.680811](https://doi.org/10.3389/fpsyt.2021.680811)
+
+[← notlar](../notlar.qmd) ·
+[terimler sözlüğü](terimler.qmd)
 
 ---
 

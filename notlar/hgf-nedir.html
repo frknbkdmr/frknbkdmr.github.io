@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Hesaplamalı psikiyatri, hesaplamalı sinirbilim ve kestirimsel işlemleme üzerine Türkçe notlar. Yetmiş terimlik bir Türkçe karşılık sözlüğü ve klinik okura yazılmış giriş yazıları.">
+<meta name="description" content="Hesaplamalı psikiyatride sık kullanılan Hiyerarşik Gauss Filtresinin klinik okur için açıklaması: modelin parametreleri ne ölçer, model karşılaştırması neden zorunludur, ve bir hesaplamalı bulguya ne zaman güvenilir.">
 
-<title>Hesaplamalı psikiyatri üzerine Türkçe notlar – Furkan Bekdemir</title>
+<title>Hiyerarşik Gauss filtresi: klinik giriş – Furkan Bekdemir</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -30,12 +30,12 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script defer src="site_libs/quarto-nav/quarto-nav.js"></script>
-<link href="./favicon.svg" rel="icon" type="image/svg+xml">
-<script defer src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script defer src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-ba582a59ddf9978af026ca34ada741ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script defer src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<link href="../favicon.svg" rel="icon" type="image/svg+xml">
+<script defer src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script defer src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-ba582a59ddf9978af026ca34ada741ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "Sonuç yok",
@@ -57,9 +57,9 @@ ul.task-list li input[type="checkbox"] {
 
      the transfer EU courts have ruled on. Regenerate with fetch_fonts.py. -->
 
-<link rel="preload" href="./fonts/IBMPlexSans-400-latin.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="../fonts/IBMPlexSans-400-latin.woff2" as="font" type="font/woff2" crossorigin="">
 
-<link rel="stylesheet" href="./fonts/fonts.css">
+<link rel="stylesheet" href="../fonts/fonts.css">
 
 
 
@@ -67,9 +67,9 @@ ul.task-list li input[type="checkbox"] {
 
      and most link-preview crawlers ignore SVG favicons entirely. -->
 
-<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
 
-<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
 
 
 
@@ -201,15 +201,40 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<meta property="og:title" content="Hesaplamalı psikiyatri üzerine Türkçe notlar">
-<meta property="og:description" content="Hesaplamalı psikiyatri, hesaplamalı sinirbilim ve kestirimsel işlemleme üzerine Türkçe notlar. Yetmiş terimlik bir Türkçe karşılık sözlüğü ve klinik okura yazılmış giriş yazıları.">
+<meta property="og:title" content="Hiyerarşik Gauss filtresi: klinik giriş">
+<meta property="og:description" content="Hesaplamalı psikiyatride sık kullanılan Hiyerarşik Gauss Filtresinin klinik okur için açıklaması: modelin parametreleri ne ölçer, model karşılaştırması neden zorunludur, ve bir hesaplamalı bulguya ne zaman güvenilir.">
 <meta property="og:image" content="https://furkanbekdemir.com/og-image.png">
 <meta property="og:site_name" content="Furkan Bekdemir">
-<meta name="twitter:title" content="Hesaplamalı psikiyatri üzerine Türkçe notlar">
-<meta name="twitter:description" content="Hesaplamalı psikiyatri, hesaplamalı sinirbilim ve kestirimsel işlemleme üzerine Türkçe notlar. Yetmiş terimlik bir Türkçe karşılık sözlüğü ve klinik okura yazılmış giriş yazıları.">
+<meta name="twitter:title" content="Hiyerarşik Gauss filtresi: klinik giriş">
+<meta name="twitter:description" content="Hesaplamalı psikiyatride sık kullanılan Hiyerarşik Gauss Filtresinin klinik okur için açıklaması: modelin parametreleri ne ölçer, model karşılaştırması neden zorunludur, ve bir hesaplamalı bulguya ne zaman güvenilir.">
 <meta name="twitter:image" content="https://furkanbekdemir.com/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://furkanbekdemir.com/notlar">
+<link rel="canonical" href="https://furkanbekdemir.com/notlar/hgf-nedir">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Furkan Bekdemir",
+      "item": "https://furkanbekdemir.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Notlar",
+      "item": "https://furkanbekdemir.com/notlar"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Hiyerarşik Gauss filtresi: klinik giriş"
+    }
+  ]
+}
+</script>
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -220,7 +245,7 @@ ul.task-list li input[type="checkbox"] {
     <nav lang="en" class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Furkan Bekdemir</span>
     </a>
   </div>
@@ -230,19 +255,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./research/index.html"> 
+    <a class="nav-link" href="../research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./tools.html"> 
+    <a class="nav-link" href="../tools.html"> 
 <span class="menu-text">Instruments &amp; code</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./notlar.html" aria-current="page"> 
+    <a class="nav-link" href="../notlar.html"> 
 <span class="menu-text">Notlar</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
+    <a class="nav-link" href="../cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -262,7 +287,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Notlar</h1>
+<h1 class="title">Hiyerarşik Gauss filtresi nedir, ne işe yarar</h1>
 </div>
 
 
@@ -280,39 +305,96 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="lede">
-<p>Hesaplamalı psikiyatri üzerine, klinik okura yazılmış kapsamlı bir Türkçe kaynağa rastlamadım. Terimlerin karşılığı da oturmuş değil. Buradaki notlar o boşluğu doldurma denemesi.</p>
+<p>Hesaplamalı psikiyatri yazılarında bir model adı görüyorsunuz, altında birkaç Yunan harfi, ve “hasta grubunda şu parametre yüksekti” diyen bir cümle. Bu yazı o cümlenin ne söylediğini, ve daha önemlisi ne söylemediğini anlatmaya çalışıyor.</p>
 </div>
-<section id="yazılanlar" class="level2 k-head">
-<h2 class="k-head" data-anchor-id="yazılanlar">Yazılanlar</h2>
-<div class="entry">
-<div class="meta">
-<p>70 terim · 52’si kaynaklı · <span class="status done">yayında</span></p>
+<p>Denklem yok. Amaç modeli kurabilmeniz değil, birinin kurduğu modelden çıkan bir iddiayı okurken nereye bakacağınızı bilmeniz. Matematiği ve çalışan kodu arayan okur için <a href="https://metaduck.com/computational-psychiatry-afterburn-hierarchical-gaussian-filters/">Perception, Beliefs, and the Hierarchical Gaussian Filter</a> modeli <code>pyhgf</code> ile adım adım kuruyor; burada bulamayacağınız taraf orada.</p>
+<p>Terimlerin İngilizce karşılıkları ve Türkçede yerleşik olup olmadıkları <a href="../notlar/terimler.html">terimler sözlüğünde</a>.</p>
+<section id="çözmeye-çalıştığı-problem" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="çözmeye-çalıştığı-problem">Çözmeye çalıştığı problem</h2>
+<p>Bir hastanın bir şeyi öğrenmesini izlediğinizi düşünün. Diyelim ki iki kutudan hangisinin daha sık ödül verdiğini öğreniyor. Elinizde deneme deneme yanıtlar var: bu denemede A dedi, şunda B, sonra yine A.</p>
+<p>Bu diziden ne çıkarabilirsiniz? En basit haliyle kaç kere doğru bildiğini sayarsınız. Ama bu sayı öğrenmenin nasıl olduğu hakkında hiçbir şey söylemez. İki hasta aynı sayıda doğru yapıp bambaşka yollardan gitmiş olabilir: biri her yeni kanıta hızla uymuş, diğeri kararını geç değiştirmiş ama değiştirdiğinde tamamen değiştirmiş.</p>
+<p>Hiyerarşik Gauss Filtresi o dizinin arkasında öğrenen bir kişi olduğunu varsayar ve o kişinin nasıl öğrendiğini birkaç sayıyla tarif etmeye çalışır. Modellediği şey davranışın kendisi değil, davranışı üreten süreç.</p>
+</section>
+<section id="hiyerarşi-neyi-ifade-ediyor" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="hiyerarşi-neyi-ifade-ediyor">Hiyerarşi neyi ifade ediyor</h2>
+<p>Modelin adındaki “hiyerarşik”, birbirinin üstünde duran belirsizlik katmanlarını anlatıyor.</p>
+<p>En alttaki katman şu anki durum: kutu şu an ödül veriyor mu. Onun üstündeki katman o durumun eğilimi: bu kutu genel olarak ne sıklıkla ödül veriyor. En üstteki katman ise dünyanın ne kadar oynak olduğu, yani bu kuralların ne sıklıkla değiştiği.</p>
+<p>Üçüncü katman modelin asıl fikri ve klinikte en çok karşılığı olan yeri. Ne kadar hızlı öğrenmeniz gerektiği, dünyanın ne kadar değiştiğine bağlıdır. Kurallar sık değişiyorsa yeni kanıta hızla uymak akıllıcadır. Kurallar sabitse aynı hız sizi gürültünün peşinde koşturur.</p>
+<p>İnsan bu ayarı sürekli yapar, model de onu sayısallaştırır. Dünyayı olduğundan oynak sanan biri tek bir olayı fazla ciddiye alır. Tersini sanan biri gerçekten değişen bir şeyi geç fark eder.</p>
+</section>
+<section id="parametreler-klinik-olarak-ne-anlatır" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="parametreler-klinik-olarak-ne-anlatır">Parametreler klinik olarak ne anlatır</h2>
+<p>En sık raporlanan sayı öğrenme oranı, ve HGF’nin buradaki farkı şu: oran sabit değil. Klasik öğrenme modellerinde kişinin bir öğrenme hızı vardır ve o hız denemeden denemeye aynı kalır. HGF’de her denemede yeniden hesaplanır, üstelik kişinin o an ne kadar emin olduğuna ve dünyayı ne kadar oynak gördüğüne göre. Şaşırtıcı bir olaydan sonra öğrenme hızlanır, tanıdık bir örüntü içinde yavaşlar.</p>
+<p>Bunu belirleyen büyüklüğün adı kesinlik, ve gündelik dildeki kesinlikle ilgisi yok; bir inancın ne kadar dar olduğunu ölçüyor. Dar bir inanç yeni kanıta az yer açar, geniş bir inanç çok yer açar. Klinik açıdan ilginç olan da bu: bir belirtinin kaynağı kanıtın kendisinde değil, kanıta verilen ağırlıkta olabilir.</p>
+<p>Modelin motoru öngörü hatası, yani olan ile beklenen arasındaki fark. Ama ham fark kullanılmaz, kesinlikle ağırlıklandırılmış hali kullanılır. Aynı büyüklükte bir sürpriz, kişinin o anki eminliğine göre başka sonuç doğurur.</p>
+<p>Bir de yanıt gürültüsü var, ki modelin dışında kalan her şeyi toplar. Kişi inancına uygun davranmayabilir: dikkati dağılmıştır, tuşa yanlış basmıştır, kararsızdır. Bu parametrenin varlığı önemli, çünkü onsuz düzensiz davranış tuhaf bir öğrenme biçimi gibi görünürdü.</p>
+<p>Bu sayıların çekiciliği açık. Her biri bir mekanizmaya benziyor ve klinik bir hikâyeye kolayca bağlanıyor. Aşağıdaki iki bölüm büyük ölçüde o kolaylığa karşı.</p>
+</section>
+<section id="model-karşılaştırması-neden-zorunlu" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="model-karşılaştırması-neden-zorunlu">Model karşılaştırması neden zorunlu</h2>
+<p>Bir model veriye uyduruldu ve sayılar çıktı. Bu sayıların anlamı olması için önce şunu bilmek gerekiyor: veriyi bu model mi üretti, yoksa başka bir model de aynı veriyi üretebilir miydi?</p>
+<p>Uyum iyiliği bunu cevaplamaz. Yeterince esnek bir model her veriye iyi uyar, ve iyi uyum modelin doğruluğunu değil esnekliğini gösteriyor olabilir.</p>
+<p>Bu yüzden tek bir model kurup sayı raporlamak yeterli sayılmaz. Birkaç aday model kurulur, hepsi aynı veriye uydurulur, ve hangisinin veriyi daha iyi açıkladığı karşılaştırılır. Karşılaştırma karmaşıklığı da cezalandırır, yani daha çok parametre koyup daha iyi uydurmak bir üstünlük sayılmaz.</p>
+<p>Bir yazıda model karşılaştırması yapılmamışsa, raporlanan parametreler bir mekanizmayı göstermez. Yalnızca veriyi o modele göre özetlediğinizde çıkan sayılardır, ve aradaki fark küçük değil.</p>
+</section>
+<section id="bir-bulguya-ne-zaman-güvenilir" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="bir-bulguya-ne-zaman-güvenilir">Bir bulguya ne zaman güvenilir</h2>
+<p>Bir model veriye uyduğunda her parametre için bir sayı üretir. Bu sayının üretilmiş olması, verinin o parametre hakkında bilgi taşıdığı anlamına gelmez. Bazı modellerde iki parametre birlikte hareket eder: biri artıp diğeri azalınca model aynı davranışı üretir. Böyle bir durumda ikisinin bileşimi veriden okunabilir ama tek başına hiçbiri okunamaz. Kestirim yine de bir sayı verir, çünkü vermek zorundadır, ve o sayı veriden çok kurulum tercihlerini yansıtır.</p>
+<p>Bunun teknik adı tanımlanabilirlik, ve bir hesaplamalı bulguyu okurken sorulacak ilk sorulardan biri.</p>
+<p>Sınama yöntemi parametre geri kazanımı. Bilinen değerlerle sahte veri üretirsiniz, aynı hattı o sahte veriye uygularsınız, ve koyduğunuz değerlerin geri gelip gelmediğine bakarsınız. Gelmiyorsa parametre o tasarımla ölçülemiyor demektir, ve bunu gerçek veriye bakarak anlamanın yolu yok. Kendi hattımda bu analizi veri toplamadan önce yaptım, ve sırasının önemli olduğunu düşünüyorum: sonraya bırakırsanız, sonuç kötü çıktığında elinizde artık yayınlanacak bir sayı olur ve onu bırakmak zorlaşır.</p>
+<p>Son olarak parametre adları. Bir parametreye “inanç kararsızlığı” ya da “öğrenme esnekliği” denmesi, o parametrenin bunu ölçtüğünü göstermez. Ad, modeli kuran kişinin yorumudur. Aynı sayı başka bir yorumla bambaşka bir mekanizmaya bağlanabilir, ve iki yorum arasında karar vermek için modelden fazlası gerekir.</p>
+</section>
+<section id="özetle" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="özetle">Özetle</h2>
+<p>HGF’nin klinik değeri, öğrenme hızını sabit bir kişilik özelliği saymak yerine kişinin dünyayı ne kadar oynak gördüğüne bağlı bir ayar olarak ele almasında.</p>
+<p>Ama ürettiği her sayı bir mekanizma değil. Bir hesaplamalı bulguyu okurken üç şeye bakın: model karşılaştırması yapılmış mı, geri kazanım gösterilmiş mi, ve parametrenin adı bir bulgu olarak mı yoksa bir etiket olarak mı kullanılıyor. Üçü de yoksa okuduğunuz şey bir mekanizma iddiası değil, bir özet istatistiktir.</p>
+</section>
+<section id="kaynaklar" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="kaynaklar">Kaynaklar</h2>
+<p>Modelin kendisi:</p>
+<div class="src">
+<p>Mathys C, Daunizeau J, Friston KJ, Stephan KE. A Bayesian foundation for individual learning under uncertainty. <em>Frontiers in Human Neuroscience</em>. 2011;5:39. doi:<a href="https://doi.org/10.3389/fnhum.2011.00039">10.3389/fnhum.2011.00039</a></p>
 </div>
-<section id="terimler" class="level3">
-<h3 data-anchor-id="terimler"><a href="./notlar/terimler.html" class="title">Terimler</a></h3>
-<p>Hesaplamalı psikiyatri terimlerinin Türkçe karşılıkları, ve her biri için o karşılığın gerçekten yerleşik olup olmadığı. On sekizinde yerleşik bir karşılık bulamadım, ve listenin asıl işi bunu yazmak.</p>
-</section>
+<div class="src">
+<p>Mathys CD, Lomakina EI, Daunizeau J, Iglesias S, Brodersen KH, Friston KJ, Stephan KE. Uncertainty in perception and the Hierarchical Gaussian Filter. <em>Frontiers in Human Neuroscience</em>. 2014;8:825. doi:<a href="https://doi.org/10.3389/fnhum.2014.00825">10.3389/fnhum.2014.00825</a></p>
 </div>
-<div class="entry">
-<div class="meta">
-<p>Klinik okur için · denklemsiz · <span class="status done">yayında</span></p>
+<p>Model karşılaştırması ve parametre geri kazanımı için:</p>
+<div class="src">
+<p>Wilson RC, Collins AGE. Ten simple rules for the computational modeling of behavioral data. <em>eLife</em>. 2019;8:e49547. doi:<a href="https://doi.org/10.7554/eLife.49547">10.7554/eLife.49547</a></p>
 </div>
-<section id="hiyerarşik-gauss-filtresi-nedir-ne-işe-yarar" class="level3">
-<h3 data-anchor-id="hiyerarşik-gauss-filtresi-nedir-ne-işe-yarar"><a href="./notlar/hgf-nedir.html" class="title">Hiyerarşik Gauss filtresi nedir, ne işe yarar</a></h3>
-<p>Modelin parametreleri klinik olarak ne anlatır, model karşılaştırması neden zorunludur, ve bir hesaplamalı bulguya ne zaman güvenilir. Bir parametrenin kestirilebilmesi, onun yorumlanabileceği anlamına gelmiyor.</p>
-</section>
+<div class="src">
+<p>Rigoux L, Stephan KE, Friston KJ, Daunizeau J. Bayesian model selection for group studies, revisited. <em>NeuroImage</em>. 2014;84:971-985. doi:<a href="https://doi.org/10.1016/j.neuroimage.2013.08.065">10.1016/j.neuroimage.2013.08.065</a></p>
 </div>
-</section>
-<section id="planlanan-yazılar" class="level2 k-head">
-<h2 class="k-head" data-anchor-id="planlanan-yazılar">Planlanan yazılar</h2>
-<section id="öngörü-hatası-kesinlik-ve-psikiyatrik-belirti" class="level3 title entry">
-<h3 class="title" data-anchor-id="öngörü-hatası-kesinlik-ve-psikiyatrik-belirti">Öngörü hatası, kesinlik ve psikiyatrik belirti</h3>
-<p>Bayesçi beyin çerçevesinin klinik okur için girişi: öngörü hatası ne demek, kesinlik ağırlıklandırması neyi belirler, ve bunlar muayenehanede gördüğümüz belirtilere nasıl bağlanır.</p>
-</section>
-<section id="akatizi-aktif-çıkarım-çerçevesinden-bir-bakış" class="level3 title entry">
-<h3 class="title" data-anchor-id="akatizi-aktif-çıkarım-çerçevesinden-bir-bakış">Akatizi: aktif çıkarım çerçevesinden bir bakış</h3>
-<p>Akatizinin öznel ve nesnel bileşenlerinin neden ayrışabildiği, ve hareketin çoğu zaman huzursuzluğu dindirmemesi.</p>
-</section>
+<p>Modeli uygulayan yazılım:</p>
+<div class="src">
+<p>Frässle S, Aponte EA, Bollmann S, ve ark. TAPAS: an open-source software package for translational neuromodeling and computational psychiatry. <em>Frontiers in Psychiatry</em>. 2021;12:680811. doi:<a href="https://doi.org/10.3389/fpsyt.2021.680811">10.3389/fpsyt.2021.680811</a></p>
+</div>
+<!-- An explanatory article, so Article rather than the generic WebPage. No
+     datePublished until it is actually published. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://furkanbekdemir.com/notlar/hgf-nedir#article",
+  "headline": "Hiyerarşik Gauss filtresi nedir, ne işe yarar",
+  "description": "Hesaplamalı psikiyatride sık kullanılan Hiyerarşik Gauss Filtresinin klinik okur için açıklaması: modelin parametreleri ne ölçer, model karşılaştırması neden zorunludur, ve bir hesaplamalı bulguya ne zaman güvenilir.",
+  "inLanguage": "tr",
+  "about": [
+    "Hierarchical Gaussian Filter",
+    "Computational psychiatry",
+    "Belief updating",
+    "Predictive processing",
+    "Model comparison",
+    "Parameter recovery"
+  ],
+  "author": { "@id": "https://furkanbekdemir.com/#person" },
+  "publisher": { "@id": "https://furkanbekdemir.com/#person" },
+  "url": "https://furkanbekdemir.com/notlar/hgf-nedir"
+}
+</script>
+<div class="k">
+<p><a href="../notlar.html">← notlar</a> · <a href="../notlar/terimler.html">terimler sözlüğü</a></p>
+</div>
 
 
 </section>
