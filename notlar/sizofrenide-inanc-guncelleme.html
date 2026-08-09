@@ -35,7 +35,7 @@ ul.task-list li input[type="checkbox"] {
 <script defer src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script defer src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-ba582a59ddf9978af026ca34ada741ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-fff20b667c795473fc22313f02d39c9f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "Sonuç yok",
@@ -295,7 +295,19 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Yayınlanma Tarihi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">9 Ağustos 2026</p>
+    </div>
+  </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Değiştirilme Tarihi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">9 Ağustos 2026</p>
+    </div>
+  </div>
     
   </div>
   
@@ -330,7 +342,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="k-head" data-anchor-id="modelleme-neyi-değiştirdi">Modelleme neyi değiştirdi</h2>
 <p>Son on yılın yaklaşımı boncuk saymayı bırakıp kararın arkasındaki süreci modellemek. Tablo zenginleşti, düzeni bozuldu.</p>
 <p>En büyük örneklem Hauke’nin: 261 psikoz hastası, 56 kontrol. Hastalarda inanç kararsızlığı yüksekti; sonuca atlama hem bununla hem de başlangıç belirsizliğinin büyüklüğüyle ilişkiliydi. Fark hastayla kontrol arasında, bir de sonuca atlayanla atlamayan arasında çıktı. Güncel sanrısı az olan hastayla çok olan hasta arasında çıkmadı. Aynı çalışmanın klinik açıdan en ilginç tarafı başka: inanç kararsızlığı, üstbiliş eğitimine verilecek yanıtı bireysel düzeyde öngörebildi.</p>
-<p>Fromm’un tasarımı tanıyla belirtiyi bilerek ayırıyor. Sanrısı az ve çok olan sağlıklılar, sanrısı az ve çok olan hastalar. Sanrı, fronto-striatal bölgelerdeki kesinlik-ağırlıklı öngörü hatası yanıtının artışıyla ilişkiliydi; şizofreni tanısı ise volatilitenin olduğundan yüksek tahmin edilmesi ve sinirsel temsilinin zayıflamasıyla. İki eksen aynı parametreye bağlanmıyor.</p>
+<p>Fromm’un tasarımı tanıyla belirtiyi bilerek ayırıyor. Sanrısı az ve çok olan sağlıklılar, sanrısı az ve çok olan hastalar. Sanrı, fronto-striatal bölgelerdeki hassasiyet-ağırlıklı öngörü hatası yanıtının artışıyla ilişkiliydi; şizofreni tanısı ise volatilitenin olduğundan yüksek tahmin edilmesi ve sinirsel temsilinin zayıflamasıyla. İki eksen aynı parametreye bağlanmıyor.</p>
 <p>Sheffield paranoyaya baktı: volatiliteye dair önsel inanç paranoyayla ilişkiliydi, olağandışı düşünce içeriğiyle ya da anksiyeteyle değil. Sloan bir adım geriye giderek çocukluk çağı örselenmesine baktı: özellikle tehdit türündeki örselenme, volatilitenin daha yüksek beklenmesiyle ilişkiliydi. Mikus’un ayrımı belirti eksenindeydi. Pozitif belirtiler volatiliteye dair belirsizlikle ilişkiliydi, negatif belirtiler gözlem gürültüsüne dair katı inançlarla.</p>
 </section>
 <section id="parametre-psikoza-özgü-değil" class="level2 k-head">
@@ -417,12 +429,16 @@ ul.task-list li input[type="checkbox"] {
 <div class="src">
 <p>Hess AJ, Iglesias S, Köchli L, ve ark. Bayesian workflow for generative modeling in computational psychiatry. <em>Computational Psychiatry</em>. 2025;9(1):76-99. doi:<a href="https://doi.org/10.5334/cpsy.116">10.5334/cpsy.116</a></p>
 </div>
-<!-- Açıklayıcı bir yazı, dolayısıyla genel WebPage yerine Article. Yayımlanana
-     kadar datePublished yok. -->
+<!-- Açıklayıcı bir yazı, dolayısıyla genel WebPage yerine Article.
+     datePublished ve dateModified'i post-render ön bilgiden alıp buraya
+     enjekte ediyor; iki yerde elle tutulan tarih ilk düzeltmede birbirinden
+     ayrılır. -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
+  "datePublished": "2026-08-09",
+  "dateModified": "2026-08-09",
   "@id": "https://furkanbekdemir.com/notlar/sizofrenide-inanc-guncelleme#article",
   "headline": "Şizofrenide inanç güncelleme ve aceleci karar",
   "description": "Sonuca atlama yanlılığı, beads görevi ve hesaplamalı modellerin şizofrenide inanç güncelleme hakkında ne gösterdiği. Meta-analizler ne kadarını destekliyor, hangi bulgu tanıya hangisi belirtiye bağlanıyor ve ölçümün güvenilirliği nerede duruyor.",

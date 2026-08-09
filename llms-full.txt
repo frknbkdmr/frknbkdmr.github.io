@@ -677,9 +677,10 @@ bir mekanizma var. O mekanizmanın zayıfladığı yerlerde psikiyatrik belirtil
 çıkıyor.
 
 Gıdıklanma bunun en tanıdık hali. Aynı mekanizmanın laboratuvarda ölçülen bir
-karşılığı var ve o ölçüm psikiyatride birkaç ayrı belirtiyle ilişkilendiriliyor. Terimlerin
-İngilizce karşılıkları [terimler sözlüğünde](terimler.qmd); kesinlik ve öngörü
-hatası kavramlarının daha geniş bir anlatımı [HGF yazısında](hgf-nedir.qmd).
+karşılığı var ve o ölçüm psikiyatride birkaç ayrı belirtiyle ilişkilendiriliyor.
+Terimlerin İngilizce karşılıkları [terimler sözlüğünde](terimler.qmd);
+hassasiyet ve öngörü hatası kavramlarının daha geniş bir anlatımı [HGF
+yazısında](hgf-nedir.qmd).
 
 ## Gıdıklanmadan başlayan mesele
 Avucunuza kendi elinizle dokunmakla aynı dokunuşun birinden gelmesi arasında
@@ -749,9 +750,9 @@ diyor. Kilteni ve Ehrsson daha temel bir koşul gösterdi: dokunan eli kendinize
 saymanız gerekiyor. Kauçuk el yanılsamasıyla sahiplik algısı değiştirildiğinde
 azaltım da yer değiştiriyor.
 
-## Kesinlikle bağlantısı
+## Hassasiyetle bağlantısı
 Aktif çıkarım çerçevesinde azaltımın karşılığı, hareket sırasında duyusal
-kanıtın kesinliğinin düşürülmesi. Bunun bir zorunluluk olduğu iddiası şuna
+kanıtın hassasiyetinin düşürülmesi. Bunun bir zorunluluk olduğu iddiası şuna
 dayanıyor: hareket etmek için hareket ettiğinize dair öngörünün, henüz hareket
 etmediğinizi söyleyen duyusal kanıta baskın gelmesi gerekir. Kanıtın ağırlığı
 düşürülmezse hareket başlamaz.
@@ -959,13 +960,14 @@ kişinin o an ne kadar emin olduğuna ve dünyayı ne kadar oynak gördüğüne 
 Şaşırtıcı bir olaydan sonra öğrenme hızlanır, tanıdık bir örüntü içinde
 yavaşlar.
 
-Bunu belirleyen büyüklüğün adı kesinlik. Gündelik dildeki kesinlikle ilgisi
-yok; bir inancın ne kadar dar olduğunu ölçüyor. Dar bir inanç yeni kanıta az yer
-açar, geniş bir inanç çok yer açar. Klinik açıdan ilginç olan da bu: bir
-belirtinin kaynağı kanıtın kendisinde değil, kanıta verilen ağırlıkta olabilir.
+Bunu belirleyen büyüklüğün adı hassasiyet (precision). Gündelik dildeki
+hassasiyetle ilgisi yok; bir inancın ne kadar dar olduğunu ölçüyor. Dar bir
+inanç yeni kanıta az yer açar, geniş bir inanç çok yer açar. Klinik açıdan
+ilginç olan da bu: bir belirtinin kaynağı kanıtın kendisinde değil, kanıta
+verilen ağırlıkta olabilir.
 
 Modelin motoru öngörü hatası, yani olan ile beklenen arasındaki fark. Ama ham
-fark kullanılmaz, kesinlikle ağırlıklandırılmış hali kullanılır. Aynı büyüklükte
+fark kullanılmaz, hassasiyetle ağırlıklandırılmış hali kullanılır. Aynı büyüklükte
 bir sürpriz, kişinin o anki eminliğine göre başka sonuç doğurur.
 
 Bir de yanıt gürültüsü var: modelin açıklayamadığı her şeyi bu parametre toplar.
@@ -1133,7 +1135,7 @@ başka: inanç kararsızlığı, üstbiliş eğitimine verilecek yanıtı bireys
 
 Fromm'un tasarımı tanıyla belirtiyi bilerek ayırıyor. Sanrısı az ve çok olan
 sağlıklılar, sanrısı az ve çok olan hastalar. Sanrı, fronto-striatal bölgelerdeki
-kesinlik-ağırlıklı öngörü hatası yanıtının artışıyla ilişkiliydi; şizofreni
+hassasiyet-ağırlıklı öngörü hatası yanıtının artışıyla ilişkiliydi; şizofreni
 tanısı ise volatilitenin olduğundan yüksek tahmin edilmesi ve sinirsel
 temsilinin zayıflamasıyla. İki eksen aynı parametreye bağlanmıyor.
 
@@ -1179,10 +1181,10 @@ Bir parametrenin klinikte iş görmesi için gruplar arasında ayrışması yetm
 Aynı kişide iki hafta sonra tekrar ölçüldüğünde benzer çıkması da gerekiyor.
 
 Karvelis'in grubu bunu denedi. Otuz dokuz sağlıklı katılımcı aynı görevi iki
-hafta arayla tamamladı, veriler HGF ile modellendi. Test-tekrar test güvenilirliği büyük ölçüde
-düşük çıktı, davranışsal ölçümlerden de iyi değildi. Yazarların ayırdığı başlıca
-kaynak, parametre geri kazanımının gösterdiği ölçüm gürültüsü. Grup düzeyinde
-görünüş geçerliliği var, birey düzeyinde yok.
+hafta arayla tamamladı, veriler HGF ile modellendi. Test-tekrar test
+güvenilirliği büyük ölçüde düşük çıktı, davranışsal ölçümlerden de iyi değildi.
+Yazarların ayırdığı başlıca kaynak, parametre geri kazanımının gösterdiği ölçüm
+gürültüsü. Grup düzeyinde görünüş geçerliliği var, birey düzeyinde yok.
 
 Hess'in ekibi sorunun bir kısmını verinin kendisine bağlıyor. Bu görevlerin çoğu
 ikili yanıt üretiyor, ikili yanıt ise az bilgi taşıyor. Yanıt sürelerini de
@@ -1313,21 +1315,20 @@ in computational psychiatry. *Computational Psychiatry*.
 URL: https://furkanbekdemir.com/notlar/terimler
 
 Hesaplamalı psikiyatride ve hesaplamalı sinirbilimde kullandığım terimlerin
-Türkçe karşılıkları, ve her biri için karşılığın gerçekten yerleşik olup
+Türkçe karşılıkları ve her biri için karşılığın gerçekten yerleşik olup
 olmadığı. Yetmiş terimin elli ikisinde o terimin Türkçe kullanıldığı bir
-akademik kaynak bulabildim; on sekizinde bulamadım, ve bunu yazmak listenin
-asıl işi.
+akademik kaynak bulabildim, on sekizinde bulamadım. Bunu yazmak listenin asıl
+işi.
 
 Bunu tezim için tuttum. Kendi metnimde aynı terime iki farklı karşılık
 vermemek gerekiyordu, kararları da bir yere yazmam gerekiyordu, bu liste o
 yerin kendisi. Bir standart önerme iddiam yok: yerleşik karşılık ilan etmek
-benim yetkimde olan bir şey değil, ve zaten çoğu satırda yaptığım şey karar
-vermek değil, birinin çoktan verdiği kararı bulup kaydetmek.
+benim yetkimde olan bir şey değil. Zaten çoğu satırda yaptığım şey karar vermek
+değil, birinin çoktan verdiği kararı bulup kaydetmek.
 
 Terimlerin bir kısmı psikiyatriden değil sinirbilimden geliyor. Çekici
 dinamikler, Hopfield ağı ve enerji yüzeyi hesaplamalı sinirbilimin kelimeleri;
-şizofreni modellerine oradan girmişler, ve Türkçeleri de o literatürde
-oturmuş.
+şizofreni modellerine oradan girmişler, Türkçeleri de o literatürde oturmuş.
 
 Her satır ne önerdiğimi, neye dayandığımı ve dayanağın ne kadar sağlam
 olduğunu söylüyor. Karşılığı olmayan terimi zorlamak yerine boş bırakmak,
@@ -1371,7 +1372,7 @@ Kaynak: [Bayesçi Yaklaşım ile Regresyon Modellerinde Parametre Tahmini](https
 ### Variational Bayes
 Değişimsel / varyasyonel Bayes · kaynaklı
 
-"Değişimsel" bir topluluk sözlüğünde, "varyasyonel" ise günlük kullanımda. İkisi arasında karar veremedim, ve kaynak hakemli olmadığı için ilk geçişte İngilizcesini de veriyorum.
+"Değişimsel" bir topluluk sözlüğünde, "varyasyonel" ise günlük kullanımda. İkisi arasında karar veremedim; kaynak hakemli olmadığı için ilk geçişte İngilizcesini de veriyorum.
 
 Kaynak: [deeplearningturkiye TR-YZ Terim Sözlüğü](https://github.com/deeplearningturkiye/turkce-yapay-zeka-terimleri/blob/master/turkce-ingilizce.md) (topluluk kaynağı, hakemli değil)
 
@@ -1411,19 +1412,21 @@ Türkçe Bayesçi beyin yazılarında "öngörü hatası" olarak yerleşmiş dur
 Kaynak: [Öngörücü İşleme ve Öngörü Hatası — Yayılmış Zihin (DergiPark)](https://dergipark.org.tr/tr/download/article-file/4835682)
 
 ### Precision (inverse variance)
-Kesinlik / precision (varyansın tersi) · kaynaklı
+Hassasiyet / kesinlik (varyansın tersi) · kaynaklı
 
 Ben "hassasiyet" diyorum, ama "kesinlik" de yaygın. Seçim keyfî değil:
 "kesinlik" gündelik dilde doğruluk çağrıştırıyor, oysa kastedilen varyansın
 tersi. Yine de literatürde ikisi de var, o yüzden ilk geçişte İngilizcesini
-vermek gerekiyor.
+vermek gerekiyor. Bileşik terimde bulduğum Türkçe kaynak "kesinlik
+ağırlıklandırma" diyor; kendi metnimde "hassasiyet-ağırlıklı" yazıyorum ve
+farkı burada bırakıyorum.
 
 İkisi de Türkçe kaynaklarda geçiyor.
 
 Kaynak: [Öngörücü İşleme ve Öngörü Hatası — Yayılmış Zihin (DergiPark)](https://dergipark.org.tr/tr/download/article-file/4835682)
 
 ### Precision-weighted prediction error
-Kesinlik-ağırlıklı öngörü hatası · kaynaklı
+Hassasiyet-ağırlıklı / kesinlik-ağırlıklı öngörü hatası · kaynaklı
 
 İki parçası da yerleşik olduğu için bileşiği de sorun çıkarmıyor. Birleşik terimin kendisi Türkçede yok, o yüzden ilk geçişte İngilizcesini veriyorum.
 
@@ -1606,7 +1609,7 @@ Kaynak: [Model Seçim Kriterleri: AIC, BIC, ICOMP (İstatistik Araştırma Dergi
 ### Parameter trade-off
 Parametre ödünleşimi · kaynaklı
 
-"Parametre ödünleşimi" şeffaf, ve yakın akrabası "yanlılık-varyans ikilemi" Türkçede zaten yerleşik.
+"Parametre ödünleşimi" şeffaf, yakın akrabası "yanlılık-varyans ikilemi" ise Türkçede zaten yerleşik.
 
 Kaynak: [Derin Sinir Ağları ile En İyi Modelin Belirlenmesi (DergiPark)](https://dergipark.org.tr/tr/download/article-file/821607)
 
@@ -1732,7 +1735,7 @@ Kavram kaynağı (TR): [Perseküsyon sanrılarını açıklamaya yönelik biliş
 ### Initial certainty
 Başlangıç kesinliği · kaynaklı
 
-"Başlangıç kesinliği" doğrudan karşılık, ve sonuca atlama literatüründe Türkçe bağlamı var.
+"Başlangıç kesinliği" doğrudan karşılık, sonuca atlama literatüründe Türkçe bağlamı da var.
 
 Kaynak: [Şizofreni Tedavisinde Bilişsel Davranışçı Terapi (Nöropsikiyatri Arşivi 2021;58 Ek1)](https://noropsikiyatriarsivi.com/sayilar/2021/58_ek_1/tr/npa_58_Ek1_61-65_dz.pdf)
 
@@ -1800,11 +1803,6 @@ Kaynak: Özdemir & Özdemir 2016, Glutamat Sistemi ve Şizofreni, [DOI:10.18863/
 
 ### Aberrant salience
 Anormal/sapkın **önem atfetme** · kaynaklı
-
-Önce "sapkın belirginlik" önermiştim, salience'ı belirginlik diye
-düşünerek. Tarama bunu desteklemedi: Türkçe kaynakta yerleşik olan "önem
-atfetme". Kendi önerimi bırakmak gerekti, ve bu listede tuttuğum kayıt
-tam olarak bunun için.
 
 "Önem atfetme" hakemli bir Türkçe kaynakta kullanılmış.
 
