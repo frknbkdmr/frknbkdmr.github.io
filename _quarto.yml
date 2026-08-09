@@ -61,14 +61,13 @@ website:
         href: research/index.qmd
       - text: "Instruments &amp; code"
         href: tools.qmd
-      # Both languages get a navbar entry rather than one hiding behind the
-      # other. The Turkish notes are the originals and the English ones reach
-      # further; burying either behind a link inside the other costs more than
-      # a fifth item does.
+      # One entry, not one per language. /notes carries the English notes and
+      # links straight to /notlar, which keeps the navbar at four items and the
+      # Turkish index one click away. /notlar keeps its address either way: it
+      # is in the sitemap and cited, so it never moves, it just stops being
+      # navbar furniture.
       - text: "Notes"
         href: notes.qmd
-      - text: "Notlar"
-        href: notlar.qmd
       - text: "CV"
         href: cv.qmd
   page-footer:

@@ -15,6 +15,10 @@ kaynağa rastlamadım. Terimlerin karşılığı da oturmuş değil. Buradaki no
 boşluğu doldurma denemesi.
 :::
 
+Üç yazının İngilizcesi [/notes](notes.qmd) altında. Sözlük yalnızca Türkçe
+kalıyor; konusu hangi Türkçe karşılığın yerleşik olduğu ve bunu İngilizce bir
+sayfa soramaz.
+
 ## Yazılanlar {.k-head}
 
 ::: {.entry}
@@ -23,9 +27,9 @@ boşluğu doldurma denemesi.
 :::
 ### [Terimler](notlar/terimler.qmd){.title}
 
-Hesaplamalı psikiyatri terimlerinin Türkçe karşılıkları, ve her biri için o
+Hesaplamalı psikiyatri terimlerinin Türkçe karşılıkları ve her biri için o
 karşılığın gerçekten yerleşik olup olmadığı. On sekizinde yerleşik bir karşılık
-bulamadım, ve listenin asıl işi bunu yazmak.
+bulamadım; listenin asıl işi bunu yazmak.
 :::
 
 ::: {.entry}
@@ -35,7 +39,7 @@ Klinik okur için &middot; denklemsiz &middot; [yayında]{.status .done}
 ### [Hiyerarşik Gauss filtresi nedir, ne işe yarar](notlar/hgf-nedir.qmd){.title}
 
 Modelin parametreleri klinik olarak ne anlatır, model karşılaştırması neden
-zorunludur, ve bir hesaplamalı bulguya ne zaman güvenilir. Bir parametrenin
+zorunludur ve bir hesaplamalı bulguya ne zaman güvenilir. Bir parametrenin
 kestirilebilmesi, onun yorumlanabileceği anlamına gelmiyor.
 :::
 
@@ -45,7 +49,7 @@ Klinik okur için &middot; 15 kaynak &middot; [yayında]{.status .done}
 :::
 ### [Duyusal azaltım ve kuvvet eşleştirme görevi](notlar/duyusal-azaltim.qmd){.title}
 
-Kendi ürettiğimiz dokunuşu neden zayıf hissederiz, bu nasıl sayıya çevrilir, ve
+Kendi ürettiğimiz dokunuşu neden zayıf hissederiz, bu nasıl sayıya çevrilir ve
 şizofreniden fonksiyonel hareket bozukluğuna kadar nerelerde bozuk bulunmuştur.
 Görevin iki koşulu var ve ikincisi bir süs değil.
 :::
@@ -57,7 +61,7 @@ Klinik okur için &middot; 18 kaynak &middot; [yayında]{.status .done}
 ### [Şizofrenide inanç güncelleme ve aceleci karar](notlar/sizofrenide-inanc-guncelleme.qmd){.title}
 
 Sonuca atlama yanlılığının kanıtı ne kadar sağlam, hesaplamalı modeller tabloyu
-nasıl değiştirdi, ve neden hâlâ birey düzeyinde bir ölçüt yok. Bulgunun en zayıf
+nasıl değiştirdi ve neden hâlâ birey düzeyinde bir ölçüt yok. Bulgunun en zayıf
 olduğu yer, tam da uğruna kurulduğu yer.
 :::
 
@@ -67,14 +71,14 @@ olduğu yer, tam da uğruna kurulduğu yer.
 ### Öngörü hatası, kesinlik ve psikiyatrik belirti {.title}
 
 Bayesçi beyin çerçevesinin klinik okur için girişi: öngörü hatası ne demek,
-kesinlik ağırlıklandırması neyi belirler, ve bunlar muayenehanede gördüğümüz
+hassasiyet ağırlıklandırması neyi belirler ve bunlar muayenehanede gördüğümüz
 belirtilere nasıl bağlanır.
 :::
 
 ::: {.entry}
 ### Akatizi: aktif çıkarım çerçevesinden bir bakış {.title}
 
-Akatizinin öznel ve nesnel bileşenlerinin neden ayrışabildiği, ve hareketin
+Akatizinin öznel ve nesnel bileşenlerinin neden ayrışabildiği ve hareketin
 çoğu zaman huzursuzluğu dindirmemesi.
 :::
 
