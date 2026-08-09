@@ -627,25 +627,29 @@ Hesaplamalı psikiyatri üzerine, klinik okura yazılmış kapsamlı bir Türkç
 kaynağa rastlamadım. Terimlerin karşılığı da oturmuş değil. Buradaki notlar o
 boşluğu doldurma denemesi.
 
+Üç yazının İngilizcesi [/notes](notes.qmd) altında. Sözlük yalnızca Türkçe
+kalıyor; konusu hangi Türkçe karşılığın yerleşik olduğu ve bunu İngilizce bir
+sayfa soramaz.
+
 ## Yazılanlar
 70 terim · 52'si kaynaklı · yayında
 
 ### [Terimler](notlar/terimler.qmd)
-Hesaplamalı psikiyatri terimlerinin Türkçe karşılıkları, ve her biri için o
+Hesaplamalı psikiyatri terimlerinin Türkçe karşılıkları ve her biri için o
 karşılığın gerçekten yerleşik olup olmadığı. On sekizinde yerleşik bir karşılık
-bulamadım, ve listenin asıl işi bunu yazmak.
+bulamadım; listenin asıl işi bunu yazmak.
 
 Klinik okur için · denklemsiz · yayında
 
 ### [Hiyerarşik Gauss filtresi nedir, ne işe yarar](notlar/hgf-nedir.qmd)
 Modelin parametreleri klinik olarak ne anlatır, model karşılaştırması neden
-zorunludur, ve bir hesaplamalı bulguya ne zaman güvenilir. Bir parametrenin
+zorunludur ve bir hesaplamalı bulguya ne zaman güvenilir. Bir parametrenin
 kestirilebilmesi, onun yorumlanabileceği anlamına gelmiyor.
 
 Klinik okur için · 15 kaynak · yayında
 
 ### [Duyusal azaltım ve kuvvet eşleştirme görevi](notlar/duyusal-azaltim.qmd)
-Kendi ürettiğimiz dokunuşu neden zayıf hissederiz, bu nasıl sayıya çevrilir, ve
+Kendi ürettiğimiz dokunuşu neden zayıf hissederiz, bu nasıl sayıya çevrilir ve
 şizofreniden fonksiyonel hareket bozukluğuna kadar nerelerde bozuk bulunmuştur.
 Görevin iki koşulu var ve ikincisi bir süs değil.
 
@@ -653,17 +657,17 @@ Klinik okur için · 18 kaynak · yayında
 
 ### [Şizofrenide inanç güncelleme ve aceleci karar](notlar/sizofrenide-inanc-guncelleme.qmd)
 Sonuca atlama yanlılığının kanıtı ne kadar sağlam, hesaplamalı modeller tabloyu
-nasıl değiştirdi, ve neden hâlâ birey düzeyinde bir ölçüt yok. Bulgunun en zayıf
+nasıl değiştirdi ve neden hâlâ birey düzeyinde bir ölçüt yok. Bulgunun en zayıf
 olduğu yer, tam da uğruna kurulduğu yer.
 
 ## Planlanan yazılar
 ### Öngörü hatası, kesinlik ve psikiyatrik belirti
 Bayesçi beyin çerçevesinin klinik okur için girişi: öngörü hatası ne demek,
-kesinlik ağırlıklandırması neyi belirler, ve bunlar muayenehanede gördüğümüz
+hassasiyet ağırlıklandırması neyi belirler ve bunlar muayenehanede gördüğümüz
 belirtilere nasıl bağlanır.
 
 ### Akatizi: aktif çıkarım çerçevesinden bir bakış
-Akatizinin öznel ve nesnel bileşenlerinin neden ayrışabildiği, ve hareketin
+Akatizinin öznel ve nesnel bileşenlerinin neden ayrışabildiği ve hareketin
 çoğu zaman huzursuzluğu dindirmemesi.
 
 ---
