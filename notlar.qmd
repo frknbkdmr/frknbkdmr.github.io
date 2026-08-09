@@ -50,6 +50,17 @@ Kendi ürettiğimiz dokunuşu neden zayıf hissederiz, bu nasıl sayıya çevril
 Görevin iki koşulu var ve ikincisi bir süs değil.
 :::
 
+::: {.entry}
+::: {.meta}
+Klinik okur için &middot; 18 kaynak &middot; [yayında]{.status .done}
+:::
+### [Şizofrenide inanç güncelleme ve aceleci karar](notlar/sizofrenide-inanc-guncelleme.qmd){.title}
+
+Sonuca atlama yanlılığının kanıtı ne kadar sağlam, hesaplamalı modeller tabloyu
+nasıl değiştirdi, ve neden hâlâ birey düzeyinde bir ölçüt yok. Bulgunun en zayıf
+olduğu yer, tam da uğruna kurulduğu yer.
+:::
+
 ## Planlanan yazılar {.k-head}
 
 ::: {.entry}

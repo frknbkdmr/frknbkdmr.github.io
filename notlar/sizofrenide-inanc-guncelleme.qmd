@@ -1,0 +1,332 @@
+---
+title: "Şizofrenide inanç güncelleme ve aceleci karar"
+pagetitle: "Şizofrenide inanç güncelleme kanıtı"
+lang: tr
+# Çevirisi yazıldığında iki taraf da birbirini gösterecek; hreflang o zaman çıkar.
+translation: notes/belief-updating-in-psychosis
+description-meta: &desc "Sonuca atlama yanlılığı, beads görevi ve hesaplamalı modellerin şizofrenide inanç güncelleme hakkında ne gösterdiği. Meta-analizler ne kadarını destekliyor, hangi bulgu tanıya hangisi belirtiye bağlanıyor, ve ölçümün güvenilirliği nerede duruyor."
+open-graph:
+  description: *desc
+twitter-card:
+  description: *desc
+---
+
+::: {.lede}
+Sanrı klinikte kanıta rağmen sürdürülen yanlış inanç diye tarif edilir. Tarif
+sonucu betimliyor, mekanizmayı değil. Hesaplamalı yaklaşımın sorusu daha dar:
+kanıttan inanca giden yolda hangi adım bozuluyor?
+:::
+
+Terimlerin İngilizce karşılıkları [terimler sözlüğünde](terimler.qmd), modelin
+kendisi [HGF yazısında](hgf-nedir.qmd).
+
+## Klasik iddia {.k-head}
+
+Otuz yıllık literatürün büyük kısmı iki kavanoz ve bir avuç boncuğa dayanıyor.
+Birinde boncukların çoğu siyah, diğerinde çoğu beyaz. Deneyci birinden tek tek
+çekiyor, katılımcı yeterince gördüğüne kanaat getirince hangi kavanoz olduğunu
+söylüyor. Ölçülen tek şey kararın kaçıncı boncukta geldiği.
+
+Sanrılı hastalar erken karar veriyor. Moritz ve Woodward'ın örnekleminde
+şizofreni tanılı hastaların yüzde 42'si tek boncuktan sonra kavanozu söyledi;
+psikiyatrik kontrollerde oran yüzde 7, sağlıklılarda sıfır. Bulgunun adı sonuca
+atlama (jumping to conclusions), ve elli beş çalışmayı toplayan meta-analiz de
+aynı yönü veriyor: psikoz grubu anlamlı biçimde az bilgiyle karar veriyor
+(g = -0,53), uç derecede erken karar verme olasılığı dört ila altı kat yüksek.
+
+## Kanıt ne kadar sağlam {.k-head}
+
+İtiraz grup farkına değil, ondan sonra kurulan cümleye. "Sanrı erken karardan
+doğuyor" demek için erken kararın sanrının şiddetiyle gitmesi gerekir.
+
+Ross ve arkadaşları 38 örneklemden bireysel katılımcı verisi topladı, 2237 kişi.
+İlişki anlamlı ama küçük: r = -0,10. Alt gruplar daha çok şey söylüyor. Etki
+1754 kişilik genel nüfus örnekleminde duruyor, güncel sanrısı olan 262 kişide
+durmuyor. Bulgunun en zayıf olduğu yer, tam da uğruna kurulduğu yer.
+
+Daha eski bir meta-analiz dört ayrı sonuca atlama ölçütü sınamış, yalnızca
+boncuk sayısını anlamlı bulmuştu. Lincoln'ün 71 hasta ve 68 kontrollük
+çalışmasında boncuk sayısı gözlemci-değerlendirmeli sanrı şiddetiyle
+ilişkiliydi, ama negatif belirtiler ya da zekâ düzeyi denkleme girince ilişki
+anlamlılığını yitirdi.
+
+Şizofreni grubu kontrollerden ayrışıyor. Sanrısı ağır olanın daha aceleci olduğu
+ayrı bir iddia, ve o iddia gösterilmiş değil.
+
+## Aceleci doğru kelime mi {.k-head}
+
+Strube'nin karşılaştırmasında 45 şizofreni, 45 depresyon ve 45 sağlıklı kontrol
+vardı. Şizofreni grubu daha az boncukla karar verdi ama karar vermesi daha uzun
+sürdü, ve karar süresiyle boncuk sayısı arasında ilişki çıkmadı. Dürtüsellik
+bunu açıklayamıyor. Yazarların işaret ettiği yer inanç oluşumunun kararsızlığı.
+
+Balzan'ın grubu başka bir tarafı kazıdı: göreve fazladan bir açıklama seti
+eklediler. Karşıt kanıt geldiğinde görülen aşırı düzeltme belirgin biçimde
+azaldı, erken karar verme ise değişmedi. Yılların bulgusunun bir kısmı,
+yönergenin yeterince açık yazılmamasıymış.
+
+Geriye kalanı Speechley tek çatı altında topluyor. Hipoteze uyan kanıt sanrılı
+hastada olduğundan fazla önem kazanıyor, uymayan kanıt normal ağırlıkta kalıyor.
+Aynı asimetri dizinin başında erken karar, ortasında aşırı düzeltme olarak
+görünüyor.
+
+## Modelleme neyi değiştirdi {.k-head}
+
+Son on yılın yaklaşımı boncuk saymayı bırakıp kararın arkasındaki süreci
+modellemek. Tablo zenginleşti, düzeni bozuldu.
+
+En büyük örneklem Hauke'nin: 261 psikoz hastası, 56 kontrol. Hastalarda inanç
+kararsızlığı yüksekti, ve sonuca atlama hem bununla hem de başlangıç
+belirsizliğinin büyüklüğüyle gidiyordu. Fark hastayla kontrol arasında, bir de
+sonuca atlayanla atlamayan arasında çıktı. Güncel sanrısı az olan hastayla çok
+olan hasta arasında çıkmadı. Aynı çalışmanın klinik açıdan en ilginç tarafı
+başka: inanç kararsızlığı, üstbiliş eğitimine verilecek yanıtı bireysel düzeyde
+öngörebildi.
+
+Fromm'un tasarımı tanıyla belirtiyi bilerek ayırıyor. Sanrısı az ve çok olan
+sağlıklılar, sanrısı az ve çok olan hastalar. İki eksen farklı yerlere bağlandı:
+sanrı, fronto-striatal bölgelerde kesinlik-ağırlıklı öngörü hatası yanıtının
+artmasıyla; şizofreni tanısı ise volatiliteyi olduğundan yüksek tahmin etmek ve
+volatilitenin sinirsel temsilinin zayıflamasıyla. Aynı parametreye
+bağlanmıyorlar.
+
+Sheffield paranoyaya baktı: volatiliteye dair önsel inanç paranoyayla
+ilişkiliydi, olağandışı düşünce içeriğiyle ya da anksiyeteyle değil. Sloan bir
+adım geriye gitti, çocukluk çağı örselenmesine; özellikle tehdit türü olanı
+volatilitenin daha yüksek beklenmesiyle ilişkiliydi. Mikus'un ayrımı belirti
+eksenindeydi. Pozitif belirtiler volatiliteye dair belirsizlikle gidiyordu,
+negatif belirtiler gözlem gürültüsüne dair katı inançlarla.
+
+## Parametre psikoza özgü değil {.k-head}
+
+Volatiliteyi yüksek tahmin etmek psikozun imzası gibi okunuyor. Fazla cömert bir
+okuma.
+
+Gibbs-Dean'in sistematik derlemesi psikoz, anksiyete ve depresyonu aynı
+çerçeveye koydu; değişen olasılıklara uyum güçlüğü psikozda da anksiyetede de
+vardı. Kendi yayımlanmış çalışmamda da yön aynıydı. Yaygın anksiyete
+bozukluğunda tonik volatilite kontrollere göre yüksekti ve durumluk kaygıyla
+ilişkiliydi. Otuz altı kişilik, kesitsel, keşfedici bir çalışma, dolayısıyla
+ağırlığı sınırlı; ayrıntısı [şurada](../research/anxiety-hgf.qmd).
+
+Katthagen'in derlemesi işi büsbütün zorlaştırıyor. Psikozla hem fazla
+güncellemenin hem az güncellemenin ilişkilendirildiği çalışmalar var, ve
+görevlerle örneklemler arasındaki değişkenlik yüksek. Bir parametrenin işareti
+çalışmadan çalışmaya değişiyorsa, o parametre henüz bir mekanizmayı adlandıracak
+durumda değil.
+
+## Oluşum mu, sürdürme mi {.k-head}
+
+Mashima'nın grubu boncuk görevini ikiye böldü. Birinci aşama klasik hali,
+katılımcı bir sonuca varana kadar boncuk çekiliyor. İkincisinde çekim sürüyor ve
+katılımcı vardığı sonuçtan dönüp dönmeyeceğine karar veriyor; bazı denemelerde
+gelen boncuklar önceki sonucu çürütüyor.
+
+Birinci aşamada gruplar ayrışmadı. İkincisinde şizofreni grubu vardığı sonuçtan
+dönmek için anlamlı biçimde daha fazla boncuk istedi, en çok da sanrının ön
+planda olduğu hastalarda. Yirmi dokuz hastalık tek bir çalışma, dolayısıyla
+ihtiyat şart. Ama sorduğu soru yerinde: bozulan adım inancın kurulması değil,
+terk edilmesi olabilir. Sanrının klinik tanımındaki asıl kelime de belki
+acelecilik değil, geri alınamazlık.
+
+## Ölçüm henüz oturmadı {.k-head}
+
+Bir parametrenin klinikte iş görmesi için gruplar arasında ayrışması yetmiyor.
+Aynı kişide iki hafta sonra tekrar ölçüldüğünde benzer çıkması da gerekiyor.
+
+Karvelis'in grubu bunu denedi. Otuz dokuz sağlıklı katılımcı, iki hafta arayla
+aynı görev, HGF ile modellenmiş. Test-tekrar test güvenilirliği büyük ölçüde
+düşük çıktı, davranışsal ölçümlerden de iyi değildi. Yazarların ayırdığı başlıca
+kaynak, parametre geri kazanımının gösterdiği ölçüm gürültüsü. Grup düzeyinde
+görünüş geçerliliği duruyor; birey düzeyinde durmuyor.
+
+Hess'in ekibi sorunun bir kısmını verinin kendisine bağlıyor. Bu görevlerin çoğu
+ikili yanıt üretiyor, ikili yanıt ise az bilgi taşıyor. Yanıt sürelerini de
+modele katan bir kurulum, parametrelerin ve modellerin ayırt edilebilirliğini
+belirgin biçimde iyileştiriyor.
+
+Tanımlanabilirlik ve geri kazanımın ne olduğu [HGF yazısında](hgf-nedir.qmd)
+anlatılıyor. Buradaki karşılığı şu: literatürdeki grup düzeyi ifadeler birey
+düzeyi ifadelerden çok daha sağlam zeminde duruyor, ve iki tür ifade aynı
+paragrafta sık sık yer değiştiriyor.
+
+## Bir bulguyu okurken {.k-head}
+
+Kullanılan görevin adına bakmakla başlıyorum. Boncuk görevi, balık görevi, ters
+çevirmeli öğrenme ve öğüt alma görevleri aynı kavramı ölçtükleri varsayılarak
+kullanılıyor, oysa bulgular birinden diğerine kolayca taşınmıyor.
+
+Sonrası daha ince. "Şizofrenide şu yüksekti" ile "sanrıda şu yüksekti" artık
+aynı cümle değil; Fromm'un tasarımı ikisinin ayrı parametrelere bağlandığını
+gösterdiğine göre, hangisinin indekslendiğini bilmeden bulgunun ne dediği de
+bilinmiyor.
+
+En az konuşulan soru sonuncusu. İddia grup düzeyinde mi kuruluyor, birey
+düzeyinde mi. Gruplar arasında ayrışan ama aynı kişide tekrar edilemeyen bir
+parametre bir bulgudur; ölçüt değildir.
+
+## Kaynaklar {.k-head}
+
+Klasik bulgu ve meta-analizler:
+
+::: {.src}
+Moritz S, Woodward TS. Jumping to conclusions in delusional and non-delusional
+schizophrenic patients. *British Journal of Clinical Psychology*.
+2005;44(2):193-207. doi:[10.1348/014466505X35678](https://doi.org/10.1348/014466505X35678)
+:::
+
+::: {.src}
+Dudley R, Taylor P, Wickham S, Hutton P. Psychosis, delusions and the "jumping
+to conclusions" reasoning bias: a systematic review and meta-analysis.
+*Schizophrenia Bulletin*.
+2016;42(3):652-665. doi:[10.1093/schbul/sbv150](https://doi.org/10.1093/schbul/sbv150)
+:::
+
+::: {.src}
+Ross RM, McKay R, Coltheart M, Langdon R. Jumping to conclusions about the
+beads task? A meta-analysis of delusional ideation and data-gathering.
+*Schizophrenia Bulletin*.
+2015;41(5):1183-1191. doi:[10.1093/schbul/sbu187](https://doi.org/10.1093/schbul/sbu187)
+:::
+
+::: {.src}
+Fine C, Gardner M, Craigie J, Gold I. Hopping, skipping or jumping to
+conclusions? Clarifying the role of the JTC bias in delusions. *Cognitive
+Neuropsychiatry*.
+2007;12(1):46-77. doi:[10.1080/13546800600750597](https://doi.org/10.1080/13546800600750597)
+:::
+
+::: {.src}
+Lincoln TM, Ziegler M, Mehl S, Rief W. The jumping to conclusions bias in
+delusions: specificity and changeability. *Journal of Abnormal Psychology*.
+2010;119(1):40-49. doi:[10.1037/a0018118](https://doi.org/10.1037/a0018118)
+:::
+
+Yorumun sınanması:
+
+::: {.src}
+Strube W, Cimpianu CL, Ulbrich M, ve ark. Unstable belief formation and slowed
+decision-making: evidence that the jumping-to-conclusions bias in schizophrenia
+is not linked to impulsive decision-making. *Schizophrenia Bulletin*.
+2022;48(2):347-358. doi:[10.1093/schbul/sbab108](https://doi.org/10.1093/schbul/sbab108)
+:::
+
+::: {.src}
+Balzan RP, Delfabbro PH, Galletly CA, Woodward TS. Over-adjustment or
+miscomprehension? A re-examination of the jumping to conclusions bias.
+*Australian & New Zealand Journal of Psychiatry*.
+2012;46(6):532-540. doi:[10.1177/0004867411435291](https://doi.org/10.1177/0004867411435291)
+:::
+
+::: {.src}
+Speechley WJ, Whitman JC, Woodward TS. The contribution of hypersalience to the
+"jumping to conclusions" bias associated with delusions in schizophrenia.
+*Journal of Psychiatry and Neuroscience*.
+2010;35(1):7-17. doi:[10.1503/jpn.090025](https://doi.org/10.1503/jpn.090025)
+:::
+
+Hesaplamalı çalışmalar:
+
+::: {.src}
+Hauke DJ, Roth V, Karvelis P, Adams RA, Moritz S, Borgwardt S, ve ark. Increased
+belief instability in psychotic disorders predicts treatment response to
+metacognitive training. *Schizophrenia Bulletin*.
+2022;48(4):826-838. doi:[10.1093/schbul/sbac029](https://doi.org/10.1093/schbul/sbac029)
+:::
+
+::: {.src}
+Fromm S, Katthagen T, Deserno L, Heinz A, Kaminski J, Schlagenhauf F. Belief
+updating in subclinical and clinical delusions. *Schizophrenia Bulletin Open*.
+2022;4(1):sgac074. doi:[10.1093/schizbullopen/sgac074](https://doi.org/10.1093/schizbullopen/sgac074)
+:::
+
+::: {.src}
+Sheffield JM, Suthaharan P, Leptourgos P, Corlett PR. Belief updating and
+paranoia in individuals with schizophrenia. *Biological Psychiatry: Cognitive
+Neuroscience and Neuroimaging*.
+2022;7(11):1149-1157. doi:[10.1016/j.bpsc.2022.03.013](https://doi.org/10.1016/j.bpsc.2022.03.013)
+:::
+
+::: {.src}
+Sloan AF, Kittleson AR, Torregrossa LJ, ve ark. Belief updating, childhood
+maltreatment, and paranoia in schizophrenia-spectrum disorders. *Schizophrenia
+Bulletin*.
+2025;51(3):646-657. doi:[10.1093/schbul/sbae057](https://doi.org/10.1093/schbul/sbae057)
+:::
+
+::: {.src}
+Mikus N, Lamm C, Mathys C. Computational phenotyping of aberrant belief updating
+in individuals with schizotypal traits and schizophrenia. *Biological
+Psychiatry*.
+2025;97(2):188-197. doi:[10.1016/j.biopsych.2024.08.021](https://doi.org/10.1016/j.biopsych.2024.08.021)
+:::
+
+::: {.src}
+Mashima Y, Shinagawa K, Suzuki H, ve ark. Post-conclusion belief inflexibility
+bias assessed by a modified beads task in schizophrenia. *Schizophrenia
+Research*.
+2026;296:121-129. doi:[10.1016/j.schres.2026.07.002](https://doi.org/10.1016/j.schres.2026.07.002)
+:::
+
+Derlemeler ve ölçüm:
+
+::: {.src}
+Katthagen T, Fromm S, Wieland L, Schlagenhauf F. Models of dynamic belief
+updating in psychosis: a review across different computational approaches.
+*Frontiers in Psychiatry*.
+2022;13:814111. doi:[10.3389/fpsyt.2022.814111](https://doi.org/10.3389/fpsyt.2022.814111)
+:::
+
+::: {.src}
+Gibbs-Dean T, Katthagen T, Tsenkova I, ve ark. Belief updating in psychosis,
+depression and anxiety disorders: a systematic review across computational
+modelling approaches. *Neuroscience and Biobehavioral Reviews*.
+2023;147:105087. doi:[10.1016/j.neubiorev.2023.105087](https://doi.org/10.1016/j.neubiorev.2023.105087)
+:::
+
+::: {.src}
+Karvelis P, Hauke DJ, Wobmann M, ve ark. Test-retest reliability of behavioral
+and computational measures of advice taking under volatility. *PLOS ONE*.
+2024;19(11):e0312255. doi:[10.1371/journal.pone.0312255](https://doi.org/10.1371/journal.pone.0312255)
+:::
+
+::: {.src}
+Hess AJ, Iglesias S, Köchli L, ve ark. Bayesian workflow for generative modeling
+in computational psychiatry. *Computational Psychiatry*.
+2025;9(1):76-99. doi:[10.5334/cpsy.116](https://doi.org/10.5334/cpsy.116)
+:::
+
+```{=html}
+<!-- Açıklayıcı bir yazı, dolayısıyla genel WebPage yerine Article. Yayımlanana
+     kadar datePublished yok. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://furkanbekdemir.com/notlar/sizofrenide-inanc-guncelleme#article",
+  "headline": "Şizofrenide inanç güncelleme ve aceleci karar",
+  "description": "Sonuca atlama yanlılığı, beads görevi ve hesaplamalı modellerin şizofrenide inanç güncelleme hakkında ne gösterdiği. Meta-analizler ne kadarını destekliyor, hangi bulgu tanıya hangisi belirtiye bağlanıyor, ve ölçümün güvenilirliği nerede duruyor.",
+  "inLanguage": "tr",
+  "about": [
+    "Belief updating",
+    "Jumping to conclusions",
+    "Beads task",
+    "Schizophrenia",
+    "Delusions",
+    "Paranoia",
+    "Volatility",
+    "Hierarchical Gaussian Filter",
+    "Computational psychiatry"
+  ],
+  "author": { "@id": "https://furkanbekdemir.com/#person" },
+  "publisher": { "@id": "https://furkanbekdemir.com/#person" },
+  "url": "https://furkanbekdemir.com/notlar/sizofrenide-inanc-guncelleme"
+}
+</script>
+```
+
+::: {.k}
+[← notlar](../notlar.qmd) &middot;
+[terimler sözlüğü](terimler.qmd) &middot;
+[HGF nedir](hgf-nedir.qmd)
+:::
