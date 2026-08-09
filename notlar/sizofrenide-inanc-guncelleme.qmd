@@ -2,6 +2,8 @@
 title: "Şizofrenide inanç güncelleme ve aceleci karar"
 pagetitle: "Şizofrenide inanç güncelleme kanıtı"
 lang: tr
+date: 2026-08-09
+date-modified: 2026-08-09
 # Çevirisi yazıldığında iki taraf da birbirini gösterecek; hreflang o zaman çıkar.
 translation: notes/belief-updating-in-psychosis
 description-meta: &desc "Sonuca atlama yanlılığı, beads görevi ve hesaplamalı modellerin şizofrenide inanç güncelleme hakkında ne gösterdiği. Meta-analizler ne kadarını destekliyor, hangi bulgu tanıya hangisi belirtiye bağlanıyor ve ölçümün güvenilirliği nerede duruyor."
@@ -85,7 +87,7 @@ başka: inanç kararsızlığı, üstbiliş eğitimine verilecek yanıtı bireys
 
 Fromm'un tasarımı tanıyla belirtiyi bilerek ayırıyor. Sanrısı az ve çok olan
 sağlıklılar, sanrısı az ve çok olan hastalar. Sanrı, fronto-striatal bölgelerdeki
-kesinlik-ağırlıklı öngörü hatası yanıtının artışıyla ilişkiliydi; şizofreni
+hassasiyet-ağırlıklı öngörü hatası yanıtının artışıyla ilişkiliydi; şizofreni
 tanısı ise volatilitenin olduğundan yüksek tahmin edilmesi ve sinirsel
 temsilinin zayıflamasıyla. İki eksen aynı parametreye bağlanmıyor.
 
@@ -134,10 +136,10 @@ Bir parametrenin klinikte iş görmesi için gruplar arasında ayrışması yetm
 Aynı kişide iki hafta sonra tekrar ölçüldüğünde benzer çıkması da gerekiyor.
 
 Karvelis'in grubu bunu denedi. Otuz dokuz sağlıklı katılımcı aynı görevi iki
-hafta arayla tamamladı, veriler HGF ile modellendi. Test-tekrar test güvenilirliği büyük ölçüde
-düşük çıktı, davranışsal ölçümlerden de iyi değildi. Yazarların ayırdığı başlıca
-kaynak, parametre geri kazanımının gösterdiği ölçüm gürültüsü. Grup düzeyinde
-görünüş geçerliliği var, birey düzeyinde yok.
+hafta arayla tamamladı, veriler HGF ile modellendi. Test-tekrar test
+güvenilirliği büyük ölçüde düşük çıktı, davranışsal ölçümlerden de iyi değildi.
+Yazarların ayırdığı başlıca kaynak, parametre geri kazanımının gösterdiği ölçüm
+gürültüsü. Grup düzeyinde görünüş geçerliliği var, birey düzeyinde yok.
 
 Hess'in ekibi sorunun bir kısmını verinin kendisine bağlıyor. Bu görevlerin çoğu
 ikili yanıt üretiyor, ikili yanıt ise az bilgi taşıyor. Yanıt sürelerini de
@@ -296,8 +298,10 @@ in computational psychiatry. *Computational Psychiatry*.
 :::
 
 ```{=html}
-<!-- Açıklayıcı bir yazı, dolayısıyla genel WebPage yerine Article. Yayımlanana
-     kadar datePublished yok. -->
+<!-- Açıklayıcı bir yazı, dolayısıyla genel WebPage yerine Article.
+     datePublished ve dateModified'i post-render ön bilgiden alıp buraya
+     enjekte ediyor; iki yerde elle tutulan tarih ilk düzeltmede birbirinden
+     ayrılır. -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

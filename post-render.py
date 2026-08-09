@@ -421,6 +421,40 @@ def write_defined_terms(path: Path, base: str) -> int:
     return len(terms)
 
 
+def stamp_article_dates(path: Path) -> bool:
+    """Copy the source's date/date-modified into its Article JSON-LD.
+
+    Google reads datePublished and dateModified off Article. The dates already
+    exist in the front matter, because Quarto prints one under the title, and a
+    second hand-kept copy inside the JSON-LD drifts the first time a page is
+    revised and nobody remembers to touch both.
+
+    Only Article, and only when the page does not already carry a date: a page
+    that states its own is stating it on purpose.
+    """
+    src = ROOT / path.relative_to(OUT).with_suffix(".qmd")
+    if not src.exists():
+        return False
+    text = path.read_text(encoding="utf-8")
+    if '"@type": "Article"' not in text or '"datePublished"' in text:
+        return False
+
+    front = src.read_text(encoding="utf-8")
+    pub = re.search(r"^date:\s*['\"]?([0-9]{4}-[0-9]{2}-[0-9]{2})", front, re.M)
+    if not pub:
+        return False
+    mod = re.search(r"^date-modified:\s*['\"]?([0-9]{4}-[0-9]{2}-[0-9]{2})", front, re.M)
+
+    stamp = f'\n  "datePublished": "{pub.group(1)}",'
+    stamp += f'\n  "dateModified": "{(mod or pub).group(1)}",'
+    fixed = text.replace('\n  "@type": "Article",',
+                         '\n  "@type": "Article",' + stamp, 1)
+    if fixed == text:
+        return False
+    path.write_text(fixed, encoding="utf-8")
+    return True
+
+
 def canonical_for(html_path: Path, base: str) -> str:
     """Extensionless URLs, because they outlive the generator that made them.
     Once ORCID or a paper cites an address it can never move, and it must not
@@ -595,7 +629,7 @@ def main() -> None:
     # and would otherwise be skipped without a word.
     pages = sorted(p for p in OUT.rglob("*.html") if "site_libs" not in p.parts)
     changed, failed, deferred, fixes, scoped, defined, crumbs, stripped = [], [], 0, set(), 0, 0, 0, 0
-    pairs, alts = translation_pairs(), 0
+    pairs, alts, dated = translation_pairs(), 0, 0
 
     for p in pages:
         text = p.read_text(encoding="utf-8")
@@ -616,6 +650,7 @@ def main() -> None:
         defined += write_defined_terms(p, base)
         crumbs += write_breadcrumb(p, base)
         alts += write_hreflang(p, base, pairs)
+        dated += stamp_article_dates(p)
         stripped += strip_unused_assets(p)
 
     print(f"canonical: {len(changed)}/{len(pages)} page(s) updated"
@@ -632,6 +667,8 @@ def main() -> None:
         print(f"json-ld: {crumbs} page(s) given a breadcrumb trail")
     if alts:
         print(f"hreflang: {alts} page(s) paired with a translation")
+    if dated:
+        print(f"json-ld: {dated} article(s) stamped with their dates")
     if stripped:
         print(f"assets: {stripped} unused reference(s) removed")
     moved = write_redirects(base)

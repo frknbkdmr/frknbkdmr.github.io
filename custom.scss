@@ -405,3 +405,22 @@ a:focus-visible { outline: 2px solid $signal; outline-offset: 3px; }
      empty outline; the state word inside it is what survives. */
   .status { background: none !important; border-color: #999; color: #000; }
 }
+
+// Quarto's date block, which appears once a page declares `date:` in its front
+// matter. The default stacks a bold "Yayınlanma Tarihi" label above the date,
+// which is more furniture than a one-line fact needs. Laid out on one line in
+// the same register as the rest of the metadata on the site.
+.quarto-title-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 .4rem;
+  font-family: $font-family-monospace;
+  font-size: .74rem;
+  color: $ink-soft;
+  margin: -.2rem 0 1.7rem;
+
+  > div { display: flex; gap: .4rem; }
+  .quarto-title-meta-heading { font-weight: 400; }
+  .quarto-title-meta-heading::after { content: ":"; }
+  .quarto-title-meta-contents p { margin: 0; }
+}

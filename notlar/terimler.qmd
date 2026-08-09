@@ -11,22 +11,21 @@ twitter-card:
 
 ::: {.lede}
 Hesaplamalı psikiyatride ve hesaplamalı sinirbilimde kullandığım terimlerin
-Türkçe karşılıkları, ve her biri için karşılığın gerçekten yerleşik olup
+Türkçe karşılıkları ve her biri için karşılığın gerçekten yerleşik olup
 olmadığı. Yetmiş terimin elli ikisinde o terimin Türkçe kullanıldığı bir
-akademik kaynak bulabildim; on sekizinde bulamadım, ve bunu yazmak listenin
-asıl işi.
+akademik kaynak bulabildim, on sekizinde bulamadım. Bunu yazmak listenin asıl
+işi.
 :::
 
 Bunu tezim için tuttum. Kendi metnimde aynı terime iki farklı karşılık
 vermemek gerekiyordu, kararları da bir yere yazmam gerekiyordu, bu liste o
 yerin kendisi. Bir standart önerme iddiam yok: yerleşik karşılık ilan etmek
-benim yetkimde olan bir şey değil, ve zaten çoğu satırda yaptığım şey karar
-vermek değil, birinin çoktan verdiği kararı bulup kaydetmek.
+benim yetkimde olan bir şey değil. Zaten çoğu satırda yaptığım şey karar vermek
+değil, birinin çoktan verdiği kararı bulup kaydetmek.
 
 Terimlerin bir kısmı psikiyatriden değil sinirbilimden geliyor. Çekici
 dinamikler, Hopfield ağı ve enerji yüzeyi hesaplamalı sinirbilimin kelimeleri;
-şizofreni modellerine oradan girmişler, ve Türkçeleri de o literatürde
-oturmuş.
+şizofreni modellerine oradan girmişler, Türkçeleri de o literatürde oturmuş.
 
 Her satır ne önerdiğimi, neye dayandığımı ve dayanağın ne kadar sağlam
 olduğunu söylüyor. Karşılığı olmayan terimi zorlamak yerine boş bırakmak,
@@ -98,7 +97,7 @@ Değişimsel / varyasyonel Bayes &middot; [kaynaklı]{.status .done}
 
 <!-- yorum -->
 
-"Değişimsel" bir topluluk sözlüğünde, "varyasyonel" ise günlük kullanımda. İkisi arasında karar veremedim, ve kaynak hakemli olmadığı için ilk geçişte İngilizcesini de veriyorum.
+"Değişimsel" bir topluluk sözlüğünde, "varyasyonel" ise günlük kullanımda. İkisi arasında karar veremedim; kaynak hakemli olmadığı için ilk geçişte İngilizcesini de veriyorum.
 
 ::: {.src}
 Kaynak: [deeplearningturkiye TR-YZ Terim Sözlüğü](https://github.com/deeplearningturkiye/turkce-yapay-zeka-terimleri/blob/master/turkce-ingilizce.md) (topluluk kaynağı, hakemli değil)
@@ -178,13 +177,15 @@ Kaynak: [Öngörücü İşleme ve Öngörü Hatası — Yayılmış Zihin (Dergi
 ::: {.term}
 ### Precision (inverse variance) {#precision-inverse-variance}
 
-Kesinlik / precision (varyansın tersi) &middot; [kaynaklı]{.status .done}
+Hassasiyet / kesinlik (varyansın tersi) &middot; [kaynaklı]{.status .done}
 
 ::: {.mine}
 Ben "hassasiyet" diyorum, ama "kesinlik" de yaygın. Seçim keyfî değil:
 "kesinlik" gündelik dilde doğruluk çağrıştırıyor, oysa kastedilen varyansın
 tersi. Yine de literatürde ikisi de var, o yüzden ilk geçişte İngilizcesini
-vermek gerekiyor.
+vermek gerekiyor. Bileşik terimde bulduğum Türkçe kaynak "kesinlik
+ağırlıklandırma" diyor; kendi metnimde "hassasiyet-ağırlıklı" yazıyorum ve
+farkı burada bırakıyorum.
 :::
 
 İkisi de Türkçe kaynaklarda geçiyor.
@@ -197,7 +198,7 @@ Kaynak: [Öngörücü İşleme ve Öngörü Hatası — Yayılmış Zihin (Dergi
 ::: {.term}
 ### Precision-weighted prediction error {#precision-weighted-prediction-error}
 
-Kesinlik-ağırlıklı öngörü hatası &middot; [kaynaklı]{.status .done}
+Hassasiyet-ağırlıklı / kesinlik-ağırlıklı öngörü hatası &middot; [kaynaklı]{.status .done}
 
 <!-- yorum -->
 
@@ -565,7 +566,7 @@ Parametre ödünleşimi &middot; [kaynaklı]{.status .done}
 
 <!-- yorum -->
 
-"Parametre ödünleşimi" şeffaf, ve yakın akrabası "yanlılık-varyans ikilemi" Türkçede zaten yerleşik.
+"Parametre ödünleşimi" şeffaf, yakın akrabası "yanlılık-varyans ikilemi" ise Türkçede zaten yerleşik.
 
 ::: {.src}
 Kaynak: [Derin Sinir Ağları ile En İyi Modelin Belirlenmesi (DergiPark)](https://dergipark.org.tr/tr/download/article-file/821607)
@@ -819,7 +820,7 @@ Başlangıç kesinliği &middot; [kaynaklı]{.status .done}
 
 <!-- yorum -->
 
-"Başlangıç kesinliği" doğrudan karşılık, ve sonuca atlama literatüründe Türkçe bağlamı var.
+"Başlangıç kesinliği" doğrudan karşılık, sonuca atlama literatüründe Türkçe bağlamı da var.
 
 ::: {.src}
 Kaynak: [Şizofreni Tedavisinde Bilişsel Davranışçı Terapi (Nöropsikiyatri Arşivi 2021;58 Ek1)](https://noropsikiyatriarsivi.com/sayilar/2021/58_ek_1/tr/npa_58_Ek1_61-65_dz.pdf)
@@ -955,13 +956,6 @@ Kaynak: Özdemir & Özdemir 2016, Glutamat Sistemi ve Şizofreni, [DOI:10.18863/
 ### Aberrant salience {#aberrant-salience}
 
 Anormal/sapkın **önem atfetme** &middot; [kaynaklı]{.status .done}
-
-::: {.mine}
-Önce "sapkın belirginlik" önermiştim, salience'ı belirginlik diye
-düşünerek. Tarama bunu desteklemedi: Türkçe kaynakta yerleşik olan "önem
-atfetme". Kendi önerimi bırakmak gerekti, ve bu listede tuttuğum kayıt
-tam olarak bunun için.
-:::
 
 "Önem atfetme" hakemli bir Türkçe kaynakta kullanılmış.
 

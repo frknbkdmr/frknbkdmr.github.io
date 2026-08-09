@@ -2,6 +2,8 @@
 title: "Duyusal azaltım ve kuvvet eşleştirme görevi"
 pagetitle: "Duyusal azaltım nedir, nasıl ölçülür"
 lang: tr
+date: 2026-08-09
+date-modified: 2026-08-09
 # Çevirisi yazıldığında buraya karşılık gelen İngilizce sayfa gelir; ikisi de
 # birbirini gösterdiğinde hreflang etiketleri kendiliğinden çıkar.
 translation: notes/sensory-attenuation
@@ -19,9 +21,10 @@ bir mekanizma var. O mekanizmanın zayıfladığı yerlerde psikiyatrik belirtil
 :::
 
 Gıdıklanma bunun en tanıdık hali. Aynı mekanizmanın laboratuvarda ölçülen bir
-karşılığı var ve o ölçüm psikiyatride birkaç ayrı belirtiyle ilişkilendiriliyor. Terimlerin
-İngilizce karşılıkları [terimler sözlüğünde](terimler.qmd); kesinlik ve öngörü
-hatası kavramlarının daha geniş bir anlatımı [HGF yazısında](hgf-nedir.qmd).
+karşılığı var ve o ölçüm psikiyatride birkaç ayrı belirtiyle ilişkilendiriliyor.
+Terimlerin İngilizce karşılıkları [terimler sözlüğünde](terimler.qmd);
+hassasiyet ve öngörü hatası kavramlarının daha geniş bir anlatımı [HGF
+yazısında](hgf-nedir.qmd).
 
 ## Gıdıklanmadan başlayan mesele {.k-head}
 
@@ -94,10 +97,10 @@ diyor. Kilteni ve Ehrsson daha temel bir koşul gösterdi: dokunan eli kendinize
 saymanız gerekiyor. Kauçuk el yanılsamasıyla sahiplik algısı değiştirildiğinde
 azaltım da yer değiştiriyor.
 
-## Kesinlikle bağlantısı {.k-head}
+## Hassasiyetle bağlantısı {.k-head}
 
 Aktif çıkarım çerçevesinde azaltımın karşılığı, hareket sırasında duyusal
-kanıtın kesinliğinin düşürülmesi. Bunun bir zorunluluk olduğu iddiası şuna
+kanıtın hassasiyetinin düşürülmesi. Bunun bir zorunluluk olduğu iddiası şuna
 dayanıyor: hareket etmek için hareket ettiğinize dair öngörünün, henüz hareket
 etmediğinizi söyleyen duyusal kanıta baskın gelmesi gerekir. Kanıtın ağırlığı
 düşürülmezse hareket başlamaz.
@@ -276,8 +279,10 @@ self-touch. *Journal of Neurophysiology*.
 :::
 
 ```{=html}
-<!-- Açıklayıcı bir yazı, dolayısıyla genel WebPage yerine Article. Yayımlanana
-     kadar datePublished yok. -->
+<!-- Açıklayıcı bir yazı, dolayısıyla genel WebPage yerine Article.
+     datePublished ve dateModified'i post-render ön bilgiden alıp buraya
+     enjekte ediyor; iki yerde elle tutulan tarih ilk düzeltmede birbirinden
+     ayrılır. -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

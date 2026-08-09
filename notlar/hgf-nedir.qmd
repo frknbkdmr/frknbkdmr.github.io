@@ -2,6 +2,8 @@
 title: "Hiyerarşik Gauss filtresi nedir, ne işe yarar"
 pagetitle: "Hiyerarşik Gauss filtresi: klinik giriş"
 lang: tr
+date: 2026-08-09
+date-modified: 2026-08-09
 description-meta: &desc "Hesaplamalı psikiyatride sık kullanılan Hiyerarşik Gauss Filtresinin klinik okur için açıklaması: modelin parametreleri ne ölçer, model karşılaştırması neden zorunludur ve bir hesaplamalı bulguya ne zaman güvenilir."
 open-graph:
   description: *desc
@@ -68,13 +70,14 @@ kişinin o an ne kadar emin olduğuna ve dünyayı ne kadar oynak gördüğüne 
 Şaşırtıcı bir olaydan sonra öğrenme hızlanır, tanıdık bir örüntü içinde
 yavaşlar.
 
-Bunu belirleyen büyüklüğün adı kesinlik. Gündelik dildeki kesinlikle ilgisi
-yok; bir inancın ne kadar dar olduğunu ölçüyor. Dar bir inanç yeni kanıta az yer
-açar, geniş bir inanç çok yer açar. Klinik açıdan ilginç olan da bu: bir
-belirtinin kaynağı kanıtın kendisinde değil, kanıta verilen ağırlıkta olabilir.
+Bunu belirleyen büyüklüğün adı hassasiyet (precision). Gündelik dildeki
+hassasiyetle ilgisi yok; bir inancın ne kadar dar olduğunu ölçüyor. Dar bir
+inanç yeni kanıta az yer açar, geniş bir inanç çok yer açar. Klinik açıdan
+ilginç olan da bu: bir belirtinin kaynağı kanıtın kendisinde değil, kanıta
+verilen ağırlıkta olabilir.
 
 Modelin motoru öngörü hatası, yani olan ile beklenen arasındaki fark. Ama ham
-fark kullanılmaz, kesinlikle ağırlıklandırılmış hali kullanılır. Aynı büyüklükte
+fark kullanılmaz, hassasiyetle ağırlıklandırılmış hali kullanılır. Aynı büyüklükte
 bir sürpriz, kişinin o anki eminliğine göre başka sonuç doğurur.
 
 Bir de yanıt gürültüsü var: modelin açıklayamadığı her şeyi bu parametre toplar.
