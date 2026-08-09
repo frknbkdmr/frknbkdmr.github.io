@@ -1,0 +1,345 @@
+---
+title: "Belief updating in psychosis and hasty decisions"
+pagetitle: "Belief updating in psychosis: the evidence"
+lang: en
+date: 2026-08-09
+date-modified: 2026-08-09
+translation: notlar/sizofrenide-inanc-guncelleme
+description-meta: &desc "What the jumping-to-conclusions bias, the beads task and computational models actually show about belief updating in schizophrenia: how much the meta-analyses support, which findings track diagnosis and which track symptoms, and where the measurement stands."
+open-graph:
+  description: *desc
+twitter-card:
+  description: *desc
+---
+
+::: {.lede}
+A delusion is described clinically as a false belief held despite the evidence.
+That description reports the outcome, not the mechanism. The computational
+question is narrower: on the path from evidence to belief, which step breaks?
+:::
+
+The model most of this work runs on is set out in the [HGF
+note](hierarchical-gaussian-filter.qmd).
+
+## The classic claim {.k-head}
+
+Thirty years of literature rests largely on two jars and a handful of beads. One
+jar is mostly black beads, the other mostly white. The experimenter draws from
+one of them a bead at a time, and the participant says which jar it is once they
+have seen enough. The only thing measured is which bead the decision came on.
+
+Patients with delusions decide early. In Moritz and Woodward's sample 42 per
+cent of the patients with schizophrenia named the jar after a single bead; among
+psychiatric controls the figure was 7 per cent, among healthy controls zero. The
+finding is called jumping to conclusions. A meta-analysis pooling fifty-five
+studies points the same way: the psychosis group decides on significantly less
+information (g = -0.53), and the odds of extreme early deciding are four to six
+times higher.
+
+## How solid is the evidence {.k-head}
+
+The objection is not to the group difference but to the sentence built on top of
+it. To say delusions arise from early deciding, early deciding has to track how
+severe the delusions are.
+
+Ross and colleagues assembled individual participant data from 38 samples, 2,237
+people. The relationship is significant but small: r = -0.10. The subgroups say
+more. It is present in the 1,754-person general population sample and absent in
+the 262 people with current delusions. Where the finding is weakest is precisely
+where it was built to apply.
+
+An earlier meta-analysis tested four separate jumping-to-conclusions measures
+and found only the bead count significant. In Lincoln's study of 71 patients and
+68 controls the bead count was related to observer-rated delusion severity, but
+the relationship lost significance once negative symptoms or intellectual
+functioning entered the equation.
+
+The schizophrenia group separates from controls. That patients with more severe
+delusions are hastier is a separate claim, and it has not been shown.
+
+## Is hasty the right word {.k-head}
+
+Strube's comparison had 45 patients with schizophrenia, 45 with depression and
+45 healthy controls. The schizophrenia group decided on fewer beads but took
+longer to decide, and decision time did not correlate with bead count.
+Impulsivity does not explain this. What the authors point to instead is
+instability in how the belief forms.
+
+Balzan's group dug at another side of it and added an extra set of instructions
+to the task. The over-adjustment seen when disconfirming evidence arrives fell
+markedly, while early deciding did not change. Part of a finding decades old
+turns out to have been the instructions not being clear enough.
+
+Speechley gathers the rest under one roof. Evidence that matches the hypothesis
+gains more weight than it should in a patient with delusions, while evidence
+that does not match keeps its ordinary weight. The same asymmetry shows up as
+early deciding at the start of a sequence and as over-adjustment in the middle
+of one.
+
+## What modelling changed {.k-head}
+
+The approach of the last decade has been to stop counting beads and model the
+process behind the decision instead. The picture got richer and lost its order.
+
+The largest sample is Hauke's: 261 patients with psychotic disorders, 56
+controls. Belief instability was elevated in the patients, and jumping to
+conclusions was related both to that and to the size of the initial
+uncertainty. The difference came out between patients and controls, and between
+those who jumped and those who did not. It did not come out between patients
+with few current delusions and patients with many. The most striking part of
+that study clinically is something else: belief instability predicted the
+individual response to metacognitive training.
+
+Fromm's design separates diagnosis from symptom deliberately, with healthy
+participants high and low on delusional ideation and patients high and low on
+delusions. Delusions were related to increased precision-weighted prediction
+error responses in fronto-striatal regions; the schizophrenia diagnosis was
+related to overestimating volatility and to a weakened neural representation of
+it. The two axes do not attach to the same parameter.
+
+Sheffield looked at paranoia: prior beliefs about volatility were related to
+paranoia, not to unusual thought content or to anxiety. Sloan went a step
+further back to childhood maltreatment, and threat-type maltreatment
+specifically was related to expecting higher volatility. Mikus split along the
+symptom axis instead. Positive symptoms went with uncertainty about volatility,
+negative symptoms with rigid beliefs about observation noise.
+
+## The parameter is not specific to psychosis {.k-head}
+
+Overestimating volatility reads like a signature of psychosis. That is a
+generous reading.
+
+Gibbs-Dean's systematic review put psychosis, anxiety and depression in one
+frame, and difficulty adapting to changing contingencies was present in
+psychosis and in anxiety alike. My own published study points the same way.
+Tonic volatility was elevated relative to controls in generalized anxiety
+disorder and correlated with state anxiety. Thirty-six participants,
+cross-sectional and exploratory, so it carries limited weight; the details are
+[here](../research/anxiety-hgf.qmd).
+
+Katthagen's review makes it harder still. There are studies linking psychosis to
+too much updating and studies linking it to too little, and the variability
+between tasks and samples is high. If the direction of a parameter changes from
+study to study, that parameter cannot yet be given the name of a mechanism.
+
+## Formation or maintenance {.k-head}
+
+Mashima's group split the beads task in two. The first phase is the classic
+version, with beads drawn until the participant reaches a conclusion. In the
+second the drawing continues and the participant decides whether to withdraw
+the conclusion they reached; on some trials the incoming beads contradict it.
+
+In the first phase the groups did not separate. In the second the schizophrenia
+group needed significantly more beads before withdrawing a conclusion, most of
+all in the patients whose delusions were prominent. A single study of
+twenty-nine patients, so caution applies. The question it asks is the right one
+though: the step that breaks may be abandoning a belief rather than forming one.
+Perhaps the operative word in the clinical definition of a delusion is not
+haste but irrevocability.
+
+## The measurement has not settled {.k-head}
+
+For a parameter to be clinically useful, separating groups is not enough. It
+also has to come out similar when the same person is measured again two weeks
+later.
+
+Karvelis's group tried this. Thirty-nine healthy participants completed the same
+task two weeks apart and the data were modelled with the HGF. Test-retest
+reliability came out largely poor, no better than the behavioural measures. The
+main source the authors isolate is measurement noise, the kind parameter
+recovery reveals. Face validity holds at the group level and not at the level of
+the individual.
+
+Hess's team attributes part of the problem to the data itself. Most of these
+tasks produce binary responses, and binary responses carry little information. A
+setup that brings response times into the model as well improves the
+identifiability of both parameters and models substantially.
+
+What identifiability and recovery are is explained in the [HGF
+note](hierarchical-gaussian-filter.qmd). Here is what it comes to: group-level
+statements in this literature rest on much firmer ground than individual-level
+ones. The two kinds of statement change places within a paragraph rather often.
+
+## Reading a finding {.k-head}
+
+I start by looking at which task was used. The beads task, the fish task,
+reversal learning and advice-taking tasks are all used on the assumption that
+they measure the same construct, and yet findings do not carry from one to
+another easily.
+
+What comes next is finer. "This was elevated in schizophrenia" and "this was
+elevated in delusions" are no longer the same sentence; since Fromm's design
+showed the two attach to separate parameters, without knowing which one was
+indexed you do not know what the finding says.
+
+The least discussed question is the last one. Is the claim built at the group
+level or the individual level? A parameter that separates groups but cannot be
+repeated in the same person is a finding. It is not yet a measure.
+
+## References {.k-head}
+
+The classic finding and the meta-analyses:
+
+::: {.src}
+Moritz S, Woodward TS. Jumping to conclusions in delusional and non-delusional
+schizophrenic patients. *British Journal of Clinical Psychology*.
+2005;44(2):193-207. doi:[10.1348/014466505X35678](https://doi.org/10.1348/014466505X35678)
+:::
+
+::: {.src}
+Dudley R, Taylor P, Wickham S, Hutton P. Psychosis, delusions and the "jumping
+to conclusions" reasoning bias: a systematic review and meta-analysis.
+*Schizophrenia Bulletin*.
+2016;42(3):652-665. doi:[10.1093/schbul/sbv150](https://doi.org/10.1093/schbul/sbv150)
+:::
+
+::: {.src}
+Ross RM, McKay R, Coltheart M, Langdon R. Jumping to conclusions about the
+beads task? A meta-analysis of delusional ideation and data-gathering.
+*Schizophrenia Bulletin*.
+2015;41(5):1183-1191. doi:[10.1093/schbul/sbu187](https://doi.org/10.1093/schbul/sbu187)
+:::
+
+::: {.src}
+Fine C, Gardner M, Craigie J, Gold I. Hopping, skipping or jumping to
+conclusions? Clarifying the role of the JTC bias in delusions. *Cognitive
+Neuropsychiatry*.
+2007;12(1):46-77. doi:[10.1080/13546800600750597](https://doi.org/10.1080/13546800600750597)
+:::
+
+::: {.src}
+Lincoln TM, Ziegler M, Mehl S, Rief W. The jumping to conclusions bias in
+delusions: specificity and changeability. *Journal of Abnormal Psychology*.
+2010;119(1):40-49. doi:[10.1037/a0018118](https://doi.org/10.1037/a0018118)
+:::
+
+Testing the interpretation:
+
+::: {.src}
+Strube W, Cimpianu CL, Ulbrich M, et al. Unstable belief formation and slowed
+decision-making: evidence that the jumping-to-conclusions bias in schizophrenia
+is not linked to impulsive decision-making. *Schizophrenia Bulletin*.
+2022;48(2):347-358. doi:[10.1093/schbul/sbab108](https://doi.org/10.1093/schbul/sbab108)
+:::
+
+::: {.src}
+Balzan RP, Delfabbro PH, Galletly CA, Woodward TS. Over-adjustment or
+miscomprehension? A re-examination of the jumping to conclusions bias.
+*Australian & New Zealand Journal of Psychiatry*.
+2012;46(6):532-540. doi:[10.1177/0004867411435291](https://doi.org/10.1177/0004867411435291)
+:::
+
+::: {.src}
+Speechley WJ, Whitman JC, Woodward TS. The contribution of hypersalience to the
+"jumping to conclusions" bias associated with delusions in schizophrenia.
+*Journal of Psychiatry and Neuroscience*.
+2010;35(1):7-17. doi:[10.1503/jpn.090025](https://doi.org/10.1503/jpn.090025)
+:::
+
+Computational studies:
+
+::: {.src}
+Hauke DJ, Roth V, Karvelis P, Adams RA, Moritz S, Borgwardt S, et al. Increased
+belief instability in psychotic disorders predicts treatment response to
+metacognitive training. *Schizophrenia Bulletin*.
+2022;48(4):826-838. doi:[10.1093/schbul/sbac029](https://doi.org/10.1093/schbul/sbac029)
+:::
+
+::: {.src}
+Fromm S, Katthagen T, Deserno L, Heinz A, Kaminski J, Schlagenhauf F. Belief
+updating in subclinical and clinical delusions. *Schizophrenia Bulletin Open*.
+2022;4(1):sgac074. doi:[10.1093/schizbullopen/sgac074](https://doi.org/10.1093/schizbullopen/sgac074)
+:::
+
+::: {.src}
+Sheffield JM, Suthaharan P, Leptourgos P, Corlett PR. Belief updating and
+paranoia in individuals with schizophrenia. *Biological Psychiatry: Cognitive
+Neuroscience and Neuroimaging*.
+2022;7(11):1149-1157. doi:[10.1016/j.bpsc.2022.03.013](https://doi.org/10.1016/j.bpsc.2022.03.013)
+:::
+
+::: {.src}
+Sloan AF, Kittleson AR, Torregrossa LJ, et al. Belief updating, childhood
+maltreatment, and paranoia in schizophrenia-spectrum disorders. *Schizophrenia
+Bulletin*.
+2025;51(3):646-657. doi:[10.1093/schbul/sbae057](https://doi.org/10.1093/schbul/sbae057)
+:::
+
+::: {.src}
+Mikus N, Lamm C, Mathys C. Computational phenotyping of aberrant belief updating
+in individuals with schizotypal traits and schizophrenia. *Biological
+Psychiatry*.
+2025;97(2):188-197. doi:[10.1016/j.biopsych.2024.08.021](https://doi.org/10.1016/j.biopsych.2024.08.021)
+:::
+
+::: {.src}
+Mashima Y, Shinagawa K, Suzuki H, et al. Post-conclusion belief inflexibility
+bias assessed by a modified beads task in schizophrenia. *Schizophrenia
+Research*.
+2026;296:121-129. doi:[10.1016/j.schres.2026.07.002](https://doi.org/10.1016/j.schres.2026.07.002)
+:::
+
+Reviews and measurement:
+
+::: {.src}
+Katthagen T, Fromm S, Wieland L, Schlagenhauf F. Models of dynamic belief
+updating in psychosis: a review across different computational approaches.
+*Frontiers in Psychiatry*.
+2022;13:814111. doi:[10.3389/fpsyt.2022.814111](https://doi.org/10.3389/fpsyt.2022.814111)
+:::
+
+::: {.src}
+Gibbs-Dean T, Katthagen T, Tsenkova I, et al. Belief updating in psychosis,
+depression and anxiety disorders: a systematic review across computational
+modelling approaches. *Neuroscience and Biobehavioral Reviews*.
+2023;147:105087. doi:[10.1016/j.neubiorev.2023.105087](https://doi.org/10.1016/j.neubiorev.2023.105087)
+:::
+
+::: {.src}
+Karvelis P, Hauke DJ, Wobmann M, et al. Test-retest reliability of behavioral
+and computational measures of advice taking under volatility. *PLOS ONE*.
+2024;19(11):e0312255. doi:[10.1371/journal.pone.0312255](https://doi.org/10.1371/journal.pone.0312255)
+:::
+
+::: {.src}
+Hess AJ, Iglesias S, Köchli L, et al. Bayesian workflow for generative modeling
+in computational psychiatry. *Computational Psychiatry*.
+2025;9(1):76-99. doi:[10.5334/cpsy.116](https://doi.org/10.5334/cpsy.116)
+:::
+
+```{=html}
+<!-- An explanatory article, so Article rather than the generic WebPage.
+     datePublished and dateModified are injected by post-render from the front
+     matter; a second copy kept by hand here drifts on the first revision. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://furkanbekdemir.com/notes/belief-updating-in-psychosis#article",
+  "headline": "Belief updating in psychosis and hasty decisions",
+  "description": "What the jumping-to-conclusions bias, the beads task and computational models actually show about belief updating in schizophrenia: how much the meta-analyses support, which findings track diagnosis and which track symptoms, and where the measurement stands.",
+  "inLanguage": "en",
+  "about": [
+    "Belief updating",
+    "Jumping to conclusions",
+    "Beads task",
+    "Schizophrenia",
+    "Delusions",
+    "Paranoia",
+    "Volatility",
+    "Hierarchical Gaussian Filter",
+    "Computational psychiatry"
+  ],
+  "author": { "@id": "https://furkanbekdemir.com/#person" },
+  "publisher": { "@id": "https://furkanbekdemir.com/#person" },
+  "url": "https://furkanbekdemir.com/notes/belief-updating-in-psychosis"
+}
+</script>
+```
+
+::: {.k}
+[← notes](../notes.qmd) &middot;
+[the HGF](hierarchical-gaussian-filter.qmd) &middot;
+[sensory attenuation](sensory-attenuation.qmd) &middot;
+[türkçesi](../notlar/sizofrenide-inanc-guncelleme.qmd)
+:::

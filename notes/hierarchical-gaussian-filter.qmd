@@ -1,0 +1,222 @@
+---
+title: "The Hierarchical Gaussian Filter, for clinical readers"
+pagetitle: "The Hierarchical Gaussian Filter explained"
+lang: en
+date: 2026-08-09
+date-modified: 2026-08-09
+translation: notlar/hgf-nedir
+description-meta: &desc "The Hierarchical Gaussian Filter explained for clinical readers: what the parameters measure, why model comparison is not optional, and when a computational finding can be trusted."
+open-graph:
+  description: *desc
+twitter-card:
+  description: *desc
+---
+
+::: {.lede}
+You are reading a computational psychiatry paper. There is a model name, a few
+Greek letters, and a sentence saying some parameter was higher in the patient
+group. This note is about what that sentence claims, and more usefully, what it
+does not.
+:::
+
+No equations. The aim is not to let you build the model but to know where to
+look when someone else's model produces a claim. For the mathematics and working
+code, [Perception, Beliefs, and the Hierarchical Gaussian
+Filter](https://metaduck.com/computational-psychiatry-afterburn-hierarchical-gaussian-filters/)
+builds it step by step with `pyhgf`.
+
+## The problem it solves {.k-head}
+
+Suppose you watch a patient learn something. Say they are working out which of
+two boxes pays out more often. What you have is a sequence of trial-by-trial
+answers: A on this one, B on the next, then A again.
+
+What can you read off that sequence? At the simplest you count how often they
+were right. That number says nothing about how the learning happened. Two
+patients can score identically having taken completely different routes: one
+revised on every new piece of evidence, the other held out and then switched all
+at once.
+
+The Hierarchical Gaussian Filter assumes there is a person behind the sequence
+and describes how that person learns with a handful of numbers. What it models
+is not the behaviour but the process producing it.
+
+## What the hierarchy means {.k-head}
+
+The "hierarchical" in the name refers to layers of uncertainty stacked on one
+another.
+
+The bottom layer is the current state: is this box paying out right now. Above
+it sits the tendency: how often does this box pay out in general. The top layer
+is how changeable the world is, meaning how often those rules shift.
+
+That third layer is the model's real idea and the one with the most clinical
+purchase. How fast you ought to learn depends on how much the world actually
+changes. If the rules shift often, revising quickly is sensible. If they are
+fixed, the same speed has you chasing noise.
+
+People make this adjustment constantly and the model puts a number on it.
+Someone who takes the world to be more volatile than it is treats a single event
+as too informative. Someone who takes the opposite view is slow to notice a real
+change.
+
+## What the parameters say clinically {.k-head}
+
+The number reported most often is the learning rate, and the HGF's difference is
+that the rate is not fixed. In classical learning models a person has one
+learning speed and it stays the same from trial to trial. Here it is recomputed
+on every trial, and it depends on how certain the person is at that moment and
+how volatile they take the world to be. Learning speeds up after a surprise and
+slows inside a familiar pattern.
+
+The quantity governing this is precision. It has nothing to do with precision in
+the everyday sense; it measures how narrow a belief is. A narrow belief leaves
+little room for new evidence, a wide one leaves a lot. That is the clinically
+interesting part: the source of a symptom may not be the evidence but the weight
+given to it.
+
+The engine is prediction error, the gap between what happened and what was
+expected. The raw gap is not what gets used; the precision-weighted version is.
+A surprise of the same size produces a different result depending on how certain
+the person was.
+
+There is also response noise, which absorbs everything the model cannot explain.
+People do not always act on their beliefs; they get distracted, press the wrong
+key, waver. Having this parameter matters, because without it disorderly
+behaviour would look like a strange style of learning.
+
+The appeal of these numbers is obvious. Each resembles a mechanism and attaches
+easily to a clinical story. The two sections below are largely against that
+ease.
+
+## Why model comparison is not optional {.k-head}
+
+A model was fitted and numbers came out. For those numbers to mean anything you
+first have to know whether this model generated the data, or whether some other
+model would have generated it just as well.
+
+Goodness of fit does not answer that. A flexible enough model fits any data
+well, and a good fit may be showing you flexibility rather than truth.
+
+So fitting one model and reporting its numbers is not enough. Several candidate
+models are built, all fitted to the same data, and compared on how well each
+explains it. Because the comparison separately penalises complex models, adding
+parameters to improve the fit does not count as winning.
+
+If a paper has no model comparison, the parameters it reports do not point at a
+mechanism. They are what you get when you summarise the data through that
+particular model. The difference is not a small one.
+
+## When to trust a finding {.k-head}
+
+When a model fits, it produces a number for every parameter. That a number was
+produced does not mean the data carried information about that parameter. In
+some models two parameters move together: raise one and lower the other and the
+model behaves identically. Their combination can then be read off the data but
+neither can be read alone. The estimator still returns a number, because it has
+to. That number reflects setup choices more than it reflects data.
+
+The technical name for this is identifiability. It is among the first things to
+ask about a computational finding.
+
+The test is parameter recovery. You generate synthetic data from known values,
+run the same pipeline over it, and check whether the values you put in come back
+out. If they do not, the parameter cannot be measured with that design, and
+there is no way to discover this from real data. I ran this on my own pipeline
+before collecting anything, and I think the order matters: leave it until
+afterwards and, when the result is bad, you are holding a number you could
+publish, which makes it harder to drop.
+
+Finally, parameter names. Calling a parameter "belief instability" or "learning
+flexibility" does not establish that it measures that. The name is the
+interpretation of whoever built the model. The same number can be attached to a
+completely different mechanism under another reading, and choosing between the
+two takes more than the model.
+
+## In short {.k-head}
+
+The HGF's clinical value is that it treats learning speed as an adjustment
+tracking how volatile a person takes the world to be, rather than as a fixed
+trait.
+
+But not every number it produces is a mechanism. The estimator returns a number
+under any conditions; what shows the number measures something is not the number
+itself but the model comparison and the recovery behind it. Without both, what
+you are holding is a summary statistic rather than a claim about mechanism. And
+if the parameter's name is confident enough, that summary statistic gets read as
+a mechanism.
+
+## References {.k-head}
+
+The model itself:
+
+::: {.src}
+Mathys C, Daunizeau J, Friston KJ, Stephan KE. A Bayesian foundation for
+individual learning under uncertainty. *Frontiers in Human Neuroscience*.
+2011;5:39. doi:[10.3389/fnhum.2011.00039](https://doi.org/10.3389/fnhum.2011.00039)
+:::
+
+::: {.src}
+Mathys CD, Lomakina EI, Daunizeau J, Iglesias S, Brodersen KH, Friston KJ,
+Stephan KE. Uncertainty in perception and the Hierarchical Gaussian Filter.
+*Frontiers in Human Neuroscience*.
+2014;8:825. doi:[10.3389/fnhum.2014.00825](https://doi.org/10.3389/fnhum.2014.00825)
+:::
+
+Model comparison and parameter recovery:
+
+::: {.src}
+Wilson RC, Collins AGE. Ten simple rules for the computational modeling of
+behavioral data. *eLife*.
+2019;8:e49547. doi:[10.7554/eLife.49547](https://doi.org/10.7554/eLife.49547)
+:::
+
+::: {.src}
+Rigoux L, Stephan KE, Friston KJ, Daunizeau J. Bayesian model selection for
+group studies, revisited. *NeuroImage*.
+2014;84:971-985. doi:[10.1016/j.neuroimage.2013.08.065](https://doi.org/10.1016/j.neuroimage.2013.08.065)
+:::
+
+The software that implements it:
+
+::: {.src}
+Frässle S, Aponte EA, Bollmann S, et al. TAPAS: an open-source software package
+for translational neuromodeling and computational psychiatry. *Frontiers in
+Psychiatry*.
+2021;12:680811. doi:[10.3389/fpsyt.2021.680811](https://doi.org/10.3389/fpsyt.2021.680811)
+:::
+
+```{=html}
+<!-- An explanatory article, so Article rather than the generic WebPage.
+     datePublished and dateModified are injected by post-render from the front
+     matter; a second copy kept by hand here drifts on the first revision. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://furkanbekdemir.com/notes/hierarchical-gaussian-filter#article",
+  "headline": "The Hierarchical Gaussian Filter, for clinical readers",
+  "description": "The Hierarchical Gaussian Filter explained for clinical readers: what the parameters measure, why model comparison is not optional, and when a computational finding can be trusted.",
+  "inLanguage": "en",
+  "about": [
+    "Hierarchical Gaussian Filter",
+    "Computational psychiatry",
+    "Belief updating",
+    "Predictive processing",
+    "Model comparison",
+    "Parameter recovery",
+    "Identifiability"
+  ],
+  "author": { "@id": "https://furkanbekdemir.com/#person" },
+  "publisher": { "@id": "https://furkanbekdemir.com/#person" },
+  "url": "https://furkanbekdemir.com/notes/hierarchical-gaussian-filter"
+}
+</script>
+```
+
+::: {.k}
+[← notes](../notes.qmd) &middot;
+[sensory attenuation](sensory-attenuation.qmd) &middot;
+[belief updating](belief-updating-in-psychosis.qmd) &middot;
+[türkçesi](../notlar/hgf-nedir.qmd)
+:::

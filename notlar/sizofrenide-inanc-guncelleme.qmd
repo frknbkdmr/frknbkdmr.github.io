@@ -329,6 +329,7 @@ in computational psychiatry. *Computational Psychiatry*.
 ```
 
 ::: {.k}
+[english](../notes/belief-updating-in-psychosis.qmd) &middot;
 [← notlar](../notlar.qmd) &middot;
 [terimler sözlüğü](terimler.qmd) &middot;
 [HGF nedir](hgf-nedir.qmd)

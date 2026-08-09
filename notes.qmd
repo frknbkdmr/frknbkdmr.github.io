@@ -1,0 +1,76 @@
+---
+title: "Notes"
+pagetitle: "Notes on computational psychiatry"
+description-meta: &desc "Notes on computational psychiatry written for clinical readers: the Hierarchical Gaussian Filter, sensory attenuation and the force-matching task, and what the evidence on belief updating in psychosis actually supports."
+open-graph:
+  description: *desc
+twitter-card:
+  description: *desc
+---
+
+::: {.lede}
+Explanatory notes on the methods the research pages depend on, written for
+clinical readers rather than modellers. Each one covers what a measure does, and
+where it stops being able to support the claim made from it.
+:::
+
+::: {.entry}
+::: {.meta}
+Clinical readers &middot; no equations &middot; [published]{.status .done}
+:::
+### [The Hierarchical Gaussian Filter, for clinical readers](notes/hierarchical-gaussian-filter.qmd){.title}
+
+What the parameters mean clinically, why model comparison is not optional, and
+when a computational finding can be trusted. That a parameter can be estimated
+does not mean it can be interpreted.
+:::
+
+::: {.entry}
+::: {.meta}
+15 references &middot; [published]{.status .done}
+:::
+### [Sensory attenuation and the force-matching task](notes/sensory-attenuation.qmd){.title}
+
+Why self-produced touch feels weaker, how that becomes a number, and where the
+mechanism has been found disturbed, from schizophrenia to functional movement
+disorder. The task has two conditions and the second is not decoration.
+:::
+
+::: {.entry}
+::: {.meta}
+18 references &middot; [published]{.status .done}
+:::
+### [Belief updating in psychosis and hasty decisions](notes/belief-updating-in-psychosis.qmd){.title}
+
+How solid the jumping-to-conclusions evidence is, what computational modelling
+changed, and why there is still no individual-level measure. Where the finding
+is weakest is precisely where it was built to apply.
+:::
+
+## Also in Turkish {.k-head}
+
+These three notes exist in Turkish as well, at
+[/notlar](notlar.qmd), alongside a seventy-term glossary of Turkish renderings
+for computational psychiatry vocabulary. That glossary has no English
+counterpart and is not planned to get one: its subject is which Turkish term is
+established, which is not a question an English page can ask.
+
+```{=html}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "https://furkanbekdemir.com/notes#collection",
+  "name": "Notes on computational psychiatry",
+  "description": "Explanatory notes on computational psychiatry methods written for clinical readers.",
+  "inLanguage": "en",
+  "author": { "@id": "https://furkanbekdemir.com/#person" },
+  "url": "https://furkanbekdemir.com/notes",
+  "hasPart": [
+    { "@type": "Article", "url": "https://furkanbekdemir.com/notes/hierarchical-gaussian-filter", "headline": "The Hierarchical Gaussian Filter, for clinical readers" },
+    { "@type": "Article", "url": "https://furkanbekdemir.com/notes/sensory-attenuation", "headline": "Sensory attenuation and the force-matching task" },
+    { "@type": "Article", "url": "https://furkanbekdemir.com/notes/belief-updating-in-psychosis", "headline": "Belief updating in psychosis and hasty decisions" }
+  ]
+}
+</script>
+```

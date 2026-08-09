@@ -4,6 +4,8 @@ pagetitle: "Hiyerarşik Gauss filtresi: klinik giriş"
 lang: tr
 date: 2026-08-09
 date-modified: 2026-08-09
+# İngilizcesiyle eşleşiyor; hreflang bu iki satırdan çıkıyor.
+translation: notes/hierarchical-gaussian-filter
 description-meta: &desc "Hesaplamalı psikiyatride sık kullanılan Hiyerarşik Gauss Filtresinin klinik okur için açıklaması: modelin parametreleri ne ölçer, model karşılaştırması neden zorunludur ve bir hesaplamalı bulguya ne zaman güvenilir."
 open-graph:
   description: *desc
@@ -209,6 +211,7 @@ Psychiatry*.
 ```
 
 ::: {.k}
+[english](../notes/hierarchical-gaussian-filter.qmd) &middot;
 [← notlar](../notlar.qmd) &middot;
 [terimler sözlüğü](terimler.qmd)
 :::

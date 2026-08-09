@@ -61,8 +61,12 @@ website:
         href: research/index.qmd
       - text: "Instruments &amp; code"
         href: tools.qmd
-      # Back on the navbar. It came off while the page promised three articles
-      # and had none; the glossary is the first thing there that exists.
+      # Both languages get a navbar entry rather than one hiding behind the
+      # other. The Turkish notes are the originals and the English ones reach
+      # further; burying either behind a link inside the other costs more than
+      # a fifth item does.
+      - text: "Notes"
+        href: notes.qmd
       - text: "Notlar"
         href: notlar.qmd
       - text: "CV"

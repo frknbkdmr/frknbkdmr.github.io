@@ -1,0 +1,319 @@
+---
+title: "Sensory attenuation and the force-matching task"
+pagetitle: "Sensory attenuation and how it is measured"
+lang: en
+date: 2026-08-09
+date-modified: 2026-08-09
+translation: notlar/duyusal-azaltim
+description-meta: &desc "Why self-produced touch feels weaker, how the force-matching task turns that into a number, and what has been found in schizophrenia, functional movement disorder and fatigue."
+open-graph:
+  description: *desc
+twitter-card:
+  description: *desc
+---
+
+::: {.lede}
+You cannot tickle yourself. There is a measurable mechanism behind that familiar
+observation, and where it weakens, psychiatric symptoms appear.
+:::
+
+Tickling is only its most familiar form. The same mechanism has a laboratory
+measure, and that measure connects to several separate symptoms. The precision
+language used here is set out in the [HGF
+note](hierarchical-gaussian-filter.qmd); the rig I built for the task is on the
+[instrument page](../tools/force-matching.qmd).
+
+## The observation {.k-head}
+
+Touching your own palm and having someone else touch it the same way differ in
+nothing physical. Same pressure, same skin, same receptors. The only thing that
+changes is where the touch came from, and that is what drops the perceived
+intensity.
+
+Blakemore and colleagues looked at this in 1998. Somatosensory cortex was more
+active for externally produced touch and less active for self-produced touch. In
+the cerebellum the pattern reversed: cerebellar activity was lower for movements
+that produced a touch than for movements that did not. The reading is that the
+cerebellum computes the sensory consequence of a movement in advance, and that
+computation is used to turn the incoming signal down.
+
+The name for that turning down is sensory attenuation. Its use is this: most of
+the signal reaching your senses is produced by your own movements. If all of it
+were processed at equal weight, the externally caused signal, the one that
+actually carries news, would be lost inside it. Turning down the predictable is
+how you bring out the unpredictable.
+
+## How the task turns it into a number {.k-head}
+
+The most memorable demonstration involved two people. In 2003 Shergill and
+colleagues had participants take turns pressing on each other's finger, each
+trying to apply the force they had just felt. The force grew every turn. Nobody
+was exaggerating; everyone matched what they felt, but because they felt their
+own output as weaker than it was, each put in a little more. The paper's title
+sums it up as two eyes for an eye. So the line we all used as children, that he
+hit first and he hit harder, was not a lie after all. It was a calibration
+problem.
+
+The same effect was turned into a standard single-person task. In the
+force-matching task a target force is applied to the participant's finger and
+they are then asked to reproduce it two ways. In the direct condition they press
+on their own finger with the other hand. In the slider condition a motor
+produces the force and they set its size with a slider.
+
+Pressing directly, they overshoot. Through the slider they are fairly accurate.
+In the twenty-five-participant data published in McNaughton's device paper the
+direct condition ran 0.50 N high on average and the slider condition 0.30 N low.
+The difference between the two conditions is the measurement.
+
+## The second condition is not decoration {.k-head}
+
+Why the slider condition is needed is not obvious at first, and misreading the
+task usually starts here.
+
+Error in the direct condition has more than one source. You have to remember the
+target force, you have to scale the force you produce, and your motor output has
+noise of its own. None of that is specific to prediction, and each would produce
+a deviation on its own. The slider condition carries the same memory and scaling
+load, but because the force does not come from your own hand, prediction-based
+attenuation is not running. Take the difference between the two and the shared
+effects drop out, leaving the part that belongs to prediction.
+
+That logic was recently tested formally. Valè and colleagues built a
+computational model of the task on data from nearly five hundred participants,
+separated the individual noise sources including memory noise, and showed that
+the difference between conditions does isolate the predictive component. Two
+further things came out of the same study. Attenuated sensations vary more from
+trial to trial, because they carry the noise of the prediction as well. And
+attenuation works by division rather than subtraction: the signal is not reduced
+by a fixed amount, it shrinks by a factor.
+
+What attenuation locks onto has been tested too. Bays and colleagues showed the
+mechanism attaches not to the movement but to the event the movement predicts.
+Shift the timing of the touch earlier or later and attenuation falls off.
+Movements that stop above the finger or pass wide of it produce no attenuation
+at all. The system is not saying "I am moving, turn the senses down." It is
+saying "a touch is about to happen, there, now." Kilteni and Ehrsson showed a
+more basic condition still: you have to count the touching hand as your own.
+Move the sense of ownership with the rubber hand illusion and attenuation moves
+with it.
+
+## The link to precision {.k-head}
+
+In active inference, attenuation corresponds to lowering the precision of
+sensory evidence during movement. The argument that this is compulsory runs as
+follows: to move, your prediction that you are moving has to outweigh the
+sensory evidence that you are not yet moving. If that evidence is not
+down-weighted, the movement never starts.
+
+Brown and colleagues reproduced the force-matching finding from this framework.
+When they took attenuation out of the model two things happened together: the
+overshoot in the task disappeared, and false inferences about agency appeared.
+The same setting makes movement possible and determines what counts as yours. It
+costs in both directions. Turn it down too little and movement does not start;
+too much and you cannot tell yourself from the world.
+
+## Where it sits clinically {.k-head}
+
+The most instructive finding is one of the oldest. In 2000 Blakemore and
+colleagues compared patients with schizophrenia, patients with bipolar disorder
+or depression, and healthy controls. What determined the loss of attenuation was
+the symptom rather than the diagnosis: attenuation was absent in those with
+auditory hallucinations or passivity experiences and present in those without,
+regardless of what they were diagnosed with.
+
+What followed widened it. Attenuation was shown to be significantly reduced in
+schizophrenia, and in an imaging study the loss of attenuation in secondary
+somatosensory cortex was predicted by the patient's current hallucination
+severity. Teufel and colleagues worked in healthy people: those higher in
+delusional ideation were more accurate on the task, meaning they attenuated
+less. That last one answers two objections at once, since neither medication nor
+an active episode can explain it.
+
+Leaving the picture in schizophrenia would be a mistake. In functional movement
+disorder attenuation is absent; patients do not experience the movement as under
+their own control and do not produce the overshoot that controls produce. In
+Parkinson's disease attenuation is selectively impaired in the group reporting
+fatigue and not in the group without it, and the impairment goes with subjective
+fatigue and perceived effort rather than motor symptom severity. In chronic pain
+no group difference in magnitude was found; what separated the groups was
+variance.
+
+Attenuation being disturbed across this many presentations makes it a measure
+tied to symptoms rather than diagnoses. It does not tell you which diagnosis a
+patient carries. It says something about which mechanism is disturbed. Confuse
+the two and the measure has promised more than it can deliver.
+
+## What the instrument contributes {.k-head}
+
+Because the measurement is a difference between two conditions, instrument error
+common to both cancels in that difference. What does not cancel is error that
+depends on the direction of loading, since the two conditions do not load the
+sensor the same way. A ramp pressed by a motor and a ramp pressed by a person
+are not the same thing.
+
+The acceptance criterion that passed by the narrowest margin on my own rig was
+hysteresis. That is no coincidence: hysteresis is exactly the class of error
+that does not cancel in the difference. The rig and its calibration record are
+on the [instrument page](../tools/force-matching.qmd).
+
+## Reading a finding {.k-head}
+
+The first thing to look at in a published attenuation result is how many
+conditions the design had. A deviation coming out of a single-condition design
+cannot be called attenuation, because the second condition is what strips memory
+and scaling back out.
+
+Next come the number of repetitions and the time window. McNaughton and
+colleagues showed in data from a hundred and thirty-eight participants that the
+number of repetitions can come down from eight, that the best window for
+extracting the matched force is 2.5 to 3.0 seconds, and that performance does
+not drift over the session. Where the window is not reported there is no ground
+for comparing two studies.
+
+Last, whether the analysis looked only at the mean. In chronic pain the groups
+did not separate on magnitude but did on variance, and an analysis of means
+would never see a difference like that. Given that Valè and colleagues' model
+says variability may be predictive signal rather than noise, this is no longer a
+secondary detail.
+
+## References {.k-head}
+
+The phenomenon:
+
+::: {.src}
+Blakemore SJ, Wolpert DM, Frith CD. Central cancellation of self-produced tickle
+sensation. *Nature Neuroscience*.
+1998;1(7):635-640. doi:[10.1038/2870](https://doi.org/10.1038/2870)
+:::
+
+::: {.src}
+Shergill SS, Bays PM, Frith CD, Wolpert DM. Two eyes for an eye: the
+neuroscience of force escalation. *Science*.
+2003;301(5630):187. doi:[10.1126/science.1085327](https://doi.org/10.1126/science.1085327)
+:::
+
+::: {.src}
+Bays PM, Wolpert DM, Flanagan JR. Perception of the consequences of self-action
+is temporally tuned and event driven. *Current Biology*.
+2005;15(12):1125-1128. doi:[10.1016/j.cub.2005.05.023](https://doi.org/10.1016/j.cub.2005.05.023)
+:::
+
+::: {.src}
+Kilteni K, Ehrsson HH. Body ownership determines the attenuation of
+self-generated tactile sensations. *PNAS*.
+2017;114(31):8426-8431. doi:[10.1073/pnas.1703347114](https://doi.org/10.1073/pnas.1703347114)
+:::
+
+The theoretical account:
+
+::: {.src}
+Brown H, Adams RA, Parees I, Edwards M, Friston K. Active inference, sensory
+attenuation and illusions. *Cognitive Processing*.
+2013;14(4):411-427. doi:[10.1007/s10339-013-0571-3](https://doi.org/10.1007/s10339-013-0571-3)
+:::
+
+Clinical findings:
+
+::: {.src}
+Blakemore SJ, Smith J, Steel R, Johnstone EC, Frith CD. The perception of
+self-produced sensory stimuli in patients with auditory hallucinations and
+passivity experiences. *Psychological Medicine*.
+2000;30(5):1131-1139. doi:[10.1017/S0033291799002676](https://doi.org/10.1017/S0033291799002676)
+:::
+
+::: {.src}
+Shergill SS, Samson G, Bays PM, Frith CD, Wolpert DM. Evidence for sensory
+prediction deficits in schizophrenia. *American Journal of Psychiatry*.
+2005;162(12):2384-2386. doi:[10.1176/appi.ajp.162.12.2384](https://doi.org/10.1176/appi.ajp.162.12.2384)
+:::
+
+::: {.src}
+Shergill SS, White TP, Joyce DW, Bays PM, Wolpert DM, Frith CD. Functional
+magnetic resonance imaging of impaired sensory prediction in schizophrenia.
+*JAMA Psychiatry*.
+2014;71(1):28-35. doi:[10.1001/jamapsychiatry.2013.2974](https://doi.org/10.1001/jamapsychiatry.2013.2974)
+:::
+
+::: {.src}
+Teufel C, Kingdon A, Ingram JN, Wolpert DM, Fletcher PC. Deficits in sensory
+prediction are related to delusional ideation in healthy individuals.
+*Neuropsychologia*.
+2010;48(14):4169-4172. doi:[10.1016/j.neuropsychologia.2010.10.024](https://doi.org/10.1016/j.neuropsychologia.2010.10.024)
+:::
+
+::: {.src}
+Pareés I, Brown H, Nuruki A, Adams RA, Davare M, Bhatia KP, Friston K, Edwards
+MJ. Loss of sensory attenuation in patients with functional (psychogenic)
+movement disorders. *Brain*.
+2014;137(11):2916-2921. doi:[10.1093/brain/awu237](https://doi.org/10.1093/brain/awu237)
+:::
+
+::: {.src}
+Marotta A, Pizzolla E, Di Vico IA, Tinazzi M, Emadi Andani M, Fiorio M. Reduced
+sensory attenuation as a marker of pathological fatigue: evidence from
+Parkinson's disease. *Cortex*.
+2026;200:1-13. doi:[10.1016/j.cortex.2026.04.001](https://doi.org/10.1016/j.cortex.2026.04.001)
+:::
+
+::: {.src}
+McNaughton D, Beath A, Hush J, Jones M. Perceptual sensory attenuation in
+chronic pain subjects and healthy controls. *Scientific Reports*.
+2022;12:8958. doi:[10.1038/s41598-022-13175-4](https://doi.org/10.1038/s41598-022-13175-4)
+:::
+
+Method and measurement:
+
+::: {.src}
+McNaughton D, Hope R, Gray E, Xavier F, Beath A, Jones M. Methodological
+considerations for the force-matching task. *Behavior Research Methods*.
+2023;55(6):2979-2988. doi:[10.3758/s13428-022-01954-w](https://doi.org/10.3758/s13428-022-01954-w)
+:::
+
+::: {.src}
+McNaughton D, Bacigalupo C, Georghiades A, Beath A, Hush J, Jones M. Design,
+development and functionality of a haptic force-matching device for measuring
+sensory attenuation. *Behavior Research Methods*.
+2021;53(6):2689-2699. doi:[10.3758/s13428-021-01605-6](https://doi.org/10.3758/s13428-021-01605-6)
+:::
+
+::: {.src}
+Valè N, Tomić I, Gironés Z, Wolpert DM, Kilteni K, Bays PM. Divisive attenuation
+based on noisy sensorimotor predictions accounts for excess variability in
+self-touch. *Journal of Neurophysiology*.
+2025;134(1):407-428. doi:[10.1152/jn.00055.2025](https://doi.org/10.1152/jn.00055.2025)
+:::
+
+```{=html}
+<!-- An explanatory article, so Article rather than the generic WebPage.
+     datePublished and dateModified are injected by post-render from the front
+     matter; a second copy kept by hand here drifts on the first revision. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://furkanbekdemir.com/notes/sensory-attenuation#article",
+  "headline": "Sensory attenuation and the force-matching task",
+  "description": "Why self-produced touch feels weaker, how the force-matching task turns that into a number, and what has been found in schizophrenia, functional movement disorder and fatigue.",
+  "inLanguage": "en",
+  "about": [
+    "Sensory attenuation",
+    "Force-matching task",
+    "Efference copy",
+    "Sense of agency",
+    "Active inference",
+    "Schizophrenia",
+    "Functional movement disorder"
+  ],
+  "author": { "@id": "https://furkanbekdemir.com/#person" },
+  "publisher": { "@id": "https://furkanbekdemir.com/#person" },
+  "url": "https://furkanbekdemir.com/notes/sensory-attenuation"
+}
+</script>
+```
+
+::: {.k}
+[← notes](../notes.qmd) &middot;
+[the HGF](hierarchical-gaussian-filter.qmd) &middot;
+[belief updating](belief-updating-in-psychosis.qmd) &middot;
+[türkçesi](../notlar/duyusal-azaltim.qmd)
+:::

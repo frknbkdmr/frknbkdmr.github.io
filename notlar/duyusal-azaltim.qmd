@@ -308,6 +308,7 @@ self-touch. *Journal of Neurophysiology*.
 ```
 
 ::: {.k}
+[english](../notes/sensory-attenuation.qmd) &middot;
 [← notlar](../notlar.qmd) &middot;
 [terimler sözlüğü](terimler.qmd) &middot;
 [HGF nedir](hgf-nedir.qmd)
