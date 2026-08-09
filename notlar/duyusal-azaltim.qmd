@@ -5,7 +5,7 @@ lang: tr
 # Çevirisi yazıldığında buraya karşılık gelen İngilizce sayfa gelir; ikisi de
 # birbirini gösterdiğinde hreflang etiketleri kendiliğinden çıkar.
 translation: notes/sensory-attenuation
-description-meta: &desc "Duyusal azaltımın klinik okur için açıklaması: kendi ürettiğimiz dokunuşu neden zayıf hissederiz, kuvvet eşleştirme görevi bunu nasıl sayıya çevirir, ve şizofreni, fonksiyonel hareket bozukluğu ve yorgunlukta ne bulunmuştur."
+description-meta: &desc "Duyusal azaltımın klinik okur için açıklaması: kendi ürettiğimiz dokunuşu neden zayıf hissederiz, kuvvet eşleştirme görevi bunu nasıl sayıya çevirir, şizofreni, fonksiyonel hareket bozukluğu ve yorgunlukta ne bulunmuştur."
 open-graph:
   description: *desc
 twitter-card:
@@ -14,12 +14,12 @@ twitter-card:
 
 ::: {.lede}
 Kendinizi gıdıklayamazsınız. Herkesin bildiği bu gözlemin arkasında ölçülebilir
-bir mekanizma var, ve o mekanizmanın zayıfladığı yerlerde psikiyatrik belirtiler
+bir mekanizma var. O mekanizmanın zayıfladığı yerlerde psikiyatrik belirtiler
 çıkıyor.
 :::
 
 Gıdıklanma bunun en tanıdık hali. Aynı mekanizmanın laboratuvarda ölçülen bir
-karşılığı var, ve o ölçüm psikiyatride birkaç ayrı yere bağlanıyor. Terimlerin
+karşılığı var ve o ölçüm psikiyatride birkaç ayrı belirtiyle ilişkilendiriliyor. Terimlerin
 İngilizce karşılıkları [terimler sözlüğünde](terimler.qmd); kesinlik ve öngörü
 hatası kavramlarının daha geniş bir anlatımı [HGF yazısında](hgf-nedir.qmd).
 
@@ -31,8 +31,8 @@ dokunuşun kaynağı. Algılanan şiddeti belirgin biçimde düşüren de o.
 
 Blakemore ve arkadaşları 1998'de buna baktı. Dışarıdan gelen dokunuşta
 somatosensoriyel korteks daha çok, kendi ürettiğinizde daha az çalışıyordu.
-Serebellumda ise örüntü tersineydi: dokunuş üreten bir hareket, üretmeyen bir
-harekete göre daha az serebellar etkinlikle gidiyordu. Buradan çıkan yorum,
+Serebellumda ise örüntü tersineydi: dokunuş üreten hareketlerde serebellar
+etkinlik, üretmeyen hareketlere göre daha düşüktü. Buradan çıkan yorum,
 serebellumun hareketin duyusal sonucunu önceden hesapladığı ve o hesabın gelen
 sinyali kısmak için kullanıldığı.
 
@@ -74,12 +74,12 @@ hatırlamanız gerekiyor, ürettiğiniz kuvveti derecelendirmeniz gerekiyor, mot
 çıktınızın kendi gürültüsü var. Bunların hiçbiri öngörüye özgü değil, hepsi tek
 başına da sapma üretir. Sürgü koşulunda aynı hafıza ve derecelendirme yükü
 duruyor, ama kuvvet sizin elinizden çıkmadığı için öngörüye dayalı kısma devrede
-değil. İkisinin farkını almak, ortak olan her şeyi düşürüp geriye öngörüye ait
-olan payı bırakıyor.
+değil. İki koşul arasındaki fark alındığında ortak etkiler eleniyor, geriye öngörüye
+ait pay kalıyor.
 
 Bu mantık yakın zamanda biçimsel olarak sınandı. Valè ve arkadaşları beş yüze
 yakın katılımcının verisiyle görevin hesaplamalı bir modelini kurdu, hafıza
-gürültüsü dahil ayrı ayrı gürültü kaynaklarını ayırdı, ve iki koşulun farkının
+gürültüsü dahil ayrı ayrı gürültü kaynaklarını ayırdı ve iki koşulun farkının
 gerçekten öngörüye ait bileşeni yalıttığını gösterdi. Aynı çalışmadan iki şey
 daha çıktı. Azaltılmış duyumlar deneme deneme daha değişken, çünkü öngörünün
 kendi gürültüsünü de taşıyorlar. Ve azaltım çıkarma değil bölme biçiminde
@@ -90,9 +90,9 @@ hareketin kendisine değil, hareketten beklenen olaya bağlandığını gösterd
 Dokunuşun zamanlaması öne ya da arkaya kaydırıldıkça azaltım azalıyor. Parmağın
 üstünde duran ya da yanından geçen hareketler ise hiç azaltım üretmiyor. Sistem
 "hareket ediyorum, duyuyu kıs" demiyor. "Şu anda şurada şu dokunuş olacak"
-diyor. Kilteni ve Ehrsson bunun bir adım öncesini ekledi: dokunan elin sizin
-sayılması gerekiyor, çünkü kauçuk el yanılsamasıyla sahiplik oynatıldığında
-azaltım da onunla birlikte yer değiştiriyor.
+diyor. Kilteni ve Ehrsson daha temel bir koşul gösterdi: dokunan eli kendinize ait
+saymanız gerekiyor. Kauçuk el yanılsamasıyla sahiplik algısı değiştirildiğinde
+azaltım da yer değiştiriyor.
 
 ## Kesinlikle bağlantısı {.k-head}
 
@@ -104,7 +104,7 @@ düşürülmezse hareket başlamaz.
 
 Brown ve arkadaşları bu çerçeveden kuvvet eşleştirme bulgusunu yeniden üretti.
 Modelden azaltımı çıkardıklarında iki şey birlikte oldu: görevdeki fazla üretim
-kayboldu, ve eylemliliğe dair yanlış çıkarımlar belirdi. Aynı ayar hem hareketi
+kayboldu, eylemliliğe dair yanlış çıkarımlar belirdi. Aynı ayar hem hareketi
 mümkün kılıyor hem de neyin size ait olduğunu belirliyor. Bedeli iki yönde de
 var: yeterince düşürmezseniz hareket başlamıyor, fazla düşürürseniz kendinizle
 dünyayı ayırt edemiyorsunuz.
@@ -113,7 +113,7 @@ dünyayı ayırt edemiyorsunuz.
 
 En öğretici bulgu en eskilerden biri. Blakemore ve arkadaşları 2000'de şizofreni
 tanılı hastaları, iki uçlu bozukluk ve depresyon tanılılarını ve sağlıklı
-kontrolleri karşılaştırdı. Azaltımın kaybı tanıyla değil belirtiyle gidiyordu:
+kontrolleri karşılaştırdı. Azaltımın kaybını belirleyen tanı değil belirtiydi:
 işitsel varsanı ya da edilgenlik yaşantısı olanlarda azaltım yoktu, olmayanlarda
 tanıdan bağımsız olarak vardı.
 
@@ -130,12 +130,12 @@ azaltım yok; hastalar hareketi kendi kontrollerinde hissetmiyorlar ve görevde
 kontrollerin yaptığı fazla üretimi yapmıyorlar. Parkinson hastalığında yorgunluk
 tarifleyen grupta azaltım seçici olarak bozuk, tariflemeyen grupta değil. Üstelik
 bu bozukluk motor belirti şiddetiyle değil, öznel yorgunluk ve algılanan çabayla
-gidiyor. Kronik ağrıda ise büyüklük açısından grup farkı bulunamadı; ayrışan şey
+ilişkili. Kronik ağrıda ise büyüklük açısından grup farkı bulunamadı; ayrışan şey
 varyanstı.
 
 Azaltım bozukluğunun bu kadar farklı tabloda çıkması onu tanıya değil belirtiye
 bağlı bir ölçüm yapıyor. Hastanın hangi tanıyı taşıdığını söylemiyor. Hangi
-mekanizmanın bozulduğuna dair bir şey söylüyor, ve ikisi karıştırıldığında ölçüm
+mekanizmanın bozulduğuna dair bir şey söylüyor. İkisi karıştırıldığında ölçüm
 verebileceğinden fazlasını vaat etmiş oluyor.
 
 ## Ölçen aletin payı {.k-head}
@@ -163,7 +163,7 @@ performansın deney boyunca kaymadığını gösterdi. Pencere seçimi rapor
 edilmemişse iki çalışmayı karşılaştıracak zemin yok demektir.
 
 Son olarak, analiz yalnız ortalamaya mı bakmış. Kronik ağrıda gruplar
-büyüklükte ayrışmadı ama varyansta ayrıştı, ve ortalamaya bakan bir analiz böyle
+büyüklükte ayrışmadı ama varyansta ayrıştı; ortalamaya bakan bir analiz böyle
 bir farkı hiç görmez. Valè ve arkadaşlarının modeli değişkenliğin gürültü değil
 öngörüye ait sinyal olabileceğini söylediğine göre, bu artık ikincil bir ayrıntı
 da değil.
@@ -284,7 +284,7 @@ self-touch. *Journal of Neurophysiology*.
   "@type": "Article",
   "@id": "https://furkanbekdemir.com/notlar/duyusal-azaltim#article",
   "headline": "Duyusal azaltım ve kuvvet eşleştirme görevi",
-  "description": "Duyusal azaltımın klinik okur için açıklaması: kendi ürettiğimiz dokunuşu neden zayıf hissederiz, kuvvet eşleştirme görevi bunu nasıl sayıya çevirir, ve şizofreni, fonksiyonel hareket bozukluğu ve yorgunlukta ne bulunmuştur.",
+  "description": "Duyusal azaltımın klinik okur için açıklaması: kendi ürettiğimiz dokunuşu neden zayıf hissederiz, kuvvet eşleştirme görevi bunu nasıl sayıya çevirir, şizofreni, fonksiyonel hareket bozukluğu ve yorgunlukta ne bulunmuştur.",
   "inLanguage": "tr",
   "about": [
     "Sensory attenuation",
