@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Hesaplamalı psikiyatride sık kullanılan Hiyerarşik Gauss Filtresinin klinik okur için açıklaması: modelin parametreleri ne ölçer, model karşılaştırması neden zorunludur, ve bir hesaplamalı bulguya ne zaman güvenilir.">
+<meta name="description" content="Hesaplamalı psikiyatride sık kullanılan Hiyerarşik Gauss Filtresinin klinik okur için açıklaması: modelin parametreleri ne ölçer, model karşılaştırması neden zorunludur ve bir hesaplamalı bulguya ne zaman güvenilir.">
 
 <title>Hiyerarşik Gauss filtresi: klinik giriş – Furkan Bekdemir</title>
 <style>
@@ -202,11 +202,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="Hiyerarşik Gauss filtresi: klinik giriş">
-<meta property="og:description" content="Hesaplamalı psikiyatride sık kullanılan Hiyerarşik Gauss Filtresinin klinik okur için açıklaması: modelin parametreleri ne ölçer, model karşılaştırması neden zorunludur, ve bir hesaplamalı bulguya ne zaman güvenilir.">
+<meta property="og:description" content="Hesaplamalı psikiyatride sık kullanılan Hiyerarşik Gauss Filtresinin klinik okur için açıklaması: modelin parametreleri ne ölçer, model karşılaştırması neden zorunludur ve bir hesaplamalı bulguya ne zaman güvenilir.">
 <meta property="og:image" content="https://furkanbekdemir.com/og-image.png">
 <meta property="og:site_name" content="Furkan Bekdemir">
 <meta name="twitter:title" content="Hiyerarşik Gauss filtresi: klinik giriş">
-<meta name="twitter:description" content="Hesaplamalı psikiyatride sık kullanılan Hiyerarşik Gauss Filtresinin klinik okur için açıklaması: modelin parametreleri ne ölçer, model karşılaştırması neden zorunludur, ve bir hesaplamalı bulguya ne zaman güvenilir.">
+<meta name="twitter:description" content="Hesaplamalı psikiyatride sık kullanılan Hiyerarşik Gauss Filtresinin klinik okur için açıklaması: modelin parametreleri ne ölçer, model karşılaştırması neden zorunludur ve bir hesaplamalı bulguya ne zaman güvenilir.">
 <meta name="twitter:image" content="https://furkanbekdemir.com/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://furkanbekdemir.com/notlar/hgf-nedir">
@@ -305,7 +305,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="lede">
-<p>Hesaplamalı psikiyatri yazılarında bir model adı görüyorsunuz, altında birkaç Yunan harfi, ve “hasta grubunda şu parametre yüksekti” diyen bir cümle. Bu yazı o cümlenin ne söylediğini, ve daha önemlisi ne söylemediğini anlatmaya çalışıyor.</p>
+<p>Hesaplamalı psikiyatri yazılarında bir model adı görüyorsunuz, altında birkaç Yunan harfi ve “hasta grubunda şu parametre yüksekti” diyen bir cümle. Bu yazı o cümlenin ne söylediğini, daha önemlisi ne söylemediğini anlatmaya çalışıyor.</p>
 </div>
 <p>Denklem yok. Amaç modeli kurabilmeniz değil, birinin kurduğu modelden çıkan bir iddiayı okurken nereye bakacağınızı bilmeniz. Matematiği ve çalışan kodu arayan okur için <a href="https://metaduck.com/computational-psychiatry-afterburn-hierarchical-gaussian-filters/">Perception, Beliefs, and the Hierarchical Gaussian Filter</a> modeli <code>pyhgf</code> ile adım adım kuruyor; burada bulamayacağınız taraf orada.</p>
 <p>Terimlerin İngilizce karşılıkları ve Türkçede yerleşik olup olmadıkları <a href="../notlar/terimler.html">terimler sözlüğünde</a>.</p>
@@ -324,30 +324,30 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="parametreler-klinik-olarak-ne-anlatır" class="level2 k-head">
 <h2 class="k-head" data-anchor-id="parametreler-klinik-olarak-ne-anlatır">Parametreler klinik olarak ne anlatır</h2>
-<p>En sık raporlanan sayı öğrenme oranı, ve HGF’nin buradaki farkı şu: oran sabit değil. Klasik öğrenme modellerinde kişinin bir öğrenme hızı vardır ve o hız denemeden denemeye aynı kalır. HGF’de her denemede yeniden hesaplanır, üstelik kişinin o an ne kadar emin olduğuna ve dünyayı ne kadar oynak gördüğüne göre. Şaşırtıcı bir olaydan sonra öğrenme hızlanır, tanıdık bir örüntü içinde yavaşlar.</p>
-<p>Bunu belirleyen büyüklüğün adı kesinlik, ve gündelik dildeki kesinlikle ilgisi yok; bir inancın ne kadar dar olduğunu ölçüyor. Dar bir inanç yeni kanıta az yer açar, geniş bir inanç çok yer açar. Klinik açıdan ilginç olan da bu: bir belirtinin kaynağı kanıtın kendisinde değil, kanıta verilen ağırlıkta olabilir.</p>
+<p>En sık raporlanan sayı öğrenme oranı. HGF’nin buradaki farkı şu: oran sabit değil. Klasik öğrenme modellerinde kişinin bir öğrenme hızı vardır ve o hız denemeden denemeye aynı kalır. HGF’de her denemede yeniden hesaplanır, üstelik kişinin o an ne kadar emin olduğuna ve dünyayı ne kadar oynak gördüğüne göre. Şaşırtıcı bir olaydan sonra öğrenme hızlanır, tanıdık bir örüntü içinde yavaşlar.</p>
+<p>Bunu belirleyen büyüklüğün adı kesinlik. Gündelik dildeki kesinlikle ilgisi yok; bir inancın ne kadar dar olduğunu ölçüyor. Dar bir inanç yeni kanıta az yer açar, geniş bir inanç çok yer açar. Klinik açıdan ilginç olan da bu: bir belirtinin kaynağı kanıtın kendisinde değil, kanıta verilen ağırlıkta olabilir.</p>
 <p>Modelin motoru öngörü hatası, yani olan ile beklenen arasındaki fark. Ama ham fark kullanılmaz, kesinlikle ağırlıklandırılmış hali kullanılır. Aynı büyüklükte bir sürpriz, kişinin o anki eminliğine göre başka sonuç doğurur.</p>
-<p>Bir de yanıt gürültüsü var, ki modelin dışında kalan her şeyi toplar. Kişi inancına uygun davranmayabilir: dikkati dağılmıştır, tuşa yanlış basmıştır, kararsızdır. Bu parametrenin varlığı önemli, çünkü onsuz düzensiz davranış tuhaf bir öğrenme biçimi gibi görünürdü.</p>
+<p>Bir de yanıt gürültüsü var: modelin açıklayamadığı her şeyi bu parametre toplar. Kişi inancına uygun davranmayabilir; dikkati dağılmıştır, tuşa yanlış basmıştır, kararsızdır. Bu parametrenin varlığı önemli, çünkü onsuz düzensiz davranış tuhaf bir öğrenme biçimi gibi görünürdü.</p>
 <p>Bu sayıların çekiciliği açık. Her biri bir mekanizmaya benziyor ve klinik bir hikâyeye kolayca bağlanıyor. Aşağıdaki iki bölüm büyük ölçüde o kolaylığa karşı.</p>
 </section>
 <section id="model-karşılaştırması-neden-zorunlu" class="level2 k-head">
 <h2 class="k-head" data-anchor-id="model-karşılaştırması-neden-zorunlu">Model karşılaştırması neden zorunlu</h2>
 <p>Bir model veriye uyduruldu ve sayılar çıktı. Bu sayıların anlamı olması için önce şunu bilmek gerekiyor: veriyi bu model mi üretti, yoksa başka bir model de aynı veriyi üretebilir miydi?</p>
-<p>Uyum iyiliği bunu cevaplamaz. Yeterince esnek bir model her veriye iyi uyar, ve iyi uyum modelin doğruluğunu değil esnekliğini gösteriyor olabilir.</p>
-<p>Bu yüzden tek bir model kurup sayı raporlamak yeterli sayılmaz. Birkaç aday model kurulur, hepsi aynı veriye uydurulur, ve hangisinin veriyi daha iyi açıkladığı karşılaştırılır. Karşılaştırma karmaşıklığı da cezalandırır, yani daha çok parametre koyup daha iyi uydurmak bir üstünlük sayılmaz.</p>
-<p>Bir yazıda model karşılaştırması yapılmamışsa, raporlanan parametreler bir mekanizmayı göstermez. Yalnızca veriyi o modele göre özetlediğinizde çıkan sayılardır, ve aradaki fark küçük değil.</p>
+<p>Uyum iyiliği bunu cevaplamaz. Yeterince esnek bir model her veriye iyi uyar; iyi uyum modelin doğruluğunu değil esnekliğini gösteriyor olabilir.</p>
+<p>Bu yüzden tek bir model kurup sayı raporlamak yeterli sayılmaz. Birkaç aday model kurulur, hepsi aynı veriye uydurulur ve hangisinin veriyi daha iyi açıkladığı karşılaştırılır. Karşılaştırma karmaşık modelleri ayrıca cezalandırdığı için, parametre ekleyerek uyumu artırmak bir üstünlük sayılmaz.</p>
+<p>Bir yazıda model karşılaştırması yapılmamışsa, raporlanan parametreler bir mekanizmayı göstermez. Yalnızca veriyi o modele göre özetlediğinizde çıkan sayılardır. Aradaki fark da küçük değil.</p>
 </section>
 <section id="bir-bulguya-ne-zaman-güvenilir" class="level2 k-head">
 <h2 class="k-head" data-anchor-id="bir-bulguya-ne-zaman-güvenilir">Bir bulguya ne zaman güvenilir</h2>
-<p>Bir model veriye uyduğunda her parametre için bir sayı üretir. Bu sayının üretilmiş olması, verinin o parametre hakkında bilgi taşıdığı anlamına gelmez. Bazı modellerde iki parametre birlikte hareket eder: biri artıp diğeri azalınca model aynı davranışı üretir. Böyle bir durumda ikisinin bileşimi veriden okunabilir ama tek başına hiçbiri okunamaz. Kestirim yine de bir sayı verir, çünkü vermek zorundadır, ve o sayı veriden çok kurulum tercihlerini yansıtır.</p>
-<p>Bunun teknik adı tanımlanabilirlik, ve bir hesaplamalı bulguyu okurken sorulacak ilk sorulardan biri.</p>
-<p>Sınama yöntemi parametre geri kazanımı. Bilinen değerlerle sahte veri üretirsiniz, aynı hattı o sahte veriye uygularsınız, ve koyduğunuz değerlerin geri gelip gelmediğine bakarsınız. Gelmiyorsa parametre o tasarımla ölçülemiyor demektir, ve bunu gerçek veriye bakarak anlamanın yolu yok. Kendi hattımda bu analizi veri toplamadan önce yaptım, ve sırasının önemli olduğunu düşünüyorum: sonraya bırakırsanız, sonuç kötü çıktığında elinizde artık yayınlanacak bir sayı olur ve onu bırakmak zorlaşır.</p>
-<p>Son olarak parametre adları. Bir parametreye “inanç kararsızlığı” ya da “öğrenme esnekliği” denmesi, o parametrenin bunu ölçtüğünü göstermez. Ad, modeli kuran kişinin yorumudur. Aynı sayı başka bir yorumla bambaşka bir mekanizmaya bağlanabilir, ve iki yorum arasında karar vermek için modelden fazlası gerekir.</p>
+<p>Bir model veriye uyduğunda her parametre için bir sayı üretir. Bu sayının üretilmiş olması, verinin o parametre hakkında bilgi taşıdığı anlamına gelmez. Bazı modellerde iki parametre birlikte hareket eder: biri artıp diğeri azalınca model aynı davranışı üretir. Böyle bir durumda ikisinin bileşimi veriden okunabilir ama tek başına hiçbiri okunamaz. Kestirim yine de bir sayı verir, çünkü vermek zorundadır. O sayı da veriden çok kurulum tercihlerini yansıtır.</p>
+<p>Bunun teknik adı tanımlanabilirlik. Bir hesaplamalı bulguyu okurken sorulacak ilk sorulardan biri.</p>
+<p>Sınama yöntemi parametre geri kazanımı. Bilinen değerlerle sahte veri üretirsiniz, aynı hattı o sahte veriye uygularsınız ve koyduğunuz değerlerin geri gelip gelmediğine bakarsınız. Gelmiyorsa parametre o tasarımla ölçülemiyor demektir; bunu gerçek veriye bakarak anlamanın yolu da yok. Kendi hattımda bu analizi veri toplamadan önce yaptım. Sırasının önemli olduğunu da düşünüyorum: sonraya bırakırsanız, sonuç kötü çıktığında elinizde artık yayınlanacak bir sayı olur ve onu bırakmak zorlaşır.</p>
+<p>Son olarak parametre adları. Bir parametreye “inanç kararsızlığı” ya da “öğrenme esnekliği” denmesi, o parametrenin bunu ölçtüğünü göstermez. Ad, modeli kuran kişinin yorumudur. Aynı sayı başka bir yorumla bambaşka bir mekanizmaya bağlanabilir. İki yorum arasında karar vermek için modelden fazlası gerekir.</p>
 </section>
 <section id="özetle" class="level2 k-head">
 <h2 class="k-head" data-anchor-id="özetle">Özetle</h2>
 <p>HGF’nin klinik değeri, öğrenme hızını sabit bir kişilik özelliği saymak yerine kişinin dünyayı ne kadar oynak gördüğüne bağlı bir ayar olarak ele almasında.</p>
-<p>Ama ürettiği her sayı bir mekanizma değil. Bir hesaplamalı bulguyu okurken üç şeye bakın: model karşılaştırması yapılmış mı, geri kazanım gösterilmiş mi, ve parametrenin adı bir bulgu olarak mı yoksa bir etiket olarak mı kullanılıyor. Üçü de yoksa okuduğunuz şey bir mekanizma iddiası değil, bir özet istatistiktir.</p>
+<p>Ama ürettiği her sayı bir mekanizma değil. Bir hesaplamalı bulguyu okurken üç şeye bakın: model karşılaştırması yapılmış mı, geri kazanım gösterilmiş mi ve parametrenin adı bir bulgu olarak mı yoksa bir etiket olarak mı kullanılıyor. Üçü de yoksa okuduğunuz şey bir mekanizma iddiası değil, bir özet istatistiktir.</p>
 </section>
 <section id="kaynaklar" class="level2 k-head">
 <h2 class="k-head" data-anchor-id="kaynaklar">Kaynaklar</h2>
@@ -377,7 +377,7 @@ ul.task-list li input[type="checkbox"] {
   "@type": "Article",
   "@id": "https://furkanbekdemir.com/notlar/hgf-nedir#article",
   "headline": "Hiyerarşik Gauss filtresi nedir, ne işe yarar",
-  "description": "Hesaplamalı psikiyatride sık kullanılan Hiyerarşik Gauss Filtresinin klinik okur için açıklaması: modelin parametreleri ne ölçer, model karşılaştırması neden zorunludur, ve bir hesaplamalı bulguya ne zaman güvenilir.",
+  "description": "Hesaplamalı psikiyatride sık kullanılan Hiyerarşik Gauss Filtresinin klinik okur için açıklaması: modelin parametreleri ne ölçer, model karşılaştırması neden zorunludur ve bir hesaplamalı bulguya ne zaman güvenilir.",
   "inLanguage": "tr",
   "about": [
     "Hierarchical Gaussian Filter",

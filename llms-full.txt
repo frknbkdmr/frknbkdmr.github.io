@@ -673,11 +673,11 @@ Akatizinin öznel ve nesnel bileşenlerinin neden ayrışabildiği, ve hareketin
 URL: https://furkanbekdemir.com/notlar/duyusal-azaltim
 
 Kendinizi gıdıklayamazsınız. Herkesin bildiği bu gözlemin arkasında ölçülebilir
-bir mekanizma var, ve o mekanizmanın zayıfladığı yerlerde psikiyatrik belirtiler
+bir mekanizma var. O mekanizmanın zayıfladığı yerlerde psikiyatrik belirtiler
 çıkıyor.
 
 Gıdıklanma bunun en tanıdık hali. Aynı mekanizmanın laboratuvarda ölçülen bir
-karşılığı var, ve o ölçüm psikiyatride birkaç ayrı yere bağlanıyor. Terimlerin
+karşılığı var ve o ölçüm psikiyatride birkaç ayrı belirtiyle ilişkilendiriliyor. Terimlerin
 İngilizce karşılıkları [terimler sözlüğünde](terimler.qmd); kesinlik ve öngörü
 hatası kavramlarının daha geniş bir anlatımı [HGF yazısında](hgf-nedir.qmd).
 
@@ -688,8 +688,8 @@ dokunuşun kaynağı. Algılanan şiddeti belirgin biçimde düşüren de o.
 
 Blakemore ve arkadaşları 1998'de buna baktı. Dışarıdan gelen dokunuşta
 somatosensoriyel korteks daha çok, kendi ürettiğinizde daha az çalışıyordu.
-Serebellumda ise örüntü tersineydi: dokunuş üreten bir hareket, üretmeyen bir
-harekete göre daha az serebellar etkinlikle gidiyordu. Buradan çıkan yorum,
+Serebellumda ise örüntü tersineydi: dokunuş üreten hareketlerde serebellar
+etkinlik, üretmeyen hareketlere göre daha düşüktü. Buradan çıkan yorum,
 serebellumun hareketin duyusal sonucunu önceden hesapladığı ve o hesabın gelen
 sinyali kısmak için kullanıldığı.
 
@@ -729,12 +729,12 @@ hatırlamanız gerekiyor, ürettiğiniz kuvveti derecelendirmeniz gerekiyor, mot
 çıktınızın kendi gürültüsü var. Bunların hiçbiri öngörüye özgü değil, hepsi tek
 başına da sapma üretir. Sürgü koşulunda aynı hafıza ve derecelendirme yükü
 duruyor, ama kuvvet sizin elinizden çıkmadığı için öngörüye dayalı kısma devrede
-değil. İkisinin farkını almak, ortak olan her şeyi düşürüp geriye öngörüye ait
-olan payı bırakıyor.
+değil. İki koşul arasındaki fark alındığında ortak etkiler eleniyor, geriye öngörüye
+ait pay kalıyor.
 
 Bu mantık yakın zamanda biçimsel olarak sınandı. Valè ve arkadaşları beş yüze
 yakın katılımcının verisiyle görevin hesaplamalı bir modelini kurdu, hafıza
-gürültüsü dahil ayrı ayrı gürültü kaynaklarını ayırdı, ve iki koşulun farkının
+gürültüsü dahil ayrı ayrı gürültü kaynaklarını ayırdı ve iki koşulun farkının
 gerçekten öngörüye ait bileşeni yalıttığını gösterdi. Aynı çalışmadan iki şey
 daha çıktı. Azaltılmış duyumlar deneme deneme daha değişken, çünkü öngörünün
 kendi gürültüsünü de taşıyorlar. Ve azaltım çıkarma değil bölme biçiminde
@@ -745,9 +745,9 @@ hareketin kendisine değil, hareketten beklenen olaya bağlandığını gösterd
 Dokunuşun zamanlaması öne ya da arkaya kaydırıldıkça azaltım azalıyor. Parmağın
 üstünde duran ya da yanından geçen hareketler ise hiç azaltım üretmiyor. Sistem
 "hareket ediyorum, duyuyu kıs" demiyor. "Şu anda şurada şu dokunuş olacak"
-diyor. Kilteni ve Ehrsson bunun bir adım öncesini ekledi: dokunan elin sizin
-sayılması gerekiyor, çünkü kauçuk el yanılsamasıyla sahiplik oynatıldığında
-azaltım da onunla birlikte yer değiştiriyor.
+diyor. Kilteni ve Ehrsson daha temel bir koşul gösterdi: dokunan eli kendinize ait
+saymanız gerekiyor. Kauçuk el yanılsamasıyla sahiplik algısı değiştirildiğinde
+azaltım da yer değiştiriyor.
 
 ## Kesinlikle bağlantısı
 Aktif çıkarım çerçevesinde azaltımın karşılığı, hareket sırasında duyusal
@@ -758,7 +758,7 @@ düşürülmezse hareket başlamaz.
 
 Brown ve arkadaşları bu çerçeveden kuvvet eşleştirme bulgusunu yeniden üretti.
 Modelden azaltımı çıkardıklarında iki şey birlikte oldu: görevdeki fazla üretim
-kayboldu, ve eylemliliğe dair yanlış çıkarımlar belirdi. Aynı ayar hem hareketi
+kayboldu, eylemliliğe dair yanlış çıkarımlar belirdi. Aynı ayar hem hareketi
 mümkün kılıyor hem de neyin size ait olduğunu belirliyor. Bedeli iki yönde de
 var: yeterince düşürmezseniz hareket başlamıyor, fazla düşürürseniz kendinizle
 dünyayı ayırt edemiyorsunuz.
@@ -766,7 +766,7 @@ dünyayı ayırt edemiyorsunuz.
 ## Klinikte nereye oturuyor
 En öğretici bulgu en eskilerden biri. Blakemore ve arkadaşları 2000'de şizofreni
 tanılı hastaları, iki uçlu bozukluk ve depresyon tanılılarını ve sağlıklı
-kontrolleri karşılaştırdı. Azaltımın kaybı tanıyla değil belirtiyle gidiyordu:
+kontrolleri karşılaştırdı. Azaltımın kaybını belirleyen tanı değil belirtiydi:
 işitsel varsanı ya da edilgenlik yaşantısı olanlarda azaltım yoktu, olmayanlarda
 tanıdan bağımsız olarak vardı.
 
@@ -783,12 +783,12 @@ azaltım yok; hastalar hareketi kendi kontrollerinde hissetmiyorlar ve görevde
 kontrollerin yaptığı fazla üretimi yapmıyorlar. Parkinson hastalığında yorgunluk
 tarifleyen grupta azaltım seçici olarak bozuk, tariflemeyen grupta değil. Üstelik
 bu bozukluk motor belirti şiddetiyle değil, öznel yorgunluk ve algılanan çabayla
-gidiyor. Kronik ağrıda ise büyüklük açısından grup farkı bulunamadı; ayrışan şey
+ilişkili. Kronik ağrıda ise büyüklük açısından grup farkı bulunamadı; ayrışan şey
 varyanstı.
 
 Azaltım bozukluğunun bu kadar farklı tabloda çıkması onu tanıya değil belirtiye
 bağlı bir ölçüm yapıyor. Hastanın hangi tanıyı taşıdığını söylemiyor. Hangi
-mekanizmanın bozulduğuna dair bir şey söylüyor, ve ikisi karıştırıldığında ölçüm
+mekanizmanın bozulduğuna dair bir şey söylüyor. İkisi karıştırıldığında ölçüm
 verebileceğinden fazlasını vaat etmiş oluyor.
 
 ## Ölçen aletin payı
@@ -814,7 +814,7 @@ performansın deney boyunca kaymadığını gösterdi. Pencere seçimi rapor
 edilmemişse iki çalışmayı karşılaştıracak zemin yok demektir.
 
 Son olarak, analiz yalnız ortalamaya mı bakmış. Kronik ağrıda gruplar
-büyüklükte ayrışmadı ama varyansta ayrıştı, ve ortalamaya bakan bir analiz böyle
+büyüklükte ayrışmadı ama varyansta ayrıştı; ortalamaya bakan bir analiz böyle
 bir farkı hiç görmez. Valè ve arkadaşlarının modeli değişkenliğin gürültü değil
 öngörüye ait sinyal olabileceğini söylediğine göre, bu artık ikincil bir ayrıntı
 da değil.
@@ -906,8 +906,8 @@ self-touch. *Journal of Neurophysiology*.
 URL: https://furkanbekdemir.com/notlar/hgf-nedir
 
 Hesaplamalı psikiyatri yazılarında bir model adı görüyorsunuz, altında birkaç
-Yunan harfi, ve "hasta grubunda şu parametre yüksekti" diyen bir cümle. Bu yazı
-o cümlenin ne söylediğini, ve daha önemlisi ne söylemediğini anlatmaya çalışıyor.
+Yunan harfi ve "hasta grubunda şu parametre yüksekti" diyen bir cümle. Bu yazı
+o cümlenin ne söylediğini, daha önemlisi ne söylemediğini anlatmaya çalışıyor.
 
 Denklem yok. Amaç modeli kurabilmeniz değil, birinin kurduğu modelden çıkan bir
 iddiayı okurken nereye bakacağınızı bilmeniz. Matematiği ve çalışan kodu arayan
@@ -952,14 +952,14 @@ oynak sanan biri tek bir olayı fazla ciddiye alır. Tersini sanan biri gerçekt
 değişen bir şeyi geç fark eder.
 
 ## Parametreler klinik olarak ne anlatır
-En sık raporlanan sayı öğrenme oranı, ve HGF'nin buradaki farkı şu: oran sabit
+En sık raporlanan sayı öğrenme oranı. HGF'nin buradaki farkı şu: oran sabit
 değil. Klasik öğrenme modellerinde kişinin bir öğrenme hızı vardır ve o hız
 denemeden denemeye aynı kalır. HGF'de her denemede yeniden hesaplanır, üstelik
 kişinin o an ne kadar emin olduğuna ve dünyayı ne kadar oynak gördüğüne göre.
 Şaşırtıcı bir olaydan sonra öğrenme hızlanır, tanıdık bir örüntü içinde
 yavaşlar.
 
-Bunu belirleyen büyüklüğün adı kesinlik, ve gündelik dildeki kesinlikle ilgisi
+Bunu belirleyen büyüklüğün adı kesinlik. Gündelik dildeki kesinlikle ilgisi
 yok; bir inancın ne kadar dar olduğunu ölçüyor. Dar bir inanç yeni kanıta az yer
 açar, geniş bir inanç çok yer açar. Klinik açıdan ilginç olan da bu: bir
 belirtinin kaynağı kanıtın kendisinde değil, kanıta verilen ağırlıkta olabilir.
@@ -968,8 +968,8 @@ Modelin motoru öngörü hatası, yani olan ile beklenen arasındaki fark. Ama h
 fark kullanılmaz, kesinlikle ağırlıklandırılmış hali kullanılır. Aynı büyüklükte
 bir sürpriz, kişinin o anki eminliğine göre başka sonuç doğurur.
 
-Bir de yanıt gürültüsü var, ki modelin dışında kalan her şeyi toplar. Kişi
-inancına uygun davranmayabilir: dikkati dağılmıştır, tuşa yanlış basmıştır,
+Bir de yanıt gürültüsü var: modelin açıklayamadığı her şeyi bu parametre toplar.
+Kişi inancına uygun davranmayabilir; dikkati dağılmıştır, tuşa yanlış basmıştır,
 kararsızdır. Bu parametrenin varlığı önemli, çünkü onsuz düzensiz davranış tuhaf
 bir öğrenme biçimi gibi görünürdü.
 
@@ -981,17 +981,17 @@ Bir model veriye uyduruldu ve sayılar çıktı. Bu sayıların anlamı olması 
 önce şunu bilmek gerekiyor: veriyi bu model mi üretti, yoksa başka bir model de
 aynı veriyi üretebilir miydi?
 
-Uyum iyiliği bunu cevaplamaz. Yeterince esnek bir model her veriye iyi uyar, ve
+Uyum iyiliği bunu cevaplamaz. Yeterince esnek bir model her veriye iyi uyar;
 iyi uyum modelin doğruluğunu değil esnekliğini gösteriyor olabilir.
 
 Bu yüzden tek bir model kurup sayı raporlamak yeterli sayılmaz. Birkaç aday
-model kurulur, hepsi aynı veriye uydurulur, ve hangisinin veriyi daha iyi
-açıkladığı karşılaştırılır. Karşılaştırma karmaşıklığı da cezalandırır, yani
-daha çok parametre koyup daha iyi uydurmak bir üstünlük sayılmaz.
+model kurulur, hepsi aynı veriye uydurulur ve hangisinin veriyi daha iyi
+açıkladığı karşılaştırılır. Karşılaştırma karmaşık modelleri ayrıca
+cezalandırdığı için, parametre ekleyerek uyumu artırmak bir üstünlük sayılmaz.
 
 Bir yazıda model karşılaştırması yapılmamışsa, raporlanan parametreler bir
 mekanizmayı göstermez. Yalnızca veriyi o modele göre özetlediğinizde çıkan
-sayılardır, ve aradaki fark küçük değil.
+sayılardır. Aradaki fark da küçük değil.
 
 ## Bir bulguya ne zaman güvenilir
 Bir model veriye uyduğunda her parametre için bir sayı üretir. Bu sayının
@@ -999,30 +999,30 @@ Bir model veriye uyduğunda her parametre için bir sayı üretir. Bu sayının
 Bazı modellerde iki parametre birlikte hareket eder: biri artıp diğeri azalınca
 model aynı davranışı üretir. Böyle bir durumda ikisinin bileşimi veriden
 okunabilir ama tek başına hiçbiri okunamaz. Kestirim yine de bir sayı verir,
-çünkü vermek zorundadır, ve o sayı veriden çok kurulum tercihlerini yansıtır.
+çünkü vermek zorundadır. O sayı da veriden çok kurulum tercihlerini yansıtır.
 
-Bunun teknik adı tanımlanabilirlik, ve bir hesaplamalı bulguyu okurken
-sorulacak ilk sorulardan biri.
+Bunun teknik adı tanımlanabilirlik. Bir hesaplamalı bulguyu okurken sorulacak
+ilk sorulardan biri.
 
 Sınama yöntemi parametre geri kazanımı. Bilinen değerlerle sahte veri üretirsiniz,
-aynı hattı o sahte veriye uygularsınız, ve koyduğunuz değerlerin geri gelip
-gelmediğine bakarsınız. Gelmiyorsa parametre o tasarımla ölçülemiyor demektir,
-ve bunu gerçek veriye bakarak anlamanın yolu yok. Kendi hattımda bu analizi veri
-toplamadan önce yaptım, ve sırasının önemli olduğunu düşünüyorum: sonraya
+aynı hattı o sahte veriye uygularsınız ve koyduğunuz değerlerin geri gelip
+gelmediğine bakarsınız. Gelmiyorsa parametre o tasarımla ölçülemiyor demektir;
+bunu gerçek veriye bakarak anlamanın yolu da yok. Kendi hattımda bu analizi veri
+toplamadan önce yaptım. Sırasının önemli olduğunu da düşünüyorum: sonraya
 bırakırsanız, sonuç kötü çıktığında elinizde artık yayınlanacak bir sayı olur ve
 onu bırakmak zorlaşır.
 
 Son olarak parametre adları. Bir parametreye "inanç kararsızlığı" ya da "öğrenme
 esnekliği" denmesi, o parametrenin bunu ölçtüğünü göstermez. Ad, modeli kuran
 kişinin yorumudur. Aynı sayı başka bir yorumla bambaşka bir mekanizmaya
-bağlanabilir, ve iki yorum arasında karar vermek için modelden fazlası gerekir.
+bağlanabilir. İki yorum arasında karar vermek için modelden fazlası gerekir.
 
 ## Özetle
 HGF'nin klinik değeri, öğrenme hızını sabit bir kişilik özelliği saymak yerine
 kişinin dünyayı ne kadar oynak gördüğüne bağlı bir ayar olarak ele almasında.
 
 Ama ürettiği her sayı bir mekanizma değil. Bir hesaplamalı bulguyu okurken üç
-şeye bakın: model karşılaştırması yapılmış mı, geri kazanım gösterilmiş mi, ve
+şeye bakın: model karşılaştırması yapılmış mı, geri kazanım gösterilmiş mi ve
 parametrenin adı bir bulgu olarak mı yoksa bir etiket olarak mı kullanılıyor.
 Üçü de yoksa okuduğunuz şey bir mekanizma iddiası değil, bir özet istatistiktir.
 
@@ -1080,7 +1080,7 @@ söylüyor. Ölçülen tek şey kararın kaçıncı boncukta geldiği.
 Sanrılı hastalar erken karar veriyor. Moritz ve Woodward'ın örnekleminde
 şizofreni tanılı hastaların yüzde 42'si tek boncuktan sonra kavanozu söyledi;
 psikiyatrik kontrollerde oran yüzde 7, sağlıklılarda sıfır. Bulgunun adı sonuca
-atlama (jumping to conclusions), ve elli beş çalışmayı toplayan meta-analiz de
+atlama (jumping to conclusions). Elli beş çalışmayı toplayan meta-analiz de
 aynı yönü veriyor: psikoz grubu anlamlı biçimde az bilgiyle karar veriyor
 (g = -0,53), uç derecede erken karar verme olasılığı dört ila altı kat yüksek.
 
@@ -1089,9 +1089,9 @@ aynı yönü veriyor: psikoz grubu anlamlı biçimde az bilgiyle karar veriyor
 doğuyor" demek için erken kararın sanrının şiddetiyle gitmesi gerekir.
 
 Ross ve arkadaşları 38 örneklemden bireysel katılımcı verisi topladı, 2237 kişi.
-İlişki anlamlı ama küçük: r = -0,10. Alt gruplar daha çok şey söylüyor. Etki
-1754 kişilik genel nüfus örnekleminde duruyor, güncel sanrısı olan 262 kişide
-durmuyor. Bulgunun en zayıf olduğu yer, tam da uğruna kurulduğu yer.
+İlişki anlamlı ama küçük: r = -0,10. Alt gruplar daha çok şey söylüyor. İlişki
+1754 kişilik genel nüfus örnekleminde görülüyor, güncel sanrısı olan 262 kişide
+görülmüyor. Bulgunun en zayıf olduğu yer, tam da uğruna kurulduğu yer.
 
 Daha eski bir meta-analiz dört ayrı sonuca atlama ölçütü sınamış, yalnızca
 boncuk sayısını anlamlı bulmuştu. Lincoln'ün 71 hasta ve 68 kontrollük
@@ -1100,13 +1100,13 @@ ilişkiliydi, ama negatif belirtiler ya da zekâ düzeyi denkleme girince ilişk
 anlamlılığını yitirdi.
 
 Şizofreni grubu kontrollerden ayrışıyor. Sanrısı ağır olanın daha aceleci olduğu
-ayrı bir iddia, ve o iddia gösterilmiş değil.
+ayrı bir iddia. O iddia gösterilmiş değil.
 
 ## Aceleci doğru kelime mi
 Strube'nin karşılaştırmasında 45 şizofreni, 45 depresyon ve 45 sağlıklı kontrol
 vardı. Şizofreni grubu daha az boncukla karar verdi ama karar vermesi daha uzun
-sürdü, ve karar süresiyle boncuk sayısı arasında ilişki çıkmadı. Dürtüsellik
-bunu açıklayamıyor. Yazarların işaret ettiği yer inanç oluşumunun kararsızlığı.
+sürdü. Karar süresiyle boncuk sayısı arasında ilişki de çıkmadı. Dürtüsellik
+bunu açıklayamıyor. Yazarların işaret ettiği neden, inanç oluşumunun kararsızlığı.
 
 Balzan'ın grubu başka bir tarafı kazıdı: göreve fazladan bir açıklama seti
 eklediler. Karşıt kanıt geldiğinde görülen aşırı düzeltme belirgin biçimde
@@ -1123,25 +1123,24 @@ Son on yılın yaklaşımı boncuk saymayı bırakıp kararın arkasındaki sür
 modellemek. Tablo zenginleşti, düzeni bozuldu.
 
 En büyük örneklem Hauke'nin: 261 psikoz hastası, 56 kontrol. Hastalarda inanç
-kararsızlığı yüksekti, ve sonuca atlama hem bununla hem de başlangıç
-belirsizliğinin büyüklüğüyle gidiyordu. Fark hastayla kontrol arasında, bir de
+kararsızlığı yüksekti; sonuca atlama hem bununla hem de başlangıç
+belirsizliğinin büyüklüğüyle ilişkiliydi. Fark hastayla kontrol arasında, bir de
 sonuca atlayanla atlamayan arasında çıktı. Güncel sanrısı az olan hastayla çok
 olan hasta arasında çıkmadı. Aynı çalışmanın klinik açıdan en ilginç tarafı
 başka: inanç kararsızlığı, üstbiliş eğitimine verilecek yanıtı bireysel düzeyde
 öngörebildi.
 
 Fromm'un tasarımı tanıyla belirtiyi bilerek ayırıyor. Sanrısı az ve çok olan
-sağlıklılar, sanrısı az ve çok olan hastalar. İki eksen farklı yerlere bağlandı:
-sanrı, fronto-striatal bölgelerde kesinlik-ağırlıklı öngörü hatası yanıtının
-artmasıyla; şizofreni tanısı ise volatiliteyi olduğundan yüksek tahmin etmek ve
-volatilitenin sinirsel temsilinin zayıflamasıyla. Aynı parametreye
-bağlanmıyorlar.
+sağlıklılar, sanrısı az ve çok olan hastalar. Sanrı, fronto-striatal bölgelerdeki
+kesinlik-ağırlıklı öngörü hatası yanıtının artışıyla ilişkiliydi; şizofreni
+tanısı ise volatilitenin olduğundan yüksek tahmin edilmesi ve sinirsel
+temsilinin zayıflamasıyla. İki eksen aynı parametreye bağlanmıyor.
 
 Sheffield paranoyaya baktı: volatiliteye dair önsel inanç paranoyayla
 ilişkiliydi, olağandışı düşünce içeriğiyle ya da anksiyeteyle değil. Sloan bir
-adım geriye gitti, çocukluk çağı örselenmesine; özellikle tehdit türü olanı
-volatilitenin daha yüksek beklenmesiyle ilişkiliydi. Mikus'un ayrımı belirti
-eksenindeydi. Pozitif belirtiler volatiliteye dair belirsizlikle gidiyordu,
+adım geriye giderek çocukluk çağı örselenmesine baktı: özellikle tehdit türündeki
+örselenme, volatilitenin daha yüksek beklenmesiyle ilişkiliydi. Mikus'un ayrımı belirti
+eksenindeydi. Pozitif belirtiler volatiliteye dair belirsizlikle ilişkiliydi,
 negatif belirtiler gözlem gürültüsüne dair katı inançlarla.
 
 ## Parametre psikoza özgü değil
@@ -1156,10 +1155,10 @@ ilişkiliydi. Otuz altı kişilik, kesitsel, keşfedici bir çalışma, dolayıs
 ağırlığı sınırlı; ayrıntısı [şurada](../research/anxiety-hgf.qmd).
 
 Katthagen'in derlemesi işi büsbütün zorlaştırıyor. Psikozla hem fazla
-güncellemenin hem az güncellemenin ilişkilendirildiği çalışmalar var, ve
-görevlerle örneklemler arasındaki değişkenlik yüksek. Bir parametrenin işareti
-çalışmadan çalışmaya değişiyorsa, o parametre henüz bir mekanizmayı adlandıracak
-durumda değil.
+güncellemenin hem az güncellemenin ilişkilendirildiği çalışmalar var, üstelik
+görevlerle örneklemler arasındaki değişkenlik yüksek. Bir parametrenin yönü
+çalışmadan çalışmaya değişiyorsa, o parametreye henüz bir mekanizmanın adı
+verilemez.
 
 ## Oluşum mu, sürdürme mi
 Mashima'nın grubu boncuk görevini ikiye böldü. Birinci aşama klasik hali,
@@ -1178,11 +1177,11 @@ acelecilik değil, geri alınamazlık.
 Bir parametrenin klinikte iş görmesi için gruplar arasında ayrışması yetmiyor.
 Aynı kişide iki hafta sonra tekrar ölçüldüğünde benzer çıkması da gerekiyor.
 
-Karvelis'in grubu bunu denedi. Otuz dokuz sağlıklı katılımcı, iki hafta arayla
-aynı görev, HGF ile modellenmiş. Test-tekrar test güvenilirliği büyük ölçüde
+Karvelis'in grubu bunu denedi. Otuz dokuz sağlıklı katılımcı aynı görevi iki
+hafta arayla tamamladı, veriler HGF ile modellendi. Test-tekrar test güvenilirliği büyük ölçüde
 düşük çıktı, davranışsal ölçümlerden de iyi değildi. Yazarların ayırdığı başlıca
 kaynak, parametre geri kazanımının gösterdiği ölçüm gürültüsü. Grup düzeyinde
-görünüş geçerliliği duruyor; birey düzeyinde durmuyor.
+görünüş geçerliliği var, birey düzeyinde yok.
 
 Hess'in ekibi sorunun bir kısmını verinin kendisine bağlıyor. Bu görevlerin çoğu
 ikili yanıt üretiyor, ikili yanıt ise az bilgi taşıyor. Yanıt sürelerini de
@@ -1191,7 +1190,7 @@ belirgin biçimde iyileştiriyor.
 
 Tanımlanabilirlik ve geri kazanımın ne olduğu [HGF yazısında](hgf-nedir.qmd)
 anlatılıyor. Buradaki karşılığı şu: literatürdeki grup düzeyi ifadeler birey
-düzeyi ifadelerden çok daha sağlam zeminde duruyor, ve iki tür ifade aynı
+düzeyi ifadelerden çok daha sağlam zeminde duruyor. İki tür ifade ise aynı
 paragrafta sık sık yer değiştiriyor.
 
 ## Bir bulguyu okurken
