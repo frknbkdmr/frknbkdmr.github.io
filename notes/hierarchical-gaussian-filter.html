@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Separating fatigue from depression in multiple sclerosis by modelling effort-based decisions, with the Department of Neurology.">
+<meta name="dcterms.date" content="2026-08-09">
+<meta name="description" content="The Hierarchical Gaussian Filter explained for clinical readers: what the parameters measure, why model comparison is not optional, and when a computational finding can be trusted.">
 
-<title>Effort and reward in multiple sclerosis – Furkan Bekdemir</title>
+<title>The Hierarchical Gaussian Filter explained – Furkan Bekdemir</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -201,15 +202,15 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<meta property="og:title" content="Effort and reward in multiple sclerosis – Furkan Bekdemir">
-<meta property="og:description" content="Separating fatigue from depression in multiple sclerosis by modelling effort-based decisions, with the Department of Neurology.">
+<meta property="og:title" content="The Hierarchical Gaussian Filter explained">
+<meta property="og:description" content="The Hierarchical Gaussian Filter explained for clinical readers: what the parameters measure, why model comparison is not optional, and when a computational finding can be trusted.">
 <meta property="og:image" content="https://furkanbekdemir.com/og-image.png">
 <meta property="og:site_name" content="Furkan Bekdemir">
-<meta name="twitter:title" content="Effort and reward in multiple sclerosis – Furkan Bekdemir">
-<meta name="twitter:description" content="Separating fatigue from depression in multiple sclerosis by modelling effort-based decisions, with the Department of Neurology.">
+<meta name="twitter:title" content="The Hierarchical Gaussian Filter explained">
+<meta name="twitter:description" content="The Hierarchical Gaussian Filter explained for clinical readers: what the parameters measure, why model comparison is not optional, and when a computational finding can be trusted.">
 <meta name="twitter:image" content="https://furkanbekdemir.com/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://furkanbekdemir.com/research/effort-ms">
+<link rel="canonical" href="https://furkanbekdemir.com/notes/hierarchical-gaussian-filter">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -224,17 +225,20 @@ ul.task-list li input[type="checkbox"] {
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "Research",
-      "item": "https://furkanbekdemir.com/research/"
+      "name": "Notes",
+      "item": "https://furkanbekdemir.com/notes"
     },
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Effort and reward in multiple sclerosis"
+      "name": "The Hierarchical Gaussian Filter explained"
     }
   ]
 }
 </script>
+<link rel="alternate" hreflang="en" href="https://furkanbekdemir.com/notes/hierarchical-gaussian-filter">
+<link rel="alternate" hreflang="tr" href="https://furkanbekdemir.com/notlar/hgf-nedir">
+<link rel="alternate" hreflang="x-default" href="https://furkanbekdemir.com/notes/hierarchical-gaussian-filter">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -291,7 +295,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Effort and reward in multiple sclerosis</h1>
+<h1 class="title">The Hierarchical Gaussian Filter, for clinical readers</h1>
 </div>
 
 
@@ -299,7 +303,19 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 9, 2026</p>
+    </div>
+  </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">August 9, 2026</p>
+    </div>
+  </div>
     
   </div>
   
@@ -308,49 +324,103 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="entry">
-<div class="meta">
-<p>With the Department of Neurology · <span class="status live">in collection</span></p>
+<div class="lede">
+<p>You are reading a computational psychiatry paper. There is a model name, a few Greek letters, and a sentence saying some parameter was higher in the patient group. This note is about what that sentence claims, and more usefully, what it does not.</p>
 </div>
+<p>No equations. The aim is not to let you build the model but to know where to look when someone else’s model produces a claim. For the mathematics and working code, <a href="https://metaduck.com/computational-psychiatry-afterburn-hierarchical-gaussian-filters/">Perception, Beliefs, and the Hierarchical Gaussian Filter</a> builds it step by step with <code>pyhgf</code>.</p>
+<section id="the-problem-it-solves" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="the-problem-it-solves">The problem it solves</h2>
+<p>Suppose you watch a patient learn something. Say they are working out which of two boxes pays out more often. What you have is a sequence of trial-by-trial answers: A on this one, B on the next, then A again.</p>
+<p>What can you read off that sequence? At the simplest you count how often they were right. That number says nothing about how the learning happened. Two patients can score identically having taken completely different routes: one revised on every new piece of evidence, the other held out and then switched all at once.</p>
+<p>The Hierarchical Gaussian Filter assumes there is a person behind the sequence and describes how that person learns with a handful of numbers. What it models is not the behaviour but the process producing it.</p>
+</section>
+<section id="what-the-hierarchy-means" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="what-the-hierarchy-means">What the hierarchy means</h2>
+<p>The “hierarchical” in the name refers to layers of uncertainty stacked on one another.</p>
+<p>The bottom layer is the current state: is this box paying out right now. Above it sits the tendency: how often does this box pay out in general. The top layer is how changeable the world is, meaning how often those rules shift.</p>
+<p>That third layer is the model’s real idea and the one with the most clinical purchase. How fast you ought to learn depends on how much the world actually changes. If the rules shift often, revising quickly is sensible. If they are fixed, the same speed has you chasing noise.</p>
+<p>People make this adjustment constantly and the model puts a number on it. Someone who takes the world to be more volatile than it is treats a single event as too informative. Someone who takes the opposite view is slow to notice a real change.</p>
+</section>
+<section id="what-the-parameters-say-clinically" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="what-the-parameters-say-clinically">What the parameters say clinically</h2>
+<p>The number reported most often is the learning rate, and the HGF’s difference is that the rate is not fixed. In classical learning models a person has one learning speed and it stays the same from trial to trial. Here it is recomputed on every trial, and it depends on how certain the person is at that moment and how volatile they take the world to be. Learning speeds up after a surprise and slows inside a familiar pattern.</p>
+<p>The quantity governing this is precision. It has nothing to do with precision in the everyday sense; it measures how narrow a belief is. A narrow belief leaves little room for new evidence, a wide one leaves a lot. That is the clinically interesting part: the source of a symptom may not be the evidence but the weight given to it.</p>
+<p>The engine is prediction error, the gap between what happened and what was expected. The raw gap is not what gets used; the precision-weighted version is. A surprise of the same size produces a different result depending on how certain the person was.</p>
+<p>There is also response noise, which absorbs everything the model cannot explain. People do not always act on their beliefs; they get distracted, press the wrong key, waver. Having this parameter matters, because without it disorderly behaviour would look like a strange style of learning.</p>
+<p>The appeal of these numbers is obvious. Each resembles a mechanism and attaches easily to a clinical story. The two sections below are largely against that ease.</p>
+</section>
+<section id="why-model-comparison-is-not-optional" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="why-model-comparison-is-not-optional">Why model comparison is not optional</h2>
+<p>A model was fitted and numbers came out. For those numbers to mean anything you first have to know whether this model generated the data, or whether some other model would have generated it just as well.</p>
+<p>Goodness of fit does not answer that. A flexible enough model fits any data well, and a good fit may be showing you flexibility rather than truth.</p>
+<p>So fitting one model and reporting its numbers is not enough. Several candidate models are built, all fitted to the same data, and compared on how well each explains it. Because the comparison separately penalises complex models, adding parameters to improve the fit does not count as winning.</p>
+<p>If a paper has no model comparison, the parameters it reports do not point at a mechanism. They are what you get when you summarise the data through that particular model. The difference is not a small one.</p>
+</section>
+<section id="when-to-trust-a-finding" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="when-to-trust-a-finding">When to trust a finding</h2>
+<p>When a model fits, it produces a number for every parameter. That a number was produced does not mean the data carried information about that parameter. In some models two parameters move together: raise one and lower the other and the model behaves identically. Their combination can then be read off the data but neither can be read alone. The estimator still returns a number, because it has to. That number reflects setup choices more than it reflects data.</p>
+<p>The technical name for this is identifiability. It is among the first things to ask about a computational finding.</p>
+<p>The test is parameter recovery. You generate synthetic data from known values, run the same pipeline over it, and check whether the values you put in come back out. If they do not, the parameter cannot be measured with that design, and there is no way to discover this from real data. I ran this on my own pipeline before collecting anything, and I think the order matters: leave it until afterwards and, when the result is bad, you are holding a number you could publish, which makes it harder to drop.</p>
+<p>Finally, parameter names. Calling a parameter “belief instability” or “learning flexibility” does not establish that it measures that. The name is the interpretation of whoever built the model. The same number can be attached to a completely different mechanism under another reading, and choosing between the two takes more than the model.</p>
+</section>
+<section id="in-short" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="in-short">In short</h2>
+<p>The HGF’s clinical value is that it treats learning speed as an adjustment tracking how volatile a person takes the world to be, rather than as a fixed trait.</p>
+<p>But not every number it produces is a mechanism. The estimator returns a number under any conditions; what shows the number measures something is not the number itself but the model comparison and the recovery behind it. Without both, what you are holding is a summary statistic rather than a claim about mechanism. And if the parameter’s name is confident enough, that summary statistic gets read as a mechanism.</p>
+</section>
+<section id="references" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="references">References</h2>
+<p>The model itself:</p>
+<div class="src">
+<p>Mathys C, Daunizeau J, Friston KJ, Stephan KE. A Bayesian foundation for individual learning under uncertainty. <em>Frontiers in Human Neuroscience</em>. 2011;5:39. doi:<a href="https://doi.org/10.3389/fnhum.2011.00039">10.3389/fnhum.2011.00039</a></p>
 </div>
-<p>Fatigue and depression in MS overlap on every questionnaire that tries to tell them apart. Effort-based decision making offers a behavioural separation: whether the cost of action or the value of the outcome is what has changed.</p>
-<!-- A collaboration, so the Neurology department is named as a member
-     alongside the person. Data collection is running; nothing is claimed
-     about what it will show. -->
+<div class="src">
+<p>Mathys CD, Lomakina EI, Daunizeau J, Iglesias S, Brodersen KH, Friston KJ, Stephan KE. Uncertainty in perception and the Hierarchical Gaussian Filter. <em>Frontiers in Human Neuroscience</em>. 2014;8:825. doi:<a href="https://doi.org/10.3389/fnhum.2014.00825">10.3389/fnhum.2014.00825</a></p>
+</div>
+<p>Model comparison and parameter recovery:</p>
+<div class="src">
+<p>Wilson RC, Collins AGE. Ten simple rules for the computational modeling of behavioral data. <em>eLife</em>. 2019;8:e49547. doi:<a href="https://doi.org/10.7554/eLife.49547">10.7554/eLife.49547</a></p>
+</div>
+<div class="src">
+<p>Rigoux L, Stephan KE, Friston KJ, Daunizeau J. Bayesian model selection for group studies, revisited. <em>NeuroImage</em>. 2014;84:971-985. doi:<a href="https://doi.org/10.1016/j.neuroimage.2013.08.065">10.1016/j.neuroimage.2013.08.065</a></p>
+</div>
+<p>The software that implements it:</p>
+<div class="src">
+<p>Frässle S, Aponte EA, Bollmann S, et al.&nbsp;TAPAS: an open-source software package for translational neuromodeling and computational psychiatry. <em>Frontiers in Psychiatry</em>. 2021;12:680811. doi:<a href="https://doi.org/10.3389/fpsyt.2021.680811">10.3389/fpsyt.2021.680811</a></p>
+</div>
+<!-- An explanatory article, so Article rather than the generic WebPage.
+     datePublished and dateModified are injected by post-render from the front
+     matter; a second copy kept by hand here drifts on the first revision. -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "ResearchProject",
-  "@id": "https://furkanbekdemir.com/research/effort-ms#project",
-  "name": "Effort and reward in multiple sclerosis",
-  "description": "Separating fatigue from depression in multiple sclerosis by modelling effort-based decisions, asking whether the cost of action or the value of the outcome is what has changed. In collection, with the Department of Neurology.",
-  "parentOrganization": {
-    "@type": "Organization",
-    "name": "Ondokuz Mayıs University",
-    "url": "https://www.omu.edu.tr/"
-  },
-  "member": [
-    { "@id": "https://furkanbekdemir.com/#person" },
-    {
-      "@type": "Organization",
-      "name": "Department of Neurology, Ondokuz Mayıs University"
-    }
+  "@type": "Article",
+  "datePublished": "2026-08-09",
+  "dateModified": "2026-08-09",
+  "@id": "https://furkanbekdemir.com/notes/hierarchical-gaussian-filter#article",
+  "headline": "The Hierarchical Gaussian Filter, for clinical readers",
+  "description": "The Hierarchical Gaussian Filter explained for clinical readers: what the parameters measure, why model comparison is not optional, and when a computational finding can be trusted.",
+  "inLanguage": "en",
+  "about": [
+    "Hierarchical Gaussian Filter",
+    "Computational psychiatry",
+    "Belief updating",
+    "Predictive processing",
+    "Model comparison",
+    "Parameter recovery",
+    "Identifiability"
   ],
-  "knowsAbout": [
-    "Multiple sclerosis",
-    "Fatigue",
-    "Depression",
-    "Effort-based decision making",
-    "Reward processing"
-  ],
-  "url": "https://furkanbekdemir.com/research/effort-ms"
+  "author": { "@id": "https://furkanbekdemir.com/#person" },
+  "publisher": { "@id": "https://furkanbekdemir.com/#person" },
+  "url": "https://furkanbekdemir.com/notes/hierarchical-gaussian-filter"
 }
 </script>
 <div class="k">
-<p><a href="../research/index.html">← all research</a></p>
+<p><a href="../notes.html">← notes</a> · <a href="../notes/sensory-attenuation.html">sensory attenuation</a> · <a href="../notes/belief-updating-in-psychosis.html">belief updating</a> · <a href="../notlar/hgf-nedir.html">türkçesi</a></p>
 </div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

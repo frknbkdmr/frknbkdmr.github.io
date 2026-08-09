@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Separating fatigue from depression in multiple sclerosis by modelling effort-based decisions, with the Department of Neurology.">
+<meta name="description" content="Notes on computational psychiatry written for clinical readers: the Hierarchical Gaussian Filter, sensory attenuation and the force-matching task, and what the evidence on belief updating in psychosis actually supports.">
 
-<title>Effort and reward in multiple sclerosis – Furkan Bekdemir</title>
+<title>Notes on computational psychiatry – Furkan Bekdemir</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -30,12 +30,12 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script defer src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<link href="../favicon.svg" rel="icon" type="image/svg+xml">
-<script defer src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script defer src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-fff20b667c795473fc22313f02d39c9f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script defer src="site_libs/quarto-nav/quarto-nav.js"></script>
+<link href="./favicon.svg" rel="icon" type="image/svg+xml">
+<script defer src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script defer src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-fff20b667c795473fc22313f02d39c9f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -57,9 +57,9 @@ ul.task-list li input[type="checkbox"] {
 
      the transfer EU courts have ruled on. Regenerate with fetch_fonts.py. -->
 
-<link rel="preload" href="../fonts/IBMPlexSans-400-latin.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="./fonts/IBMPlexSans-400-latin.woff2" as="font" type="font/woff2" crossorigin="">
 
-<link rel="stylesheet" href="../fonts/fonts.css">
+<link rel="stylesheet" href="./fonts/fonts.css">
 
 
 
@@ -67,9 +67,9 @@ ul.task-list li input[type="checkbox"] {
 
      and most link-preview crawlers ignore SVG favicons entirely. -->
 
-<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png">
 
-<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
 
 
 
@@ -201,40 +201,15 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<meta property="og:title" content="Effort and reward in multiple sclerosis – Furkan Bekdemir">
-<meta property="og:description" content="Separating fatigue from depression in multiple sclerosis by modelling effort-based decisions, with the Department of Neurology.">
+<meta property="og:title" content="Notes on computational psychiatry">
+<meta property="og:description" content="Notes on computational psychiatry written for clinical readers: the Hierarchical Gaussian Filter, sensory attenuation and the force-matching task, and what the evidence on belief updating in psychosis actually supports.">
 <meta property="og:image" content="https://furkanbekdemir.com/og-image.png">
 <meta property="og:site_name" content="Furkan Bekdemir">
-<meta name="twitter:title" content="Effort and reward in multiple sclerosis – Furkan Bekdemir">
-<meta name="twitter:description" content="Separating fatigue from depression in multiple sclerosis by modelling effort-based decisions, with the Department of Neurology.">
+<meta name="twitter:title" content="Notes on computational psychiatry">
+<meta name="twitter:description" content="Notes on computational psychiatry written for clinical readers: the Hierarchical Gaussian Filter, sensory attenuation and the force-matching task, and what the evidence on belief updating in psychosis actually supports.">
 <meta name="twitter:image" content="https://furkanbekdemir.com/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://furkanbekdemir.com/research/effort-ms">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Furkan Bekdemir",
-      "item": "https://furkanbekdemir.com/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Research",
-      "item": "https://furkanbekdemir.com/research/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Effort and reward in multiple sclerosis"
-    }
-  ]
-}
-</script>
+<link rel="canonical" href="https://furkanbekdemir.com/notes">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -245,7 +220,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Furkan Bekdemir</span>
     </a>
   </div>
@@ -255,23 +230,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../research/index.html"> 
+    <a class="nav-link" href="./research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../tools.html"> 
+    <a class="nav-link" href="./tools.html"> 
 <span class="menu-text">Instruments &amp; code</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../notes.html"> 
+    <a class="nav-link active" href="./notes.html" aria-current="page"> 
 <span class="menu-text">Notes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../notlar.html"> 
+    <a class="nav-link" href="./notlar.html"> 
 <span class="menu-text">Notlar</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../cv.html"> 
+    <a class="nav-link" href="./cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -291,7 +266,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Effort and reward in multiple sclerosis</h1>
+<h1 class="title">Notes</h1>
 </div>
 
 
@@ -308,49 +283,59 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="lede">
+<p>Explanatory notes on the methods the research pages depend on, written for clinical readers rather than modellers. Each one covers what a measure does, and where it stops being able to support the claim made from it.</p>
+</div>
 <div class="entry">
 <div class="meta">
-<p>With the Department of Neurology · <span class="status live">in collection</span></p>
+<p>Clinical readers · no equations · <span class="status done">published</span></p>
 </div>
+<section id="the-hierarchical-gaussian-filter-for-clinical-readers" class="level3">
+<h3 data-anchor-id="the-hierarchical-gaussian-filter-for-clinical-readers"><a href="./notes/hierarchical-gaussian-filter.html" class="title">The Hierarchical Gaussian Filter, for clinical readers</a></h3>
+<p>What the parameters mean clinically, why model comparison is not optional, and when a computational finding can be trusted. That a parameter can be estimated does not mean it can be interpreted.</p>
+</section>
 </div>
-<p>Fatigue and depression in MS overlap on every questionnaire that tries to tell them apart. Effort-based decision making offers a behavioural separation: whether the cost of action or the value of the outcome is what has changed.</p>
-<!-- A collaboration, so the Neurology department is named as a member
-     alongside the person. Data collection is running; nothing is claimed
-     about what it will show. -->
+<div class="entry">
+<div class="meta">
+<p>15 references · <span class="status done">published</span></p>
+</div>
+<section id="sensory-attenuation-and-the-force-matching-task" class="level3">
+<h3 data-anchor-id="sensory-attenuation-and-the-force-matching-task"><a href="./notes/sensory-attenuation.html" class="title">Sensory attenuation and the force-matching task</a></h3>
+<p>Why self-produced touch feels weaker, how that becomes a number, and where the mechanism has been found disturbed, from schizophrenia to functional movement disorder. The task has two conditions and the second is not decoration.</p>
+</section>
+</div>
+<div class="entry">
+<div class="meta">
+<p>18 references · <span class="status done">published</span></p>
+</div>
+<section id="belief-updating-in-psychosis-and-hasty-decisions" class="level3">
+<h3 data-anchor-id="belief-updating-in-psychosis-and-hasty-decisions"><a href="./notes/belief-updating-in-psychosis.html" class="title">Belief updating in psychosis and hasty decisions</a></h3>
+<p>How solid the jumping-to-conclusions evidence is, what computational modelling changed, and why there is still no individual-level measure. Where the finding is weakest is precisely where it was built to apply.</p>
+</section>
+</div>
+<section id="also-in-turkish" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="also-in-turkish">Also in Turkish</h2>
+<p>These three notes exist in Turkish as well, at <a href="./notlar.html">/notlar</a>, alongside a seventy-term glossary of Turkish renderings for computational psychiatry vocabulary. That glossary has no English counterpart and is not planned to get one: its subject is which Turkish term is established, which is not a question an English page can ask.</p>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "ResearchProject",
-  "@id": "https://furkanbekdemir.com/research/effort-ms#project",
-  "name": "Effort and reward in multiple sclerosis",
-  "description": "Separating fatigue from depression in multiple sclerosis by modelling effort-based decisions, asking whether the cost of action or the value of the outcome is what has changed. In collection, with the Department of Neurology.",
-  "parentOrganization": {
-    "@type": "Organization",
-    "name": "Ondokuz Mayıs University",
-    "url": "https://www.omu.edu.tr/"
-  },
-  "member": [
-    { "@id": "https://furkanbekdemir.com/#person" },
-    {
-      "@type": "Organization",
-      "name": "Department of Neurology, Ondokuz Mayıs University"
-    }
-  ],
-  "knowsAbout": [
-    "Multiple sclerosis",
-    "Fatigue",
-    "Depression",
-    "Effort-based decision making",
-    "Reward processing"
-  ],
-  "url": "https://furkanbekdemir.com/research/effort-ms"
+  "@type": "CollectionPage",
+  "@id": "https://furkanbekdemir.com/notes#collection",
+  "name": "Notes on computational psychiatry",
+  "description": "Explanatory notes on computational psychiatry methods written for clinical readers.",
+  "inLanguage": "en",
+  "author": { "@id": "https://furkanbekdemir.com/#person" },
+  "url": "https://furkanbekdemir.com/notes",
+  "hasPart": [
+    { "@type": "Article", "url": "https://furkanbekdemir.com/notes/hierarchical-gaussian-filter", "headline": "The Hierarchical Gaussian Filter, for clinical readers" },
+    { "@type": "Article", "url": "https://furkanbekdemir.com/notes/sensory-attenuation", "headline": "Sensory attenuation and the force-matching task" },
+    { "@type": "Article", "url": "https://furkanbekdemir.com/notes/belief-updating-in-psychosis", "headline": "Belief updating in psychosis and hasty decisions" }
+  ]
 }
 </script>
-<div class="k">
-<p><a href="../research/index.html">← all research</a></p>
-</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
