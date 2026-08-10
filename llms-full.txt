@@ -703,11 +703,13 @@ etkinlik, üretmeyen hareketlere göre daha düşüktü. Buradan çıkan yorum,
 serebellumun hareketin duyusal sonucunu önceden hesapladığı ve o hesabın gelen
 sinyali kısmak için kullanıldığı.
 
-Kısılmanın adı duyusal azaltım (sensory attenuation). İşe yaraması şuradan:
-duyu sisteminize ulaşan sinyalin büyük kısmını zaten kendi hareketleriniz
-üretir. Hepsi aynı ağırlıkta işlenirse, dışarıdan gelen ve gerçekten haber
-değeri taşıyan sinyal bunun içinde kaybolur. Öngörülebilir olanı kısmak,
-öngörülemeyeni öne çıkarmanın yolu.
+Kısılmanın adı duyusal azaltım (sensory attenuation). İşe yaraması şuradan: duyu
+sisteminize ulaşan sinyalin büyük kısmını zaten kendi hareketleriniz üretir.
+Hepsi aynı ağırlıkta işlenirse, dışarıdan gelen ve gerçekten haber değeri
+taşıyan sinyal bunun içinde kaybolur. Gürültü önleyici kulaklıklar tam olarak
+bunu yapıyor: gelen sesi önceden kestirip tersini üretiyorlar, geriye yalnızca
+kestiremedikleri kalıyor. Öngörülebilir olanı kısmak, öngörülemeyeni öne
+çıkarmanın yolu.
 
 ## Görev bunu nasıl sayıya çeviriyor
 Bunun en akılda kalıcı gösterimi iki kişi üzerinde yapıldı. Shergill ve
@@ -797,9 +799,9 @@ ilişkili. Kronik ağrıda ise büyüklük açısından grup farkı bulunamadı;
 varyanstı.
 
 Azaltım bozukluğunun bu kadar farklı tabloda çıkması onu tanıya değil belirtiye
-bağlı bir ölçüm yapıyor. Hastanın hangi tanıyı taşıdığını söylemiyor. Hangi
-mekanizmanın bozulduğuna dair bir şey söylüyor. İkisi karıştırıldığında ölçüm
-verebileceğinden fazlasını vaat etmiş oluyor.
+bağlı bir ölçüm yapıyor zaten. Hastanın hangi tanıyı taşıdığını söylemiyor.
+Hangi mekanizmanın bozulduğuna dair bir şey söylüyor. İkisi karıştırıldığında
+ölçüm verebileceğinden fazlasını vaat etmiş oluyor.
 
 ## Ölçen aletin payı
 Ölçüm iki koşulun farkı olduğu için, iki koşulda da aynı olan alet hatası
@@ -1004,16 +1006,18 @@ açıkladığı karşılaştırılır. Karşılaştırma karmaşık modelleri ay
 cezalandırdığı için, parametre ekleyerek uyumu artırmak bir üstünlük sayılmaz.
 
 Bir yazıda model karşılaştırması yapılmamışsa, raporlanan parametreler bir
-mekanizmayı göstermez. Yalnızca veriyi o modele göre özetlediğinizde çıkan
+mekanizmayı göstermez zaten. Yalnızca veriyi o modele göre özetlediğinizde çıkan
 sayılardır. Aradaki fark da küçük değil.
 
 ## Bir bulguya ne zaman güvenilir
 Bir model veriye uyduğunda her parametre için bir sayı üretir. Bu sayının
 üretilmiş olması, verinin o parametre hakkında bilgi taşıdığı anlamına gelmez.
 Bazı modellerde iki parametre birlikte hareket eder: biri artıp diğeri azalınca
-model aynı davranışı üretir. Böyle bir durumda ikisinin bileşimi veriden
-okunabilir ama tek başına hiçbiri okunamaz. Kestirim yine de bir sayı verir,
-çünkü vermek zorundadır. O sayı da veriden çok kurulum tercihlerini yansıtır.
+model aynı davranışı üretir. Küveti iki musluktan dolduruyorsanız su seviyesine
+bakarak toplamı bilirsiniz, hangi musluğun ne kadar aktığını bilemezsiniz. Böyle
+bir durumda ikisinin bileşimi veriden okunabilir ama tek başına hiçbiri
+okunamaz. Kestirim yine de bir sayı verir, çünkü vermek zorundadır. O sayı da
+veriden çok kurulum tercihlerini yansıtır.
 
 Bunun teknik adı tanımlanabilirlik. Bir hesaplamalı bulguyu okurken sorulacak
 ilk sorulardan biri.
@@ -1096,11 +1100,14 @@ boşluk. Terimlerin İngilizce karşılıkları
 Gündelik anlamıyla "hata" değil. Öngörü hatası, olan ile beklenen arasındaki
 fark. Sistemin öğrenmek için kullandığı tek şey de bu.
 
-Fikrin cazibesi ekonomisinde. Duyu organlarınızdan saniyede gelen sinyalin çoğu
-zaten beklediğiniz şey. Hepsini yukarı taşımak yerine yalnızca farkı taşırsanız,
-üst katmanlara giden yükün büyük kısmı düşer. Friston ve Kiebel'in serimlediği
-haliyle beyin bir kestirim hiyerarşisi: her katman altındakine ne göreceğini
-söylüyor, alttaki de yalnızca yanılma payını geri yolluyor.
+Fikrin cazibesi ekonomisinde. Evinizde tıkırdayan bir saat varsa onu
+duymazsınız, durduğu an fark edersiniz. Kulağınıza ulaşan ses ikisinde de aynı;
+değişen tek şey beklenip beklenmediği. Duyu organlarınızdan saniyede gelen
+sinyalin çoğu böyle, zaten beklediğiniz şey. Hepsini yukarı taşımak yerine
+yalnızca farkı taşırsanız, üst katmanlara giden yükün büyük kısmı düşer. Friston
+ve Kiebel'in serimlediği haliyle beyin bir kestirim hiyerarşisi: her katman
+altındakine ne göreceğini söylüyor, alttaki de yalnızca yanılma payını geri
+yolluyor.
 
 Buradan çıkan sonuç sezgiye aykırı. Algı, dışarıdan içeri akan bir şey değil,
 içeriden dışarı kurulan bir hipotezin duyusal veriyle sınanması. Clark'ın
@@ -1111,11 +1118,13 @@ sunuyor; popülerliğinin büyük kısmı da o birleştirme gücünden geliyor.
 Çerçevenin klinik açıdan asıl işe yarayan yeri burası. Çoğu popüler anlatımda
 da atlanan yer burası.
 
-İki milimetrelik bir fark, ölçüm aletiniz güvenilirse önemlidir; alet
-sallanıyorsa gürültüdür. Beyin de aynı ayrımı yapmak zorunda ve bunu her
-sinyale bir ağırlık vererek yapıyor. O ağırlığın adı hassasiyet: bir kestirimin
-ne kadar dar olduğu, yani varyansının tersi. Yukarı giden şey ham öngörü hatası
-değil, hassasiyetle ağırlıklandırılmış hali.
+Eczane terazisinde iki yüz gram fazla görünüyorsanız bu bir bilgidir. Aynı iki
+yüz gramı, her bastığınızda başka rakam veren banyo tartısında görürseniz hiçbir
+şey ifade etmez. Fark aynı fark; değişen şey aleti ne kadar ciddiye aldığınız.
+Beyin de aynı ayrımı yapmak zorunda ve bunu her sinyale bir ağırlık vererek
+yapıyor. O ağırlığın adı hassasiyet: bir kestirimin ne kadar dar olduğu, yani
+varyansının tersi. Yukarı giden şey ham öngörü hatası değil, hassasiyetle
+ağırlıklandırılmış hali.
 
 Feldman ve Friston bir adım daha atıp dikkati bu ağırlığın kendisi olarak
 tanımladılar. Bir şeye dikkat etmek, o kanalın hassasiyetini yükseltmek demek.
@@ -1184,8 +1193,8 @@ inançlarda ise güçlü bir fark bulunmadı, yani ayrışan şey inancın kendi
 ağırlığı ayarlayabilme yetisi.
 
 ## Her şeyi açıklayan çerçeve
-Buraya kadar sayılanlar çerçevenin başarısı gibi okunuyor ve alan bir süredir
-bunun tersini düşünüyor.
+Buraya kadar sayılanlar çerçevenin başarısı gibi okunuyor. Alan bir süredir
+bunun tersini düşünüyor zaten.
 
 Yetmiş iki çalışmayı tarayan Qela derlemesi bozuklukların hepsinde bir şeyler
 buluyor, ama bulunanlar birbirine benzemiyor. Mancini ve Nour meseleyi tek
@@ -1196,13 +1205,13 @@ mekanizma modeli mi yoksa mecazi bir yeniden betimleme mi.
 Bir çerçevenin hem bir bulguyu hem tersini barındırabilmesi esneklik diye
 anılıyor. Sınanabilirlik açısından başka bir adı var.
 
-Bu, çerçeveyi bırakmak için bir gerekçe değil. Gerekçe olduğu şey şu: "psikozda
-hassasiyet bozuk" cümlesi tek başına bir şey söylemiyor. Hangi düzeyde, hangi
-yönde, hangi görevde ve hangi belirtiyle sorularının cevabı yoksa cümle
-çerçeveye uyuyor ama sınanmıyor. Bir hesaplamalı bulgunun bunları hangi koşulda
-söyleyebildiği
-[HGF yazısında](hgf-nedir.qmd), aynı sorunun şizofreni literatüründeki hali
-[inanç güncelleme yazısında](sizofrenide-inanc-guncelleme.qmd).
+Bu, çerçeveyi bırakmak için bir gerekçe değil. Bu çerçeveyi kendi hattımda
+kullanan bir hekim olarak şunu diyorum: "psikozda hassasiyet bozuk" cümlesi tek
+başına bir şey söylemiyor. Hangi düzeyde, hangi yönde, hangi görevde ve hangi
+belirtiyle sorularının cevabı yoksa cümle çerçeveye uyuyor ama sınanmıyor. Bir
+hesaplamalı bulgunun bunları hangi koşulda söyleyebildiği [HGF
+yazısında](hgf-nedir.qmd), aynı sorunun şizofreni literatüründeki hali [inanç
+güncelleme yazısında](sizofrenide-inanc-guncelleme.qmd).
 
 ## Kaynaklar
 Çerçevenin kendisi:
@@ -1387,7 +1396,8 @@ okuma.
 
 Gibbs-Dean'in sistematik derlemesi psikoz, anksiyete ve depresyonu aynı
 çerçeveye koydu; değişen olasılıklara uyum güçlüğü psikozda da anksiyetede de
-vardı. Kendi yayımlanmış çalışmamda da yön aynıydı. Yaygın anksiyete
+vardı. Kliniğinde anksiyete hastası gören bir hekim olarak bunu şaşırtıcı
+bulmadım. Kendi yayımlanmış çalışmamda da yön aynıydı. Yaygın anksiyete
 bozukluğunda tonik volatilite kontrollere göre yüksekti ve durumluk kaygıyla
 ilişkiliydi. Otuz altı kişilik, kesitsel, keşfedici bir çalışma, dolayısıyla
 ağırlığı sınırlı; ayrıntısı [şurada](../research/anxiety-hgf.qmd).
@@ -1442,8 +1452,9 @@ gösterdiğine göre, hangisinin indekslendiğini bilmeden bulgunun ne dediği d
 bilinmiyor.
 
 En az konuşulan soru sonuncusu. İddia grup düzeyinde mi kuruluyor, birey
-düzeyinde mi. Gruplar arasında ayrışan ama aynı kişide tekrar edilemeyen bir
-parametre bir bulgudur; ölçüt değildir.
+düzeyinde mi. İki okulun boy ortalaması farklı çıkabilir, bu size karşınızdaki
+çocuğun hangi okula gittiğini söylemez. Gruplar arasında ayrışan ama aynı kişide
+tekrar edilemeyen bir parametre bir bulgudur; ölçüt değildir.
 
 ## Kaynaklar
 Klasik bulgu ve meta-analizler:
@@ -2270,10 +2281,11 @@ generous reading.
 
 Gibbs-Dean's systematic review put psychosis, anxiety and depression in one
 frame, and difficulty adapting to changing contingencies was present in
-psychosis and in anxiety alike. My own published study points the same way.
-Tonic volatility was elevated relative to controls in generalized anxiety
-disorder and correlated with state anxiety. Thirty-six participants,
-cross-sectional and exploratory, so it carries limited weight; the details are
+psychosis and in anxiety alike. Seeing anxious patients in clinic, I did not
+find that surprising. My own published study points the same way. Tonic
+volatility was elevated relative to controls in generalized anxiety disorder and
+correlated with state anxiety. Thirty-six participants, cross-sectional and
+exploratory, so it carries limited weight; the details are
 [here](../research/anxiety-hgf.qmd).
 
 Katthagen's review makes it harder still. There are studies linking psychosis to
@@ -2329,8 +2341,10 @@ showed the two attach to separate parameters, without knowing which one was
 indexed you do not know what the finding says.
 
 The least discussed question is the last one. Is the claim built at the group
-level or the individual level? A parameter that separates groups but cannot be
-repeated in the same person is a finding. It is not yet a measure.
+level or the individual level? Two schools can differ in average height without
+that telling you which one the child in front of you attends. A parameter that
+separates groups but cannot be repeated in the same person is a finding. It is
+not yet a measure.
 
 ## References
 The classic finding and the meta-analyses:
@@ -2523,16 +2537,18 @@ explains it. Because the comparison separately penalises complex models, adding
 parameters to improve the fit does not count as winning.
 
 If a paper has no model comparison, the parameters it reports do not point at a
-mechanism. They are what you get when you summarise the data through that
-particular model. The difference is not a small one.
+mechanism, whatever they are called. They are what you get when you summarise
+the data through that particular model. The difference is not a small one.
 
 ## When to trust a finding
 When a model fits, it produces a number for every parameter. That a number was
 produced does not mean the data carried information about that parameter. In
 some models two parameters move together: raise one and lower the other and the
-model behaves identically. Their combination can then be read off the data but
-neither can be read alone. The estimator still returns a number, because it has
-to. That number reflects setup choices more than it reflects data.
+model behaves identically. Fill a bath from two taps and the water level tells
+you the total, never how much came from which. Their combination can then be
+read off the data but neither can be read alone. The estimator still returns a
+number, because it has to. That number reflects setup choices more than it
+reflects data.
 
 The technical name for this is identifiability. It is among the first things to
 ask about a computational finding.
@@ -2628,8 +2644,10 @@ computation is used to turn the incoming signal down.
 The name for that turning down is sensory attenuation. Its use is this: most of
 the signal reaching your senses is produced by your own movements. If all of it
 were processed at equal weight, the externally caused signal, the one that
-actually carries news, would be lost inside it. Turning down the predictable is
-how you bring out the unpredictable.
+actually carries news, would be lost inside it. Noise-cancelling headphones do
+exactly this: they predict the incoming sound and generate its inverse, leaving
+only what they could not predict. Turning down the predictable is how you bring
+out the unpredictable.
 
 ## How the task turns it into a number
 The most memorable demonstration involved two people. In 2003 Shergill and
@@ -2722,10 +2740,11 @@ fatigue and perceived effort rather than motor symptom severity. In chronic pain
 no group difference in magnitude was found; what separated the groups was
 variance.
 
-Attenuation being disturbed across this many presentations makes it a measure
-tied to symptoms rather than diagnoses. It does not tell you which diagnosis a
-patient carries. It says something about which mechanism is disturbed. Confuse
-the two and the measure has promised more than it can deliver.
+Attenuation being disturbed across this many presentations already makes it a
+measure tied to symptoms rather than diagnoses. It does not tell you which
+diagnosis a patient carries. It says something about which mechanism is
+disturbed. Confuse the two and the measure has promised more than it can
+deliver.
 
 ## What the instrument contributes
 Because the measurement is a difference between two conditions, instrument error
