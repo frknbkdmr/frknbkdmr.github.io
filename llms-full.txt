@@ -663,12 +663,14 @@ Sonuca atlama yanlılığının kanıtı ne kadar sağlam, hesaplamalı modeller
 nasıl değiştirdi ve neden hâlâ birey düzeyinde bir ölçüt yok. Bulgunun en zayıf
 olduğu yer, tam da uğruna kurulduğu yer.
 
-## Planlanan yazılar
-### Öngörü hatası, kesinlik ve psikiyatrik belirti
-Bayesçi beyin çerçevesinin klinik okur için girişi: öngörü hatası ne demek,
-hassasiyet ağırlıklandırması neyi belirler ve bunlar muayenehanede gördüğümüz
-belirtilere nasıl bağlanır.
+Klinik okur için · 17 kaynak · yayında
 
+### [Öngörü hatası, hassasiyet ve psikiyatrik belirti](notlar/ongoru-hatasi-ve-hassasiyet.qmd)
+Öngörü hatası ne demek, hassasiyet neyi belirler ve aynı çerçeve psikozdan
+otizme kadar nasıl her belirtiye uyabiliyor. Çerçevenin kapsayıcılığı aynı
+zamanda ona yöneltilen en ciddi itiraz.
+
+## Planlanan yazılar
 ### Akatizi: aktif çıkarım çerçevesinden bir bakış
 Akatizinin öznel ve nesnel bileşenlerinin neden ayrışabildiği ve hareketin
 çoğu zaman huzursuzluğu dindirmemesi.
@@ -905,6 +907,7 @@ self-touch. *Journal of Neurophysiology*.
 
 [← notlar](../notlar.qmd) ·
 [HGF nedir](hgf-nedir.qmd) ·
+[öngörü hatası](ongoru-hatasi-ve-hassasiyet.qmd) ·
 [inanç güncelleme](sizofrenide-inanc-guncelleme.qmd) ·
 [terimler sözlüğü](terimler.qmd) ·
 [english](../notes/sensory-attenuation.qmd)
@@ -1069,9 +1072,229 @@ Psychiatry*.
 
 [← notlar](../notlar.qmd) ·
 [duyusal azaltım](duyusal-azaltim.qmd) ·
+[öngörü hatası](ongoru-hatasi-ve-hassasiyet.qmd) ·
 [inanç güncelleme](sizofrenide-inanc-guncelleme.qmd) ·
 [terimler sözlüğü](terimler.qmd) ·
 [english](../notes/hierarchical-gaussian-filter.qmd)
+
+---
+
+# Öngörü hatası, hassasiyet ve psikiyatrik belirti
+
+URL: https://furkanbekdemir.com/notlar/ongoru-hatasi-ve-hassasiyet
+
+Beyin gelen sinyali beklemeden işlemiyor, önce ne geleceğini tahmin ediyor ve
+yalnızca tahminin tutmadığı kadarını yukarı gönderiyor. Bu cümle son yirmi yılın
+en verimli psikiyatri fikri oldu. Aynı cümle, çerçevenin en ciddi sorununun da
+kaynağı.
+
+Diğer üç yazı bu iki kavrama dayanıyor ama hiçbirinde tam anlatımı yok; burası o
+boşluk. Terimlerin İngilizce karşılıkları
+[terimler sözlüğünde](terimler.qmd).
+
+## Öngörü hatası ne demek
+Gündelik anlamıyla "hata" değil. Öngörü hatası, olan ile beklenen arasındaki
+fark. Sistemin öğrenmek için kullandığı tek şey de bu.
+
+Fikrin cazibesi ekonomisinde. Duyu organlarınızdan saniyede gelen sinyalin çoğu
+zaten beklediğiniz şey. Hepsini yukarı taşımak yerine yalnızca farkı taşırsanız,
+üst katmanlara giden yükün büyük kısmı düşer. Friston ve Kiebel'in serimlediği
+haliyle beyin bir kestirim hiyerarşisi: her katman altındakine ne göreceğini
+söylüyor, alttaki de yalnızca yanılma payını geri yolluyor.
+
+Buradan çıkan sonuç sezgiye aykırı. Algı, dışarıdan içeri akan bir şey değil,
+içeriden dışarı kurulan bir hipotezin duyusal veriyle sınanması. Clark'ın
+derlemesi bunu algı ile eylemi tek çatı altında toplayan bir model olarak
+sunuyor; popülerliğinin büyük kısmı da o birleştirme gücünden geliyor.
+
+## Ham hata kullanılmıyor
+Çerçevenin klinik açıdan asıl işe yarayan yeri burası. Çoğu popüler anlatımda
+da atlanan yer burası.
+
+İki milimetrelik bir fark, ölçüm aletiniz güvenilirse önemlidir; alet
+sallanıyorsa gürültüdür. Beyin de aynı ayrımı yapmak zorunda ve bunu her
+sinyale bir ağırlık vererek yapıyor. O ağırlığın adı hassasiyet: bir kestirimin
+ne kadar dar olduğu, yani varyansının tersi. Yukarı giden şey ham öngörü hatası
+değil, hassasiyetle ağırlıklandırılmış hali.
+
+Feldman ve Friston bir adım daha atıp dikkati bu ağırlığın kendisi olarak
+tanımladılar. Bir şeye dikkat etmek, o kanalın hassasiyetini yükseltmek demek.
+Böyle bakıldığında dikkat ayrı bir yeti olmaktan çıkıyor, çıkarımın bir ayarı
+haline geliyor.
+
+Bir de şu var: hassasiyetin sinirsel karşılığı olarak önerilen şey, öngörü
+hatası taşıyan hücrelerin postsinaptik kazancı. Bu öneri çerçeveyi
+nöromodülasyona bağlıyor. Psikiyatriye asıl oradan giriyor.
+
+## Hangi düzeyin hassasiyeti
+Hiyerarşi olduğu için tek bir ayar yok. Duyusal kanıtın hassasiyeti var, önsel
+inancın hassasiyeti var. Belirtiler ikisinin oranına bağlanıyor.
+
+2013'te ortaya konan ve bugün de referans sayılan öneri Adams'ın: psikotik
+belirtiler tek bir çekirdek patolojinin farklı yüzleri olabilir, o da
+hassasiyetin hatalı kodlanması. Aynı çerçeveden varsanı, göz hareketi
+bozuklukları, duyusal azaltım kaybı ve sanrı türetiliyor. Duyusal azaltımın bu
+tablodaki yeri [ayrı bir yazıda](duyusal-azaltim.qmd).
+
+## Psikozda hangi yön
+Kanonik anlatı şu: psikozda önsel inancın hassasiyeti duyusal veriye göre
+düşüyor, dünya öngörülemez hale geliyor, sanrı da bu deneyimi açıklamak için kurulan bir
+hikâye.
+
+Bulgular bu kadar düzenli değil. Sterzer'in derlemesi bunu doğrudan söylüyor:
+bazı çalışmalar psikozda önsel inançların zayıfladığını buluyor, bazıları
+güçlendiğini. Haarsma'nın grubu sağlıklı kişilerde öngörü hatalarının
+hassasiyetle ağırlıklandırılmasının öğrenmeye yaradığını, ilk atak psikozda ise
+bunun bozulduğunu gösterdi, üstelik dopaminerjik müdahaleyle oynatılabildiğini.
+Ketamin modelini güncelleyen Corlett ise birden çok yol olabileceğini kabul
+ediyor.
+
+Tek bir çalışma iki yönü aynı anda barındırabiliyor. Benrimoh'un koşullanmış
+varsanı çalışmasında varsanı eğilimi yüksek olanlar hem önsel inanca daha çok
+ağırlık veriyor hem de duyusal hassasiyetleri düşük çıkıyor. Goodwin'in iki
+büyük örneklemli çalışmasında ise psikoz benzeri yaşantılar duyusal bilgiye
+fazla ağırlık vermekle gitti, yani kanonik anlatının tersi yönde.
+
+## Aynı çerçeve otizmi de açıklıyor
+Van de Cruys otizmi öngörü hatalarına esnek olmayan biçimde yüksek ağırlık
+verilmesine bağlıyor. Dünyada her sapma haber değeri
+taşıyor, hiçbiri gürültü sayılıp bırakılamıyor. Yürütücü işlev ile zihin kuramına dair
+bulgular bunun ikincil sonuçları olarak çıkıyor.
+
+Dikkat edilirse bu, psikoz için önerilenin tam tersi. Aynı çerçeve, aynı iki
+parametre, ters yön. Friston, Lawson ve Frith bunun nasıl adlandırılacağı
+üzerine ayrıca tartıştı ve otizmi önsel inançların zayıflaması değil, hassasiyet
+hakkındaki inançların bozulması diye okumayı önerdiler.
+
+Yakın tarihli sınamalar burayı da karıştırıyor. İki duyusal-motor görevi
+modelleyen Arthur ve ekibi, otizmde önsel inançlarda ya da duyusal
+ağırlıklandırmada kalıcı bir sapma bulamadı; buldukları şey öğrenme hızını
+oynaklığa göre esnetmekte güçlüktü.
+
+## Bedene doğru
+Çerçevenin en hızlı büyüyen kolu dışarıya değil içeriye bakıyor. Seth ve
+Friston'ın kurduğu haliyle bedensel durumlar da kestirimle yönetiliyor, duygu
+da o sürecin bir ürünü.
+
+Smith'in ekibi bunu tanılar arası bir örneklemde sınadı. Kalp atımı
+görevinde solunum tutma ile bedensel sinyal bozulduğunda sağlıklı katılımcılar
+kalpten gelen sinyale verdikleri hassasiyeti yükseltti. Anksiyete, depresyon,
+madde kullanım ve yeme bozukluğu gruplarında bu yükseltme olmadı. Önsel
+inançlarda ise güçlü bir fark bulunmadı, yani ayrışan şey inancın kendisi değil
+ağırlığı ayarlayabilme yetisi.
+
+## Her şeyi açıklayan çerçeve
+Buraya kadar sayılanlar çerçevenin başarısı gibi okunuyor ve alan bir süredir
+bunun tersini düşünüyor.
+
+Yetmiş iki çalışmayı tarayan Qela derlemesi bozuklukların hepsinde bir şeyler
+buluyor, ama bulunanlar birbirine benzemiyor. Mancini ve Nour meseleyi tek
+cümlede topluyor: bu kadar çok oynak parçası olan bir modeli bir yere sabitlemek
+zor. Alotaibi'nin 2026 derlemesi başlığında soruyor, kestirimsel işlemleme
+mekanizma modeli mi yoksa mecazi bir yeniden betimleme mi.
+
+Bir çerçevenin hem bir bulguyu hem tersini barındırabilmesi esneklik diye
+anılıyor. Sınanabilirlik açısından başka bir adı var.
+
+Bu, çerçeveyi bırakmak için bir gerekçe değil. Gerekçe olduğu şey şu: "psikozda
+hassasiyet bozuk" cümlesi tek başına bir şey söylemiyor. Hangi düzeyde, hangi
+yönde, hangi görevde ve hangi belirtiyle sorularının cevabı yoksa cümle
+çerçeveye uyuyor ama sınanmıyor. Bir hesaplamalı bulgunun bunları hangi koşulda
+söyleyebildiği
+[HGF yazısında](hgf-nedir.qmd), aynı sorunun şizofreni literatüründeki hali
+[inanç güncelleme yazısında](sizofrenide-inanc-guncelleme.qmd).
+
+## Kaynaklar
+Çerçevenin kendisi:
+
+Friston K, Kiebel S. Predictive coding under the free-energy principle.
+*Philosophical Transactions of the Royal Society B*.
+2009;364(1521):1211-1221. doi:[10.1098/rstb.2008.0300](https://doi.org/10.1098/rstb.2008.0300)
+
+Feldman H, Friston KJ. Attention, uncertainty, and free-energy. *Frontiers in
+Human Neuroscience*.
+2010;4:215. doi:[10.3389/fnhum.2010.00215](https://doi.org/10.3389/fnhum.2010.00215)
+
+Clark A. Whatever next? Predictive brains, situated agents, and the future of
+cognitive science. *Behavioral and Brain Sciences*.
+2013;36(3):181-204. doi:[10.1017/S0140525X12000477](https://doi.org/10.1017/S0140525X12000477)
+
+Psikoz:
+
+Adams RA, Stephan KE, Brown HR, Frith CD, Friston KJ. The computational anatomy
+of psychosis. *Frontiers in Psychiatry*.
+2013;4:47. doi:[10.3389/fpsyt.2013.00047](https://doi.org/10.3389/fpsyt.2013.00047)
+
+Sterzer P, Adams RA, Fletcher P, ve ark. The predictive coding account of
+psychosis. *Biological Psychiatry*.
+2018;84(9):634-643. doi:[10.1016/j.biopsych.2018.05.015](https://doi.org/10.1016/j.biopsych.2018.05.015)
+
+Corlett PR, Honey GD, Fletcher PC. Prediction error, ketamine and psychosis: an
+updated model. *Journal of Psychopharmacology*.
+2016;30(11):1145-1155. doi:[10.1177/0269881116650087](https://doi.org/10.1177/0269881116650087)
+
+Haarsma J, Fletcher PC, Griffin JD, ve ark. Precision weighting of cortical
+unsigned prediction error signals benefits learning, is mediated by dopamine,
+and is impaired in psychosis. *Molecular Psychiatry*.
+2021;26(9):5320-5333. doi:[10.1038/s41380-020-0803-8](https://doi.org/10.1038/s41380-020-0803-8)
+
+Benrimoh D, Fisher VL, Seabury R, ve ark. Evidence for reduced sensory precision
+and increased reliance on priors in hallucination-prone individuals in a general
+population sample. *Schizophrenia Bulletin*.
+2024;50(2):349-362. doi:[10.1093/schbul/sbad136](https://doi.org/10.1093/schbul/sbad136)
+
+Goodwin I, Kugel J, Hester R, Garrido MI. Bayesian accounts of perceptual
+decisions in the nonclinical continuum of psychosis. *PLOS Computational
+Biology*.
+2023;19(11):e1011670. doi:[10.1371/journal.pcbi.1011670](https://doi.org/10.1371/journal.pcbi.1011670)
+
+Otizm:
+
+Van de Cruys S, Evers K, Van der Hallen R, ve ark. Precise minds in uncertain
+worlds: predictive coding in autism. *Psychological Review*.
+2014;121(4):649-675. doi:[10.1037/a0037665](https://doi.org/10.1037/a0037665)
+
+Friston KJ, Lawson R, Frith CD. On hyperpriors and hypopriors: comment on
+Pellicano and Burr. *Trends in Cognitive Sciences*.
+2013;17(1):1. doi:[10.1016/j.tics.2012.11.003](https://doi.org/10.1016/j.tics.2012.11.003)
+
+Arthur T, Vine S, Buckingham G, Brosnan M, Wilson M, Harris D. Testing
+predictive coding theories of autism spectrum disorder using models of active
+inference. *PLOS Computational Biology*.
+2023;19(9):e1011473. doi:[10.1371/journal.pcbi.1011473](https://doi.org/10.1371/journal.pcbi.1011473)
+
+Beden ve duygu:
+
+Seth AK, Friston KJ. Active interoceptive inference and the emotional brain.
+*Philosophical Transactions of the Royal Society B*.
+2016;371(1708):20160007. doi:[10.1098/rstb.2016.0007](https://doi.org/10.1098/rstb.2016.0007)
+
+Smith R, Kuplicki R, Feinstein J, ve ark. A Bayesian computational model reveals
+a failure to adapt interoceptive precision estimates across depression, anxiety,
+eating, and substance use disorders. *PLOS Computational Biology*.
+2020;16(12):e1008484. doi:[10.1371/journal.pcbi.1008484](https://doi.org/10.1371/journal.pcbi.1008484)
+
+Çerçeveye itirazlar:
+
+Qela B, Damiani S, De Santis S, ve ark. Predictive coding in neuropsychiatric
+disorders: a systematic transdiagnostic review. *Neuroscience and Biobehavioral
+Reviews*.
+2025;169:106020. doi:[10.1016/j.neubiorev.2025.106020](https://doi.org/10.1016/j.neubiorev.2025.106020)
+
+Mancini V, Nour MM. If mismatch negativity is the answer, what is the question?
+On the nature of predictive coding abnormalities in psychosis. *Biological
+Psychiatry Global Open Science*.
+2025;5(1):100412. doi:[10.1016/j.bpsgos.2024.100412](https://doi.org/10.1016/j.bpsgos.2024.100412)
+
+Alotaibi AS. Predictive coding in psychopathology: mechanistic model or
+metaphorical re-description? *Frontiers in Human Neuroscience*.
+2026;19:1743028. doi:[10.3389/fnhum.2025.1743028](https://doi.org/10.3389/fnhum.2025.1743028)
+
+[← notlar](../notlar.qmd) ·
+[HGF nedir](hgf-nedir.qmd) ·
+[duyusal azaltım](duyusal-azaltim.qmd) ·
+[inanç güncelleme](sizofrenide-inanc-guncelleme.qmd) ·
+[terimler sözlüğü](terimler.qmd)
 
 ---
 
@@ -1318,6 +1541,7 @@ in computational psychiatry. *Computational Psychiatry*.
 
 [← notlar](../notlar.qmd) ·
 [HGF nedir](hgf-nedir.qmd) ·
+[öngörü hatası](ongoru-hatasi-ve-hassasiyet.qmd) ·
 [duyusal azaltım](duyusal-azaltim.qmd) ·
 [terimler sözlüğü](terimler.qmd) ·
 [english](../notes/belief-updating-in-psychosis.qmd)
@@ -1367,33 +1591,40 @@ hedefli tarama yaptım, ama bulunamadı demek yok demek değil.
 ### Hierarchical Gaussian Filter
 (HGF) · Hiyerarşik Gauss Filtresi · karşılık yok
 
-Aradım, Türkçe akademik kaynakta geçmiyor. Model adı olduğu için İngilizcesini ve kısaltmasını koruyorum; ilk geçişte "Hiyerarşik Gauss(sal) Filtre (HGF)" diye açıyorum.
+Aradım, Türkçe akademik kaynakta geçmiyor. Model adı olduğu için İngilizcesini
+ve kısaltmasını koruyorum; ilk geçişte "Hiyerarşik Gauss(sal) Filtre (HGF)" diye
+açıyorum. :::
 
 ### Bayesian inference
 Bayesçi çıkarım · kaynaklı
 
-DergiPark'ta ve makine öğrenmesi kaynaklarında "Bayesçi çıkarım" olarak oturmuş. Bazen "Bayesci" yazımıyla, ki bu bir imla tercihi, ayrı bir terim değil.
+DergiPark'ta ve makine öğrenmesi kaynaklarında "Bayesçi çıkarım" olarak oturmuş.
+Bazen "Bayesci" yazımıyla, ki bu bir imla tercihi, ayrı bir terim değil.
 
 Kaynak: [Bayesçi Yaklaşım ile Regresyon Modellerinde Parametre Tahmini](https://dergipark.org.tr/tr/download/article-file/1688621)
 
 ### Bayesian belief updating
 Bayesçi inanç güncelleme · kaynaklı
 
-İki parçası da ayrı ayrı yerleşik ve Türkçe Bayesçi beyin yazılarında zaten yan yana geçiyor. Birleştirmekte sakınca görmüyorum.
+İki parçası da ayrı ayrı yerleşik ve Türkçe Bayesçi beyin yazılarında zaten yan
+yana geçiyor. Birleştirmekte sakınca görmüyorum.
 
 Kaynak: [Bayesçi Yaklaşım ile Regresyon Modellerinde Parametre Tahmini](https://dergipark.org.tr/tr/download/article-file/1688621)
 
 ### Variational Bayes
 Değişimsel / varyasyonel Bayes · kaynaklı
 
-"Değişimsel" bir topluluk sözlüğünde, "varyasyonel" ise günlük kullanımda. İkisi arasında karar veremedim; kaynak hakemli olmadığı için ilk geçişte İngilizcesini de veriyorum.
+"Değişimsel" bir topluluk sözlüğünde, "varyasyonel" ise günlük kullanımda. İkisi
+arasında karar veremedim; kaynak hakemli olmadığı için ilk geçişte İngilizcesini
+de veriyorum.
 
 Kaynak: [deeplearningturkiye TR-YZ Terim Sözlüğü](https://github.com/deeplearningturkiye/turkce-yapay-zeka-terimleri/blob/master/turkce-ingilizce.md) (topluluk kaynağı, hakemli değil)
 
 ### Perceptual model
 Algısal model · kaynaklı
 
-"Algısal model" kendini açıklıyor ve başka bir alanda çakışan özel bir anlamı yok. Çekinmeden kullanıyorum.
+"Algısal model" kendini açıklıyor ve başka bir alanda çakışan özel bir anlamı
+yok. Çekinmeden kullanıyorum.
 
 Kaynak: [Öngörücü İşleme ve Öngörü Hatası — Yayılmış Zihin (DergiPark)](https://dergipark.org.tr/tr/download/article-file/4835682), algısal/üretici model bağlamı
 
@@ -1407,14 +1638,19 @@ Kaynak: [Öngörücü İşleme ve Öngörü Hatası — Yayılmış Zihin (Dergi
 ### Generative model
 Üretici model · kaynaklı
 
-Makine öğrenmesi kaynakları hem "üretici" hem "üretken" diyor. Ben "üretici" tarafındayım, çünkü "üretken model" kulağa modelin çalışkan olduğunu söylüyormuş gibi geliyor.
+Makine öğrenmesi kaynakları hem "üretici" hem "üretken" diyor. Ben "üretici"
+tarafındayım, çünkü "üretken model" kulağa modelin çalışkan olduğunu söylüyormuş
+gibi geliyor.
 
 Kaynak: [deeplearningturkiye TR-YZ Terim Sözlüğü](https://github.com/deeplearningturkiye/turkce-yapay-zeka-terimleri/blob/master/turkce-ingilizce.md) (topluluk kaynağı, hakemli değil)
 
 ### Predictive coding
 Öngörücü (kestirimci) kodlama · kaynaklı
 
-Türkçede kullanılıyor ama tek bir hâkim karşılık yok: öngörücü, öngörülü, yordayıcı, kestirimci, tahmine dayalı. Beş varyant saydım ve saymayı bıraktım. "Öngörücü" diyorum, çünkü "öngörü hatası" ile aynı kökten gidiyor; ilk geçişte İngilizcesini de veriyorum.
+Türkçede kullanılıyor ama tek bir hâkim karşılık yok: öngörücü, öngörülü,
+yordayıcı, kestirimci, tahmine dayalı. Beş varyant saydım ve saymayı bıraktım.
+"Öngörücü" diyorum, çünkü "öngörü hatası" ile aynı kökten gidiyor; ilk geçişte
+İngilizcesini de veriyorum.
 
 Kavram kaynağı (TR): [Öngörücü İşleme — Yayılmış Zihin (DergiPark)](https://dergipark.org.tr/tr/download/article-file/4835682); ayrıca [Öngörücü Kodlama ve Neokantçılık (Sabah Ülkesi)](https://www.sabahulkesi.com/2020/03/31/oengoeruecue-kodlama-ve-neokantcilik/)
 
@@ -1440,16 +1676,19 @@ farkı burada bırakıyorum.
 Kaynak: [Öngörücü İşleme ve Öngörü Hatası — Yayılmış Zihin (DergiPark)](https://dergipark.org.tr/tr/download/article-file/4835682)
 
 ### Precision-weighted prediction error
-Hassasiyet-ağırlıklı / kesinlik-ağırlıklı öngörü hatası · kaynaklı
+Hassasiyet-ağırlıklı / kesinlik-ağırlıklı öngörü hatası ·
+kaynaklı
 
-İki parçası da yerleşik olduğu için bileşiği de sorun çıkarmıyor. Birleşik terimin kendisi Türkçede yok, o yüzden ilk geçişte İngilizcesini veriyorum.
+İki parçası da yerleşik olduğu için bileşiği de sorun çıkarmıyor. Birleşik
+terimin kendisi Türkçede yok, o yüzden ilk geçişte İngilizcesini veriyorum.
 
 Kavram kaynağı (TR): [Öngörücü İşleme — Yayılmış Zihin (DergiPark)](https://dergipark.org.tr/tr/download/article-file/4835682) (öngörü hatası + kesinlik ağırlıklandırma; birleşik terim TR'de yok)
 
 ### Learning rate
 Öğrenme oranı · kaynaklı
 
-Makine öğrenmesi kaynaklarında "öğrenme oranı", bazen "öğrenme hızı". İkisi de anlaşılıyor.
+Makine öğrenmesi kaynaklarında "öğrenme oranı", bazen "öğrenme hızı". İkisi de
+anlaşılıyor.
 
 Kaynak: [YSA Eğitiminde Kullanılan Optimizasyon Yöntemleri (DergiPark)](https://dergipark.org.tr/en/download/article-file/1099311)
 
@@ -1463,14 +1702,17 @@ Kaynak: [Bayesçi Yaklaşım ile Regresyon Modellerinde Parametre Tahmini](https
 ### Volatility
 Volatilite / oynaklık · kaynaklı
 
-Finanstan ödünç alınmış. Borsa için oturmuş bir kelimeyi öğrenme kuramına taşımak tuhaf, ama alan bunu çoktan yapmış; "volatilite" de "oynaklık" da geçiyor.
+Finanstan ödünç alınmış. Borsa için oturmuş bir kelimeyi öğrenme kuramına
+taşımak tuhaf, ama alan bunu çoktan yapmış; "volatilite" de "oynaklık" da
+geçiyor.
 
 Kaynak: [Enflasyon ve Enflasyon Belirsizliği: Türkiye Örneği (Sosyoekonomi)](https://dergipark.org.tr/tr/pub/sosyoekonomi/article/226831)
 
 ### Hidden (latent) state
 Gizli (örtük/saklı) durum · kaynaklı
 
-Topluluk sözlüğü latent için "saklı" ve "gizli" veriyor. Kaynak hakemli olmadığından ilk geçişte İngilizcesini de veriyorum.
+Topluluk sözlüğü latent için "saklı" ve "gizli" veriyor. Kaynak hakemli
+olmadığından ilk geçişte İngilizcesini de veriyorum.
 
 Kaynak: [deeplearningturkiye TR-YZ Terim Sözlüğü](https://github.com/deeplearningturkiye/turkce-yapay-zeka-terimleri/blob/master/turkce-ingilizce.md) (topluluk kaynağı, hakemli değil)
 
@@ -1484,7 +1726,8 @@ Kaynak: [Bayesçi Yaklaşım ile Regresyon Modellerinde Parametre Tahmini](https
 ### Logistic (sigmoid) function
 Lojistik (sigmoid) fonksiyon · kaynaklı
 
-Makine öğrenmesi kaynaklarında hem "lojistik" hem "sigmoid" geçiyor, çoğu zaman aynı cümlede.
+Makine öğrenmesi kaynaklarında hem "lojistik" hem "sigmoid" geçiyor, çoğu zaman
+aynı cümlede.
 
 Kaynak: [Adaptif Sigmoid, Lojistik Sigmoid ve Tanjant Hiperbolik Aktivasyon Fonksiyonları (DergiPark)](https://dergipark.org.tr/en/download/article-file/2849675)
 
@@ -1498,7 +1741,8 @@ Kaynak: [deeplearningturkiye TR-YZ Terim Sözlüğü](https://github.com/deeplea
 ### Gaussian random walk
 Gauss rastgele yürüyüş · kaynaklı
 
-"Rastgele yürüyüş" zaman serisi ve finans yazılarında yerleşik, "Gauss" niteleyicisini eklemek de sorun değil.
+"Rastgele yürüyüş" zaman serisi ve finans yazılarında yerleşik, "Gauss"
+niteleyicisini eklemek de sorun değil.
 
 Kaynak: [Enflasyon ve Enflasyon Belirsizliği: Türkiye Örneği (Sosyoekonomi)](https://dergipark.org.tr/tr/pub/sosyoekonomi/article/226831), zaman serisi/finans: rastgele yürüyüş, otoregresif süreç
 
@@ -1512,7 +1756,9 @@ Kaynak: [Enflasyon ve Enflasyon Belirsizliği: Türkiye Örneği (Sosyoekonomi)]
 ### Uncertainty (irreducible/estimation/volatility)
 Belirsizlik · kaynaklı
 
-"Belirsizlik" hem ölçümde hem istatistikte yaygın. Üç ayrı belirsizlik türünü ayırt etmek gerektiğinde niteleyici eklemek şart, çünkü tek kelime hepsini birden karşılıyor.
+"Belirsizlik" hem ölçümde hem istatistikte yaygın. Üç ayrı belirsizlik türünü
+ayırt etmek gerektiğinde niteleyici eklemek şart, çünkü tek kelime hepsini
+birden karşılıyor.
 
 Kaynak: [Öngörücü İşleme ve Öngörü Hatası — Yayılmış Zihin (DergiPark)](https://dergipark.org.tr/tr/download/article-file/4835682)
 
@@ -1520,17 +1766,23 @@ Kaynak: [Öngörücü İşleme ve Öngörü Hatası — Yayılmış Zihin (Dergi
 ### Evolution rate
 (ω (omega)) · Evrim oranı / gelişim hızı · karşılık yok
 
-HGF'e özgü bir parametre, Türkçesi yok. "Evrim oranı" diyorum ama bunun yerleşik olduğunu iddia etmiyorum, benim önerim.
+HGF'e özgü bir parametre, Türkçesi yok. "Evrim oranı" diyorum ama bunun yerleşik
+olduğunu iddia etmiyorum, benim önerim. :::
 
 ### Belief instability
-(κ₁ (kappa1)) · *(Adams'ın etiketi)* "inanç kararsızlığı" · karşılık yok
+(κ₁ (kappa1)) · *(Adams'ın etiketi)* "inanç kararsızlığı" ·
+karşılık yok
 
-Adams'ın etiketi, Türkçesi yok. Ben bunu klinik ya da nedensel bir etiket olarak kullanmıyorum; Adams'ın iddiasını aktarırken tırnak içinde ve ona atfen veriyorum.
+Adams'ın etiketi, Türkçesi yok. Ben bunu klinik ya da nedensel bir etiket olarak
+kullanmıyorum; Adams'ın iddiasını aktarırken tırnak içinde ve ona atfen
+veriyorum. :::
 
 ### Response stochasticity
-(ζ / ν (zeta/nu)) · Yanıt stokastisitesi (yanıt gürültüsü) · karşılık yok
+(ζ / ν (zeta/nu)) · Yanıt stokastisitesi (yanıt gürültüsü) ·
+karşılık yok
 
-Türev bir terim, Türkçesi yok. "Yanıt stokastisitesi" ya da "yanıt gürültüsü"; ikincisi daha anlaşılır ama daha az teknik.
+Türev bir terim, Türkçesi yok. "Yanıt stokastisitesi" ya da "yanıt gürültüsü";
+ikincisi daha anlaşılır ama daha az teknik. :::
 
 ### Initial belief variance
 (σ²₂(0)) · Başlangıç inanç varyansı · karşılık yok
@@ -1538,7 +1790,8 @@ Türev bir terim, Türkçesi yok. "Yanıt stokastisitesi" ya da "yanıt gürült
 HGF'e özgü, Türkçesi yok. "Başlangıç inanç varyansı" benim önerim.
 
 ### Disconfirmatory bias
-(φ (phi)) · Çürütücü (yalanlayıcı) yanlılık · karşılık yok
+(φ (phi)) · Çürütücü (yalanlayıcı) yanlılık · karşılık
+yok
 
 Adams'a özgü, Türkçesi yok. "Çürütücü yanlılık" diyorum; "yalanlayıcı" da olurdu.
 
@@ -1552,7 +1805,8 @@ Kaynak: [Bayesçi Yaklaşım ile Regresyon Modellerinde Parametre Tahmini](https
 ### Levels (states x1, x2, x3)
 Düzeyler (durumlar) · kaynaklı
 
-"Düzey" ya da "durum", bağlama göre. Modelin katmanlarından söz ederken "düzey", tek bir katmanın değerinden söz ederken "durum".
+"Düzey" ya da "durum", bağlama göre. Modelin katmanlarından söz ederken "düzey",
+tek bir katmanın değerinden söz ederken "durum".
 
 Kaynak: [deeplearningturkiye TR-YZ Terim Sözlüğü](https://github.com/deeplearningturkiye/turkce-yapay-zeka-terimleri/blob/master/turkce-ingilizce.md) (state="durum"; topluluk kaynağı)
 
@@ -1567,7 +1821,8 @@ Kaynak: [Adaptif Sigmoid, Lojistik Sigmoid ve Tanjant Hiperbolik Aktivasyon Fonk
 ### Maximum-a-posteriori estimation
 (MAP) · Maksimum sonsal kestirim · kaynaklı
 
-Topluluk sözlüğü "en büyük sonsal" diyor, ama kısaltmayı koruyorum. MAP'i açık yazmak kimseye yardım etmiyor.
+Topluluk sözlüğü "en büyük sonsal" diyor, ama kısaltmayı koruyorum. MAP'i açık
+yazmak kimseye yardım etmiyor.
 
 Kaynak: [Bayesçi Yaklaşım ile Regresyon Modellerinde Parametre Tahmini](https://dergipark.org.tr/tr/download/article-file/1688621)
 
@@ -1595,35 +1850,42 @@ Kaynak: [Model Seçim Kriterleri: AIC, BIC, ICOMP (İstatistik Araştırma Dergi
 ### Free energy
 Serbest enerji · kaynaklı
 
-Türkçede kullanılıyor, ama bulabildiğim tek kaynak popüler bilim çevirisi. Friston'ın terimini hakemli Türkçe literatürde bulamamak şaşırtıcı değil, yine de ilk geçişte İngilizcesini veriyorum.
+Türkçede kullanılıyor, ama bulabildiğim tek kaynak popüler bilim çevirisi.
+Friston'ın terimini hakemli Türkçe literatürde bulamamak şaşırtıcı değil, yine
+de ilk geçişte İngilizcesini veriyorum.
 
 Kaynak: [Bayesçi Beynin Geleceğinin Tarihi — Friston (CogIST)](https://medium.com/cogist/bayes%C3%A7i-beynin-gelece%C4%9Finin-tarihi-karl-j-friston-16dd2dc1d5a5) (popüler-bilim çevirisi, hakemli değil; TR akademik kaynak seyrek)
 
 ### Laplace approximation
 Laplace yaklaşımı · kaynaklı
 
-"Laplace" adı Türkçe derslerde yerleşik, ama bulduğum kaynak Laplace *dönüşümüne* ait. Bayesçi Laplace *yaklaşımı* bambaşka bir şey; aynı adı taşıyor olmaları kaynağı geçerli yapmıyor. İngilizce veriyorum.
+"Laplace" adı Türkçe derslerde yerleşik, ama bulduğum kaynak Laplace
+*dönüşümüne* ait. Bayesçi Laplace *yaklaşımı* bambaşka bir şey; aynı adı taşıyor
+olmaları kaynağı geçerli yapmıyor. İngilizce veriyorum.
 
 Kaynak: [Laplace Dönüşümleri (Ankara Ü. Açık Ders)](https://acikders.ankara.edu.tr/mod/resource/view.php?id=54171). "Laplace" adı yerleşik; Bayesçi "Laplace yaklaşımı" özel anlamı için TR akademik seyrek, İngilizce verilmeli
 
 ### Parameter recovery
 Parametre geri kazanımı · kaynaklı
 
-"Parametre kestirimi" yerleşik. Simülasyon ve yeniden uydurma anlamında "geri kazanım" diyorum, ilk geçişte İngilizcesiyle.
+"Parametre kestirimi" yerleşik. Simülasyon ve yeniden uydurma anlamında "geri
+kazanım" diyorum, ilk geçişte İngilizcesiyle.
 
 Kaynak: [Türev Tabanlı Parametre Kestirimi (ResearchGate)](https://www.researchgate.net/publication/349915965), "parametre kestirimi" yerleşik
 
 ### Identifiability
 Tanımlanabilirlik / belirlenebilirlik · kaynaklı
 
-Sistem tanımlamada "tanımlanabilirlik", istatistikte "belirlenebilirlik" olarak geçiyor. İkisi de aynı şeyi kastediyor.
+Sistem tanımlamada "tanımlanabilirlik", istatistikte "belirlenebilirlik" olarak
+geçiyor. İkisi de aynı şeyi kastediyor.
 
 Kaynak: [Model Seçim Kriterleri: AIC, BIC, ICOMP (İstatistik Araştırma Dergisi)](https://dergipark.org.tr/tr/pub/jsstr/article/1148498), kestirilebilirlik/tanımlanabilirlik bağlamı; sistem tanımlama TR'de "tanımlanabilirlik"
 
 ### Parameter trade-off
 Parametre ödünleşimi · kaynaklı
 
-"Parametre ödünleşimi" şeffaf, yakın akrabası "yanlılık-varyans ikilemi" ise Türkçede zaten yerleşik.
+"Parametre ödünleşimi" şeffaf, yakın akrabası "yanlılık-varyans ikilemi" ise
+Türkçede zaten yerleşik.
 
 Kaynak: [Derin Sinir Ağları ile En İyi Modelin Belirlenmesi (DergiPark)](https://dergipark.org.tr/tr/download/article-file/821607)
 
@@ -1643,7 +1905,8 @@ Bu çalışmaya özgü bir işlem, Türkçesi doğal olarak yok. "İnanç sıfı
 ### Bayesian model selection
 (BMS) · Bayesçi model seçimi · kaynaklı
 
-"Bayesçi model seçimi" sorunsuz, iki parçası da yerleşik. Ama alt terimleri öyle değil, onları İngilizce vermek gerekiyor.
+"Bayesçi model seçimi" sorunsuz, iki parçası da yerleşik. Ama alt terimleri öyle
+değil, onları İngilizce vermek gerekiyor.
 
 Kaynak: [Model Seçim Kriterleri: AIC, BIC, ICOMP (İstatistik Araştırma Dergisi)](https://dergipark.org.tr/tr/pub/jsstr/article/1148498)
 
@@ -1657,14 +1920,16 @@ En yakın TR bağlam: [Model Seçim Kriterleri: AIC/BIC (jsstr)](https://dergipa
 ### Protected exceedance probability
 (PXP) · Korumalı aşım olasılığı · karşılık yok
 
-Türev terim, Türkçesi yok. "Korumalı aşım olasılığı" benim önerim; kısaltmayı koruyorum, çünkü PXP'yi Türkçe okumaya çalışan kimseyi görmedim.
+Türev terim, Türkçesi yok. "Korumalı aşım olasılığı" benim önerim; kısaltmayı
+koruyorum, çünkü PXP'yi Türkçe okumaya çalışan kimseyi görmedim.
 
 En yakın TR bağlam: [Model Seçim Kriterleri: AIC/BIC (jsstr)](https://dergipark.org.tr/tr/pub/jsstr/article/1148498) (PXP alt-terimi TR'de yok)
 
 ### Exceedance probability
 Aşım olasılığı · karşılık yok
 
-Hesaplamalı model bağlamında Türkçe karşılık bulamadım. "Aşım olasılığı" diyorum, ilk geçişte İngilizcesiyle.
+Hesaplamalı model bağlamında Türkçe karşılık bulamadım. "Aşım olasılığı"
+diyorum, ilk geçişte İngilizcesiyle.
 
 En yakın TR bağlam: [Model Seçim Kriterleri: AIC/BIC (jsstr)](https://dergipark.org.tr/tr/pub/jsstr/article/1148498) (exceedance probability TR'de yok)
 
@@ -1692,7 +1957,8 @@ Kaynak: [Model Seçim Kriterleri: AIC, BIC, ICOMP (İstatistik Araştırma Dergi
 ### Overfitting
 **Aşırı öğrenme** (aşırı uyum) · kaynaklı
 
-"Aşırı öğrenme" hâkim karşılık, "aşırı uyum" daha seyrek. Karşıtı "eksik öğrenme", ki öğrenmeyi baştan bir erdem sanan birine ikisi de ters gelir.
+"Aşırı öğrenme" hâkim karşılık, "aşırı uyum" daha seyrek. Karşıtı "eksik
+öğrenme", ki öğrenmeyi baştan bir erdem sanan birine ikisi de ters gelir.
 
 Kaynak: [Derin Sinir Ağları ile En İyi Modelin Belirlenmesi (DergiPark)](https://dergipark.org.tr/tr/download/article-file/821607)
 
@@ -1706,7 +1972,8 @@ Kaynak: [Model Seçim Kriterleri: AIC, BIC, ICOMP (İstatistik Araştırma Dergi
 ### Winning model
 Kazanan model · kaynaklı
 
-"Kazanan model" tam karşılığı. Yarışma metaforu İngilizcede de rahatsız edici, Türkçesi aynı rahatsızlığı sadakatle taşıyor.
+"Kazanan model" tam karşılığı. Yarışma metaforu İngilizcede de rahatsız edici,
+Türkçesi aynı rahatsızlığı sadakatle taşıyor.
 
 Kaynak: [Model Seçim Kriterleri: AIC, BIC, ICOMP (İstatistik Araştırma Dergisi)](https://dergipark.org.tr/tr/pub/jsstr/article/1148498)
 
@@ -1714,7 +1981,8 @@ Kaynak: [Model Seçim Kriterleri: AIC, BIC, ICOMP (İstatistik Araştırma Dergi
 ### Beads task
 Boncuk görevi · karşılık yok
 
-Türkçe kaynakta doğrudan geçmiyor. Sonuca atlama bağlamında görev betimleniyor ama adı verilmiyor, o yüzden ilk geçişte İngilizcesini veriyorum.
+Türkçe kaynakta doğrudan geçmiyor. Sonuca atlama bağlamında görev betimleniyor
+ama adı verilmiyor, o yüzden ilk geçişte İngilizcesini veriyorum.
 
 Kavram kaynağı (TR): [Perseküsyon sanrılarını açıklamaya yönelik bilişsel modeller (Kriz Dergisi)](https://dergipark.org.tr/en/pub/kriz/issue/41029/495930) (JTC/akıl yürütme bağlamı; görev adı doğrudan geçmiyor)
 
@@ -1728,28 +1996,32 @@ Kaynak: [Bilişsel Yansıma ve Davranışsal Anomaliler (DergiPark)](https://der
 ### Draws to decision
 Karara kadar çekiş · karşılık yok
 
-Türkçesi yok. "Karara kadar çekilen boncuk sayısı" diye betimliyorum, çünkü kısa ve doğru bir karşılık bulamadım. Uzun, ama yanlış anlaşılmıyor.
+Türkçesi yok. "Karara kadar çekilen boncuk sayısı" diye betimliyorum, çünkü kısa
+ve doğru bir karşılık bulamadım. Uzun, ama yanlış anlaşılmıyor.
 
 Kavram kaynağı (TR): [Perseküsyon sanrılarını açıklamaya yönelik bilişsel modeller (Kriz Dergisi)](https://dergipark.org.tr/en/pub/kriz/issue/41029/495930)
 
 ### Jumping to conclusions
 (JTC) · Sonuca atlama (erken karar) · kaynaklı
 
-Türkçe psikiyatri kaynaklarında "sonuca atlama" ya da "sonuca atlama yanlılığı" olarak yerleşmiş.
+Türkçe psikiyatri kaynaklarında "sonuca atlama" ya da "sonuca atlama yanlılığı"
+olarak yerleşmiş.
 
 Kaynak: [Şizofreni Tedavisinde Bilişsel Davranışçı Terapi (Nöropsikiyatri Arşivi 2021;58 Ek1)](https://noropsikiyatriarsivi.com/sayilar/2021/58_ek_1/tr/npa_58_Ek1_61-65_dz.pdf), sonuca atlama/üstbiliş
 
 ### Disconfirmatory updating
 Çürütücü güncelleme · karşılık yok
 
-Adams ve Peters-Garety'den gelen bir davranışsal ölçüm, Türkçesi yok. "Çürütücü güncelleme" diyorum.
+Adams ve Peters-Garety'den gelen bir davranışsal ölçüm, Türkçesi yok. "Çürütücü
+güncelleme" diyorum.
 
 Kavram kaynağı (TR): [Perseküsyon sanrılarını açıklamaya yönelik bilişsel modeller (Kriz Dergisi)](https://dergipark.org.tr/en/pub/kriz/issue/41029/495930) (kanıta karşı inanç güncelleme/akıl yürütme)
 
 ### Initial certainty
 Başlangıç kesinliği · kaynaklı
 
-"Başlangıç kesinliği" doğrudan karşılık, sonuca atlama literatüründe Türkçe bağlamı da var.
+"Başlangıç kesinliği" doğrudan karşılık, sonuca atlama literatüründe Türkçe
+bağlamı da var.
 
 Kaynak: [Şizofreni Tedavisinde Bilişsel Davranışçı Terapi (Nöropsikiyatri Arşivi 2021;58 Ek1)](https://noropsikiyatriarsivi.com/sayilar/2021/58_ek_1/tr/npa_58_Ek1_61-65_dz.pdf)
 
@@ -1769,7 +2041,8 @@ Türev terim, Türkçesi yok. "Yanıt değişkenliği" diyorum.
 ### Attractor dynamics / attractor state
 Çekici (attractor) dinamiği / durumu · kaynaklı
 
-Türkçe yapay sinir ağı yazıları "attractor"ü çevirmeden kullanıyor. "Çekici" demek mümkün, ama diyen yok.
+Türkçe yapay sinir ağı yazıları "attractor"ü çevirmeden kullanıyor. "Çekici"
+demek mümkün, ama diyen yok.
 
 Kaynak: [Yapay Zekâ: Alt Dalları ve Uygulama Alanları](https://dergipark.org.tr/en/download/article-file/4317790)
 
@@ -1783,7 +2056,8 @@ Kaynak: [Yapay Zekâ: Alt Dalları ve Uygulama Alanları](https://dergipark.org.
 ### Energy landscape
 Enerji yüzeyi · kaynaklı
 
-Türkçe Hopfield kaynakları "enerji yüzeyi" diyor, "manzara" değil. Manzara diyeceğimi sanıyordum ve yanılmışım; bu listeyi tutmamın sebebi tam olarak bu.
+Türkçe Hopfield kaynakları "enerji yüzeyi" diyor, "manzara" değil. Manzara
+diyeceğimi sanıyordum ve yanılmışım; bu listeyi tutmamın sebebi tam olarak bu.
 
 Kaynak: [Yapay Zekâ: Alt Dalları ve Uygulama Alanları](https://dergipark.org.tr/en/download/article-file/4317790)
 
@@ -1811,7 +2085,8 @@ Kaynak: Özdemir & Özdemir 2016, Glutamat Sistemi ve Şizofreni, [DOI:10.18863/
 ### Excitation-inhibition (E/I) balance
 Uyarım-inhibisyon dengesi · kaynaklı
 
-Hem "eksitasyon-inhibisyon" hem "uyarım-inhibisyon" kullanılıyor. İlki daha teknik, ikincisi daha Türkçe; ikisi de doğru.
+Hem "eksitasyon-inhibisyon" hem "uyarım-inhibisyon" kullanılıyor. İlki daha
+teknik, ikincisi daha Türkçe; ikisi de doğru.
 
 Kaynak: Özdemir & Özdemir 2016, Glutamat Sistemi ve Şizofreni, [DOI:10.18863/pgy.253445](https://doi.org/10.18863/pgy.253445)
 
@@ -1825,24 +2100,29 @@ Kaynak: Yüksel Ç, Üçok A (2010), Şizofreni hastalarında önem atfetme işl
 ### Sensory attenuation
 Duyusal azaltım · karşılık yok
 
-Yerleşik bir karşılığı yok. Niş bir terim ve Türkçe şizofreni kaynakları konuyu bu adla ele almıyor. "Duyusal azaltım" diyorum ve ilk geçişte İngilizcesini veriyorum.
+Yerleşik bir karşılığı yok. Niş bir terim ve Türkçe şizofreni kaynakları konuyu
+bu adla ele almıyor. "Duyusal azaltım" diyorum ve ilk geçişte İngilizcesini
+veriyorum. :::
 
 ### Corollary discharge / efference copy
 Efferent kopya / corollary discharge · karşılık yok
 
-Türkçe psikiyatride kavram tartışılıyor ama terim ya İngilizce kalıyor ya uzun uzun betimleniyor. İlk geçişte "efferent kopya" deyip İngilizcesini veriyorum.
+Türkçe psikiyatride kavram tartışılıyor ama terim ya İngilizce kalıyor ya uzun
+uzun betimleniyor. İlk geçişte "efferent kopya" deyip İngilizcesini veriyorum.
 
 Kavram kaynağı (TR): [İşitsel Varsanılarda Bilişsel Davranışçı Terapi (DergiPark)](https://dergipark.org.tr/tr/download/article-file/115101); eylem sahipliği/öngörü için [Sense of Agency Ölçeği TR uyarlaması (SoAS-TR)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12832476/)
 
 ### Force-matching task
 (FMT) · Kuvvet eşleştirme görevi · karşılık yok
 
-Niş bir görev, doğrudan Türkçe kaynak yok. "Kuvvet eşleştirme görevi" diyorum, ilk geçişte İngilizcesiyle.
+Niş bir görev, doğrudan Türkçe kaynak yok. "Kuvvet eşleştirme görevi" diyorum,
+ilk geçişte İngilizcesiyle. :::
 
 ### Self-monitoring / agency
 Öz-izleme / eylemlilik (ajans) · kaynaklı
 
-Agency için "eylemlilik" yerleşik ve hakemli bir kaynakta kullanılmış. "Öz-izleme" ise kendini açıklıyor.
+Agency için "eylemlilik" yerleşik ve hakemli bir kaynakta kullanılmış.
+"Öz-izleme" ise kendini açıklıyor.
 
 Kaynak: Atak 2011, Ruh Sağlığı Çalışmalarında Yeni Bir Psikososyal Değişken: Eylemlilik, [DOI:10.5455/cap.20110322](https://doi.org/10.5455/cap.20110322)
 
@@ -1850,6 +2130,7 @@ Kaynak: Atak 2011, Ruh Sağlığı Çalışmalarında Yeni Bir Psikososyal Deği
 
 [← notlar](../notlar.qmd) ·
 [HGF nedir](hgf-nedir.qmd) ·
+[öngörü hatası](ongoru-hatasi-ve-hassasiyet.qmd) ·
 [duyusal azaltım](duyusal-azaltim.qmd) ·
 [inanç güncelleme](sizofrenide-inanc-guncelleme.qmd)
 
