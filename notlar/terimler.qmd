@@ -59,8 +59,9 @@ hedefli tarama yaptım, ama bulunamadı demek yok demek değil.
 
 <!-- yorum -->
 
-Aradım, Türkçe akademik kaynakta geçmiyor. Model adı olduğu için İngilizcesini ve kısaltmasını koruyorum; ilk geçişte "Hiyerarşik Gauss(sal) Filtre (HGF)" diye açıyorum.
-:::
+Aradım, Türkçe akademik kaynakta geçmiyor. Model adı olduğu için İngilizcesini
+ve kısaltmasını koruyorum; ilk geçişte "Hiyerarşik Gauss(sal) Filtre (HGF)" diye
+açıyorum. :::
 
 ::: {.term}
 ### Bayesian inference {#bayesian-inference}
@@ -69,7 +70,8 @@ Bayesçi çıkarım &middot; [kaynaklı]{.status .done}
 
 <!-- yorum -->
 
-DergiPark'ta ve makine öğrenmesi kaynaklarında "Bayesçi çıkarım" olarak oturmuş. Bazen "Bayesci" yazımıyla, ki bu bir imla tercihi, ayrı bir terim değil.
+DergiPark'ta ve makine öğrenmesi kaynaklarında "Bayesçi çıkarım" olarak oturmuş.
+Bazen "Bayesci" yazımıyla, ki bu bir imla tercihi, ayrı bir terim değil.
 
 ::: {.src}
 Kaynak: [Bayesçi Yaklaşım ile Regresyon Modellerinde Parametre Tahmini](https://dergipark.org.tr/tr/download/article-file/1688621)
@@ -83,7 +85,8 @@ Bayesçi inanç güncelleme &middot; [kaynaklı]{.status .done}
 
 <!-- yorum -->
 
-İki parçası da ayrı ayrı yerleşik ve Türkçe Bayesçi beyin yazılarında zaten yan yana geçiyor. Birleştirmekte sakınca görmüyorum.
+İki parçası da ayrı ayrı yerleşik ve Türkçe Bayesçi beyin yazılarında zaten yan
+yana geçiyor. Birleştirmekte sakınca görmüyorum.
 
 ::: {.src}
 Kaynak: [Bayesçi Yaklaşım ile Regresyon Modellerinde Parametre Tahmini](https://dergipark.org.tr/tr/download/article-file/1688621)
@@ -97,7 +100,9 @@ Değişimsel / varyasyonel Bayes &middot; [kaynaklı]{.status .done}
 
 <!-- yorum -->
 
-"Değişimsel" bir topluluk sözlüğünde, "varyasyonel" ise günlük kullanımda. İkisi arasında karar veremedim; kaynak hakemli olmadığı için ilk geçişte İngilizcesini de veriyorum.
+"Değişimsel" bir topluluk sözlüğünde, "varyasyonel" ise günlük kullanımda. İkisi
+arasında karar veremedim; kaynak hakemli olmadığı için ilk geçişte İngilizcesini
+de veriyorum.
 
 ::: {.src}
 Kaynak: [deeplearningturkiye TR-YZ Terim Sözlüğü](https://github.com/deeplearningturkiye/turkce-yapay-zeka-terimleri/blob/master/turkce-ingilizce.md) (topluluk kaynağı, hakemli değil)
@@ -111,7 +116,8 @@ Algısal model &middot; [kaynaklı]{.status .done}
 
 <!-- yorum -->
 
-"Algısal model" kendini açıklıyor ve başka bir alanda çakışan özel bir anlamı yok. Çekinmeden kullanıyorum.
+"Algısal model" kendini açıklıyor ve başka bir alanda çakışan özel bir anlamı
+yok. Çekinmeden kullanıyorum.
 
 ::: {.src}
 Kaynak: [Öngörücü İşleme ve Öngörü Hatası — Yayılmış Zihin (DergiPark)](https://dergipark.org.tr/tr/download/article-file/4835682), algısal/üretici model bağlamı
@@ -139,7 +145,9 @@ Kaynak: [Öngörücü İşleme ve Öngörü Hatası — Yayılmış Zihin (Dergi
 
 <!-- yorum -->
 
-Makine öğrenmesi kaynakları hem "üretici" hem "üretken" diyor. Ben "üretici" tarafındayım, çünkü "üretken model" kulağa modelin çalışkan olduğunu söylüyormuş gibi geliyor.
+Makine öğrenmesi kaynakları hem "üretici" hem "üretken" diyor. Ben "üretici"
+tarafındayım, çünkü "üretken model" kulağa modelin çalışkan olduğunu söylüyormuş
+gibi geliyor.
 
 ::: {.src}
 Kaynak: [deeplearningturkiye TR-YZ Terim Sözlüğü](https://github.com/deeplearningturkiye/turkce-yapay-zeka-terimleri/blob/master/turkce-ingilizce.md) (topluluk kaynağı, hakemli değil)
@@ -153,7 +161,10 @@ Kaynak: [deeplearningturkiye TR-YZ Terim Sözlüğü](https://github.com/deeplea
 
 <!-- yorum -->
 
-Türkçede kullanılıyor ama tek bir hâkim karşılık yok: öngörücü, öngörülü, yordayıcı, kestirimci, tahmine dayalı. Beş varyant saydım ve saymayı bıraktım. "Öngörücü" diyorum, çünkü "öngörü hatası" ile aynı kökten gidiyor; ilk geçişte İngilizcesini de veriyorum.
+Türkçede kullanılıyor ama tek bir hâkim karşılık yok: öngörücü, öngörülü,
+yordayıcı, kestirimci, tahmine dayalı. Beş varyant saydım ve saymayı bıraktım.
+"Öngörücü" diyorum, çünkü "öngörü hatası" ile aynı kökten gidiyor; ilk geçişte
+İngilizcesini de veriyorum.
 
 ::: {.src}
 Kavram kaynağı (TR): [Öngörücü İşleme — Yayılmış Zihin (DergiPark)](https://dergipark.org.tr/tr/download/article-file/4835682); ayrıca [Öngörücü Kodlama ve Neokantçılık (Sabah Ülkesi)](https://www.sabahulkesi.com/2020/03/31/oengoeruecue-kodlama-ve-neokantcilik/)
@@ -198,11 +209,13 @@ Kaynak: [Öngörücü İşleme ve Öngörü Hatası — Yayılmış Zihin (Dergi
 ::: {.term}
 ### Precision-weighted prediction error {#precision-weighted-prediction-error}
 
-Hassasiyet-ağırlıklı / kesinlik-ağırlıklı öngörü hatası &middot; [kaynaklı]{.status .done}
+Hassasiyet-ağırlıklı / kesinlik-ağırlıklı öngörü hatası &middot;
+[kaynaklı]{.status .done}
 
 <!-- yorum -->
 
-İki parçası da yerleşik olduğu için bileşiği de sorun çıkarmıyor. Birleşik terimin kendisi Türkçede yok, o yüzden ilk geçişte İngilizcesini veriyorum.
+İki parçası da yerleşik olduğu için bileşiği de sorun çıkarmıyor. Birleşik
+terimin kendisi Türkçede yok, o yüzden ilk geçişte İngilizcesini veriyorum.
 
 ::: {.src}
 Kavram kaynağı (TR): [Öngörücü İşleme — Yayılmış Zihin (DergiPark)](https://dergipark.org.tr/tr/download/article-file/4835682) (öngörü hatası + kesinlik ağırlıklandırma; birleşik terim TR'de yok)
@@ -216,7 +229,8 @@ Kavram kaynağı (TR): [Öngörücü İşleme — Yayılmış Zihin (DergiPark)]
 
 <!-- yorum -->
 
-Makine öğrenmesi kaynaklarında "öğrenme oranı", bazen "öğrenme hızı". İkisi de anlaşılıyor.
+Makine öğrenmesi kaynaklarında "öğrenme oranı", bazen "öğrenme hızı". İkisi de
+anlaşılıyor.
 
 ::: {.src}
 Kaynak: [YSA Eğitiminde Kullanılan Optimizasyon Yöntemleri (DergiPark)](https://dergipark.org.tr/en/download/article-file/1099311)
@@ -244,7 +258,9 @@ Volatilite / oynaklık &middot; [kaynaklı]{.status .done}
 
 <!-- yorum -->
 
-Finanstan ödünç alınmış. Borsa için oturmuş bir kelimeyi öğrenme kuramına taşımak tuhaf, ama alan bunu çoktan yapmış; "volatilite" de "oynaklık" da geçiyor.
+Finanstan ödünç alınmış. Borsa için oturmuş bir kelimeyi öğrenme kuramına
+taşımak tuhaf, ama alan bunu çoktan yapmış; "volatilite" de "oynaklık" da
+geçiyor.
 
 ::: {.src}
 Kaynak: [Enflasyon ve Enflasyon Belirsizliği: Türkiye Örneği (Sosyoekonomi)](https://dergipark.org.tr/tr/pub/sosyoekonomi/article/226831)
@@ -258,7 +274,8 @@ Gizli (örtük/saklı) durum &middot; [kaynaklı]{.status .done}
 
 <!-- yorum -->
 
-Topluluk sözlüğü latent için "saklı" ve "gizli" veriyor. Kaynak hakemli olmadığından ilk geçişte İngilizcesini de veriyorum.
+Topluluk sözlüğü latent için "saklı" ve "gizli" veriyor. Kaynak hakemli
+olmadığından ilk geçişte İngilizcesini de veriyorum.
 
 ::: {.src}
 Kaynak: [deeplearningturkiye TR-YZ Terim Sözlüğü](https://github.com/deeplearningturkiye/turkce-yapay-zeka-terimleri/blob/master/turkce-ingilizce.md) (topluluk kaynağı, hakemli değil)
@@ -286,7 +303,8 @@ Lojistik (sigmoid) fonksiyon &middot; [kaynaklı]{.status .done}
 
 <!-- yorum -->
 
-Makine öğrenmesi kaynaklarında hem "lojistik" hem "sigmoid" geçiyor, çoğu zaman aynı cümlede.
+Makine öğrenmesi kaynaklarında hem "lojistik" hem "sigmoid" geçiyor, çoğu zaman
+aynı cümlede.
 
 ::: {.src}
 Kaynak: [Adaptif Sigmoid, Lojistik Sigmoid ve Tanjant Hiperbolik Aktivasyon Fonksiyonları (DergiPark)](https://dergipark.org.tr/en/download/article-file/2849675)
@@ -314,7 +332,8 @@ Gauss rastgele yürüyüş &middot; [kaynaklı]{.status .done}
 
 <!-- yorum -->
 
-"Rastgele yürüyüş" zaman serisi ve finans yazılarında yerleşik, "Gauss" niteleyicisini eklemek de sorun değil.
+"Rastgele yürüyüş" zaman serisi ve finans yazılarında yerleşik, "Gauss"
+niteleyicisini eklemek de sorun değil.
 
 ::: {.src}
 Kaynak: [Enflasyon ve Enflasyon Belirsizliği: Türkiye Örneği (Sosyoekonomi)](https://dergipark.org.tr/tr/pub/sosyoekonomi/article/226831), zaman serisi/finans: rastgele yürüyüş, otoregresif süreç
@@ -342,7 +361,9 @@ Belirsizlik &middot; [kaynaklı]{.status .done}
 
 <!-- yorum -->
 
-"Belirsizlik" hem ölçümde hem istatistikte yaygın. Üç ayrı belirsizlik türünü ayırt etmek gerektiğinde niteleyici eklemek şart, çünkü tek kelime hepsini birden karşılıyor.
+"Belirsizlik" hem ölçümde hem istatistikte yaygın. Üç ayrı belirsizlik türünü
+ayırt etmek gerektiğinde niteleyici eklemek şart, çünkü tek kelime hepsini
+birden karşılıyor.
 
 ::: {.src}
 Kaynak: [Öngörücü İşleme ve Öngörü Hatası — Yayılmış Zihin (DergiPark)](https://dergipark.org.tr/tr/download/article-file/4835682)
@@ -355,32 +376,36 @@ Kaynak: [Öngörücü İşleme ve Öngörü Hatası — Yayılmış Zihin (Dergi
 ::: {.term}
 ### Evolution rate {#evolution-rate}
 
-(ω (omega)) &middot; Evrim oranı / gelişim hızı &middot; [karşılık yok]{.status .pending}
+(ω (omega)) &middot; Evrim oranı / gelişim hızı &middot; [karşılık yok]{.status
+.pending}
 
 <!-- yorum -->
 
-HGF'e özgü bir parametre, Türkçesi yok. "Evrim oranı" diyorum ama bunun yerleşik olduğunu iddia etmiyorum, benim önerim.
-:::
+HGF'e özgü bir parametre, Türkçesi yok. "Evrim oranı" diyorum ama bunun yerleşik
+olduğunu iddia etmiyorum, benim önerim. :::
 
 ::: {.term}
 ### Belief instability {#belief-instability}
 
-(κ₁ (kappa1)) &middot; *(Adams'ın etiketi)* "inanç kararsızlığı" &middot; [karşılık yok]{.status .pending}
+(κ₁ (kappa1)) &middot; *(Adams'ın etiketi)* "inanç kararsızlığı" &middot;
+[karşılık yok]{.status .pending}
 
 <!-- yorum -->
 
-Adams'ın etiketi, Türkçesi yok. Ben bunu klinik ya da nedensel bir etiket olarak kullanmıyorum; Adams'ın iddiasını aktarırken tırnak içinde ve ona atfen veriyorum.
-:::
+Adams'ın etiketi, Türkçesi yok. Ben bunu klinik ya da nedensel bir etiket olarak
+kullanmıyorum; Adams'ın iddiasını aktarırken tırnak içinde ve ona atfen
+veriyorum. :::
 
 ::: {.term}
 ### Response stochasticity {#response-stochasticity}
 
-(ζ / ν (zeta/nu)) &middot; Yanıt stokastisitesi (yanıt gürültüsü) &middot; [karşılık yok]{.status .pending}
+(ζ / ν (zeta/nu)) &middot; Yanıt stokastisitesi (yanıt gürültüsü) &middot;
+[karşılık yok]{.status .pending}
 
 <!-- yorum -->
 
-Türev bir terim, Türkçesi yok. "Yanıt stokastisitesi" ya da "yanıt gürültüsü"; ikincisi daha anlaşılır ama daha az teknik.
-:::
+Türev bir terim, Türkçesi yok. "Yanıt stokastisitesi" ya da "yanıt gürültüsü";
+ikincisi daha anlaşılır ama daha az teknik. :::
 
 ::: {.term}
 ### Initial belief variance {#initial-belief-variance}
@@ -395,7 +420,8 @@ HGF'e özgü, Türkçesi yok. "Başlangıç inanç varyansı" benim önerim.
 ::: {.term}
 ### Disconfirmatory bias {#disconfirmatory-bias}
 
-(φ (phi)) &middot; Çürütücü (yalanlayıcı) yanlılık &middot; [karşılık yok]{.status .pending}
+(φ (phi)) &middot; Çürütücü (yalanlayıcı) yanlılık &middot; [karşılık
+yok]{.status .pending}
 
 <!-- yorum -->
 
@@ -423,7 +449,8 @@ Düzeyler (durumlar) &middot; [kaynaklı]{.status .done}
 
 <!-- yorum -->
 
-"Düzey" ya da "durum", bağlama göre. Modelin katmanlarından söz ederken "düzey", tek bir katmanın değerinden söz ederken "durum".
+"Düzey" ya da "durum", bağlama göre. Modelin katmanlarından söz ederken "düzey",
+tek bir katmanın değerinden söz ederken "durum".
 
 ::: {.src}
 Kaynak: [deeplearningturkiye TR-YZ Terim Sözlüğü](https://github.com/deeplearningturkiye/turkce-yapay-zeka-terimleri/blob/master/turkce-ingilizce.md) (state="durum"; topluluk kaynağı)
@@ -454,7 +481,8 @@ Kaynak: [Adaptif Sigmoid, Lojistik Sigmoid ve Tanjant Hiperbolik Aktivasyon Fonk
 
 <!-- yorum -->
 
-Topluluk sözlüğü "en büyük sonsal" diyor, ama kısaltmayı koruyorum. MAP'i açık yazmak kimseye yardım etmiyor.
+Topluluk sözlüğü "en büyük sonsal" diyor, ama kısaltmayı koruyorum. MAP'i açık
+yazmak kimseye yardım etmiyor.
 
 ::: {.src}
 Kaynak: [Bayesçi Yaklaşım ile Regresyon Modellerinde Parametre Tahmini](https://dergipark.org.tr/tr/download/article-file/1688621)
@@ -510,7 +538,9 @@ Serbest enerji &middot; [kaynaklı]{.status .done}
 
 <!-- yorum -->
 
-Türkçede kullanılıyor, ama bulabildiğim tek kaynak popüler bilim çevirisi. Friston'ın terimini hakemli Türkçe literatürde bulamamak şaşırtıcı değil, yine de ilk geçişte İngilizcesini veriyorum.
+Türkçede kullanılıyor, ama bulabildiğim tek kaynak popüler bilim çevirisi.
+Friston'ın terimini hakemli Türkçe literatürde bulamamak şaşırtıcı değil, yine
+de ilk geçişte İngilizcesini veriyorum.
 
 ::: {.src}
 Kaynak: [Bayesçi Beynin Geleceğinin Tarihi — Friston (CogIST)](https://medium.com/cogist/bayes%C3%A7i-beynin-gelece%C4%9Finin-tarihi-karl-j-friston-16dd2dc1d5a5) (popüler-bilim çevirisi, hakemli değil; TR akademik kaynak seyrek)
@@ -524,7 +554,9 @@ Laplace yaklaşımı &middot; [kaynaklı]{.status .done}
 
 <!-- yorum -->
 
-"Laplace" adı Türkçe derslerde yerleşik, ama bulduğum kaynak Laplace *dönüşümüne* ait. Bayesçi Laplace *yaklaşımı* bambaşka bir şey; aynı adı taşıyor olmaları kaynağı geçerli yapmıyor. İngilizce veriyorum.
+"Laplace" adı Türkçe derslerde yerleşik, ama bulduğum kaynak Laplace
+*dönüşümüne* ait. Bayesçi Laplace *yaklaşımı* bambaşka bir şey; aynı adı taşıyor
+olmaları kaynağı geçerli yapmıyor. İngilizce veriyorum.
 
 ::: {.src}
 Kaynak: [Laplace Dönüşümleri (Ankara Ü. Açık Ders)](https://acikders.ankara.edu.tr/mod/resource/view.php?id=54171). "Laplace" adı yerleşik; Bayesçi "Laplace yaklaşımı" özel anlamı için TR akademik seyrek, İngilizce verilmeli
@@ -538,7 +570,8 @@ Parametre geri kazanımı &middot; [kaynaklı]{.status .done}
 
 <!-- yorum -->
 
-"Parametre kestirimi" yerleşik. Simülasyon ve yeniden uydurma anlamında "geri kazanım" diyorum, ilk geçişte İngilizcesiyle.
+"Parametre kestirimi" yerleşik. Simülasyon ve yeniden uydurma anlamında "geri
+kazanım" diyorum, ilk geçişte İngilizcesiyle.
 
 ::: {.src}
 Kaynak: [Türev Tabanlı Parametre Kestirimi (ResearchGate)](https://www.researchgate.net/publication/349915965), "parametre kestirimi" yerleşik
@@ -552,7 +585,8 @@ Tanımlanabilirlik / belirlenebilirlik &middot; [kaynaklı]{.status .done}
 
 <!-- yorum -->
 
-Sistem tanımlamada "tanımlanabilirlik", istatistikte "belirlenebilirlik" olarak geçiyor. İkisi de aynı şeyi kastediyor.
+Sistem tanımlamada "tanımlanabilirlik", istatistikte "belirlenebilirlik" olarak
+geçiyor. İkisi de aynı şeyi kastediyor.
 
 ::: {.src}
 Kaynak: [Model Seçim Kriterleri: AIC, BIC, ICOMP (İstatistik Araştırma Dergisi)](https://dergipark.org.tr/tr/pub/jsstr/article/1148498), kestirilebilirlik/tanımlanabilirlik bağlamı; sistem tanımlama TR'de "tanımlanabilirlik"
@@ -566,7 +600,8 @@ Parametre ödünleşimi &middot; [kaynaklı]{.status .done}
 
 <!-- yorum -->
 
-"Parametre ödünleşimi" şeffaf, yakın akrabası "yanlılık-varyans ikilemi" ise Türkçede zaten yerleşik.
+"Parametre ödünleşimi" şeffaf, yakın akrabası "yanlılık-varyans ikilemi" ise
+Türkçede zaten yerleşik.
 
 ::: {.src}
 Kaynak: [Derin Sinir Ağları ile En İyi Modelin Belirlenmesi (DergiPark)](https://dergipark.org.tr/tr/download/article-file/821607)
@@ -607,7 +642,8 @@ Bu çalışmaya özgü bir işlem, Türkçesi doğal olarak yok. "İnanç sıfı
 
 <!-- yorum -->
 
-"Bayesçi model seçimi" sorunsuz, iki parçası da yerleşik. Ama alt terimleri öyle değil, onları İngilizce vermek gerekiyor.
+"Bayesçi model seçimi" sorunsuz, iki parçası da yerleşik. Ama alt terimleri öyle
+değil, onları İngilizce vermek gerekiyor.
 
 ::: {.src}
 Kaynak: [Model Seçim Kriterleri: AIC, BIC, ICOMP (İstatistik Araştırma Dergisi)](https://dergipark.org.tr/tr/pub/jsstr/article/1148498)
@@ -635,7 +671,8 @@ En yakın TR bağlam: [Model Seçim Kriterleri: AIC/BIC (jsstr)](https://dergipa
 
 <!-- yorum -->
 
-Türev terim, Türkçesi yok. "Korumalı aşım olasılığı" benim önerim; kısaltmayı koruyorum, çünkü PXP'yi Türkçe okumaya çalışan kimseyi görmedim.
+Türev terim, Türkçesi yok. "Korumalı aşım olasılığı" benim önerim; kısaltmayı
+koruyorum, çünkü PXP'yi Türkçe okumaya çalışan kimseyi görmedim.
 
 ::: {.src}
 En yakın TR bağlam: [Model Seçim Kriterleri: AIC/BIC (jsstr)](https://dergipark.org.tr/tr/pub/jsstr/article/1148498) (PXP alt-terimi TR'de yok)
@@ -649,7 +686,8 @@ Aşım olasılığı &middot; [karşılık yok]{.status .pending}
 
 <!-- yorum -->
 
-Hesaplamalı model bağlamında Türkçe karşılık bulamadım. "Aşım olasılığı" diyorum, ilk geçişte İngilizcesiyle.
+Hesaplamalı model bağlamında Türkçe karşılık bulamadım. "Aşım olasılığı"
+diyorum, ilk geçişte İngilizcesiyle.
 
 ::: {.src}
 En yakın TR bağlam: [Model Seçim Kriterleri: AIC/BIC (jsstr)](https://dergipark.org.tr/tr/pub/jsstr/article/1148498) (exceedance probability TR'de yok)
@@ -705,7 +743,8 @@ Kaynak: [Model Seçim Kriterleri: AIC, BIC, ICOMP (İstatistik Araştırma Dergi
 
 <!-- yorum -->
 
-"Aşırı öğrenme" hâkim karşılık, "aşırı uyum" daha seyrek. Karşıtı "eksik öğrenme", ki öğrenmeyi baştan bir erdem sanan birine ikisi de ters gelir.
+"Aşırı öğrenme" hâkim karşılık, "aşırı uyum" daha seyrek. Karşıtı "eksik
+öğrenme", ki öğrenmeyi baştan bir erdem sanan birine ikisi de ters gelir.
 
 ::: {.src}
 Kaynak: [Derin Sinir Ağları ile En İyi Modelin Belirlenmesi (DergiPark)](https://dergipark.org.tr/tr/download/article-file/821607)
@@ -733,7 +772,8 @@ Kazanan model &middot; [kaynaklı]{.status .done}
 
 <!-- yorum -->
 
-"Kazanan model" tam karşılığı. Yarışma metaforu İngilizcede de rahatsız edici, Türkçesi aynı rahatsızlığı sadakatle taşıyor.
+"Kazanan model" tam karşılığı. Yarışma metaforu İngilizcede de rahatsız edici,
+Türkçesi aynı rahatsızlığı sadakatle taşıyor.
 
 ::: {.src}
 Kaynak: [Model Seçim Kriterleri: AIC, BIC, ICOMP (İstatistik Araştırma Dergisi)](https://dergipark.org.tr/tr/pub/jsstr/article/1148498)
@@ -750,7 +790,8 @@ Boncuk görevi &middot; [karşılık yok]{.status .pending}
 
 <!-- yorum -->
 
-Türkçe kaynakta doğrudan geçmiyor. Sonuca atlama bağlamında görev betimleniyor ama adı verilmiyor, o yüzden ilk geçişte İngilizcesini veriyorum.
+Türkçe kaynakta doğrudan geçmiyor. Sonuca atlama bağlamında görev betimleniyor
+ama adı verilmiyor, o yüzden ilk geçişte İngilizcesini veriyorum.
 
 ::: {.src}
 Kavram kaynağı (TR): [Perseküsyon sanrılarını açıklamaya yönelik bilişsel modeller (Kriz Dergisi)](https://dergipark.org.tr/en/pub/kriz/issue/41029/495930) (JTC/akıl yürütme bağlamı; görev adı doğrudan geçmiyor)
@@ -778,7 +819,8 @@ Karara kadar çekiş &middot; [karşılık yok]{.status .pending}
 
 <!-- yorum -->
 
-Türkçesi yok. "Karara kadar çekilen boncuk sayısı" diye betimliyorum, çünkü kısa ve doğru bir karşılık bulamadım. Uzun, ama yanlış anlaşılmıyor.
+Türkçesi yok. "Karara kadar çekilen boncuk sayısı" diye betimliyorum, çünkü kısa
+ve doğru bir karşılık bulamadım. Uzun, ama yanlış anlaşılmıyor.
 
 ::: {.src}
 Kavram kaynağı (TR): [Perseküsyon sanrılarını açıklamaya yönelik bilişsel modeller (Kriz Dergisi)](https://dergipark.org.tr/en/pub/kriz/issue/41029/495930)
@@ -792,7 +834,8 @@ Kavram kaynağı (TR): [Perseküsyon sanrılarını açıklamaya yönelik biliş
 
 <!-- yorum -->
 
-Türkçe psikiyatri kaynaklarında "sonuca atlama" ya da "sonuca atlama yanlılığı" olarak yerleşmiş.
+Türkçe psikiyatri kaynaklarında "sonuca atlama" ya da "sonuca atlama yanlılığı"
+olarak yerleşmiş.
 
 ::: {.src}
 Kaynak: [Şizofreni Tedavisinde Bilişsel Davranışçı Terapi (Nöropsikiyatri Arşivi 2021;58 Ek1)](https://noropsikiyatriarsivi.com/sayilar/2021/58_ek_1/tr/npa_58_Ek1_61-65_dz.pdf), sonuca atlama/üstbiliş
@@ -806,7 +849,8 @@ Kaynak: [Şizofreni Tedavisinde Bilişsel Davranışçı Terapi (Nöropsikiyatri
 
 <!-- yorum -->
 
-Adams ve Peters-Garety'den gelen bir davranışsal ölçüm, Türkçesi yok. "Çürütücü güncelleme" diyorum.
+Adams ve Peters-Garety'den gelen bir davranışsal ölçüm, Türkçesi yok. "Çürütücü
+güncelleme" diyorum.
 
 ::: {.src}
 Kavram kaynağı (TR): [Perseküsyon sanrılarını açıklamaya yönelik bilişsel modeller (Kriz Dergisi)](https://dergipark.org.tr/en/pub/kriz/issue/41029/495930) (kanıta karşı inanç güncelleme/akıl yürütme)
@@ -820,7 +864,8 @@ Başlangıç kesinliği &middot; [kaynaklı]{.status .done}
 
 <!-- yorum -->
 
-"Başlangıç kesinliği" doğrudan karşılık, sonuca atlama literatüründe Türkçe bağlamı da var.
+"Başlangıç kesinliği" doğrudan karşılık, sonuca atlama literatüründe Türkçe
+bağlamı da var.
 
 ::: {.src}
 Kaynak: [Şizofreni Tedavisinde Bilişsel Davranışçı Terapi (Nöropsikiyatri Arşivi 2021;58 Ek1)](https://noropsikiyatriarsivi.com/sayilar/2021/58_ek_1/tr/npa_58_Ek1_61-65_dz.pdf)
@@ -861,7 +906,8 @@ Türev terim, Türkçesi yok. "Yanıt değişkenliği" diyorum.
 
 <!-- yorum -->
 
-Türkçe yapay sinir ağı yazıları "attractor"ü çevirmeden kullanıyor. "Çekici" demek mümkün, ama diyen yok.
+Türkçe yapay sinir ağı yazıları "attractor"ü çevirmeden kullanıyor. "Çekici"
+demek mümkün, ama diyen yok.
 
 ::: {.src}
 Kaynak: [Yapay Zekâ: Alt Dalları ve Uygulama Alanları](https://dergipark.org.tr/en/download/article-file/4317790)
@@ -889,7 +935,8 @@ Enerji yüzeyi &middot; [kaynaklı]{.status .done}
 
 <!-- yorum -->
 
-Türkçe Hopfield kaynakları "enerji yüzeyi" diyor, "manzara" değil. Manzara diyeceğimi sanıyordum ve yanılmışım; bu listeyi tutmamın sebebi tam olarak bu.
+Türkçe Hopfield kaynakları "enerji yüzeyi" diyor, "manzara" değil. Manzara
+diyeceğimi sanıyordum ve yanılmışım; bu listeyi tutmamın sebebi tam olarak bu.
 
 ::: {.src}
 Kaynak: [Yapay Zekâ: Alt Dalları ve Uygulama Alanları](https://dergipark.org.tr/en/download/article-file/4317790)
@@ -945,7 +992,8 @@ Uyarım-inhibisyon dengesi &middot; [kaynaklı]{.status .done}
 
 <!-- yorum -->
 
-Hem "eksitasyon-inhibisyon" hem "uyarım-inhibisyon" kullanılıyor. İlki daha teknik, ikincisi daha Türkçe; ikisi de doğru.
+Hem "eksitasyon-inhibisyon" hem "uyarım-inhibisyon" kullanılıyor. İlki daha
+teknik, ikincisi daha Türkçe; ikisi de doğru.
 
 ::: {.src}
 Kaynak: Özdemir & Özdemir 2016, Glutamat Sistemi ve Şizofreni, [DOI:10.18863/pgy.253445](https://doi.org/10.18863/pgy.253445)
@@ -971,8 +1019,9 @@ Duyusal azaltım &middot; [karşılık yok]{.status .pending}
 
 <!-- yorum -->
 
-Yerleşik bir karşılığı yok. Niş bir terim ve Türkçe şizofreni kaynakları konuyu bu adla ele almıyor. "Duyusal azaltım" diyorum ve ilk geçişte İngilizcesini veriyorum.
-:::
+Yerleşik bir karşılığı yok. Niş bir terim ve Türkçe şizofreni kaynakları konuyu
+bu adla ele almıyor. "Duyusal azaltım" diyorum ve ilk geçişte İngilizcesini
+veriyorum. :::
 
 ::: {.term}
 ### Corollary discharge / efference copy {#corollary-discharge-efference-copy}
@@ -981,7 +1030,8 @@ Efferent kopya / corollary discharge &middot; [karşılık yok]{.status .pending
 
 <!-- yorum -->
 
-Türkçe psikiyatride kavram tartışılıyor ama terim ya İngilizce kalıyor ya uzun uzun betimleniyor. İlk geçişte "efferent kopya" deyip İngilizcesini veriyorum.
+Türkçe psikiyatride kavram tartışılıyor ama terim ya İngilizce kalıyor ya uzun
+uzun betimleniyor. İlk geçişte "efferent kopya" deyip İngilizcesini veriyorum.
 
 ::: {.src}
 Kavram kaynağı (TR): [İşitsel Varsanılarda Bilişsel Davranışçı Terapi (DergiPark)](https://dergipark.org.tr/tr/download/article-file/115101); eylem sahipliği/öngörü için [Sense of Agency Ölçeği TR uyarlaması (SoAS-TR)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12832476/)
@@ -995,8 +1045,8 @@ Kavram kaynağı (TR): [İşitsel Varsanılarda Bilişsel Davranışçı Terapi 
 
 <!-- yorum -->
 
-Niş bir görev, doğrudan Türkçe kaynak yok. "Kuvvet eşleştirme görevi" diyorum, ilk geçişte İngilizcesiyle.
-:::
+Niş bir görev, doğrudan Türkçe kaynak yok. "Kuvvet eşleştirme görevi" diyorum,
+ilk geçişte İngilizcesiyle. :::
 
 ::: {.term}
 ### Self-monitoring / agency {#self-monitoring-agency}
@@ -1005,7 +1055,8 @@ Niş bir görev, doğrudan Türkçe kaynak yok. "Kuvvet eşleştirme görevi" di
 
 <!-- yorum -->
 
-Agency için "eylemlilik" yerleşik ve hakemli bir kaynakta kullanılmış. "Öz-izleme" ise kendini açıklıyor.
+Agency için "eylemlilik" yerleşik ve hakemli bir kaynakta kullanılmış.
+"Öz-izleme" ise kendini açıklıyor.
 
 ::: {.src}
 Kaynak: Atak 2011, Ruh Sağlığı Çalışmalarında Yeni Bir Psikososyal Değişken: Eylemlilik, [DOI:10.5455/cap.20110322](https://doi.org/10.5455/cap.20110322)
@@ -1018,6 +1069,7 @@ Kaynak: Atak 2011, Ruh Sağlığı Çalışmalarında Yeni Bir Psikososyal Deği
 ::: {.k}
 [← notlar](../notlar.qmd) &middot;
 [HGF nedir](hgf-nedir.qmd) &middot;
+[öngörü hatası](ongoru-hatasi-ve-hassasiyet.qmd) &middot;
 [duyusal azaltım](duyusal-azaltim.qmd) &middot;
 [inanç güncelleme](sizofrenide-inanc-guncelleme.qmd)
 :::

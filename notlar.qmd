@@ -65,15 +65,18 @@ nasıl değiştirdi ve neden hâlâ birey düzeyinde bir ölçüt yok. Bulgunun 
 olduğu yer, tam da uğruna kurulduğu yer.
 :::
 
-## Planlanan yazılar {.k-head}
-
 ::: {.entry}
-### Öngörü hatası, kesinlik ve psikiyatrik belirti {.title}
-
-Bayesçi beyin çerçevesinin klinik okur için girişi: öngörü hatası ne demek,
-hassasiyet ağırlıklandırması neyi belirler ve bunlar muayenehanede gördüğümüz
-belirtilere nasıl bağlanır.
+::: {.meta}
+Klinik okur için &middot; 17 kaynak &middot; [yayında]{.status .done}
 :::
+### [Öngörü hatası, hassasiyet ve psikiyatrik belirti](notlar/ongoru-hatasi-ve-hassasiyet.qmd){.title}
+
+Öngörü hatası ne demek, hassasiyet neyi belirler ve aynı çerçeve psikozdan
+otizme kadar nasıl her belirtiye uyabiliyor. Çerçevenin kapsayıcılığı aynı
+zamanda ona yöneltilen en ciddi itiraz.
+:::
+
+## Planlanan yazılar {.k-head}
 
 ::: {.entry}
 ### Akatizi: aktif çıkarım çerçevesinden bir bakış {.title}
@@ -97,7 +100,8 @@ Akatizinin öznel ve nesnel bileşenlerinin neden ayrışabildiği ve hareketin
     { "@type": "DefinedTermSet", "url": "https://furkanbekdemir.com/notlar/terimler", "name": "Terimler" },
     { "@type": "Article", "url": "https://furkanbekdemir.com/notlar/hgf-nedir", "headline": "Hiyerarşik Gauss filtresi nedir, ne işe yarar" },
     { "@type": "Article", "url": "https://furkanbekdemir.com/notlar/duyusal-azaltim", "headline": "Duyusal azaltım ve kuvvet eşleştirme görevi" },
-    { "@type": "Article", "url": "https://furkanbekdemir.com/notlar/sizofrenide-inanc-guncelleme", "headline": "Şizofrenide inanç güncelleme ve aceleci karar" }
+    { "@type": "Article", "url": "https://furkanbekdemir.com/notlar/sizofrenide-inanc-guncelleme", "headline": "Şizofrenide inanç güncelleme ve aceleci karar" },
+    { "@type": "Article", "url": "https://furkanbekdemir.com/notlar/ongoru-hatasi-ve-hassasiyet", "headline": "Öngörü hatası, hassasiyet ve psikiyatrik belirti" }
   ]
 }
 </script>

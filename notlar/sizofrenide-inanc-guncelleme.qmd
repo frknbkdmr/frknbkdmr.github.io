@@ -330,6 +330,7 @@ in computational psychiatry. *Computational Psychiatry*.
 ::: {.k}
 [← notlar](../notlar.qmd) &middot;
 [HGF nedir](hgf-nedir.qmd) &middot;
+[öngörü hatası](ongoru-hatasi-ve-hassasiyet.qmd) &middot;
 [duyusal azaltım](duyusal-azaltim.qmd) &middot;
 [terimler sözlüğü](terimler.qmd) &middot;
 [english](../notes/belief-updating-in-psychosis.qmd)

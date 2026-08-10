@@ -309,6 +309,7 @@ self-touch. *Journal of Neurophysiology*.
 ::: {.k}
 [← notlar](../notlar.qmd) &middot;
 [HGF nedir](hgf-nedir.qmd) &middot;
+[öngörü hatası](ongoru-hatasi-ve-hassasiyet.qmd) &middot;
 [inanç güncelleme](sizofrenide-inanc-guncelleme.qmd) &middot;
 [terimler sözlüğü](terimler.qmd) &middot;
 [english](../notes/sensory-attenuation.qmd)
