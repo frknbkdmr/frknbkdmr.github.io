@@ -3,7 +3,6 @@ title: "Belief updating in psychosis and hasty decisions"
 pagetitle: "Belief updating in psychosis: the evidence"
 lang: en
 date: 2026-08-09
-date-modified: 2026-08-09
 translation: notlar/sizofrenide-inanc-guncelleme
 description-meta: &desc "What the jumping-to-conclusions bias, the beads task and computational models actually show about belief updating in schizophrenia: how much the meta-analyses support, which findings track diagnosis and which track symptoms, and where the measurement stands."
 open-graph:

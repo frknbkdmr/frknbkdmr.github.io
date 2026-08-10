@@ -3,7 +3,6 @@ title: "Sensory attenuation and the force-matching task"
 pagetitle: "Sensory attenuation and how it is measured"
 lang: en
 date: 2026-08-09
-date-modified: 2026-08-09
 translation: notlar/duyusal-azaltim
 description-meta: &desc "Why self-produced touch feels weaker, how the force-matching task turns that into a number, and what has been found in schizophrenia, functional movement disorder and fatigue."
 open-graph:

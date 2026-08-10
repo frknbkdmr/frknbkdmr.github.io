@@ -407,20 +407,32 @@ a:focus-visible { outline: 2px solid $signal; outline-offset: 3px; }
 }
 
 // Quarto's date block, which appears once a page declares `date:` in its front
-// matter. The default stacks a bold "Yayınlanma Tarihi" label above the date,
-// which is more furniture than a one-line fact needs. Laid out on one line in
-// the same register as the rest of the metadata on the site.
+// matter. Cosmo stacks an upper-case bold label above the date, which is more
+// furniture than a one-line fact needs.
 .quarto-title-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 0 .4rem;
+  align-items: baseline;
+  gap: 0 1.1rem;
   font-family: $font-family-monospace;
   font-size: .74rem;
   color: $ink-soft;
-  margin: -.2rem 0 1.7rem;
+  margin: -.1rem 0 1.7rem;
 
-  > div { display: flex; gap: .4rem; }
-  .quarto-title-meta-heading { font-weight: 400; }
-  .quarto-title-meta-heading::after { content: ":"; }
+  > div { display: flex; align-items: baseline; gap: .4rem; }
+
+  .quarto-title-meta-heading {
+    font-weight: 400;
+    font-size: inherit;
+    letter-spacing: 0;
+    text-transform: none;
+    color: inherit;
+    &::after { content: ":"; }
+  }
+
   .quarto-title-meta-contents p { margin: 0; }
+
+  // A single date under a title needs no label to explain itself. Two dates do,
+  // so the label only disappears when there is nothing to tell apart.
+  &:has(> div:only-child) .quarto-title-meta-heading { display: none; }
 }

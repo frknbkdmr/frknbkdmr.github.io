@@ -3,7 +3,6 @@ title: "The Hierarchical Gaussian Filter, for clinical readers"
 pagetitle: "The Hierarchical Gaussian Filter explained"
 lang: en
 date: 2026-08-09
-date-modified: 2026-08-09
 translation: notlar/hgf-nedir
 description-meta: &desc "The Hierarchical Gaussian Filter explained for clinical readers: what the parameters measure, why model comparison is not optional, and when a computational finding can be trusted."
 open-graph:

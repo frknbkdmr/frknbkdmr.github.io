@@ -3,7 +3,6 @@ title: "Duyusal azaltım ve kuvvet eşleştirme görevi"
 pagetitle: "Duyusal azaltım nedir, nasıl ölçülür"
 lang: tr
 date: 2026-08-09
-date-modified: 2026-08-09
 # Çevirisi yazıldığında buraya karşılık gelen İngilizce sayfa gelir; ikisi de
 # birbirini gösterdiğinde hreflang etiketleri kendiliğinden çıkar.
 translation: notes/sensory-attenuation

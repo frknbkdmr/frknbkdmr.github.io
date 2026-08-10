@@ -3,7 +3,6 @@ title: "Şizofrenide inanç güncelleme ve aceleci karar"
 pagetitle: "Şizofrenide inanç güncelleme kanıtı"
 lang: tr
 date: 2026-08-09
-date-modified: 2026-08-09
 # Çevirisi yazıldığında iki taraf da birbirini gösterecek; hreflang o zaman çıkar.
 translation: notes/belief-updating-in-psychosis
 description-meta: &desc "Sonuca atlama yanlılığı, beads görevi ve hesaplamalı modellerin şizofrenide inanç güncelleme hakkında ne gösterdiği. Meta-analizler ne kadarını destekliyor, hangi bulgu tanıya hangisi belirtiye bağlanıyor ve ölçümün güvenilirliği nerede duruyor."
