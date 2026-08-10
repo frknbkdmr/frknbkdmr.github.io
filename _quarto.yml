@@ -70,6 +70,13 @@ website:
         href: notes.qmd
       - text: "CV"
         href: cv.qmd
+    right:
+      # The Turkish notes, on the side of the bar where a language affordance
+      # is expected, named for what they are rather than labelled with a flag.
+      # A flag names a country and Turkish is not confined to one; on Windows
+      # the emoji has no glyph at all and renders as the letters TR.
+      - text: "Türkçe notlar"
+        href: notlar.qmd
   page-footer:
     left: "Furkan Bekdemir, MD &middot; Department of Psychiatry, Ondokuz Mayıs University, Samsun"
     right:

@@ -561,6 +561,15 @@ def fix_a11y(path: Path) -> list[str]:
         if a or b:
             done.append("lang parts")
 
+    # WCAG 3.1.2 again, the other way round: the navbar carries "Türkçe notlar"
+    # on every page, English ones included, and the <nav> around it is marked
+    # English. Without this the phrase is read out in an English voice, which is
+    # the one thing a language link must not do.
+    text, c = re.subn(r'(<a\b)(?![^>]*\blang=)([^>]*\bhref="[^"]*notlar\.html")',
+                      r'\1 lang="tr"\2', text)
+    if c:
+        done.append("nav language link")
+
     if text != original:
         path.write_text(text, encoding="utf-8", newline="\n")
     return done
