@@ -39,8 +39,10 @@ computation is used to turn the incoming signal down.
 The name for that turning down is sensory attenuation. Its use is this: most of
 the signal reaching your senses is produced by your own movements. If all of it
 were processed at equal weight, the externally caused signal, the one that
-actually carries news, would be lost inside it. Turning down the predictable is
-how you bring out the unpredictable.
+actually carries news, would be lost inside it. Noise-cancelling headphones do
+exactly this: they predict the incoming sound and generate its inverse, leaving
+only what they could not predict. Turning down the predictable is how you bring
+out the unpredictable.
 
 ## How the task turns it into a number {.k-head}
 
@@ -137,10 +139,11 @@ fatigue and perceived effort rather than motor symptom severity. In chronic pain
 no group difference in magnitude was found; what separated the groups was
 variance.
 
-Attenuation being disturbed across this many presentations makes it a measure
-tied to symptoms rather than diagnoses. It does not tell you which diagnosis a
-patient carries. It says something about which mechanism is disturbed. Confuse
-the two and the measure has promised more than it can deliver.
+Attenuation being disturbed across this many presentations already makes it a
+measure tied to symptoms rather than diagnoses. It does not tell you which
+diagnosis a patient carries. It says something about which mechanism is
+disturbed. Confuse the two and the measure has promised more than it can
+deliver.
 
 ## What the instrument contributes {.k-head}
 

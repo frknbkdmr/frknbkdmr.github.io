@@ -103,17 +103,19 @@ explains it. Because the comparison separately penalises complex models, adding
 parameters to improve the fit does not count as winning.
 
 If a paper has no model comparison, the parameters it reports do not point at a
-mechanism. They are what you get when you summarise the data through that
-particular model. The difference is not a small one.
+mechanism, whatever they are called. They are what you get when you summarise
+the data through that particular model. The difference is not a small one.
 
 ## When to trust a finding {.k-head}
 
 When a model fits, it produces a number for every parameter. That a number was
 produced does not mean the data carried information about that parameter. In
 some models two parameters move together: raise one and lower the other and the
-model behaves identically. Their combination can then be read off the data but
-neither can be read alone. The estimator still returns a number, because it has
-to. That number reflects setup choices more than it reflects data.
+model behaves identically. Fill a bath from two taps and the water level tells
+you the total, never how much came from which. Their combination can then be
+read off the data but neither can be read alone. The estimator still returns a
+number, because it has to. That number reflects setup choices more than it
+reflects data.
 
 The technical name for this is identifiability. It is among the first things to
 ask about a computational finding.

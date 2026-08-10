@@ -110,10 +110,11 @@ generous reading.
 
 Gibbs-Dean's systematic review put psychosis, anxiety and depression in one
 frame, and difficulty adapting to changing contingencies was present in
-psychosis and in anxiety alike. My own published study points the same way.
-Tonic volatility was elevated relative to controls in generalized anxiety
-disorder and correlated with state anxiety. Thirty-six participants,
-cross-sectional and exploratory, so it carries limited weight; the details are
+psychosis and in anxiety alike. Seeing anxious patients in clinic, I did not
+find that surprising. My own published study points the same way. Tonic
+volatility was elevated relative to controls in generalized anxiety disorder and
+correlated with state anxiety. Thirty-six participants, cross-sectional and
+exploratory, so it carries limited weight; the details are
 [here](../research/anxiety-hgf.qmd).
 
 Katthagen's review makes it harder still. There are studies linking psychosis to
@@ -172,8 +173,10 @@ showed the two attach to separate parameters, without knowing which one was
 indexed you do not know what the finding says.
 
 The least discussed question is the last one. Is the claim built at the group
-level or the individual level? A parameter that separates groups but cannot be
-repeated in the same person is a finding. It is not yet a measure.
+level or the individual level? Two schools can differ in average height without
+that telling you which one the child in front of you attends. A parameter that
+separates groups but cannot be repeated in the same person is a finding. It is
+not yet a measure.
 
 ## References {.k-head}
 

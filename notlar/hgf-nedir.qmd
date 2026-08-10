@@ -104,7 +104,7 @@ açıkladığı karşılaştırılır. Karşılaştırma karmaşık modelleri ay
 cezalandırdığı için, parametre ekleyerek uyumu artırmak bir üstünlük sayılmaz.
 
 Bir yazıda model karşılaştırması yapılmamışsa, raporlanan parametreler bir
-mekanizmayı göstermez. Yalnızca veriyi o modele göre özetlediğinizde çıkan
+mekanizmayı göstermez zaten. Yalnızca veriyi o modele göre özetlediğinizde çıkan
 sayılardır. Aradaki fark da küçük değil.
 
 ## Bir bulguya ne zaman güvenilir {.k-head}
@@ -112,9 +112,11 @@ sayılardır. Aradaki fark da küçük değil.
 Bir model veriye uyduğunda her parametre için bir sayı üretir. Bu sayının
 üretilmiş olması, verinin o parametre hakkında bilgi taşıdığı anlamına gelmez.
 Bazı modellerde iki parametre birlikte hareket eder: biri artıp diğeri azalınca
-model aynı davranışı üretir. Böyle bir durumda ikisinin bileşimi veriden
-okunabilir ama tek başına hiçbiri okunamaz. Kestirim yine de bir sayı verir,
-çünkü vermek zorundadır. O sayı da veriden çok kurulum tercihlerini yansıtır.
+model aynı davranışı üretir. Küveti iki musluktan dolduruyorsanız su seviyesine
+bakarak toplamı bilirsiniz, hangi musluğun ne kadar aktığını bilemezsiniz. Böyle
+bir durumda ikisinin bileşimi veriden okunabilir ama tek başına hiçbiri
+okunamaz. Kestirim yine de bir sayı verir, çünkü vermek zorundadır. O sayı da
+veriden çok kurulum tercihlerini yansıtır.
 
 Bunun teknik adı tanımlanabilirlik. Bir hesaplamalı bulguyu okurken sorulacak
 ilk sorulardan biri.

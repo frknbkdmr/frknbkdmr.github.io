@@ -104,7 +104,8 @@ okuma.
 
 Gibbs-Dean'in sistematik derlemesi psikoz, anksiyete ve depresyonu aynı
 çerçeveye koydu; değişen olasılıklara uyum güçlüğü psikozda da anksiyetede de
-vardı. Kendi yayımlanmış çalışmamda da yön aynıydı. Yaygın anksiyete
+vardı. Kliniğinde anksiyete hastası gören bir hekim olarak bunu şaşırtıcı
+bulmadım. Kendi yayımlanmış çalışmamda da yön aynıydı. Yaygın anksiyete
 bozukluğunda tonik volatilite kontrollere göre yüksekti ve durumluk kaygıyla
 ilişkiliydi. Otuz altı kişilik, kesitsel, keşfedici bir çalışma, dolayısıyla
 ağırlığı sınırlı; ayrıntısı [şurada](../research/anxiety-hgf.qmd).
@@ -162,8 +163,9 @@ gösterdiğine göre, hangisinin indekslendiğini bilmeden bulgunun ne dediği d
 bilinmiyor.
 
 En az konuşulan soru sonuncusu. İddia grup düzeyinde mi kuruluyor, birey
-düzeyinde mi. Gruplar arasında ayrışan ama aynı kişide tekrar edilemeyen bir
-parametre bir bulgudur; ölçüt değildir.
+düzeyinde mi. İki okulun boy ortalaması farklı çıkabilir, bu size karşınızdaki
+çocuğun hangi okula gittiğini söylemez. Gruplar arasında ayrışan ama aynı kişide
+tekrar edilemeyen bir parametre bir bulgudur; ölçüt değildir.
 
 ## Kaynaklar {.k-head}
 

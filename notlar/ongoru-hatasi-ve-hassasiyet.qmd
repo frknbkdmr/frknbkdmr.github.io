@@ -27,11 +27,14 @@ boşluk. Terimlerin İngilizce karşılıkları
 Gündelik anlamıyla "hata" değil. Öngörü hatası, olan ile beklenen arasındaki
 fark. Sistemin öğrenmek için kullandığı tek şey de bu.
 
-Fikrin cazibesi ekonomisinde. Duyu organlarınızdan saniyede gelen sinyalin çoğu
-zaten beklediğiniz şey. Hepsini yukarı taşımak yerine yalnızca farkı taşırsanız,
-üst katmanlara giden yükün büyük kısmı düşer. Friston ve Kiebel'in serimlediği
-haliyle beyin bir kestirim hiyerarşisi: her katman altındakine ne göreceğini
-söylüyor, alttaki de yalnızca yanılma payını geri yolluyor.
+Fikrin cazibesi ekonomisinde. Evinizde tıkırdayan bir saat varsa onu
+duymazsınız, durduğu an fark edersiniz. Kulağınıza ulaşan ses ikisinde de aynı;
+değişen tek şey beklenip beklenmediği. Duyu organlarınızdan saniyede gelen
+sinyalin çoğu böyle, zaten beklediğiniz şey. Hepsini yukarı taşımak yerine
+yalnızca farkı taşırsanız, üst katmanlara giden yükün büyük kısmı düşer. Friston
+ve Kiebel'in serimlediği haliyle beyin bir kestirim hiyerarşisi: her katman
+altındakine ne göreceğini söylüyor, alttaki de yalnızca yanılma payını geri
+yolluyor.
 
 Buradan çıkan sonuç sezgiye aykırı. Algı, dışarıdan içeri akan bir şey değil,
 içeriden dışarı kurulan bir hipotezin duyusal veriyle sınanması. Clark'ın
@@ -43,11 +46,13 @@ sunuyor; popülerliğinin büyük kısmı da o birleştirme gücünden geliyor.
 Çerçevenin klinik açıdan asıl işe yarayan yeri burası. Çoğu popüler anlatımda
 da atlanan yer burası.
 
-İki milimetrelik bir fark, ölçüm aletiniz güvenilirse önemlidir; alet
-sallanıyorsa gürültüdür. Beyin de aynı ayrımı yapmak zorunda ve bunu her
-sinyale bir ağırlık vererek yapıyor. O ağırlığın adı hassasiyet: bir kestirimin
-ne kadar dar olduğu, yani varyansının tersi. Yukarı giden şey ham öngörü hatası
-değil, hassasiyetle ağırlıklandırılmış hali.
+Eczane terazisinde iki yüz gram fazla görünüyorsanız bu bir bilgidir. Aynı iki
+yüz gramı, her bastığınızda başka rakam veren banyo tartısında görürseniz hiçbir
+şey ifade etmez. Fark aynı fark; değişen şey aleti ne kadar ciddiye aldığınız.
+Beyin de aynı ayrımı yapmak zorunda ve bunu her sinyale bir ağırlık vererek
+yapıyor. O ağırlığın adı hassasiyet: bir kestirimin ne kadar dar olduğu, yani
+varyansının tersi. Yukarı giden şey ham öngörü hatası değil, hassasiyetle
+ağırlıklandırılmış hali.
 
 Feldman ve Friston bir adım daha atıp dikkati bu ağırlığın kendisi olarak
 tanımladılar. Bir şeye dikkat etmek, o kanalın hassasiyetini yükseltmek demek.
@@ -121,8 +126,8 @@ ağırlığı ayarlayabilme yetisi.
 
 ## Her şeyi açıklayan çerçeve {.k-head}
 
-Buraya kadar sayılanlar çerçevenin başarısı gibi okunuyor ve alan bir süredir
-bunun tersini düşünüyor.
+Buraya kadar sayılanlar çerçevenin başarısı gibi okunuyor. Alan bir süredir
+bunun tersini düşünüyor zaten.
 
 Yetmiş iki çalışmayı tarayan Qela derlemesi bozuklukların hepsinde bir şeyler
 buluyor, ama bulunanlar birbirine benzemiyor. Mancini ve Nour meseleyi tek
@@ -133,13 +138,13 @@ mekanizma modeli mi yoksa mecazi bir yeniden betimleme mi.
 Bir çerçevenin hem bir bulguyu hem tersini barındırabilmesi esneklik diye
 anılıyor. Sınanabilirlik açısından başka bir adı var.
 
-Bu, çerçeveyi bırakmak için bir gerekçe değil. Gerekçe olduğu şey şu: "psikozda
-hassasiyet bozuk" cümlesi tek başına bir şey söylemiyor. Hangi düzeyde, hangi
-yönde, hangi görevde ve hangi belirtiyle sorularının cevabı yoksa cümle
-çerçeveye uyuyor ama sınanmıyor. Bir hesaplamalı bulgunun bunları hangi koşulda
-söyleyebildiği
-[HGF yazısında](hgf-nedir.qmd), aynı sorunun şizofreni literatüründeki hali
-[inanç güncelleme yazısında](sizofrenide-inanc-guncelleme.qmd).
+Bu, çerçeveyi bırakmak için bir gerekçe değil. Bu çerçeveyi kendi hattımda
+kullanan bir hekim olarak şunu diyorum: "psikozda hassasiyet bozuk" cümlesi tek
+başına bir şey söylemiyor. Hangi düzeyde, hangi yönde, hangi görevde ve hangi
+belirtiyle sorularının cevabı yoksa cümle çerçeveye uyuyor ama sınanmıyor. Bir
+hesaplamalı bulgunun bunları hangi koşulda söyleyebildiği [HGF
+yazısında](hgf-nedir.qmd), aynı sorunun şizofreni literatüründeki hali [inanç
+güncelleme yazısında](sizofrenide-inanc-guncelleme.qmd).
 
 ## Kaynaklar {.k-head}
 

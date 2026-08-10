@@ -38,11 +38,13 @@ etkinlik, üretmeyen hareketlere göre daha düşüktü. Buradan çıkan yorum,
 serebellumun hareketin duyusal sonucunu önceden hesapladığı ve o hesabın gelen
 sinyali kısmak için kullanıldığı.
 
-Kısılmanın adı duyusal azaltım (sensory attenuation). İşe yaraması şuradan:
-duyu sisteminize ulaşan sinyalin büyük kısmını zaten kendi hareketleriniz
-üretir. Hepsi aynı ağırlıkta işlenirse, dışarıdan gelen ve gerçekten haber
-değeri taşıyan sinyal bunun içinde kaybolur. Öngörülebilir olanı kısmak,
-öngörülemeyeni öne çıkarmanın yolu.
+Kısılmanın adı duyusal azaltım (sensory attenuation). İşe yaraması şuradan: duyu
+sisteminize ulaşan sinyalin büyük kısmını zaten kendi hareketleriniz üretir.
+Hepsi aynı ağırlıkta işlenirse, dışarıdan gelen ve gerçekten haber değeri
+taşıyan sinyal bunun içinde kaybolur. Gürültü önleyici kulaklıklar tam olarak
+bunu yapıyor: gelen sesi önceden kestirip tersini üretiyorlar, geriye yalnızca
+kestiremedikleri kalıyor. Öngörülebilir olanı kısmak, öngörülemeyeni öne
+çıkarmanın yolu.
 
 ## Görev bunu nasıl sayıya çeviriyor {.k-head}
 
@@ -136,9 +138,9 @@ ilişkili. Kronik ağrıda ise büyüklük açısından grup farkı bulunamadı;
 varyanstı.
 
 Azaltım bozukluğunun bu kadar farklı tabloda çıkması onu tanıya değil belirtiye
-bağlı bir ölçüm yapıyor. Hastanın hangi tanıyı taşıdığını söylemiyor. Hangi
-mekanizmanın bozulduğuna dair bir şey söylüyor. İkisi karıştırıldığında ölçüm
-verebileceğinden fazlasını vaat etmiş oluyor.
+bağlı bir ölçüm yapıyor zaten. Hastanın hangi tanıyı taşıdığını söylemiyor.
+Hangi mekanizmanın bozulduğuna dair bir şey söylüyor. İkisi karıştırıldığında
+ölçüm verebileceğinden fazlasını vaat etmiş oluyor.
 
 ## Ölçen aletin payı {.k-head}
 
