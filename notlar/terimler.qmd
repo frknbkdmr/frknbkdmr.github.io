@@ -1016,5 +1016,8 @@ Kaynak: Atak 2011, Ruh Sağlığı Çalışmalarında Yeni Bir Psikososyal Deği
 ---
 
 ::: {.k}
-[← notlar](../notlar.qmd)
+[← notlar](../notlar.qmd) &middot;
+[HGF nedir](hgf-nedir.qmd) &middot;
+[duyusal azaltım](duyusal-azaltim.qmd) &middot;
+[inanç güncelleme](sizofrenide-inanc-guncelleme.qmd)
 :::

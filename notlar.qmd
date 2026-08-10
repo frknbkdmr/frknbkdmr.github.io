@@ -82,3 +82,23 @@ Akatizinin öznel ve nesnel bileşenlerinin neden ayrışabildiği ve hareketin
 çoğu zaman huzursuzluğu dindirmemesi.
 :::
 
+```{=html}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "https://furkanbekdemir.com/notlar#collection",
+  "name": "Hesaplamalı psikiyatri üzerine Türkçe notlar",
+  "description": "Hesaplamalı psikiyatri üzerine klinik okura yazılmış Türkçe notlar ve yetmiş terimlik bir Türkçe karşılık sözlüğü.",
+  "inLanguage": "tr",
+  "author": { "@id": "https://furkanbekdemir.com/#person" },
+  "url": "https://furkanbekdemir.com/notlar",
+  "hasPart": [
+    { "@type": "DefinedTermSet", "url": "https://furkanbekdemir.com/notlar/terimler", "name": "Terimler" },
+    { "@type": "Article", "url": "https://furkanbekdemir.com/notlar/hgf-nedir", "headline": "Hiyerarşik Gauss filtresi nedir, ne işe yarar" },
+    { "@type": "Article", "url": "https://furkanbekdemir.com/notlar/duyusal-azaltim", "headline": "Duyusal azaltım ve kuvvet eşleştirme görevi" },
+    { "@type": "Article", "url": "https://furkanbekdemir.com/notlar/sizofrenide-inanc-guncelleme", "headline": "Şizofrenide inanç güncelleme ve aceleci karar" }
+  ]
+}
+</script>
+```

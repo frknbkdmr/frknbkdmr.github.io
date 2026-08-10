@@ -210,7 +210,9 @@ Psychiatry*.
 ```
 
 ::: {.k}
-[english](../notes/hierarchical-gaussian-filter.qmd) &middot;
 [← notlar](../notlar.qmd) &middot;
-[terimler sözlüğü](terimler.qmd)
+[duyusal azaltım](duyusal-azaltim.qmd) &middot;
+[inanç güncelleme](sizofrenide-inanc-guncelleme.qmd) &middot;
+[terimler sözlüğü](terimler.qmd) &middot;
+[english](../notes/hierarchical-gaussian-filter.qmd)
 :::

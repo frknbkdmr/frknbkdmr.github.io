@@ -20,7 +20,9 @@ force the motor applies for them. People reproduce it accurately through the
 slider and overshoot when they press themselves. The size of that overshoot is
 the measure, and it is what the
 [schizophrenia thesis](../research/belief-updating-schizophrenia.qmd) uses to ask whether
-self-generated sensation is attenuated the way it should be.
+self-generated sensation is attenuated the way it should be. What that measure
+does and does not support is set out in the
+[note on sensory attenuation](../notes/sensory-attenuation.qmd).
 
 A trial runs in three phases on one finger. The motor presents the target force
 for three seconds, the force is removed for two, and then the participant
@@ -136,9 +138,10 @@ Direct and Slider terminology along with the target forces, to McNaughton at
 Macquarie, who published a device and a timing standard openly. This rig
 follows McNaughton for the timing and the analysis window, and the older UCL
 arrangement for how the indirect condition delivers its force. The motor is a
-Maxon RE50 driven by an EPOS4 controller. The build notes will carry the full
-citations, since knowing which variant a rig implements is the difference
-between a replication and an unrelated experiment with the same name.
+Maxon RE50 driven by an EPOS4 controller. The full citations for that lineage are in the
+[note](../notes/sensory-attenuation.qmd), since knowing which variant a rig
+implements is the difference between a replication and an unrelated experiment
+with the same name.
 
 Calibration is done. The force channel was traced against dead weights from 0
 to 4.066 N, which covers every target the task uses, so no experimental reading
