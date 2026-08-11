@@ -61,7 +61,8 @@ hedefli tarama yaptım, ama bulunamadı demek yok demek değil.
 
 Aradım, Türkçe akademik kaynakta geçmiyor. Model adı olduğu için İngilizcesini
 ve kısaltmasını koruyorum; ilk geçişte "Hiyerarşik Gauss(sal) Filtre (HGF)" diye
-açıyorum. :::
+açıyorum.
+:::
 
 ::: {.term}
 ### Bayesian inference {#bayesian-inference}
@@ -382,7 +383,8 @@ Kaynak: [Öngörücü İşleme ve Öngörü Hatası — Yayılmış Zihin (Dergi
 <!-- yorum -->
 
 HGF'e özgü bir parametre, Türkçesi yok. "Evrim oranı" diyorum ama bunun yerleşik
-olduğunu iddia etmiyorum, benim önerim. :::
+olduğunu iddia etmiyorum, benim önerim.
+:::
 
 ::: {.term}
 ### Belief instability {#belief-instability}
@@ -394,7 +396,8 @@ olduğunu iddia etmiyorum, benim önerim. :::
 
 Adams'ın etiketi, Türkçesi yok. Ben bunu klinik ya da nedensel bir etiket olarak
 kullanmıyorum; Adams'ın iddiasını aktarırken tırnak içinde ve ona atfen
-veriyorum. :::
+veriyorum.
+:::
 
 ::: {.term}
 ### Response stochasticity {#response-stochasticity}
@@ -405,7 +408,8 @@ veriyorum. :::
 <!-- yorum -->
 
 Türev bir terim, Türkçesi yok. "Yanıt stokastisitesi" ya da "yanıt gürültüsü";
-ikincisi daha anlaşılır ama daha az teknik. :::
+ikincisi daha anlaşılır ama daha az teknik.
+:::
 
 ::: {.term}
 ### Initial belief variance {#initial-belief-variance}
@@ -1021,7 +1025,8 @@ Duyusal azaltım &middot; [karşılık yok]{.status .pending}
 
 Yerleşik bir karşılığı yok. Niş bir terim ve Türkçe şizofreni kaynakları konuyu
 bu adla ele almıyor. "Duyusal azaltım" diyorum ve ilk geçişte İngilizcesini
-veriyorum. :::
+veriyorum.
+:::
 
 ::: {.term}
 ### Corollary discharge / efference copy {#corollary-discharge-efference-copy}
@@ -1046,7 +1051,8 @@ Kavram kaynağı (TR): [İşitsel Varsanılarda Bilişsel Davranışçı Terapi 
 <!-- yorum -->
 
 Niş bir görev, doğrudan Türkçe kaynak yok. "Kuvvet eşleştirme görevi" diyorum,
-ilk geçişte İngilizcesiyle. :::
+ilk geçişte İngilizcesiyle.
+:::
 
 ::: {.term}
 ### Self-monitoring / agency {#self-monitoring-agency}
