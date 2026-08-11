@@ -1604,7 +1604,7 @@ hedefli tarama yaptım, ama bulunamadı demek yok demek değil.
 
 Aradım, Türkçe akademik kaynakta geçmiyor. Model adı olduğu için İngilizcesini
 ve kısaltmasını koruyorum; ilk geçişte "Hiyerarşik Gauss(sal) Filtre (HGF)" diye
-açıyorum. :::
+açıyorum.
 
 ### Bayesian inference
 Bayesçi çıkarım · kaynaklı
@@ -1778,7 +1778,7 @@ Kaynak: [Öngörücü İşleme ve Öngörü Hatası — Yayılmış Zihin (Dergi
 (ω (omega)) · Evrim oranı / gelişim hızı · karşılık yok
 
 HGF'e özgü bir parametre, Türkçesi yok. "Evrim oranı" diyorum ama bunun yerleşik
-olduğunu iddia etmiyorum, benim önerim. :::
+olduğunu iddia etmiyorum, benim önerim.
 
 ### Belief instability
 (κ₁ (kappa1)) · *(Adams'ın etiketi)* "inanç kararsızlığı" ·
@@ -1786,14 +1786,14 @@ karşılık yok
 
 Adams'ın etiketi, Türkçesi yok. Ben bunu klinik ya da nedensel bir etiket olarak
 kullanmıyorum; Adams'ın iddiasını aktarırken tırnak içinde ve ona atfen
-veriyorum. :::
+veriyorum.
 
 ### Response stochasticity
 (ζ / ν (zeta/nu)) · Yanıt stokastisitesi (yanıt gürültüsü) ·
 karşılık yok
 
 Türev bir terim, Türkçesi yok. "Yanıt stokastisitesi" ya da "yanıt gürültüsü";
-ikincisi daha anlaşılır ama daha az teknik. :::
+ikincisi daha anlaşılır ama daha az teknik.
 
 ### Initial belief variance
 (σ²₂(0)) · Başlangıç inanç varyansı · karşılık yok
@@ -2113,7 +2113,7 @@ Duyusal azaltım · karşılık yok
 
 Yerleşik bir karşılığı yok. Niş bir terim ve Türkçe şizofreni kaynakları konuyu
 bu adla ele almıyor. "Duyusal azaltım" diyorum ve ilk geçişte İngilizcesini
-veriyorum. :::
+veriyorum.
 
 ### Corollary discharge / efference copy
 Efferent kopya / corollary discharge · karşılık yok
@@ -2127,7 +2127,7 @@ Kavram kaynağı (TR): [İşitsel Varsanılarda Bilişsel Davranışçı Terapi 
 (FMT) · Kuvvet eşleştirme görevi · karşılık yok
 
 Niş bir görev, doğrudan Türkçe kaynak yok. "Kuvvet eşleştirme görevi" diyorum,
-ilk geçişte İngilizcesiyle. :::
+ilk geçişte İngilizcesiyle.
 
 ### Self-monitoring / agency
 Öz-izleme / eylemlilik (ajans) · kaynaklı
