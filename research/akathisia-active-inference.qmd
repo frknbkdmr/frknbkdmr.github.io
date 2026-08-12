@@ -21,6 +21,8 @@ it. I am building an active inference account alongside them, which asks
 whether the disorder sits in how bodily prediction errors are turned into
 action rather than in the motor system itself.
 
+A concept note is in preparation.
+
 ## The syndrome has two halves {.k-head}
 
 Braude, Barnes and Gore put the clinical features through a principal components
