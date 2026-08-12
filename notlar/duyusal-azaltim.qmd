@@ -184,28 +184,28 @@ sensation. *Nature Neuroscience*.
 
 ::: {.src}
 Shergill SS, Bays PM, Frith CD, Wolpert DM. Two eyes for an eye: the
-neuroscience of force escalation. *Science*.
-2003;301(5630):187. doi:[10.1126/science.1085327](https://doi.org/10.1126/science.1085327)
+neuroscience of force escalation. *Science*. 2003;301(5630):187.
+doi:[10.1126/science.1085327](https://doi.org/10.1126/science.1085327)
 :::
 
 ::: {.src}
 Bays PM, Wolpert DM, Flanagan JR. Perception of the consequences of self-action
-is temporally tuned and event driven. *Current Biology*.
-2005;15(12):1125-1128. doi:[10.1016/j.cub.2005.05.023](https://doi.org/10.1016/j.cub.2005.05.023)
+is temporally tuned and event driven. *Current Biology*. 2005;15(12):1125-1128.
+doi:[10.1016/j.cub.2005.05.023](https://doi.org/10.1016/j.cub.2005.05.023)
 :::
 
 ::: {.src}
 Kilteni K, Ehrsson HH. Body ownership determines the attenuation of
-self-generated tactile sensations. *PNAS*.
-2017;114(31):8426-8431. doi:[10.1073/pnas.1703347114](https://doi.org/10.1073/pnas.1703347114)
+self-generated tactile sensations. *PNAS*. 2017;114(31):8426-8431.
+doi:[10.1073/pnas.1703347114](https://doi.org/10.1073/pnas.1703347114)
 :::
 
 Kuramsal çerçeve:
 
 ::: {.src}
 Brown H, Adams RA, Parees I, Edwards M, Friston K. Active inference, sensory
-attenuation and illusions. *Cognitive Processing*.
-2013;14(4):411-427. doi:[10.1007/s10339-013-0571-3](https://doi.org/10.1007/s10339-013-0571-3)
+attenuation and illusions. *Cognitive Processing*. 2013;14(4):411-427.
+doi:[10.1007/s10339-013-0571-3](https://doi.org/10.1007/s10339-013-0571-3)
 :::
 
 Klinik bulgular:
@@ -213,28 +213,29 @@ Klinik bulgular:
 ::: {.src}
 Blakemore SJ, Smith J, Steel R, Johnstone EC, Frith CD. The perception of
 self-produced sensory stimuli in patients with auditory hallucinations and
-passivity experiences. *Psychological Medicine*.
-2000;30(5):1131-1139. doi:[10.1017/S0033291799002676](https://doi.org/10.1017/S0033291799002676)
+passivity experiences. *Psychological Medicine*. 2000;30(5):1131-1139.
+doi:[10.1017/S0033291799002676](https://doi.org/10.1017/S0033291799002676)
 :::
 
 ::: {.src}
 Shergill SS, Samson G, Bays PM, Frith CD, Wolpert DM. Evidence for sensory
 prediction deficits in schizophrenia. *American Journal of Psychiatry*.
-2005;162(12):2384-2386. doi:[10.1176/appi.ajp.162.12.2384](https://doi.org/10.1176/appi.ajp.162.12.2384)
+2005;162(12):2384-2386.
+doi:[10.1176/appi.ajp.162.12.2384](https://doi.org/10.1176/appi.ajp.162.12.2384)
 :::
 
 ::: {.src}
 Shergill SS, White TP, Joyce DW, Bays PM, Wolpert DM, Frith CD. Functional
 magnetic resonance imaging of impaired sensory prediction in schizophrenia.
-*JAMA Psychiatry*.
-2014;71(1):28-35. doi:[10.1001/jamapsychiatry.2013.2974](https://doi.org/10.1001/jamapsychiatry.2013.2974)
+*JAMA Psychiatry*. 2014;71(1):28-35.
+doi:[10.1001/jamapsychiatry.2013.2974](https://doi.org/10.1001/jamapsychiatry.2013.2974)
 :::
 
 ::: {.src}
 Teufel C, Kingdon A, Ingram JN, Wolpert DM, Fletcher PC. Deficits in sensory
 prediction are related to delusional ideation in healthy individuals.
-*Neuropsychologia*.
-2010;48(14):4169-4172. doi:[10.1016/j.neuropsychologia.2010.10.024](https://doi.org/10.1016/j.neuropsychologia.2010.10.024)
+*Neuropsychologia*. 2010;48(14):4169-4172.
+doi:[10.1016/j.neuropsychologia.2010.10.024](https://doi.org/10.1016/j.neuropsychologia.2010.10.024)
 :::
 
 ::: {.src}
@@ -247,14 +248,14 @@ movement disorders. *Brain*.
 ::: {.src}
 Marotta A, Pizzolla E, Di Vico IA, Tinazzi M, Emadi Andani M, Fiorio M. Reduced
 sensory attenuation as a marker of pathological fatigue: evidence from
-Parkinson's disease. *Cortex*.
-2026;200:1-13. doi:[10.1016/j.cortex.2026.04.001](https://doi.org/10.1016/j.cortex.2026.04.001)
+Parkinson's disease. *Cortex*. 2026;200:1-13.
+doi:[10.1016/j.cortex.2026.04.001](https://doi.org/10.1016/j.cortex.2026.04.001)
 :::
 
 ::: {.src}
 McNaughton D, Beath A, Hush J, Jones M. Perceptual sensory attenuation in
-chronic pain subjects and healthy controls. *Scientific Reports*.
-2022;12:8958. doi:[10.1038/s41598-022-13175-4](https://doi.org/10.1038/s41598-022-13175-4)
+chronic pain subjects and healthy controls. *Scientific Reports*. 2022;12:8958.
+doi:[10.1038/s41598-022-13175-4](https://doi.org/10.1038/s41598-022-13175-4)
 :::
 
 Yöntem ve ölçüm:
@@ -262,14 +263,15 @@ Yöntem ve ölçüm:
 ::: {.src}
 McNaughton D, Hope R, Gray E, Xavier F, Beath A, Jones M. Methodological
 considerations for the force-matching task. *Behavior Research Methods*.
-2023;55(6):2979-2988. doi:[10.3758/s13428-022-01954-w](https://doi.org/10.3758/s13428-022-01954-w)
+2023;55(6):2979-2988.
+doi:[10.3758/s13428-022-01954-w](https://doi.org/10.3758/s13428-022-01954-w)
 :::
 
 ::: {.src}
 McNaughton D, Bacigalupo C, Georghiades A, Beath A, Hush J, Jones M. Design,
 development and functionality of a haptic force-matching device for measuring
-sensory attenuation. *Behavior Research Methods*.
-2021;53(6):2689-2699. doi:[10.3758/s13428-021-01605-6](https://doi.org/10.3758/s13428-021-01605-6)
+sensory attenuation. *Behavior Research Methods*. 2021;53(6):2689-2699.
+doi:[10.3758/s13428-021-01605-6](https://doi.org/10.3758/s13428-021-01605-6)
 :::
 
 ::: {.src}

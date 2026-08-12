@@ -152,8 +152,8 @@ güncelleme yazısında](sizofrenide-inanc-guncelleme.qmd).
 
 ::: {.src}
 Friston K, Kiebel S. Predictive coding under the free-energy principle.
-*Philosophical Transactions of the Royal Society B*.
-2009;364(1521):1211-1221. doi:[10.1098/rstb.2008.0300](https://doi.org/10.1098/rstb.2008.0300)
+*Philosophical Transactions of the Royal Society B*. 2009;364(1521):1211-1221.
+doi:[10.1098/rstb.2008.0300](https://doi.org/10.1098/rstb.2008.0300)
 :::
 
 ::: {.src}
@@ -164,8 +164,8 @@ Human Neuroscience*.
 
 ::: {.src}
 Clark A. Whatever next? Predictive brains, situated agents, and the future of
-cognitive science. *Behavioral and Brain Sciences*.
-2013;36(3):181-204. doi:[10.1017/S0140525X12000477](https://doi.org/10.1017/S0140525X12000477)
+cognitive science. *Behavioral and Brain Sciences*. 2013;36(3):181-204.
+doi:[10.1017/S0140525X12000477](https://doi.org/10.1017/S0140525X12000477)
 :::
 
 Psikoz:
@@ -178,21 +178,21 @@ of psychosis. *Frontiers in Psychiatry*.
 
 ::: {.src}
 Sterzer P, Adams RA, Fletcher P, ve ark. The predictive coding account of
-psychosis. *Biological Psychiatry*.
-2018;84(9):634-643. doi:[10.1016/j.biopsych.2018.05.015](https://doi.org/10.1016/j.biopsych.2018.05.015)
+psychosis. *Biological Psychiatry*. 2018;84(9):634-643.
+doi:[10.1016/j.biopsych.2018.05.015](https://doi.org/10.1016/j.biopsych.2018.05.015)
 :::
 
 ::: {.src}
 Corlett PR, Honey GD, Fletcher PC. Prediction error, ketamine and psychosis: an
-updated model. *Journal of Psychopharmacology*.
-2016;30(11):1145-1155. doi:[10.1177/0269881116650087](https://doi.org/10.1177/0269881116650087)
+updated model. *Journal of Psychopharmacology*. 2016;30(11):1145-1155.
+doi:[10.1177/0269881116650087](https://doi.org/10.1177/0269881116650087)
 :::
 
 ::: {.src}
 Haarsma J, Fletcher PC, Griffin JD, ve ark. Precision weighting of cortical
 unsigned prediction error signals benefits learning, is mediated by dopamine,
-and is impaired in psychosis. *Molecular Psychiatry*.
-2021;26(9):5320-5333. doi:[10.1038/s41380-020-0803-8](https://doi.org/10.1038/s41380-020-0803-8)
+and is impaired in psychosis. *Molecular Psychiatry*. 2021;26(9):5320-5333.
+doi:[10.1038/s41380-020-0803-8](https://doi.org/10.1038/s41380-020-0803-8)
 :::
 
 ::: {.src}
@@ -205,8 +205,8 @@ population sample. *Schizophrenia Bulletin*.
 ::: {.src}
 Goodwin I, Kugel J, Hester R, Garrido MI. Bayesian accounts of perceptual
 decisions in the nonclinical continuum of psychosis. *PLOS Computational
-Biology*.
-2023;19(11):e1011670. doi:[10.1371/journal.pcbi.1011670](https://doi.org/10.1371/journal.pcbi.1011670)
+Biology*. 2023;19(11):e1011670.
+doi:[10.1371/journal.pcbi.1011670](https://doi.org/10.1371/journal.pcbi.1011670)
 :::
 
 Otizm:
@@ -219,30 +219,31 @@ worlds: predictive coding in autism. *Psychological Review*.
 
 ::: {.src}
 Friston KJ, Lawson R, Frith CD. On hyperpriors and hypopriors: comment on
-Pellicano and Burr. *Trends in Cognitive Sciences*.
-2013;17(1):1. doi:[10.1016/j.tics.2012.11.003](https://doi.org/10.1016/j.tics.2012.11.003)
+Pellicano and Burr. *Trends in Cognitive Sciences*. 2013;17(1):1.
+doi:[10.1016/j.tics.2012.11.003](https://doi.org/10.1016/j.tics.2012.11.003)
 :::
 
 ::: {.src}
 Arthur T, Vine S, Buckingham G, Brosnan M, Wilson M, Harris D. Testing
 predictive coding theories of autism spectrum disorder using models of active
-inference. *PLOS Computational Biology*.
-2023;19(9):e1011473. doi:[10.1371/journal.pcbi.1011473](https://doi.org/10.1371/journal.pcbi.1011473)
+inference. *PLOS Computational Biology*. 2023;19(9):e1011473.
+doi:[10.1371/journal.pcbi.1011473](https://doi.org/10.1371/journal.pcbi.1011473)
 :::
 
 Beden ve duygu:
 
 ::: {.src}
 Seth AK, Friston KJ. Active interoceptive inference and the emotional brain.
-*Philosophical Transactions of the Royal Society B*.
-2016;371(1708):20160007. doi:[10.1098/rstb.2016.0007](https://doi.org/10.1098/rstb.2016.0007)
+*Philosophical Transactions of the Royal Society B*. 2016;371(1708):20160007.
+doi:[10.1098/rstb.2016.0007](https://doi.org/10.1098/rstb.2016.0007)
 :::
 
 ::: {.src}
 Smith R, Kuplicki R, Feinstein J, ve ark. A Bayesian computational model reveals
 a failure to adapt interoceptive precision estimates across depression, anxiety,
 eating, and substance use disorders. *PLOS Computational Biology*.
-2020;16(12):e1008484. doi:[10.1371/journal.pcbi.1008484](https://doi.org/10.1371/journal.pcbi.1008484)
+2020;16(12):e1008484.
+doi:[10.1371/journal.pcbi.1008484](https://doi.org/10.1371/journal.pcbi.1008484)
 :::
 
 Çerçeveye itirazlar:
@@ -250,21 +251,21 @@ eating, and substance use disorders. *PLOS Computational Biology*.
 ::: {.src}
 Qela B, Damiani S, De Santis S, ve ark. Predictive coding in neuropsychiatric
 disorders: a systematic transdiagnostic review. *Neuroscience and Biobehavioral
-Reviews*.
-2025;169:106020. doi:[10.1016/j.neubiorev.2025.106020](https://doi.org/10.1016/j.neubiorev.2025.106020)
+Reviews*. 2025;169:106020.
+doi:[10.1016/j.neubiorev.2025.106020](https://doi.org/10.1016/j.neubiorev.2025.106020)
 :::
 
 ::: {.src}
 Mancini V, Nour MM. If mismatch negativity is the answer, what is the question?
 On the nature of predictive coding abnormalities in psychosis. *Biological
-Psychiatry Global Open Science*.
-2025;5(1):100412. doi:[10.1016/j.bpsgos.2024.100412](https://doi.org/10.1016/j.bpsgos.2024.100412)
+Psychiatry Global Open Science*. 2025;5(1):100412.
+doi:[10.1016/j.bpsgos.2024.100412](https://doi.org/10.1016/j.bpsgos.2024.100412)
 :::
 
 ::: {.src}
 Alotaibi AS. Predictive coding in psychopathology: mechanistic model or
-metaphorical re-description? *Frontiers in Human Neuroscience*.
-2026;19:1743028. doi:[10.3389/fnhum.2025.1743028](https://doi.org/10.3389/fnhum.2025.1743028)
+metaphorical re-description? *Frontiers in Human Neuroscience*. 2026;19:1743028.
+doi:[10.3389/fnhum.2025.1743028](https://doi.org/10.3389/fnhum.2025.1743028)
 :::
 
 ```{=html}

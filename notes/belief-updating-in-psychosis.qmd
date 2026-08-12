@@ -185,7 +185,8 @@ The classic finding and the meta-analyses:
 ::: {.src}
 Moritz S, Woodward TS. Jumping to conclusions in delusional and non-delusional
 schizophrenic patients. *British Journal of Clinical Psychology*.
-2005;44(2):193-207. doi:[10.1348/014466505X35678](https://doi.org/10.1348/014466505X35678)
+2005;44(2):193-207.
+doi:[10.1348/014466505X35678](https://doi.org/10.1348/014466505X35678)
 :::
 
 ::: {.src}
@@ -205,8 +206,8 @@ beads task? A meta-analysis of delusional ideation and data-gathering.
 ::: {.src}
 Fine C, Gardner M, Craigie J, Gold I. Hopping, skipping or jumping to
 conclusions? Clarifying the role of the JTC bias in delusions. *Cognitive
-Neuropsychiatry*.
-2007;12(1):46-77. doi:[10.1080/13546800600750597](https://doi.org/10.1080/13546800600750597)
+Neuropsychiatry*. 2007;12(1):46-77.
+doi:[10.1080/13546800600750597](https://doi.org/10.1080/13546800600750597)
 :::
 
 ::: {.src}
@@ -227,8 +228,8 @@ is not linked to impulsive decision-making. *Schizophrenia Bulletin*.
 ::: {.src}
 Balzan RP, Delfabbro PH, Galletly CA, Woodward TS. Over-adjustment or
 miscomprehension? A re-examination of the jumping to conclusions bias.
-*Australian & New Zealand Journal of Psychiatry*.
-2012;46(6):532-540. doi:[10.1177/0004867411435291](https://doi.org/10.1177/0004867411435291)
+*Australian & New Zealand Journal of Psychiatry*. 2012;46(6):532-540.
+doi:[10.1177/0004867411435291](https://doi.org/10.1177/0004867411435291)
 :::
 
 ::: {.src}
@@ -250,14 +251,15 @@ metacognitive training. *Schizophrenia Bulletin*.
 ::: {.src}
 Fromm S, Katthagen T, Deserno L, Heinz A, Kaminski J, Schlagenhauf F. Belief
 updating in subclinical and clinical delusions. *Schizophrenia Bulletin Open*.
-2022;4(1):sgac074. doi:[10.1093/schizbullopen/sgac074](https://doi.org/10.1093/schizbullopen/sgac074)
+2022;4(1):sgac074.
+doi:[10.1093/schizbullopen/sgac074](https://doi.org/10.1093/schizbullopen/sgac074)
 :::
 
 ::: {.src}
 Sheffield JM, Suthaharan P, Leptourgos P, Corlett PR. Belief updating and
 paranoia in individuals with schizophrenia. *Biological Psychiatry: Cognitive
-Neuroscience and Neuroimaging*.
-2022;7(11):1149-1157. doi:[10.1016/j.bpsc.2022.03.013](https://doi.org/10.1016/j.bpsc.2022.03.013)
+Neuroscience and Neuroimaging*. 2022;7(11):1149-1157.
+doi:[10.1016/j.bpsc.2022.03.013](https://doi.org/10.1016/j.bpsc.2022.03.013)
 :::
 
 ::: {.src}
@@ -270,15 +272,15 @@ Bulletin*.
 ::: {.src}
 Mikus N, Lamm C, Mathys C. Computational phenotyping of aberrant belief updating
 in individuals with schizotypal traits and schizophrenia. *Biological
-Psychiatry*.
-2025;97(2):188-197. doi:[10.1016/j.biopsych.2024.08.021](https://doi.org/10.1016/j.biopsych.2024.08.021)
+Psychiatry*. 2025;97(2):188-197.
+doi:[10.1016/j.biopsych.2024.08.021](https://doi.org/10.1016/j.biopsych.2024.08.021)
 :::
 
 ::: {.src}
 Mashima Y, Shinagawa K, Suzuki H, et al. Post-conclusion belief inflexibility
 bias assessed by a modified beads task in schizophrenia. *Schizophrenia
-Research*.
-2026;296:121-129. doi:[10.1016/j.schres.2026.07.002](https://doi.org/10.1016/j.schres.2026.07.002)
+Research*. 2026;296:121-129.
+doi:[10.1016/j.schres.2026.07.002](https://doi.org/10.1016/j.schres.2026.07.002)
 :::
 
 Reviews and measurement:
@@ -286,21 +288,22 @@ Reviews and measurement:
 ::: {.src}
 Katthagen T, Fromm S, Wieland L, Schlagenhauf F. Models of dynamic belief
 updating in psychosis: a review across different computational approaches.
-*Frontiers in Psychiatry*.
-2022;13:814111. doi:[10.3389/fpsyt.2022.814111](https://doi.org/10.3389/fpsyt.2022.814111)
+*Frontiers in Psychiatry*. 2022;13:814111.
+doi:[10.3389/fpsyt.2022.814111](https://doi.org/10.3389/fpsyt.2022.814111)
 :::
 
 ::: {.src}
 Gibbs-Dean T, Katthagen T, Tsenkova I, et al. Belief updating in psychosis,
 depression and anxiety disorders: a systematic review across computational
-modelling approaches. *Neuroscience and Biobehavioral Reviews*.
-2023;147:105087. doi:[10.1016/j.neubiorev.2023.105087](https://doi.org/10.1016/j.neubiorev.2023.105087)
+modelling approaches. *Neuroscience and Biobehavioral Reviews*. 2023;147:105087.
+doi:[10.1016/j.neubiorev.2023.105087](https://doi.org/10.1016/j.neubiorev.2023.105087)
 :::
 
 ::: {.src}
 Karvelis P, Hauke DJ, Wobmann M, et al. Test-retest reliability of behavioral
 and computational measures of advice taking under volatility. *PLOS ONE*.
-2024;19(11):e0312255. doi:[10.1371/journal.pone.0312255](https://doi.org/10.1371/journal.pone.0312255)
+2024;19(11):e0312255.
+doi:[10.1371/journal.pone.0312255](https://doi.org/10.1371/journal.pone.0312255)
 :::
 
 ::: {.src}

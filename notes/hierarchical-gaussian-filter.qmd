@@ -174,8 +174,8 @@ behavioral data. *eLife*.
 
 ::: {.src}
 Rigoux L, Stephan KE, Friston KJ, Daunizeau J. Bayesian model selection for
-group studies, revisited. *NeuroImage*.
-2014;84:971-985. doi:[10.1016/j.neuroimage.2013.08.065](https://doi.org/10.1016/j.neuroimage.2013.08.065)
+group studies, revisited. *NeuroImage*. 2014;84:971-985.
+doi:[10.1016/j.neuroimage.2013.08.065](https://doi.org/10.1016/j.neuroimage.2013.08.065)
 :::
 
 The software that implements it:
@@ -183,8 +183,8 @@ The software that implements it:
 ::: {.src}
 Frässle S, Aponte EA, Bollmann S, et al. TAPAS: an open-source software package
 for translational neuromodeling and computational psychiatry. *Frontiers in
-Psychiatry*.
-2021;12:680811. doi:[10.3389/fpsyt.2021.680811](https://doi.org/10.3389/fpsyt.2021.680811)
+Psychiatry*. 2021;12:680811.
+doi:[10.3389/fpsyt.2021.680811](https://doi.org/10.3389/fpsyt.2021.680811)
 :::
 
 ```{=html}
