@@ -839,43 +839,44 @@ sensation. *Nature Neuroscience*.
 1998;1(7):635-640. doi:[10.1038/2870](https://doi.org/10.1038/2870)
 
 Shergill SS, Bays PM, Frith CD, Wolpert DM. Two eyes for an eye: the
-neuroscience of force escalation. *Science*.
-2003;301(5630):187. doi:[10.1126/science.1085327](https://doi.org/10.1126/science.1085327)
+neuroscience of force escalation. *Science*. 2003;301(5630):187.
+doi:[10.1126/science.1085327](https://doi.org/10.1126/science.1085327)
 
 Bays PM, Wolpert DM, Flanagan JR. Perception of the consequences of self-action
-is temporally tuned and event driven. *Current Biology*.
-2005;15(12):1125-1128. doi:[10.1016/j.cub.2005.05.023](https://doi.org/10.1016/j.cub.2005.05.023)
+is temporally tuned and event driven. *Current Biology*. 2005;15(12):1125-1128.
+doi:[10.1016/j.cub.2005.05.023](https://doi.org/10.1016/j.cub.2005.05.023)
 
 Kilteni K, Ehrsson HH. Body ownership determines the attenuation of
-self-generated tactile sensations. *PNAS*.
-2017;114(31):8426-8431. doi:[10.1073/pnas.1703347114](https://doi.org/10.1073/pnas.1703347114)
+self-generated tactile sensations. *PNAS*. 2017;114(31):8426-8431.
+doi:[10.1073/pnas.1703347114](https://doi.org/10.1073/pnas.1703347114)
 
 Kuramsal çerçeve:
 
 Brown H, Adams RA, Parees I, Edwards M, Friston K. Active inference, sensory
-attenuation and illusions. *Cognitive Processing*.
-2013;14(4):411-427. doi:[10.1007/s10339-013-0571-3](https://doi.org/10.1007/s10339-013-0571-3)
+attenuation and illusions. *Cognitive Processing*. 2013;14(4):411-427.
+doi:[10.1007/s10339-013-0571-3](https://doi.org/10.1007/s10339-013-0571-3)
 
 Klinik bulgular:
 
 Blakemore SJ, Smith J, Steel R, Johnstone EC, Frith CD. The perception of
 self-produced sensory stimuli in patients with auditory hallucinations and
-passivity experiences. *Psychological Medicine*.
-2000;30(5):1131-1139. doi:[10.1017/S0033291799002676](https://doi.org/10.1017/S0033291799002676)
+passivity experiences. *Psychological Medicine*. 2000;30(5):1131-1139.
+doi:[10.1017/S0033291799002676](https://doi.org/10.1017/S0033291799002676)
 
 Shergill SS, Samson G, Bays PM, Frith CD, Wolpert DM. Evidence for sensory
 prediction deficits in schizophrenia. *American Journal of Psychiatry*.
-2005;162(12):2384-2386. doi:[10.1176/appi.ajp.162.12.2384](https://doi.org/10.1176/appi.ajp.162.12.2384)
+2005;162(12):2384-2386.
+doi:[10.1176/appi.ajp.162.12.2384](https://doi.org/10.1176/appi.ajp.162.12.2384)
 
 Shergill SS, White TP, Joyce DW, Bays PM, Wolpert DM, Frith CD. Functional
 magnetic resonance imaging of impaired sensory prediction in schizophrenia.
-*JAMA Psychiatry*.
-2014;71(1):28-35. doi:[10.1001/jamapsychiatry.2013.2974](https://doi.org/10.1001/jamapsychiatry.2013.2974)
+*JAMA Psychiatry*. 2014;71(1):28-35.
+doi:[10.1001/jamapsychiatry.2013.2974](https://doi.org/10.1001/jamapsychiatry.2013.2974)
 
 Teufel C, Kingdon A, Ingram JN, Wolpert DM, Fletcher PC. Deficits in sensory
 prediction are related to delusional ideation in healthy individuals.
-*Neuropsychologia*.
-2010;48(14):4169-4172. doi:[10.1016/j.neuropsychologia.2010.10.024](https://doi.org/10.1016/j.neuropsychologia.2010.10.024)
+*Neuropsychologia*. 2010;48(14):4169-4172.
+doi:[10.1016/j.neuropsychologia.2010.10.024](https://doi.org/10.1016/j.neuropsychologia.2010.10.024)
 
 Pareés I, Brown H, Nuruki A, Adams RA, Davare M, Bhatia KP, Friston K, Edwards
 MJ. Loss of sensory attenuation in patients with functional (psychogenic)
@@ -884,23 +885,24 @@ movement disorders. *Brain*.
 
 Marotta A, Pizzolla E, Di Vico IA, Tinazzi M, Emadi Andani M, Fiorio M. Reduced
 sensory attenuation as a marker of pathological fatigue: evidence from
-Parkinson's disease. *Cortex*.
-2026;200:1-13. doi:[10.1016/j.cortex.2026.04.001](https://doi.org/10.1016/j.cortex.2026.04.001)
+Parkinson's disease. *Cortex*. 2026;200:1-13.
+doi:[10.1016/j.cortex.2026.04.001](https://doi.org/10.1016/j.cortex.2026.04.001)
 
 McNaughton D, Beath A, Hush J, Jones M. Perceptual sensory attenuation in
-chronic pain subjects and healthy controls. *Scientific Reports*.
-2022;12:8958. doi:[10.1038/s41598-022-13175-4](https://doi.org/10.1038/s41598-022-13175-4)
+chronic pain subjects and healthy controls. *Scientific Reports*. 2022;12:8958.
+doi:[10.1038/s41598-022-13175-4](https://doi.org/10.1038/s41598-022-13175-4)
 
 Yöntem ve ölçüm:
 
 McNaughton D, Hope R, Gray E, Xavier F, Beath A, Jones M. Methodological
 considerations for the force-matching task. *Behavior Research Methods*.
-2023;55(6):2979-2988. doi:[10.3758/s13428-022-01954-w](https://doi.org/10.3758/s13428-022-01954-w)
+2023;55(6):2979-2988.
+doi:[10.3758/s13428-022-01954-w](https://doi.org/10.3758/s13428-022-01954-w)
 
 McNaughton D, Bacigalupo C, Georghiades A, Beath A, Hush J, Jones M. Design,
 development and functionality of a haptic force-matching device for measuring
-sensory attenuation. *Behavior Research Methods*.
-2021;53(6):2689-2699. doi:[10.3758/s13428-021-01605-6](https://doi.org/10.3758/s13428-021-01605-6)
+sensory attenuation. *Behavior Research Methods*. 2021;53(6):2689-2699.
+doi:[10.3758/s13428-021-01605-6](https://doi.org/10.3758/s13428-021-01605-6)
 
 Valè N, Tomić I, Gironés Z, Wolpert DM, Kilteni K, Bays PM. Divisive attenuation
 based on noisy sensorimotor predictions accounts for excess variability in
@@ -1064,15 +1066,15 @@ behavioral data. *eLife*.
 2019;8:e49547. doi:[10.7554/eLife.49547](https://doi.org/10.7554/eLife.49547)
 
 Rigoux L, Stephan KE, Friston KJ, Daunizeau J. Bayesian model selection for
-group studies, revisited. *NeuroImage*.
-2014;84:971-985. doi:[10.1016/j.neuroimage.2013.08.065](https://doi.org/10.1016/j.neuroimage.2013.08.065)
+group studies, revisited. *NeuroImage*. 2014;84:971-985.
+doi:[10.1016/j.neuroimage.2013.08.065](https://doi.org/10.1016/j.neuroimage.2013.08.065)
 
 Modeli uygulayan yazılım:
 
 Frässle S, Aponte EA, Bollmann S, ve ark. TAPAS: an open-source software package
 for translational neuromodeling and computational psychiatry. *Frontiers in
-Psychiatry*.
-2021;12:680811. doi:[10.3389/fpsyt.2021.680811](https://doi.org/10.3389/fpsyt.2021.680811)
+Psychiatry*. 2021;12:680811.
+doi:[10.3389/fpsyt.2021.680811](https://doi.org/10.3389/fpsyt.2021.680811)
 
 [← notlar](../notlar.qmd) ·
 [duyusal azaltım](duyusal-azaltim.qmd) ·
@@ -1217,16 +1219,16 @@ güncelleme yazısında](sizofrenide-inanc-guncelleme.qmd).
 Çerçevenin kendisi:
 
 Friston K, Kiebel S. Predictive coding under the free-energy principle.
-*Philosophical Transactions of the Royal Society B*.
-2009;364(1521):1211-1221. doi:[10.1098/rstb.2008.0300](https://doi.org/10.1098/rstb.2008.0300)
+*Philosophical Transactions of the Royal Society B*. 2009;364(1521):1211-1221.
+doi:[10.1098/rstb.2008.0300](https://doi.org/10.1098/rstb.2008.0300)
 
 Feldman H, Friston KJ. Attention, uncertainty, and free-energy. *Frontiers in
 Human Neuroscience*.
 2010;4:215. doi:[10.3389/fnhum.2010.00215](https://doi.org/10.3389/fnhum.2010.00215)
 
 Clark A. Whatever next? Predictive brains, situated agents, and the future of
-cognitive science. *Behavioral and Brain Sciences*.
-2013;36(3):181-204. doi:[10.1017/S0140525X12000477](https://doi.org/10.1017/S0140525X12000477)
+cognitive science. *Behavioral and Brain Sciences*. 2013;36(3):181-204.
+doi:[10.1017/S0140525X12000477](https://doi.org/10.1017/S0140525X12000477)
 
 Psikoz:
 
@@ -1235,17 +1237,17 @@ of psychosis. *Frontiers in Psychiatry*.
 2013;4:47. doi:[10.3389/fpsyt.2013.00047](https://doi.org/10.3389/fpsyt.2013.00047)
 
 Sterzer P, Adams RA, Fletcher P, ve ark. The predictive coding account of
-psychosis. *Biological Psychiatry*.
-2018;84(9):634-643. doi:[10.1016/j.biopsych.2018.05.015](https://doi.org/10.1016/j.biopsych.2018.05.015)
+psychosis. *Biological Psychiatry*. 2018;84(9):634-643.
+doi:[10.1016/j.biopsych.2018.05.015](https://doi.org/10.1016/j.biopsych.2018.05.015)
 
 Corlett PR, Honey GD, Fletcher PC. Prediction error, ketamine and psychosis: an
-updated model. *Journal of Psychopharmacology*.
-2016;30(11):1145-1155. doi:[10.1177/0269881116650087](https://doi.org/10.1177/0269881116650087)
+updated model. *Journal of Psychopharmacology*. 2016;30(11):1145-1155.
+doi:[10.1177/0269881116650087](https://doi.org/10.1177/0269881116650087)
 
 Haarsma J, Fletcher PC, Griffin JD, ve ark. Precision weighting of cortical
 unsigned prediction error signals benefits learning, is mediated by dopamine,
-and is impaired in psychosis. *Molecular Psychiatry*.
-2021;26(9):5320-5333. doi:[10.1038/s41380-020-0803-8](https://doi.org/10.1038/s41380-020-0803-8)
+and is impaired in psychosis. *Molecular Psychiatry*. 2021;26(9):5320-5333.
+doi:[10.1038/s41380-020-0803-8](https://doi.org/10.1038/s41380-020-0803-8)
 
 Benrimoh D, Fisher VL, Seabury R, ve ark. Evidence for reduced sensory precision
 and increased reliance on priors in hallucination-prone individuals in a general
@@ -1254,8 +1256,8 @@ population sample. *Schizophrenia Bulletin*.
 
 Goodwin I, Kugel J, Hester R, Garrido MI. Bayesian accounts of perceptual
 decisions in the nonclinical continuum of psychosis. *PLOS Computational
-Biology*.
-2023;19(11):e1011670. doi:[10.1371/journal.pcbi.1011670](https://doi.org/10.1371/journal.pcbi.1011670)
+Biology*. 2023;19(11):e1011670.
+doi:[10.1371/journal.pcbi.1011670](https://doi.org/10.1371/journal.pcbi.1011670)
 
 Otizm:
 
@@ -1264,40 +1266,41 @@ worlds: predictive coding in autism. *Psychological Review*.
 2014;121(4):649-675. doi:[10.1037/a0037665](https://doi.org/10.1037/a0037665)
 
 Friston KJ, Lawson R, Frith CD. On hyperpriors and hypopriors: comment on
-Pellicano and Burr. *Trends in Cognitive Sciences*.
-2013;17(1):1. doi:[10.1016/j.tics.2012.11.003](https://doi.org/10.1016/j.tics.2012.11.003)
+Pellicano and Burr. *Trends in Cognitive Sciences*. 2013;17(1):1.
+doi:[10.1016/j.tics.2012.11.003](https://doi.org/10.1016/j.tics.2012.11.003)
 
 Arthur T, Vine S, Buckingham G, Brosnan M, Wilson M, Harris D. Testing
 predictive coding theories of autism spectrum disorder using models of active
-inference. *PLOS Computational Biology*.
-2023;19(9):e1011473. doi:[10.1371/journal.pcbi.1011473](https://doi.org/10.1371/journal.pcbi.1011473)
+inference. *PLOS Computational Biology*. 2023;19(9):e1011473.
+doi:[10.1371/journal.pcbi.1011473](https://doi.org/10.1371/journal.pcbi.1011473)
 
 Beden ve duygu:
 
 Seth AK, Friston KJ. Active interoceptive inference and the emotional brain.
-*Philosophical Transactions of the Royal Society B*.
-2016;371(1708):20160007. doi:[10.1098/rstb.2016.0007](https://doi.org/10.1098/rstb.2016.0007)
+*Philosophical Transactions of the Royal Society B*. 2016;371(1708):20160007.
+doi:[10.1098/rstb.2016.0007](https://doi.org/10.1098/rstb.2016.0007)
 
 Smith R, Kuplicki R, Feinstein J, ve ark. A Bayesian computational model reveals
 a failure to adapt interoceptive precision estimates across depression, anxiety,
 eating, and substance use disorders. *PLOS Computational Biology*.
-2020;16(12):e1008484. doi:[10.1371/journal.pcbi.1008484](https://doi.org/10.1371/journal.pcbi.1008484)
+2020;16(12):e1008484.
+doi:[10.1371/journal.pcbi.1008484](https://doi.org/10.1371/journal.pcbi.1008484)
 
 Çerçeveye itirazlar:
 
 Qela B, Damiani S, De Santis S, ve ark. Predictive coding in neuropsychiatric
 disorders: a systematic transdiagnostic review. *Neuroscience and Biobehavioral
-Reviews*.
-2025;169:106020. doi:[10.1016/j.neubiorev.2025.106020](https://doi.org/10.1016/j.neubiorev.2025.106020)
+Reviews*. 2025;169:106020.
+doi:[10.1016/j.neubiorev.2025.106020](https://doi.org/10.1016/j.neubiorev.2025.106020)
 
 Mancini V, Nour MM. If mismatch negativity is the answer, what is the question?
 On the nature of predictive coding abnormalities in psychosis. *Biological
-Psychiatry Global Open Science*.
-2025;5(1):100412. doi:[10.1016/j.bpsgos.2024.100412](https://doi.org/10.1016/j.bpsgos.2024.100412)
+Psychiatry Global Open Science*. 2025;5(1):100412.
+doi:[10.1016/j.bpsgos.2024.100412](https://doi.org/10.1016/j.bpsgos.2024.100412)
 
 Alotaibi AS. Predictive coding in psychopathology: mechanistic model or
-metaphorical re-description? *Frontiers in Human Neuroscience*.
-2026;19:1743028. doi:[10.3389/fnhum.2025.1743028](https://doi.org/10.3389/fnhum.2025.1743028)
+metaphorical re-description? *Frontiers in Human Neuroscience*. 2026;19:1743028.
+doi:[10.3389/fnhum.2025.1743028](https://doi.org/10.3389/fnhum.2025.1743028)
 
 [← notlar](../notlar.qmd) ·
 [HGF nedir](hgf-nedir.qmd) ·
@@ -1461,7 +1464,8 @@ Klasik bulgu ve meta-analizler:
 
 Moritz S, Woodward TS. Jumping to conclusions in delusional and non-delusional
 schizophrenic patients. *British Journal of Clinical Psychology*.
-2005;44(2):193-207. doi:[10.1348/014466505X35678](https://doi.org/10.1348/014466505X35678)
+2005;44(2):193-207.
+doi:[10.1348/014466505X35678](https://doi.org/10.1348/014466505X35678)
 
 Dudley R, Taylor P, Wickham S, Hutton P. Psychosis, delusions and the "jumping
 to conclusions" reasoning bias: a systematic review and meta-analysis.
@@ -1475,8 +1479,8 @@ beads task? A meta-analysis of delusional ideation and data-gathering.
 
 Fine C, Gardner M, Craigie J, Gold I. Hopping, skipping or jumping to
 conclusions? Clarifying the role of the JTC bias in delusions. *Cognitive
-Neuropsychiatry*.
-2007;12(1):46-77. doi:[10.1080/13546800600750597](https://doi.org/10.1080/13546800600750597)
+Neuropsychiatry*. 2007;12(1):46-77.
+doi:[10.1080/13546800600750597](https://doi.org/10.1080/13546800600750597)
 
 Lincoln TM, Ziegler M, Mehl S, Rief W. The jumping to conclusions bias in
 delusions: specificity and changeability. *Journal of Abnormal Psychology*.
@@ -1491,8 +1495,8 @@ is not linked to impulsive decision-making. *Schizophrenia Bulletin*.
 
 Balzan RP, Delfabbro PH, Galletly CA, Woodward TS. Over-adjustment or
 miscomprehension? A re-examination of the jumping to conclusions bias.
-*Australian & New Zealand Journal of Psychiatry*.
-2012;46(6):532-540. doi:[10.1177/0004867411435291](https://doi.org/10.1177/0004867411435291)
+*Australian & New Zealand Journal of Psychiatry*. 2012;46(6):532-540.
+doi:[10.1177/0004867411435291](https://doi.org/10.1177/0004867411435291)
 
 Speechley WJ, Whitman JC, Woodward TS. The contribution of hypersalience to the
 "jumping to conclusions" bias associated with delusions in schizophrenia.
@@ -1508,12 +1512,13 @@ metacognitive training. *Schizophrenia Bulletin*.
 
 Fromm S, Katthagen T, Deserno L, Heinz A, Kaminski J, Schlagenhauf F. Belief
 updating in subclinical and clinical delusions. *Schizophrenia Bulletin Open*.
-2022;4(1):sgac074. doi:[10.1093/schizbullopen/sgac074](https://doi.org/10.1093/schizbullopen/sgac074)
+2022;4(1):sgac074.
+doi:[10.1093/schizbullopen/sgac074](https://doi.org/10.1093/schizbullopen/sgac074)
 
 Sheffield JM, Suthaharan P, Leptourgos P, Corlett PR. Belief updating and
 paranoia in individuals with schizophrenia. *Biological Psychiatry: Cognitive
-Neuroscience and Neuroimaging*.
-2022;7(11):1149-1157. doi:[10.1016/j.bpsc.2022.03.013](https://doi.org/10.1016/j.bpsc.2022.03.013)
+Neuroscience and Neuroimaging*. 2022;7(11):1149-1157.
+doi:[10.1016/j.bpsc.2022.03.013](https://doi.org/10.1016/j.bpsc.2022.03.013)
 
 Sloan AF, Kittleson AR, Torregrossa LJ, ve ark. Belief updating, childhood
 maltreatment, and paranoia in schizophrenia-spectrum disorders. *Schizophrenia
@@ -1522,29 +1527,30 @@ Bulletin*.
 
 Mikus N, Lamm C, Mathys C. Computational phenotyping of aberrant belief updating
 in individuals with schizotypal traits and schizophrenia. *Biological
-Psychiatry*.
-2025;97(2):188-197. doi:[10.1016/j.biopsych.2024.08.021](https://doi.org/10.1016/j.biopsych.2024.08.021)
+Psychiatry*. 2025;97(2):188-197.
+doi:[10.1016/j.biopsych.2024.08.021](https://doi.org/10.1016/j.biopsych.2024.08.021)
 
 Mashima Y, Shinagawa K, Suzuki H, ve ark. Post-conclusion belief inflexibility
 bias assessed by a modified beads task in schizophrenia. *Schizophrenia
-Research*.
-2026;296:121-129. doi:[10.1016/j.schres.2026.07.002](https://doi.org/10.1016/j.schres.2026.07.002)
+Research*. 2026;296:121-129.
+doi:[10.1016/j.schres.2026.07.002](https://doi.org/10.1016/j.schres.2026.07.002)
 
 Derlemeler ve ölçüm:
 
 Katthagen T, Fromm S, Wieland L, Schlagenhauf F. Models of dynamic belief
 updating in psychosis: a review across different computational approaches.
-*Frontiers in Psychiatry*.
-2022;13:814111. doi:[10.3389/fpsyt.2022.814111](https://doi.org/10.3389/fpsyt.2022.814111)
+*Frontiers in Psychiatry*. 2022;13:814111.
+doi:[10.3389/fpsyt.2022.814111](https://doi.org/10.3389/fpsyt.2022.814111)
 
 Gibbs-Dean T, Katthagen T, Tsenkova I, ve ark. Belief updating in psychosis,
 depression and anxiety disorders: a systematic review across computational
-modelling approaches. *Neuroscience and Biobehavioral Reviews*.
-2023;147:105087. doi:[10.1016/j.neubiorev.2023.105087](https://doi.org/10.1016/j.neubiorev.2023.105087)
+modelling approaches. *Neuroscience and Biobehavioral Reviews*. 2023;147:105087.
+doi:[10.1016/j.neubiorev.2023.105087](https://doi.org/10.1016/j.neubiorev.2023.105087)
 
 Karvelis P, Hauke DJ, Wobmann M, ve ark. Test-retest reliability of behavioral
 and computational measures of advice taking under volatility. *PLOS ONE*.
-2024;19(11):e0312255. doi:[10.1371/journal.pone.0312255](https://doi.org/10.1371/journal.pone.0312255)
+2024;19(11):e0312255.
+doi:[10.1371/journal.pone.0312255](https://doi.org/10.1371/journal.pone.0312255)
 
 Hess AJ, Iglesias S, Köchli L, ve ark. Bayesian workflow for generative modeling
 in computational psychiatry. *Computational Psychiatry*.
@@ -2351,7 +2357,8 @@ The classic finding and the meta-analyses:
 
 Moritz S, Woodward TS. Jumping to conclusions in delusional and non-delusional
 schizophrenic patients. *British Journal of Clinical Psychology*.
-2005;44(2):193-207. doi:[10.1348/014466505X35678](https://doi.org/10.1348/014466505X35678)
+2005;44(2):193-207.
+doi:[10.1348/014466505X35678](https://doi.org/10.1348/014466505X35678)
 
 Dudley R, Taylor P, Wickham S, Hutton P. Psychosis, delusions and the "jumping
 to conclusions" reasoning bias: a systematic review and meta-analysis.
@@ -2365,8 +2372,8 @@ beads task? A meta-analysis of delusional ideation and data-gathering.
 
 Fine C, Gardner M, Craigie J, Gold I. Hopping, skipping or jumping to
 conclusions? Clarifying the role of the JTC bias in delusions. *Cognitive
-Neuropsychiatry*.
-2007;12(1):46-77. doi:[10.1080/13546800600750597](https://doi.org/10.1080/13546800600750597)
+Neuropsychiatry*. 2007;12(1):46-77.
+doi:[10.1080/13546800600750597](https://doi.org/10.1080/13546800600750597)
 
 Lincoln TM, Ziegler M, Mehl S, Rief W. The jumping to conclusions bias in
 delusions: specificity and changeability. *Journal of Abnormal Psychology*.
@@ -2381,8 +2388,8 @@ is not linked to impulsive decision-making. *Schizophrenia Bulletin*.
 
 Balzan RP, Delfabbro PH, Galletly CA, Woodward TS. Over-adjustment or
 miscomprehension? A re-examination of the jumping to conclusions bias.
-*Australian & New Zealand Journal of Psychiatry*.
-2012;46(6):532-540. doi:[10.1177/0004867411435291](https://doi.org/10.1177/0004867411435291)
+*Australian & New Zealand Journal of Psychiatry*. 2012;46(6):532-540.
+doi:[10.1177/0004867411435291](https://doi.org/10.1177/0004867411435291)
 
 Speechley WJ, Whitman JC, Woodward TS. The contribution of hypersalience to the
 "jumping to conclusions" bias associated with delusions in schizophrenia.
@@ -2398,12 +2405,13 @@ metacognitive training. *Schizophrenia Bulletin*.
 
 Fromm S, Katthagen T, Deserno L, Heinz A, Kaminski J, Schlagenhauf F. Belief
 updating in subclinical and clinical delusions. *Schizophrenia Bulletin Open*.
-2022;4(1):sgac074. doi:[10.1093/schizbullopen/sgac074](https://doi.org/10.1093/schizbullopen/sgac074)
+2022;4(1):sgac074.
+doi:[10.1093/schizbullopen/sgac074](https://doi.org/10.1093/schizbullopen/sgac074)
 
 Sheffield JM, Suthaharan P, Leptourgos P, Corlett PR. Belief updating and
 paranoia in individuals with schizophrenia. *Biological Psychiatry: Cognitive
-Neuroscience and Neuroimaging*.
-2022;7(11):1149-1157. doi:[10.1016/j.bpsc.2022.03.013](https://doi.org/10.1016/j.bpsc.2022.03.013)
+Neuroscience and Neuroimaging*. 2022;7(11):1149-1157.
+doi:[10.1016/j.bpsc.2022.03.013](https://doi.org/10.1016/j.bpsc.2022.03.013)
 
 Sloan AF, Kittleson AR, Torregrossa LJ, et al. Belief updating, childhood
 maltreatment, and paranoia in schizophrenia-spectrum disorders. *Schizophrenia
@@ -2412,29 +2420,30 @@ Bulletin*.
 
 Mikus N, Lamm C, Mathys C. Computational phenotyping of aberrant belief updating
 in individuals with schizotypal traits and schizophrenia. *Biological
-Psychiatry*.
-2025;97(2):188-197. doi:[10.1016/j.biopsych.2024.08.021](https://doi.org/10.1016/j.biopsych.2024.08.021)
+Psychiatry*. 2025;97(2):188-197.
+doi:[10.1016/j.biopsych.2024.08.021](https://doi.org/10.1016/j.biopsych.2024.08.021)
 
 Mashima Y, Shinagawa K, Suzuki H, et al. Post-conclusion belief inflexibility
 bias assessed by a modified beads task in schizophrenia. *Schizophrenia
-Research*.
-2026;296:121-129. doi:[10.1016/j.schres.2026.07.002](https://doi.org/10.1016/j.schres.2026.07.002)
+Research*. 2026;296:121-129.
+doi:[10.1016/j.schres.2026.07.002](https://doi.org/10.1016/j.schres.2026.07.002)
 
 Reviews and measurement:
 
 Katthagen T, Fromm S, Wieland L, Schlagenhauf F. Models of dynamic belief
 updating in psychosis: a review across different computational approaches.
-*Frontiers in Psychiatry*.
-2022;13:814111. doi:[10.3389/fpsyt.2022.814111](https://doi.org/10.3389/fpsyt.2022.814111)
+*Frontiers in Psychiatry*. 2022;13:814111.
+doi:[10.3389/fpsyt.2022.814111](https://doi.org/10.3389/fpsyt.2022.814111)
 
 Gibbs-Dean T, Katthagen T, Tsenkova I, et al. Belief updating in psychosis,
 depression and anxiety disorders: a systematic review across computational
-modelling approaches. *Neuroscience and Biobehavioral Reviews*.
-2023;147:105087. doi:[10.1016/j.neubiorev.2023.105087](https://doi.org/10.1016/j.neubiorev.2023.105087)
+modelling approaches. *Neuroscience and Biobehavioral Reviews*. 2023;147:105087.
+doi:[10.1016/j.neubiorev.2023.105087](https://doi.org/10.1016/j.neubiorev.2023.105087)
 
 Karvelis P, Hauke DJ, Wobmann M, et al. Test-retest reliability of behavioral
 and computational measures of advice taking under volatility. *PLOS ONE*.
-2024;19(11):e0312255. doi:[10.1371/journal.pone.0312255](https://doi.org/10.1371/journal.pone.0312255)
+2024;19(11):e0312255.
+doi:[10.1371/journal.pone.0312255](https://doi.org/10.1371/journal.pone.0312255)
 
 Hess AJ, Iglesias S, Köchli L, et al. Bayesian workflow for generative modeling
 in computational psychiatry. *Computational Psychiatry*.
@@ -2598,15 +2607,15 @@ behavioral data. *eLife*.
 2019;8:e49547. doi:[10.7554/eLife.49547](https://doi.org/10.7554/eLife.49547)
 
 Rigoux L, Stephan KE, Friston KJ, Daunizeau J. Bayesian model selection for
-group studies, revisited. *NeuroImage*.
-2014;84:971-985. doi:[10.1016/j.neuroimage.2013.08.065](https://doi.org/10.1016/j.neuroimage.2013.08.065)
+group studies, revisited. *NeuroImage*. 2014;84:971-985.
+doi:[10.1016/j.neuroimage.2013.08.065](https://doi.org/10.1016/j.neuroimage.2013.08.065)
 
 The software that implements it:
 
 Frässle S, Aponte EA, Bollmann S, et al. TAPAS: an open-source software package
 for translational neuromodeling and computational psychiatry. *Frontiers in
-Psychiatry*.
-2021;12:680811. doi:[10.3389/fpsyt.2021.680811](https://doi.org/10.3389/fpsyt.2021.680811)
+Psychiatry*. 2021;12:680811.
+doi:[10.3389/fpsyt.2021.680811](https://doi.org/10.3389/fpsyt.2021.680811)
 
 [← notes](../notes.qmd) ·
 [sensory attenuation](sensory-attenuation.qmd) ·
@@ -2785,43 +2794,44 @@ sensation. *Nature Neuroscience*.
 1998;1(7):635-640. doi:[10.1038/2870](https://doi.org/10.1038/2870)
 
 Shergill SS, Bays PM, Frith CD, Wolpert DM. Two eyes for an eye: the
-neuroscience of force escalation. *Science*.
-2003;301(5630):187. doi:[10.1126/science.1085327](https://doi.org/10.1126/science.1085327)
+neuroscience of force escalation. *Science*. 2003;301(5630):187.
+doi:[10.1126/science.1085327](https://doi.org/10.1126/science.1085327)
 
 Bays PM, Wolpert DM, Flanagan JR. Perception of the consequences of self-action
-is temporally tuned and event driven. *Current Biology*.
-2005;15(12):1125-1128. doi:[10.1016/j.cub.2005.05.023](https://doi.org/10.1016/j.cub.2005.05.023)
+is temporally tuned and event driven. *Current Biology*. 2005;15(12):1125-1128.
+doi:[10.1016/j.cub.2005.05.023](https://doi.org/10.1016/j.cub.2005.05.023)
 
 Kilteni K, Ehrsson HH. Body ownership determines the attenuation of
-self-generated tactile sensations. *PNAS*.
-2017;114(31):8426-8431. doi:[10.1073/pnas.1703347114](https://doi.org/10.1073/pnas.1703347114)
+self-generated tactile sensations. *PNAS*. 2017;114(31):8426-8431.
+doi:[10.1073/pnas.1703347114](https://doi.org/10.1073/pnas.1703347114)
 
 The theoretical account:
 
 Brown H, Adams RA, Parees I, Edwards M, Friston K. Active inference, sensory
-attenuation and illusions. *Cognitive Processing*.
-2013;14(4):411-427. doi:[10.1007/s10339-013-0571-3](https://doi.org/10.1007/s10339-013-0571-3)
+attenuation and illusions. *Cognitive Processing*. 2013;14(4):411-427.
+doi:[10.1007/s10339-013-0571-3](https://doi.org/10.1007/s10339-013-0571-3)
 
 Clinical findings:
 
 Blakemore SJ, Smith J, Steel R, Johnstone EC, Frith CD. The perception of
 self-produced sensory stimuli in patients with auditory hallucinations and
-passivity experiences. *Psychological Medicine*.
-2000;30(5):1131-1139. doi:[10.1017/S0033291799002676](https://doi.org/10.1017/S0033291799002676)
+passivity experiences. *Psychological Medicine*. 2000;30(5):1131-1139.
+doi:[10.1017/S0033291799002676](https://doi.org/10.1017/S0033291799002676)
 
 Shergill SS, Samson G, Bays PM, Frith CD, Wolpert DM. Evidence for sensory
 prediction deficits in schizophrenia. *American Journal of Psychiatry*.
-2005;162(12):2384-2386. doi:[10.1176/appi.ajp.162.12.2384](https://doi.org/10.1176/appi.ajp.162.12.2384)
+2005;162(12):2384-2386.
+doi:[10.1176/appi.ajp.162.12.2384](https://doi.org/10.1176/appi.ajp.162.12.2384)
 
 Shergill SS, White TP, Joyce DW, Bays PM, Wolpert DM, Frith CD. Functional
 magnetic resonance imaging of impaired sensory prediction in schizophrenia.
-*JAMA Psychiatry*.
-2014;71(1):28-35. doi:[10.1001/jamapsychiatry.2013.2974](https://doi.org/10.1001/jamapsychiatry.2013.2974)
+*JAMA Psychiatry*. 2014;71(1):28-35.
+doi:[10.1001/jamapsychiatry.2013.2974](https://doi.org/10.1001/jamapsychiatry.2013.2974)
 
 Teufel C, Kingdon A, Ingram JN, Wolpert DM, Fletcher PC. Deficits in sensory
 prediction are related to delusional ideation in healthy individuals.
-*Neuropsychologia*.
-2010;48(14):4169-4172. doi:[10.1016/j.neuropsychologia.2010.10.024](https://doi.org/10.1016/j.neuropsychologia.2010.10.024)
+*Neuropsychologia*. 2010;48(14):4169-4172.
+doi:[10.1016/j.neuropsychologia.2010.10.024](https://doi.org/10.1016/j.neuropsychologia.2010.10.024)
 
 Pareés I, Brown H, Nuruki A, Adams RA, Davare M, Bhatia KP, Friston K, Edwards
 MJ. Loss of sensory attenuation in patients with functional (psychogenic)
@@ -2830,23 +2840,24 @@ movement disorders. *Brain*.
 
 Marotta A, Pizzolla E, Di Vico IA, Tinazzi M, Emadi Andani M, Fiorio M. Reduced
 sensory attenuation as a marker of pathological fatigue: evidence from
-Parkinson's disease. *Cortex*.
-2026;200:1-13. doi:[10.1016/j.cortex.2026.04.001](https://doi.org/10.1016/j.cortex.2026.04.001)
+Parkinson's disease. *Cortex*. 2026;200:1-13.
+doi:[10.1016/j.cortex.2026.04.001](https://doi.org/10.1016/j.cortex.2026.04.001)
 
 McNaughton D, Beath A, Hush J, Jones M. Perceptual sensory attenuation in
-chronic pain subjects and healthy controls. *Scientific Reports*.
-2022;12:8958. doi:[10.1038/s41598-022-13175-4](https://doi.org/10.1038/s41598-022-13175-4)
+chronic pain subjects and healthy controls. *Scientific Reports*. 2022;12:8958.
+doi:[10.1038/s41598-022-13175-4](https://doi.org/10.1038/s41598-022-13175-4)
 
 Method and measurement:
 
 McNaughton D, Hope R, Gray E, Xavier F, Beath A, Jones M. Methodological
 considerations for the force-matching task. *Behavior Research Methods*.
-2023;55(6):2979-2988. doi:[10.3758/s13428-022-01954-w](https://doi.org/10.3758/s13428-022-01954-w)
+2023;55(6):2979-2988.
+doi:[10.3758/s13428-022-01954-w](https://doi.org/10.3758/s13428-022-01954-w)
 
 McNaughton D, Bacigalupo C, Georghiades A, Beath A, Hush J, Jones M. Design,
 development and functionality of a haptic force-matching device for measuring
-sensory attenuation. *Behavior Research Methods*.
-2021;53(6):2689-2699. doi:[10.3758/s13428-021-01605-6](https://doi.org/10.3758/s13428-021-01605-6)
+sensory attenuation. *Behavior Research Methods*. 2021;53(6):2689-2699.
+doi:[10.3758/s13428-021-01605-6](https://doi.org/10.3758/s13428-021-01605-6)
 
 Valè N, Tomić I, Gironés Z, Wolpert DM, Kilteni K, Bays PM. Divisive attenuation
 based on noisy sensorimotor predictions accounts for excess variability in
