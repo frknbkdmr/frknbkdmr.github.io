@@ -50,6 +50,42 @@ Aramanın bir sınırı da şu: İngilizce arama motorları DergiPark ve TR Dizi
 Türkçe akademik veri tabanlarını zayıf indeksliyor. Her terim için ayrıca
 hedefli tarama yaptım, ama bulunamadı demek yok demek değil.
 
+## Doğru karşılık, aranan karşılık {.k-head}
+
+Liste baştan beri tek bir soru soruyordu: karşılık Türkçe akademik yazıda
+yerleşik mi. Sonradan ikinci bir soru çıktı ve cevabı çoğu zaman aynı değil.
+Yerleşik olmak ile aranıyor olmak ayrı şeyler.
+
+11 Ağustos 2026'da birkaç terimi Google'da denedim. Ölçtüğüm şey arama hacmi
+değil, motorun terimi tanıyıp tanımadığı. Google sorgudan kelime düşürüyorsa
+("Eksik: ..." uyarısı) ve ilk sayfa bambaşka bir alandan geliyorsa, o karşılık
+Türkçede aranmıyor demektir.
+
+İkisi tanınıyor. `hesaplamalı psikiyatri` arandığında ilk sayfa çevrilmiş
+yabancı literatür ve kurumsal içerikle doluyor, yani terim dolaşımda. `öngörücü
+kodlama` da öyle. Buna karşılık `kestirimsel işlemleme` iş analitiğine kayıyor,
+kestirimsel analiz ve kestirimci bakım içeriği getiriyor; bu listede o
+karşılığın neden geçmediğinin ikinci bir gerekçesi.
+
+İkisi tanınmıyor. `hiyerarşik Gauss filtresi` arandığında ilk sayfa görüntü
+işleme oluyor ve yedi sonuçta "Eksik: hiyerarşik" uyarısı çıkıyor; kavramla
+ilgili tek sonuç İngilizce. `duyusal azaltım` arandığında Google duyusal
+yoksunluk ve duyu bütünleme içeriği getiriyor.
+
+Aynı taramada `bayesçi beyin kuramı` sorgusunun gerçek bir karşılığı olduğu da
+çıktı; ilk sayfada Türkçe nörobilim yazıları ve bir bilişsel bilim
+topluluğunun sayfaları var.
+
+İki şeyi ayrı tutmak gerekiyor. Bu, karşılığın yanlış olduğu anlamına gelmiyor.
+"Duyusal azaltım" doğru bir karşılık; kimsenin aramaması terimin Türkçede henüz
+dolaşıma girmemiş olmasından. Listenin işi doğru karşılığı kaydetmek, popüler
+olanı seçmek değil. Bu satırlar okura yazan biri için ek bilgi: ilk geçişte
+İngilizcesini vermek, aranmayan bir terimde aranandan daha gerekli.
+
+Ölçüm dört terimle sınırlı ve gizli sekmede yapılmadı, yani sonuçlar
+kişiselleştirilmiş olabilir. Kalan altmış altı terim ölçülmedi. Ölçülmedi demek,
+ölçüldü de bir şey çıkmadı demek değil.
+
 ## Model çerçevesi ve öğrenme kuramı {.k-head}
 
 ::: {.term}
