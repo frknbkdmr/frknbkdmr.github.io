@@ -1,6 +1,7 @@
 ---
 title: "Effort and reward in multiple sclerosis"
-description-meta: &desc "Separating fatigue from depression in multiple sclerosis by modelling effort-based decisions, with the Department of Neurology."
+pagetitle: "Effort-based decision making in MS fatigue"
+description-meta: &desc "Separating fatigue from depression in multiple sclerosis by modelling effort-based decisions, with the Department of Neurology. What the published literature has and has not settled."
 open-graph:
   description: *desc
 twitter-card:
@@ -16,6 +17,153 @@ With the Department of Neurology &middot; [in collection]{.status .live}
 Fatigue and depression in MS overlap on every questionnaire that tries to tell
 them apart. Effort-based decision making offers a behavioural separation:
 whether the cost of action or the value of the outcome is what has changed.
+
+## Where the overlap comes from {.k-head}
+
+Some of it is built into the instruments. Zaehle and Linnhoff compared two
+versions of the same depression inventory in MS. The full Beck Depression
+Inventory asks about tiredness, sleep and lost energy; its fast-screen form
+drops those items and keeps the mood ones. The correlation with fatigue was
+weaker on the shorter scale. Part of the link between fatigue and depression is
+two scales asking the same question and counting the answer twice.
+
+The rest is not a measurement artefact. Sparasci and colleagues assessed
+fatigue, sleepiness and depression with objective tools as well as
+questionnaires and still could not pull them apart. Chang and colleagues, in the
+FutureMS cohort of newly diagnosed patients, mapped the symptoms as a network
+and found fatigue attaching to particular depressive items rather than to
+depression as a whole.
+
+Enoka and colleagues argue that some of the confusion is a word. Fatigue is what
+a person reports feeling. Fatigability is the measurable decline in performance
+as a task goes on. The two track each other poorly, and a literature that uses
+one term for both will keep discovering overlaps it created itself.
+
+## What effort-based decision making measures {.k-head}
+
+The framework treats motivation as arithmetic. How much is the outcome worth,
+how much does getting it cost, and is the difference positive. A person is
+offered the same choice many times, a small reward for little work against a
+larger one for more, with the amounts varied. What comes out is the exchange
+rate between the two.
+
+This is worth doing because "I cannot get started" has at least two solutions.
+The reward may have stopped being worth anything, which is what anhedonia
+describes. Or the reward may be intact and the action have become expensive.
+Both produce the same sentence in clinic and different curves on the task.
+
+Husain and Roiser set out the case for reading apathy and anhedonia this way
+across diagnoses rather than inside one. The separation has since been shown
+directly in several diseases. Le Heron and colleagues found apathy and dopamine
+to have distinct effects on effort-based choice in Parkinson's disease. Saleh
+and colleagues, in small vessel cerebrovascular disease, pulled apathy and
+depression apart on different parameters of the same decision. Blouzard and
+colleagues pooled the schizophrenia studies and found a consistent reduction in
+willingness to work for reward.
+
+## What has been tried in MS {.k-head}
+
+Erani and colleagues ran the closest thing to this question. Forty patients and
+forty matched controls did a switching task with effort and reward varied
+independently, rating their fatigue as they went. Effort raised reported fatigue
+and reward improved performance, but the interaction between them, which is what
+the effort-reward account predicts, did not appear. The authors' own reading is
+that the reward manipulation may not have been salient enough to produce it.
+
+Müller and colleagues complicate the picture from another direction. Modelling
+two effort-based tasks, they found that willingness to work is not a fixed
+quantity: two hidden states of fatigue build up on different timescales, one
+recoverable by rest and one not, and both lower the value of effort. A single
+number for how effort-averse someone is may be averaging over something that
+moves while you measure it.
+
+Bogdanov and colleagues review the paradigms and find they differ enough,
+physical against cognitive effort, choice before against after exertion, demand
+stated against demand learned, that results do not transfer freely between them.
+Which task is used is part of the finding.
+
+So the question this project asks is open rather than answered, and the one
+attempt at it in MS was null. Data collection is running. Nothing is claimed
+here about what it will show.
+
+## References {.k-head}
+
+On the overlap and how it is measured:
+
+::: {.src}
+Zaehle T, Linnhoff S. Assessing the relation between fatigue and depression in
+multiple sclerosis: the impact of measurement choice. *Frontiers in Immunology*.
+2026;17:1838616. doi:[10.3389/fimmu.2026.1838616](https://doi.org/10.3389/fimmu.2026.1838616)
+:::
+
+::: {.src}
+Sparasci D, et al. Fatigue, sleepiness and depression in multiple sclerosis:
+defining the overlaps. *Journal of Neurology*. 2022;269:4961-4971.
+doi:[10.1007/s00415-022-11143-6](https://doi.org/10.1007/s00415-022-11143-6)
+:::
+
+::: {.src}
+Chang Y, Kearns PK, Carson A, et al. Network analysis characterizes key
+associations between subjective fatigue and specific depressive symptoms in
+early relapsing-remitting multiple sclerosis. *Multiple Sclerosis and Related
+Disorders*. 2023;69:104429.
+doi:[10.1016/j.msard.2022.104429](https://doi.org/10.1016/j.msard.2022.104429)
+:::
+
+::: {.src}
+Enoka RM, et al. Distinguishing between fatigue and fatigability in multiple
+sclerosis. *Neurorehabilitation and Neural Repair*. 2021;35:960-973.
+doi:[10.1177/15459683211046257](https://doi.org/10.1177/15459683211046257)
+:::
+
+The effort-based framework:
+
+::: {.src}
+Husain M, Roiser JP. Neuroscience of apathy and anhedonia: a transdiagnostic
+approach. *Nature Reviews Neuroscience*. 2018;19:470-484.
+doi:[10.1038/s41583-018-0029-9](https://doi.org/10.1038/s41583-018-0029-9)
+:::
+
+::: {.src}
+Le Heron C, et al. Distinct effects of apathy and dopamine on effort-based
+decision-making in Parkinson's disease. *Brain*. 2018;141:1455-1469.
+doi:[10.1093/brain/awy110](https://doi.org/10.1093/brain/awy110)
+:::
+
+::: {.src}
+Saleh Y, Le Heron C, Petitet P, et al. Apathy in small vessel cerebrovascular
+disease is associated with deficits in effort-based decision making. *Brain*.
+2021;144:1247-1262. doi:[10.1093/brain/awab013](https://doi.org/10.1093/brain/awab013)
+:::
+
+::: {.src}
+Blouzard E, Pouchon A, Polosan M, Bastin J, Dondé C. Effort-cost decision-making
+among individuals with schizophrenia. *JAMA Psychiatry*. 2023;80:548.
+doi:[10.1001/jamapsychiatry.2023.0553](https://doi.org/10.1001/jamapsychiatry.2023.0553)
+:::
+
+Applied to fatigue, and the caveats:
+
+::: {.src}
+Erani F, Patel D, Deck BL, Hamilton RH, Schultheis MT, Medaglia JD.
+Investigating the influence of an effort-reward interaction on cognitive fatigue
+in individuals with multiple sclerosis. *Journal of Neuropsychology*.
+2022;17:364-381. doi:[10.1111/jnp.12295](https://doi.org/10.1111/jnp.12295)
+:::
+
+::: {.src}
+Müller T, Klein-Flügge MC, Manohar SG, Husain M, Apps MAJ. Neural and
+computational mechanisms of momentary fatigue and persistence in effort-based
+choice. *Nature Communications*. 2021;12:4593.
+doi:[10.1038/s41467-021-24927-7](https://doi.org/10.1038/s41467-021-24927-7)
+:::
+
+::: {.src}
+Bogdanov M, et al. Shared and distinct features of common effort-based
+decision-making paradigms and their relation to brain structure and
+neuropsychiatric conditions. *Cognitive, Affective, & Behavioral Neuroscience*.
+2025;26:339-381. doi:[10.3758/s13415-025-01353-6](https://doi.org/10.3758/s13415-025-01353-6)
+:::
 
 ```{=html}
 <!-- A collaboration, so the Neurology department is named as a member
@@ -43,7 +191,9 @@ whether the cost of action or the value of the outcome is what has changed.
   "knowsAbout": [
     "Multiple sclerosis",
     "Fatigue",
+    "Fatigability",
     "Depression",
+    "Apathy",
     "Effort-based decision making",
     "Reward processing"
   ],
