@@ -665,9 +665,9 @@ olduğu yer, tam da uğruna kurulduğu yer.
 
 Klinik okur için · 17 kaynak · yayında
 
-### [Öngörü hatası, hassasiyet ve psikiyatrik belirti](notlar/ongoru-hatasi-ve-hassasiyet.qmd)
-Öngörü hatası ne demek, hassasiyet neyi belirler ve aynı çerçeve psikozdan
-otizme kadar nasıl her belirtiye uyabiliyor. Çerçevenin kapsayıcılığı aynı
+### [Bayesçi beyin, öngörü hatası ve psikiyatrik belirti](notlar/ongoru-hatasi-ve-hassasiyet.qmd)
+Öngörü hatası ne demek, hassasiyet neyi belirler ve öngörücü kodlama neden
+psikozdan otizme kadar her belirtiye uyabiliyor. Çerçevenin kapsayıcılığı aynı
 zamanda ona yöneltilen en ciddi itiraz.
 
 ## Planlanan yazılar
@@ -1085,7 +1085,7 @@ doi:[10.3389/fpsyt.2021.680811](https://doi.org/10.3389/fpsyt.2021.680811)
 
 ---
 
-# Öngörü hatası, hassasiyet ve psikiyatrik belirti
+# Bayesçi beyin, öngörü hatası ve psikiyatrik belirti
 
 URL: https://furkanbekdemir.com/notlar/ongoru-hatasi-ve-hassasiyet
 
@@ -1107,9 +1107,10 @@ duymazsınız, durduğu an fark edersiniz. Kulağınıza ulaşan ses ikisinde de
 değişen tek şey beklenip beklenmediği. Duyu organlarınızdan saniyede gelen
 sinyalin çoğu böyle, zaten beklediğiniz şey. Hepsini yukarı taşımak yerine
 yalnızca farkı taşırsanız, üst katmanlara giden yükün büyük kısmı düşer. Friston
-ve Kiebel'in serimlediği haliyle beyin bir kestirim hiyerarşisi: her katman
-altındakine ne göreceğini söylüyor, alttaki de yalnızca yanılma payını geri
-yolluyor.
+ve Kiebel'in serbest enerji ilkesi üzerinden serimlediği haliyle beyin bir
+kestirim hiyerarşisi: her katman altındakine ne göreceğini söylüyor, alttaki de
+yalnızca yanılma payını geri yolluyor. Çerçevenin toplu adı Bayesçi beyin;
+sinirsel uygulanışına verilen ad ise öngörücü kodlama (predictive coding).
 
 Buradan çıkan sonuç sezgiye aykırı. Algı, dışarıdan içeri akan bir şey değil,
 içeriden dışarı kurulan bir hipotezin duyusal veriyle sınanması. Clark'ın
@@ -1201,8 +1202,8 @@ bunun tersini düşünüyor zaten.
 Yetmiş iki çalışmayı tarayan Qela derlemesi bozuklukların hepsinde bir şeyler
 buluyor, ama bulunanlar birbirine benzemiyor. Mancini ve Nour meseleyi tek
 cümlede topluyor: bu kadar çok oynak parçası olan bir modeli bir yere sabitlemek
-zor. Alotaibi'nin 2026 derlemesi başlığında soruyor, kestirimsel işlemleme
-mekanizma modeli mi yoksa mecazi bir yeniden betimleme mi.
+zor. Alotaibi'nin 2026 derlemesi başlığında soruyor, öngörücü kodlama mekanizma
+modeli mi yoksa mecazi bir yeniden betimleme mi.
 
 Bir çerçevenin hem bir bulguyu hem tersini barındırabilmesi esneklik diye
 anılıyor. Sınanabilirlik açısından başka bir adı var.
