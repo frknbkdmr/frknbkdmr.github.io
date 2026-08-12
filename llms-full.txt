@@ -191,67 +191,77 @@ whether the cost of action or the value of the outcome is what has changed.
 ## Where the overlap comes from
 Some of it is built into the instruments. Zaehle and Linnhoff compared two
 versions of the same depression inventory in MS. The full Beck Depression
-Inventory asks about tiredness, sleep and lost energy; its fast-screen form
-drops those items and keeps the mood ones. The correlation with fatigue was
-weaker on the shorter scale. Part of the link between fatigue and depression is
-two scales asking the same question and counting the answer twice.
+Inventory asks about tiredness, sleep and lost energy. Its fast-screen form
+drops those items and keeps the mood ones, and on the shorter scale the
+correlation with fatigue was weaker. So part of what looks like fatigue
+predicting depression is one scale asking about tiredness and the other scale
+asking about tiredness.
 
-The rest is not a measurement artefact. Sparasci and colleagues assessed
-fatigue, sleepiness and depression with objective tools as well as
-questionnaires and still could not pull them apart. Chang and colleagues, in the
-FutureMS cohort of newly diagnosed patients, mapped the symptoms as a network
-and found fatigue attaching to particular depressive items rather than to
-depression as a whole.
+The instruments are not the whole story. Sparasci and colleagues brought in
+objective measures alongside the questionnaires and the three still came out
+tangled. In the FutureMS cohort of newly diagnosed patients, Chang and
+colleagues mapped the symptoms as a network and found fatigue attached to
+particular depressive items rather than to depression as a whole.
 
-Enoka and colleagues argue that some of the confusion is a word. Fatigue is what
-a person reports feeling. Fatigability is the measurable decline in performance
-as a task goes on. The two track each other poorly, and a literature that uses
-one term for both will keep discovering overlaps it created itself.
+Some of the confusion is a word. Fatigue is what a person reports feeling.
+Fatigability is the measurable drop in performance as a task goes on. Enoka and
+colleagues make the case that the two track each other poorly, which means a
+paper using one term for both will find overlaps it built itself.
+
+None of that helps me in clinic. A patient tells me they cannot get through the
+day. I do not know whether to write fatigue or depression, and after Enoka I am
+not confident the patient and I mean the same thing by either word. Even if I
+settle on fatigue, I still do not know what has changed to produce it.
 
 ## What effort-based decision making measures
-The framework treats motivation as arithmetic. How much is the outcome worth,
-how much does getting it cost, and is the difference positive. A person is
-offered the same choice many times, a small reward for little work against a
-larger one for more, with the amounts varied. What comes out is the exchange
-rate between the two.
+Someone stops buying bread. Either bread got expensive or they stopped wanting
+bread, and the fact that they stopped buying will not tell you which. Move the
+price around and watch, though, and it will. Effort-based tasks do that: the
+same choice is put to a person many times, a small reward for little work
+against a larger reward for more, both amounts varied, and what comes out is the
+exchange rate between them.
 
-This is worth doing because "I cannot get started" has at least two solutions.
-The reward may have stopped being worth anything, which is what anhedonia
-describes. Or the reward may be intact and the action have become expensive.
-Both produce the same sentence in clinic and different curves on the task.
+So "I cannot get started" gets two candidate answers rather than one. The reward
+may have stopped being worth anything, which is what anhedonia describes. Or the
+reward is intact and the action has become expensive. In clinic both of those
+come out as the same sentence, and the task is the only place they separate.
 
-Husain and Roiser set out the case for reading apathy and anhedonia this way
-across diagnoses rather than inside one. The separation has since been shown
-directly in several diseases. Le Heron and colleagues found apathy and dopamine
-to have distinct effects on effort-based choice in Parkinson's disease. Saleh
-and colleagues, in small vessel cerebrovascular disease, pulled apathy and
-depression apart on different parameters of the same decision. Blouzard and
-colleagues pooled the schizophrenia studies and found a consistent reduction in
-willingness to work for reward.
+Husain and Roiser made the case for reading apathy and anhedonia this way across
+diagnoses instead of inside one, and the separation has since been shown in
+patients. In Parkinson's disease, Le Heron and colleagues found apathy and
+dopamine acting on effort-based choice through distinct routes. Saleh and
+colleagues pulled apathy and depression apart on different parameters of the
+same decision in small vessel cerebrovascular disease. Pooling the schizophrenia
+studies gives a consistent reduction in willingness to work for reward, which is
+what Blouzard and colleagues report.
 
 ## What has been tried in MS
-Erani and colleagues ran the closest thing to this question. Forty patients and
+Erani and colleagues came closest, and the result was null. Forty patients and
 forty matched controls did a switching task with effort and reward varied
-independently, rating their fatigue as they went. Effort raised reported fatigue
-and reward improved performance, but the interaction between them, which is what
-the effort-reward account predicts, did not appear. The authors' own reading is
-that the reward manipulation may not have been salient enough to produce it.
+independently, rating their fatigue as they went. Effort raised reported
+fatigue. Reward improved performance. The interaction between the two, which is
+the thing the effort-reward account predicts, did not appear. Their own reading
+is that the reward may not have been salient enough to produce it.
 
-Müller and colleagues complicate the picture from another direction. Modelling
-two effort-based tasks, they found that willingness to work is not a fixed
-quantity: two hidden states of fatigue build up on different timescales, one
-recoverable by rest and one not, and both lower the value of effort. A single
-number for how effort-averse someone is may be averaging over something that
-moves while you measure it.
+There is a second complication. Modelling two effort-based tasks, Müller and
+colleagues found that willingness to work is not a fixed quantity: two hidden
+states of fatigue build up on different timescales, one recoverable by rest and
+one not, and both lower the value of effort. A single number for how
+effort-averse someone is may be averaging over something that moves while you
+measure it.
 
-Bogdanov and colleagues review the paradigms and find they differ enough,
-physical against cognitive effort, choice before against after exertion, demand
-stated against demand learned, that results do not transfer freely between them.
-Which task is used is part of the finding.
+The paradigms are not interchangeable either. Bogdanov and colleagues went
+through them and found that physical effort does not behave like cognitive
+effort, that a choice made before exertion does not behave like the same choice
+made after, and that it matters whether the demand is announced or has to be
+learned. Which task you pick is part of what you find.
 
-So the question this project asks is open rather than answered, and the one
-attempt at it in MS was null. Data collection is running. Nothing is claimed
-here about what it will show.
+So the one attempt at this in MS came back null, and I would rather write that
+than round it off. The question still looks worth asking to me. What would
+settle it is a task that separates cost from value, run in patients whose
+fatigue and depression have both been measured properly. Another questionnaire
+will not do it. Data collection is running, and nothing is claimed here about
+what it will show.
 
 ## References
 On the overlap and how it is measured:
