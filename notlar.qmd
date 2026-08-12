@@ -1,7 +1,7 @@
 ---
 title: "Notlar"
 pagetitle: "Hesaplamalı psikiyatri üzerine Türkçe notlar"
-description-meta: &desc "Hesaplamalı psikiyatri, hesaplamalı sinirbilim ve kestirimsel işlemleme üzerine Türkçe notlar. Yetmiş terimlik bir Türkçe karşılık sözlüğü ve klinik okura yazılmış giriş yazıları."
+description-meta: &desc "Hesaplamalı psikiyatri, hesaplamalı sinirbilim ve öngörücü kodlama üzerine Türkçe notlar. Yetmiş terimlik bir Türkçe karşılık sözlüğü ve klinik okura yazılmış giriş yazıları."
 lang: tr
 open-graph:
   description: *desc
@@ -69,10 +69,10 @@ olduğu yer, tam da uğruna kurulduğu yer.
 ::: {.meta}
 Klinik okur için &middot; 17 kaynak &middot; [yayında]{.status .done}
 :::
-### [Öngörü hatası, hassasiyet ve psikiyatrik belirti](notlar/ongoru-hatasi-ve-hassasiyet.qmd){.title}
+### [Bayesçi beyin, öngörü hatası ve psikiyatrik belirti](notlar/ongoru-hatasi-ve-hassasiyet.qmd){.title}
 
-Öngörü hatası ne demek, hassasiyet neyi belirler ve aynı çerçeve psikozdan
-otizme kadar nasıl her belirtiye uyabiliyor. Çerçevenin kapsayıcılığı aynı
+Öngörü hatası ne demek, hassasiyet neyi belirler ve öngörücü kodlama neden
+psikozdan otizme kadar her belirtiye uyabiliyor. Çerçevenin kapsayıcılığı aynı
 zamanda ona yöneltilen en ciddi itiraz.
 :::
 
@@ -101,7 +101,7 @@ Akatizinin öznel ve nesnel bileşenlerinin neden ayrışabildiği ve hareketin
     { "@type": "Article", "url": "https://furkanbekdemir.com/notlar/hgf-nedir", "headline": "Hiyerarşik Gauss filtresi nedir, ne işe yarar" },
     { "@type": "Article", "url": "https://furkanbekdemir.com/notlar/duyusal-azaltim", "headline": "Duyusal azaltım ve kuvvet eşleştirme görevi" },
     { "@type": "Article", "url": "https://furkanbekdemir.com/notlar/sizofrenide-inanc-guncelleme", "headline": "Şizofrenide inanç güncelleme ve aceleci karar" },
-    { "@type": "Article", "url": "https://furkanbekdemir.com/notlar/ongoru-hatasi-ve-hassasiyet", "headline": "Öngörü hatası, hassasiyet ve psikiyatrik belirti" }
+    { "@type": "Article", "url": "https://furkanbekdemir.com/notlar/ongoru-hatasi-ve-hassasiyet", "headline": "Bayesçi beyin, öngörü hatası ve psikiyatrik belirti" }
   ]
 }
 </script>

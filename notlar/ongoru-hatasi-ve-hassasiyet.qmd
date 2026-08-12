@@ -1,10 +1,10 @@
 ---
-title: "Öngörü hatası, hassasiyet ve psikiyatrik belirti"
-pagetitle: "Öngörü hatası ve hassasiyet nedir"
+title: "Bayesçi beyin, öngörü hatası ve psikiyatrik belirti"
+pagetitle: "Bayesçi beyin ve öngörücü kodlama nedir"
 lang: tr
 date: 2026-08-11
 translation: notes/prediction-error-and-precision
-description-meta: &desc "Kestirimsel işlemleme çerçevesinin klinik okur için açıklaması: öngörü hatası ne demek, hassasiyet neyi belirler, psikozdan otizme ve anksiyeteye kadar hangi belirtiye nasıl bağlanıyor ve çerçevenin kapsayıcılığı neden aynı zamanda en büyük itirazı."
+description-meta: &desc "Bayesçi beyin ve öngörücü kodlama çerçevesinin klinik okur için açıklaması: öngörü hatası ne demek, hassasiyet neyi belirler, psikozdan otizme ve anksiyeteye kadar hangi belirtiye nasıl bağlanıyor ve çerçevenin kapsayıcılığı neden aynı zamanda en büyük itirazı."
 open-graph:
   description: *desc
 twitter-card:
@@ -32,9 +32,10 @@ duymazsınız, durduğu an fark edersiniz. Kulağınıza ulaşan ses ikisinde de
 değişen tek şey beklenip beklenmediği. Duyu organlarınızdan saniyede gelen
 sinyalin çoğu böyle, zaten beklediğiniz şey. Hepsini yukarı taşımak yerine
 yalnızca farkı taşırsanız, üst katmanlara giden yükün büyük kısmı düşer. Friston
-ve Kiebel'in serimlediği haliyle beyin bir kestirim hiyerarşisi: her katman
-altındakine ne göreceğini söylüyor, alttaki de yalnızca yanılma payını geri
-yolluyor.
+ve Kiebel'in serbest enerji ilkesi üzerinden serimlediği haliyle beyin bir
+kestirim hiyerarşisi: her katman altındakine ne göreceğini söylüyor, alttaki de
+yalnızca yanılma payını geri yolluyor. Çerçevenin toplu adı Bayesçi beyin;
+sinirsel uygulanışına verilen ad ise öngörücü kodlama (predictive coding).
 
 Buradan çıkan sonuç sezgiye aykırı. Algı, dışarıdan içeri akan bir şey değil,
 içeriden dışarı kurulan bir hipotezin duyusal veriyle sınanması. Clark'ın
@@ -132,8 +133,8 @@ bunun tersini düşünüyor zaten.
 Yetmiş iki çalışmayı tarayan Qela derlemesi bozuklukların hepsinde bir şeyler
 buluyor, ama bulunanlar birbirine benzemiyor. Mancini ve Nour meseleyi tek
 cümlede topluyor: bu kadar çok oynak parçası olan bir modeli bir yere sabitlemek
-zor. Alotaibi'nin 2026 derlemesi başlığında soruyor, kestirimsel işlemleme
-mekanizma modeli mi yoksa mecazi bir yeniden betimleme mi.
+zor. Alotaibi'nin 2026 derlemesi başlığında soruyor, öngörücü kodlama mekanizma
+modeli mi yoksa mecazi bir yeniden betimleme mi.
 
 Bir çerçevenin hem bir bulguyu hem tersini barındırabilmesi esneklik diye
 anılıyor. Sınanabilirlik açısından başka bir adı var.
@@ -277,13 +278,14 @@ doi:[10.3389/fnhum.2025.1743028](https://doi.org/10.3389/fnhum.2025.1743028)
   "@context": "https://schema.org",
   "@type": "Article",
   "@id": "https://furkanbekdemir.com/notlar/ongoru-hatasi-ve-hassasiyet#article",
-  "headline": "Öngörü hatası, hassasiyet ve psikiyatrik belirti",
-  "description": "Kestirimsel işlemleme çerçevesinin klinik okur için açıklaması: öngörü hatası ne demek, hassasiyet neyi belirler, psikozdan otizme ve anksiyeteye kadar hangi belirtiye nasıl bağlanıyor ve çerçevenin kapsayıcılığı neden aynı zamanda en büyük itirazı.",
+  "headline": "Bayesçi beyin, öngörü hatası ve psikiyatrik belirti",
+  "description": "Bayesçi beyin ve öngörücü kodlama çerçevesinin klinik okur için açıklaması: öngörü hatası ne demek, hassasiyet neyi belirler, psikozdan otizme ve anksiyeteye kadar hangi belirtiye nasıl bağlanıyor ve çerçevenin kapsayıcılığı neden aynı zamanda en büyük itirazı.",
   "inLanguage": "tr",
   "about": [
     "Prediction error",
     "Precision",
     "Predictive coding",
+    "Bayesian brain",
     "Active inference",
     "Free energy principle",
     "Psychosis",
