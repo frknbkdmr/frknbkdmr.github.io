@@ -1,5 +1,6 @@
 ---
 title: "Akathisia as active inference"
+pagetitle: "Akathisia: an active inference account"
 description-meta: &desc "An active inference account of akathisia, locating the disorder in how bodily prediction errors are turned into action rather than in the motor system. Concept note in preparation."
 open-graph:
   description: *desc
@@ -20,9 +21,105 @@ it. I am building an active inference account alongside them, which asks
 whether the disorder sits in how bodily prediction errors are turned into
 action rather than in the motor system itself.
 
+## The syndrome has two halves {.k-head}
+
+Braude, Barnes and Gore went through consecutive psychiatric admissions in 1983
+and put the clinical features through a principal components analysis. The
+features did not collapse onto one dimension. There is what the patient
+reports, an inner restlessness that sitting still does not settle, and there is
+what an observer sees, the weight shifting and the rocking.
+
+Barnes built the rating scale around that split six years later. It scores the
+objective movement and the subjective distress on separate items, and then asks
+for a global judgement on top of both. A scale is a theory about what it
+measures, and this one commits to the two halves being distinct enough to score
+apart.
+
+The commitment has a name for the case where they come apart completely.
+Pseudoakathisia is the movement with the report missing. Miller and
+Fleischhacker's review treats the subjective and the objective components as
+separable throughout, and their prevalence figures show how much the definition
+does: estimates run from 5 percent to nearly 37 percent depending on which half
+of the syndrome is being counted and how strictly.
+
+That range is the reason the question interests me. A receptor account predicts
+a dose of movement disorder. It does not, on its own, say why the felt and the
+seen should be able to occur without each other.
+
+## It did not go away with the newer drugs {.k-head}
+
+Demyttenaere and colleagues pooled the trials of antipsychotics licensed more
+recently and found a weighted incidence of 7.7 percent. Lower than the figures
+from the first-generation era, and not close to zero.
+
+The treatment evidence points somewhere odd. Gerolymos and colleagues ran a
+network meta-analysis of what actually works against antipsychotic-induced
+akathisia, and the drugs that beat placebo were mirtazapine (SMD −1.20),
+biperiden (−1.01), vitamin B6 (−0.92) and propranolol (−0.78). One
+serotonergic, one anticholinergic, one cofactor, one beta blocker. Not a
+dopamine agent among them. Pringsheim and colleagues reach a similar place in
+the Canadian guideline, where the recommendations are mostly about withdrawing
+or reducing the offending drug and then reaching for agents that are not aimed
+at D2.
+
+None of that refutes a dopaminergic account, and the drug that causes the
+problem is a dopaminergic drug. But a syndrome whose two components dissociate,
+whose reported frequency depends on which component you count, and which
+responds to four drugs with four different targets, is a syndrome where the
+level of description is worth arguing about.
+
+## References {.k-head}
+
+The two components, and measuring them:
+
+::: {.src}
+Braude WM, Barnes TRE, Gore SM. Clinical characteristics of akathisia. *British
+Journal of Psychiatry*. 1983;143:139-150.
+doi:[10.1192/bjp.143.2.139](https://doi.org/10.1192/bjp.143.2.139)
+:::
+
+::: {.src}
+Barnes TRE. A rating scale for drug-induced akathisia. *British Journal of
+Psychiatry*. 1989;154:672-676.
+doi:[10.1192/bjp.154.5.672](https://doi.org/10.1192/bjp.154.5.672)
+:::
+
+::: {.src}
+Barnes TRE. The Barnes Akathisia Rating Scale, revisited. *Journal of
+Psychopharmacology*. 2003;17:365-370.
+doi:[10.1177/0269881103174013](https://doi.org/10.1177/0269881103174013)
+:::
+
+::: {.src}
+Miller CH, Fleischhacker WW. Managing antipsychotic-induced acute and chronic
+akathisia. *Drug Safety*. 2000;22:73-81.
+doi:[10.2165/00002018-200022010-00006](https://doi.org/10.2165/00002018-200022010-00006)
+:::
+
+Incidence and treatment:
+
+::: {.src}
+Demyttenaere K, et al. Medication-induced akathisia with newly approved
+antipsychotics in patients with a severe mental illness. *CNS Drugs*.
+2019;33:549-566. doi:[10.1007/s40263-019-00625-3](https://doi.org/10.1007/s40263-019-00625-3)
+:::
+
+::: {.src}
+Gerolymos C, et al. Drug efficacy in the treatment of antipsychotic-induced
+akathisia: a systematic review and network meta-analysis. *JAMA Network Open*.
+2024;7:e241527. doi:[10.1001/jamanetworkopen.2024.1527](https://doi.org/10.1001/jamanetworkopen.2024.1527)
+:::
+
+::: {.src}
+Pringsheim T, et al. The assessment and treatment of antipsychotic-induced
+akathisia. *The Canadian Journal of Psychiatry*. 2018;63:719-729.
+doi:[10.1177/0706743718760288](https://doi.org/10.1177/0706743718760288)
+:::
+
 ```{=html}
 <!-- Declared at the level the work has actually reached: a project in design,
-     with no funder, no protocol number and no findings to describe. -->
+     with no funder, no protocol number and no findings to describe. The
+     literature above is published work by others, not this project's results. -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -38,6 +135,8 @@ action rather than in the motor system itself.
   "member": { "@id": "https://furkanbekdemir.com/#person" },
   "knowsAbout": [
     "Akathisia",
+    "Pseudoakathisia",
+    "Barnes Akathisia Rating Scale",
     "Active inference",
     "Predictive processing",
     "Antipsychotic adverse effects"
