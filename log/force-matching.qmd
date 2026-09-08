@@ -1,7 +1,7 @@
 ---
 title: "Building the force-matching rig"
 pagetitle: "Building a force-matching rig"
-description-meta: &desc "A development log for the force-matching device: choosing which published lineage to follow, rewriting the calibration tool, and what the calibration run showed."
+description-meta: &desc "Building a force-matching rig: motor control, slider mapping, force calibration, and the contact surface under the finger."
 open-graph:
   description: *desc
 twitter-card:
@@ -10,9 +10,16 @@ twitter-card:
 
 ::: {.lede}
 What the [device page](../tools/force-matching.qmd) records is where the
-instrument ended up. This is the part that record leaves out: what had to be
-decided, and what I got wrong on the way.
+instrument ended up. Here I keep the work on the physical setup: how the motor
+delivers force, how the slider controls it, and what the calibration showed.
 :::
+
+::: {.meta}
+19 July–1 August 2026 &middot; Updated 8 September 2026
+:::
+
+These entries have been checked against the dated development records and code
+history. The 1 August account was corrected on 8 September.
 
 ![The rig on the bench. From the left: the power supply in its enclosure, the
 drive behind it, the motor in its printed mount with the lever arm above, and
@@ -117,42 +124,42 @@ the first one. So the honest statement is not that the instrument passed eight
 checks. It is that it passed the seven that a single session can produce, and
 that this record is now the reference the next session gets compared against.
 
-Also settled the contact pad. Earlier runs had no silicone pad, then had one,
-then briefly did not again. Since the pad changes what the finger feels, none of
-that engineering data can go in the analysis pool, and the confirmatory
-collection runs on the fixed configuration with the pad. That decision costs
-nothing now and would have cost the study later.
+Also settled the contact pad. During the build I had tried the rig with and
+without silicone at the finger contact. The pad changes what the finger feels,
+so it needs to be treated as part of the instrument. The configuration now
+includes it consistently.
 
 ## 1 August {.k-head}
 
-An outside audit flagged the slider calibration as critical. It was right to.
+An outside audit questioned the slider calibration. Its seven hand-entered
+points gave a substantially different travel-to-force relationship from the
+simple linear mapping. Both could look reassuring by R². That was a reason to
+check what the points represented, rather than trust the fit alone.
 
-The calibration rested on a handful of points entered by hand, and the curve
-fitted through them implied more force than the rig can produce. A mapping
-cannot deliver force the instrument does not have, so the error was in the
-points and not in the curve.
+*Correction, 8 September:* the earlier version of this entry said the rig could
+not produce the implied force and that the measurement would be repeated. That
+went beyond the recorded decision. The rig retained the
+piecewise mapping, and the slider calibration record still dates from 27 July. I have
+no later measurement to report here.
 
-Both fits were excellent by R², which is where the trap sits. A curve through
-mismeasured points fits those points beautifully, and goodness of fit says
-nothing about whether the measurement underneath it was any good. I knew that.
-I had still looked at my own number and felt reassured by it.
-
-The measurement gets repeated. What I actually want in the log is smaller than
-that: I did not find this, and I would not have gone looking.
+The load cell measures the force actually delivered, independently of the
+slider position used to request it. The mapping still matters because it
+changes how much slider movement is needed to adjust that force. Whether that change affects people with
+different motor abilities differently remains unresolved. A comparison of the
+two mappings was proposed; it was not completed.
 
 ```{=html}
-<!-- A dated log, so Article rather than the generic WebPage. datePublished is
-     the first entry, dateModified the last; both are stated in the page itself,
-     which is the only reason they can be claimed here. -->
+<!-- The first event date and the retrospective revision date are both
+     displayed above. dateModified records the page revision, not the last event. -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
   "@id": "https://furkanbekdemir.com/log/force-matching#article",
   "headline": "Building the force-matching rig",
-  "description": "A development log for the force-matching device: choosing which published lineage to follow, rewriting the calibration tool, and what the calibration run showed.",
+  "description": "Building a force-matching rig: motor control, slider mapping, force calibration, and the contact surface under the finger.",
   "datePublished": "2026-07-19",
-  "dateModified": "2026-08-01",
+  "dateModified": "2026-09-08",
   "inLanguage": "en",
   "about": [
     "Force-matching task",
