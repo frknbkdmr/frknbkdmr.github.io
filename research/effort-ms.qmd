@@ -15,8 +15,8 @@ With the Department of Neurology &middot; [in collection]{.status .live}
 :::
 
 Fatigue and depression in MS overlap on every questionnaire that tries to tell
-them apart. Effort-based decision making offers a behavioural separation:
-whether the cost of action or the value of the outcome is what has changed.
+them apart. An effort-based task can separate them behaviourally instead, by
+asking whether what changed is the cost of action or the value of the outcome.
 
 ## Where the overlap comes from {.k-head}
 

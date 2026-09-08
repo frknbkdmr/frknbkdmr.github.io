@@ -42,8 +42,8 @@ Theory &middot; [in design]{.status .pending}
 :::
 ### [Akathisia as active inference](research/akathisia-active-inference.qmd){.title}
 
-Restlessness that drives movement, and movement that does not relieve it. An
-active inference account of why.
+Inner restlessness that drives movement, and the movement usually fails to
+relieve it. I am working out an active inference account of that failure.
 :::
 
 ::: {.entry}
@@ -53,7 +53,7 @@ With the Department of Neurology &middot; [in collection]{.status .live}
 ### [Effort and reward in multiple sclerosis](research/effort-ms.qmd){.title}
 
 Separating fatigue from depression in MS by modelling effort-based decisions,
-in collaboration with the Department of Neurology.
+to see whether what changed is the cost of acting or the value of the outcome.
 :::
 
 ## Elsewhere {.k-head}

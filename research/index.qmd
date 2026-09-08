@@ -9,9 +9,9 @@ twitter-card:
 ---
 
 ::: {.lede}
-Three open questions and two abstracts already published. The open questions
-share a method: all of them are about how a brain weighs what it already
-believes against what it is currently being told.
+Three open questions and two abstracts already published. What the open
+questions share is not a method but a subject, how a brain weighs what it
+already believes against what it is currently being told.
 :::
 
 ## Open {.k-head}
@@ -33,8 +33,9 @@ Theory &middot; [in design]{.status .pending}
 :::
 ### [Akathisia as active inference](akathisia-active-inference.qmd){.title}
 
-Akathisia drives movement that rarely settles it. Active inference offers an
-account of why.
+Akathisia drives movement that rarely settles it, and the felt and the seen
+halves of the syndrome can come apart entirely. Whether active inference
+explains that better than the receptor does.
 :::
 
 ::: {.entry}
@@ -43,8 +44,9 @@ With the Department of Neurology &middot; [in collection]{.status .live}
 :::
 ### [Effort and reward in multiple sclerosis](effort-ms.qmd){.title}
 
-Fatigue and depression overlap on every questionnaire that tries to separate
-them. Effort-based decision making offers a behavioural separation.
+Fatigue and depression overlap on every questionnaire that tries to tell them
+apart. An effort-based task can ask instead whether the cost of acting or the
+value of the outcome is what changed.
 :::
 
 ## Published abstracts {.k-head}
