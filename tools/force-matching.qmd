@@ -40,9 +40,9 @@ Maxon/McNaughton control software and is not included in the planned public
 release.
 
 It was built because there is nothing to buy. No manufacturer sells a
-force-matching rig: the paradigm lives in a few labs, each of which made its
-own. So the choice was not between building and buying. It was between building
-and not running the experiment.
+force-matching rig; the paradigm lives in a few labs, each of which made its
+own. So the choice was never between building and buying, it was between
+building and not running the experiment.
 
 ```{=html}
 <!-- Components and directions taken from the architecture document, not
