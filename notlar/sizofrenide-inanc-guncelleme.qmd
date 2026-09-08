@@ -66,7 +66,13 @@ Strube'nin karşılaştırmasında 45 şizofreni, 45 depresyon ve 45 sağlıklı
 vardı. Şizofreni grubu daha az boncukla karar verdi ama karar vermesi daha uzun
 sürdü, üstelik karar süresiyle boncuk sayısı arasında bir ilişki de çıkmadı.
 Dürtüsellik bunu açıklayamıyor, yazarların işaret ettiği neden inanç oluşumunun
-kararsızlığı.
+kararsızlığı. Muhakemenin kendisi de pek açıklamıyor zaten. Kemp ve arkadaşları
+sanrılı hastalarla kontrolleri üç ayrı mantık testinde karşılaştırdığında iki
+grup da bol bol hata yaptı ve aradaki fark, yazarların kendi ifadesiyle
+şaşırtıcı derecede küçük kaldı; sanrılı grup yalnızca içerik duygusal olduğunda
+biraz daha fazla yanlış çıkarıma açıktı, üstelik birleşim yanılgısına
+(conjunction fallacy) kontrollerden daha az kapılıyordu. On altı hasta ve on
+altı kontrol, yani küçük bir çalışma.
 
 Balzan'ın grubu başka bir tarafı kazıdı ve göreve fazladan bir açıklama seti
 ekledi. Karşıt kanıt geldiğinde görülen aşırı düzeltme belirgin biçimde azaldı,
@@ -225,6 +231,12 @@ Strube W, Cimpianu CL, Ulbrich M, ve ark. Unstable belief formation and slowed
 decision-making: evidence that the jumping-to-conclusions bias in schizophrenia
 is not linked to impulsive decision-making. *Schizophrenia Bulletin*.
 2022;48(2):347-358. doi:[10.1093/schbul/sbab108](https://doi.org/10.1093/schbul/sbab108)
+:::
+
+::: {.src}
+Kemp R, Chua S, McKenna P, David A. Reasoning and delusions. *British Journal of
+Psychiatry*. 1997;170(5):398-405.
+doi:[10.1192/bjp.170.5.398](https://doi.org/10.1192/bjp.170.5.398)
 :::
 
 ::: {.src}
