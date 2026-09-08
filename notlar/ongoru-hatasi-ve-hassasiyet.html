@@ -235,6 +235,9 @@ ul.task-list li input[type="checkbox"] {
   ]
 }
 </script>
+<link rel="alternate" hreflang="en" href="https://furkanbekdemir.com/notes/prediction-error-and-precision">
+<link rel="alternate" hreflang="tr" href="https://furkanbekdemir.com/notlar/ongoru-hatasi-ve-hassasiyet">
+<link rel="alternate" hreflang="x-default" href="https://furkanbekdemir.com/notes/prediction-error-and-precision">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -317,49 +320,51 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="lede">
-<p>Beyin gelen sinyali beklemeden işlemiyor, önce ne geleceğini tahmin ediyor ve yalnızca tahminin tutmadığı kadarını yukarı gönderiyor. Bu cümle son yirmi yılın en verimli psikiyatri fikri oldu. Aynı cümle, çerçevenin en ciddi sorununun da kaynağı.</p>
+<p>Beyin gelen sinyali beklemeden işlemiyor, önce ne geleceğini tahmin ediyor ve yalnızca tahminin tutmadığı kadarını yukarı gönderiyor. Bu cümle son yirmi yılın en verimli psikiyatri fikirlerinden biri oldu ama çerçevenin en ciddi sorunu da aynı cümleden çıkıyor.</p>
 </div>
-<p>Diğer üç yazı bu iki kavrama dayanıyor ama hiçbirinde tam anlatımı yok; burası o boşluk. Terimlerin İngilizce karşılıkları <a href="../notlar/terimler.html">terimler sözlüğünde</a>.</p>
+<p>Diğer üç yazı bu iki kavrama dayanıyor ama hiçbirinde tam anlatımı yok, dolayısı ile burayı o boşluğu kapatmak için yazdım. Terimlerin İngilizce karşılıkları <a href="../notlar/terimler.html">terimler sözlüğünde</a>.</p>
 <section id="öngörü-hatası-ne-demek" class="level2 k-head">
 <h2 class="k-head" data-anchor-id="öngörü-hatası-ne-demek">Öngörü hatası ne demek</h2>
-<p>Gündelik anlamıyla “hata” değil. Öngörü hatası, olan ile beklenen arasındaki fark. Sistemin öğrenmek için kullandığı tek şey de bu.</p>
-<p>Fikrin cazibesi ekonomisinde. Evinizde tıkırdayan bir saat varsa onu duymazsınız, durduğu an fark edersiniz. Kulağınıza ulaşan ses ikisinde de aynı; değişen tek şey beklenip beklenmediği. Duyu organlarınızdan saniyede gelen sinyalin çoğu böyle, zaten beklediğiniz şey. Hepsini yukarı taşımak yerine yalnızca farkı taşırsanız, üst katmanlara giden yükün büyük kısmı düşer. Friston ve Kiebel’in serbest enerji ilkesi üzerinden serimlediği haliyle beyin bir kestirim hiyerarşisi: her katman altındakine ne göreceğini söylüyor, alttaki de yalnızca yanılma payını geri yolluyor. Çerçevenin toplu adı Bayesçi beyin; sinirsel uygulanışına verilen ad ise öngörücü kodlama (predictive coding).</p>
-<p>Buradan çıkan sonuç sezgiye aykırı. Algı, dışarıdan içeri akan bir şey değil, içeriden dışarı kurulan bir hipotezin duyusal veriyle sınanması. Clark’ın derlemesi bunu algı ile eylemi tek çatı altında toplayan bir model olarak sunuyor; popülerliğinin büyük kısmı da o birleştirme gücünden geliyor.</p>
+<p>Buradaki “hata” gündelik anlamındaki hata değil. Öngörü hatası, olan ile beklenen arasındaki fark demek ve sistemin öğrenmek için kullandığı tek şey de bu.</p>
+<p>Fikrin cazibesi ekonomisinden geliyor. Evinizde tıkırdayan bir saat varsa onu duymazsınız, durduğu an fark edersiniz. Kulağınıza ulaşan ses ikisinde de aynı; değişen tek şey beklenip beklenmediği. Duyu organlarınızdan saniyede gelen sinyalin çoğu böyle, zaten beklediğiniz şey. Hepsini yukarı taşımak yerine yalnızca farkı taşırsanız, üst katmanlara giden yükün büyük kısmı düşer. Friston ve Kiebel’in serbest enerji ilkesi üzerinden serimlediği haliyle beyin bir kestirim hiyerarşisi: her katman altındakine ne göreceğini söylüyor, alttaki de yalnızca yanılma payını geri yolluyor. Çerçevenin toplu adı Bayesçi beyin; sinirsel uygulanışına verilen ad ise öngörücü kodlama (predictive coding).</p>
+<p>Buradan çıkan sonuç sezgiye aykırı: algı dışarıdan içeri akan bir şey değil, içeriden dışarı kurulan bir hipotezin duyusal veriyle sınanması oluyor. Clark’ın derlemesi bunu algı ile eylemi tek çatı altında toplayan bir model olarak sunuyor ve popülerliğinin büyük kısmı da o birleştirme gücünden geliyor.</p>
 </section>
-<section id="ham-hata-kullanılmıyor" class="level2 k-head">
-<h2 class="k-head" data-anchor-id="ham-hata-kullanılmıyor">Ham hata kullanılmıyor</h2>
-<p>Çerçevenin klinik açıdan asıl işe yarayan yeri burası. Çoğu popüler anlatımda da atlanan yer burası.</p>
-<p>Eczane terazisinde iki yüz gram fazla görünüyorsanız bu bir bilgidir. Aynı iki yüz gramı, her bastığınızda başka rakam veren banyo tartısında görürseniz hiçbir şey ifade etmez. Fark aynı fark; değişen şey aleti ne kadar ciddiye aldığınız. Beyin de aynı ayrımı yapmak zorunda ve bunu her sinyale bir ağırlık vererek yapıyor. O ağırlığın adı hassasiyet: bir kestirimin ne kadar dar olduğu, yani varyansının tersi. Yukarı giden şey ham öngörü hatası değil, hassasiyetle ağırlıklandırılmış hali.</p>
+<section id="hassasiyet-ne-demek" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="hassasiyet-ne-demek">Hassasiyet ne demek</h2>
+<p>Çerçevenin klinik açıdan asıl işe yarayan yeri burası ve çoğu popüler anlatımda atlanan yer de burası.</p>
+<p>Eczane terazisinde iki yüz gram fazla görünüyorsanız bu bir bilgidir. Aynı iki yüz gramı, her bastığınızda başka rakam veren banyo tartısında görürseniz hiçbir şey ifade etmez. Fark iki durumda da aynı fark, değişen şey aleti ne kadar ciddiye aldığınız. Beyin de aynı ayrımı yapmak zorunda ve bunu her sinyale bir ağırlık vererek yapıyor. O ağırlığın adı hassasiyet: bir kestirimin ne kadar dar olduğu, yani varyansının tersi. Yukarı giden şey ham öngörü hatası değil, hassasiyetle ağırlıklandırılmış hali.</p>
 <p>Feldman ve Friston bir adım daha atıp dikkati bu ağırlığın kendisi olarak tanımladılar. Bir şeye dikkat etmek, o kanalın hassasiyetini yükseltmek demek. Böyle bakıldığında dikkat ayrı bir yeti olmaktan çıkıyor, çıkarımın bir ayarı haline geliyor.</p>
-<p>Bir de şu var: hassasiyetin sinirsel karşılığı olarak önerilen şey, öngörü hatası taşıyan hücrelerin postsinaptik kazancı. Bu öneri çerçeveyi nöromodülasyona bağlıyor. Psikiyatriye asıl oradan giriyor.</p>
+<p>Bir de şu var, hassasiyetin sinirsel karşılığı olarak önerilen şey öngörü hatası taşıyan hücrelerin postsinaptik kazancı; bu öneri çerçeveyi nöromodülasyona bağlıyor ve psikiyatriye asıl oradan giriyor.</p>
 </section>
 <section id="hangi-düzeyin-hassasiyeti" class="level2 k-head">
 <h2 class="k-head" data-anchor-id="hangi-düzeyin-hassasiyeti">Hangi düzeyin hassasiyeti</h2>
-<p>Hiyerarşi olduğu için tek bir ayar yok. Duyusal kanıtın hassasiyeti var, önsel inancın hassasiyeti var. Belirtiler ikisinin oranına bağlanıyor.</p>
+<p>Hiyerarşi olduğu için tek bir ayar yok. Duyusal kanıtın hassasiyeti ile önsel inancın hassasiyeti ayrı ayrı duruyor ve belirtiler ikisinin oranına bağlanıyor.</p>
 <p>2013’te ortaya konan ve bugün de referans sayılan öneri Adams’ın: psikotik belirtiler tek bir çekirdek patolojinin farklı yüzleri olabilir, o da hassasiyetin hatalı kodlanması. Aynı çerçeveden varsanı, göz hareketi bozuklukları, duyusal azaltım kaybı ve sanrı türetiliyor. Duyusal azaltımın bu tablodaki yeri <a href="../notlar/duyusal-azaltim.html">ayrı bir yazıda</a>.</p>
 </section>
 <section id="psikozda-hangi-yön" class="level2 k-head">
 <h2 class="k-head" data-anchor-id="psikozda-hangi-yön">Psikozda hangi yön</h2>
-<p>Kanonik anlatı şu: psikozda önsel inancın hassasiyeti duyusal veriye göre düşüyor, dünya öngörülemez hale geliyor, sanrı da bu deneyimi açıklamak için kurulan bir hikâye.</p>
-<p>Bulgular bu kadar düzenli değil. Sterzer’in derlemesi bunu doğrudan söylüyor: bazı çalışmalar psikozda önsel inançların zayıfladığını buluyor, bazıları güçlendiğini. Haarsma’nın grubu sağlıklı kişilerde öngörü hatalarının hassasiyetle ağırlıklandırılmasının öğrenmeye yaradığını, ilk atak psikozda ise bunun bozulduğunu gösterdi, üstelik dopaminerjik müdahaleyle oynatılabildiğini. Ketamin modelini güncelleyen Corlett ise birden çok yol olabileceğini kabul ediyor.</p>
+<p>Kanonik anlatıya göre psikozda önsel inancın hassasiyeti duyusal veriye göre düşüyor, dünya öngörülemez hale geliyor ve sanrı da bu deneyimi açıklamak için kurulan bir hikâye oluyor.</p>
+<p>Bulgular bu kadar düzenli değil. Sterzer’in derlemesi bunu doğrudan söylüyor; bazı çalışmalar psikozda önsel inançların zayıfladığını buluyor, bazıları güçlendiğini. Haarsma’nın grubu sağlıklı kişilerde öngörü hatalarının hassasiyetle ağırlıklandırılmasının öğrenmeye yaradığını, ilk atak psikozda ise bunun bozulduğunu ve üstelik dopaminerjik müdahaleyle oynatılabildiğini gösterdi. Ketamin modelini güncelleyen Corlett ise birden çok yol olabileceğini kabul ediyor.</p>
 <p>Tek bir çalışma iki yönü aynı anda barındırabiliyor. Benrimoh’un koşullanmış varsanı çalışmasında varsanı eğilimi yüksek olanlar hem önsel inanca daha çok ağırlık veriyor hem de duyusal hassasiyetleri düşük çıkıyor. Goodwin’in iki büyük örneklemli çalışmasında ise psikoz benzeri yaşantılar duyusal bilgiye fazla ağırlık vermekle gitti, yani kanonik anlatının tersi yönde.</p>
+<p>Sterzer’in derlemesinin kendi önerisi, iki bulguyu aynı hiyerarşinin farklı katlarına yerleştirmek. Alt düzeydeki önsel inanç zayıfladığında filtrelenemeyen öngörü hatası yukarı çıkıyor, üst düzeydeki inançlar da bu fazlalığı açıklamak için katılaşıyor; yani aynı hastada zayıf ve güçlü önsel inanç aynı anda bulunabiliyor. Üst asosyasyon korteksleri alt duyusal alanlara göre daha yoğun yinelemeli bağlantı taşıdığı için, uyarı-inhibisyon dengesindeki bir bozulmanın üst katları daha sert vurması da bekleniyor. Benrimoh’un tek çalışmada iki yönü birden bulması bu okumaya oturuyor.</p>
+<p>Ama bu bir uzlaştırma, sınanmış bir bulgu değil. Hangi katın hangi görevde ölçüldüğünü söylemeyen bir çalışma bu ayrımı ne destekleyebiliyor ne çürütebiliyor; literatürdeki çalışmaların çoğu da bunu söylemiyor.</p>
 </section>
 <section id="aynı-çerçeve-otizmi-de-açıklıyor" class="level2 k-head">
 <h2 class="k-head" data-anchor-id="aynı-çerçeve-otizmi-de-açıklıyor">Aynı çerçeve otizmi de açıklıyor</h2>
-<p>Van de Cruys otizmi öngörü hatalarına esnek olmayan biçimde yüksek ağırlık verilmesine bağlıyor. Dünyada her sapma haber değeri taşıyor, hiçbiri gürültü sayılıp bırakılamıyor. Yürütücü işlev ile zihin kuramına dair bulgular bunun ikincil sonuçları olarak çıkıyor.</p>
-<p>Dikkat edilirse bu, psikoz için önerilenin tam tersi. Aynı çerçeve, aynı iki parametre, ters yön. Friston, Lawson ve Frith bunun nasıl adlandırılacağı üzerine ayrıca tartıştı ve otizmi önsel inançların zayıflaması değil, hassasiyet hakkındaki inançların bozulması diye okumayı önerdiler.</p>
+<p>Van de Cruys otizmi öngörü hatalarına esnek olmayan biçimde yüksek ağırlık verilmesine bağlıyor. Dünyada her sapma haber değeri taşıyor. Hiçbiri gürültü sayılıp bırakılamıyor. Yürütücü işlev ile zihin kuramına dair bulgular bunun ikincil sonuçları olarak çıkıyor.</p>
+<p>Dikkat edilirse bu, psikoz için önerilenin tam tersi; aynı çerçeve ve aynı iki parametre, ters yönde çalıştırılmış oluyor. Friston, Lawson ve Frith bunun nasıl adlandırılacağı üzerine ayrıca tartıştı ve otizmi önsel inançların zayıflaması değil, hassasiyet hakkındaki inançların bozulması diye okumayı önerdiler.</p>
 <p>Yakın tarihli sınamalar burayı da karıştırıyor. İki duyusal-motor görevi modelleyen Arthur ve ekibi, otizmde önsel inançlarda ya da duyusal ağırlıklandırmada kalıcı bir sapma bulamadı; buldukları şey öğrenme hızını oynaklığa göre esnetmekte güçlüktü.</p>
 </section>
-<section id="bedene-doğru" class="level2 k-head">
-<h2 class="k-head" data-anchor-id="bedene-doğru">Bedene doğru</h2>
+<section id="beden-ve-duygu" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="beden-ve-duygu">Beden ve duygu</h2>
 <p>Çerçevenin en hızlı büyüyen kolu dışarıya değil içeriye bakıyor. Seth ve Friston’ın kurduğu haliyle bedensel durumlar da kestirimle yönetiliyor, duygu da o sürecin bir ürünü.</p>
-<p>Smith’in ekibi bunu tanılar arası bir örneklemde sınadı. Kalp atımı görevinde solunum tutma ile bedensel sinyal bozulduğunda sağlıklı katılımcılar kalpten gelen sinyale verdikleri hassasiyeti yükseltti. Anksiyete, depresyon, madde kullanım ve yeme bozukluğu gruplarında bu yükseltme olmadı. Önsel inançlarda ise güçlü bir fark bulunmadı, yani ayrışan şey inancın kendisi değil ağırlığı ayarlayabilme yetisi.</p>
+<p>Smith’in ekibi bunu tanılar arası bir örneklemde sınadı. Kalp atımı görevinde solunum tutma ile bedensel sinyal bozulduğunda sağlıklı katılımcılar kalpten gelen sinyale verdikleri hassasiyeti yükseltti, anksiyete, depresyon, madde kullanım ve yeme bozukluğu gruplarında ise bu yükseltme olmadı. Önsel inançlarda güçlü bir fark bulunmadı, yani ayrışan şey inancın kendisi değil ağırlığı ayarlayabilme yetisi.</p>
 </section>
-<section id="her-şeyi-açıklayan-çerçeve" class="level2 k-head">
-<h2 class="k-head" data-anchor-id="her-şeyi-açıklayan-çerçeve">Her şeyi açıklayan çerçeve</h2>
-<p>Buraya kadar sayılanlar çerçevenin başarısı gibi okunuyor. Alan bir süredir bunun tersini düşünüyor zaten.</p>
-<p>Yetmiş iki çalışmayı tarayan Qela derlemesi bozuklukların hepsinde bir şeyler buluyor, ama bulunanlar birbirine benzemiyor. Mancini ve Nour meseleyi tek cümlede topluyor: bu kadar çok oynak parçası olan bir modeli bir yere sabitlemek zor. Alotaibi’nin 2026 derlemesi başlığında soruyor, öngörücü kodlama mekanizma modeli mi yoksa mecazi bir yeniden betimleme mi.</p>
-<p>Bir çerçevenin hem bir bulguyu hem tersini barındırabilmesi esneklik diye anılıyor. Sınanabilirlik açısından başka bir adı var.</p>
+<section id="çerçevenin-en-büyük-sorunu" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="çerçevenin-en-büyük-sorunu">Çerçevenin en büyük sorunu</h2>
+<p>Buraya kadar sayılanlar çerçevenin başarısı gibi okunabilir ama alan bir süredir bunun tersini düşünüyor zaten.</p>
+<p>Yetmiş iki çalışmayı tarayan Qela derlemesi bozuklukların hepsinde bir şeyler buluyor, ama bulunanlar birbirine benzemiyor. Mancini ve Nour meseleyi tek cümlede topluyor, bu kadar çok oynak parçası olan bir modeli bir yere sabitlemek zor. Alotaibi’nin 2026 derlemesi ise başlığında soruyor, öngörücü kodlama mekanizma modeli mi yoksa mecazi bir yeniden betimleme mi.</p>
+<p>Bir çerçevenin hem bir bulguyu hem de tersini barındırabilmesi çoğunlukla esneklik diye anılıyor ama sınanabilirlik açısından bakınca buna esneklik demek zor.</p>
 <p>Bu, çerçeveyi bırakmak için bir gerekçe değil. Bu çerçeveyi kendi hattımda kullanan bir hekim olarak şunu diyorum: “psikozda hassasiyet bozuk” cümlesi tek başına bir şey söylemiyor. Hangi düzeyde, hangi yönde, hangi görevde ve hangi belirtiyle sorularının cevabı yoksa cümle çerçeveye uyuyor ama sınanmıyor. Bir hesaplamalı bulgunun bunları hangi koşulda söyleyebildiği <a href="../notlar/hgf-nedir.html">HGF yazısında</a>, aynı sorunun şizofreni literatüründeki hali <a href="../notlar/sizofrenide-inanc-guncelleme.html">inanç güncelleme yazısında</a>.</p>
 </section>
 <section id="kaynaklar" class="level2 k-head">
@@ -451,7 +456,7 @@ ul.task-list li input[type="checkbox"] {
 }
 </script>
 <div class="k">
-<p><a lang="tr" href="../notlar.html">← notlar</a> · <a href="../notlar/hgf-nedir.html">HGF nedir</a> · <a href="../notlar/duyusal-azaltim.html">duyusal azaltım</a> · <a href="../notlar/sizofrenide-inanc-guncelleme.html">inanç güncelleme</a> · <a href="../notlar/terimler.html">terimler sözlüğü</a></p>
+<p><a lang="tr" href="../notlar.html">← notlar</a> · <a href="../notlar/hgf-nedir.html">HGF nedir</a> · <a href="../notlar/duyusal-azaltim.html">duyusal azaltım</a> · <a href="../notlar/sizofrenide-inanc-guncelleme.html">inanç güncelleme</a> · <a href="../notlar/terimler.html">terimler sözlüğü</a> · <a href="../notes/prediction-error-and-precision.html">english</a></p>
 </div>
 
 

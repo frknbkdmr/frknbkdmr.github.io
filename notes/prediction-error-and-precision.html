@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="tr" xml:lang="tr"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Hesaplamalı psikiyatride sık kullanılan Hiyerarşik Gauss Filtresinin klinik okur için açıklaması: modelin parametreleri ne ölçer, model karşılaştırması neden zorunludur ve bir hesaplamalı bulguya ne zaman güvenilir.">
+<meta name="dcterms.date" content="2026-08-11">
+<meta name="description" content="The Bayesian brain and predictive coding explained for clinical readers: what prediction error means, what precision sets, how the framework attaches to symptoms from psychosis to autism and anxiety, and why its reach is also the most serious objection to it.">
 
-<title>Hiyerarşik Gauss filtresi: klinik giriş – Furkan Bekdemir</title>
+<title>Bayesian brain and predictive coding – Furkan Bekdemir</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -38,17 +39,17 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/bootstrap/bootstrap-9dd6e8513dc2440db898a807aae54b93.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
-    "search-no-results-text": "Sonuç yok",
-    "search-matching-documents-text": "eşleşen belgeler",
-    "search-copy-link-title": "Aramak için bağlantıyı kopyalayın",
-    "search-hide-matches-text": "Ek eşleşmeleri gizle",
-    "search-more-match-text": "bu belgede bir tane daha eşleşme",
-    "search-more-matches-text": "bu belgede daha fazla eşleşme",
-    "search-clear-button-title": "Temizle",
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "İptal et",
-    "search-submit-button-title": "Gönder",
-    "search-label": "Ara"
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <!-- IBM Plex is served from this origin, not fonts.gstatic.com: a remote font
@@ -201,15 +202,15 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<meta property="og:title" content="Hiyerarşik Gauss filtresi: klinik giriş">
-<meta property="og:description" content="Hesaplamalı psikiyatride sık kullanılan Hiyerarşik Gauss Filtresinin klinik okur için açıklaması: modelin parametreleri ne ölçer, model karşılaştırması neden zorunludur ve bir hesaplamalı bulguya ne zaman güvenilir.">
+<meta property="og:title" content="Bayesian brain and predictive coding">
+<meta property="og:description" content="The Bayesian brain and predictive coding explained for clinical readers: what prediction error means, what precision sets, how the framework attaches to symptoms from psychosis to autism and anxiety, and why its reach is also the most serious objection to it.">
 <meta property="og:image" content="https://furkanbekdemir.com/og-image.png">
 <meta property="og:site_name" content="Furkan Bekdemir">
-<meta name="twitter:title" content="Hiyerarşik Gauss filtresi: klinik giriş">
-<meta name="twitter:description" content="Hesaplamalı psikiyatride sık kullanılan Hiyerarşik Gauss Filtresinin klinik okur için açıklaması: modelin parametreleri ne ölçer, model karşılaştırması neden zorunludur ve bir hesaplamalı bulguya ne zaman güvenilir.">
+<meta name="twitter:title" content="Bayesian brain and predictive coding">
+<meta name="twitter:description" content="The Bayesian brain and predictive coding explained for clinical readers: what prediction error means, what precision sets, how the framework attaches to symptoms from psychosis to autism and anxiety, and why its reach is also the most serious objection to it.">
 <meta name="twitter:image" content="https://furkanbekdemir.com/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://furkanbekdemir.com/notlar/hgf-nedir">
+<link rel="canonical" href="https://furkanbekdemir.com/notes/prediction-error-and-precision">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -224,35 +225,35 @@ ul.task-list li input[type="checkbox"] {
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "Notlar",
-      "item": "https://furkanbekdemir.com/notlar"
+      "name": "Notes",
+      "item": "https://furkanbekdemir.com/notes"
     },
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Hiyerarşik Gauss filtresi: klinik giriş"
+      "name": "Bayesian brain and predictive coding"
     }
   ]
 }
 </script>
-<link rel="alternate" hreflang="en" href="https://furkanbekdemir.com/notes/hierarchical-gaussian-filter">
-<link rel="alternate" hreflang="tr" href="https://furkanbekdemir.com/notlar/hgf-nedir">
-<link rel="alternate" hreflang="x-default" href="https://furkanbekdemir.com/notes/hierarchical-gaussian-filter">
+<link rel="alternate" hreflang="en" href="https://furkanbekdemir.com/notes/prediction-error-and-precision">
+<link rel="alternate" hreflang="tr" href="https://furkanbekdemir.com/notlar/ongoru-hatasi-ve-hassasiyet">
+<link rel="alternate" hreflang="x-default" href="https://furkanbekdemir.com/notes/prediction-error-and-precision">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
-<a href="#quarto-document-content" class="quarto-skip-link">Ana içeriğe geç</a>
+<a href="#quarto-document-content" class="quarto-skip-link">Skip to main content</a>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav lang="en" class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Furkan Bekdemir</span>
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Gezinmeyi değiştir" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -296,7 +297,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Hiyerarşik Gauss filtresi nedir, ne işe yarar</h1>
+<h1 class="title">The Bayesian brain, prediction error and psychiatric symptoms</h1>
 </div>
 
 
@@ -305,9 +306,9 @@ ul.task-list li input[type="checkbox"] {
 
     
     <div>
-    <div class="quarto-title-meta-heading">Yayınlanma Tarihi</div>
+    <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">9 Ağustos 2026</p>
+      <p class="date">August 11, 2026</p>
     </div>
   </div>
   
@@ -320,97 +321,143 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="lede">
-<p>Hesaplamalı psikiyatri yazılarında bir model adı görüyorsunuz, altında birkaç Yunan harfi ve “hasta grubunda şu parametre yüksekti” diyen bir cümle. Bu yazı o cümlenin ne söylediğini, daha önemlisi ne söylemediğini anlatmaya çalışıyor.</p>
+<p>The brain does not wait for the incoming signal and then process it. It predicts what is coming first and sends up only as much as the prediction got wrong. That sentence became one of the most productive ideas in psychiatry of the last twenty years, and the framework’s most serious problem comes out of the same sentence.</p>
 </div>
-<p>Denklem yok. Amaç modeli kurabilmeniz değil, birinin kurduğu modelden çıkan bir iddiayı okurken nereye bakacağınızı bilmeniz. Matematiği ve çalışan kodu arayan okur için <a href="https://metaduck.com/computational-psychiatry-afterburn-hierarchical-gaussian-filters/">Perception, Beliefs, and the Hierarchical Gaussian Filter</a> modeli <code>pyhgf</code> ile adım adım kuruyor; burada bulamayacağınız taraf orada.</p>
-<p>Terimlerin İngilizce karşılıkları ve Türkçede yerleşik olup olmadıkları <a href="../notlar/terimler.html">terimler sözlüğünde</a>.</p>
-<section id="çözmeye-çalıştığı-problem" class="level2 k-head">
-<h2 class="k-head" data-anchor-id="çözmeye-çalıştığı-problem">Çözmeye çalıştığı problem</h2>
-<p>Bir hastanın bir şeyi öğrenmesini izlediğinizi düşünün. Diyelim ki iki kutudan hangisinin daha sık ödül verdiğini öğreniyor. Elinizde deneme deneme yanıtlar var: bu denemede A dedi, şunda B, sonra yine A.</p>
-<p>Bu diziden ne çıkarabilirsiniz? En basit haliyle kaç kere doğru bildiğini sayarsınız. Ama bu sayı öğrenmenin nasıl olduğu hakkında hiçbir şey söylemez. İki hasta aynı sayıda doğru yapıp bambaşka yollardan gitmiş olabilir: biri her yeni kanıta hızla uymuş, diğeri kararını geç değiştirmiş ama değiştirdiğinde tamamen değiştirmiş.</p>
-<p>Hiyerarşik Gauss Filtresi o dizinin arkasında öğrenen bir kişi olduğunu varsayar ve o kişinin nasıl öğrendiğini birkaç sayıyla tarif etmeye çalışır; modellediği şey davranışın kendisi değil onu üreten süreç oluyor.</p>
+<p>The other three notes rest on these two ideas without any of them setting them out in full, so I wrote this one to close that gap.</p>
+<section id="what-prediction-error-means" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="what-prediction-error-means">What prediction error means</h2>
+<p>The “error” here is not error in the everyday sense. Prediction error means the difference between what happened and what was expected, and it is the only thing the system uses to learn.</p>
+<p>The appeal of the idea comes from its economy. If there is a clock ticking in your house you do not hear it, and you notice the moment it stops. The sound reaching your ear is the same in both cases; the only thing that changes is whether it was expected. Most of the signal arriving from your sense organs every second is like that, already what you expected. If instead of carrying all of it upward you carry only the difference, most of the load going to the upper layers falls away. Set out by Friston and Kiebel through the free energy principle, the brain is a hierarchy of estimates: each layer tells the one below what to expect, and the one below sends back only the margin by which it was wrong. The collective name for the framework is the Bayesian brain; the name given to its neural implementation is predictive coding.</p>
+<p>What follows from this runs against intuition. Perception is not something flowing from outside in but a hypothesis built from the inside out and tested against sensory data. Clark’s review presents this as a model that gathers perception and action under one roof, and most of its popularity comes from that gathering power.</p>
 </section>
-<section id="hiyerarşi-neyi-ifade-ediyor" class="level2 k-head">
-<h2 class="k-head" data-anchor-id="hiyerarşi-neyi-ifade-ediyor">Hiyerarşi neyi ifade ediyor</h2>
-<p>Modelin adındaki “hiyerarşik”, birbirinin üstünde duran belirsizlik katmanlarını anlatıyor.</p>
-<p>En alttaki katman şu anki durum: kutu şu an ödül veriyor mu. Onun üstündeki katman o durumun eğilimi: bu kutu genel olarak ne sıklıkla ödül veriyor. En üstteki katman ise dünyanın ne kadar oynak olduğu, yani bu kuralların ne sıklıkla değiştiği.</p>
-<p>Modelin asıl fikri bu üçüncü katmanda ve klinikte en çok karşılığı olan katman da bu. Ne kadar hızlı öğrenmeniz gerektiği, dünyanın ne kadar değiştiğine bağlıdır. Kurallar sık değişiyorsa yeni kanıta hızla uymak akıllıcadır, kurallar sabitse aynı hız sizi gürültünün peşinde koşturur.</p>
-<p>İnsan bu ayarı sürekli yapar, model de onu sayısallaştırır. Dünyayı olduğundan oynak sanan biri tek bir olayı fazla ciddiye alırken, tersini sanan biri gerçekten değişen bir şeyi geç fark ediyor.</p>
+<section id="what-precision-means" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="what-precision-means">What precision means</h2>
+<p>This is where the framework is actually of use clinically, and it is also the part most popular accounts skip.</p>
+<p>If the pharmacy scale shows you two hundred grams heavier, that is information. If you see the same two hundred grams on a bathroom scale that gives a different number every time you step on it, it means nothing. The difference is the same difference in both cases; what changes is how seriously you take the instrument. The brain has to make the same distinction, and it does so by giving every signal a weight. The name of that weight is precision: how narrow an estimate is, which is to say the inverse of its variance. What goes up is not the raw prediction error but its precision-weighted version.</p>
+<p>Feldman and Friston went a step further and defined attention as that weight itself. To attend to something is to raise the precision of that channel. Seen this way attention stops being a separate faculty and becomes a setting of the inference.</p>
+<p>There is also this. What has been proposed as the neural counterpart of precision is the postsynaptic gain of cells carrying prediction error; that proposal ties the framework to neuromodulation, and that is where it really gets into psychiatry.</p>
 </section>
-<section id="parametreler-klinik-olarak-ne-anlatır" class="level2 k-head">
-<h2 class="k-head" data-anchor-id="parametreler-klinik-olarak-ne-anlatır">Parametreler klinik olarak ne anlatır</h2>
-<p>En sık raporlanan sayı öğrenme oranı ve HGF’nin buradaki farkı, oranın sabit olmaması. Klasik öğrenme modellerinde kişinin bir öğrenme hızı vardır ve o hız denemeden denemeye aynı kalır. HGF’de her denemede yeniden hesaplanır, üstelik kişinin o an ne kadar emin olduğuna ve dünyayı ne kadar oynak gördüğüne göre. Şaşırtıcı bir olaydan sonra öğrenme hızlanır, tanıdık bir örüntü içinde yavaşlar.</p>
-<p>Bunu belirleyen büyüklüğün adı hassasiyet (precision). Gündelik dildeki hassasiyetle ilgisi yok; bir inancın ne kadar dar olduğunu ölçüyor. Dar bir inanç yeni kanıta az yer açar, geniş bir inanç çok yer açar. Klinik açıdan ilginç olan da burası, çünkü bir belirtinin kaynağı kanıtın kendisi değil kanıta verilen ağırlık olabilir.</p>
-<p>Modelin motoru öngörü hatası, yani olan ile beklenen arasındaki fark. Ama ham fark kullanılmaz, hassasiyetle ağırlıklandırılmış hali kullanılır. Aynı büyüklükte bir sürpriz, kişinin o anki eminliğine göre başka sonuç doğurur.</p>
-<p>Bir de yanıt gürültüsü var, modelin açıklayamadığı her şeyi bu parametre topluyor. Kişi inancına uygun davranmayabilir; dikkati dağılmıştır, tuşa yanlış basmıştır, kararsızdır. Bu parametrenin varlığı önemli, çünkü onsuz düzensiz davranış tuhaf bir öğrenme biçimi gibi görünürdü.</p>
-<p>Bu sayıların çekiciliği açık, her biri bir mekanizmaya benziyor ve klinik bir hikâyeye kolayca bağlanıyor. Aşağıdaki iki bölümü de büyük ölçüde o kolaylığa karşı yazdım.</p>
+<section id="precision-at-which-level" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="precision-at-which-level">Precision at which level</h2>
+<p>Because there is a hierarchy there is no single setting. The precision of sensory evidence and the precision of prior belief stand separately, and symptoms are tied to the ratio between them.</p>
+<p>The proposal put forward in 2013 and still treated as a reference is Adams’s: psychotic symptoms may be different faces of one core pathology, which is the faulty encoding of precision. Hallucinations, eye movement abnormalities, loss of sensory attenuation and delusions are all derived from that one framework. Where sensory attenuation sits in this picture is in <a href="../notes/sensory-attenuation.html">a separate note</a>.</p>
 </section>
-<section id="model-karşılaştırması-neden-zorunlu" class="level2 k-head">
-<h2 class="k-head" data-anchor-id="model-karşılaştırması-neden-zorunlu">Model karşılaştırması neden zorunlu</h2>
-<p>Bir model veriye uyduruldu ve sayılar çıktı. Bu sayıların anlamı olması için önce veriyi bu modelin mi ürettiğini, yoksa başka bir modelin de aynı veriyi üretip üretemeyeceğini bilmek gerekiyor.</p>
-<p>Uyum iyiliği bunu cevaplamaz. Yeterince esnek bir model her veriye iyi uyar; iyi uyum modelin doğruluğunu değil esnekliğini gösteriyor olabilir.</p>
-<p>Bu yüzden tek bir model kurup sayı raporlamak yeterli sayılmaz. Birkaç aday model kurulur, hepsi aynı veriye uydurulur ve hangisinin veriyi daha iyi açıkladığı karşılaştırılır. Karşılaştırma karmaşık modelleri ayrıca cezalandırdığı için, parametre ekleyerek uyumu artırmak bir üstünlük sayılmaz.</p>
-<p>Bir yazıda model karşılaştırması yapılmamışsa raporlanan parametreler bir mekanizmayı göstermiyor zaten, yalnızca veriyi o modele göre özetlediğinizde çıkan sayılar oluyor. Aradaki fark da hiç küçük değil.</p>
+<section id="which-direction-in-psychosis" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="which-direction-in-psychosis">Which direction in psychosis</h2>
+<p>On the canonical account, the precision of prior belief falls relative to sensory data in psychosis, the world becomes unpredictable, and a delusion is the story built to explain that experience.</p>
+<p>The findings are not that orderly. Sterzer’s review says so directly; some studies find prior beliefs weakened in psychosis, others find them strengthened. Haarsma’s group showed that precision-weighting of prediction errors helps learning in healthy people and that this is disrupted in first-episode psychosis. On top of that, they showed it can be moved with a dopaminergic intervention. Corlett, updating the ketamine model, accepts that there may be more than one route.</p>
+<p>A single study can hold both directions at once. In Benrimoh’s conditioned hallucination study, people high in hallucination proneness both give more weight to prior belief and come out with low sensory precision. In Goodwin’s two large-sample study, psychosis-like experiences went with giving too much weight to sensory information, which is the opposite of the canonical account.</p>
+<p>Sterzer’s review makes its own proposal, which is to put the two findings on different floors of the same hierarchy. When the prior belief at the lower level weakens, unfiltered prediction error climbs, and the beliefs at the upper level stiffen to explain the excess away; so weak and strong priors can be present in the same patient at once. Because upper association cortex carries denser recurrent connections than lower sensory areas, a disturbance in the excitation-inhibition balance would also be expected to hit the upper floors harder. Benrimoh finding both directions in one study fits this reading.</p>
+<p>But this is a reconciliation rather than a tested finding. A study that does not say which level its task measures can neither support nor refute the distinction, and most studies in the literature do not say.</p>
 </section>
-<section id="bir-bulguya-ne-zaman-güvenilir" class="level2 k-head">
-<h2 class="k-head" data-anchor-id="bir-bulguya-ne-zaman-güvenilir">Bir bulguya ne zaman güvenilir</h2>
-<p>Bir model veriye uyduğunda her parametre için bir sayı üretir. Bu sayının üretilmiş olması, verinin o parametre hakkında bilgi taşıdığı anlamına gelmez. Bazı modellerde iki parametre birlikte hareket eder: biri artıp diğeri azalınca model aynı davranışı üretir. Küveti iki musluktan dolduruyorsanız su seviyesine bakarak toplamı bilirsiniz, hangi musluğun ne kadar aktığını bilemezsiniz. Böyle bir durumda ikisinin bileşimi veriden okunabilir ama tek başına hiçbiri okunamaz. Kestirim yine de bir sayı verir, çünkü vermek zorundadır. O sayı da veriden çok kurulum tercihlerini yansıtır.</p>
-<p>Bunun teknik adı tanımlanabilirlik ve bir hesaplamalı bulguyu okurken sorulacak ilk sorulardan biri de bu.</p>
-<p>Sınama yöntemi parametre geri kazanımı. Bilinen değerlerle sahte veri üretirsiniz, aynı hattı o sahte veriye uygularsınız ve koyduğunuz değerlerin geri gelip gelmediğine bakarsınız. Gelmiyorsa parametre o tasarımla ölçülemiyor demektir; bunu gerçek veriye bakarak anlamanın yolu da yok. Kendi hattımda bu analizi veri toplamadan önce yaptım. Sırasının önemli olduğunu da düşünüyorum: sonraya bırakırsanız, sonuç kötü çıktığında elinizde artık yayınlanacak bir sayı olur ve onu bırakmak zorlaşır.</p>
-<p>Son olarak parametre adları. Bir parametreye “inanç kararsızlığı” ya da “öğrenme esnekliği” denmesi, o parametrenin bunu ölçtüğünü göstermiyor; ad modeli kuran kişinin yorumu ve aynı sayı başka bir yorumla bambaşka bir mekanizmaya bağlanabilir. İki yorum arasında karar vermek için de modelden fazlası gerekiyor.</p>
+<section id="the-same-framework-explains-autism-too" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="the-same-framework-explains-autism-too">The same framework explains autism too</h2>
+<p>Van de Cruys ties autism to prediction errors being given high weight inflexibly. Every deviation in the world carries news. None of it can be written off as noise. Findings about executive function and theory of mind come out as secondary consequences of this.</p>
+<p>Note that this is the exact opposite of what is proposed for psychosis; the same framework and the same two parameters, run in the other direction. Friston, Lawson and Frith argued separately about what to call this and proposed reading autism as a disturbance in beliefs about precision rather than as a weakening of prior beliefs.</p>
+<p>Recent tests muddy this too. Arthur and colleagues, modelling two sensorimotor tasks, found no lasting deviation in prior beliefs or in sensory weighting in autism; what they found was difficulty flexing the learning rate according to volatility.</p>
 </section>
-<section id="özetle" class="level2 k-head">
-<h2 class="k-head" data-anchor-id="özetle">Özetle</h2>
-<p>HGF’nin klinik değeri, öğrenme hızını sabit bir kişilik özelliği saymak yerine kişinin dünyayı ne kadar oynak gördüğüne bağlı bir ayar olarak ele almasında.</p>
-<p>Ama ürettiği her sayı bir mekanizma değil. Kestirim her koşulda bir sayı verir; o sayının bir şey ölçtüğünü gösteren şey sayının kendisi değil, arkasındaki model karşılaştırmasıyla geri kazanım oluyor. İkisi de yoksa elinizde bir mekanizma iddiası değil bir özet istatistik var; parametrenin adı yeterince iddialıysa o özet istatistiğin mekanizma diye okunması da işten bile değil.</p>
+<section id="body-and-emotion" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="body-and-emotion">Body and emotion</h2>
+<p>The fastest-growing arm of the framework looks inward rather than outward. As Seth and Friston set it up, bodily states are governed by estimation too, and emotion is a product of that process.</p>
+<p>Smith’s team tested this in a transdiagnostic sample. In a heartbeat task, when the bodily signal was disturbed by breath-holding, healthy participants raised the precision they gave the signal from the heart, while the anxiety, depression, substance use and eating disorder groups did not. No strong difference was found in prior beliefs, so what separated the groups was not the belief itself but the ability to adjust the weight.</p>
 </section>
-<section id="kaynaklar" class="level2 k-head">
-<h2 class="k-head" data-anchor-id="kaynaklar">Kaynaklar</h2>
-<p>Modelin kendisi:</p>
+<section id="the-frameworks-biggest-problem" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="the-frameworks-biggest-problem">The framework’s biggest problem</h2>
+<p>What has been listed so far can be read as the framework’s success, but the field has for some time been thinking the opposite.</p>
+<p>Qela’s review, covering seventy-two studies, finds something in every disorder, but the things found do not resemble each other. Mancini and Nour put it in a single sentence, that a model with this many moving parts is hard to pin down anywhere. Alotaibi’s 2026 review asks it in the title, whether predictive coding is a mechanistic model or a metaphorical re-description.</p>
+<p>A framework being able to hold both a finding and its opposite usually gets called flexibility, but looked at from the side of testability it is hard to call it that.</p>
+<p>This is not a reason to drop the framework. As a doctor using it in my own work, what I would say is that the sentence “precision is disturbed in psychosis” says nothing on its own. Without answers to at which level, in which direction, on which task and with which symptom, the sentence fits the framework but is not tested. When a computational finding can answer those is in the <a href="../notes/hierarchical-gaussian-filter.html">HGF note</a>; the same problem in the schizophrenia literature is in the <a href="../notes/belief-updating-in-psychosis.html">belief updating note</a>.</p>
+</section>
+<section id="references" class="level2 k-head">
+<h2 class="k-head" data-anchor-id="references">References</h2>
+<p>The framework itself:</p>
 <div class="src">
-<p>Mathys C, Daunizeau J, Friston KJ, Stephan KE. A Bayesian foundation for individual learning under uncertainty. <em>Frontiers in Human Neuroscience</em>. 2011;5:39. doi:<a href="https://doi.org/10.3389/fnhum.2011.00039">10.3389/fnhum.2011.00039</a></p>
-</div>
-<div class="src">
-<p>Mathys CD, Lomakina EI, Daunizeau J, Iglesias S, Brodersen KH, Friston KJ, Stephan KE. Uncertainty in perception and the Hierarchical Gaussian Filter. <em>Frontiers in Human Neuroscience</em>. 2014;8:825. doi:<a href="https://doi.org/10.3389/fnhum.2014.00825">10.3389/fnhum.2014.00825</a></p>
-</div>
-<p>Model karşılaştırması ve parametre geri kazanımı için:</p>
-<div class="src">
-<p>Wilson RC, Collins AGE. Ten simple rules for the computational modeling of behavioral data. <em>eLife</em>. 2019;8:e49547. doi:<a href="https://doi.org/10.7554/eLife.49547">10.7554/eLife.49547</a></p>
+<p>Friston K, Kiebel S. Predictive coding under the free-energy principle. <em>Philosophical Transactions of the Royal Society B</em>. 2009;364(1521):1211-1221. doi:<a href="https://doi.org/10.1098/rstb.2008.0300">10.1098/rstb.2008.0300</a></p>
 </div>
 <div class="src">
-<p>Rigoux L, Stephan KE, Friston KJ, Daunizeau J. Bayesian model selection for group studies, revisited. <em>NeuroImage</em>. 2014;84:971-985. doi:<a href="https://doi.org/10.1016/j.neuroimage.2013.08.065">10.1016/j.neuroimage.2013.08.065</a></p>
+<p>Feldman H, Friston KJ. Attention, uncertainty, and free-energy. <em>Frontiers in Human Neuroscience</em>. 2010;4:215. doi:<a href="https://doi.org/10.3389/fnhum.2010.00215">10.3389/fnhum.2010.00215</a></p>
 </div>
-<p>Modeli uygulayan yazılım:</p>
 <div class="src">
-<p>Frässle S, Aponte EA, Bollmann S, ve ark. TAPAS: an open-source software package for translational neuromodeling and computational psychiatry. <em>Frontiers in Psychiatry</em>. 2021;12:680811. doi:<a href="https://doi.org/10.3389/fpsyt.2021.680811">10.3389/fpsyt.2021.680811</a></p>
+<p>Clark A. Whatever next? Predictive brains, situated agents, and the future of cognitive science. <em>Behavioral and Brain Sciences</em>. 2013;36(3):181-204. doi:<a href="https://doi.org/10.1017/S0140525X12000477">10.1017/S0140525X12000477</a></p>
 </div>
-<!-- An explanatory article, so Article rather than the generic WebPage. No
-     datePublished until it is actually published. -->
+<p>Psychosis:</p>
+<div class="src">
+<p>Adams RA, Stephan KE, Brown HR, Frith CD, Friston KJ. The computational anatomy of psychosis. <em>Frontiers in Psychiatry</em>. 2013;4:47. doi:<a href="https://doi.org/10.3389/fpsyt.2013.00047">10.3389/fpsyt.2013.00047</a></p>
+</div>
+<div class="src">
+<p>Sterzer P, Adams RA, Fletcher P, et al.&nbsp;The predictive coding account of psychosis. <em>Biological Psychiatry</em>. 2018;84(9):634-643. doi:<a href="https://doi.org/10.1016/j.biopsych.2018.05.015">10.1016/j.biopsych.2018.05.015</a></p>
+</div>
+<div class="src">
+<p>Corlett PR, Honey GD, Fletcher PC. Prediction error, ketamine and psychosis: an updated model. <em>Journal of Psychopharmacology</em>. 2016;30(11):1145-1155. doi:<a href="https://doi.org/10.1177/0269881116650087">10.1177/0269881116650087</a></p>
+</div>
+<div class="src">
+<p>Haarsma J, Fletcher PC, Griffin JD, et al.&nbsp;Precision weighting of cortical unsigned prediction error signals benefits learning, is mediated by dopamine, and is impaired in psychosis. <em>Molecular Psychiatry</em>. 2021;26(9):5320-5333. doi:<a href="https://doi.org/10.1038/s41380-020-0803-8">10.1038/s41380-020-0803-8</a></p>
+</div>
+<div class="src">
+<p>Benrimoh D, Fisher VL, Seabury R, et al.&nbsp;Evidence for reduced sensory precision and increased reliance on priors in hallucination-prone individuals in a general population sample. <em>Schizophrenia Bulletin</em>. 2024;50(2):349-362. doi:<a href="https://doi.org/10.1093/schbul/sbad136">10.1093/schbul/sbad136</a></p>
+</div>
+<div class="src">
+<p>Goodwin I, Kugel J, Hester R, Garrido MI. Bayesian accounts of perceptual decisions in the nonclinical continuum of psychosis. <em>PLOS Computational Biology</em>. 2023;19(11):e1011670. doi:<a href="https://doi.org/10.1371/journal.pcbi.1011670">10.1371/journal.pcbi.1011670</a></p>
+</div>
+<p>Autism:</p>
+<div class="src">
+<p>Van de Cruys S, Evers K, Van der Hallen R, et al.&nbsp;Precise minds in uncertain worlds: predictive coding in autism. <em>Psychological Review</em>. 2014;121(4):649-675. doi:<a href="https://doi.org/10.1037/a0037665">10.1037/a0037665</a></p>
+</div>
+<div class="src">
+<p>Friston KJ, Lawson R, Frith CD. On hyperpriors and hypopriors: comment on Pellicano and Burr. <em>Trends in Cognitive Sciences</em>. 2013;17(1):1. doi:<a href="https://doi.org/10.1016/j.tics.2012.11.003">10.1016/j.tics.2012.11.003</a></p>
+</div>
+<div class="src">
+<p>Arthur T, Vine S, Buckingham G, Brosnan M, Wilson M, Harris D. Testing predictive coding theories of autism spectrum disorder using models of active inference. <em>PLOS Computational Biology</em>. 2023;19(9):e1011473. doi:<a href="https://doi.org/10.1371/journal.pcbi.1011473">10.1371/journal.pcbi.1011473</a></p>
+</div>
+<p>Body and emotion:</p>
+<div class="src">
+<p>Seth AK, Friston KJ. Active interoceptive inference and the emotional brain. <em>Philosophical Transactions of the Royal Society B</em>. 2016;371(1708):20160007. doi:<a href="https://doi.org/10.1098/rstb.2016.0007">10.1098/rstb.2016.0007</a></p>
+</div>
+<div class="src">
+<p>Smith R, Kuplicki R, Feinstein J, et al.&nbsp;A Bayesian computational model reveals a failure to adapt interoceptive precision estimates across depression, anxiety, eating, and substance use disorders. <em>PLOS Computational Biology</em>. 2020;16(12):e1008484. doi:<a href="https://doi.org/10.1371/journal.pcbi.1008484">10.1371/journal.pcbi.1008484</a></p>
+</div>
+<p>Objections to the framework:</p>
+<div class="src">
+<p>Qela B, Damiani S, De Santis S, et al.&nbsp;Predictive coding in neuropsychiatric disorders: a systematic transdiagnostic review. <em>Neuroscience and Biobehavioral Reviews</em>. 2025;169:106020. doi:<a href="https://doi.org/10.1016/j.neubiorev.2025.106020">10.1016/j.neubiorev.2025.106020</a></p>
+</div>
+<div class="src">
+<p>Mancini V, Nour MM. If mismatch negativity is the answer, what is the question? On the nature of predictive coding abnormalities in psychosis. <em>Biological Psychiatry Global Open Science</em>. 2025;5(1):100412. doi:<a href="https://doi.org/10.1016/j.bpsgos.2024.100412">10.1016/j.bpsgos.2024.100412</a></p>
+</div>
+<div class="src">
+<p>Alotaibi AS. Predictive coding in psychopathology: mechanistic model or metaphorical re-description? <em>Frontiers in Human Neuroscience</em>. 2026;19:1743028. doi:<a href="https://doi.org/10.3389/fnhum.2025.1743028">10.3389/fnhum.2025.1743028</a></p>
+</div>
+<!-- An explanatory note, so Article rather than the generic WebPage.
+     post-render injects datePublished and dateModified from the front matter;
+     a date kept by hand in two places drifts apart at the first correction. -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "datePublished": "2026-08-09",
-  "dateModified": "2026-08-09",
-  "@id": "https://furkanbekdemir.com/notlar/hgf-nedir#article",
-  "headline": "Hiyerarşik Gauss filtresi nedir, ne işe yarar",
-  "description": "Hesaplamalı psikiyatride sık kullanılan Hiyerarşik Gauss Filtresinin klinik okur için açıklaması: modelin parametreleri ne ölçer, model karşılaştırması neden zorunludur ve bir hesaplamalı bulguya ne zaman güvenilir.",
-  "inLanguage": "tr",
+  "datePublished": "2026-08-11",
+  "dateModified": "2026-08-11",
+  "@id": "https://furkanbekdemir.com/notes/prediction-error-and-precision#article",
+  "headline": "The Bayesian brain, prediction error and psychiatric symptoms",
+  "description": "The Bayesian brain and predictive coding explained for clinical readers: what prediction error means, what precision sets, how the framework attaches to symptoms from psychosis to autism and anxiety, and why its reach is also the most serious objection to it.",
+  "inLanguage": "en",
   "about": [
-    "Hierarchical Gaussian Filter",
-    "Computational psychiatry",
-    "Belief updating",
-    "Predictive processing",
-    "Model comparison",
-    "Parameter recovery"
+    "Prediction error",
+    "Precision",
+    "Predictive coding",
+    "Bayesian brain",
+    "Active inference",
+    "Free energy principle",
+    "Psychosis",
+    "Autism",
+    "Interoception",
+    "Computational psychiatry"
   ],
   "author": { "@id": "https://furkanbekdemir.com/#person" },
   "publisher": { "@id": "https://furkanbekdemir.com/#person" },
-  "url": "https://furkanbekdemir.com/notlar/hgf-nedir"
+  "url": "https://furkanbekdemir.com/notes/prediction-error-and-precision"
 }
 </script>
 <div class="k">
-<p><a lang="tr" href="../notlar.html">← notlar</a> · <a href="../notlar/duyusal-azaltim.html">duyusal azaltım</a> · <a href="../notlar/ongoru-hatasi-ve-hassasiyet.html">öngörü hatası</a> · <a href="../notlar/sizofrenide-inanc-guncelleme.html">inanç güncelleme</a> · <a href="../notlar/terimler.html">terimler sözlüğü</a> · <a href="../notes/hierarchical-gaussian-filter.html">english</a></p>
+<p><a href="../notes.html">← notes</a> · <a href="../notes/hierarchical-gaussian-filter.html">the HGF</a> · <a href="../notes/sensory-attenuation.html">sensory attenuation</a> · <a href="../notes/belief-updating-in-psychosis.html">belief updating</a> · <a href="../notlar/ongoru-hatasi-ve-hassasiyet.html">türkçesi</a></p>
 </div>
 
 
@@ -435,12 +482,12 @@ ul.task-list li input[type="checkbox"] {
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Kopyalandı");
+      button.setAttribute("title", "Copied!");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Kopyalandı");
+        button.setAttribute("data-bs-title", "Copied!");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
@@ -816,7 +863,7 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
-<footer lang="en" class="footer">
+<footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
 <p>Furkan Bekdemir, MD · Department of Psychiatry, Ondokuz Mayıs University, Samsun</p>

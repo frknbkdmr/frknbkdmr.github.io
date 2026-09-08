@@ -31,14 +31,14 @@ the study. Supervised by Prof. Dr. Gökhan Sarısoy; registration pending.
 Theory · in design
 
 ### [Akathisia as active inference](research/akathisia-active-inference.qmd)
-Restlessness that drives movement, and movement that does not relieve it. An
-active inference account of why.
+Inner restlessness that drives movement, and the movement usually fails to
+relieve it. I am working out an active inference account of that failure.
 
 With the Department of Neurology · in collection
 
 ### [Effort and reward in multiple sclerosis](research/effort-ms.qmd)
 Separating fatigue from depression in MS by modelling effort-based decisions,
-in collaboration with the Department of Neurology.
+to see whether what changed is the cost of acting or the value of the outcome.
 
 ## Elsewhere
 [ORCID](https://orcid.org/0000-0002-7236-5776) ·
@@ -52,9 +52,9 @@ contact furkan [at] furkanbekdemir.com
 
 URL: https://furkanbekdemir.com/research/
 
-Three open questions and two abstracts already published. The open questions
-share a method: all of them are about how a brain weighs what it already
-believes against what it is currently being told.
+Three open questions and two abstracts already published. What the open
+questions share is not a method but a subject, how a brain weighs what it
+already believes against what it is currently being told.
 
 ## Open
 Residency thesis · BAP04-B-2026-6538 · in preparation
@@ -67,14 +67,16 @@ the same people.
 Theory · in design
 
 ### [Akathisia as active inference](akathisia-active-inference.qmd)
-Akathisia drives movement that rarely settles it. Active inference offers an
-account of why.
+Akathisia drives movement that rarely settles it, and the felt and the seen
+halves of the syndrome can come apart entirely. Whether active inference
+explains that better than the receptor does.
 
 With the Department of Neurology · in collection
 
 ### [Effort and reward in multiple sclerosis](effort-ms.qmd)
-Fatigue and depression overlap on every questionnaire that tries to separate
-them. Effort-based decision making offers a behavioural separation.
+Fatigue and depression overlap on every questionnaire that tries to tell them
+apart. An effort-based task can ask instead whether the cost of acting or the
+value of the outcome is what changed.
 
 ## Published abstracts
 2026 · Turkish Journal of Psychiatry · presented
@@ -185,8 +187,8 @@ URL: https://furkanbekdemir.com/research/effort-ms
 With the Department of Neurology · in collection
 
 Fatigue and depression in MS overlap on every questionnaire that tries to tell
-them apart. Effort-based decision making offers a behavioural separation:
-whether the cost of action or the value of the outcome is what has changed.
+them apart. An effort-based task can separate them behaviourally instead, by
+asking whether what changed is the cost of action or the value of the outcome.
 
 ## Where the overlap comes from
 Some of it is built into the instruments. Zaehle and Linnhoff compared two
@@ -436,9 +438,9 @@ Maxon/McNaughton control software and is not included in the planned public
 release.
 
 It was built because there is nothing to buy. No manufacturer sells a
-force-matching rig: the paradigm lives in a few labs, each of which made its
-own. So the choice was not between building and buying. It was between building
-and not running the experiment.
+force-matching rig; the paradigm lives in a few labs, each of which made its
+own. So the choice was never between building and buying, it was between
+building and not running the experiment.
 
 The design is not original and is not meant to be. The instrument descends from
 Shergill and colleagues at UCL, through the Cambridge group who fixed the
@@ -761,7 +763,7 @@ Hesaplamalı psikiyatri üzerine, klinik okura yazılmış kapsamlı bir Türkç
 kaynağa rastlamadım. Terimlerin karşılığı da oturmuş değil. Buradaki notlar o
 boşluğu doldurma denemesi.
 
-Üç yazının İngilizcesi [/notes](notes.qmd) altında. Sözlük yalnızca Türkçe
+Dört yazının İngilizcesi [/notes](notes.qmd) altında. Sözlük yalnızca Türkçe
 kalıyor; konusu hangi Türkçe karşılığın yerleşik olduğu ve bunu İngilizce bir
 sayfa soramaz.
 
@@ -771,35 +773,35 @@ sayfa soramaz.
 ### [Terimler](notlar/terimler.qmd)
 Hesaplamalı psikiyatri terimlerinin Türkçe karşılıkları ve her biri için o
 karşılığın gerçekten yerleşik olup olmadığı. On sekizinde yerleşik bir karşılık
-bulamadım; listenin asıl işi bunu yazmak.
+bulamadım ve o satırları boş bıraktım.
 
 Klinik okur için · denklemsiz · yayında
 
 ### [Hiyerarşik Gauss filtresi nedir, ne işe yarar](notlar/hgf-nedir.qmd)
 Modelin parametreleri klinik olarak ne anlatır, model karşılaştırması neden
 zorunludur ve bir hesaplamalı bulguya ne zaman güvenilir. Bir parametrenin
-kestirilebilmesi, onun yorumlanabileceği anlamına gelmiyor.
+kestirilebilmesi onun yorumlanabileceğini göstermiyor.
 
 Klinik okur için · 15 kaynak · yayında
 
 ### [Duyusal azaltım ve kuvvet eşleştirme görevi](notlar/duyusal-azaltim.qmd)
 Kendi ürettiğimiz dokunuşu neden zayıf hissederiz, bu nasıl sayıya çevrilir ve
 şizofreniden fonksiyonel hareket bozukluğuna kadar nerelerde bozuk bulunmuştur.
-Görevin iki koşulu var ve ikincisi bir süs değil.
+Görevin iki koşulu var ve ölçüm ikisinin farkından çıkıyor.
 
-Klinik okur için · 18 kaynak · yayında
+Klinik okur için · 19 kaynak · yayında
 
 ### [Şizofrenide inanç güncelleme ve aceleci karar](notlar/sizofrenide-inanc-guncelleme.qmd)
 Sonuca atlama yanlılığının kanıtı ne kadar sağlam, hesaplamalı modeller tabloyu
-nasıl değiştirdi ve neden hâlâ birey düzeyinde bir ölçüt yok. Bulgunun en zayıf
-olduğu yer, tam da uğruna kurulduğu yer.
+nasıl değiştirdi ve neden hâlâ birey düzeyinde bir ölçüt yok. Grup farkı sağlam
+duruyor ama sanrı şiddetiyle ilişkisi için aynısı söylenemiyor.
 
 Klinik okur için · 17 kaynak · yayında
 
 ### [Bayesçi beyin, öngörü hatası ve psikiyatrik belirti](notlar/ongoru-hatasi-ve-hassasiyet.qmd)
 Öngörü hatası ne demek, hassasiyet neyi belirler ve öngörücü kodlama neden
-psikozdan otizme kadar her belirtiye uyabiliyor. Çerçevenin kapsayıcılığı aynı
-zamanda ona yöneltilen en ciddi itiraz.
+psikozdan otizme kadar her belirtiye uyabiliyor. Bu kadar çok şeye uyabilmesi
+çerçeveye yöneltilen en ciddi itirazın da kaynağı.
 
 ## Planlanan yazılar
 ### Akatizi: aktif çıkarım çerçevesinden bir bakış
@@ -812,68 +814,70 @@ Akatizinin öznel ve nesnel bileşenlerinin neden ayrışabildiği ve hareketin
 
 URL: https://furkanbekdemir.com/notlar/duyusal-azaltim
 
-Kendinizi gıdıklayamazsınız. Herkesin bildiği bu gözlemin arkasında ölçülebilir
-bir mekanizma var. O mekanizmanın zayıfladığı yerlerde psikiyatrik belirtiler
-çıkıyor.
+Kendinizi gıdıklayamazsınız. Herkesin bildiği bu gözlemin arkasında
+laboratuvarda sayıya çevrilebilen bir mekanizma var ve o mekanizmanın
+zayıfladığı yerlerde psikiyatrik belirtiler çıkıyor.
 
-Gıdıklanma bunun en tanıdık hali. Aynı mekanizmanın laboratuvarda ölçülen bir
-karşılığı var ve o ölçüm psikiyatride birkaç ayrı belirtiyle ilişkilendiriliyor.
+Gıdıklanma bunun en tanıdık hali ama meselenin tamamı değil. Psikiyatri asistanı
+olarak bu ölçümle tez üzerinden uğraşıyorum, dolayısı ile burada hem literatürün
+ne dediğini hem de kendi düzeneğimi kurarken öğrendiklerimi anlatacağım.
 Terimlerin İngilizce karşılıkları [terimler sözlüğünde](terimler.qmd);
-hassasiyet ve öngörü hatası kavramlarının daha geniş bir anlatımı [HGF
-yazısında](hgf-nedir.qmd).
+hassasiyet ve öngörü hatasını daha geniş anlatan bir yazı da [HGF
+yazısında](hgf-nedir.qmd) var.
 
-## Gıdıklanmadan başlayan mesele
-Avucunuza kendi elinizle dokunmakla aynı dokunuşun birinden gelmesi arasında
-fiziksel bir fark yok. Aynı basınç, aynı deri, aynı reseptörler. Değişen yalnızca
-dokunuşun kaynağı. Algılanan şiddeti belirgin biçimde düşüren de o.
+## Kendi dokunuşunuz neden farklı
+Avucunuza kendi elinizle dokunmakla aynı dokunuşun bir başkasından gelmesi
+arasında fiziksel hiçbir fark yok. Basınç, deri ve reseptörler aynı. Değişen tek
+şey dokunuşun kaynağı ve algılanan şiddeti düşüren de tam olarak bu.
 
 Blakemore ve arkadaşları 1998'de buna baktı. Dışarıdan gelen dokunuşta
 somatosensoriyel korteks daha çok, kendi ürettiğinizde daha az çalışıyordu.
 Serebellumda ise örüntü tersineydi: dokunuş üreten hareketlerde serebellar
 etkinlik, üretmeyen hareketlere göre daha düşüktü. Buradan çıkan yorum,
 serebellumun hareketin duyusal sonucunu önceden hesapladığı ve o hesabın gelen
-sinyali kısmak için kullanıldığı.
+sinyali kısmak için kullanıldığı yönünde. Yorum diyorum, çünkü çalışma bunu
+doğrudan göstermiyor; sadece eldeki bulgularla tutarlı olan en basit açıklama bu.
 
-Kısılmanın adı duyusal azaltım (sensory attenuation). İşe yaraması şuradan: duyu
-sisteminize ulaşan sinyalin büyük kısmını zaten kendi hareketleriniz üretir.
-Hepsi aynı ağırlıkta işlenirse, dışarıdan gelen ve gerçekten haber değeri
-taşıyan sinyal bunun içinde kaybolur. Gürültü önleyici kulaklıklar tam olarak
-bunu yapıyor: gelen sesi önceden kestirip tersini üretiyorlar, geriye yalnızca
-kestiremedikleri kalıyor. Öngörülebilir olanı kısmak, öngörülemeyeni öne
-çıkarmanın yolu.
+Kısılmanın adı duyusal azaltım (sensory attenuation). Ne işe yaradığını anlamak
+için duyu sisteminize ulaşan sinyalin büyük kısmını zaten kendi hareketlerinizin
+ürettiğini hatırlamak gerekiyor; hepsi aynı ağırlıkta işlenirse dışarıdan gelen
+ve gerçekten haber değeri taşıyan sinyal bunun içinde kaybolur. Gürültü önleyici
+kulaklıklar da aslında bunu yapıyor, gelen sesi önceden kestirip tersini
+üretiyorlar ve geriye yalnızca kestiremedikleri kalıyor.
 
 ## Görev bunu nasıl sayıya çeviriyor
 Bunun en akılda kalıcı gösterimi iki kişi üzerinde yapıldı. Shergill ve
 arkadaşları 2003'te katılımcılara sırayla birbirlerinin parmağına, az önce
-hissettikleri kuvvetin aynısını uygulattı. Kuvvet her turda büyüdü. Kimse
-abartmıyordu; herkes hissettiğini eşliyordu, ama kendi ürettiğini olduğundan
+hissettikleri kuvvetin aynısını uygulattı; kuvvet her turda büyüdü. Kimse
+abartmıyordu, herkes hissettiğini eşliyordu, ama kendi ürettiğini olduğundan
 zayıf hissettiği için her turda biraz fazlasını koyuyordu. Makalenin başlığı
 bunu göze karşılık iki göz diye özetliyor. Çocukken duyduğumuz "ama önce o
-vurdu, hem de daha sert" cümlesi demek ki bir yalan değilmiş. Kalibrasyon
-sorunuymuş.
+vurdu, hem de daha sert" cümlesinin bir yalan değil bir kalibrasyon sorunu
+olduğu ortaya çıkıyor böylece :D
 
 Aynı şey tek kişide standart bir göreve dönüştürüldü. Kuvvet eşleştirme
 görevinde (force-matching task) katılımcının parmağına bir hedef kuvvet
-uygulanır, sonra aynı kuvveti iki ayrı yoldan yeniden üretmesi istenir.
-Doğrudan koşulda diğer eliyle kendi parmağına basar. Sürgü koşulunda kuvveti
-motor üretir, katılımcı bir sürgüyle onun büyüklüğünü ayarlar.
+uygulanıyor, sonra aynı kuvveti iki ayrı yoldan yeniden üretmesi isteniyor.
+Doğrudan koşulda diğer eliyle kendi parmağına basıyor. Sürgü koşulunda kuvveti
+motor üretiyor ve katılımcı bir sürgüyle onun büyüklüğünü ayarlıyor.
 
-Doğrudan bastığında hedefi aşar, sürgüyle epeyce isabetli olur. McNaughton'ın
-cihaz makalesinde yayımlanan yirmi beş kişilik veride doğrudan koşulda ortalama
-0,50 N fazla, sürgü koşulunda 0,30 N eksik üretilmiş. İki koşul arasındaki fark
-ölçümün kendisi.
+Doğrudan bastığında hedefi aşıyor, sürgüyle epeyce isabetli oluyor.
+McNaughton'ın cihaz makalesinde yayımlanan yirmi beş kişilik veride doğrudan
+koşulda ortalama 0,50 N fazla, sürgü koşulunda 0,30 N eksik üretilmiş ve iki
+koşul arasındaki bu fark ölçümün kendisi oluyor.
 
-## İkinci koşul bir süs değil
-Sürgü koşulunun neden gerektiği ilk bakışta belli olmuyor. Görevi yanlış okumak
-da çoğunlukla buradan başlıyor.
+## Sürgü koşulu ne işe yarıyor
+Sürgü koşulunun neden gerektiği ilk bakışta belli olmuyor ve görevi yanlış
+okumak da çoğunlukla buradan itibaren başlıyor, dolayısı ile biraz duralım
+burada.
 
 Doğrudan koşulda yapılan hatanın kaynağı bir tane değil. Hedef kuvveti
-hatırlamanız gerekiyor, ürettiğiniz kuvveti derecelendirmeniz gerekiyor, motor
-çıktınızın kendi gürültüsü var. Bunların hiçbiri öngörüye özgü değil, hepsi tek
-başına da sapma üretir. Sürgü koşulunda aynı hafıza ve derecelendirme yükü
-duruyor, ama kuvvet sizin elinizden çıkmadığı için öngörüye dayalı kısma devrede
-değil. İki koşul arasındaki fark alındığında ortak etkiler eleniyor, geriye öngörüye
-ait pay kalıyor.
+hatırlamanız gerekiyor, ürettiğiniz kuvveti derecelendirmeniz gerekiyor, üstüne
+bir de motor çıktınızın kendi gürültüsü var. Bunların hiçbiri öngörüye özgü
+değil, hepsi tek başına da sapma üretir. Sürgü koşulunda aynı hafıza ve
+derecelendirme yükü duruyor ama kuvvet sizin elinizden çıkmadığı için öngörüye
+dayalı kısım devrede değil. İki koşulun farkı alındığında ortak etkiler eleniyor,
+geriye öngörüye ait pay kalıyor.
 
 Bu mantık yakın zamanda biçimsel olarak sınandı. Valè ve arkadaşları beş yüze
 yakın katılımcının verisiyle görevin hesaplamalı bir modelini kurdu, hafıza
@@ -885,26 +889,28 @@ işliyor: sinyalden sabit bir miktar düşülmüyor, sinyal bir katsayıyla kü�
 
 Azaltımın neye kilitlendiği de sınandı. Bays ve arkadaşları mekanizmanın
 hareketin kendisine değil, hareketten beklenen olaya bağlandığını gösterdi.
-Dokunuşun zamanlaması öne ya da arkaya kaydırıldıkça azaltım azalıyor. Parmağın
-üstünde duran ya da yanından geçen hareketler ise hiç azaltım üretmiyor. Sistem
-"hareket ediyorum, duyuyu kıs" demiyor. "Şu anda şurada şu dokunuş olacak"
-diyor. Kilteni ve Ehrsson daha temel bir koşul gösterdi: dokunan eli kendinize ait
-saymanız gerekiyor. Kauçuk el yanılsamasıyla sahiplik algısı değiştirildiğinde
-azaltım da yer değiştiriyor.
+Dokunuşun zamanlaması öne ya da arkaya kaydırıldıkça azaltım azalıyor, parmağın
+üstünde duran ya da yanından geçen hareketler ise hiç azaltım üretmiyor. Yani
+sistem "hareket ediyorum, duyuyu kıs" demiyor da "şu anda şurada şu dokunuş
+olacak" diyor. Kilteni ve Ehrsson bunun üstüne daha temel bir koşul gösterdi,
+dokunan eli kendinize ait saymanız gerekiyor; kauçuk el yanılsamasıyla sahiplik
+algısı değiştirildiğinde azaltım da yer değiştiriyor.
 
 ## Hassasiyetle bağlantısı
 Aktif çıkarım çerçevesinde azaltımın karşılığı, hareket sırasında duyusal
-kanıtın hassasiyetinin düşürülmesi. Bunun bir zorunluluk olduğu iddiası şuna
-dayanıyor: hareket etmek için hareket ettiğinize dair öngörünün, henüz hareket
-etmediğinizi söyleyen duyusal kanıta baskın gelmesi gerekir. Kanıtın ağırlığı
-düşürülmezse hareket başlamaz.
+kanıtın hassasiyetinin düşürülmesi. Bunun bir zorunluluk olduğu iddiası, hareket
+etmek için hareket ettiğinize dair öngörünün henüz hareket etmediğinizi söyleyen
+duyusal kanıta baskın gelmesi gerektiğine dayanıyor. Kanıtın ağırlığı
+düşürülmezse hareket başlamıyor.
 
 Brown ve arkadaşları bu çerçeveden kuvvet eşleştirme bulgusunu yeniden üretti.
-Modelden azaltımı çıkardıklarında iki şey birlikte oldu: görevdeki fazla üretim
-kayboldu, eylemliliğe dair yanlış çıkarımlar belirdi. Aynı ayar hem hareketi
-mümkün kılıyor hem de neyin size ait olduğunu belirliyor. Bedeli iki yönde de
-var: yeterince düşürmezseniz hareket başlamıyor, fazla düşürürseniz kendinizle
-dünyayı ayırt edemiyorsunuz.
+Modelden azaltımı çıkardıklarında görevdeki fazla üretim kayboldu ve eylemliliğe
+dair yanlış çıkarımlar belirdi. Yani aynı ayar hem hareketi mümkün kılıyor hem de
+neyin size ait olduğunu belirliyor, bunun da iki yönde bedeli var: yeterince
+düşürmezseniz hareket başlamıyor, fazla düşürürseniz kendinizle dünyayı ayırt
+edemiyorsunuz. Buraya bir çekince düşeyim, bu türetme bir modelin içinden
+çıkıyor ve modelin varsayımlarına bağlı; deneysel olarak doğrudan gösterilmiş
+bir şey değil.
 
 ## Klinikte nereye oturuyor
 En öğretici bulgu en eskilerden biri. Blakemore ve arkadaşları 2000'de şizofreni
@@ -917,9 +923,8 @@ Sonrası bunu genişletti. Şizofrenide azaltımın anlamlı biçimde düşük o
 gösterildi; görüntüleme çalışmasında ikincil somatosensoriyel alandaki azaltım
 kaybı, hastanın o anki varsanı şiddetiyle öngörülüyordu. Teufel ve arkadaşları
 ise sağlıklı kişilerde çalıştı: sanrısal düşünce eğilimi yüksek olanlar görevde
-daha isabetliydi, yani daha az azaltım gösteriyorlardı. Bu sonuncusu iki
-itirazı birden karşılıyor, çünkü ne ilaç ne de aktif hastalık dönemi
-açıklayabilir.
+daha isabetliydi, yani daha az azaltım gösteriyorlardı. Bu sonuncusu iki itirazı
+birden karşılıyor, çünkü ne ilaç ne de aktif hastalık dönemi açıklayabilir.
 
 Tabloyu şizofrenide bırakmak yanlış olur. Fonksiyonel hareket bozukluğunda
 azaltım yok; hastalar hareketi kendi kontrollerinde hissetmiyorlar ve görevde
@@ -930,20 +935,22 @@ ilişkili. Kronik ağrıda ise büyüklük açısından grup farkı bulunamadı;
 varyanstı.
 
 Azaltım bozukluğunun bu kadar farklı tabloda çıkması onu tanıya değil belirtiye
-bağlı bir ölçüm yapıyor zaten. Hastanın hangi tanıyı taşıdığını söylemiyor.
-Hangi mekanizmanın bozulduğuna dair bir şey söylüyor. İkisi karıştırıldığında
-ölçüm verebileceğinden fazlasını vaat etmiş oluyor.
+bağlı bir ölçüm yapıyor zaten. Hastanın hangi tanıyı taşıdığını söylemiyor,
+hangi mekanizmanın bozulduğuna dair bir şey söylüyor ve ikisi karıştırıldığında
+ölçüm verebileceğinden fazlasını vaat etmiş oluyoruz. Klinik pratikte bugün bir
+karşılığı olduğunu iddia etmiyorum; bunlar grup düzeyinde farklar ve tek bir
+hastanın önünde ne yapacağınızı söylemiyorlar.
 
 ## Ölçen aletin payı
-Ölçüm iki koşulun farkı olduğu için, iki koşulda da aynı olan alet hatası
-farkta düşer. Düşmeyen hata, yüklenme yönüne bağlı olan hata; çünkü iki koşul
-sensörü aynı biçimde yüklemiyor. Motorun bastırdığı bir rampa ile insanın
+Ölçüm iki koşulun farkı olduğu için, iki koşulda da aynı olan alet hatası farkta
+düşüyor. Düşmeyen hata ise yüklenme yönüne bağlı olan hata, çünkü iki koşul
+sensörü aynı biçimde yüklemiyor; motorun bastırdığı bir rampa ile insanın
 bastırdığı bir rampa aynı şey değil.
 
-Kendi düzeneğimin kabul ölçütleri arasında en dar marjla geçen kalem histerezis
-oldu. Tesadüf değil: histerezis tam da farkta düşmeyen hata sınıfına giriyor.
-Düzeneğin kendisi ve kalibrasyon kayıtları
-[cihaz sayfasında](../tools/force-matching.qmd).
+Kendi düzeneğimi kurarken kabul ölçütleri arasında en dar marjla geçen kalem
+histerezis oldu ve bu bir tesadüf değil, çünkü histerezis tam da farkta düşmeyen
+hata sınıfına giriyor. Düzeneğin kendisi ve kalibrasyon kayıtları [cihaz
+sayfasında](../tools/force-matching.qmd).
 
 ## Bir bulguyu okurken
 Yayımlanmış bir azaltım bulgusunda ilk bakılacak yer tasarımın kaç koşulu
@@ -956,11 +963,14 @@ kuvvetin çıkarılacağı en uygun pencerenin 2,5 ile 3,0 saniye arası olduğu
 performansın deney boyunca kaymadığını gösterdi. Pencere seçimi rapor
 edilmemişse iki çalışmayı karşılaştıracak zemin yok demektir.
 
-Son olarak, analiz yalnız ortalamaya mı bakmış. Kronik ağrıda gruplar
-büyüklükte ayrışmadı ama varyansta ayrıştı; ortalamaya bakan bir analiz böyle
-bir farkı hiç görmez. Valè ve arkadaşlarının modeli değişkenliğin gürültü değil
-öngörüye ait sinyal olabileceğini söylediğine göre, bu artık ikincil bir ayrıntı
-da değil.
+Son olarak, analiz yalnız ortalamaya mı bakmış. Kronik ağrıda gruplar büyüklükte
+ayrışmadı ama varyansta ayrıştı ve ortalamaya bakan bir analiz böyle bir farkı
+hiç görmez. Valè ve arkadaşlarının modeli değişkenliğin gürültü değil öngörüye
+ait sinyal olabileceğini söylediğine göre bunu ikincil bir ayrıntı saymak artık
+zor.
+
+Kendi verimi topladıkça bu sayfayı güncelleyeceğim, özellikle de burada
+yazdıklarımın yanlış çıktığı yerleri.
 
 ## Kaynaklar
 Olgunun kendisi:
@@ -1078,8 +1088,8 @@ yeni kanıta hızla uymuş, diğeri kararını geç değiştirmiş ama değişti
 tamamen değiştirmiş.
 
 Hiyerarşik Gauss Filtresi o dizinin arkasında öğrenen bir kişi olduğunu varsayar
-ve o kişinin nasıl öğrendiğini birkaç sayıyla tarif etmeye çalışır. Modellediği
-şey davranışın kendisi değil, davranışı üreten süreç.
+ve o kişinin nasıl öğrendiğini birkaç sayıyla tarif etmeye çalışır; modellediği
+şey davranışın kendisi değil onu üreten süreç oluyor.
 
 ## Hiyerarşi neyi ifade ediyor
 Modelin adındaki "hiyerarşik", birbirinin üstünde duran belirsizlik
@@ -1090,18 +1100,19 @@ katman o durumun eğilimi: bu kutu genel olarak ne sıklıkla ödül veriyor. En
 üstteki katman ise dünyanın ne kadar oynak olduğu, yani bu kuralların ne
 sıklıkla değiştiği.
 
-Üçüncü katman modelin asıl fikri ve klinikte en çok karşılığı olan yeri. Ne
-kadar hızlı öğrenmeniz gerektiği, dünyanın ne kadar değiştiğine bağlıdır.
-Kurallar sık değişiyorsa yeni kanıta hızla uymak akıllıcadır. Kurallar sabitse
+Modelin asıl fikri bu üçüncü katmanda ve klinikte en çok karşılığı olan katman
+da bu. Ne kadar hızlı öğrenmeniz gerektiği, dünyanın ne kadar değiştiğine
+bağlıdır.
+Kurallar sık değişiyorsa yeni kanıta hızla uymak akıllıcadır, kurallar sabitse
 aynı hız sizi gürültünün peşinde koşturur.
 
 İnsan bu ayarı sürekli yapar, model de onu sayısallaştırır. Dünyayı olduğundan
-oynak sanan biri tek bir olayı fazla ciddiye alır. Tersini sanan biri gerçekten
-değişen bir şeyi geç fark eder.
+oynak sanan biri tek bir olayı fazla ciddiye alırken, tersini sanan biri
+gerçekten değişen bir şeyi geç fark ediyor.
 
 ## Parametreler klinik olarak ne anlatır
-En sık raporlanan sayı öğrenme oranı. HGF'nin buradaki farkı şu: oran sabit
-değil. Klasik öğrenme modellerinde kişinin bir öğrenme hızı vardır ve o hız
+En sık raporlanan sayı öğrenme oranı ve HGF'nin buradaki farkı, oranın sabit
+olmaması. Klasik öğrenme modellerinde kişinin bir öğrenme hızı vardır ve o hız
 denemeden denemeye aynı kalır. HGF'de her denemede yeniden hesaplanır, üstelik
 kişinin o an ne kadar emin olduğuna ve dünyayı ne kadar oynak gördüğüne göre.
 Şaşırtıcı bir olaydan sonra öğrenme hızlanır, tanıdık bir örüntü içinde
@@ -1110,25 +1121,26 @@ yavaşlar.
 Bunu belirleyen büyüklüğün adı hassasiyet (precision). Gündelik dildeki
 hassasiyetle ilgisi yok; bir inancın ne kadar dar olduğunu ölçüyor. Dar bir
 inanç yeni kanıta az yer açar, geniş bir inanç çok yer açar. Klinik açıdan
-ilginç olan da bu: bir belirtinin kaynağı kanıtın kendisinde değil, kanıta
-verilen ağırlıkta olabilir.
+ilginç olan da burası, çünkü bir belirtinin kaynağı kanıtın kendisi değil kanıta
+verilen ağırlık olabilir.
 
 Modelin motoru öngörü hatası, yani olan ile beklenen arasındaki fark. Ama ham
-fark kullanılmaz, hassasiyetle ağırlıklandırılmış hali kullanılır. Aynı büyüklükte
-bir sürpriz, kişinin o anki eminliğine göre başka sonuç doğurur.
+fark kullanılmaz, hassasiyetle ağırlıklandırılmış hali kullanılır. Aynı
+büyüklükte bir sürpriz, kişinin o anki eminliğine göre başka sonuç doğurur.
 
-Bir de yanıt gürültüsü var: modelin açıklayamadığı her şeyi bu parametre toplar.
-Kişi inancına uygun davranmayabilir; dikkati dağılmıştır, tuşa yanlış basmıştır,
-kararsızdır. Bu parametrenin varlığı önemli, çünkü onsuz düzensiz davranış tuhaf
-bir öğrenme biçimi gibi görünürdü.
+Bir de yanıt gürültüsü var, modelin açıklayamadığı her şeyi bu parametre
+topluyor. Kişi inancına uygun davranmayabilir; dikkati dağılmıştır, tuşa yanlış
+basmıştır, kararsızdır. Bu parametrenin varlığı önemli, çünkü onsuz düzensiz
+davranış tuhaf bir öğrenme biçimi gibi görünürdü.
 
-Bu sayıların çekiciliği açık. Her biri bir mekanizmaya benziyor ve klinik bir
-hikâyeye kolayca bağlanıyor. Aşağıdaki iki bölüm büyük ölçüde o kolaylığa karşı.
+Bu sayıların çekiciliği açık, her biri bir mekanizmaya benziyor ve klinik bir
+hikâyeye kolayca bağlanıyor. Aşağıdaki iki bölümü de büyük ölçüde o kolaylığa
+karşı yazdım.
 
 ## Model karşılaştırması neden zorunlu
 Bir model veriye uyduruldu ve sayılar çıktı. Bu sayıların anlamı olması için
-önce şunu bilmek gerekiyor: veriyi bu model mi üretti, yoksa başka bir model de
-aynı veriyi üretebilir miydi?
+önce veriyi bu modelin mi ürettiğini, yoksa başka bir modelin de aynı veriyi
+üretip üretemeyeceğini bilmek gerekiyor.
 
 Uyum iyiliği bunu cevaplamaz. Yeterince esnek bir model her veriye iyi uyar;
 iyi uyum modelin doğruluğunu değil esnekliğini gösteriyor olabilir.
@@ -1138,9 +1150,9 @@ model kurulur, hepsi aynı veriye uydurulur ve hangisinin veriyi daha iyi
 açıkladığı karşılaştırılır. Karşılaştırma karmaşık modelleri ayrıca
 cezalandırdığı için, parametre ekleyerek uyumu artırmak bir üstünlük sayılmaz.
 
-Bir yazıda model karşılaştırması yapılmamışsa, raporlanan parametreler bir
-mekanizmayı göstermez zaten. Yalnızca veriyi o modele göre özetlediğinizde çıkan
-sayılardır. Aradaki fark da küçük değil.
+Bir yazıda model karşılaştırması yapılmamışsa raporlanan parametreler bir
+mekanizmayı göstermiyor zaten, yalnızca veriyi o modele göre özetlediğinizde
+çıkan sayılar oluyor. Aradaki fark da hiç küçük değil.
 
 ## Bir bulguya ne zaman güvenilir
 Bir model veriye uyduğunda her parametre için bir sayı üretir. Bu sayının
@@ -1152,31 +1164,32 @@ bir durumda ikisinin bileşimi veriden okunabilir ama tek başına hiçbiri
 okunamaz. Kestirim yine de bir sayı verir, çünkü vermek zorundadır. O sayı da
 veriden çok kurulum tercihlerini yansıtır.
 
-Bunun teknik adı tanımlanabilirlik. Bir hesaplamalı bulguyu okurken sorulacak
-ilk sorulardan biri.
+Bunun teknik adı tanımlanabilirlik ve bir hesaplamalı bulguyu okurken sorulacak
+ilk sorulardan biri de bu.
 
-Sınama yöntemi parametre geri kazanımı. Bilinen değerlerle sahte veri üretirsiniz,
-aynı hattı o sahte veriye uygularsınız ve koyduğunuz değerlerin geri gelip
-gelmediğine bakarsınız. Gelmiyorsa parametre o tasarımla ölçülemiyor demektir;
-bunu gerçek veriye bakarak anlamanın yolu da yok. Kendi hattımda bu analizi veri
-toplamadan önce yaptım. Sırasının önemli olduğunu da düşünüyorum: sonraya
-bırakırsanız, sonuç kötü çıktığında elinizde artık yayınlanacak bir sayı olur ve
-onu bırakmak zorlaşır.
+Sınama yöntemi parametre geri kazanımı. Bilinen değerlerle sahte veri
+üretirsiniz, aynı hattı o sahte veriye uygularsınız ve koyduğunuz değerlerin
+geri gelip gelmediğine bakarsınız. Gelmiyorsa parametre o tasarımla ölçülemiyor
+demektir; bunu gerçek veriye bakarak anlamanın yolu da yok. Kendi hattımda bu
+analizi veri toplamadan önce yaptım. Sırasının önemli olduğunu da düşünüyorum:
+sonraya bırakırsanız, sonuç kötü çıktığında elinizde artık yayınlanacak bir sayı
+olur ve onu bırakmak zorlaşır.
 
 Son olarak parametre adları. Bir parametreye "inanç kararsızlığı" ya da "öğrenme
-esnekliği" denmesi, o parametrenin bunu ölçtüğünü göstermez. Ad, modeli kuran
-kişinin yorumudur. Aynı sayı başka bir yorumla bambaşka bir mekanizmaya
-bağlanabilir. İki yorum arasında karar vermek için modelden fazlası gerekir.
+esnekliği" denmesi, o parametrenin bunu ölçtüğünü göstermiyor; ad modeli kuran
+kişinin yorumu ve aynı sayı başka bir yorumla bambaşka bir mekanizmaya
+bağlanabilir. İki yorum arasında karar vermek için de modelden fazlası
+gerekiyor.
 
 ## Özetle
 HGF'nin klinik değeri, öğrenme hızını sabit bir kişilik özelliği saymak yerine
 kişinin dünyayı ne kadar oynak gördüğüne bağlı bir ayar olarak ele almasında.
 
 Ama ürettiği her sayı bir mekanizma değil. Kestirim her koşulda bir sayı verir;
-o sayının bir şey ölçtüğünü gösteren, sayının kendisi değil arkasındaki model
-karşılaştırmasıyla geri kazanımdır. İkisi de yoksa elinizdeki bir mekanizma
-iddiası değil, bir özet istatistiktir. Üstüne bir de parametrenin adı yeterince
-iddialıysa, o özet istatistik mekanizma diye okunur.
+o sayının bir şey ölçtüğünü gösteren şey sayının kendisi değil, arkasındaki
+model karşılaştırmasıyla geri kazanım oluyor. İkisi de yoksa elinizde bir
+mekanizma iddiası değil bir özet istatistik var; parametrenin adı yeterince
+iddialıysa o özet istatistiğin mekanizma diye okunması da işten bile değil.
 
 ## Kaynaklar
 Modelin kendisi:
@@ -1222,18 +1235,19 @@ URL: https://furkanbekdemir.com/notlar/ongoru-hatasi-ve-hassasiyet
 
 Beyin gelen sinyali beklemeden işlemiyor, önce ne geleceğini tahmin ediyor ve
 yalnızca tahminin tutmadığı kadarını yukarı gönderiyor. Bu cümle son yirmi yılın
-en verimli psikiyatri fikri oldu. Aynı cümle, çerçevenin en ciddi sorununun da
-kaynağı.
+en verimli psikiyatri fikirlerinden biri oldu ama çerçevenin en ciddi sorunu da
+aynı cümleden çıkıyor.
 
-Diğer üç yazı bu iki kavrama dayanıyor ama hiçbirinde tam anlatımı yok; burası o
-boşluk. Terimlerin İngilizce karşılıkları
+Diğer üç yazı bu iki kavrama dayanıyor ama hiçbirinde tam anlatımı yok, dolayısı
+ile burayı o boşluğu kapatmak için yazdım. Terimlerin İngilizce karşılıkları
 [terimler sözlüğünde](terimler.qmd).
 
 ## Öngörü hatası ne demek
-Gündelik anlamıyla "hata" değil. Öngörü hatası, olan ile beklenen arasındaki
-fark. Sistemin öğrenmek için kullandığı tek şey de bu.
+Buradaki "hata" gündelik anlamındaki hata değil. Öngörü hatası, olan ile
+beklenen arasındaki fark demek ve sistemin öğrenmek için kullandığı tek şey de
+bu.
 
-Fikrin cazibesi ekonomisinde. Evinizde tıkırdayan bir saat varsa onu
+Fikrin cazibesi ekonomisinden geliyor. Evinizde tıkırdayan bir saat varsa onu
 duymazsınız, durduğu an fark edersiniz. Kulağınıza ulaşan ses ikisinde de aynı;
 değişen tek şey beklenip beklenmediği. Duyu organlarınızdan saniyede gelen
 sinyalin çoğu böyle, zaten beklediğiniz şey. Hepsini yukarı taşımak yerine
@@ -1243,35 +1257,36 @@ kestirim hiyerarşisi: her katman altındakine ne göreceğini söylüyor, altta
 yalnızca yanılma payını geri yolluyor. Çerçevenin toplu adı Bayesçi beyin;
 sinirsel uygulanışına verilen ad ise öngörücü kodlama (predictive coding).
 
-Buradan çıkan sonuç sezgiye aykırı. Algı, dışarıdan içeri akan bir şey değil,
-içeriden dışarı kurulan bir hipotezin duyusal veriyle sınanması. Clark'ın
+Buradan çıkan sonuç sezgiye aykırı: algı dışarıdan içeri akan bir şey değil,
+içeriden dışarı kurulan bir hipotezin duyusal veriyle sınanması oluyor. Clark'ın
 derlemesi bunu algı ile eylemi tek çatı altında toplayan bir model olarak
-sunuyor; popülerliğinin büyük kısmı da o birleştirme gücünden geliyor.
+sunuyor ve popülerliğinin büyük kısmı da o birleştirme gücünden geliyor.
 
-## Ham hata kullanılmıyor
-Çerçevenin klinik açıdan asıl işe yarayan yeri burası. Çoğu popüler anlatımda
-da atlanan yer burası.
+## Hassasiyet ne demek
+Çerçevenin klinik açıdan asıl işe yarayan yeri burası ve çoğu popüler anlatımda
+atlanan yer de burası.
 
 Eczane terazisinde iki yüz gram fazla görünüyorsanız bu bir bilgidir. Aynı iki
 yüz gramı, her bastığınızda başka rakam veren banyo tartısında görürseniz hiçbir
-şey ifade etmez. Fark aynı fark; değişen şey aleti ne kadar ciddiye aldığınız.
-Beyin de aynı ayrımı yapmak zorunda ve bunu her sinyale bir ağırlık vererek
-yapıyor. O ağırlığın adı hassasiyet: bir kestirimin ne kadar dar olduğu, yani
-varyansının tersi. Yukarı giden şey ham öngörü hatası değil, hassasiyetle
-ağırlıklandırılmış hali.
+şey ifade etmez. Fark iki durumda da aynı fark, değişen şey aleti ne kadar
+ciddiye aldığınız. Beyin de aynı ayrımı yapmak zorunda ve bunu her sinyale bir
+ağırlık vererek yapıyor. O ağırlığın adı hassasiyet: bir kestirimin ne kadar dar
+olduğu, yani varyansının tersi. Yukarı giden şey ham öngörü hatası değil,
+hassasiyetle ağırlıklandırılmış hali.
 
 Feldman ve Friston bir adım daha atıp dikkati bu ağırlığın kendisi olarak
 tanımladılar. Bir şeye dikkat etmek, o kanalın hassasiyetini yükseltmek demek.
 Böyle bakıldığında dikkat ayrı bir yeti olmaktan çıkıyor, çıkarımın bir ayarı
 haline geliyor.
 
-Bir de şu var: hassasiyetin sinirsel karşılığı olarak önerilen şey, öngörü
-hatası taşıyan hücrelerin postsinaptik kazancı. Bu öneri çerçeveyi
-nöromodülasyona bağlıyor. Psikiyatriye asıl oradan giriyor.
+Bir de şu var, hassasiyetin sinirsel karşılığı olarak önerilen şey öngörü hatası
+taşıyan hücrelerin postsinaptik kazancı; bu öneri çerçeveyi nöromodülasyona
+bağlıyor ve psikiyatriye asıl oradan giriyor.
 
 ## Hangi düzeyin hassasiyeti
-Hiyerarşi olduğu için tek bir ayar yok. Duyusal kanıtın hassasiyeti var, önsel
-inancın hassasiyeti var. Belirtiler ikisinin oranına bağlanıyor.
+Hiyerarşi olduğu için tek bir ayar yok. Duyusal kanıtın hassasiyeti ile önsel
+inancın hassasiyeti ayrı ayrı duruyor ve belirtiler ikisinin oranına
+bağlanıyor.
 
 2013'te ortaya konan ve bugün de referans sayılan öneri Adams'ın: psikotik
 belirtiler tek bir çekirdek patolojinin farklı yüzleri olabilir, o da
@@ -1280,15 +1295,15 @@ bozuklukları, duyusal azaltım kaybı ve sanrı türetiliyor. Duyusal azaltım�
 tablodaki yeri [ayrı bir yazıda](duyusal-azaltim.qmd).
 
 ## Psikozda hangi yön
-Kanonik anlatı şu: psikozda önsel inancın hassasiyeti duyusal veriye göre
-düşüyor, dünya öngörülemez hale geliyor, sanrı da bu deneyimi açıklamak için kurulan bir
-hikâye.
+Kanonik anlatıya göre psikozda önsel inancın hassasiyeti duyusal veriye göre
+düşüyor, dünya öngörülemez hale geliyor ve sanrı da bu deneyimi açıklamak için
+kurulan bir hikâye oluyor.
 
-Bulgular bu kadar düzenli değil. Sterzer'in derlemesi bunu doğrudan söylüyor:
+Bulgular bu kadar düzenli değil. Sterzer'in derlemesi bunu doğrudan söylüyor;
 bazı çalışmalar psikozda önsel inançların zayıfladığını buluyor, bazıları
 güçlendiğini. Haarsma'nın grubu sağlıklı kişilerde öngörü hatalarının
 hassasiyetle ağırlıklandırılmasının öğrenmeye yaradığını, ilk atak psikozda ise
-bunun bozulduğunu gösterdi, üstelik dopaminerjik müdahaleyle oynatılabildiğini.
+bunun bozulduğunu ve üstelik dopaminerjik müdahaleyle oynatılabildiğini gösterdi.
 Ketamin modelini güncelleyen Corlett ise birden çok yol olabileceğini kabul
 ediyor.
 
@@ -1298,46 +1313,60 @@ ağırlık veriyor hem de duyusal hassasiyetleri düşük çıkıyor. Goodwin'in
 büyük örneklemli çalışmasında ise psikoz benzeri yaşantılar duyusal bilgiye
 fazla ağırlık vermekle gitti, yani kanonik anlatının tersi yönde.
 
+Sterzer'in derlemesinin kendi önerisi, iki bulguyu aynı hiyerarşinin farklı
+katlarına yerleştirmek. Alt düzeydeki önsel inanç zayıfladığında filtrelenemeyen
+öngörü hatası yukarı çıkıyor, üst düzeydeki inançlar da bu fazlalığı açıklamak
+için katılaşıyor; yani aynı hastada zayıf ve güçlü önsel inanç aynı anda
+bulunabiliyor. Üst asosyasyon korteksleri alt duyusal alanlara göre daha yoğun
+yinelemeli bağlantı taşıdığı için, uyarı-inhibisyon dengesindeki bir bozulmanın
+üst katları daha sert vurması da bekleniyor. Benrimoh'un tek çalışmada iki yönü
+birden bulması bu okumaya oturuyor.
+
+Ama bu bir uzlaştırma, sınanmış bir bulgu değil. Hangi katın hangi görevde
+ölçüldüğünü söylemeyen bir çalışma bu ayrımı ne destekleyebiliyor ne
+çürütebiliyor; literatürdeki çalışmaların çoğu da bunu söylemiyor.
+
 ## Aynı çerçeve otizmi de açıklıyor
 Van de Cruys otizmi öngörü hatalarına esnek olmayan biçimde yüksek ağırlık
-verilmesine bağlıyor. Dünyada her sapma haber değeri
-taşıyor, hiçbiri gürültü sayılıp bırakılamıyor. Yürütücü işlev ile zihin kuramına dair
-bulgular bunun ikincil sonuçları olarak çıkıyor.
+verilmesine bağlıyor. Dünyada her sapma haber değeri taşıyor. Hiçbiri gürültü
+sayılıp bırakılamıyor. Yürütücü işlev ile zihin kuramına dair bulgular bunun
+ikincil sonuçları olarak çıkıyor.
 
-Dikkat edilirse bu, psikoz için önerilenin tam tersi. Aynı çerçeve, aynı iki
-parametre, ters yön. Friston, Lawson ve Frith bunun nasıl adlandırılacağı
-üzerine ayrıca tartıştı ve otizmi önsel inançların zayıflaması değil, hassasiyet
-hakkındaki inançların bozulması diye okumayı önerdiler.
+Dikkat edilirse bu, psikoz için önerilenin tam tersi; aynı çerçeve ve aynı iki
+parametre, ters yönde çalıştırılmış oluyor. Friston, Lawson ve Frith bunun nasıl
+adlandırılacağı üzerine ayrıca tartıştı ve otizmi önsel inançların zayıflaması
+değil, hassasiyet hakkındaki inançların bozulması diye okumayı önerdiler.
 
 Yakın tarihli sınamalar burayı da karıştırıyor. İki duyusal-motor görevi
 modelleyen Arthur ve ekibi, otizmde önsel inançlarda ya da duyusal
 ağırlıklandırmada kalıcı bir sapma bulamadı; buldukları şey öğrenme hızını
 oynaklığa göre esnetmekte güçlüktü.
 
-## Bedene doğru
+## Beden ve duygu
 Çerçevenin en hızlı büyüyen kolu dışarıya değil içeriye bakıyor. Seth ve
 Friston'ın kurduğu haliyle bedensel durumlar da kestirimle yönetiliyor, duygu
 da o sürecin bir ürünü.
 
-Smith'in ekibi bunu tanılar arası bir örneklemde sınadı. Kalp atımı
-görevinde solunum tutma ile bedensel sinyal bozulduğunda sağlıklı katılımcılar
-kalpten gelen sinyale verdikleri hassasiyeti yükseltti. Anksiyete, depresyon,
-madde kullanım ve yeme bozukluğu gruplarında bu yükseltme olmadı. Önsel
-inançlarda ise güçlü bir fark bulunmadı, yani ayrışan şey inancın kendisi değil
-ağırlığı ayarlayabilme yetisi.
+Smith'in ekibi bunu tanılar arası bir örneklemde sınadı. Kalp atımı görevinde
+solunum tutma ile bedensel sinyal bozulduğunda sağlıklı katılımcılar kalpten
+gelen sinyale verdikleri hassasiyeti yükseltti, anksiyete, depresyon, madde
+kullanım ve yeme bozukluğu gruplarında ise bu yükseltme olmadı. Önsel inançlarda
+güçlü bir fark bulunmadı, yani ayrışan şey inancın kendisi değil ağırlığı
+ayarlayabilme yetisi.
 
-## Her şeyi açıklayan çerçeve
-Buraya kadar sayılanlar çerçevenin başarısı gibi okunuyor. Alan bir süredir
+## Çerçevenin en büyük sorunu
+Buraya kadar sayılanlar çerçevenin başarısı gibi okunabilir ama alan bir süredir
 bunun tersini düşünüyor zaten.
 
 Yetmiş iki çalışmayı tarayan Qela derlemesi bozuklukların hepsinde bir şeyler
 buluyor, ama bulunanlar birbirine benzemiyor. Mancini ve Nour meseleyi tek
-cümlede topluyor: bu kadar çok oynak parçası olan bir modeli bir yere sabitlemek
-zor. Alotaibi'nin 2026 derlemesi başlığında soruyor, öngörücü kodlama mekanizma
-modeli mi yoksa mecazi bir yeniden betimleme mi.
+cümlede topluyor, bu kadar çok oynak parçası olan bir modeli bir yere sabitlemek
+zor. Alotaibi'nin 2026 derlemesi ise başlığında soruyor, öngörücü kodlama
+mekanizma modeli mi yoksa mecazi bir yeniden betimleme mi.
 
-Bir çerçevenin hem bir bulguyu hem tersini barındırabilmesi esneklik diye
-anılıyor. Sınanabilirlik açısından başka bir adı var.
+Bir çerçevenin hem bir bulguyu hem de tersini barındırabilmesi çoğunlukla
+esneklik diye anılıyor ama sınanabilirlik açısından bakınca buna esneklik demek
+zor.
 
 Bu, çerçeveyi bırakmak için bir gerekçe değil. Bu çerçeveyi kendi hattımda
 kullanan bir hekim olarak şunu diyorum: "psikozda hassasiyet bozuk" cümlesi tek
@@ -1438,7 +1467,8 @@ doi:[10.3389/fnhum.2025.1743028](https://doi.org/10.3389/fnhum.2025.1743028)
 [HGF nedir](hgf-nedir.qmd) ·
 [duyusal azaltım](duyusal-azaltim.qmd) ·
 [inanç güncelleme](sizofrenide-inanc-guncelleme.qmd) ·
-[terimler sözlüğü](terimler.qmd)
+[terimler sözlüğü](terimler.qmd) ·
+[english](../notes/prediction-error-and-precision.qmd)
 
 ---
 
@@ -1446,18 +1476,21 @@ doi:[10.3389/fnhum.2025.1743028](https://doi.org/10.3389/fnhum.2025.1743028)
 
 URL: https://furkanbekdemir.com/notlar/sizofrenide-inanc-guncelleme
 
-Sanrı klinikte kanıta rağmen sürdürülen yanlış inanç diye tarif edilir. Tarif
-sonucu betimliyor, mekanizmayı değil. Hesaplamalı yaklaşımın sorusu daha dar:
-kanıttan inanca giden yolda hangi adım bozuluyor?
+Sanrı klinikte kanıta rağmen sürdürülen yanlış inanç diye tarif edilir ama bu
+tarif sonucu betimlemekle yetiniyor, mekanizmaya dair bir şey söylemiyor.
+Hesaplamalı yaklaşımın sorduğu soru daha dar: kanıttan inanca giden yolda hangi
+adım bozuluyor?
 
-Terimlerin İngilizce karşılıkları [terimler sözlüğünde](terimler.qmd), modelin
-kendisi [HGF yazısında](hgf-nedir.qmd).
+Tez konum bu, dolayısı ile literatürü hem okuyan hem içine girmeye çalışan biri
+olarak yazıyorum; nerede sağlam zemin olduğunu nerede olmadığını ayırmaya
+çalıştım. Terimlerin İngilizce karşılıkları [terimler
+sözlüğünde](terimler.qmd), modelin kendisi [HGF yazısında](hgf-nedir.qmd).
 
 ## Klasik iddia
 Otuz yıllık literatürün büyük kısmı iki kavanoz ve bir avuç boncuğa dayanıyor.
 Birinde boncukların çoğu siyah, diğerinde çoğu beyaz. Deneyci birinden tek tek
 çekiyor, katılımcı yeterince gördüğüne kanaat getirince hangi kavanoz olduğunu
-söylüyor. Ölçülen tek şey kararın kaçıncı boncukta geldiği.
+söylüyor ve ölçülen tek şey kararın kaçıncı boncukta geldiği oluyor.
 
 Sanrılı hastalar erken karar veriyor. Moritz ve Woodward'ın örnekleminde
 şizofreni tanılı hastaların yüzde 42'si tek boncuktan sonra kavanozu söyledi;
@@ -1467,13 +1500,15 @@ aynı yönü veriyor: psikoz grubu anlamlı biçimde az bilgiyle karar veriyor
 (g = -0,53), uç derecede erken karar verme olasılığı dört ila altı kat yüksek.
 
 ## Kanıt ne kadar sağlam
-İtiraz grup farkına değil, ondan sonra kurulan cümleye. "Sanrı erken karardan
-doğuyor" demek için erken kararın sanrının şiddetiyle gitmesi gerekir.
+Buradaki itiraz grup farkının kendisine değil, ondan sonra kurulan cümleye
+yöneliyor. "Sanrı erken karardan doğuyor" diyebilmek için erken kararın
+sanrının şiddetiyle birlikte gitmesi gerekir.
 
 Ross ve arkadaşları 38 örneklemden bireysel katılımcı verisi topladı, 2237 kişi.
-İlişki anlamlı ama küçük: r = -0,10. Alt gruplar daha çok şey söylüyor. İlişki
-1754 kişilik genel nüfus örnekleminde görülüyor, güncel sanrısı olan 262 kişide
-görülmüyor. Bulgunun en zayıf olduğu yer, tam da uğruna kurulduğu yer.
+İlişki anlamlı ama küçük, r = -0,10. Alt gruplar daha çok şey söylüyor: ilişki
+1754 kişilik genel nüfus örnekleminde görülüyor ama güncel sanrısı olan 262
+kişide görülmüyor, yani bulgu tam da uğruna kurulduğu yerde en zayıf hale
+geliyor.
 
 Daha eski bir meta-analiz dört ayrı sonuca atlama ölçütü sınamış, yalnızca
 boncuk sayısını anlamlı bulmuştu. Lincoln'ün 71 hasta ve 68 kontrollük
@@ -1481,19 +1516,27 @@ boncuk sayısını anlamlı bulmuştu. Lincoln'ün 71 hasta ve 68 kontrollük
 ilişkiliydi, ama negatif belirtiler ya da zekâ düzeyi denkleme girince ilişki
 anlamlılığını yitirdi.
 
-Şizofreni grubu kontrollerden ayrışıyor. Sanrısı ağır olanın daha aceleci olduğu
-ayrı bir iddia. O iddia gösterilmiş değil.
+Yani şizofreni grubunun kontrollerden ayrıştığı konusunda bir sorun yok; sanrısı
+ağır olanın daha aceleci olduğu ise bambaşka bir iddia ve o iddianın
+gösterildiğini söyleyemiyoruz.
 
-## Aceleci doğru kelime mi
+## Erken karar neyin işareti
 Strube'nin karşılaştırmasında 45 şizofreni, 45 depresyon ve 45 sağlıklı kontrol
 vardı. Şizofreni grubu daha az boncukla karar verdi ama karar vermesi daha uzun
-sürdü. Karar süresiyle boncuk sayısı arasında ilişki de çıkmadı. Dürtüsellik
-bunu açıklayamıyor. Yazarların işaret ettiği neden, inanç oluşumunun kararsızlığı.
+sürdü, üstelik karar süresiyle boncuk sayısı arasında bir ilişki de çıkmadı.
+Dürtüsellik bunu açıklayamıyor, yazarların işaret ettiği neden inanç oluşumunun
+kararsızlığı. Muhakemenin kendisi de pek açıklamıyor zaten. Kemp ve arkadaşları
+sanrılı hastalarla kontrolleri üç ayrı mantık testinde karşılaştırdığında iki
+grup da bol bol hata yaptı ve aradaki fark, yazarların kendi ifadesiyle
+şaşırtıcı derecede küçük kaldı; sanrılı grup yalnızca içerik duygusal olduğunda
+biraz daha fazla yanlış çıkarıma açıktı, üstelik birleşim yanılgısına
+(conjunction fallacy) kontrollerden daha az kapılıyordu. On altı hasta ve on
+altı kontrol, yani küçük bir çalışma.
 
-Balzan'ın grubu başka bir tarafı kazıdı: göreve fazladan bir açıklama seti
-eklediler. Karşıt kanıt geldiğinde görülen aşırı düzeltme belirgin biçimde
-azaldı, erken karar verme ise değişmedi. Yılların bulgusunun bir kısmı,
-yönergenin yeterince açık yazılmamasıymış.
+Balzan'ın grubu başka bir tarafı kazıdı ve göreve fazladan bir açıklama seti
+ekledi. Karşıt kanıt geldiğinde görülen aşırı düzeltme belirgin biçimde azaldı,
+erken karar verme ise değişmedi; demek ki yılların bulgusunun bir kısmı
+yönergenin yeterince açık yazılmamasından ibaretmiş.
 
 Geriye kalanı Speechley tek çatı altında topluyor. Hipoteze uyan kanıt sanrılı
 hastada olduğundan fazla önem kazanıyor, uymayan kanıt normal ağırlıkta kalıyor.
@@ -1502,46 +1545,47 @@ görünüyor.
 
 ## Modelleme neyi değiştirdi
 Son on yılın yaklaşımı boncuk saymayı bırakıp kararın arkasındaki süreci
-modellemek. Tablo zenginleşti, düzeni bozuldu.
+modellemek oldu, bu da tabloyu zenginleştirirken düzenini bozdu.
 
-En büyük örneklem Hauke'nin: 261 psikoz hastası, 56 kontrol. Hastalarda inanç
+En büyük örneklem Hauke'nin, 261 psikoz hastası ve 56 kontrol. Hastalarda inanç
 kararsızlığı yüksekti; sonuca atlama hem bununla hem de başlangıç
 belirsizliğinin büyüklüğüyle ilişkiliydi. Fark hastayla kontrol arasında, bir de
-sonuca atlayanla atlamayan arasında çıktı. Güncel sanrısı az olan hastayla çok
-olan hasta arasında çıkmadı. Aynı çalışmanın klinik açıdan en ilginç tarafı
-başka: inanç kararsızlığı, üstbiliş eğitimine verilecek yanıtı bireysel düzeyde
-öngörebildi.
+sonuca atlayanla atlamayan arasında çıktı, güncel sanrısı az olan hastayla çok
+olan hasta arasında çıkmadı. Aynı çalışmanın klinik açıdan en ilginç tarafı ise
+inanç kararsızlığının, üstbiliş eğitimine verilecek yanıtı bireysel düzeyde
+öngörebilmesiydi.
 
-Fromm'un tasarımı tanıyla belirtiyi bilerek ayırıyor. Sanrısı az ve çok olan
-sağlıklılar, sanrısı az ve çok olan hastalar. Sanrı, fronto-striatal bölgelerdeki
-hassasiyet-ağırlıklı öngörü hatası yanıtının artışıyla ilişkiliydi; şizofreni
-tanısı ise volatilitenin olduğundan yüksek tahmin edilmesi ve sinirsel
-temsilinin zayıflamasıyla. İki eksen aynı parametreye bağlanmıyor.
+Fromm'un tasarımı tanıyla belirtiyi bilerek ayırıyor: sanrısı az ve çok olan
+sağlıklılar, sanrısı az ve çok olan hastalar. Sanrı, fronto-striatal
+bölgelerdeki hassasiyet-ağırlıklı öngörü hatası yanıtının artışıyla ilişkiliydi;
+şizofreni tanısı ise volatilitenin olduğundan yüksek tahmin edilmesi ve
+sinirsel temsilinin zayıflamasıyla ilişkili çıktı, yani iki eksen aynı
+parametreye bağlanmıyor.
 
-Sheffield paranoyaya baktı: volatiliteye dair önsel inanç paranoyayla
-ilişkiliydi, olağandışı düşünce içeriğiyle ya da anksiyeteyle değil. Sloan bir
-adım geriye giderek çocukluk çağı örselenmesine baktı: özellikle tehdit türündeki
-örselenme, volatilitenin daha yüksek beklenmesiyle ilişkiliydi. Mikus'un ayrımı belirti
-eksenindeydi. Pozitif belirtiler volatiliteye dair belirsizlikle ilişkiliydi,
-negatif belirtiler gözlem gürültüsüne dair katı inançlarla.
+Sheffield paranoyaya baktığında volatiliteye dair önsel inancın paranoyayla
+ilişkili olduğunu, olağandışı düşünce içeriğiyle ya da anksiyeteyle ilişkili
+olmadığını buldu. Sloan bir adım geriye giderek çocukluk çağı örselenmesine
+baktı ve özellikle tehdit türündeki örselenmenin volatilitenin daha yüksek
+beklenmesiyle ilişkili olduğunu gösterdi. Mikus'un ayrımı ise belirti
+eksenindeydi; pozitif belirtiler volatiliteye dair belirsizlikle, negatif
+belirtiler gözlem gürültüsüne dair katı inançlarla ilişkiliydi.
 
-## Parametre psikoza özgü değil
-Volatiliteyi yüksek tahmin etmek psikozun imzası gibi okunuyor. Fazla cömert bir
-okuma.
+## Aynı parametre başka tablolarda da çıkıyor
+Volatiliteyi yüksek tahmin etmek literatürde zaman zaman psikozun imzası gibi
+okunuyor ama bu fazla cömert bir okuma.
 
 Gibbs-Dean'in sistematik derlemesi psikoz, anksiyete ve depresyonu aynı
 çerçeveye koydu; değişen olasılıklara uyum güçlüğü psikozda da anksiyetede de
 vardı. Kliniğinde anksiyete hastası gören bir hekim olarak bunu şaşırtıcı
-bulmadım. Kendi yayımlanmış çalışmamda da yön aynıydı. Yaygın anksiyete
+bulmadım. Kendi yayımlanmış çalışmamda da yön aynıydı: yaygın anksiyete
 bozukluğunda tonik volatilite kontrollere göre yüksekti ve durumluk kaygıyla
 ilişkiliydi. Otuz altı kişilik, kesitsel, keşfedici bir çalışma, dolayısıyla
 ağırlığı sınırlı; ayrıntısı [şurada](../research/anxiety-hgf.qmd).
 
 Katthagen'in derlemesi işi büsbütün zorlaştırıyor. Psikozla hem fazla
 güncellemenin hem az güncellemenin ilişkilendirildiği çalışmalar var, üstelik
-görevlerle örneklemler arasındaki değişkenlik yüksek. Bir parametrenin yönü
-çalışmadan çalışmaya değişiyorsa, o parametreye henüz bir mekanizmanın adı
-verilemez.
+görevlerle örneklemler arasındaki değişkenlik yüksek; yönü çalışmadan çalışmaya
+değişen bir parametreye henüz bir mekanizmanın adını veremeyiz.
 
 ## Oluşum mu, sürdürme mi
 Mashima'nın grubu boncuk görevini ikiye böldü. Birinci aşama klasik hali,
@@ -1552,19 +1596,21 @@ gelen boncuklar önceki sonucu çürütüyor.
 Birinci aşamada gruplar ayrışmadı. İkincisinde şizofreni grubu vardığı sonuçtan
 dönmek için anlamlı biçimde daha fazla boncuk istedi, en çok da sanrının ön
 planda olduğu hastalarda. Yirmi dokuz hastalık tek bir çalışma, dolayısıyla
-ihtiyat şart. Ama sorduğu soru yerinde: bozulan adım inancın kurulması değil,
-terk edilmesi olabilir. Sanrının klinik tanımındaki asıl kelime de belki
-acelecilik değil, geri alınamazlık.
+ihtiyat şart, ama sorduğu soru yerinde duruyor: bozulan adım inancın kurulması
+değil terk edilmesi olabilir ve o zaman sanrının klinik tanımında altı çizilecek
+kelime de acelecilik yerine geri alınamazlık olurdu. Bunu bir iddia olarak
+değil, sınanmayı bekleyen bir olasılık olarak yazıyorum.
 
-## Ölçüm henüz oturmadı
-Bir parametrenin klinikte iş görmesi için gruplar arasında ayrışması yetmiyor.
-Aynı kişide iki hafta sonra tekrar ölçüldüğünde benzer çıkması da gerekiyor.
+## Ölçüm ne kadar güvenilir
+Bir parametrenin klinikte iş görmesi için gruplar arasında ayrışması yetmiyor,
+aynı kişide iki hafta sonra tekrar ölçüldüğünde benzer çıkması da gerekiyor.
 
 Karvelis'in grubu bunu denedi. Otuz dokuz sağlıklı katılımcı aynı görevi iki
 hafta arayla tamamladı, veriler HGF ile modellendi. Test-tekrar test
-güvenilirliği büyük ölçüde düşük çıktı, davranışsal ölçümlerden de iyi değildi.
-Yazarların ayırdığı başlıca kaynak, parametre geri kazanımının gösterdiği ölçüm
-gürültüsü. Grup düzeyinde görünüş geçerliliği var, birey düzeyinde yok.
+güvenilirliği büyük ölçüde düşük çıktı ve davranışsal ölçümlerden de iyi
+değildi; yazarların ayırdığı başlıca kaynak, parametre geri kazanımının
+gösterdiği ölçüm gürültüsü. Yani grup düzeyinde görünüş geçerliliği olan bir
+ölçümün birey düzeyinde aynı şeyi taşımadığını görüyoruz.
 
 Hess'in ekibi sorunun bir kısmını verinin kendisine bağlıyor. Bu görevlerin çoğu
 ikili yanıt üretiyor, ikili yanıt ise az bilgi taşıyor. Yanıt sürelerini de
@@ -1572,9 +1618,9 @@ modele katan bir kurulum, parametrelerin ve modellerin ayırt edilebilirliğini
 belirgin biçimde iyileştiriyor.
 
 Tanımlanabilirlik ve geri kazanımın ne olduğu [HGF yazısında](hgf-nedir.qmd)
-anlatılıyor. Buradaki karşılığı şu: literatürdeki grup düzeyi ifadeler birey
-düzeyi ifadelerden çok daha sağlam zeminde duruyor. İki tür ifade ise aynı
-paragrafta sık sık yer değiştiriyor.
+anlatılıyor. Buradaki karşılığı, literatürdeki grup düzeyi ifadelerin birey
+düzeyi ifadelerden çok daha sağlam zeminde durması ve iki tür ifadenin aynı
+paragrafta sık sık yer değiştirmesi.
 
 ## Bir bulguyu okurken
 Kullanılan görevin adına bakmakla başlıyorum. Boncuk görevi, balık görevi, ters
@@ -1586,10 +1632,13 @@ aynı cümle değil; Fromm'un tasarımı ikisinin ayrı parametrelere bağlandı
 gösterdiğine göre, hangisinin indekslendiğini bilmeden bulgunun ne dediği de
 bilinmiyor.
 
-En az konuşulan soru sonuncusu. İddia grup düzeyinde mi kuruluyor, birey
-düzeyinde mi. İki okulun boy ortalaması farklı çıkabilir, bu size karşınızdaki
-çocuğun hangi okula gittiğini söylemez. Gruplar arasında ayrışan ama aynı kişide
-tekrar edilemeyen bir parametre bir bulgudur; ölçüt değildir.
+En az konuşulan soru sonuncusu, iddianın grup düzeyinde mi birey düzeyinde mi
+kurulduğu. İki okulun boy ortalaması farklı çıkabilir ama bu size karşınızdaki
+çocuğun hangi okula gittiğini söylemez; gruplar arasında ayrışan ama aynı kişide
+tekrar edilemeyen bir parametre de bir bulgu sayılır, ölçüt sayılmaz.
+
+Tez ilerledikçe burayı güncelleyeceğim. Yukarıda yazdıklarımın bir kısmının
+kendi verimle çelişmesini de açıkçası bekliyorum.
 
 ## Kaynaklar
 Klasik bulgu ve meta-analizler:
@@ -1624,6 +1673,10 @@ Strube W, Cimpianu CL, Ulbrich M, ve ark. Unstable belief formation and slowed
 decision-making: evidence that the jumping-to-conclusions bias in schizophrenia
 is not linked to impulsive decision-making. *Schizophrenia Bulletin*.
 2022;48(2):347-358. doi:[10.1093/schbul/sbab108](https://doi.org/10.1093/schbul/sbab108)
+
+Kemp R, Chua S, McKenna P, David A. Reasoning and delusions. *British Journal of
+Psychiatry*. 1997;170(5):398-405.
+doi:[10.1192/bjp.170.5.398](https://doi.org/10.1192/bjp.170.5.398)
 
 Balzan RP, Delfabbro PH, Galletly CA, Woodward TS. Over-adjustment or
 miscomprehension? A re-examination of the jumping to conclusions bias.
@@ -1704,8 +1757,7 @@ URL: https://furkanbekdemir.com/notlar/terimler
 Hesaplamalı psikiyatride ve hesaplamalı sinirbilimde kullandığım terimlerin
 Türkçe karşılıkları ve her biri için karşılığın gerçekten yerleşik olup
 olmadığı. Yetmiş terimin elli ikisinde o terimin Türkçe kullanıldığı bir
-akademik kaynak bulabildim, on sekizinde bulamadım. Bunu yazmak listenin asıl
-işi.
+akademik kaynak bulabildim, on sekizinde bulamadım.
 
 Bunu tezim için tuttum. Kendi metnimde aynı terime iki farklı karşılık
 vermemek gerekiyordu, kararları da bir yere yazmam gerekiyordu, bu liste o
@@ -1738,8 +1790,8 @@ hedefli tarama yaptım, ama bulunamadı demek yok demek değil.
 
 ## Doğru karşılık, aranan karşılık
 Liste baştan beri tek bir soru soruyordu: karşılık Türkçe akademik yazıda
-yerleşik mi. Sonradan ikinci bir soru çıktı ve cevabı çoğu zaman aynı değil.
-Yerleşik olmak ile aranıyor olmak ayrı şeyler.
+yerleşik mi. Sonradan ikinci bir soru çıktı ve cevabı çoğu zaman aynı değil,
+çünkü yerleşik olmak ile aranıyor olmak ayrı şeyler.
 
 11 Ağustos 2026'da birkaç terimi Google'da denedim. Ölçtüğüm şey arama hacmi
 değil, motorun terimi tanıyıp tanımadığı. Google sorgudan kelime düşürüyorsa
@@ -1764,8 +1816,9 @@ topluluğunun sayfaları var.
 İki şeyi ayrı tutmak gerekiyor. Bu, karşılığın yanlış olduğu anlamına gelmiyor.
 "Duyusal azaltım" doğru bir karşılık; kimsenin aramaması terimin Türkçede henüz
 dolaşıma girmemiş olmasından. Listenin işi doğru karşılığı kaydetmek, popüler
-olanı seçmek değil. Bu satırlar okura yazan biri için ek bilgi: ilk geçişte
-İngilizcesini vermek, aranmayan bir terimde aranandan daha gerekli.
+olanı seçmek değil. Bu satırlar da okura yazan biri için ek bilgi, çünkü ilk
+geçişte İngilizcesini vermek aranmayan bir terimde aranandan daha gerekli
+oluyor.
 
 Ölçüm dört terimle sınırlı ve gizli sekmede yapılmadı, yani sonuçlar
 kişiselleştirilmiş olabilir. Kalan altmış altı terim ölçülmedi. Ölçülmedi demek,
@@ -2333,24 +2386,32 @@ Clinical readers · no equations · published
 ### [The Hierarchical Gaussian Filter, for clinical readers](notes/hierarchical-gaussian-filter.qmd)
 What the parameters mean clinically, why model comparison is not optional, and
 when a computational finding can be trusted. That a parameter can be estimated
-does not mean it can be interpreted.
+does not show that it can be interpreted.
 
 15 references · published
 
 ### [Sensory attenuation and the force-matching task](notes/sensory-attenuation.qmd)
 Why self-produced touch feels weaker, how that becomes a number, and where the
 mechanism has been found disturbed, from schizophrenia to functional movement
-disorder. The task has two conditions and the second is not decoration.
+disorder. The task has two conditions and the measurement comes out of the
+difference between them.
 
-18 references · published
+19 references · published
 
 ### [Belief updating in psychosis and hasty decisions](notes/belief-updating-in-psychosis.qmd)
 How solid the jumping-to-conclusions evidence is, what computational modelling
-changed, and why there is still no individual-level measure. Where the finding
-is weakest is precisely where it was built to apply.
+changed, and why there is still no individual-level measure. The group
+difference holds up; its link to delusion severity does not.
+
+17 references · published
+
+### [The Bayesian brain, prediction error and psychiatric symptoms](notes/prediction-error-and-precision.qmd)
+What prediction error means, what precision sets, and why predictive coding can
+be fitted to everything from psychosis to autism. Being able to fit that much is
+also where the most serious objection to it comes from.
 
 ## Also in Turkish
-These three notes exist in Turkish as well, at
+These four notes exist in Turkish as well, at
 [/notlar](notlar.qmd), alongside a seventy-term glossary of Turkish renderings
 for computational psychiatry vocabulary. That glossary has no English
 counterpart and is not planned to get one: its subject is which Turkish term is
@@ -2362,162 +2423,176 @@ established, which is not a question an English page can ask.
 
 URL: https://furkanbekdemir.com/notes/belief-updating-in-psychosis
 
-A delusion is described clinically as a false belief held despite the evidence.
-That description reports the outcome, not the mechanism. The computational
-question is narrower: on the path from evidence to belief, which step breaks?
+In the clinic a delusion is described as a false belief held despite the
+evidence, but that description stops at the outcome and says nothing about the
+mechanism. The computational question is narrower: on the road from evidence to
+belief, which step goes wrong?
 
-The model most of this work runs on is set out in the [HGF
-note](hierarchical-gaussian-filter.qmd).
+This is my thesis topic, so I am writing as someone who both reads this
+literature and is trying to get into it, and I have tried to keep apart the
+places where the ground is solid from the places where it is not.
 
 ## The classic claim
-Thirty years of literature rests largely on two jars and a handful of beads. One
-jar is mostly black beads, the other mostly white. The experimenter draws from
-one of them a bead at a time, and the participant says which jar it is once they
-have seen enough. The only thing measured is which bead the decision came on.
+Most of thirty years of literature rests on two jars and a handful of beads. One
+jar is mostly black, the other mostly white. The experimenter draws one bead at
+a time, and when the participant feels they have seen enough they say which jar
+it is. The only thing measured is which bead the decision came at.
 
-Patients with delusions decide early. In Moritz and Woodward's sample 42 per
-cent of the patients with schizophrenia named the jar after a single bead; among
-psychiatric controls the figure was 7 per cent, among healthy controls zero. The
-finding is called jumping to conclusions. A meta-analysis pooling fifty-five
-studies points the same way: the psychosis group decides on significantly less
-information (g = -0.53), and the odds of extreme early deciding are four to six
-times higher.
+Deluded patients decide early. In Moritz and Woodward's sample, 42 per cent of
+patients with schizophrenia named the jar after a single bead; in psychiatric
+controls the figure was 7 per cent and in healthy participants zero. The finding
+is called jumping to conclusions. A meta-analysis pooling fifty-five studies
+points the same way: the psychosis group decides on significantly less
+information (g = −0.53), and the odds of deciding extremely early run four to
+six times higher.
 
 ## How solid is the evidence
-The objection is not to the group difference but to the sentence built on top of
-it. To say delusions arise from early deciding, early deciding has to track how
-severe the delusions are.
+The objection here is not to the group difference but to the sentence built on
+top of it. To say "delusions come out of early decisions" you need early
+decisions to track the severity of the delusion.
 
-Ross and colleagues assembled individual participant data from 38 samples, 2,237
-people. The relationship is significant but small: r = -0.10. The subgroups say
-more. It is present in the 1,754-person general population sample and absent in
-the 262 people with current delusions. Where the finding is weakest is precisely
-where it was built to apply.
+Ross and colleagues gathered individual participant data from 38 samples, 2237
+people. The relationship is significant but small, r = −0.10. The subgroups say
+more: it shows up in the 1754-person general population sample but not in the
+262 people with current delusions, so the finding is weakest exactly where it
+was built to apply.
 
-An earlier meta-analysis tested four separate jumping-to-conclusions measures
-and found only the bead count significant. In Lincoln's study of 71 patients and
-68 controls the bead count was related to observer-rated delusion severity, but
-the relationship lost significance once negative symptoms or intellectual
-functioning entered the equation.
+An older meta-analysis tested four separate jumping-to-conclusions measures and
+found only the bead count significant. In Lincoln's study of 71 patients and 68
+controls the bead count was related to observer-rated delusion severity, but the
+relationship lost significance once negative symptoms or IQ entered the
+equation.
 
-The schizophrenia group separates from controls. That patients with more severe
-delusions are hastier is a separate claim, and it has not been shown.
+So there is no problem with the schizophrenia group separating from controls;
+that patients with more severe delusions are hastier is a different claim
+altogether, and we cannot say it has been shown.
 
-## Is hasty the right word
+## What early deciding is a sign of
 Strube's comparison had 45 patients with schizophrenia, 45 with depression and
 45 healthy controls. The schizophrenia group decided on fewer beads but took
-longer to decide, and decision time did not correlate with bead count.
-Impulsivity does not explain this. What the authors point to instead is
-instability in how the belief forms.
+longer to decide, and there was no relationship between decision time and bead
+count either. Impulsivity does not explain this; the reason the authors point to
+is instability in how the belief forms. Reasoning does not explain much either.
+When Kemp and colleagues compared deluded patients with controls on three
+separate logic tests, both groups made plenty of errors and the gap, in the
+authors' own words, was surprisingly small; the deluded group endorsed more
+fallacies only when the content was emotive, and they fell for the conjunction
+fallacy less often than controls did. Sixteen patients and sixteen controls, so
+a small study.
 
 Balzan's group dug at another side of it and added an extra set of instructions
-to the task. The over-adjustment seen when disconfirming evidence arrives fell
-markedly, while early deciding did not change. Part of a finding decades old
-turns out to have been the instructions not being clear enough.
+to the task. The over-adjustment seen when disconfirming evidence arrives
+dropped markedly while early deciding did not change, which means part of a
+finding that stood for years was the instructions not being written clearly
+enough.
 
-Speechley gathers the rest under one roof. Evidence that matches the hypothesis
-gains more weight than it should in a patient with delusions, while evidence
-that does not match keeps its ordinary weight. The same asymmetry shows up as
-early deciding at the start of a sequence and as over-adjustment in the middle
-of one.
+Speechley gathers the rest under one roof. Evidence that fits the hypothesis
+gains more weight than it should in a deluded patient, while evidence that does
+not fit stays at normal weight. The same asymmetry shows up as early deciding at
+the start of the sequence and as over-adjustment in the middle of it.
 
 ## What modelling changed
 The approach of the last decade has been to stop counting beads and model the
-process behind the decision instead. The picture got richer and lost its order.
+process behind the decision, which enriched the picture and disordered it.
 
-The largest sample is Hauke's: 261 patients with psychotic disorders, 56
-controls. Belief instability was elevated in the patients, and jumping to
-conclusions was related both to that and to the size of the initial
-uncertainty. The difference came out between patients and controls, and between
-those who jumped and those who did not. It did not come out between patients
-with few current delusions and patients with many. The most striking part of
-that study clinically is something else: belief instability predicted the
-individual response to metacognitive training.
+The largest sample is Hauke's, 261 patients with psychosis and 56 controls.
+Belief instability was high in patients, and jumping to conclusions was related
+both to that and to the size of the initial uncertainty. The difference came out
+between patients and controls, and between those who jumped and those who did
+not; it did not come out between patients with few current delusions and
+patients with many. The most interesting part of the same study clinically was
+that belief instability predicted the response to metacognitive training at the
+individual level.
 
-Fromm's design separates diagnosis from symptom deliberately, with healthy
-participants high and low on delusional ideation and patients high and low on
-delusions. Delusions were related to increased precision-weighted prediction
-error responses in fronto-striatal regions; the schizophrenia diagnosis was
-related to overestimating volatility and to a weakened neural representation of
-it. The two axes do not attach to the same parameter.
+Fromm's design deliberately separates diagnosis from symptom: healthy people
+with few and with many delusional ideas, patients with few and with many.
+Delusions were related to an increase in the precision-weighted prediction error
+response in fronto-striatal regions; a schizophrenia diagnosis was related to
+volatility being estimated higher than it is and to its neural representation
+being weakened, so the two axes do not attach to the same parameter.
 
-Sheffield looked at paranoia: prior beliefs about volatility were related to
-paranoia, not to unusual thought content or to anxiety. Sloan went a step
-further back to childhood maltreatment, and threat-type maltreatment
-specifically was related to expecting higher volatility. Mikus split along the
-symptom axis instead. Positive symptoms went with uncertainty about volatility,
-negative symptoms with rigid beliefs about observation noise.
+When Sheffield looked at paranoia, prior beliefs about volatility were related
+to paranoia and not to unusual thought content or to anxiety. Sloan went a step
+further back to childhood adversity and showed that adversity of the threat type
+in particular was related to expecting higher volatility. Mikus drew the line
+along the symptom axis instead; positive symptoms were related to uncertainty
+about volatility, negative symptoms to rigid beliefs about observation noise.
 
-## The parameter is not specific to psychosis
-Overestimating volatility reads like a signature of psychosis. That is a
-generous reading.
+## The same parameter turns up elsewhere
+Estimating volatility high is read now and then as the signature of psychosis,
+but that is a generous reading.
 
-Gibbs-Dean's systematic review put psychosis, anxiety and depression in one
-frame, and difficulty adapting to changing contingencies was present in
-psychosis and in anxiety alike. Seeing anxious patients in clinic, I did not
-find that surprising. My own published study points the same way. Tonic
-volatility was elevated relative to controls in generalized anxiety disorder and
-correlated with state anxiety. Thirty-six participants, cross-sectional and
-exploratory, so it carries limited weight; the details are
+Gibbs-Dean's systematic review put psychosis, anxiety and depression in the same
+frame; difficulty adapting to changing probabilities was there in psychosis and
+in anxiety alike. As a doctor who sees anxious patients in the clinic I did not
+find that surprising. My own published study pointed the same way: in
+generalised anxiety disorder tonic volatility was higher than in controls and
+was related to state anxiety. Thirty-six people, cross-sectional and
+exploratory, so it does not carry much weight; the details are
 [here](../research/anxiety-hgf.qmd).
 
-Katthagen's review makes it harder still. There are studies linking psychosis to
-too much updating and studies linking it to too little, and the variability
-between tasks and samples is high. If the direction of a parameter changes from
-study to study, that parameter cannot yet be given the name of a mechanism.
+Katthagen's review makes it harder still. There are studies relating psychosis
+to too much updating and studies relating it to too little, and the variability
+between tasks and samples is high; a parameter whose direction changes from
+study to study is not one we can yet give the name of a mechanism.
 
 ## Formation or maintenance
-Mashima's group split the beads task in two. The first phase is the classic
+Mashima's group split the beads task in two. The first stage is the classic
 version, with beads drawn until the participant reaches a conclusion. In the
-second the drawing continues and the participant decides whether to withdraw
-the conclusion they reached; on some trials the incoming beads contradict it.
+second, drawing continues and the participant decides whether to abandon the
+conclusion they reached; on some trials the beads arriving contradict it.
 
-In the first phase the groups did not separate. In the second the schizophrenia
-group needed significantly more beads before withdrawing a conclusion, most of
-all in the patients whose delusions were prominent. A single study of
-twenty-nine patients, so caution applies. The question it asks is the right one
-though: the step that breaks may be abandoning a belief rather than forming one.
-Perhaps the operative word in the clinical definition of a delusion is not
-haste but irrevocability.
+The groups did not separate in the first stage. In the second, the schizophrenia
+group wanted significantly more beads before abandoning the conclusion they had
+reached, most of all in patients whose delusions were prominent. Twenty-nine
+patients in a single study, so caution is in order, but the question it asks
+holds up: the step that goes wrong may not be forming the belief but giving it
+up, in which case the word to underline in the clinical definition of a delusion
+would be irreversibility rather than haste. I write that as a possibility waiting
+to be tested rather than as a claim.
 
-## The measurement has not settled
-For a parameter to be clinically useful, separating groups is not enough. It
-also has to come out similar when the same person is measured again two weeks
-later.
+## How reliable is the measurement
+For a parameter to be of use in the clinic it is not enough that it separates
+groups; it also has to come out similar when the same person is measured again
+two weeks later.
 
 Karvelis's group tried this. Thirty-nine healthy participants completed the same
-task two weeks apart and the data were modelled with the HGF. Test-retest
-reliability came out largely poor, no better than the behavioural measures. The
-main source the authors isolate is measurement noise, the kind parameter
-recovery reveals. Face validity holds at the group level and not at the level of
-the individual.
+task twice, two weeks apart, and the data were modelled with the HGF. Test-retest
+reliability came out largely low and was no better than the behavioural measures;
+the main source the authors single out is the measurement noise that parameter
+recovery reveals. So a measure with face validity at the group level does not
+carry the same thing at the individual level.
 
-Hess's team attributes part of the problem to the data itself. Most of these
-tasks produce binary responses, and binary responses carry little information. A
-setup that brings response times into the model as well improves the
-identifiability of both parameters and models substantially.
+Hess's team put part of the problem down to the data itself. Most of these tasks
+produce a binary response, and a binary response carries little information. A
+setup that also brings response times into the model markedly improves how well
+parameters and models can be told apart.
 
-What identifiability and recovery are is explained in the [HGF
-note](hierarchical-gaussian-filter.qmd). Here is what it comes to: group-level
-statements in this literature rest on much firmer ground than individual-level
-ones. The two kinds of statement change places within a paragraph rather often.
+What identifiability and recovery are is set out in the [HGF
+note](hierarchical-gaussian-filter.qmd). What it comes to here is that group-level
+statements in this literature stand on much firmer ground than individual-level
+ones, and that the two kinds of statement change places in the same paragraph
+often enough.
 
 ## Reading a finding
-I start by looking at which task was used. The beads task, the fish task,
-reversal learning and advice-taking tasks are all used on the assumption that
-they measure the same construct, and yet findings do not carry from one to
-another easily.
+I start by looking at the name of the task. The beads task, the fish task,
+reversal learning and advice-taking tasks are used on the assumption that they
+measure the same concept, when findings do not carry across from one to another
+easily.
 
-What comes next is finer. "This was elevated in schizophrenia" and "this was
-elevated in delusions" are no longer the same sentence; since Fromm's design
-showed the two attach to separate parameters, without knowing which one was
-indexed you do not know what the finding says.
+What comes next is finer. "This was high in schizophrenia" and "this was high in
+delusions" are no longer the same sentence; given that Fromm's design showed the
+two attach to separate parameters, without knowing which is being indexed you do
+not know what the finding says.
 
-The least discussed question is the last one. Is the claim built at the group
-level or the individual level? Two schools can differ in average height without
-that telling you which one the child in front of you attends. A parameter that
-separates groups but cannot be repeated in the same person is a finding. It is
-not yet a measure.
+The least discussed question is the last, whether the claim is built at the group
+level or the individual level. Two schools can differ in average height without
+that telling you which school the child in front of you attends; in the same way,
+a parameter that separates groups but cannot be repeated in the same person
+counts as a finding and not as a measure.
+
+I will update this page as the thesis moves along. I expect some of what I have
+written above to be contradicted by my own data, frankly.
 
 ## References
 The classic finding and the meta-analyses:
@@ -2552,6 +2627,10 @@ Strube W, Cimpianu CL, Ulbrich M, et al. Unstable belief formation and slowed
 decision-making: evidence that the jumping-to-conclusions bias in schizophrenia
 is not linked to impulsive decision-making. *Schizophrenia Bulletin*.
 2022;48(2):347-358. doi:[10.1093/schbul/sbab108](https://doi.org/10.1093/schbul/sbab108)
+
+Kemp R, Chua S, McKenna P, David A. Reasoning and delusions. *British Journal of
+Psychiatry*. 1997;170(5):398-405.
+doi:[10.1192/bjp.170.5.398](https://doi.org/10.1192/bjp.170.5.398)
 
 Balzan RP, Delfabbro PH, Galletly CA, Woodward TS. Over-adjustment or
 miscomprehension? A re-examination of the jumping to conclusions bias.
@@ -2627,133 +2706,140 @@ in computational psychiatry. *Computational Psychiatry*.
 
 URL: https://furkanbekdemir.com/notes/hierarchical-gaussian-filter
 
-You are reading a computational psychiatry paper. There is a model name, a few
-Greek letters, and a sentence saying some parameter was higher in the patient
-group. This note is about what that sentence claims, and more usefully, what it
-does not.
+In a computational psychiatry paper you see the name of a model, a few Greek
+letters under it, and a sentence saying some parameter was high in the patient
+group. This note is about what that sentence says, and more to the point what it
+does not say.
 
-No equations. The aim is not to let you build the model but to know where to
-look when someone else's model produces a claim. For the mathematics and working
-code, [Perception, Beliefs, and the Hierarchical Gaussian
+No equations. The aim is not for you to be able to build the model but to know
+where to look when you read a claim that came out of someone else's. For a
+reader after the mathematics and working code, [Perception, Beliefs, and the
+Hierarchical Gaussian
 Filter](https://metaduck.com/computational-psychiatry-afterburn-hierarchical-gaussian-filters/)
-builds it step by step with `pyhgf`.
+builds the model step by step with `pyhgf`; the side you will not find here is
+there.
 
 ## The problem it solves
-Suppose you watch a patient learn something. Say they are working out which of
-two boxes pays out more often. What you have is a sequence of trial-by-trial
-answers: A on this one, B on the next, then A again.
+Imagine watching a patient learn something. Say they are learning which of two
+boxes gives a reward more often. What you have is their responses trial by
+trial: on this one they said A, on the next B, then A again.
 
-What can you read off that sequence? At the simplest you count how often they
-were right. That number says nothing about how the learning happened. Two
-patients can score identically having taken completely different routes: one
-revised on every new piece of evidence, the other held out and then switched all
-at once.
+What can you get out of that sequence? At the simplest you count how many times
+they were right. But that number says nothing about how the learning happened.
+Two patients can get the same number right having taken completely different
+routes: one adapting fast to every new piece of evidence, the other changing
+their mind late but changing it completely when they did.
 
-The Hierarchical Gaussian Filter assumes there is a person behind the sequence
-and describes how that person learns with a handful of numbers. What it models
-is not the behaviour but the process producing it.
+The Hierarchical Gaussian Filter assumes there is a person learning behind that
+sequence and tries to describe how they learn with a few numbers; what it models
+is not the behaviour itself but the process that produces it.
 
 ## What the hierarchy means
-The "hierarchical" in the name refers to layers of uncertainty stacked on one
-another.
+The "hierarchical" in the model's name refers to layers of uncertainty sitting
+on top of one another.
 
-The bottom layer is the current state: is this box paying out right now. Above
-it sits the tendency: how often does this box pay out in general. The top layer
-is how changeable the world is, meaning how often those rules shift.
+The bottom layer is the current state: is the box giving a reward right now. The
+layer above it is the tendency behind that state: how often does this box give a
+reward in general. The top layer is how volatile the world is, that is, how
+often these rules change.
 
-That third layer is the model's real idea and the one with the most clinical
-purchase. How fast you ought to learn depends on how much the world actually
-changes. If the rules shift often, revising quickly is sensible. If they are
-fixed, the same speed has you chasing noise.
+The model's real idea is in that third layer, and it is also the layer with the
+most to say in the clinic. How fast you ought to learn depends on how much the
+world is changing. If the rules change often it is sensible to adapt quickly to
+new evidence; if the rules are fixed, the same speed sends you chasing noise.
 
-People make this adjustment constantly and the model puts a number on it.
-Someone who takes the world to be more volatile than it is treats a single event
-as too informative. Someone who takes the opposite view is slow to notice a real
-change.
+People make this adjustment constantly, and the model puts a number on it.
+Someone who takes the world to be more volatile than it is makes too much of a
+single event, while someone who takes it the other way is slow to notice
+something that really has changed.
 
 ## What the parameters say clinically
-The number reported most often is the learning rate, and the HGF's difference is
-that the rate is not fixed. In classical learning models a person has one
-learning speed and it stays the same from trial to trial. Here it is recomputed
-on every trial, and it depends on how certain the person is at that moment and
-how volatile they take the world to be. Learning speeds up after a surprise and
-slows inside a familiar pattern.
+The number reported most often is the learning rate, and what is different about
+the HGF here is that the rate is not fixed. In classical learning models a
+person has one learning speed and it stays the same from trial to trial. In the
+HGF it is worked out again on every trial, and according to how sure the person
+is at that moment and how volatile they take the world to be. Learning speeds up
+after a surprising event and slows down inside a familiar pattern.
 
-The quantity governing this is precision. It has nothing to do with precision in
-the everyday sense; it measures how narrow a belief is. A narrow belief leaves
-little room for new evidence, a wide one leaves a lot. That is the clinically
-interesting part: the source of a symptom may not be the evidence but the weight
-given to it.
+The quantity that sets this is called precision. It has nothing to do with
+precision in the everyday sense; it measures how narrow a belief is. A narrow
+belief leaves little room for new evidence, a wide one leaves a lot. This is the
+interesting part clinically, because the source of a symptom may not be the
+evidence itself but the weight given to it.
 
-The engine is prediction error, the gap between what happened and what was
-expected. The raw gap is not what gets used; the precision-weighted version is.
-A surprise of the same size produces a different result depending on how certain
-the person was.
+The engine of the model is prediction error, the difference between what
+happened and what was expected. But the raw difference is not what gets used;
+the precision-weighted version is. A surprise of the same size has a different
+result depending on how sure the person was at the time.
 
-There is also response noise, which absorbs everything the model cannot explain.
-People do not always act on their beliefs; they get distracted, press the wrong
-key, waver. Having this parameter matters, because without it disorderly
-behaviour would look like a strange style of learning.
+There is also response noise, the parameter that collects everything the model
+cannot explain. A person may not act in line with their belief; they were
+distracted, they hit the wrong key, they were undecided. Having this parameter
+matters, because without it disorderly behaviour would look like a strange way
+of learning.
 
-The appeal of these numbers is obvious. Each resembles a mechanism and attaches
-easily to a clinical story. The two sections below are largely against that
+The appeal of these numbers is obvious; each looks like a mechanism and attaches
+easily to a clinical story. I wrote the two sections below largely against that
 ease.
 
 ## Why model comparison is not optional
-A model was fitted and numbers came out. For those numbers to mean anything you
-first have to know whether this model generated the data, or whether some other
-model would have generated it just as well.
+A model was fitted to the data and numbers came out. For those numbers to mean
+anything you first have to know whether this model produced the data, or whether
+another model could have produced the same data.
 
-Goodness of fit does not answer that. A flexible enough model fits any data
-well, and a good fit may be showing you flexibility rather than truth.
+Goodness of fit does not answer that. A model flexible enough fits any data
+well; a good fit may be showing you the model's flexibility rather than its
+truth.
 
-So fitting one model and reporting its numbers is not enough. Several candidate
-models are built, all fitted to the same data, and compared on how well each
-explains it. Because the comparison separately penalises complex models, adding
-parameters to improve the fit does not count as winning.
+So building one model and reporting numbers does not count as enough. Several
+candidate models are built, all fitted to the same data, and which of them
+explains the data better is compared. Because the comparison also penalises
+complex models, improving the fit by adding parameters is not an advantage.
 
-If a paper has no model comparison, the parameters it reports do not point at a
-mechanism, whatever they are called. They are what you get when you summarise
-the data through that particular model. The difference is not a small one.
+If a paper has not done a model comparison, the parameters reported are not
+showing a mechanism in the first place; they are the numbers you get when you
+summarise the data according to that model. And the difference between the two
+is not small at all.
 
 ## When to trust a finding
-When a model fits, it produces a number for every parameter. That a number was
-produced does not mean the data carried information about that parameter. In
-some models two parameters move together: raise one and lower the other and the
-model behaves identically. Fill a bath from two taps and the water level tells
-you the total, never how much came from which. Their combination can then be
-read off the data but neither can be read alone. The estimator still returns a
-number, because it has to. That number reflects setup choices more than it
-reflects data.
+When a model fits data it produces a number for every parameter. That a number
+was produced does not mean the data carry information about that parameter. In
+some models two parameters move together: one goes up, the other goes down, and
+the model produces the same behaviour. If you are filling a bath from two taps
+you can tell the total from the water level but not how much came from which
+tap. In a case like that the combination of the two can be read off the data but
+neither can be read on its own. The estimation still gives you a number, because
+it has to. And that number reflects the setup choices more than it reflects the
+data.
 
-The technical name for this is identifiability. It is among the first things to
-ask about a computational finding.
+The technical name for this is identifiability, and it is one of the first
+questions to ask when reading a computational finding.
 
-The test is parameter recovery. You generate synthetic data from known values,
-run the same pipeline over it, and check whether the values you put in come back
-out. If they do not, the parameter cannot be measured with that design, and
-there is no way to discover this from real data. I ran this on my own pipeline
-before collecting anything, and I think the order matters: leave it until
-afterwards and, when the result is bad, you are holding a number you could
-publish, which makes it harder to drop.
+The way to test it is parameter recovery. You generate synthetic data with known
+values, run the same pipeline on that synthetic data, and see whether the values
+you put in come back out. If they do not, the parameter cannot be measured with
+that design, and there is no way to work that out by looking at real data. I ran
+this analysis on my own pipeline before collecting any data. I think the order
+matters: leave it until afterwards and, when the result comes out badly, you
+already have a number you could publish, and letting go of it gets harder.
 
-Finally, parameter names. Calling a parameter "belief instability" or "learning
-flexibility" does not establish that it measures that. The name is the
-interpretation of whoever built the model. The same number can be attached to a
-completely different mechanism under another reading, and choosing between the
-two takes more than the model.
+Last, parameter names. Calling a parameter "belief instability" or "learning
+flexibility" does not show that it measures that; the name is the interpretation
+of whoever built the model, and the same number can be attached to a completely
+different mechanism under another interpretation. Deciding between two
+interpretations takes more than the model.
 
 ## In short
-The HGF's clinical value is that it treats learning speed as an adjustment
-tracking how volatile a person takes the world to be, rather than as a fixed
-trait.
+The clinical value of the HGF is that instead of treating learning speed as a
+fixed trait, it handles it as a setting that depends on how volatile the person
+takes the world to be.
 
-But not every number it produces is a mechanism. The estimator returns a number
-under any conditions; what shows the number measures something is not the number
-itself but the model comparison and the recovery behind it. Without both, what
-you are holding is a summary statistic rather than a claim about mechanism. And
-if the parameter's name is confident enough, that summary statistic gets read as
-a mechanism.
+But not every number it produces is a mechanism. The estimation gives you a
+number under any conditions; what shows that the number measures something is
+not the number itself but the model comparison and the recovery behind it.
+Without both you have a summary statistic rather than a claim about a mechanism,
+and if the parameter's name is bold enough, that summary statistic gets read as
+a mechanism easily enough.
 
 ## References
 The model itself:
@@ -2791,167 +2877,429 @@ doi:[10.3389/fpsyt.2021.680811](https://doi.org/10.3389/fpsyt.2021.680811)
 
 ---
 
+# The Bayesian brain, prediction error and psychiatric symptoms
+
+URL: https://furkanbekdemir.com/notes/prediction-error-and-precision
+
+The brain does not wait for the incoming signal and then process it. It predicts
+what is coming first and sends up only as much as the prediction got wrong. That
+sentence became one of the most productive ideas in psychiatry of the last
+twenty years, and the framework's most serious problem comes out of the same
+sentence.
+
+The other three notes rest on these two ideas without any of them setting them
+out in full, so I wrote this one to close that gap.
+
+## What prediction error means
+The "error" here is not error in the everyday sense. Prediction error means the
+difference between what happened and what was expected, and it is the only thing
+the system uses to learn.
+
+The appeal of the idea comes from its economy. If there is a clock ticking in
+your house you do not hear it, and you notice the moment it stops. The sound
+reaching your ear is the same in both cases; the only thing that changes is
+whether it was expected. Most of the signal arriving from your sense organs
+every second is like that, already what you expected. If instead of carrying all
+of it upward you carry only the difference, most of the load going to the upper
+layers falls away. Set out by Friston and Kiebel through the free energy
+principle, the brain is a hierarchy of estimates: each layer tells the one below
+what to expect, and the one below sends back only the margin by which it was
+wrong. The collective name for the framework is the Bayesian brain; the name
+given to its neural implementation is predictive coding.
+
+What follows from this runs against intuition. Perception is not something
+flowing from outside in but a hypothesis built from the inside out and tested
+against sensory data. Clark's review presents this as a model that gathers
+perception and action under one roof, and most of its popularity comes from that
+gathering power.
+
+## What precision means
+This is where the framework is actually of use clinically, and it is also the
+part most popular accounts skip.
+
+If the pharmacy scale shows you two hundred grams heavier, that is information.
+If you see the same two hundred grams on a bathroom scale that gives a different
+number every time you step on it, it means nothing. The difference is the same
+difference in both cases; what changes is how seriously you take the instrument.
+The brain has to make the same distinction, and it does so by giving every
+signal a weight. The name of that weight is precision: how narrow an estimate
+is, which is to say the inverse of its variance. What goes up is not the raw
+prediction error but its precision-weighted version.
+
+Feldman and Friston went a step further and defined attention as that weight
+itself. To attend to something is to raise the precision of that channel. Seen
+this way attention stops being a separate faculty and becomes a setting of the
+inference.
+
+There is also this. What has been proposed as the neural counterpart of
+precision is the postsynaptic gain of cells carrying prediction error; that
+proposal ties the framework to neuromodulation, and that is where it really gets
+into psychiatry.
+
+## Precision at which level
+Because there is a hierarchy there is no single setting. The precision of
+sensory evidence and the precision of prior belief stand separately, and
+symptoms are tied to the ratio between them.
+
+The proposal put forward in 2013 and still treated as a reference is Adams's:
+psychotic symptoms may be different faces of one core pathology, which is the
+faulty encoding of precision. Hallucinations, eye movement abnormalities, loss
+of sensory attenuation and delusions are all derived from that one framework.
+Where sensory attenuation sits in this picture is in [a separate
+note](sensory-attenuation.qmd).
+
+## Which direction in psychosis
+On the canonical account, the precision of prior belief falls relative to
+sensory data in psychosis, the world becomes unpredictable, and a delusion is
+the story built to explain that experience.
+
+The findings are not that orderly. Sterzer's review says so directly; some
+studies find prior beliefs weakened in psychosis, others find them strengthened.
+Haarsma's group showed that precision-weighting of prediction errors helps
+learning in healthy people and that this is disrupted in first-episode
+psychosis. On top of that, they showed it can be moved with a dopaminergic
+intervention. Corlett, updating the ketamine model, accepts that there may be
+more than one route.
+
+A single study can hold both directions at once. In Benrimoh's conditioned
+hallucination study, people high in hallucination proneness both give more
+weight to prior belief and come out with low sensory precision. In Goodwin's
+two large-sample study, psychosis-like experiences went with giving too much
+weight to sensory information, which is the opposite of the canonical account.
+
+Sterzer's review makes its own proposal, which is to put the two findings on
+different floors of the same hierarchy. When the prior belief at the lower level
+weakens, unfiltered prediction error climbs, and the beliefs at the upper level
+stiffen to explain the excess away; so weak and strong priors can be present in
+the same patient at once. Because upper association cortex carries denser
+recurrent connections than lower sensory areas, a disturbance in the
+excitation-inhibition balance would also be expected to hit the upper floors
+harder. Benrimoh finding both directions in one study fits this reading.
+
+But this is a reconciliation rather than a tested finding. A study that does not
+say which level its task measures can neither support nor refute the
+distinction, and most studies in the literature do not say.
+
+## The same framework explains autism too
+Van de Cruys ties autism to prediction errors being given high weight
+inflexibly. Every deviation in the world carries news. None of it can be written
+off as noise. Findings about executive function and theory of mind come out as
+secondary consequences of this.
+
+Note that this is the exact opposite of what is proposed for psychosis; the same
+framework and the same two parameters, run in the other direction. Friston,
+Lawson and Frith argued separately about what to call this and proposed reading
+autism as a disturbance in beliefs about precision rather than as a weakening of
+prior beliefs.
+
+Recent tests muddy this too. Arthur and colleagues, modelling two sensorimotor
+tasks, found no lasting deviation in prior beliefs or in sensory weighting in
+autism; what they found was difficulty flexing the learning rate according to
+volatility.
+
+## Body and emotion
+The fastest-growing arm of the framework looks inward rather than outward. As
+Seth and Friston set it up, bodily states are governed by estimation too, and
+emotion is a product of that process.
+
+Smith's team tested this in a transdiagnostic sample. In a heartbeat task, when
+the bodily signal was disturbed by breath-holding, healthy participants raised
+the precision they gave the signal from the heart, while the anxiety,
+depression, substance use and eating disorder groups did not. No strong
+difference was found in prior beliefs, so what separated the groups was not the
+belief itself but the ability to adjust the weight.
+
+## The framework's biggest problem
+What has been listed so far can be read as the framework's success, but the
+field has for some time been thinking the opposite.
+
+Qela's review, covering seventy-two studies, finds something in every disorder,
+but the things found do not resemble each other. Mancini and Nour put it in a
+single sentence, that a model with this many moving parts is hard to pin down
+anywhere. Alotaibi's 2026 review asks it in the title, whether predictive coding
+is a mechanistic model or a metaphorical re-description.
+
+A framework being able to hold both a finding and its opposite usually gets
+called flexibility, but looked at from the side of testability it is hard to
+call it that.
+
+This is not a reason to drop the framework. As a doctor using it in my own work,
+what I would say is that the sentence "precision is disturbed in psychosis" says
+nothing on its own. Without answers to at which level, in which direction, on
+which task and with which symptom, the sentence fits the framework but is not
+tested. When a computational finding can answer those is in the [HGF
+note](hierarchical-gaussian-filter.qmd); the same problem in the schizophrenia
+literature is in the [belief updating note](belief-updating-in-psychosis.qmd).
+
+## References
+The framework itself:
+
+Friston K, Kiebel S. Predictive coding under the free-energy principle.
+*Philosophical Transactions of the Royal Society B*. 2009;364(1521):1211-1221.
+doi:[10.1098/rstb.2008.0300](https://doi.org/10.1098/rstb.2008.0300)
+
+Feldman H, Friston KJ. Attention, uncertainty, and free-energy. *Frontiers in
+Human Neuroscience*.
+2010;4:215. doi:[10.3389/fnhum.2010.00215](https://doi.org/10.3389/fnhum.2010.00215)
+
+Clark A. Whatever next? Predictive brains, situated agents, and the future of
+cognitive science. *Behavioral and Brain Sciences*. 2013;36(3):181-204.
+doi:[10.1017/S0140525X12000477](https://doi.org/10.1017/S0140525X12000477)
+
+Psychosis:
+
+Adams RA, Stephan KE, Brown HR, Frith CD, Friston KJ. The computational anatomy
+of psychosis. *Frontiers in Psychiatry*.
+2013;4:47. doi:[10.3389/fpsyt.2013.00047](https://doi.org/10.3389/fpsyt.2013.00047)
+
+Sterzer P, Adams RA, Fletcher P, et al. The predictive coding account of
+psychosis. *Biological Psychiatry*. 2018;84(9):634-643.
+doi:[10.1016/j.biopsych.2018.05.015](https://doi.org/10.1016/j.biopsych.2018.05.015)
+
+Corlett PR, Honey GD, Fletcher PC. Prediction error, ketamine and psychosis: an
+updated model. *Journal of Psychopharmacology*. 2016;30(11):1145-1155.
+doi:[10.1177/0269881116650087](https://doi.org/10.1177/0269881116650087)
+
+Haarsma J, Fletcher PC, Griffin JD, et al. Precision weighting of cortical
+unsigned prediction error signals benefits learning, is mediated by dopamine,
+and is impaired in psychosis. *Molecular Psychiatry*. 2021;26(9):5320-5333.
+doi:[10.1038/s41380-020-0803-8](https://doi.org/10.1038/s41380-020-0803-8)
+
+Benrimoh D, Fisher VL, Seabury R, et al. Evidence for reduced sensory precision
+and increased reliance on priors in hallucination-prone individuals in a general
+population sample. *Schizophrenia Bulletin*.
+2024;50(2):349-362. doi:[10.1093/schbul/sbad136](https://doi.org/10.1093/schbul/sbad136)
+
+Goodwin I, Kugel J, Hester R, Garrido MI. Bayesian accounts of perceptual
+decisions in the nonclinical continuum of psychosis. *PLOS Computational
+Biology*. 2023;19(11):e1011670.
+doi:[10.1371/journal.pcbi.1011670](https://doi.org/10.1371/journal.pcbi.1011670)
+
+Autism:
+
+Van de Cruys S, Evers K, Van der Hallen R, et al. Precise minds in uncertain
+worlds: predictive coding in autism. *Psychological Review*.
+2014;121(4):649-675. doi:[10.1037/a0037665](https://doi.org/10.1037/a0037665)
+
+Friston KJ, Lawson R, Frith CD. On hyperpriors and hypopriors: comment on
+Pellicano and Burr. *Trends in Cognitive Sciences*. 2013;17(1):1.
+doi:[10.1016/j.tics.2012.11.003](https://doi.org/10.1016/j.tics.2012.11.003)
+
+Arthur T, Vine S, Buckingham G, Brosnan M, Wilson M, Harris D. Testing
+predictive coding theories of autism spectrum disorder using models of active
+inference. *PLOS Computational Biology*. 2023;19(9):e1011473.
+doi:[10.1371/journal.pcbi.1011473](https://doi.org/10.1371/journal.pcbi.1011473)
+
+Body and emotion:
+
+Seth AK, Friston KJ. Active interoceptive inference and the emotional brain.
+*Philosophical Transactions of the Royal Society B*. 2016;371(1708):20160007.
+doi:[10.1098/rstb.2016.0007](https://doi.org/10.1098/rstb.2016.0007)
+
+Smith R, Kuplicki R, Feinstein J, et al. A Bayesian computational model reveals
+a failure to adapt interoceptive precision estimates across depression, anxiety,
+eating, and substance use disorders. *PLOS Computational Biology*.
+2020;16(12):e1008484.
+doi:[10.1371/journal.pcbi.1008484](https://doi.org/10.1371/journal.pcbi.1008484)
+
+Objections to the framework:
+
+Qela B, Damiani S, De Santis S, et al. Predictive coding in neuropsychiatric
+disorders: a systematic transdiagnostic review. *Neuroscience and Biobehavioral
+Reviews*. 2025;169:106020.
+doi:[10.1016/j.neubiorev.2025.106020](https://doi.org/10.1016/j.neubiorev.2025.106020)
+
+Mancini V, Nour MM. If mismatch negativity is the answer, what is the question?
+On the nature of predictive coding abnormalities in psychosis. *Biological
+Psychiatry Global Open Science*. 2025;5(1):100412.
+doi:[10.1016/j.bpsgos.2024.100412](https://doi.org/10.1016/j.bpsgos.2024.100412)
+
+Alotaibi AS. Predictive coding in psychopathology: mechanistic model or
+metaphorical re-description? *Frontiers in Human Neuroscience*. 2026;19:1743028.
+doi:[10.3389/fnhum.2025.1743028](https://doi.org/10.3389/fnhum.2025.1743028)
+
+[← notes](../notes.qmd) ·
+[the HGF](hierarchical-gaussian-filter.qmd) ·
+[sensory attenuation](sensory-attenuation.qmd) ·
+[belief updating](belief-updating-in-psychosis.qmd) ·
+[türkçesi](../notlar/ongoru-hatasi-ve-hassasiyet.qmd)
+
+---
+
 # Sensory attenuation and the force-matching task
 
 URL: https://furkanbekdemir.com/notes/sensory-attenuation
 
-You cannot tickle yourself. There is a measurable mechanism behind that familiar
-observation, and where it weakens, psychiatric symptoms appear.
+You cannot tickle yourself. Behind that familiar observation there is a
+mechanism the laboratory can turn into a number, and where that mechanism
+weakens, psychiatric symptoms appear.
 
-Tickling is only its most familiar form. The same mechanism has a laboratory
-measure, and that measure connects to several separate symptoms. The precision
-language used here is set out in the [HGF
-note](hierarchical-gaussian-filter.qmd); the rig I built for the task is on the
-[instrument page](../tools/force-matching.qmd).
+Tickling is the most familiar form of it but not the whole of it. I am a
+psychiatry resident and I work on this measure through my thesis, so what
+follows is both what the literature says and what I learned building the rig
+myself. The precision language used here is set out at more length in the [HGF
+note](hierarchical-gaussian-filter.qmd); the rig itself is on the [instrument
+page](../tools/force-matching.qmd).
 
-## The observation
-Touching your own palm and having someone else touch it the same way differ in
-nothing physical. Same pressure, same skin, same receptors. The only thing that
-changes is where the touch came from, and that is what drops the perceived
-intensity.
+## Why your own touch is different
+There is no physical difference between touching your own palm and having
+someone else touch it the same way. The pressure, the skin and the receptors are
+the same. The only thing that changes is where the touch came from, and that is
+exactly what lowers the perceived intensity.
 
 Blakemore and colleagues looked at this in 1998. Somatosensory cortex was more
 active for externally produced touch and less active for self-produced touch. In
 the cerebellum the pattern reversed: cerebellar activity was lower for movements
-that produced a touch than for movements that did not. The reading is that the
-cerebellum computes the sensory consequence of a movement in advance, and that
-computation is used to turn the incoming signal down.
+that produced a touch than for movements that did not. The reading is that
+the cerebellum works out the sensory consequence of a movement in advance and
+that this is used to turn the incoming signal down. I say reading because the
+study does not show that directly; it is only the simplest account that fits
+what was found.
 
-The name for that turning down is sensory attenuation. Its use is this: most of
-the signal reaching your senses is produced by your own movements. If all of it
-were processed at equal weight, the externally caused signal, the one that
-actually carries news, would be lost inside it. Noise-cancelling headphones do
-exactly this: they predict the incoming sound and generate its inverse, leaving
-only what they could not predict. Turning down the predictable is how you bring
-out the unpredictable.
+The name for that turning down is sensory attenuation. To see what it is for it
+helps to remember that most of the signal reaching your senses is produced by
+your own movements. If all of it were processed at equal weight, the externally
+caused signal, the one that actually carries news, would be lost inside it.
+Noise-cancelling headphones do much the same thing, predicting the incoming
+sound and generating its inverse, so that only what they could not predict is
+left.
 
 ## How the task turns it into a number
 The most memorable demonstration involved two people. In 2003 Shergill and
 colleagues had participants take turns pressing on each other's finger, each
-trying to apply the force they had just felt. The force grew every turn. Nobody
-was exaggerating; everyone matched what they felt, but because they felt their
-own output as weaker than it was, each put in a little more. The paper's title
-sums it up as two eyes for an eye. So the line we all used as children, that he
-hit first and he hit harder, was not a lie after all. It was a calibration
-problem.
+trying to apply the force they had just felt, and the force grew every turn.
+Nobody was exaggerating, everyone matched what they felt, but because they felt
+their own output as weaker than it was, each put in a little more. The paper's
+title sums it up as two eyes for an eye. Which means the line we all used as
+children, that he hit first and he hit harder, turns out to have been a
+calibration problem rather than a lie.
 
 The same effect was turned into a standard single-person task. In the
 force-matching task a target force is applied to the participant's finger and
 they are then asked to reproduce it two ways. In the direct condition they press
 on their own finger with the other hand. In the slider condition a motor
-produces the force and they set its size with a slider.
+produces the force and the participant sets its size with a slider.
 
-Pressing directly, they overshoot. Through the slider they are fairly accurate.
-In the twenty-five-participant data published in McNaughton's device paper the
-direct condition ran 0.50 N high on average and the slider condition 0.30 N low.
-The difference between the two conditions is the measurement.
+Pressing directly they overshoot, and through the slider they are fairly
+accurate. In the twenty-five-participant data published in McNaughton's device
+paper the direct condition ran 0.50 N high on average and the slider condition
+0.30 N low, and the difference between the two conditions is what the
+measurement is.
 
-## The second condition is not decoration
+## What the slider condition is for
 Why the slider condition is needed is not obvious at first, and misreading the
-task usually starts here.
+task usually starts from there, so it is worth slowing down here.
 
-Error in the direct condition has more than one source. You have to remember the
-target force, you have to scale the force you produce, and your motor output has
-noise of its own. None of that is specific to prediction, and each would produce
-a deviation on its own. The slider condition carries the same memory and scaling
-load, but because the force does not come from your own hand, prediction-based
-attenuation is not running. Take the difference between the two and the shared
-effects drop out, leaving the part that belongs to prediction.
+The error in the direct condition has more than one source. You have to remember
+the target force, you have to scale the force you produce, and on top of that
+your motor output has noise of its own. None of these is specific to prediction,
+and each produces a deviation on its own. The slider condition carries the same
+memory and scaling load, but because the force does not come from your own hand
+the prediction-based part is not engaged. Taking the difference between the two
+conditions cancels the shared effects and leaves the share that belongs to
+prediction.
 
-That logic was recently tested formally. Valè and colleagues built a
-computational model of the task on data from nearly five hundred participants,
-separated the individual noise sources including memory noise, and showed that
-the difference between conditions does isolate the predictive component. Two
-further things came out of the same study. Attenuated sensations vary more from
+This logic was tested formally not long ago. Valè and colleagues built a
+computational model of the task on data from close to five hundred participants,
+separated the noise sources including memory noise, and showed that the
+difference between the two conditions does isolate the predictive component. Two
+more things came out of the same study. Attenuated sensations are more variable
 trial to trial, because they carry the noise of the prediction as well. And
-attenuation works by division rather than subtraction: the signal is not reduced
-by a fixed amount, it shrinks by a factor.
+attenuation works by division rather than subtraction: a fixed amount is not
+taken off the signal, the signal is scaled down by a factor.
 
-What attenuation locks onto has been tested too. Bays and colleagues showed the
-mechanism attaches not to the movement but to the event the movement predicts.
-Shift the timing of the touch earlier or later and attenuation falls off.
-Movements that stop above the finger or pass wide of it produce no attenuation
-at all. The system is not saying "I am moving, turn the senses down." It is
-saying "a touch is about to happen, there, now." Kilteni and Ehrsson showed a
-more basic condition still: you have to count the touching hand as your own.
-Move the sense of ownership with the rubber hand illusion and attenuation moves
-with it.
+What the attenuation locks onto has been tested too. Bays and colleagues showed
+that the mechanism is tied not to the movement itself but to the event the
+movement is expected to produce. Shifting the timing of the touch forward or
+back reduces attenuation, and movements that stop above the finger or pass
+beside it produce none at all. So the system is not saying "I am moving, turn
+the sensation down" so much as "a touch of this kind is about to happen here,
+now". Kilteni and Ehrsson showed a more basic condition on top of that: you have to
+count the touching hand as your own. When ownership is shifted with the rubber
+hand illusion, the attenuation shifts with it.
 
 ## The link to precision
-In active inference, attenuation corresponds to lowering the precision of
-sensory evidence during movement. The argument that this is compulsory runs as
-follows: to move, your prediction that you are moving has to outweigh the
-sensory evidence that you are not yet moving. If that evidence is not
-down-weighted, the movement never starts.
+In the active inference framework, attenuation means lowering the precision of
+sensory evidence during movement. The argument for calling it necessary is that
+in order to move, the prediction that you are moving has to override the sensory
+evidence saying you have not moved yet.
+If the weight of that evidence is not lowered, the movement does not start.
 
 Brown and colleagues reproduced the force-matching finding from this framework.
-When they took attenuation out of the model two things happened together: the
-overshoot in the task disappeared, and false inferences about agency appeared.
-The same setting makes movement possible and determines what counts as yours. It
-costs in both directions. Turn it down too little and movement does not start;
-too much and you cannot tell yourself from the world.
+When they removed attenuation from the model the overshoot in the task
+disappeared and false inferences about agency appeared. So the same setting both
+makes movement possible and determines what counts as yours, and it costs you in
+both directions: lower it too little and the movement does not start, lower it
+too much and you cannot tell yourself from the world. Let me flag one thing
+here. This comes out of a model and depends on what that model assumes; it is
+not something an experiment has shown directly.
 
 ## Where it sits clinically
-The most instructive finding is one of the oldest. In 2000 Blakemore and
+One of the oldest findings here still says the most. In 2000 Blakemore and
 colleagues compared patients with schizophrenia, patients with bipolar disorder
-or depression, and healthy controls. What determined the loss of attenuation was
-the symptom rather than the diagnosis: attenuation was absent in those with
-auditory hallucinations or passivity experiences and present in those without,
-regardless of what they were diagnosed with.
+and depression, and healthy controls. What determined the loss of attenuation
+was the symptom rather than the diagnosis: it was absent in those with auditory
+hallucinations or passivity experiences, and present in those without them
+regardless of diagnosis.
 
-What followed widened it. Attenuation was shown to be significantly reduced in
-schizophrenia, and in an imaging study the loss of attenuation in secondary
-somatosensory cortex was predicted by the patient's current hallucination
-severity. Teufel and colleagues worked in healthy people: those higher in
+What followed widened this. Attenuation was shown to be significantly reduced in
+schizophrenia; in the imaging study, the loss of attenuation in secondary
+somatosensory cortex tracked the patient's hallucination severity at the time.
+Teufel and colleagues worked with healthy participants instead: those higher in
 delusional ideation were more accurate on the task, meaning they attenuated
-less. That last one answers two objections at once, since neither medication nor
+less. That last one answers two objections at once, because neither medication nor
 an active episode can explain it.
 
-Leaving the picture in schizophrenia would be a mistake. In functional movement
-disorder attenuation is absent; patients do not experience the movement as under
-their own control and do not produce the overshoot that controls produce. In
-Parkinson's disease attenuation is selectively impaired in the group reporting
-fatigue and not in the group without it, and the impairment goes with subjective
-fatigue and perceived effort rather than motor symptom severity. In chronic pain
-no group difference in magnitude was found; what separated the groups was
-variance.
+It would be a mistake to stop at schizophrenia. In functional movement
+disorder attenuation is absent; patients do not feel the movement as under their
+own control and do not produce the overshoot controls produce. In Parkinson's
+disease attenuation is selectively impaired in the group reporting fatigue and
+not in the group without it, and the impairment tracks subjective fatigue and
+perceived effort rather than motor symptom severity. In chronic pain no group
+difference in magnitude was found; what separated the groups was variance.
 
-Attenuation being disturbed across this many presentations already makes it a
-measure tied to symptoms rather than diagnoses. It does not tell you which
-diagnosis a patient carries. It says something about which mechanism is
-disturbed. Confuse the two and the measure has promised more than it can
-deliver.
+That the impairment turns up across such different clinical pictures already
+makes this a measure tied to a symptom rather than to a diagnosis. It does not
+tell you which diagnosis a patient carries, it says something about which
+mechanism is disturbed, and mixing the two up promises more than the measure can
+give.
+I am not claiming it has a use in the clinic today; these are group-level
+differences and they do not tell you what to do in front of one patient.
 
 ## What the instrument contributes
-Because the measurement is a difference between two conditions, instrument error
-common to both cancels in that difference. What does not cancel is error that
-depends on the direction of loading, since the two conditions do not load the
-sensor the same way. A ramp pressed by a motor and a ramp pressed by a person
-are not the same thing.
+Because the measurement is the difference between two conditions, any instrument
+error that is the same in both conditions drops out of the difference. The error
+that does not drop out is the one that depends on loading direction, since the
+two conditions do not load the sensor the same way. A ramp pressed by a motor
+and a ramp pressed by a person are not the same thing.
 
-The acceptance criterion that passed by the narrowest margin on my own rig was
-hysteresis. That is no coincidence: hysteresis is exactly the class of error
-that does not cancel in the difference. The rig and its calibration record are
-on the [instrument page](../tools/force-matching.qmd).
+When I built my own rig, the item that passed its acceptance criterion by the
+narrowest margin was hysteresis, and that is not a coincidence, because
+hysteresis falls into exactly the class of error that does not cancel in the
+difference. The rig itself and the calibration records are on the [instrument
+page](../tools/force-matching.qmd).
 
 ## Reading a finding
-The first thing to look at in a published attenuation result is how many
+The first thing to look at in a published attenuation finding is how many
 conditions the design had. A deviation coming out of a single-condition design
-cannot be called attenuation, because the second condition is what strips memory
-and scaling back out.
+cannot be called attenuation, because what strips out memory and scaling is the
+second condition itself.
 
-Next come the number of repetitions and the time window. McNaughton and
-colleagues showed in data from a hundred and thirty-eight participants that the
-number of repetitions can come down from eight, that the best window for
-extracting the matched force is 2.5 to 3.0 seconds, and that performance does
-not drift over the session. Where the window is not reported there is no ground
-for comparing two studies.
+Then come the repetition count and the time window. In data from a hundred and
+thirty-eight participants McNaughton and colleagues showed three things. The
+number of repetitions can be brought down from eight, the best window for
+extracting the matched force falls between 2.5 and 3.0 seconds, and performance
+does not drift over the course of the experiment. If the choice of window is not
+reported there is no way to compare two studies.
 
 Last, whether the analysis looked only at the mean. In chronic pain the groups
-did not separate on magnitude but did on variance, and an analysis of means
-would never see a difference like that. Given that Valè and colleagues' model
-says variability may be predictive signal rather than noise, this is no longer a
-secondary detail.
+did not separate in magnitude but did separate in variance, and an analysis
+looking at the mean would never see a difference of that kind. Given that Valè
+and colleagues' model says variability may be signal belonging to the prediction
+rather than noise, it is hard to call this a small detail any more.
+
+I will update this page as I collect my own data, particularly wherever what I
+have written here turns out to be wrong.
 
 ## References
 The phenomenon:
