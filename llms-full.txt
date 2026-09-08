@@ -400,11 +400,11 @@ The pages above are records: enough to rebuild an instrument or audit a
 measurement. A log is the other half, the decisions and the wrong turns that a
 record has no room for.
 
-July 2026 · ongoing
+July–August 2026 · ongoing
 
 ### [Building the force-matching rig](log/force-matching.qmd)
-Choosing between two published lineages, rewriting a calibration tool that
-trusted me too much, and a hysteresis margin of 0.24 mN.
+Choosing the motor control, mapping slider travel to force, and calibrating
+the rig with its finger contact in place.
 
 ---
 
@@ -585,8 +585,13 @@ the same modelling approach behind the
 URL: https://furkanbekdemir.com/log/force-matching
 
 What the [device page](../tools/force-matching.qmd) records is where the
-instrument ended up. This is the part that record leaves out: what had to be
-decided, and what I got wrong on the way.
+instrument ended up. Here I keep the work on the physical setup: how the motor
+delivers force, how the slider controls it, and what the calibration showed.
+
+19 July–1 August 2026 · Updated 8 September 2026
+
+These entries have been checked against the dated development records and code
+history. The 1 August account was corrected on 8 September.
 
 ![The rig on the bench. From the left: the power supply in its enclosure, the
 drive behind it, the motor in its printed mount with the lever arm above, and
@@ -686,27 +691,28 @@ the first one. So the honest statement is not that the instrument passed eight
 checks. It is that it passed the seven that a single session can produce, and
 that this record is now the reference the next session gets compared against.
 
-Also settled the contact pad. Earlier runs had no silicone pad, then had one,
-then briefly did not again. Since the pad changes what the finger feels, none of
-that engineering data can go in the analysis pool, and the confirmatory
-collection runs on the fixed configuration with the pad. That decision costs
-nothing now and would have cost the study later.
+Also settled the contact pad. During the build I had tried the rig with and
+without silicone at the finger contact. The pad changes what the finger feels,
+so it needs to be treated as part of the instrument. The configuration now
+includes it consistently.
 
 ## 1 August
-An outside audit flagged the slider calibration as critical. It was right to.
+An outside audit questioned the slider calibration. Its seven hand-entered
+points gave a substantially different travel-to-force relationship from the
+simple linear mapping. Both could look reassuring by R². That was a reason to
+check what the points represented, rather than trust the fit alone.
 
-The calibration rested on a handful of points entered by hand, and the curve
-fitted through them implied more force than the rig can produce. A mapping
-cannot deliver force the instrument does not have, so the error was in the
-points and not in the curve.
+*Correction, 8 September:* the earlier version of this entry said the rig could
+not produce the implied force and that the measurement would be repeated. That
+went beyond the recorded decision. The rig retained the
+piecewise mapping, and the slider calibration record still dates from 27 July. I have
+no later measurement to report here.
 
-Both fits were excellent by R², which is where the trap sits. A curve through
-mismeasured points fits those points beautifully, and goodness of fit says
-nothing about whether the measurement underneath it was any good. I knew that.
-I had still looked at my own number and felt reassured by it.
-
-The measurement gets repeated. What I actually want in the log is smaller than
-that: I did not find this, and I would not have gone looking.
+The load cell measures the force actually delivered, independently of the
+slider position used to request it. The mapping still matters because it
+changes how much slider movement is needed to adjust that force. Whether that change affects people with
+different motor abilities differently remains unresolved. A comparison of the
+two mappings was proposed; it was not completed.
 
 [← the device](../tools/force-matching.qmd) ·
 [all instruments](../tools.qmd)
