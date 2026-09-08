@@ -20,6 +20,14 @@ that fails either is left untouched:
    normalise to the same tokens.
 2. The token sequence comes out identical, which catches a word being dropped or
    duplicated.
+
+Two kinds of block are left alone, because reflowing them is churn and not a
+fix. A fenced div carrying one of NOT_PROSE_CLASSES holds a record rather than a
+paragraph: wrapping a reference splits a markdown link across a line break, and
+wrapping a metadata row moves half of it onto a line of its own. And a block
+opening with a raw HTML tag is markup, not prose. index.qmd keeps a hand-drawn
+SVG inline instead of inside a ```{=html}``` fence, and an earlier version of
+this script reflowed it into three hundred lines of diff.
 """
 import pathlib
 import re
@@ -38,8 +46,35 @@ SKIP = {"notlar/terimler.qmd"}
 # A line that opens or closes a Quarto fenced div, at any indentation.
 FENCE = re.compile(r"^\s*:::")
 # Blocks that are never prose: front matter, headings, raw HTML, comments,
-# tables, lists. Checked per line, not per block.
-NOT_PROSE = ("---", "#", "```", "<!--", "|", "-", "*", ">", "    ")
+# tables, lists. Checked per line, not per block. "<" is there for raw HTML
+# written straight into the page rather than inside a ```{=html}``` fence, which
+# is how index.qmd carries its SVG.
+NOT_PROSE = ("---", "#", "```", "<!--", "|", "-", "*", ">", "    ", "<")
+
+# Fenced div classes whose contents are records, not paragraphs: a reference,
+# the metadata row above an entry, a line of footer links. They are already laid
+# out the way they are meant to be read, and the only thing reflowing them
+# produces is a diff. Length is not the test here — a citation is not prose even
+# when its lines run long, which is exactly when this script used to reach for
+# it.
+NOT_PROSE_CLASSES = {"src", "cite", "meta", "k"}
+FENCE_CLASS = re.compile(r"^\s*:::+\s*\{\s*\.([a-zA-Z-]+)")
+
+# Breaking inside a markdown link leaves the label on one line and the URL on
+# the next, which is why the pages hand-wrap to keep short links whole. The
+# spaces inside a label are swapped for a sentinel textwrap will not break on,
+# and swapped back after: one character for one, so the width arithmetic is
+# untouched. A link too long to fit on a line anyway is left breakable, because
+# holding it together only moves the overflow somewhere less useful.
+NOBREAK = "\x01"
+MD_LINK = re.compile(r"\[[^\]\n]*\]\([^)\s]*\)")
+
+
+def hold_links(text: str) -> str:
+    def one(m: re.Match) -> str:
+        link = m.group(0)
+        return link.replace(" ", NOBREAK) if len(link) <= WIDTH else link
+    return MD_LINK.sub(one, text)
 
 
 def fence_lines(text: str) -> list[str]:
@@ -62,6 +97,12 @@ def reflow_block(block: str) -> str:
         tail.insert(0, lines.pop())
 
     body = "\n".join(lines)
+    # The fences just peeled say what kind of block this is.
+    for fence in head:
+        m = FENCE_CLASS.match(fence)
+        if m and m.group(1) in NOT_PROSE_CLASSES:
+            return block
+
     # A fence still inside means the block is not a single paragraph. Leave it.
     if any(FENCE.match(l) for l in lines):
         return block
@@ -72,8 +113,9 @@ def reflow_block(block: str) -> str:
     if max((len(l) for l in lines), default=0) <= LIMIT:
         return block
 
-    wrapped = textwrap.fill(re.sub(r"\s*\n\s*", " ", body).strip(), width=WIDTH,
-                            break_long_words=False, break_on_hyphens=False)
+    flat = hold_links(re.sub(r"\s*\n\s*", " ", body).strip())
+    wrapped = textwrap.fill(flat, width=WIDTH, break_long_words=False,
+                            break_on_hyphens=False).replace(NOBREAK, " ")
     return "\n".join(head + [wrapped] + tail)
 
 
