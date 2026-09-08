@@ -29,7 +29,7 @@ sayfa soramaz.
 
 Hesaplamalı psikiyatri terimlerinin Türkçe karşılıkları ve her biri için o
 karşılığın gerçekten yerleşik olup olmadığı. On sekizinde yerleşik bir karşılık
-bulamadım; listenin asıl işi bunu yazmak.
+bulamadım ve o satırları boş bıraktım.
 :::
 
 ::: {.entry}
@@ -40,7 +40,7 @@ Klinik okur için &middot; denklemsiz &middot; [yayında]{.status .done}
 
 Modelin parametreleri klinik olarak ne anlatır, model karşılaştırması neden
 zorunludur ve bir hesaplamalı bulguya ne zaman güvenilir. Bir parametrenin
-kestirilebilmesi, onun yorumlanabileceği anlamına gelmiyor.
+kestirilebilmesi onun yorumlanabileceğini göstermiyor.
 :::
 
 ::: {.entry}
@@ -51,18 +51,18 @@ Klinik okur için &middot; 15 kaynak &middot; [yayında]{.status .done}
 
 Kendi ürettiğimiz dokunuşu neden zayıf hissederiz, bu nasıl sayıya çevrilir ve
 şizofreniden fonksiyonel hareket bozukluğuna kadar nerelerde bozuk bulunmuştur.
-Görevin iki koşulu var ve ikincisi bir süs değil.
+Görevin iki koşulu var ve ölçüm ikisinin farkından çıkıyor.
 :::
 
 ::: {.entry}
 ::: {.meta}
-Klinik okur için &middot; 18 kaynak &middot; [yayında]{.status .done}
+Klinik okur için &middot; 19 kaynak &middot; [yayında]{.status .done}
 :::
 ### [Şizofrenide inanç güncelleme ve aceleci karar](notlar/sizofrenide-inanc-guncelleme.qmd){.title}
 
 Sonuca atlama yanlılığının kanıtı ne kadar sağlam, hesaplamalı modeller tabloyu
-nasıl değiştirdi ve neden hâlâ birey düzeyinde bir ölçüt yok. Bulgunun en zayıf
-olduğu yer, tam da uğruna kurulduğu yer.
+nasıl değiştirdi ve neden hâlâ birey düzeyinde bir ölçüt yok. Grup farkı sağlam
+duruyor ama sanrı şiddetiyle ilişkisi için aynısı söylenemiyor.
 :::
 
 ::: {.entry}
@@ -72,8 +72,8 @@ Klinik okur için &middot; 17 kaynak &middot; [yayında]{.status .done}
 ### [Bayesçi beyin, öngörü hatası ve psikiyatrik belirti](notlar/ongoru-hatasi-ve-hassasiyet.qmd){.title}
 
 Öngörü hatası ne demek, hassasiyet neyi belirler ve öngörücü kodlama neden
-psikozdan otizme kadar her belirtiye uyabiliyor. Çerçevenin kapsayıcılığı aynı
-zamanda ona yöneltilen en ciddi itiraz.
+psikozdan otizme kadar her belirtiye uyabiliyor. Bu kadar çok şeye uyabilmesi
+çerçeveye yöneltilen en ciddi itirazın da kaynağı.
 :::
 
 ## Planlanan yazılar {.k-head}
