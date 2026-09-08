@@ -40,8 +40,8 @@ yeni kanıta hızla uymuş, diğeri kararını geç değiştirmiş ama değişti
 tamamen değiştirmiş.
 
 Hiyerarşik Gauss Filtresi o dizinin arkasında öğrenen bir kişi olduğunu varsayar
-ve o kişinin nasıl öğrendiğini birkaç sayıyla tarif etmeye çalışır. Modellediği
-şey davranışın kendisi değil, davranışı üreten süreç.
+ve o kişinin nasıl öğrendiğini birkaç sayıyla tarif etmeye çalışır; modellediği
+şey davranışın kendisi değil onu üreten süreç oluyor.
 
 ## Hiyerarşi neyi ifade ediyor {.k-head}
 
@@ -55,17 +55,17 @@ sıklıkla değiştiği.
 
 Üçüncü katman modelin asıl fikri ve klinikte en çok karşılığı olan yeri. Ne
 kadar hızlı öğrenmeniz gerektiği, dünyanın ne kadar değiştiğine bağlıdır.
-Kurallar sık değişiyorsa yeni kanıta hızla uymak akıllıcadır. Kurallar sabitse
+Kurallar sık değişiyorsa yeni kanıta hızla uymak akıllıcadır, kurallar sabitse
 aynı hız sizi gürültünün peşinde koşturur.
 
 İnsan bu ayarı sürekli yapar, model de onu sayısallaştırır. Dünyayı olduğundan
-oynak sanan biri tek bir olayı fazla ciddiye alır. Tersini sanan biri gerçekten
-değişen bir şeyi geç fark eder.
+oynak sanan biri tek bir olayı fazla ciddiye alırken, tersini sanan biri
+gerçekten değişen bir şeyi geç fark ediyor.
 
 ## Parametreler klinik olarak ne anlatır {.k-head}
 
-En sık raporlanan sayı öğrenme oranı. HGF'nin buradaki farkı şu: oran sabit
-değil. Klasik öğrenme modellerinde kişinin bir öğrenme hızı vardır ve o hız
+En sık raporlanan sayı öğrenme oranı ve HGF'nin buradaki farkı, oranın sabit
+olmaması. Klasik öğrenme modellerinde kişinin bir öğrenme hızı vardır ve o hız
 denemeden denemeye aynı kalır. HGF'de her denemede yeniden hesaplanır, üstelik
 kişinin o an ne kadar emin olduğuna ve dünyayı ne kadar oynak gördüğüne göre.
 Şaşırtıcı bir olaydan sonra öğrenme hızlanır, tanıdık bir örüntü içinde
@@ -74,26 +74,27 @@ yavaşlar.
 Bunu belirleyen büyüklüğün adı hassasiyet (precision). Gündelik dildeki
 hassasiyetle ilgisi yok; bir inancın ne kadar dar olduğunu ölçüyor. Dar bir
 inanç yeni kanıta az yer açar, geniş bir inanç çok yer açar. Klinik açıdan
-ilginç olan da bu: bir belirtinin kaynağı kanıtın kendisinde değil, kanıta
-verilen ağırlıkta olabilir.
+ilginç olan da burası, çünkü bir belirtinin kaynağı kanıtın kendisi değil kanıta
+verilen ağırlık olabilir.
 
 Modelin motoru öngörü hatası, yani olan ile beklenen arasındaki fark. Ama ham
-fark kullanılmaz, hassasiyetle ağırlıklandırılmış hali kullanılır. Aynı büyüklükte
-bir sürpriz, kişinin o anki eminliğine göre başka sonuç doğurur.
+fark kullanılmaz, hassasiyetle ağırlıklandırılmış hali kullanılır. Aynı
+büyüklükte bir sürpriz, kişinin o anki eminliğine göre başka sonuç doğurur.
 
-Bir de yanıt gürültüsü var: modelin açıklayamadığı her şeyi bu parametre toplar.
-Kişi inancına uygun davranmayabilir; dikkati dağılmıştır, tuşa yanlış basmıştır,
-kararsızdır. Bu parametrenin varlığı önemli, çünkü onsuz düzensiz davranış tuhaf
-bir öğrenme biçimi gibi görünürdü.
+Bir de yanıt gürültüsü var, modelin açıklayamadığı her şeyi bu parametre
+topluyor. Kişi inancına uygun davranmayabilir; dikkati dağılmıştır, tuşa yanlış
+basmıştır, kararsızdır. Bu parametrenin varlığı önemli, çünkü onsuz düzensiz
+davranış tuhaf bir öğrenme biçimi gibi görünürdü.
 
-Bu sayıların çekiciliği açık. Her biri bir mekanizmaya benziyor ve klinik bir
-hikâyeye kolayca bağlanıyor. Aşağıdaki iki bölüm büyük ölçüde o kolaylığa karşı.
+Bu sayıların çekiciliği açık, her biri bir mekanizmaya benziyor ve klinik bir
+hikâyeye kolayca bağlanıyor. Aşağıdaki iki bölümü de büyük ölçüde o kolaylığa
+karşı yazdım.
 
 ## Model karşılaştırması neden zorunlu {.k-head}
 
 Bir model veriye uyduruldu ve sayılar çıktı. Bu sayıların anlamı olması için
-önce şunu bilmek gerekiyor: veriyi bu model mi üretti, yoksa başka bir model de
-aynı veriyi üretebilir miydi?
+önce veriyi bu modelin mi ürettiğini, yoksa başka bir modelin de aynı veriyi
+üretip üretemeyeceğini bilmek gerekiyor.
 
 Uyum iyiliği bunu cevaplamaz. Yeterince esnek bir model her veriye iyi uyar;
 iyi uyum modelin doğruluğunu değil esnekliğini gösteriyor olabilir.
@@ -103,9 +104,9 @@ model kurulur, hepsi aynı veriye uydurulur ve hangisinin veriyi daha iyi
 açıkladığı karşılaştırılır. Karşılaştırma karmaşık modelleri ayrıca
 cezalandırdığı için, parametre ekleyerek uyumu artırmak bir üstünlük sayılmaz.
 
-Bir yazıda model karşılaştırması yapılmamışsa, raporlanan parametreler bir
-mekanizmayı göstermez zaten. Yalnızca veriyi o modele göre özetlediğinizde çıkan
-sayılardır. Aradaki fark da küçük değil.
+Bir yazıda model karşılaştırması yapılmamışsa raporlanan parametreler bir
+mekanizmayı göstermiyor zaten, yalnızca veriyi o modele göre özetlediğinizde
+çıkan sayılar oluyor. Aradaki fark da hiç küçük değil.
 
 ## Bir bulguya ne zaman güvenilir {.k-head}
 
@@ -118,21 +119,22 @@ bir durumda ikisinin bileşimi veriden okunabilir ama tek başına hiçbiri
 okunamaz. Kestirim yine de bir sayı verir, çünkü vermek zorundadır. O sayı da
 veriden çok kurulum tercihlerini yansıtır.
 
-Bunun teknik adı tanımlanabilirlik. Bir hesaplamalı bulguyu okurken sorulacak
-ilk sorulardan biri.
+Bunun teknik adı tanımlanabilirlik ve bir hesaplamalı bulguyu okurken sorulacak
+ilk sorulardan biri de bu.
 
-Sınama yöntemi parametre geri kazanımı. Bilinen değerlerle sahte veri üretirsiniz,
-aynı hattı o sahte veriye uygularsınız ve koyduğunuz değerlerin geri gelip
-gelmediğine bakarsınız. Gelmiyorsa parametre o tasarımla ölçülemiyor demektir;
-bunu gerçek veriye bakarak anlamanın yolu da yok. Kendi hattımda bu analizi veri
-toplamadan önce yaptım. Sırasının önemli olduğunu da düşünüyorum: sonraya
-bırakırsanız, sonuç kötü çıktığında elinizde artık yayınlanacak bir sayı olur ve
-onu bırakmak zorlaşır.
+Sınama yöntemi parametre geri kazanımı. Bilinen değerlerle sahte veri
+üretirsiniz, aynı hattı o sahte veriye uygularsınız ve koyduğunuz değerlerin
+geri gelip gelmediğine bakarsınız. Gelmiyorsa parametre o tasarımla ölçülemiyor
+demektir; bunu gerçek veriye bakarak anlamanın yolu da yok. Kendi hattımda bu
+analizi veri toplamadan önce yaptım. Sırasının önemli olduğunu da düşünüyorum:
+sonraya bırakırsanız, sonuç kötü çıktığında elinizde artık yayınlanacak bir sayı
+olur ve onu bırakmak zorlaşır.
 
 Son olarak parametre adları. Bir parametreye "inanç kararsızlığı" ya da "öğrenme
-esnekliği" denmesi, o parametrenin bunu ölçtüğünü göstermez. Ad, modeli kuran
-kişinin yorumudur. Aynı sayı başka bir yorumla bambaşka bir mekanizmaya
-bağlanabilir. İki yorum arasında karar vermek için modelden fazlası gerekir.
+esnekliği" denmesi, o parametrenin bunu ölçtüğünü göstermiyor; ad modeli kuran
+kişinin yorumu ve aynı sayı başka bir yorumla bambaşka bir mekanizmaya
+bağlanabilir. İki yorum arasında karar vermek için de modelden fazlası
+gerekiyor.
 
 ## Özetle {.k-head}
 
@@ -140,10 +142,10 @@ HGF'nin klinik değeri, öğrenme hızını sabit bir kişilik özelliği saymak
 kişinin dünyayı ne kadar oynak gördüğüne bağlı bir ayar olarak ele almasında.
 
 Ama ürettiği her sayı bir mekanizma değil. Kestirim her koşulda bir sayı verir;
-o sayının bir şey ölçtüğünü gösteren, sayının kendisi değil arkasındaki model
-karşılaştırmasıyla geri kazanımdır. İkisi de yoksa elinizdeki bir mekanizma
-iddiası değil, bir özet istatistiktir. Üstüne bir de parametrenin adı yeterince
-iddialıysa, o özet istatistik mekanizma diye okunur.
+o sayının bir şey ölçtüğünü gösteren şey sayının kendisi değil, arkasındaki
+model karşılaştırmasıyla geri kazanım oluyor. İkisi de yoksa elinizde bir
+mekanizma iddiası değil bir özet istatistik var; parametrenin adı yeterince
+iddialıysa o özet istatistiğin mekanizma diye okunması da işten bile değil.
 
 ## Kaynaklar {.k-head}
 
