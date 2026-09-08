@@ -82,9 +82,9 @@ Regenerate them with `python fetch_fonts.py` if a weight is added, and keep
 `$web-font-path: false` in `custom.scss` — it stops the Cosmo theme from pulling
 a Google font the site never uses.
 
-The body measure is set in two places that must agree: `grid: body-width` in
-`_quarto.yml` (the text column) and `$measure` in `custom.scss` (which aligns
-the navbar and footer to it). Change one, change the other.
+Articles use the 720px `grid: body-width` in `_quarto.yml`. The home page
+overrides this to 1080px in `index.qmd`; `$measure` in `custom.scss` keeps
+the masthead and footer aligned with that wider home grid.
 
 ## Adding a page
 
@@ -98,8 +98,17 @@ Create `newpage.qmd` with a YAML header, then add it to the `navbar` in
 - The hero graphic is a real trace, not decoration: a simulated agent tracking
   a reversing contingency, with the uncertainty band widening after each
   reversal. Regenerate it if you want different data, but keep it honest.
-- Structural labels are set as axis ticks rather than numbered sections,
-  because the content isn't a sequence.
+- Section headings use a short blue-green rule; the home page gives research
+  and explanatory notes equal columns and equal navigation prominence.
+- `editorial.js` adds collapsible contents from existing headings, links to the
+  translations verified by the post-render step, and a local glossary filter.
+  It has no package dependencies, makes no network requests and keeps all
+  article text and term anchors intact. Without JavaScript the full content
+  remains readable. Search ignores Turkish case and diacritic differences.
+- The home trace reveals once from left to right on entry (3.2 seconds),
+  retaining its original SVG data. Reduced-motion users see the complete
+  static trace and get no hover transitions. The existing CV print layout
+  is preserved.
 
 ## Scope discipline
 

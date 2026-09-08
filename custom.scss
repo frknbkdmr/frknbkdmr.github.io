@@ -1,18 +1,14 @@
 /*-- scss:defaults --*/
 
-// Palette: laboratory instrument, not paper. Cool ground, ink with a blue cast,
-// one signal colour for measurement and one for prediction error.
-$ground:        #F7F8F7;
-$ink:           #14181C;
-$ink-soft:      #5A646E;
-$rule:          #D9DEDC;
-// State scale. Every hue carries a meaning rather than decorating: blue is
-// something being measured, rust is something unresolved, green is something
-// finished. Ratios are against the badge's own tinted fill, which is darker
-// than $ground and therefore the binding case for small-text AA (4.5:1):
-$signal:        #1D5C8A;   // measuring / live            6.03:1
-$error:         #9C5220;   // unresolved / pending        4.92:1
-$done:          #3F6B4F;   // built / delivered           5.23:1
+// Editorial palette: a quiet paper ground, dark ink and a single blue-green accent.
+$ground:        #F8F7F3;
+$ink:           #202B30;
+$ink-soft:      #58646A;
+$rule:          #DADDD6;
+// State colours retain their existing meaning.
+$signal:        #245E70;
+$error:         #9C5220;
+$done:          #3F6B4F;
 
 $body-bg:       $ground;
 $body-color:    $ink;
@@ -21,7 +17,7 @@ $font-family-sans-serif: "IBM Plex Sans", system-ui, sans-serif;
 $font-family-monospace:  "IBM Plex Mono", ui-monospace, monospace;
 $headings-font-family:   "IBM Plex Serif", Georgia, serif;
 $font-size-root: 17px;
-$body-line-height: 1.62;
+$line-height-base: 1.7;
 
 // Cosmo @imports Source Sans Pro from Google. The type stack above never uses
 // it, so it is a third-party font fetch bought for nothing, and it defeats
@@ -64,8 +60,8 @@ h3 { font-size: 1.04rem; margin-top: 2rem; }
 /* Section headings keep the serif voice but join the tick language: the mark
    hangs outside the measure so the heading stays flush with the body text.
    Below the measure there is no margin to hang into, so it falls inline. */
-.k-head { position: relative; }
-.k-head::before {
+h2.k-head { position: relative; }
+h2.k-head::before {
   content: "\2502";
   font-family: $font-family-monospace;
   font-size: .78em;
@@ -76,7 +72,7 @@ h3 { font-size: 1.04rem; margin-top: 2rem; }
 }
 
 @media (max-width: 820px) {
-  .k-head::before { position: static; margin-right: .55rem; }
+  h2.k-head::before { position: static; margin-right: .55rem; }
 }
 
 /* ---- Hero trace ---------------------------------------------------- */
@@ -85,7 +81,7 @@ h3 { font-size: 1.04rem; margin-top: 2rem; }
 /* Aspect-locked: the trace is a measurement, so it must not restretch with the
    viewport. */
 .trace svg { width: 100%; height: auto; aspect-ratio: 1200 / 340; display: block; }
-.t-band  { fill: rgba(29,92,138,.13); stroke: none; }
+.t-band  { fill: rgba($signal, .10); stroke: none; }
 .t-line  { fill: none; stroke: $signal; stroke-width: 2.4; vector-effect: non-scaling-stroke; }
 .t-truth { fill: none; stroke: $error; stroke-width: 1.4; stroke-dasharray: 5 5; opacity: .8;
            vector-effect: non-scaling-stroke; }
@@ -97,17 +93,17 @@ h3 { font-size: 1.04rem; margin-top: 2rem; }
   margin-top: .7rem;
 }
 
+/* Reveal the original trace once on entry. Clip by horizontal position so
+   SVG pathLength and non-scaling strokes cannot truncate the trajectory. */
 @media (prefers-reduced-motion: no-preference) {
-  /* The path carries pathLength="1", so the dash is expressed as a fraction of
-     the whole line rather than a guessed unit count. A literal (it was 4000)
-     has to beat the rendered length, which changes with the measure and is
-     further confused by non-scaling-stroke dashing in screen space. Guess too
-     small and the tail of the trace silently never draws. */
-  .t-line { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 2.4s ease-out forwards; }
-  .t-band, .t-truth, .t-ticks { opacity: 0; animation: fade .9s ease-out 1.5s forwards; }
-  @keyframes draw { to { stroke-dashoffset: 0; } }
-  @keyframes fade { to { opacity: 1; } }
-  .t-band  { animation-name: fade; }
+  .home .trace .t-line,
+  .home .trace .t-band {
+    animation: trace-reveal 3.2s cubic-bezier(.22, .55, .36, 1) .15s both;
+  }
+  @keyframes trace-reveal {
+    from { clip-path: inset(0 100% 0 0); }
+    to { clip-path: inset(0 0 0 0); }
+  }
 }
 
 /* ---- Citation ------------------------------------------------------ */
@@ -308,10 +304,8 @@ figure:has(img.photo) figcaption {
   padding-bottom: .45rem;
 }
 
-/* The rules above and below the page run full bleed, but their contents track
-   the body measure, so header, text and footer read as one column.
-   $measure must match `grid: body-width` in _quarto.yml. */
-$measure: 680px;
+/* The masthead and footer share the 1080px home grid; articles keep a narrower reading measure. */
+$measure: 1080px;
 
 .navbar > .navbar-container {
   max-width: $measure;
@@ -436,3 +430,162 @@ a:focus-visible { outline: 2px solid $signal; outline-offset: 3px; }
   // so the label only disappears when there is nothing to tell apart.
   &:has(> div:only-child) .quarto-title-meta-heading { display: none; }
 }
+
+
+/* ---- Editorial system ---------------------------------------------- */
+::selection { background: rgba($signal, .17); color: $ink; }
+body { text-rendering: optimizeLegibility; }
+main.content { padding-top: 2.6rem; padding-bottom: 3.2rem; }
+h1, h2, h3 { text-wrap: pretty; }
+h1 { font-size: clamp(2.3rem, 4vw, 3.15rem); line-height: 1.13; letter-spacing: -.035em; font-weight: 400; }
+#title-block-header { margin-bottom: 1.8rem; }
+h2 { font-size: 1.55rem; line-height: 1.3; font-weight: 400; border-top: 1px solid $rule; border-bottom: 0; padding-top: 1.25rem; margin-top: 3.3rem; margin-bottom: 1rem; }
+h3 { line-height: 1.4; }
+h2.k-head::before { content: ''; display: block; width: 1.6rem; height: 2px; background: $signal; position: absolute; left: 0; top: -1px; margin: 0; }
+section, h2, h3, [id] { scroll-margin-top: 6rem; }
+p { margin-bottom: 1.15rem; }
+.lede { font-size: 1.15rem; line-height: 1.65; max-width: none; margin-bottom: 1.8rem; }
+a { transition: color .15s ease, text-decoration-color .15s ease; }
+main a { text-decoration-color: rgba($signal, .42); }
+main a:hover { color: $ink; text-decoration-color: $ink; }
+a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visible { outline: 2px solid $signal; outline-offset: 4px; }
+code:not(.sourceCode) { color: $signal; background: rgba($signal, .055); border-radius: 2px; }
+
+/* A spacious masthead with a small typographic signature. */
+.navbar { padding-block: .8rem; font-family: $font-family-sans-serif; font-size: .88rem; }
+.navbar > .navbar-container { width: calc(100% - 3rem); max-width: $measure; padding-inline: 0; }
+.navbar .navbar-brand { display: flex; align-items: center; gap: .7rem; font-size: 1.12rem; color: $ink; margin-right: 2rem; }
+.navbar .navbar-brand::before { content: 'F/B'; font-family: $font-family-monospace; font-size: .64rem; color: $signal; letter-spacing: -.04em; padding: .4rem 0; border-block: 1px solid $signal; }
+.navbar .nav-link { color: $ink-soft; padding: .55rem .7rem !important; }
+.navbar .nav-link.active { color: $signal; text-decoration: underline; text-underline-offset: .6rem; text-decoration-thickness: 2px; }
+.navbar .nav-link:hover { color: $ink; }
+.navbar-toggler { border: 0; min-width: 44px; min-height: 44px; padding: .4rem; }
+footer.footer .nav-footer { padding-top: 1.6rem; padding-bottom: 1.6rem; gap: 1.25rem; align-items: start; }
+.nav-footer { font-family: $font-family-sans-serif; font-size: .8rem; }
+.nav-footer-left { max-width: 30rem; text-align: left; }
+.nav-footer-right { flex: 0 0 auto; }
+.nav-footer .nav-link { font-size: .8rem; min-height: 44px; display: inline-flex; align-items: center; }
+
+/* Titles lead each entry; metadata reads as supporting information. */
+.entry { margin: 0; padding: 1.5rem 0; border-bottom: 1px solid $rule; }
+.entry h3, .entry span.title { font-family: $headings-font-family; font-size: 1.24rem; font-weight: 500; line-height: 1.35; letter-spacing: -.012em; }
+.entry h3 a { color: $ink; text-decoration: none; }
+.entry h3 a:hover { color: $signal; text-decoration: underline; text-underline-offset: .2em; }
+.entry .meta { font-family: $font-family-sans-serif; font-size: .8rem; line-height: 1.65; margin-bottom: .5rem; }
+.entry .meta p { margin: 0; }
+.entry p { margin-top: .6rem; }
+.entry:has(> .meta:only-child) { padding: 0; border: 0; margin-top: -.6rem; margin-bottom: 1.1rem; }
+.status { font-size: .76rem; text-transform: none; letter-spacing: 0; padding: .08rem .35rem; border-color: transparent; }
+.quarto-title-meta { margin: 1rem 0 0; font-size: .8rem; }
+.quarto-title-meta .quarto-title-meta-contents { font-size: inherit; }
+.quarto-title-meta .quarto-title-meta-contents p { font-size: inherit; }
+.k, .src, .trace figcaption, .diagram figcaption, figure:has(img.photo) figcaption { font-size: .76rem; line-height: 1.6; }
+.k { letter-spacing: .055em; }
+.term { padding-block: 1.4rem; }
+.term h3 { font-size: 1.08rem; }
+.term > p + p { font-size: .94rem; }
+.cite { overflow-wrap: anywhere; }
+
+/* Home: a two-column opening and equally weighted research / reading paths. */
+.home main.content { padding-top: 3.6rem; }
+.home #title-block-header:empty { display: none; }
+.home-hero { display: grid; grid-template-columns: 1.12fr 1fr; gap: 4rem; align-items: center; margin-bottom: 3rem; }
+.home h1 { font-size: clamp(3rem, 5.8vw, 4.7rem); line-height: 1.04; letter-spacing: -.055em; margin: .9rem 0 1.5rem; }
+.eyebrow { font-family: $font-family-monospace; font-size: .73rem; text-transform: uppercase; letter-spacing: .1em; color: $signal; }
+.home-bio .lede { font-size: 1.06rem; margin: 0; }
+.home-bio .lede p { margin-bottom: 0; }
+.home .trace { margin: 0; padding-top: 2rem; }
+.home .trace figcaption { border-top: 1px solid $rule; padding-top: 1rem; margin-top: 1.2rem; color: $ink-soft; }
+.trace-legend { display: flex; flex-wrap: wrap; gap: .6rem 1rem; font-family: $font-family-monospace; font-size: .7rem; color: $ink-soft; margin-bottom: 1.6rem; }
+.trace-legend span { display: inline-flex; align-items: center; gap: .4rem; }
+.trace-legend i { width: 1.1rem; height: 2px; background: $signal; }
+.trace-legend .legend-truth { background: none; height: 0; border-top: 1px dashed $error; }
+.trace-legend .legend-band { height: .55rem; background: rgba($signal, .16); }
+.home-paths { display: grid; grid-template-columns: 1fr 1fr; border-block: 1px solid $rule; margin: 0 0 3.8rem; }
+.home-path { display: grid; grid-template-columns: 1fr auto; gap: .5rem 1rem; padding: 1.55rem 0; color: $ink; text-decoration: none; }
+.home-path + .home-path { margin-left: 2rem; padding-left: 2rem; border-left: 1px solid $rule; }
+.home-path strong { font-family: $headings-font-family; font-size: 1.7rem; font-weight: 400; grid-column: 1; }
+.home-path .path-arrow { grid-column: 2; grid-row: 1 / 3; align-self: center; font-size: 1.6rem; color: $signal; transition: transform .15s ease; }
+.home-path:hover .path-arrow { transform: translateX(4px); }
+.home-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
+.home-column { min-width: 0; }
+.home-column h2 { margin-top: 0; border-top: 0; padding-top: 0; font-size: 1.55rem; }
+.home-column h2::before { display: none; }
+.home-column .entry { padding-block: 1.45rem; }
+.home-column .entry:first-of-type { border-top: 1px solid $rule; }
+.home-column .entry p { font-size: .95rem; }
+.home-column .entry .meta p { font-size: .78rem; }
+.section-link { display: inline-flex; min-height: 44px; align-items: center; margin-top: .7rem; font-size: .86rem; }
+.home #elsewhere { margin-top: 3rem; }
+.home #elsewhere h2 { font-size: 1.15rem; }
+
+/* Progressive reading aids: content remains intact with JavaScript off. */
+.reading-nav { margin: 1.8rem 0 2.4rem; border-block: 1px solid $rule; padding: .1rem 0; }
+.reading-nav summary { cursor: pointer; padding: .85rem 0; font-size: .86rem; color: $signal; }
+.reading-nav ol { padding-left: 1.4rem; padding-bottom: .8rem; margin: 0; columns: 2; column-gap: 2rem; }
+.reading-nav li { break-inside: avoid; margin-bottom: .45rem; padding-left: .15rem; font-size: .85rem; }
+.reading-nav a { text-decoration: none; }
+.reading-nav a:hover { text-decoration: underline; }
+.glossary-search { margin: 1.8rem 0; padding: 1.2rem; background: rgba($signal, .04); border: 1px solid $rule; }
+.glossary-search label { display: block; font-size: .88rem; font-weight: 500; margin-bottom: .6rem; }
+.glossary-search .search-row { display: flex; gap: .6rem; }
+.glossary-search input { min-width: 0; width: 100%; font: inherit; font-size: .94rem; padding: .65rem .75rem; border: 1px solid #a6b0ae; border-radius: 0; color: $ink; background: $ground; }
+.glossary-search button { font: inherit; font-size: .8rem; padding: .5rem .8rem; border: 1px solid #a6b0ae; background: transparent; color: $signal; }
+.glossary-search .search-status { font-size: .8rem; color: $ink-soft; margin: .6rem 0 0; }
+[hidden] { display: none !important; }
+
+@media (max-width: 991px) {
+  .navbar .navbar-brand { margin-right: 0; }
+  .navbar-collapse { padding-top: .8rem; }
+  .navbar .nav-link { min-height: 44px; }
+  .navbar .nav-link.active { text-underline-offset: .25rem; }
+  .home-hero { gap: 2rem; }
+  .home-columns { gap: 2.5rem; }
+}
+@media (max-width: 700px) {
+  main.content { padding-top: 1.5rem; padding-bottom: 2rem; }
+  .navbar { padding-block: .45rem; }
+  .navbar > .navbar-container { width: calc(100% - 2rem); }
+  .navbar .navbar-brand { font-size: 1rem; }
+  h1 { font-size: 2.3rem; }
+  h2 { font-size: 1.4rem; margin-top: 2.6rem; }
+  .lede { font-size: 1.08rem; }
+  .home main.content { padding-top: 2rem; }
+  .home-hero { grid-template-columns: 1fr; gap: 1.6rem; margin-bottom: 2rem; }
+  .home h1 { font-size: clamp(2.75rem, 11vw, 4rem); max-width: 9em; }
+  .home .trace { padding: 0; }
+  .trace-legend { margin-bottom: 1rem; }
+  .home .trace figcaption { font-size: .72rem; margin-top: .7rem; padding-top: .65rem; }
+  .home-paths { margin-bottom: 2.8rem; }
+  .home-path { padding-block: 1.1rem; gap: .4rem; }
+  .home-path + .home-path { margin-left: .9rem; padding-left: .9rem; }
+  .home-path strong { font-size: 1.35rem; }
+  .home-path .eyebrow { font-size: .6rem; letter-spacing: .035em; }
+  .home-path .path-arrow { font-size: 1.2rem; }
+  .home-columns { grid-template-columns: 1fr; gap: 2.8rem; }
+  .entry h3, .entry span.title { font-size: 1.19rem; }
+  .reading-nav ol { columns: 1; }
+  footer.footer .nav-footer { display: flex; flex-direction: column; align-items: start; padding-inline: 1.5rem; gap: .4rem; }
+  .nav-footer-left, .nav-footer-right { text-align: left; width: 100%; }
+  .nav-footer-right .nav { justify-content: flex-start; }
+}
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; } }
+@media print {
+  main.content, .home main.content { padding: 0; }
+  .home-hero, .home-columns { display: block; }
+  .home-paths, .reading-nav, .glossary-search { display: none; }
+  .term[hidden], section[hidden] { display: block !important; }
+  .entry { break-inside: avoid; }
+  h2.k-head::before { display: none; }
+}
+
+.translation-link { display: inline-flex; align-items: center; min-height: 44px; margin-top: .5rem; font-size: .8rem; text-decoration: none; }
+@media print { .translation-link { display: none; } }
+
+.search-results { max-height: 18rem; overflow-y: auto; list-style: none; padding: 0; margin: .8rem 0 0; border-top: 1px solid $rule; }
+.search-results li { margin: 0; border-bottom: 1px solid $rule; }
+.search-results a { display: block; padding: .65rem .2rem; font-size: .88rem; text-decoration: none; }
+.search-results a:hover { text-decoration: underline; }
+
+/* Long DOI links must wrap inside a phone's reading column. */
+main a { overflow-wrap: anywhere; }

@@ -40,6 +40,7 @@ project:
     - favicon-32.png
     - apple-touch-icon.png
     - fonts/
+    - editorial.js
 
 website:
   title: "Furkan Bekdemir"
@@ -93,7 +94,7 @@ format:
   html:
     theme: [cosmo, custom.scss]
     grid:
-      body-width: 680px
+      body-width: 720px
       sidebar-width: 0px
       margin-width: 0px
     toc: false
