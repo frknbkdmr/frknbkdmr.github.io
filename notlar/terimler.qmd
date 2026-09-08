@@ -13,7 +13,7 @@ twitter-card:
 Hesaplamalı psikiyatride ve hesaplamalı sinirbilimde kullandığım terimlerin
 Türkçe karşılıkları ve her biri için karşılığın gerçekten yerleşik olup
 olmadığı. Yetmiş terimin elli ikisinde o terimin Türkçe kullanıldığı bir
-akademik kaynak bulabildim, on sekizinde bulamadım. Bunu yazmak listenin asıl
+akademik kaynak bulabildim, on sekizinde bulamadım ve bunu yazmak listenin asıl
 işi.
 :::
 
@@ -53,8 +53,8 @@ hedefli tarama yaptım, ama bulunamadı demek yok demek değil.
 ## Doğru karşılık, aranan karşılık {.k-head}
 
 Liste baştan beri tek bir soru soruyordu: karşılık Türkçe akademik yazıda
-yerleşik mi. Sonradan ikinci bir soru çıktı ve cevabı çoğu zaman aynı değil.
-Yerleşik olmak ile aranıyor olmak ayrı şeyler.
+yerleşik mi. Sonradan ikinci bir soru çıktı ve cevabı çoğu zaman aynı değil,
+çünkü yerleşik olmak ile aranıyor olmak ayrı şeyler.
 
 11 Ağustos 2026'da birkaç terimi Google'da denedim. Ölçtüğüm şey arama hacmi
 değil, motorun terimi tanıyıp tanımadığı. Google sorgudan kelime düşürüyorsa
@@ -79,8 +79,9 @@ topluluğunun sayfaları var.
 İki şeyi ayrı tutmak gerekiyor. Bu, karşılığın yanlış olduğu anlamına gelmiyor.
 "Duyusal azaltım" doğru bir karşılık; kimsenin aramaması terimin Türkçede henüz
 dolaşıma girmemiş olmasından. Listenin işi doğru karşılığı kaydetmek, popüler
-olanı seçmek değil. Bu satırlar okura yazan biri için ek bilgi: ilk geçişte
-İngilizcesini vermek, aranmayan bir terimde aranandan daha gerekli.
+olanı seçmek değil. Bu satırlar da okura yazan biri için ek bilgi, çünkü ilk
+geçişte İngilizcesini vermek aranmayan bir terimde aranandan daha gerekli
+oluyor.
 
 Ölçüm dört terimle sınırlı ve gizli sekmede yapılmadı, yani sonuçlar
 kişiselleştirilmiş olabilir. Kalan altmış altı terim ölçülmedi. Ölçülmedi demek,
