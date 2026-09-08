@@ -10,6 +10,8 @@ Source: https://furkanbekdemir.com  ·  ORCID: https://orcid.org/0000-0002-7236-
 
 URL: https://furkanbekdemir.com/
 
+Psychiatry · Research & notes
+
 # Furkan Bekdemir
 
 Psychiatry resident at Ondokuz Mayıs University, Samsun. I study how the brain
@@ -17,7 +19,12 @@ decides what to believe, and how it tells what it did itself from what happened
 to it. Where the instruments for that do not exist, I build them, the hardware
 with an engineer.
 
+BeliefContingencyUncertainty
+
 fig. belief about a reversing contingency, with uncertainty. learning rate rises with surprise.
+
+01 / ResearchOpen questions↗
+02 / NotesIdeas, explained↗
 
 ## Current work
 Residency thesis · BAP04-B-2026-6538 · in preparation
@@ -39,6 +46,33 @@ With the Department of Neurology · in collection
 ### [Effort and reward in multiple sclerosis](research/effort-ms.qmd)
 Separating fatigue from depression in MS by modelling effort-based decisions,
 to see whether what changed is the cost of acting or the value of the outcome.
+
+[All research →](research/index.qmd){.section-link}
+
+## Selected notes
+Clinical readers · no equations · published
+
+### [The Hierarchical Gaussian Filter, for clinical readers](notes/hierarchical-gaussian-filter.qmd)
+What the parameters mean clinically, why model comparison is not optional, and
+when a computational finding can be trusted. That a parameter can be estimated
+does not show that it can be interpreted.
+
+15 references · published
+
+### [Sensory attenuation and the force-matching task](notes/sensory-attenuation.qmd)
+Why self-produced touch feels weaker, how that becomes a number, and where the
+mechanism has been found disturbed, from schizophrenia to functional movement
+disorder. The task has two conditions and the measurement comes out of the
+difference between them.
+
+19 references · published
+
+### [Belief updating in psychosis and hasty decisions](notes/belief-updating-in-psychosis.qmd)
+How solid the jumping-to-conclusions evidence is, what computational modelling
+changed, and why there is still no individual-level measure. The group
+difference holds up; its link to delusion severity does not.
+
+[All notes →](notes.qmd){.section-link} · [Türkçe notlar →](notlar.qmd){.section-link}
 
 ## Elsewhere
 [ORCID](https://orcid.org/0000-0002-7236-5776) ·
@@ -130,8 +164,9 @@ establish which way the relationship runs, and with 36 participants and no
 correction for multiple comparisons the findings are exploratory.
 
 This is a separate study from the
-[schizophrenia thesis](belief-updating-schizophrenia.qmd), not a preliminary stage of it. It
-is where the modelling approach the thesis depends on was first worked out.
+[schizophrenia thesis](belief-updating-schizophrenia.qmd), not a preliminary
+stage of it. It is where the modelling approach the thesis depends on was first
+worked out.
 
 ## Cite this
 Bekdemir F, Özdin S. State anxiety and uncertainty processing in generalized
@@ -400,7 +435,8 @@ implementation is not clever. What it does is refuse to reduce the data at
 collection time, when the reduction cannot be undone.
 
 It feeds the [HGF pipeline](hgf-pipeline.qmd) and runs in the
-[schizophrenia thesis](../research/belief-updating-schizophrenia.qmd). It is not public yet.
+[schizophrenia thesis](../research/belief-updating-schizophrenia.qmd). It is not
+public yet.
 
 [← all instruments](../tools.qmd)
 
@@ -417,9 +453,9 @@ finger, once by pressing directly and once by moving a slider that sets the
 force the motor applies for them. People reproduce it accurately through the
 slider and overshoot when they press themselves. The size of that overshoot is
 the measure, and it is what the
-[schizophrenia thesis](../research/belief-updating-schizophrenia.qmd) uses to ask whether
-self-generated sensation is attenuated the way it should be. What that measure
-does and does not support is set out in the
+[schizophrenia thesis](../research/belief-updating-schizophrenia.qmd) uses to
+ask whether self-generated sensation is attenuated the way it should be. What
+that measure does and does not support is set out in the
 [note on sensory attenuation](../notes/sensory-attenuation.qmd).
 
 A trial runs in three phases on one finger. The motor presents the target force
