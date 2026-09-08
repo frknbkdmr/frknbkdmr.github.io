@@ -12,171 +12,183 @@ twitter-card:
 ---
 
 ::: {.lede}
-You cannot tickle yourself. There is a measurable mechanism behind that familiar
-observation, and where it weakens, psychiatric symptoms appear.
+You cannot tickle yourself. Behind that familiar observation there is a
+mechanism the laboratory can turn into a number, and where that mechanism
+weakens, psychiatric symptoms appear.
 :::
 
-Tickling is only its most familiar form. The same mechanism has a laboratory
-measure, and that measure connects to several separate symptoms. The precision
-language used here is set out in the [HGF
-note](hierarchical-gaussian-filter.qmd); the rig I built for the task is on the
-[instrument page](../tools/force-matching.qmd).
+Tickling is the most familiar form of it but not the whole of it. I am a
+psychiatry resident and I work on this measure through my thesis, so what
+follows is both what the literature says and what I learned building the rig
+myself. The precision language used here is set out at more length in the [HGF
+note](hierarchical-gaussian-filter.qmd); the rig itself is on the [instrument
+page](../tools/force-matching.qmd).
 
-## The observation {.k-head}
+## Why your own touch is different {.k-head}
 
-Touching your own palm and having someone else touch it the same way differ in
-nothing physical. Same pressure, same skin, same receptors. The only thing that
-changes is where the touch came from, and that is what drops the perceived
-intensity.
+There is no physical difference between touching your own palm and having
+someone else touch it the same way. The pressure, the skin and the receptors are
+the same. The only thing that changes is where the touch came from, and that is
+exactly what lowers the perceived intensity.
 
 Blakemore and colleagues looked at this in 1998. Somatosensory cortex was more
 active for externally produced touch and less active for self-produced touch. In
 the cerebellum the pattern reversed: cerebellar activity was lower for movements
-that produced a touch than for movements that did not. The reading is that the
-cerebellum computes the sensory consequence of a movement in advance, and that
-computation is used to turn the incoming signal down.
+that produced a touch than for movements that did not. The reading that follows
+is that the cerebellum computes the sensory consequence of a movement in advance
+and that this computation is used to turn the incoming signal down. I say reading
+because the study does not show that directly; it is only the simplest account
+consistent with what was found.
 
-The name for that turning down is sensory attenuation. Its use is this: most of
-the signal reaching your senses is produced by your own movements. If all of it
-were processed at equal weight, the externally caused signal, the one that
-actually carries news, would be lost inside it. Noise-cancelling headphones do
-exactly this: they predict the incoming sound and generate its inverse, leaving
-only what they could not predict. Turning down the predictable is how you bring
-out the unpredictable.
+The name for that turning down is sensory attenuation. To see what it is for it
+helps to remember that most of the signal reaching your senses is produced by
+your own movements. If all of it were processed at equal weight, the externally
+caused signal, the one that actually carries news, would be lost inside it.
+Noise-cancelling headphones do much the same thing, predicting the incoming
+sound and generating its inverse, so that only what they could not predict is
+left.
 
 ## How the task turns it into a number {.k-head}
 
 The most memorable demonstration involved two people. In 2003 Shergill and
 colleagues had participants take turns pressing on each other's finger, each
-trying to apply the force they had just felt. The force grew every turn. Nobody
-was exaggerating; everyone matched what they felt, but because they felt their
-own output as weaker than it was, each put in a little more. The paper's title
-sums it up as two eyes for an eye. So the line we all used as children, that he
-hit first and he hit harder, was not a lie after all. It was a calibration
-problem.
+trying to apply the force they had just felt, and the force grew every turn.
+Nobody was exaggerating, everyone matched what they felt, but because they felt
+their own output as weaker than it was, each put in a little more. The paper's
+title sums it up as two eyes for an eye. Which means the line we all used as
+children, that he hit first and he hit harder, turns out to have been a
+calibration problem rather than a lie.
 
 The same effect was turned into a standard single-person task. In the
 force-matching task a target force is applied to the participant's finger and
 they are then asked to reproduce it two ways. In the direct condition they press
 on their own finger with the other hand. In the slider condition a motor
-produces the force and they set its size with a slider.
+produces the force and the participant sets its size with a slider.
 
-Pressing directly, they overshoot. Through the slider they are fairly accurate.
-In the twenty-five-participant data published in McNaughton's device paper the
-direct condition ran 0.50 N high on average and the slider condition 0.30 N low.
-The difference between the two conditions is the measurement.
+Pressing directly they overshoot, and through the slider they are fairly
+accurate. In the twenty-five-participant data published in McNaughton's device
+paper the direct condition ran 0.50 N high on average and the slider condition
+0.30 N low, and the difference between the two conditions is what the
+measurement is.
 
-## The second condition is not decoration {.k-head}
+## What the slider condition is for {.k-head}
 
 Why the slider condition is needed is not obvious at first, and misreading the
-task usually starts here.
+task usually starts from there, so it is worth slowing down here.
 
-Error in the direct condition has more than one source. You have to remember the
-target force, you have to scale the force you produce, and your motor output has
-noise of its own. None of that is specific to prediction, and each would produce
-a deviation on its own. The slider condition carries the same memory and scaling
-load, but because the force does not come from your own hand, prediction-based
-attenuation is not running. Take the difference between the two and the shared
-effects drop out, leaving the part that belongs to prediction.
+The error in the direct condition has more than one source. You have to remember
+the target force, you have to scale the force you produce, and on top of that
+your motor output has noise of its own. None of these is specific to prediction,
+and each produces a deviation on its own. The slider condition carries the same
+memory and scaling load, but because the force does not come from your own hand
+the prediction-based part is not engaged. Taking the difference between the two
+conditions cancels the shared effects and leaves the share that belongs to
+prediction.
 
-That logic was recently tested formally. Valè and colleagues built a
-computational model of the task on data from nearly five hundred participants,
-separated the individual noise sources including memory noise, and showed that
-the difference between conditions does isolate the predictive component. Two
-further things came out of the same study. Attenuated sensations vary more from
+This logic was tested formally not long ago. Valè and colleagues built a
+computational model of the task on data from close to five hundred participants,
+separated the noise sources including memory noise, and showed that the
+difference between the two conditions does isolate the predictive component. Two
+more things came out of the same study. Attenuated sensations are more variable
 trial to trial, because they carry the noise of the prediction as well. And
-attenuation works by division rather than subtraction: the signal is not reduced
-by a fixed amount, it shrinks by a factor.
+attenuation works by division rather than subtraction: a fixed amount is not
+taken off the signal, the signal is scaled down by a factor.
 
-What attenuation locks onto has been tested too. Bays and colleagues showed the
-mechanism attaches not to the movement but to the event the movement predicts.
-Shift the timing of the touch earlier or later and attenuation falls off.
-Movements that stop above the finger or pass wide of it produce no attenuation
-at all. The system is not saying "I am moving, turn the senses down." It is
-saying "a touch is about to happen, there, now." Kilteni and Ehrsson showed a
-more basic condition still: you have to count the touching hand as your own.
-Move the sense of ownership with the rubber hand illusion and attenuation moves
-with it.
+What the attenuation locks onto has been tested too. Bays and colleagues showed
+that the mechanism is tied not to the movement itself but to the event the
+movement is expected to produce. Shifting the timing of the touch forward or
+back reduces attenuation, and movements that stop above the finger or pass
+beside it produce none at all. So the system is not saying "I am moving, turn
+the sensation down" so much as "a touch of this kind is about to happen here,
+now". Kilteni and Ehrsson showed a more basic condition on top of that: you have to
+count the touching hand as your own. When ownership is shifted with the rubber
+hand illusion, the attenuation shifts with it.
 
 ## The link to precision {.k-head}
 
-In active inference, attenuation corresponds to lowering the precision of
-sensory evidence during movement. The argument that this is compulsory runs as
-follows: to move, your prediction that you are moving has to outweigh the
-sensory evidence that you are not yet moving. If that evidence is not
-down-weighted, the movement never starts.
+In the active inference framework, attenuation corresponds to lowering the
+precision of sensory evidence during movement. The claim that this is a
+necessity rests on the argument that in order to move, the prediction that you
+are moving has to override the sensory evidence saying you have not moved yet.
+If the weight of that evidence is not lowered, the movement does not start.
 
 Brown and colleagues reproduced the force-matching finding from this framework.
-When they took attenuation out of the model two things happened together: the
-overshoot in the task disappeared, and false inferences about agency appeared.
-The same setting makes movement possible and determines what counts as yours. It
-costs in both directions. Turn it down too little and movement does not start;
-too much and you cannot tell yourself from the world.
+When they removed attenuation from the model the overshoot in the task
+disappeared and false inferences about agency appeared. So the same setting both
+makes movement possible and determines what counts as yours, and it costs you in
+both directions: lower it too little and the movement does not start, lower it
+too much and you cannot tell yourself from the world. A caveat belongs here.
+This derivation comes out of a model and depends on that model's assumptions; it
+is not something an experiment has shown directly.
 
 ## Where it sits clinically {.k-head}
 
 The most instructive finding is one of the oldest. In 2000 Blakemore and
 colleagues compared patients with schizophrenia, patients with bipolar disorder
-or depression, and healthy controls. What determined the loss of attenuation was
-the symptom rather than the diagnosis: attenuation was absent in those with
-auditory hallucinations or passivity experiences and present in those without,
-regardless of what they were diagnosed with.
+and depression, and healthy controls. What determined the loss of attenuation
+was the symptom rather than the diagnosis: it was absent in those with auditory
+hallucinations or passivity experiences, and present in those without them
+regardless of diagnosis.
 
-What followed widened it. Attenuation was shown to be significantly reduced in
-schizophrenia, and in an imaging study the loss of attenuation in secondary
-somatosensory cortex was predicted by the patient's current hallucination
-severity. Teufel and colleagues worked in healthy people: those higher in
+What followed widened this. Attenuation was shown to be significantly reduced in
+schizophrenia; in the imaging study, the loss of attenuation in secondary
+somatosensory cortex tracked the patient's hallucination severity at the time.
+Teufel and colleagues worked with healthy participants instead: those higher in
 delusional ideation were more accurate on the task, meaning they attenuated
-less. That last one answers two objections at once, since neither medication nor
-an active episode can explain it.
+less. That last one meets two objections at once, because neither medication nor
+an active episode can account for it.
 
-Leaving the picture in schizophrenia would be a mistake. In functional movement
-disorder attenuation is absent; patients do not experience the movement as under
-their own control and do not produce the overshoot that controls produce. In
-Parkinson's disease attenuation is selectively impaired in the group reporting
-fatigue and not in the group without it, and the impairment goes with subjective
-fatigue and perceived effort rather than motor symptom severity. In chronic pain
-no group difference in magnitude was found; what separated the groups was
-variance.
+It would be wrong to leave the picture in schizophrenia. In functional movement
+disorder attenuation is absent; patients do not feel the movement as under their
+own control and do not produce the overshoot controls produce. In Parkinson's
+disease attenuation is selectively impaired in the group reporting fatigue and
+not in the group without it, and the impairment tracks subjective fatigue and
+perceived effort rather than motor symptom severity. In chronic pain no group
+difference in magnitude was found; what separated the groups was variance.
 
-Attenuation being disturbed across this many presentations already makes it a
-measure tied to symptoms rather than diagnoses. It does not tell you which
-diagnosis a patient carries. It says something about which mechanism is
-disturbed. Confuse the two and the measure has promised more than it can
-deliver.
+That the impairment turns up across such different presentations already makes
+this a measure tied to a symptom rather than to a diagnosis. It does not tell
+you which diagnosis a patient carries, it says something about which mechanism
+is disturbed, and confusing the two promises more than the measure can deliver.
+I am not claiming it has a use in the clinic today; these are group-level
+differences and they do not tell you what to do in front of one patient.
 
 ## What the instrument contributes {.k-head}
 
-Because the measurement is a difference between two conditions, instrument error
-common to both cancels in that difference. What does not cancel is error that
-depends on the direction of loading, since the two conditions do not load the
-sensor the same way. A ramp pressed by a motor and a ramp pressed by a person
-are not the same thing.
+Because the measurement is the difference between two conditions, any instrument
+error that is the same in both conditions drops out of the difference. The error
+that does not drop out is the one that depends on loading direction, since the
+two conditions do not load the sensor the same way. A ramp pressed by a motor
+and a ramp pressed by a person are not the same thing.
 
-The acceptance criterion that passed by the narrowest margin on my own rig was
-hysteresis. That is no coincidence: hysteresis is exactly the class of error
-that does not cancel in the difference. The rig and its calibration record are
-on the [instrument page](../tools/force-matching.qmd).
+When I built my own rig, the item that passed its acceptance criterion by the
+narrowest margin was hysteresis, and that is not a coincidence, because
+hysteresis falls into exactly the class of error that does not cancel in the
+difference. The rig itself and the calibration records are on the [instrument
+page](../tools/force-matching.qmd).
 
 ## Reading a finding {.k-head}
 
-The first thing to look at in a published attenuation result is how many
+The first thing to look at in a published attenuation finding is how many
 conditions the design had. A deviation coming out of a single-condition design
-cannot be called attenuation, because the second condition is what strips memory
-and scaling back out.
+cannot be called attenuation, because what strips out memory and scaling is the
+second condition itself.
 
-Next come the number of repetitions and the time window. McNaughton and
-colleagues showed in data from a hundred and thirty-eight participants that the
-number of repetitions can come down from eight, that the best window for
-extracting the matched force is 2.5 to 3.0 seconds, and that performance does
-not drift over the session. Where the window is not reported there is no ground
-for comparing two studies.
+Then come the repetition count and the time window. In data from a hundred and
+thirty-eight participants McNaughton and colleagues showed three things. The
+number of repetitions can be brought down from eight, the best window for
+extracting the matched force falls between 2.5 and 3.0 seconds, and performance
+does not drift over the course of the experiment. If the choice of window is not
+reported there is no ground on which to compare two studies.
 
 Last, whether the analysis looked only at the mean. In chronic pain the groups
-did not separate on magnitude but did on variance, and an analysis of means
-would never see a difference like that. Given that Valè and colleagues' model
-says variability may be predictive signal rather than noise, this is no longer a
-secondary detail.
+did not separate in magnitude but did separate in variance, and an analysis
+looking at the mean would never see a difference of that kind. Given that Valè
+and colleagues' model says variability may be signal belonging to the prediction
+rather than noise, it is now hard to treat this as a secondary detail.
+
+I will update this page as I collect my own data, particularly wherever what I
+have written here turns out to be wrong.
 
 ## References {.k-head}
 
