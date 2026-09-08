@@ -1,0 +1,332 @@
+---
+title: "The Bayesian brain, prediction error and psychiatric symptoms"
+pagetitle: "Bayesian brain and predictive coding"
+lang: en
+date: 2026-08-11
+translation: notlar/ongoru-hatasi-ve-hassasiyet
+description-meta: &desc "The Bayesian brain and predictive coding explained for clinical readers: what prediction error means, what precision sets, how the framework attaches to symptoms from psychosis to autism and anxiety, and why its reach is also the most serious objection to it."
+open-graph:
+  description: *desc
+twitter-card:
+  description: *desc
+---
+
+::: {.lede}
+The brain does not wait for the incoming signal and then process it. It predicts
+what is coming first and sends up only as much as the prediction got wrong. That
+sentence became one of the most productive ideas in psychiatry of the last
+twenty years, and the framework's most serious problem comes out of the same
+sentence.
+:::
+
+The other three notes rest on these two ideas without any of them setting them
+out in full, so I wrote this one to close that gap.
+
+## What prediction error means {.k-head}
+
+The "error" here is not error in the everyday sense. Prediction error means the
+difference between what happened and what was expected, and it is the only thing
+the system uses to learn.
+
+The appeal of the idea comes from its economy. If there is a clock ticking in
+your house you do not hear it, and you notice the moment it stops. The sound
+reaching your ear is the same in both cases; the only thing that changes is
+whether it was expected. Most of the signal arriving from your sense organs
+every second is like that, already what you expected. If instead of carrying all
+of it upward you carry only the difference, most of the load going to the upper
+layers falls away. Set out by Friston and Kiebel through the free energy
+principle, the brain is a hierarchy of estimates: each layer tells the one below
+what to expect, and the one below sends back only the margin by which it was
+wrong. The collective name for the framework is the Bayesian brain; the name
+given to its neural implementation is predictive coding.
+
+What follows from this runs against intuition. Perception is not something
+flowing from outside in but a hypothesis built from the inside out and tested
+against sensory data. Clark's review presents this as a model that gathers
+perception and action under one roof, and most of its popularity comes from that
+gathering power.
+
+## What precision means {.k-head}
+
+This is where the framework is actually of use clinically, and it is also the
+part most popular accounts skip.
+
+If the pharmacy scale shows you two hundred grams heavier, that is information.
+If you see the same two hundred grams on a bathroom scale that gives a different
+number every time you step on it, it means nothing. The difference is the same
+difference in both cases; what changes is how seriously you take the instrument.
+The brain has to make the same distinction, and it does so by giving every
+signal a weight. The name of that weight is precision: how narrow an estimate
+is, which is to say the inverse of its variance. What goes up is not the raw
+prediction error but its precision-weighted version.
+
+Feldman and Friston went a step further and defined attention as that weight
+itself. To attend to something is to raise the precision of that channel. Seen
+this way attention stops being a separate faculty and becomes a setting of the
+inference.
+
+There is also this. What has been proposed as the neural counterpart of
+precision is the postsynaptic gain of cells carrying prediction error; that
+proposal ties the framework to neuromodulation, and that is where it really gets
+into psychiatry.
+
+## Precision at which level {.k-head}
+
+Because there is a hierarchy there is no single setting. The precision of
+sensory evidence and the precision of prior belief stand separately, and
+symptoms are tied to the ratio between them.
+
+The proposal put forward in 2013 and still treated as a reference is Adams's:
+psychotic symptoms may be different faces of one core pathology, which is the
+faulty encoding of precision. Hallucinations, eye movement abnormalities, loss
+of sensory attenuation and delusions are all derived from that one framework.
+Where sensory attenuation sits in this picture is in [a separate
+note](sensory-attenuation.qmd).
+
+## Which direction in psychosis {.k-head}
+
+On the canonical account, the precision of prior belief falls relative to
+sensory data in psychosis, the world becomes unpredictable, and a delusion is
+the story built to explain that experience.
+
+The findings are not that orderly. Sterzer's review says so directly; some
+studies find prior beliefs weakened in psychosis, others find them strengthened.
+Haarsma's group showed that precision-weighting of prediction errors helps
+learning in healthy people and that this is disrupted in first-episode
+psychosis. On top of that, they showed it can be moved with a dopaminergic
+intervention. Corlett, updating the ketamine model, accepts that there may be
+more than one route.
+
+A single study can hold both directions at once. In Benrimoh's conditioned
+hallucination study, people high in hallucination proneness both give more
+weight to prior belief and come out with low sensory precision. In Goodwin's
+two large-sample study, psychosis-like experiences went with giving too much
+weight to sensory information, which is the opposite of the canonical account.
+
+Sterzer's review makes its own proposal, which is to put the two findings on
+different floors of the same hierarchy. When the prior belief at the lower level
+weakens, unfiltered prediction error climbs, and the beliefs at the upper level
+stiffen to explain the excess away; so weak and strong priors can be present in
+the same patient at once. Because upper association cortex carries denser
+recurrent connections than lower sensory areas, a disturbance in the
+excitation-inhibition balance would also be expected to hit the upper floors
+harder. Benrimoh finding both directions in one study fits this reading.
+
+But this is a reconciliation rather than a tested finding. A study that does not
+say which level its task measures can neither support nor refute the
+distinction, and most studies in the literature do not say.
+
+## The same framework explains autism too {.k-head}
+
+Van de Cruys ties autism to prediction errors being given high weight
+inflexibly. Every deviation in the world carries news. None of it can be written
+off as noise. Findings about executive function and theory of mind come out as
+secondary consequences of this.
+
+Note that this is the exact opposite of what is proposed for psychosis; the same
+framework and the same two parameters, run in the other direction. Friston,
+Lawson and Frith argued separately about what to call this and proposed reading
+autism as a disturbance in beliefs about precision rather than as a weakening of
+prior beliefs.
+
+Recent tests muddy this too. Arthur and colleagues, modelling two sensorimotor
+tasks, found no lasting deviation in prior beliefs or in sensory weighting in
+autism; what they found was difficulty flexing the learning rate according to
+volatility.
+
+## Body and emotion {.k-head}
+
+The fastest-growing arm of the framework looks inward rather than outward. As
+Seth and Friston set it up, bodily states are governed by estimation too, and
+emotion is a product of that process.
+
+Smith's team tested this in a transdiagnostic sample. In a heartbeat task, when
+the bodily signal was disturbed by breath-holding, healthy participants raised
+the precision they gave the signal from the heart, while the anxiety,
+depression, substance use and eating disorder groups did not. No strong
+difference was found in prior beliefs, so what separated the groups was not the
+belief itself but the ability to adjust the weight.
+
+## The framework's biggest problem {.k-head}
+
+What has been listed so far can be read as the framework's success, but the
+field has for some time been thinking the opposite.
+
+Qela's review, covering seventy-two studies, finds something in every disorder,
+but the things found do not resemble each other. Mancini and Nour put it in a
+single sentence, that a model with this many moving parts is hard to pin down
+anywhere. Alotaibi's 2026 review asks it in the title, whether predictive coding
+is a mechanistic model or a metaphorical re-description.
+
+A framework being able to hold both a finding and its opposite usually gets
+called flexibility, but looked at from the side of testability it is hard to
+call it that.
+
+This is not a reason to drop the framework. As a doctor using it in my own work,
+what I would say is that the sentence "precision is disturbed in psychosis" says
+nothing on its own. Without answers to at which level, in which direction, on
+which task and with which symptom, the sentence fits the framework but is not
+tested. When a computational finding can answer those is in the [HGF
+note](hierarchical-gaussian-filter.qmd); the same problem in the schizophrenia
+literature is in the [belief updating note](belief-updating-in-psychosis.qmd).
+
+## References {.k-head}
+
+The framework itself:
+
+::: {.src}
+Friston K, Kiebel S. Predictive coding under the free-energy principle.
+*Philosophical Transactions of the Royal Society B*. 2009;364(1521):1211-1221.
+doi:[10.1098/rstb.2008.0300](https://doi.org/10.1098/rstb.2008.0300)
+:::
+
+::: {.src}
+Feldman H, Friston KJ. Attention, uncertainty, and free-energy. *Frontiers in
+Human Neuroscience*.
+2010;4:215. doi:[10.3389/fnhum.2010.00215](https://doi.org/10.3389/fnhum.2010.00215)
+:::
+
+::: {.src}
+Clark A. Whatever next? Predictive brains, situated agents, and the future of
+cognitive science. *Behavioral and Brain Sciences*. 2013;36(3):181-204.
+doi:[10.1017/S0140525X12000477](https://doi.org/10.1017/S0140525X12000477)
+:::
+
+Psychosis:
+
+::: {.src}
+Adams RA, Stephan KE, Brown HR, Frith CD, Friston KJ. The computational anatomy
+of psychosis. *Frontiers in Psychiatry*.
+2013;4:47. doi:[10.3389/fpsyt.2013.00047](https://doi.org/10.3389/fpsyt.2013.00047)
+:::
+
+::: {.src}
+Sterzer P, Adams RA, Fletcher P, et al. The predictive coding account of
+psychosis. *Biological Psychiatry*. 2018;84(9):634-643.
+doi:[10.1016/j.biopsych.2018.05.015](https://doi.org/10.1016/j.biopsych.2018.05.015)
+:::
+
+::: {.src}
+Corlett PR, Honey GD, Fletcher PC. Prediction error, ketamine and psychosis: an
+updated model. *Journal of Psychopharmacology*. 2016;30(11):1145-1155.
+doi:[10.1177/0269881116650087](https://doi.org/10.1177/0269881116650087)
+:::
+
+::: {.src}
+Haarsma J, Fletcher PC, Griffin JD, et al. Precision weighting of cortical
+unsigned prediction error signals benefits learning, is mediated by dopamine,
+and is impaired in psychosis. *Molecular Psychiatry*. 2021;26(9):5320-5333.
+doi:[10.1038/s41380-020-0803-8](https://doi.org/10.1038/s41380-020-0803-8)
+:::
+
+::: {.src}
+Benrimoh D, Fisher VL, Seabury R, et al. Evidence for reduced sensory precision
+and increased reliance on priors in hallucination-prone individuals in a general
+population sample. *Schizophrenia Bulletin*.
+2024;50(2):349-362. doi:[10.1093/schbul/sbad136](https://doi.org/10.1093/schbul/sbad136)
+:::
+
+::: {.src}
+Goodwin I, Kugel J, Hester R, Garrido MI. Bayesian accounts of perceptual
+decisions in the nonclinical continuum of psychosis. *PLOS Computational
+Biology*. 2023;19(11):e1011670.
+doi:[10.1371/journal.pcbi.1011670](https://doi.org/10.1371/journal.pcbi.1011670)
+:::
+
+Autism:
+
+::: {.src}
+Van de Cruys S, Evers K, Van der Hallen R, et al. Precise minds in uncertain
+worlds: predictive coding in autism. *Psychological Review*.
+2014;121(4):649-675. doi:[10.1037/a0037665](https://doi.org/10.1037/a0037665)
+:::
+
+::: {.src}
+Friston KJ, Lawson R, Frith CD. On hyperpriors and hypopriors: comment on
+Pellicano and Burr. *Trends in Cognitive Sciences*. 2013;17(1):1.
+doi:[10.1016/j.tics.2012.11.003](https://doi.org/10.1016/j.tics.2012.11.003)
+:::
+
+::: {.src}
+Arthur T, Vine S, Buckingham G, Brosnan M, Wilson M, Harris D. Testing
+predictive coding theories of autism spectrum disorder using models of active
+inference. *PLOS Computational Biology*. 2023;19(9):e1011473.
+doi:[10.1371/journal.pcbi.1011473](https://doi.org/10.1371/journal.pcbi.1011473)
+:::
+
+Body and emotion:
+
+::: {.src}
+Seth AK, Friston KJ. Active interoceptive inference and the emotional brain.
+*Philosophical Transactions of the Royal Society B*. 2016;371(1708):20160007.
+doi:[10.1098/rstb.2016.0007](https://doi.org/10.1098/rstb.2016.0007)
+:::
+
+::: {.src}
+Smith R, Kuplicki R, Feinstein J, et al. A Bayesian computational model reveals
+a failure to adapt interoceptive precision estimates across depression, anxiety,
+eating, and substance use disorders. *PLOS Computational Biology*.
+2020;16(12):e1008484.
+doi:[10.1371/journal.pcbi.1008484](https://doi.org/10.1371/journal.pcbi.1008484)
+:::
+
+Objections to the framework:
+
+::: {.src}
+Qela B, Damiani S, De Santis S, et al. Predictive coding in neuropsychiatric
+disorders: a systematic transdiagnostic review. *Neuroscience and Biobehavioral
+Reviews*. 2025;169:106020.
+doi:[10.1016/j.neubiorev.2025.106020](https://doi.org/10.1016/j.neubiorev.2025.106020)
+:::
+
+::: {.src}
+Mancini V, Nour MM. If mismatch negativity is the answer, what is the question?
+On the nature of predictive coding abnormalities in psychosis. *Biological
+Psychiatry Global Open Science*. 2025;5(1):100412.
+doi:[10.1016/j.bpsgos.2024.100412](https://doi.org/10.1016/j.bpsgos.2024.100412)
+:::
+
+::: {.src}
+Alotaibi AS. Predictive coding in psychopathology: mechanistic model or
+metaphorical re-description? *Frontiers in Human Neuroscience*. 2026;19:1743028.
+doi:[10.3389/fnhum.2025.1743028](https://doi.org/10.3389/fnhum.2025.1743028)
+:::
+
+```{=html}
+<!-- An explanatory note, so Article rather than the generic WebPage.
+     post-render injects datePublished and dateModified from the front matter;
+     a date kept by hand in two places drifts apart at the first correction. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://furkanbekdemir.com/notes/prediction-error-and-precision#article",
+  "headline": "The Bayesian brain, prediction error and psychiatric symptoms",
+  "description": "The Bayesian brain and predictive coding explained for clinical readers: what prediction error means, what precision sets, how the framework attaches to symptoms from psychosis to autism and anxiety, and why its reach is also the most serious objection to it.",
+  "inLanguage": "en",
+  "about": [
+    "Prediction error",
+    "Precision",
+    "Predictive coding",
+    "Bayesian brain",
+    "Active inference",
+    "Free energy principle",
+    "Psychosis",
+    "Autism",
+    "Interoception",
+    "Computational psychiatry"
+  ],
+  "author": { "@id": "https://furkanbekdemir.com/#person" },
+  "publisher": { "@id": "https://furkanbekdemir.com/#person" },
+  "url": "https://furkanbekdemir.com/notes/prediction-error-and-precision"
+}
+</script>
+```
+
+::: {.k}
+[← notes](../notes.qmd) &middot;
+[the HGF](hierarchical-gaussian-filter.qmd) &middot;
+[sensory attenuation](sensory-attenuation.qmd) &middot;
+[belief updating](belief-updating-in-psychosis.qmd) &middot;
+[türkçesi](../notlar/ongoru-hatasi-ve-hassasiyet.qmd)
+:::

@@ -15,7 +15,7 @@ kaynağa rastlamadım. Terimlerin karşılığı da oturmuş değil. Buradaki no
 boşluğu doldurma denemesi.
 :::
 
-Üç yazının İngilizcesi [/notes](notes.qmd) altında. Sözlük yalnızca Türkçe
+Dört yazının İngilizcesi [/notes](notes.qmd) altında. Sözlük yalnızca Türkçe
 kalıyor; konusu hangi Türkçe karşılığın yerleşik olduğu ve bunu İngilizce bir
 sayfa soramaz.
 

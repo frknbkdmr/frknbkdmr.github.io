@@ -321,5 +321,6 @@ doi:[10.3389/fnhum.2025.1743028](https://doi.org/10.3389/fnhum.2025.1743028)
 [HGF nedir](hgf-nedir.qmd) &middot;
 [duyusal azaltım](duyusal-azaltim.qmd) &middot;
 [inanç güncelleme](sizofrenide-inanc-guncelleme.qmd) &middot;
-[terimler sözlüğü](terimler.qmd)
+[terimler sözlüğü](terimler.qmd) &middot;
+[english](../notes/prediction-error-and-precision.qmd)
 :::

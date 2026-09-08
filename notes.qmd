@@ -1,7 +1,7 @@
 ---
 title: "Notes"
 pagetitle: "Notes on computational psychiatry"
-description-meta: &desc "Notes on computational psychiatry written for clinical readers: the Hierarchical Gaussian Filter, sensory attenuation and the force-matching task, and what the evidence on belief updating in psychosis actually supports."
+description-meta: &desc "Notes on computational psychiatry written for clinical readers: the Bayesian brain and predictive coding, the Hierarchical Gaussian Filter, sensory attenuation and the force-matching task, and what the evidence on belief updating in psychosis actually supports."
 open-graph:
   description: *desc
 twitter-card:
@@ -22,7 +22,7 @@ Clinical readers &middot; no equations &middot; [published]{.status .done}
 
 What the parameters mean clinically, why model comparison is not optional, and
 when a computational finding can be trusted. That a parameter can be estimated
-does not mean it can be interpreted.
+does not show that it can be interpreted.
 :::
 
 ::: {.entry}
@@ -33,23 +33,35 @@ does not mean it can be interpreted.
 
 Why self-produced touch feels weaker, how that becomes a number, and where the
 mechanism has been found disturbed, from schizophrenia to functional movement
-disorder. The task has two conditions and the second is not decoration.
+disorder. The task has two conditions and the measurement comes out of the
+difference between them.
 :::
 
 ::: {.entry}
 ::: {.meta}
-18 references &middot; [published]{.status .done}
+19 references &middot; [published]{.status .done}
 :::
 ### [Belief updating in psychosis and hasty decisions](notes/belief-updating-in-psychosis.qmd){.title}
 
 How solid the jumping-to-conclusions evidence is, what computational modelling
-changed, and why there is still no individual-level measure. Where the finding
-is weakest is precisely where it was built to apply.
+changed, and why there is still no individual-level measure. The group
+difference holds up; its link to delusion severity does not.
+:::
+
+::: {.entry}
+::: {.meta}
+17 references &middot; [published]{.status .done}
+:::
+### [The Bayesian brain, prediction error and psychiatric symptoms](notes/prediction-error-and-precision.qmd){.title}
+
+What prediction error means, what precision sets, and why predictive coding can
+be fitted to everything from psychosis to autism. Being able to fit that much is
+also where the most serious objection to it comes from.
 :::
 
 ## Also in Turkish {.k-head}
 
-These three notes exist in Turkish as well, at
+These four notes exist in Turkish as well, at
 [/notlar](notlar.qmd), alongside a seventy-term glossary of Turkish renderings
 for computational psychiatry vocabulary. That glossary has no English
 counterpart and is not planned to get one: its subject is which Turkish term is
@@ -69,7 +81,8 @@ established, which is not a question an English page can ask.
   "hasPart": [
     { "@type": "Article", "url": "https://furkanbekdemir.com/notes/hierarchical-gaussian-filter", "headline": "The Hierarchical Gaussian Filter, for clinical readers" },
     { "@type": "Article", "url": "https://furkanbekdemir.com/notes/sensory-attenuation", "headline": "Sensory attenuation and the force-matching task" },
-    { "@type": "Article", "url": "https://furkanbekdemir.com/notes/belief-updating-in-psychosis", "headline": "Belief updating in psychosis and hasty decisions" }
+    { "@type": "Article", "url": "https://furkanbekdemir.com/notes/belief-updating-in-psychosis", "headline": "Belief updating in psychosis and hasty decisions" },
+    { "@type": "Article", "url": "https://furkanbekdemir.com/notes/prediction-error-and-precision", "headline": "The Bayesian brain, prediction error and psychiatric symptoms" }
   ]
 }
 </script>
