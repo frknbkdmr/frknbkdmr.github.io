@@ -53,8 +53,9 @@ katman o durumun eğilimi: bu kutu genel olarak ne sıklıkla ödül veriyor. En
 üstteki katman ise dünyanın ne kadar oynak olduğu, yani bu kuralların ne
 sıklıkla değiştiği.
 
-Üçüncü katman modelin asıl fikri ve klinikte en çok karşılığı olan yeri. Ne
-kadar hızlı öğrenmeniz gerektiği, dünyanın ne kadar değiştiğine bağlıdır.
+Modelin asıl fikri bu üçüncü katmanda ve klinikte en çok karşılığı olan katman
+da bu. Ne kadar hızlı öğrenmeniz gerektiği, dünyanın ne kadar değiştiğine
+bağlıdır.
 Kurallar sık değişiyorsa yeni kanıta hızla uymak akıllıcadır, kurallar sabitse
 aynı hız sizi gürültünün peşinde koşturur.
 

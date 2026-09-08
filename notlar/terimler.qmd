@@ -13,8 +13,7 @@ twitter-card:
 Hesaplamalı psikiyatride ve hesaplamalı sinirbilimde kullandığım terimlerin
 Türkçe karşılıkları ve her biri için karşılığın gerçekten yerleşik olup
 olmadığı. Yetmiş terimin elli ikisinde o terimin Türkçe kullanıldığı bir
-akademik kaynak bulabildim, on sekizinde bulamadım ve bunu yazmak listenin asıl
-işi.
+akademik kaynak bulabildim, on sekizinde bulamadım.
 :::
 
 Bunu tezim için tuttum. Kendi metnimde aynı terime iki farklı karşılık
