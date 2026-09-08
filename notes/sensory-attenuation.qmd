@@ -34,11 +34,11 @@ exactly what lowers the perceived intensity.
 Blakemore and colleagues looked at this in 1998. Somatosensory cortex was more
 active for externally produced touch and less active for self-produced touch. In
 the cerebellum the pattern reversed: cerebellar activity was lower for movements
-that produced a touch than for movements that did not. The reading that follows
-is that the cerebellum computes the sensory consequence of a movement in advance
-and that this computation is used to turn the incoming signal down. I say reading
-because the study does not show that directly; it is only the simplest account
-consistent with what was found.
+that produced a touch than for movements that did not. The reading is that
+the cerebellum works out the sensory consequence of a movement in advance and
+that this is used to turn the incoming signal down. I say reading because the
+study does not show that directly; it is only the simplest account that fits
+what was found.
 
 The name for that turning down is sensory attenuation. To see what it is for it
 helps to remember that most of the signal reaching your senses is produced by
@@ -106,10 +106,10 @@ hand illusion, the attenuation shifts with it.
 
 ## The link to precision {.k-head}
 
-In the active inference framework, attenuation corresponds to lowering the
-precision of sensory evidence during movement. The claim that this is a
-necessity rests on the argument that in order to move, the prediction that you
-are moving has to override the sensory evidence saying you have not moved yet.
+In the active inference framework, attenuation means lowering the precision of
+sensory evidence during movement. The argument for calling it necessary is that
+in order to move, the prediction that you are moving has to override the sensory
+evidence saying you have not moved yet.
 If the weight of that evidence is not lowered, the movement does not start.
 
 Brown and colleagues reproduced the force-matching finding from this framework.
@@ -117,13 +117,13 @@ When they removed attenuation from the model the overshoot in the task
 disappeared and false inferences about agency appeared. So the same setting both
 makes movement possible and determines what counts as yours, and it costs you in
 both directions: lower it too little and the movement does not start, lower it
-too much and you cannot tell yourself from the world. A caveat belongs here.
-This derivation comes out of a model and depends on that model's assumptions; it
-is not something an experiment has shown directly.
+too much and you cannot tell yourself from the world. Let me flag one thing
+here. This comes out of a model and depends on what that model assumes; it is
+not something an experiment has shown directly.
 
 ## Where it sits clinically {.k-head}
 
-The most instructive finding is one of the oldest. In 2000 Blakemore and
+One of the oldest findings here still says the most. In 2000 Blakemore and
 colleagues compared patients with schizophrenia, patients with bipolar disorder
 and depression, and healthy controls. What determined the loss of attenuation
 was the symptom rather than the diagnosis: it was absent in those with auditory
@@ -135,10 +135,10 @@ schizophrenia; in the imaging study, the loss of attenuation in secondary
 somatosensory cortex tracked the patient's hallucination severity at the time.
 Teufel and colleagues worked with healthy participants instead: those higher in
 delusional ideation were more accurate on the task, meaning they attenuated
-less. That last one meets two objections at once, because neither medication nor
-an active episode can account for it.
+less. That last one answers two objections at once, because neither medication nor
+an active episode can explain it.
 
-It would be wrong to leave the picture in schizophrenia. In functional movement
+It would be a mistake to stop at schizophrenia. In functional movement
 disorder attenuation is absent; patients do not feel the movement as under their
 own control and do not produce the overshoot controls produce. In Parkinson's
 disease attenuation is selectively impaired in the group reporting fatigue and
@@ -146,10 +146,11 @@ not in the group without it, and the impairment tracks subjective fatigue and
 perceived effort rather than motor symptom severity. In chronic pain no group
 difference in magnitude was found; what separated the groups was variance.
 
-That the impairment turns up across such different presentations already makes
-this a measure tied to a symptom rather than to a diagnosis. It does not tell
-you which diagnosis a patient carries, it says something about which mechanism
-is disturbed, and confusing the two promises more than the measure can deliver.
+That the impairment turns up across such different clinical pictures already
+makes this a measure tied to a symptom rather than to a diagnosis. It does not
+tell you which diagnosis a patient carries, it says something about which
+mechanism is disturbed, and mixing the two up promises more than the measure can
+give.
 I am not claiming it has a use in the clinic today; these are group-level
 differences and they do not tell you what to do in front of one patient.
 
@@ -179,13 +180,13 @@ thirty-eight participants McNaughton and colleagues showed three things. The
 number of repetitions can be brought down from eight, the best window for
 extracting the matched force falls between 2.5 and 3.0 seconds, and performance
 does not drift over the course of the experiment. If the choice of window is not
-reported there is no ground on which to compare two studies.
+reported there is no way to compare two studies.
 
 Last, whether the analysis looked only at the mean. In chronic pain the groups
 did not separate in magnitude but did separate in variance, and an analysis
 looking at the mean would never see a difference of that kind. Given that Valè
 and colleagues' model says variability may be signal belonging to the prediction
-rather than noise, it is now hard to treat this as a secondary detail.
+rather than noise, it is hard to call this a small detail any more.
 
 I will update this page as I collect my own data, particularly wherever what I
 have written here turns out to be wrong.
