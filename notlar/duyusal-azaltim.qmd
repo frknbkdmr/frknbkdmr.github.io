@@ -14,72 +14,74 @@ twitter-card:
 ---
 
 ::: {.lede}
-Kendinizi gıdıklayamazsınız. Herkesin bildiği bu gözlemin arkasında ölçülebilir
-bir mekanizma var. O mekanizmanın zayıfladığı yerlerde psikiyatrik belirtiler
-çıkıyor.
+Kendinizi gıdıklayamazsınız. Herkesin bildiği bu gözlemin arkasında
+laboratuvarda sayıya çevrilebilen bir mekanizma var ve o mekanizmanın
+zayıfladığı yerlerde psikiyatrik belirtiler çıkıyor.
 :::
 
-Gıdıklanma bunun en tanıdık hali. Aynı mekanizmanın laboratuvarda ölçülen bir
-karşılığı var ve o ölçüm psikiyatride birkaç ayrı belirtiyle ilişkilendiriliyor.
+Gıdıklanma bunun en tanıdık hali ama meselenin tamamı değil. Psikiyatri asistanı
+olarak bu ölçümle tez üzerinden uğraşıyorum, dolayısı ile burada hem literatürün
+ne dediğini hem de kendi düzeneğimi kurarken öğrendiklerimi anlatacağım.
 Terimlerin İngilizce karşılıkları [terimler sözlüğünde](terimler.qmd);
-hassasiyet ve öngörü hatası kavramlarının daha geniş bir anlatımı [HGF
-yazısında](hgf-nedir.qmd).
+hassasiyet ve öngörü hatasını daha geniş anlatan bir yazı da [HGF
+yazısında](hgf-nedir.qmd) var.
 
-## Gıdıklanmadan başlayan mesele {.k-head}
+## Kendi dokunuşunuz neden farklı {.k-head}
 
-Avucunuza kendi elinizle dokunmakla aynı dokunuşun birinden gelmesi arasında
-fiziksel bir fark yok. Aynı basınç, aynı deri, aynı reseptörler. Değişen yalnızca
-dokunuşun kaynağı. Algılanan şiddeti belirgin biçimde düşüren de o.
+Avucunuza kendi elinizle dokunmakla aynı dokunuşun bir başkasından gelmesi
+arasında fiziksel hiçbir fark yok. Basınç, deri ve reseptörler aynı. Değişen tek
+şey dokunuşun kaynağı ve algılanan şiddeti düşüren de tam olarak bu.
 
 Blakemore ve arkadaşları 1998'de buna baktı. Dışarıdan gelen dokunuşta
 somatosensoriyel korteks daha çok, kendi ürettiğinizde daha az çalışıyordu.
 Serebellumda ise örüntü tersineydi: dokunuş üreten hareketlerde serebellar
 etkinlik, üretmeyen hareketlere göre daha düşüktü. Buradan çıkan yorum,
 serebellumun hareketin duyusal sonucunu önceden hesapladığı ve o hesabın gelen
-sinyali kısmak için kullanıldığı.
+sinyali kısmak için kullanıldığı yönünde. Yorum diyorum, çünkü çalışma bunu
+doğrudan göstermiyor; sadece eldeki bulgularla tutarlı olan en basit açıklama bu.
 
-Kısılmanın adı duyusal azaltım (sensory attenuation). İşe yaraması şuradan: duyu
-sisteminize ulaşan sinyalin büyük kısmını zaten kendi hareketleriniz üretir.
-Hepsi aynı ağırlıkta işlenirse, dışarıdan gelen ve gerçekten haber değeri
-taşıyan sinyal bunun içinde kaybolur. Gürültü önleyici kulaklıklar tam olarak
-bunu yapıyor: gelen sesi önceden kestirip tersini üretiyorlar, geriye yalnızca
-kestiremedikleri kalıyor. Öngörülebilir olanı kısmak, öngörülemeyeni öne
-çıkarmanın yolu.
+Kısılmanın adı duyusal azaltım (sensory attenuation). Ne işe yaradığını anlamak
+için duyu sisteminize ulaşan sinyalin büyük kısmını zaten kendi hareketlerinizin
+ürettiğini hatırlamak gerekiyor; hepsi aynı ağırlıkta işlenirse dışarıdan gelen
+ve gerçekten haber değeri taşıyan sinyal bunun içinde kaybolur. Gürültü önleyici
+kulaklıklar da aslında bunu yapıyor, gelen sesi önceden kestirip tersini
+üretiyorlar ve geriye yalnızca kestiremedikleri kalıyor.
 
 ## Görev bunu nasıl sayıya çeviriyor {.k-head}
 
 Bunun en akılda kalıcı gösterimi iki kişi üzerinde yapıldı. Shergill ve
 arkadaşları 2003'te katılımcılara sırayla birbirlerinin parmağına, az önce
-hissettikleri kuvvetin aynısını uygulattı. Kuvvet her turda büyüdü. Kimse
-abartmıyordu; herkes hissettiğini eşliyordu, ama kendi ürettiğini olduğundan
+hissettikleri kuvvetin aynısını uygulattı; kuvvet her turda büyüdü. Kimse
+abartmıyordu, herkes hissettiğini eşliyordu, ama kendi ürettiğini olduğundan
 zayıf hissettiği için her turda biraz fazlasını koyuyordu. Makalenin başlığı
 bunu göze karşılık iki göz diye özetliyor. Çocukken duyduğumuz "ama önce o
-vurdu, hem de daha sert" cümlesi demek ki bir yalan değilmiş. Kalibrasyon
-sorunuymuş.
+vurdu, hem de daha sert" cümlesinin bir yalan değil bir kalibrasyon sorunu
+olduğu ortaya çıkıyor böylece :D
 
 Aynı şey tek kişide standart bir göreve dönüştürüldü. Kuvvet eşleştirme
 görevinde (force-matching task) katılımcının parmağına bir hedef kuvvet
-uygulanır, sonra aynı kuvveti iki ayrı yoldan yeniden üretmesi istenir.
-Doğrudan koşulda diğer eliyle kendi parmağına basar. Sürgü koşulunda kuvveti
-motor üretir, katılımcı bir sürgüyle onun büyüklüğünü ayarlar.
+uygulanıyor, sonra aynı kuvveti iki ayrı yoldan yeniden üretmesi isteniyor.
+Doğrudan koşulda diğer eliyle kendi parmağına basıyor. Sürgü koşulunda kuvveti
+motor üretiyor ve katılımcı bir sürgüyle onun büyüklüğünü ayarlıyor.
 
-Doğrudan bastığında hedefi aşar, sürgüyle epeyce isabetli olur. McNaughton'ın
-cihaz makalesinde yayımlanan yirmi beş kişilik veride doğrudan koşulda ortalama
-0,50 N fazla, sürgü koşulunda 0,30 N eksik üretilmiş. İki koşul arasındaki fark
-ölçümün kendisi.
+Doğrudan bastığında hedefi aşıyor, sürgüyle epeyce isabetli oluyor.
+McNaughton'ın cihaz makalesinde yayımlanan yirmi beş kişilik veride doğrudan
+koşulda ortalama 0,50 N fazla, sürgü koşulunda 0,30 N eksik üretilmiş ve iki
+koşul arasındaki bu fark ölçümün kendisi oluyor.
 
-## İkinci koşul bir süs değil {.k-head}
+## Sürgü koşulu ne işe yarıyor {.k-head}
 
-Sürgü koşulunun neden gerektiği ilk bakışta belli olmuyor. Görevi yanlış okumak
-da çoğunlukla buradan başlıyor.
+Sürgü koşulunun neden gerektiği ilk bakışta belli olmuyor ve görevi yanlış
+okumak da çoğunlukla buradan itibaren başlıyor, dolayısı ile biraz duralım
+burada.
 
 Doğrudan koşulda yapılan hatanın kaynağı bir tane değil. Hedef kuvveti
-hatırlamanız gerekiyor, ürettiğiniz kuvveti derecelendirmeniz gerekiyor, motor
-çıktınızın kendi gürültüsü var. Bunların hiçbiri öngörüye özgü değil, hepsi tek
-başına da sapma üretir. Sürgü koşulunda aynı hafıza ve derecelendirme yükü
-duruyor, ama kuvvet sizin elinizden çıkmadığı için öngörüye dayalı kısma devrede
-değil. İki koşul arasındaki fark alındığında ortak etkiler eleniyor, geriye öngörüye
-ait pay kalıyor.
+hatırlamanız gerekiyor, ürettiğiniz kuvveti derecelendirmeniz gerekiyor, üstüne
+bir de motor çıktınızın kendi gürültüsü var. Bunların hiçbiri öngörüye özgü
+değil, hepsi tek başına da sapma üretir. Sürgü koşulunda aynı hafıza ve
+derecelendirme yükü duruyor ama kuvvet sizin elinizden çıkmadığı için öngörüye
+dayalı kısım devrede değil. İki koşulun farkı alındığında ortak etkiler eleniyor,
+geriye öngörüye ait pay kalıyor.
 
 Bu mantık yakın zamanda biçimsel olarak sınandı. Valè ve arkadaşları beş yüze
 yakın katılımcının verisiyle görevin hesaplamalı bir modelini kurdu, hafıza
@@ -91,27 +93,29 @@ işliyor: sinyalden sabit bir miktar düşülmüyor, sinyal bir katsayıyla kü�
 
 Azaltımın neye kilitlendiği de sınandı. Bays ve arkadaşları mekanizmanın
 hareketin kendisine değil, hareketten beklenen olaya bağlandığını gösterdi.
-Dokunuşun zamanlaması öne ya da arkaya kaydırıldıkça azaltım azalıyor. Parmağın
-üstünde duran ya da yanından geçen hareketler ise hiç azaltım üretmiyor. Sistem
-"hareket ediyorum, duyuyu kıs" demiyor. "Şu anda şurada şu dokunuş olacak"
-diyor. Kilteni ve Ehrsson daha temel bir koşul gösterdi: dokunan eli kendinize ait
-saymanız gerekiyor. Kauçuk el yanılsamasıyla sahiplik algısı değiştirildiğinde
-azaltım da yer değiştiriyor.
+Dokunuşun zamanlaması öne ya da arkaya kaydırıldıkça azaltım azalıyor, parmağın
+üstünde duran ya da yanından geçen hareketler ise hiç azaltım üretmiyor. Yani
+sistem "hareket ediyorum, duyuyu kıs" demiyor da "şu anda şurada şu dokunuş
+olacak" diyor. Kilteni ve Ehrsson bunun üstüne daha temel bir koşul gösterdi,
+dokunan eli kendinize ait saymanız gerekiyor; kauçuk el yanılsamasıyla sahiplik
+algısı değiştirildiğinde azaltım da yer değiştiriyor.
 
 ## Hassasiyetle bağlantısı {.k-head}
 
 Aktif çıkarım çerçevesinde azaltımın karşılığı, hareket sırasında duyusal
-kanıtın hassasiyetinin düşürülmesi. Bunun bir zorunluluk olduğu iddiası şuna
-dayanıyor: hareket etmek için hareket ettiğinize dair öngörünün, henüz hareket
-etmediğinizi söyleyen duyusal kanıta baskın gelmesi gerekir. Kanıtın ağırlığı
-düşürülmezse hareket başlamaz.
+kanıtın hassasiyetinin düşürülmesi. Bunun bir zorunluluk olduğu iddiası, hareket
+etmek için hareket ettiğinize dair öngörünün henüz hareket etmediğinizi söyleyen
+duyusal kanıta baskın gelmesi gerektiğine dayanıyor. Kanıtın ağırlığı
+düşürülmezse hareket başlamıyor.
 
 Brown ve arkadaşları bu çerçeveden kuvvet eşleştirme bulgusunu yeniden üretti.
-Modelden azaltımı çıkardıklarında iki şey birlikte oldu: görevdeki fazla üretim
-kayboldu, eylemliliğe dair yanlış çıkarımlar belirdi. Aynı ayar hem hareketi
-mümkün kılıyor hem de neyin size ait olduğunu belirliyor. Bedeli iki yönde de
-var: yeterince düşürmezseniz hareket başlamıyor, fazla düşürürseniz kendinizle
-dünyayı ayırt edemiyorsunuz.
+Modelden azaltımı çıkardıklarında görevdeki fazla üretim kayboldu ve eylemliliğe
+dair yanlış çıkarımlar belirdi. Yani aynı ayar hem hareketi mümkün kılıyor hem de
+neyin size ait olduğunu belirliyor, bunun da iki yönde bedeli var: yeterince
+düşürmezseniz hareket başlamıyor, fazla düşürürseniz kendinizle dünyayı ayırt
+edemiyorsunuz. Buraya bir çekince düşeyim, bu türetme bir modelin içinden
+çıkıyor ve modelin varsayımlarına bağlı; deneysel olarak doğrudan gösterilmiş
+bir şey değil.
 
 ## Klinikte nereye oturuyor {.k-head}
 
@@ -125,9 +129,8 @@ Sonrası bunu genişletti. Şizofrenide azaltımın anlamlı biçimde düşük o
 gösterildi; görüntüleme çalışmasında ikincil somatosensoriyel alandaki azaltım
 kaybı, hastanın o anki varsanı şiddetiyle öngörülüyordu. Teufel ve arkadaşları
 ise sağlıklı kişilerde çalıştı: sanrısal düşünce eğilimi yüksek olanlar görevde
-daha isabetliydi, yani daha az azaltım gösteriyorlardı. Bu sonuncusu iki
-itirazı birden karşılıyor, çünkü ne ilaç ne de aktif hastalık dönemi
-açıklayabilir.
+daha isabetliydi, yani daha az azaltım gösteriyorlardı. Bu sonuncusu iki itirazı
+birden karşılıyor, çünkü ne ilaç ne de aktif hastalık dönemi açıklayabilir.
 
 Tabloyu şizofrenide bırakmak yanlış olur. Fonksiyonel hareket bozukluğunda
 azaltım yok; hastalar hareketi kendi kontrollerinde hissetmiyorlar ve görevde
@@ -138,21 +141,23 @@ ilişkili. Kronik ağrıda ise büyüklük açısından grup farkı bulunamadı;
 varyanstı.
 
 Azaltım bozukluğunun bu kadar farklı tabloda çıkması onu tanıya değil belirtiye
-bağlı bir ölçüm yapıyor zaten. Hastanın hangi tanıyı taşıdığını söylemiyor.
-Hangi mekanizmanın bozulduğuna dair bir şey söylüyor. İkisi karıştırıldığında
-ölçüm verebileceğinden fazlasını vaat etmiş oluyor.
+bağlı bir ölçüm yapıyor zaten. Hastanın hangi tanıyı taşıdığını söylemiyor,
+hangi mekanizmanın bozulduğuna dair bir şey söylüyor ve ikisi karıştırıldığında
+ölçüm verebileceğinden fazlasını vaat etmiş oluyoruz. Klinik pratikte bugün bir
+karşılığı olduğunu iddia etmiyorum; bunlar grup düzeyinde farklar ve tek bir
+hastanın önünde ne yapacağınızı söylemiyorlar.
 
 ## Ölçen aletin payı {.k-head}
 
-Ölçüm iki koşulun farkı olduğu için, iki koşulda da aynı olan alet hatası
-farkta düşer. Düşmeyen hata, yüklenme yönüne bağlı olan hata; çünkü iki koşul
-sensörü aynı biçimde yüklemiyor. Motorun bastırdığı bir rampa ile insanın
+Ölçüm iki koşulun farkı olduğu için, iki koşulda da aynı olan alet hatası farkta
+düşüyor. Düşmeyen hata ise yüklenme yönüne bağlı olan hata, çünkü iki koşul
+sensörü aynı biçimde yüklemiyor; motorun bastırdığı bir rampa ile insanın
 bastırdığı bir rampa aynı şey değil.
 
-Kendi düzeneğimin kabul ölçütleri arasında en dar marjla geçen kalem histerezis
-oldu. Tesadüf değil: histerezis tam da farkta düşmeyen hata sınıfına giriyor.
-Düzeneğin kendisi ve kalibrasyon kayıtları
-[cihaz sayfasında](../tools/force-matching.qmd).
+Kendi düzeneğimi kurarken kabul ölçütleri arasında en dar marjla geçen kalem
+histerezis oldu ve bu bir tesadüf değil, çünkü histerezis tam da farkta düşmeyen
+hata sınıfına giriyor. Düzeneğin kendisi ve kalibrasyon kayıtları [cihaz
+sayfasında](../tools/force-matching.qmd).
 
 ## Bir bulguyu okurken {.k-head}
 
@@ -166,11 +171,14 @@ kuvvetin çıkarılacağı en uygun pencerenin 2,5 ile 3,0 saniye arası olduğu
 performansın deney boyunca kaymadığını gösterdi. Pencere seçimi rapor
 edilmemişse iki çalışmayı karşılaştıracak zemin yok demektir.
 
-Son olarak, analiz yalnız ortalamaya mı bakmış. Kronik ağrıda gruplar
-büyüklükte ayrışmadı ama varyansta ayrıştı; ortalamaya bakan bir analiz böyle
-bir farkı hiç görmez. Valè ve arkadaşlarının modeli değişkenliğin gürültü değil
-öngörüye ait sinyal olabileceğini söylediğine göre, bu artık ikincil bir ayrıntı
-da değil.
+Son olarak, analiz yalnız ortalamaya mı bakmış. Kronik ağrıda gruplar büyüklükte
+ayrışmadı ama varyansta ayrıştı ve ortalamaya bakan bir analiz böyle bir farkı
+hiç görmez. Valè ve arkadaşlarının modeli değişkenliğin gürültü değil öngörüye
+ait sinyal olabileceğini söylediğine göre bunu ikincil bir ayrıntı saymak artık
+zor.
+
+Kendi verimi topladıkça bu sayfayı güncelleyeceğim, özellikle de burada
+yazdıklarımın yanlış çıktığı yerleri.
 
 ## Kaynaklar {.k-head}
 
