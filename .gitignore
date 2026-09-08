@@ -2,6 +2,11 @@
 _site/
 .quarto/
 **/*.quarto_ipynb
+# Quarto stages site_libs/ and the rendered .html next to their sources and
+# then moves them into _site/. A render that dies partway leaves both behind,
+# and the *.html rule below already covers its half. Without this line a later
+# `git add -A` commits bootstrap and the quarto JS into the repo root.
+site_libs/
 
 # Rendered pages are build output, but head.html is a source include that
 # Quarto injects, so it has to stay tracked. Add an exception here for any
