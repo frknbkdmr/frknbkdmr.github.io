@@ -15,9 +15,7 @@ kaynağa rastlamadım. Terimlerin karşılığı da oturmuş değil. Buradaki no
 boşluğu doldurma denemesi.
 :::
 
-Dört yazının İngilizcesi [/notes](notes.qmd) altında. Sözlük yalnızca Türkçe
-kalıyor; konusu hangi Türkçe karşılığın yerleşik olduğu ve bunu İngilizce bir
-sayfa soramaz.
+Bu yazıların İngilizce sürümleri [Notes](notes.qmd) sayfasında.
 
 ## Yazılanlar {.k-head}
 
